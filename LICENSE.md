@@ -8,6 +8,7 @@ This is a collection of reconstructed and historical sources with different term
 | Build engine and cache contributions | Ken Silverman's Build source licence, retained in `src/engine/BUILDLIC.TXT` and `src/cache/BUILDLIC.TXT`. It includes noncommercial and Internet-distribution conditions. |
 | Watcom-derived runtime source | Original Sybase Open Watcom Public License, retained in `src/runtime/license.txt`; headers retain their notices. |
 | Exhume and reference submodules | Each upstream project's own terms and notices. A submodule pin grants no additional rights. |
+| Verified snapshot helper (`tools/verified_snapshot.py`) | MIT, reused from Exhume; its copyright and full permission notice are retained in the file. |
 | New release-maintenance scripts | GPL-2.0-or-later; existing reconstruction tooling retains any notices already present. |
 | FORTE/Gravis and Creative vendor-derived source overlay | **Not included in the public repository.** Original notices have restrictions that require separate treatment. A manifest or importer grants no rights. |
 | Historical compilers, assemblers, stock runtime libraries and DOS4GW prefix | User-supplied dependencies under their original terms; binaries are not included. |

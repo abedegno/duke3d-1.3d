@@ -1,63 +1,60 @@
 # Reading the recovered ACTORS source
 
-All 37 emitted functions have ordinary C counterparts. Start with the C
-algorithm and use this index to inspect the actual emitted mnemonic body.
-The normal exact-layout mode assembles the complete `ACTORS.S` contribution.
-The ordinary C and earlier C/assembly composite modes remain available.
+The exact build now compiles the first **36 functions directly from
+`src/game/actors.c` with Watcom GA**. Only `moveeffectors` uses the named NASM
+fallback. All 37 algorithms have ordinary C counterparts.
 
-The first 36 functions derive directly from a fresh canonical C build. The
-`moveeffectors` body retains named frame homes and the existing symbolic source.
-The fixed complete-C witness differs only in 298 stack-home displacement bytes,
-a permutation of 14 frame homes; its algorithm remains available in
-`actors-fixed-complete-C-counterpart.c.txt`. These observations establish the
-current source relationship, with no claim of unique historical C spelling.
+The two fresh compiler/assembler contributions are linked semantically into one
+OMF module. Source bytes, typed relocation expressions, private scope, compiler
+libraries and metadata are conserved. The existing 356-span source-owned plan
+then changes record boundaries only, including a record across the former
+C/assembly boundary. The complete executable still passes the literal file gate.
 
-One source contribution lets the converter emit the measured record span that
-crosses the former C/assembly boundary. The 356-span descriptor contains CODE
-coordinates and lengths. Source roles, complete native metadata and field
-ownership remain checked by `source_policy.py`, `native_schema.py` and the
-closed source model. Keep the two original C-private objects private.
+The fixed complete-C `moveeffectors` witness differs in 298 stack-home
+displacement bytes across 14 frame homes; its algorithm remains available in
+`actors-fixed-complete-C-counterpart.c.txt`. No matching C replacement has been
+admitted for that body. Inferred frame names do not establish historical names.
 
-Further compiler-faithful C lowering remains a documented backlog. Any source
-or guard change must pass its complete contribution proof and the final bound
-executable identity gate. This reading index changes no emitted source.
+The older whole `ACTORS.S` backend remains available for comparison. Its C
+counterparts and original notices remain unchanged. Further lowering must pass
+complete contribution checks and the final byte-identical rebuild gate.
 
 | Function | Emitted source | C counterpart | Relationship |
 | --- | --- | --- | --- |
-| `updateinterpolations` | [mnemonics](../src/game/actors_native/ACTORS.S#L198) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L47) | fresh C derivative |
-| `setinterpolation` | [mnemonics](../src/game/actors_native/ACTORS.S#L217) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L55) | fresh C derivative |
-| `stopinterpolation` | [mnemonics](../src/game/actors_native/ACTORS.S#L245) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L67) | fresh C derivative |
-| `dointerpolations` | [mnemonics](../src/game/actors_native/ACTORS.S#L286) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L81) | fresh C derivative |
-| `restoreinterpolations` | [mnemonics](../src/game/actors_native/ACTORS.S#L338) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L95) | fresh C derivative |
-| `ceilingspace` | [mnemonics](../src/game/actors_native/ACTORS.S#L360) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L102) | fresh C derivative |
-| `floorspace` | [mnemonics](../src/game/actors_native/ACTORS.S#L390) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L116) | fresh C derivative |
-| `addammo` | [mnemonics](../src/game/actors_native/ACTORS.S#L420) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L130) | fresh C derivative |
-| `addweapon` | [mnemonics](../src/game/actors_native/ACTORS.S#L461) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L138) | fresh C derivative |
-| `checkavailinven` | [mnemonics](../src/game/actors_native/ACTORS.S#L506) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L196) | fresh C derivative |
-| `checkavailweapon` | [mnemonics](../src/game/actors_native/ACTORS.S#L604) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L216) | fresh C derivative |
-| `ifsquished` | [mnemonics](../src/game/actors_native/ACTORS.S#L781) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L364) | fresh C derivative |
-| `hitradius` | [mnemonics](../src/game/actors_native/ACTORS.S#L875) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L409) | fresh C derivative |
-| `movesprite` | [mnemonics](../src/game/actors_native/ACTORS.S#L1524) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L591) | fresh C derivative |
-| `ssp` | [mnemonics](../src/game/actors_native/ACTORS.S#L1861) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L676) | fresh C derivative |
-| `insertspriteq` | [mnemonics](../src/game/actors_native/ACTORS.S#L1895) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L691) | fresh C derivative |
-| `lotsofmoney` | [mnemonics](../src/game/actors_native/ACTORS.S#L1920) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L699) | fresh C derivative |
-| `guts` | [mnemonics](../src/game/actors_native/ACTORS.S#L1976) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L709) | fresh C derivative |
-| `gutsdir` | [mnemonics](../src/game/actors_native/ACTORS.S#L2067) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L735) | fresh C derivative |
-| `setsectinterpolate` | [mnemonics](../src/game/actors_native/ACTORS.S#L2156) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L761) | fresh C derivative |
-| `clearsectinterpolate` | [mnemonics](../src/game/actors_native/ACTORS.S#L2214) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L784) | fresh C derivative |
-| `ms` | [mnemonics](../src/game/actors_native/ACTORS.S#L2264) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L802) | fresh C derivative |
-| `movefta` | [mnemonics](../src/game/actors_native/ACTORS.S#L2348) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L833) | fresh C derivative |
-| `ifhitsectors` | [mnemonics](../src/game/actors_native/ACTORS.S#L2619) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L921) | fresh C derivative |
-| `ifhitbyweapon` | [mnemonics](../src/game/actors_native/ACTORS.S#L2644) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L935) | fresh C derivative |
-| `movecyclers` | [mnemonics](../src/game/actors_native/ACTORS.S#L2883) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1013) | fresh C derivative |
-| `movedummyplayers` | [mnemonics](../src/game/actors_native/ACTORS.S#L2979) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1050) | fresh C derivative |
-| `moveplayers` | [mnemonics](../src/game/actors_native/ACTORS.S#L3104) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1096) | fresh C derivative |
-| `movefx` | [mnemonics](../src/game/actors_native/ACTORS.S#L3355) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1236) | fresh C derivative |
-| `movefallers` | [mnemonics](../src/game/actors_native/ACTORS.S#L3653) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1359) | fresh C derivative |
-| `movestandables` | [mnemonics](../src/game/actors_native/ACTORS.S#L3911) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1455) | fresh C derivative |
-| `bounce` | [mnemonics](../src/game/actors_native/ACTORS.S#L6143) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L2362) | fresh C derivative |
-| `moveweapons` | [mnemonics](../src/game/actors_native/ACTORS.S#L6306) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L2401) | fresh C derivative |
-| `movetransports` | [mnemonics](../src/game/actors_native/ACTORS.S#L7284) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L2739) | fresh C derivative |
-| `moveactors` | [mnemonics](../src/game/actors_native/ACTORS.S#L8130) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L3039) | fresh C derivative |
-| `moveexplosions` | [mnemonics](../src/game/actors_native/ACTORS.S#L11417) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L4240) | fresh C derivative |
-| `moveeffectors` | [mnemonics](../src/game/actors_native/ACTORS.S#L12689) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L4750) | symbolic body; fixed C differs in frame allocation |
+| `updateinterpolations` | [emitting C](../src/game/actors.c#L47) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L47) | direct Watcom C emission |
+| `setinterpolation` | [emitting C](../src/game/actors.c#L55) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L55) | direct Watcom C emission |
+| `stopinterpolation` | [emitting C](../src/game/actors.c#L67) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L67) | direct Watcom C emission |
+| `dointerpolations` | [emitting C](../src/game/actors.c#L81) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L81) | direct Watcom C emission |
+| `restoreinterpolations` | [emitting C](../src/game/actors.c#L95) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L95) | direct Watcom C emission |
+| `ceilingspace` | [emitting C](../src/game/actors.c#L102) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L102) | direct Watcom C emission |
+| `floorspace` | [emitting C](../src/game/actors.c#L116) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L116) | direct Watcom C emission |
+| `addammo` | [emitting C](../src/game/actors.c#L130) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L130) | direct Watcom C emission |
+| `addweapon` | [emitting C](../src/game/actors.c#L138) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L138) | direct Watcom C emission |
+| `checkavailinven` | [emitting C](../src/game/actors.c#L196) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L196) | direct Watcom C emission |
+| `checkavailweapon` | [emitting C](../src/game/actors.c#L216) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L216) | direct Watcom C emission |
+| `ifsquished` | [emitting C](../src/game/actors.c#L364) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L364) | direct Watcom C emission |
+| `hitradius` | [emitting C](../src/game/actors.c#L409) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L409) | direct Watcom C emission |
+| `movesprite` | [emitting C](../src/game/actors.c#L591) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L591) | direct Watcom C emission |
+| `ssp` | [emitting C](../src/game/actors.c#L676) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L676) | direct Watcom C emission |
+| `insertspriteq` | [emitting C](../src/game/actors.c#L691) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L691) | direct Watcom C emission |
+| `lotsofmoney` | [emitting C](../src/game/actors.c#L699) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L699) | direct Watcom C emission |
+| `guts` | [emitting C](../src/game/actors.c#L709) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L709) | direct Watcom C emission |
+| `gutsdir` | [emitting C](../src/game/actors.c#L735) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L735) | direct Watcom C emission |
+| `setsectinterpolate` | [emitting C](../src/game/actors.c#L761) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L761) | direct Watcom C emission |
+| `clearsectinterpolate` | [emitting C](../src/game/actors.c#L784) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L784) | direct Watcom C emission |
+| `ms` | [emitting C](../src/game/actors.c#L802) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L802) | direct Watcom C emission |
+| `movefta` | [emitting C](../src/game/actors.c#L833) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L833) | direct Watcom C emission |
+| `ifhitsectors` | [emitting C](../src/game/actors.c#L921) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L921) | direct Watcom C emission |
+| `ifhitbyweapon` | [emitting C](../src/game/actors.c#L935) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L935) | direct Watcom C emission |
+| `movecyclers` | [emitting C](../src/game/actors.c#L1013) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1013) | direct Watcom C emission |
+| `movedummyplayers` | [emitting C](../src/game/actors.c#L1050) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1050) | direct Watcom C emission |
+| `moveplayers` | [emitting C](../src/game/actors.c#L1096) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1096) | direct Watcom C emission |
+| `movefx` | [emitting C](../src/game/actors.c#L1236) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1236) | direct Watcom C emission |
+| `movefallers` | [emitting C](../src/game/actors.c#L1359) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1359) | direct Watcom C emission |
+| `movestandables` | [emitting C](../src/game/actors.c#L1455) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L1455) | direct Watcom C emission |
+| `bounce` | [emitting C](../src/game/actors.c#L2362) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L2362) | direct Watcom C emission |
+| `moveweapons` | [emitting C](../src/game/actors.c#L2401) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L2401) | direct Watcom C emission |
+| `movetransports` | [emitting C](../src/game/actors.c#L2739) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L2739) | direct Watcom C emission |
+| `moveactors` | [emitting C](../src/game/actors.c#L3039) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L3039) | direct Watcom C emission |
+| `moveexplosions` | [emitting C](../src/game/actors.c#L4240) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L4240) | direct Watcom C emission |
+| `moveeffectors` | [NASM fallback](../src/game/moveeffectors.asm#L162) | [C algorithm](../src/game/actors_native/actors-C-counterpart.c.txt#L4750) | named assembly fallback; C frame allocation remains nonexact |

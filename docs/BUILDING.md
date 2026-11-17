@@ -49,7 +49,7 @@ python3 tools/build_complete.py --native-layout --prepare-game-residue \
   --report build/complete-source-game-residue-preparation.json
 ```
 
-It compiles 121 owned source inputs, selects 177 unmodified original compiler-library members and five original libraries, invokes native WLINK, and binds the prefix. The selected recipe and source contracts pin flags, headers, ownership, layout and library order. Seven post-NUL values remain explicitly unidentified DATA; this route changes no logical string content or storage capacity.
+It freshly produces 121 owned link contributions, including ACTORS from a C compile plus its assembly fallback, selects 177 unmodified original compiler-library members and five original libraries, invokes native WLINK, and binds the prefix. The selected recipe and source contracts pin flags, headers, ownership, layout and library order. Seven post-NUL values remain explicitly unidentified DATA; this route changes no logical string content or storage capacity.
 
 ## 5. Verify every output byte
 
@@ -69,4 +69,6 @@ The verifier needs no reference executable and applies no masks. It checks the k
 
 ## Release checks and research workflows
 
-Plain `make` shows the supported release commands. `make test` runs the 13 retained public regression files explicitly; provision the local overlay and pinned native tools first. Observer regressions additionally use your original `reference/DUKE3D.EXE` and pinned `build/assets/dos4gw/vendor-prefix.bin`; these are separately supplied test fixtures, not owned-source production inputs. Imported private-overlay tests are not discovered by this command. CI checks publication integrity without those dependencies. Historical proof targets and experiments are preserved in the [recovery archive](RESEARCH.md).
+Plain `make` shows the supported release commands. `make test` runs the retained public regression files explicitly; provision the local overlay and pinned native tools first. Observer regressions additionally use your original `reference/DUKE3D.EXE` and pinned `build/assets/dos4gw/vendor-prefix.bin`; these are separately supplied test fixtures, not owned-source production inputs. Imported private-overlay tests are not discovered by this command. CI checks publication integrity without those dependencies. Historical proof targets and experiments are preserved in the [recovery archive](RESEARCH.md).
+
+The ACTORS native-layout backend now compiles `src/game/actors.c` with `DUKE13D_EFFECTOR_ASM=1`, assembles `moveeffectors.asm`, and links those fresh contributions semantically before applying source-owned record boundaries. The older whole-assembly backend remains an optional comparison tool; [source readability](source-readability.md) records the remaining C work.

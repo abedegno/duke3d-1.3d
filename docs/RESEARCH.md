@@ -18,7 +18,7 @@ The experiment does not establish that omitted files are useless for every histo
 - `modules/` contains active contribution contracts and retained verification descriptors.
 - `evidence/` contains mandatory source-reference identities, final proofs and retained supporting evidence. Negative intermediate records retain their original meaning.
 - `tools/` provides production builders, installation, verification and retained observers. Some production APIs retain historical `probe_` names.
-- `tests/` retains 13 public regression files for the release route. `make test` selects those explicitly, avoiding discovery of ignored tests supplied in the private overlay.
+- `tests/` retains selected public regression files for the release route. `make test` selects those explicitly, avoiding discovery of ignored tests supplied in the private overlay.
 - `profiles/` retains pinned compiler/converter setup, identities, patches and notices.
 
 Emitting sources, readable C counterparts, alternative source backends and original notices remain in `src/`. The exact route still uses the original active contract paths and producer hashes. No blanket renaming or hash refresh was used to bypass their validation.

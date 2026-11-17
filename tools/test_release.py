@@ -11,6 +11,10 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_TESTS = (
+    'test_actors_c_backend.py',
+    'test_actors_omf_link.py',
+    'test_game_c_bodies.py',
+    'test_verified_snapshot.py',
     'test_complete_game_preparation.py',
     'test_complete_native_publication.py',
     'test_complete_source_build.py',

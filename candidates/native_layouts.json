@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Opt-in source-native CODE layout; fresh source ELF/COFF inputs only, no old OMF/target objects",
+  "scope": "Source-native CODE record layouts; fresh ELF/COFF or the finite fresh ACTORS C/assembly OMF source link; no target/cached object inputs",
   "profile": "profiles/gnu_elf_omf_layouts/profile.json",
   "source_credit_added": 0,
   "whole_target_match": false,
@@ -248,6 +248,16 @@
       "target_addresses_or_payload_bytes": false,
       "unique_historical_flush_policy_claimed": false,
       "source_backend": "dram-elf"
+    },
+    "O001.OBJ": {
+      "name": "actors_c",
+      "plan": "src/game/actors_native/ACTORS-whole-C-owned.plan",
+      "plan_sha256": "999fdc40ccd1f532eb291d7d1c29b7532763a408c79423534c4f5e4dcf5658b1",
+      "code_extent": 61674,
+      "source_format": "source-omf32",
+      "provenance": "Fresh C/NASM semantic source link; existing complete-C-owned record span plan",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false
     }
   }
 }

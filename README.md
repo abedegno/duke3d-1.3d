@@ -8,10 +8,10 @@ A source-assisted reconstruction of the **registered DOS v1.3D executable**, ver
 | Size | **1,179,131 bytes** |
 | Differing bytes | **0** |
 | SHA-256 | `a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4` |
-| Source inputs | 121 freshly compiled owned translation units |
+| Owned link contributions | 121 freshly produced objects; ACTORS combines fresh C and assembly inputs |
 | Tested environment | macOS Apple Silicon, Python 3.14, DOSBox-X, pinned historical toolchains |
 
-This is a reconstruction, not a newly discovered original source archive or an official 3D Realms release. It uses the released v1.5 source, historical source reconstructions, native-code analysis, and iterative compilation. Some matching backends use readable named assembly alongside their C counterparts. Original comments, names, and development history are not claimed where the evidence does not establish them.
+This is a reconstruction, not a newly discovered original source archive or an official 3D Realms release. It uses the released v1.5 source, historical source reconstructions, native-code analysis, and iterative compilation. ACTORS now compiles 36 functions directly from historical/derived C with a named assembly fallback for `moveeffectors`. GAME retains its whole assembly backend and C counterparts; a fresh audit verifies 79 of its 81 ordinary C bodies independently. Original comments, names, and development history are not claimed where the evidence does not establish them.
 
 ## What is included
 

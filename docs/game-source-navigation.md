@@ -6,8 +6,12 @@ body. The C aid is not a second linked implementation and is not claimed to
 reproduce every instruction with the original compiler.
 
 The 81 entries below are all CODE publics in the closed source model, in emitted
-order. `wallswitchcheck`, `spawn` and `checkcommandline` were reconstructed in
-mnemonics after the fresh C derivative; their C text remains a reading aid.
+order. `wallswitchcheck`, `spawn` and `checkcommandline` were originally reconstructed in
+mnemonics after the fresh C derivative. A fresh strict C audit now verifies 79
+of the 81 ordinary C bodies, including `wallswitchcheck` (160 bytes and its
+real sprite relocation). The remaining `spawn` scheduling difference also
+affects two `checkcommandline` branches into its shared epilogue. Their C text
+remains useful, but those two bodies are not admitted as exact C replacements.
 All bodies use actual mnemonics and named symbols. CODE data directives are
 initializer templates and case-pointer tables, not stored instruction payloads.
 
@@ -67,7 +71,7 @@ humanization pass remains subject to that full-file gate.
 | `displayrooms` | [source](../src/game/symbolic/GAME.S#L9414) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2662) | C-derived mnemonic body |
 | `LocateTheLocator` | [source](../src/game/symbolic/GAME.S#L10182) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2907) | C-derived mnemonic body |
 | `EGS` | [source](../src/game/symbolic/GAME.S#L10214) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2921) | C-derived mnemonic body |
-| `wallswitchcheck` | [source](../src/game/symbolic/GAME.S#L10348) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L3000) | reconstructed body; C aid |
+| `wallswitchcheck` | [source](../src/game/symbolic/GAME.S#L10348) | [verified C](../src/game/symbolic/game-C-counterpart.c.txt#L3000) | ordinary C verified; whole GAME backend still emits assembly |
 | `spawn` | [source](../src/game/symbolic/GAME.S#L10484) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L3055) | reconstructed body; C aid |
 | `animatesprites` | [source](../src/game/symbolic/GAME.S#L15882) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L4721) | C-derived mnemonic body |
 | `cheats` | [source](../src/game/symbolic/GAME.S#L17876) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L5563) | C-derived mnemonic body |
