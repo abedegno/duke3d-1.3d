@@ -7,7 +7,7 @@ commit `88ffca1bdb8d93c731f6d02e62ae5119393bc73b`, pinned as the public
 `reference/build-reconstructions` submodule. Only line endings are normalized;
 upstream copyright, modification notices and restoration annotations remain.
 Ken's license is retained in [BUILDLIC.TXT](BUILDLIC.TXT).
-[Source provenance](../../evidence/build-source-reference.json) records every
+[Source provenance](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/build-source-reference.json) records every
 upstream and tracked input hash.
 
 Run from the repository root:
@@ -47,7 +47,7 @@ contains that helper. Do not count those overlapping bytes twice.
 The previous May-snapshot reconstruction reached 116/135 intervals. The
 upstream reconstruction resolves its remaining wall register allocation and
 whole-translation-unit return/table placement differences. The prior
-[compiler experiment](../../evidence/engine-compiler-probes.json) remains a
+[compiler experiment](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/engine-compiler-probes.json) remains a
 negative experiment on its pinned interim input; its replay now explicitly
 uses the earlier git revision's source and headers.
 
@@ -58,7 +58,7 @@ bytes, all 43 publics and all 443 relocations, with no separate data/BSS.
 It comes from the same pinned Build source repository's `A_MASM/A.ASM` and
 retains original instructions, restoration annotations and license notices.
 Only line endings/final blank lines differ. See
-[its provenance](../../evidence/engine-assembly-source-reference.json).
+[its provenance](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/engine-assembly-source-reference.json).
 
 The original tool is available in [Microsoft's published DOS build tools](https://github.com/microsoft/MS-DOS/blob/2d04cacc5322951f187bb17e017c12920ac8ebe2/v4.0/src/TOOLS/MASM.EXE).
 Download that executable privately as `toolchains/archives/masm-5.10-msdos4.exe`,

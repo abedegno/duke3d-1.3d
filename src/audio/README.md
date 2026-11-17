@@ -10,11 +10,11 @@ historical reconstruction annotations. The GPL text is in [gpl.txt](gpl.txt).
 `mv_mix.asm`, `mv_mix16.asm` and `mvreverb.asm` come from the pinned
 [historical audio reconstruction](https://github.com/gamesrc-ver-recreation/audiolib)
 at `c363124d376d373441a21b3304eb44d32c0a69f7`. Attribution comments and whitespace
-are the only changes. [Provenance](../../evidence/audio-assembly-source-reference.json)
+are the only changes. [Provenance](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/audio-assembly-source-reference.json)
 records source/license hashes and selector scope.
 
 Prepare Turbo Assembler 3.1 from the preserved Borland C++ 3.1 media archive
-(download identity and source link are in [the tool manifest](../../evidence/tasm-3.1.json)):
+(download identity and source link are in [the tool manifest](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/tasm-3.1.json)):
 
 ```sh
 python3 tools/setup_tasm.py \
@@ -57,7 +57,7 @@ The complete runtime proofs cover GUS's 1,057 initialized/16 BSS bytes and
 65 relocations, plus GUSMIDI's 2,227 initialized/14,928 BSS bytes and 125
 relocations. Independent GUSWAVE and MUSIC references anchor the placements.
 Source/header/license ancestry is recorded in
-[gus-source-reference.json](../../evidence/gus-source-reference.json).
+[gus-source-reference.json](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/gus-source-reference.json).
 
 The parser retains validated line-number records and measured Watcom debug
 segment extensions. An explicit descriptor requests a loadable view; the
@@ -79,7 +79,7 @@ This separation does not establish complete executable or linker identity.
 (195 bytes/nine relocations, Watcom 10.0b) and the complete 256-entry
 General MIDI instrument table (3,328 DATA bytes, Watcom GA).
 Both use `/omaxnet /zp4 /5r /dLIBVER_ASSREV=19960116`.
-[Source provenance](../../evidence/audio-tables-source-reference.json) records
+[Source provenance](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/audio-tables-source-reference.json) records
 unchanged historical function/table content, added attribution and whitespace.
 
 MUSIC and MPU401 independently anchor USER's routines. AL_MIDI anchors the

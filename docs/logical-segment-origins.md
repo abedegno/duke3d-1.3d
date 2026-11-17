@@ -4,8 +4,8 @@ Default `verify_module` behavior and proof dictionaries are unchanged. Watcom's
 PUBLIC combination can align a contribution relative to a logical segment
 leader rather than the executable object's absolute base. Native TASM/WLINK
 fixtures demonstrate this with executed return values4/4/4/0, including an empty
-leading DATA definition. See the approved
-[implementation plan](superpowers/plans/2026-11-16-public-segment-origins.md).
+leading DATA definition. This retained research note describes the original
+experiments; see [release and research scope](RESEARCH.md) for supported commands.
 The default and exact empty tuple/list paths do not import the optional origin
 module, so existing standalone producer dependency graphs remain sufficient.
 Other falsy values, including false, zero, empty mappings and strings, reject.

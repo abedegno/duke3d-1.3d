@@ -30,6 +30,6 @@ when the private reference is present, they replay its identity/proof and
 require the source's full public map to equal it.
 
 The complete executable, original linking/binding and humanization remain
-unfinished. [Clean-checkout evidence](../../evidence/contribution-clean-replay.json)
+unfinished. [Clean-checkout evidence](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/contribution-clean-replay.json)
 separately records all 30 prior contributions at commit `ea405c5`; it does not
 claim a replay of this later contribution or full executable identity.

@@ -3,7 +3,7 @@
 The private v1.3D executable contains a separable 217,764-byte vendor component
 before its inner MZ/LE program. The approved recovery design permits this vendor
 runtime as a supplied build dependency. It earns no recovered-source credit.
-[evidence/dos4gw-runtime.json](../evidence/dos4gw-runtime.json) records every
+[evidence/dos4gw-runtime.json](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/dos4gw-runtime.json) records every
 reused range and its identity; no vendor or game binary payload is tracked.
 
 The outer MZ load image ends at 62,580. Two BW headers identify `VMM.EXP`

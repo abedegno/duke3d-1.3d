@@ -14,3 +14,5 @@ Do not update a hash merely to silence a failed source contract. Matching proofs
 Documentation changes do not require a full historical compiler rebuild. Update the public snapshot manifest deliberately when its included files change. CI checks that manifest and publication boundaries; the complete game build needs separately supplied inputs.
 
 Further C lowering is welcome when it preserves the byte identity gate and remains readable. Keep the matching named assembly and C aids available until the replacement is proved.
+
+The main branch keeps release support and selected regressions. Historical recovery experiments are preserved in the [research archive](docs/RESEARCH.md); do not reintroduce whole working directories into the release. `make test` runs the explicit public release suite and needs the documented local dependencies.

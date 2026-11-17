@@ -79,7 +79,7 @@ Related primary source is the preserved official Rise of the Triad release:
 [release index](https://ftpmirror.infania.net/pub/3drealms/downloads/Downloads.html),
 [source archive](https://ftpmirror.infania.net/pub/3drealms/source/rottsource.zip).
 The immutable archive/source/header hashes and precise derivations are in
-[mact-mathutil-source-reference.json](../../evidence/mact-mathutil-source-reference.json).
+[mact-mathutil-source-reference.json](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/mact-mathutil-source-reference.json).
 These files retain their GPL notices; the two private headers are unchanged
 ROTT originals. This does not assert that the historical MACT source text was
 released or that its original private names have been recovered.

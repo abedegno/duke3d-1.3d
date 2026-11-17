@@ -1,5 +1,7 @@
 # Game code recovery
 
+> Recovery notebook: probe commands below describe historical experiments. Run those commands from the [archived recovery workspace](../../docs/RESEARCH.md), which retains their scripts and fixtures. For the supported release build, use [BUILDING.md](../../docs/BUILDING.md).
+
 The complete `sounds.c` and `config.c` contributions are verified. Remaining
 game modules, complete state types/owners, executable linking/binding and
 humanization are unfinished.
@@ -53,7 +55,7 @@ slots, 256 weapon records and 13-byte name field are inferred choices fitting
 that layout; their complete behavior and original extents are not yet
 independently verified. The reset routines distinguish a provisional `level_reset_flag` at 1332 from
 `refresh_inventory` at 1344. Other members retain the released ancestor's names.
-[Player declaration provenance](../../evidence/player-declaration.json)
+[Player declaration provenance](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/player-declaration.json)
 records these limits.
 
 The user declaration restores the early shoulder-camera byte, 16 player-colour
@@ -62,7 +64,7 @@ are removed. Watcom declares 1,598 bytes. Native helpers check the listed
 measured offsets, widths and username stride; save/load instruction packets
 and complete sound/configuration proofs check the corresponding references.
 Other ancestral fields still require the remaining game code to verify them.
-[User declaration provenance](../../evidence/userdef-declaration.json)
+[User declaration provenance](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/userdef-declaration.json)
 records the checked subset. `player_color` is a readable reconstruction name.
 
 The complete GLOBAL allocation and game behavior remain unfinished. These
@@ -79,14 +81,14 @@ python3 tools/probe_game_globals.py --build build/global-layout-fresh \
 
 The build directory must be fresh. This compiles a tentative declaration layout
 and reports every difference; it is not a recovery proof. The current
-[diagnostic](../../evidence/global-layout-diagnostic.json) narrows initialized
+[diagnostic](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/global-layout-diagnostic.json) narrows initialized
 DATA to 64 bytes, with two unmasked alignment-residue differences. Its BSS
 bindings remain inconsistent, so it adds no recovered contribution. Smaller
 game-side limits in this experiment are hypotheses. Full global ownership and
 state types remain to be established; existing logical external bindings do
 not establish their original allocation sizes.
 
-The save/load [instruction observations](../../evidence/save-layout-observations.json)
+The save/load [instruction observations](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/save-layout-observations.json)
 provide stronger constraints than the early size hypotheses:
 
 ```sh
@@ -212,7 +214,7 @@ python3 tools/probe_gamedef.py --build build/gamedef-new --report build/gamedef-
 
 ## ACTORS C and symbolic effector contribution
 
-The complete [ACTORS composite proof](../../evidence/actors-module.json) checks
+The complete [ACTORS composite proof](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/actors-module.json) checks
 61,674 CODE bytes, the sole 67-byte locator-error string, six BSS bytes and all
 2,812 relocations. It covers every emitted segment and all 37 public functions
 at explicit placements. The source consists of readable `actors.c` and the
