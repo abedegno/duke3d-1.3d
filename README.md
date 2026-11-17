@@ -20,6 +20,8 @@ This is a reconstruction, not a newly discovered original source archive or an o
 - C reading aids, notices, provenance records, and documentation of uncertain declarations.
 - A **hash manifest** for vendor-derived source that must be supplied locally.
 
+Historical experiments and their tooling are preserved on a separate [recovery archive branch](docs/RESEARCH.md). Main keeps the active build contracts, final evidence and release regressions.
+
 **Restricted vendor-derived source, compiler binaries/libraries, sound banks, game media, original executables, and the rebuilt executable are not distributed here.** The public checkout needs the local dependencies described below before it can reproduce the complete file. This repository does not grant redistribution rights to those components.
 
 ## Build the verified version
@@ -41,7 +43,7 @@ GitHub-generated source ZIPs omit submodule contents; use the recursive clone ab
 
 See **[BUILDING.md](docs/BUILDING.md)** for the complete prerequisites and limits. The dependency overlay contains reconstructed driver sources and metadata; an arbitrary SDK installation is not a substitute. Its files are checked against `verification/local-dependencies.json` before import and are ignored by Git.
 
-The verified route retains the internal option name `--prepare-game-residue`. Seven bytes after existing string terminators are explicitly represented as **unidentified residue**. They do not change the strings' contents or capacities. Their historical declaration and purpose remain unknown. The earlier zero-residue and ordinary-C routes remain available as research history; `make rebuild` selects the exact route.
+The verified route retains the internal option name `--prepare-game-residue`. Seven bytes after existing string terminators are explicitly represented as **unidentified residue**. They do not change the strings' contents or capacities. Their historical declaration and purpose remain unknown. The earlier zero-residue and ordinary-C routes remain documented in the research archive; `make rebuild` selects the exact route.
 
 ## Verification and provenance
 
@@ -64,12 +66,12 @@ CI checks the public source manifest and publication boundaries. It does **not**
 | `src/game/` | Game logic, matching assembly backends, C counterparts |
 | `src/engine/`, `src/cache/`, `src/network/` | Engine and supporting contributions |
 | `src/audio/`, `src/mact/` | Audio/control source and interfaces |
-| `profiles/`, `candidates/`, `modules/` | Pinned tools, build recipes, matching contracts |
-| `tools/`, `tests/` | Build, inspection and verification tooling |
-| `evidence/` | Provenance and historical reconstruction records |
+| `profiles/`, `candidates/`, `modules/` | Pinned tool setup, active build recipes and retained contracts |
+| `tools/`, `tests/` | Release build/verification tooling and selected regressions |
+| `evidence/` | Required source identities, final proofs and retained provenance |
 | `verification/` | Public snapshot, dependency and executable manifests |
 
-Some component documentation and evidence retain intermediate experiment names and negative results. They are historical records; the verification table above describes the completed exact route.
+See [release layout and archived research](docs/RESEARCH.md) for the cleanup boundary and supported commands. Some retained component documentation and evidence contain intermediate experiment names and negative results. They are historical records; the verification table above describes the completed exact route.
 
 ## Licensing and credits
 

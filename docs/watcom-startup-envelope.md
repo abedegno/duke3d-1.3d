@@ -1,5 +1,7 @@
 # Supplied startup envelope
 
+> Historical recovery workflow: run the probe commands below from the [archive checkout](RESEARCH.md), which retains `tools/probe_watcom_startup.py`. They are not main-branch release commands.
+
 `tools/probe_watcom_startup.py` is a separate opt-in observer of the original
 Watcom10.5 `cstrt386` contribution. It does not compile sources, change default
 OMF parsing/inference/verification, register a runtime component or award source

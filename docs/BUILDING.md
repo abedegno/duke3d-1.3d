@@ -66,3 +66,7 @@ a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4
 ```
 
 The verifier needs no reference executable and applies no masks. It checks the known full-file identity. Obtain the registered game data separately to play; do not commit the data, executables, compiler files or local overlay.
+
+## Release checks and research workflows
+
+Plain `make` shows the supported release commands. `make test` runs the 13 retained public regression files explicitly; provision the local overlay and pinned native tools first. Observer regressions additionally use your original `reference/DUKE3D.EXE` and pinned `build/assets/dos4gw/vendor-prefix.bin`; these are separately supplied test fixtures, not owned-source production inputs. Imported private-overlay tests are not discovered by this command. CI checks publication integrity without those dependencies. Historical proof targets and experiments are preserved in the [recovery archive](RESEARCH.md).

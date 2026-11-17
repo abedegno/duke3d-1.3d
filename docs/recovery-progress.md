@@ -1528,7 +1528,7 @@ are 0, 32 and 48. DWORD alignment instead produces 0, 20 and 24; reversed object
 order produces different named placements. The pinned game link response lists
 PLAYER, PREMAP and SECTOR in that order.
 
-[Recorded evidence](../evidence/bss-order.json) includes native object attributes,
+[Recorded evidence](https://github.com/abedegno/duke3d-1.3d/blob/e8b2c6788674fa82f74213ccb9afd56ffc4ae3e1/evidence/bss-order.json) includes native object attributes,
 source/tool/response/map hashes and all three controls. Thirteen focused tests
 pass. The fixtures have no code, stack or entry point and are never executed;
 the two expected linker warnings are recorded and additional warnings reject.
