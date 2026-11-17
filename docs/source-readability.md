@@ -1,45 +1,64 @@
 # Source readability and remaining C reconstruction
 
-The complete build uses authored C, named assembler procedures and explicit
-source declarations for initialized data. The matching backends retain their
-C counterparts, interfaces, notices and provenance. The source guards and
-independent contribution reviews distinguish real initializer or switch-table
-data from instructions; executable instructions are emitted as mnemonics.
+The exact build uses ordinary historical/derived C, named assembly procedures
+and explicit declarations for initialized data. Original notices and inferred
+names remain qualified. Matching the executable does not establish unique
+historical spelling or make every emitting body C.
 
-The [GAME index](game-source-navigation.md) covers all 81 CODE functions and
-links each emitted body to its C algorithm. Three bodies—`wallswitchcheck`,
-`spawn` and `checkcommandline`—were reconstructed in assembly after the fresh C
-derivative. Their compiler-faithful C reconstruction remains open.
+## ACTORS now emits its matching C directly
 
-The [ACTORS index](actors-source-navigation.md) covers all 37 functions. Thirty-six
-are direct derivatives of fresh canonical C. The remaining `moveeffectors`
-algorithm also has C source; its exact C lowering differs in frame allocation.
-The exact build emits one whole assembly contribution so that a relocation
-record can span the former C/assembly boundary. The fixed complete-C witness
-and earlier composite build remain available for comparison.
+The exact native-layout route freshly compiles the first **36 ACTORS functions
+from `src/game/actors.c` with Watcom GA**. It assembles only `moveeffectors` from
+its named NASM source. The source-native OMF linker conserves all contributed
+bytes, BSS, typed relocation expressions, public/private scope and compiler
+metadata. The existing complete-C-owned record plan changes record boundaries
+only, including the span across the two source contributions.
 
-The reconstructed audio and control-library capsules retain C reading aids and
-named interfaces alongside their emitting source. Their local README and
-lineage files record the relationship to published source and the remaining C
-lowering work. For example, the [GF1 DMA/UTILS lineage](lineage/gf1-dma-utils-native.md)
-and [DRAM capsule](../src/gf1/dram-elf/README.md) describe their current limits.
-Original assembler modules continue to use their original source languages.
+The [ACTORS index](actors-source-navigation.md) links to the actual emitting C
+and the fallback. The older whole `ACTORS.S` backend remains available for
+comparison. All 37 algorithms have C counterparts. The fixed complete-C witness
+still differs in 298 stack-home displacement bytes across 14 frame homes in
+`moveeffectors`; tested declaration, expression and harmless discarded-view
+changes did not produce an exact replacement. None was admitted merely because
+it improved a partial score.
 
-Names for inferred frame homes or private objects describe the reconstruction;
-they do not establish historical spelling. Explicit unidentified DATA remains
-qualified as such. Stock compiler-library members and the supplied DOS4GW prefix
-are inventoried build dependencies with no recovered-source credit. Their bytes
-and notices are preserved separately from authored game code.
+## GAME remains a whole assembly backend with verified C counterparts
 
-This pass adds navigation and makes those limits visible. It changes no emitting
-source or compiler option and does not claim that every function now compiles
-from C. Further C lowering can proceed function by function while retaining the
-current readable source and complete contribution proof. Each change must also
-pass the unmasked whole-executable comparison.
+A fresh full-translation-unit audit found **79 of 81 ordinary GAME C bodies
+exact**, covering 65,742 bytes including trailing compiler fill and 4,194 typed
+fixups. These are per-function contribution results, not proof that the whole
+C object has the target's complete data layout or relocation serialization.
 
-The readable source tree passes the complete optional preparation build:
-[Root672 evidence](../evidence/root-exact672.json) records all 121 fresh source
-inputs and an exact full-file match. The separate preserved DATA variant has
-the same CODE as the indexed source and changes only the seven documented
-post-NUL bytes. Their adoption decision remains pending; the old source and
-its negative history remain available.
+`wallswitchcheck` matches from both standalone and full-TU C: all 160 body bytes
+and its real sprite relocation. Its following 37-entry switch table belongs to
+`spawn`; treating that table as part of `wallswitchcheck` caused an earlier
+misclassification. `ShutDown` also matches the actual provider exports; the old
+partial role packet had the CONTROL/keyboard identities swapped. The source
+already called them in the correct order, so no speculative source edit was made.
+
+The two remaining nonexact bodies are `spawn` and `checkcommandline`. `spawn`
+retains instruction scheduling/register-lifetime differences. Two branches in
+`checkcommandline` share its epilogue and therefore depend on the `spawn` fix;
+changing that function in isolation is not justified. Their ordinary C remains
+available alongside the named mnemonic bodies. The [GAME index](game-source-navigation.md)
+links algorithms and the current whole assembly backend.
+
+## Other components and limits
+
+Ordinary game C largely retains the released 1.5 lineage's names, types, macros,
+sprite-list loops, tile switches and procedural style. Reconstruction changes
+restore 1.3D behavior and compiler constraints rather than modernize that style.
+The audio and control libraries have their own authors' idioms. Reconstructed
+capsules retain C reading aids where emitting source is still assembly;
+original assembler modules remain assembly. See the [GF1 lineage](lineage/gf1-dma-utils-native.md).
+
+Inferred frame-home/private-object names do not establish historical spelling.
+Explicit unidentified DATA remains qualified. The current exact route includes
+the documented seven post-NUL bytes; older receipts retain their then-pending
+adoption wording. Stock runtime members and the DOS4GW prefix are separately
+supplied components with zero recovered-source credit.
+
+Further C lowering must preserve complete source contributions and every typed
+role, then pass the unmasked whole-executable comparison. No instruction blobs,
+object/image byte patches, fabricated private exports or arbitrary frame-home
+permutation lists are used as a substitute for C recovery.
