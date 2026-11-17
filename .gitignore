@@ -488,3 +488,7 @@ __pycache__/
 /tools/probe_pawe_nrpn.py
 /tools/probe_pawe_sbkload.py
 /tools/probe_pawe_states.py
+
+# Also ignore symlinked local tool/dependency homes.
+/toolchains
+/build

@@ -37,6 +37,8 @@ make rebuild VENDOR_PREFIX=/path/to/vendor-prefix.bin
 python3 tools/verify_rebuild.py --result build/complete-source-game-residue-preparation.json
 ```
 
+GitHub-generated source ZIPs omit submodule contents; use the recursive clone above.
+
 See **[BUILDING.md](docs/BUILDING.md)** for the complete prerequisites and limits. The dependency overlay contains reconstructed driver sources and metadata; an arbitrary SDK installation is not a substitute. Its files are checked against `verification/local-dependencies.json` before import and are ignored by Git.
 
 The verified route retains the internal option name `--prepare-game-residue`. Seven bytes after existing string terminators are explicitly represented as **unidentified residue**. They do not change the strings' contents or capacities. Their historical declaration and purpose remain unknown. The earlier zero-residue and ordinary-C routes remain available as research history; `make rebuild` selects the exact route.

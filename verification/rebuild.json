@@ -1,6 +1,5 @@
 {
   "source_repository_commit": "099a0400259bac00c18698b0b871af7df7e5f246",
-  "source_snapshot_files": 1528,
   "submodules": [
     {
       "path": "dukenukem3d",
@@ -34,5 +33,15 @@
   "publication_status": "Public source release; restricted vendor-derived source is supplied through a local-only overlay",
   "licence_scope": "Mixed original component terms; inspect LICENSE.md before public distribution.",
   "local_dependency_manifest": "verification/local-dependencies.json",
-  "exact_source_command": "make rebuild VENDOR_PREFIX=/path/to/vendor-prefix.bin"
+  "exact_source_command": "make rebuild VENDOR_PREFIX=/path/to/vendor-prefix.bin",
+  "release_tree_verification": {
+    "owned_source_inputs": 121,
+    "elapsed_seconds": 160.89945608307607,
+    "bytes": 1179131,
+    "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+    "restricted_overlay_tracked": false,
+    "fresh_source_build": true
+  },
+  "public_snapshot_files": 1065,
+  "original_recovery_snapshot_files": 1528
 }

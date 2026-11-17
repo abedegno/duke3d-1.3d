@@ -13,6 +13,9 @@ def main():
  # Imported overlays may exist locally, but must never enter the Git index.
  private=set(json.loads((ROOT/'verification/local-dependencies.json').read_bytes())['files'])
  tracked=set(subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0'))
+ allowed=set(spec['files'])|{'verification/source-manifest.json'}|{q['path']for q in json.loads((ROOT/'verification/submodules.json').read_bytes())}
+ unexpected=sorted(tracked-allowed-{''})
+ if unexpected:raise ValueError('Unexpected tracked files: '+', '.join(unexpected[:8]))
  leaked=sorted(private&tracked)
  if leaked:raise ValueError('Local dependencies are tracked: '+', '.join(leaked[:8]))
  forbidden=[n for n in tracked if n.lower().endswith(('.exe','.obj','.lib','.iso','.grp','.sbk','.sf2'))or n.startswith(('build/','toolchains/'))]
