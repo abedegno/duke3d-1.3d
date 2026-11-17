@@ -1,0 +1,119 @@
+{
+  "kind": "complete WATCOM_RAND object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/runtime/rand.c",
+  "source_sha256": "a74aee766c51bb5999c3772e406c752e99421376ed253aefec1db2723accdd0f",
+  "headers_sha256": {
+    "randnext.h": "2470cd384271006888b89a28972926fc25840c8bb0aaab06ded7de57656a571c",
+    "rtdata.h": "52af1ea57145c97048476d60db8a96ab7e26aa3dcabe5f051ec556c48c0ef230",
+    "variety.h": "8e21561238003300c98822ed85057c82e15945eb695b93f145b93328d7caafbd"
+  },
+  "descriptor": "modules/watcom_rand.json",
+  "descriptor_sha256": "f9de54eb330037d89597ac1c44e6a128e0bc42168625bf920807cab5122cb054",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/3r",
+    "/s",
+    "/os"
+  ],
+  "placements": {
+    "1": [
+      1,
+      583791
+    ],
+    "4": [
+      3,
+      71832
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 1,
+      "symbol": "_next",
+      "value": [
+        3,
+        71832
+      ]
+    },
+    {
+      "source_offset": 8,
+      "symbol": "initrandnext_",
+      "value": [
+        1,
+        583791
+      ]
+    },
+    {
+      "source_offset": 46,
+      "symbol": "initrandnext_",
+      "value": [
+        1,
+        583791
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 62,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 3,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 583791,
+        "compared_bytes": 58,
+        "verified_fixups": 3,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 71832,
+        "compared_bytes": 4,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "initrandnext_": [
+        1,
+        583791
+      ],
+      "rand_": [
+        1,
+        583797
+      ],
+      "srand_": [
+        1,
+        583833
+      ],
+      "_next": [
+        3,
+        71832
+      ]
+    },
+    "local_symbols": {
+      "_next": [
+        3,
+        71832
+      ],
+      "initrandnext_": [
+        1,
+        583791
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {},
+  "anchor_evidence": null,
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

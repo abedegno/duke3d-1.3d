@@ -1,0 +1,158 @@
+{
+  "kind": "Complete PREMAP native contributions with direct abort-byte ownership; executable unlinked",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "PREMAP.C",
+  "upstream_sha256": "7ca8f9189087fad3f0358b91850101bc7b1ec4cf873b9e72d7f071f863226bd1",
+  "tracked_sha256": "feb002b3b41343b8b45fd0ab0fb4d58d27e10e251df792c6036c3c98e5fc52be",
+  "license": "GPL-2.0-or-later; original-author credit and GPL text retained",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "headers": {
+    "reference": [
+      "reference/duke3d-reconstructions",
+      "reference/duke3d-reconstructions/MACT"
+    ],
+    "overlays": [
+      "src/include",
+      "src/game/include",
+      "src/engine/include"
+    ]
+  },
+  "modifications": [
+    "Use period Build declarations and math pragmas, with the reconstructed game state declarations.",
+    "Remove accesses to later aiming, subweapon and friendly-fire fields; clear observed UD byte6 through the existing provisional source declaration. Its operational meaning remains unproved.",
+    "Replace deferred tloadtile calls with the independently proved engine loadtile; remove the later tloadtile/docacheit definitions and the deferred pass.",
+    "Move sprite-cache and sound/world-cache function groups toward observed target order; complete ordering remains unmatched.",
+    "Restore spawn selection: single-player uses the supplied index, cooperative multiplayer uses zero, other multiplayer uses a random start. This corrects the earlier unproved interpretation recorded at af491c9; the complete 176-byte interval now matches.",
+    "Remove the later cloud clock reset, normalize line endings/trailing whitespace and add provenance/scope notices.",
+    "Remove the later wantweaponfire reset; refine the player declaration against resetweapons and resetinventory.",
+    "Historical field naming (superseded by user_byte_role_correction): Restore resetplayerstats: clear observed UD byte6 through the existing provisional scrollmode name, conditionally clear the provisional level_reset_flag when last_level is -1 OR recstat is 2, retain the separate refresh_inventory store, and test weapon firing tile against SHOTSPARK1. The weapon_tiles external is a logical reconstruction name; its allocation and original spelling remain unproved.",
+    "Use Ghidra only to interpret control flow and references, followed by strict native byte/relocation comparison. The compiler acceptance gate is unchanged.",
+    "Restore setupbackdrop with an eight-entry game-side sky-offset clear, explicit supported-sky selection, unconditional default parallax scale and the earlier case stores. The engine MAXPSKYTILES allocation is unchanged.",
+    "Remove the later NEWBEAST cache cases; the complete cachespritenum interval now matches. Other cache rules retain the pinned ancestor where the native byte comparison confirms them.",
+    "Restore prelevel automap clearing with signed-bound byte loops; remove later cloud tracking and SCREENBREAK14 through SCREENBREAK19 cases. Keep the earlier sector setup and limits confirmed by the code comparison.",
+    "Restore newgame without later skill-sound waiting, synchronization, episode-four cutscenes, parallax reset or saved-position reset; clear the provisional player reset flag in single-player.",
+    "Restore the earlier resettimevars body, which clears input, lag and frag state as well as clocks. Later clearfrags/clearfifo bodies remain unverified; this interval does not establish their target existence, callers or final module ownership.",
+    "Restore genspriteremaps use of loadfromgrouponly. Its game tempbuf binding is distinct from the engine-private static spelling; cross-module anchors now preserve OMF local symbol scope.",
+    "Restore waitforeverybody with separate host/client paths, two readiness phases, retries every eight times movesperpacket ticks, and Escape cancellation. The host excludes itself when clearing and polling remote readiness flags.",
+    "Add compare_network_value, a reconstruction of the target packet-9 routine absent from the later ancestor. It sends the low 31 value bits in four payload bytes, chooses the next connection or head, polls a received-value sentinel while servicing packets, and returns a comparison byte. This is a provisional logical name, not a recovered original symbol spelling.",
+    "Historical/superseded before Task86: Use provisional extern names wait_abort and received_sync_value. The latter is volatile to preserve the observed repeated memory reads. Their original declarations, names, allocation owners, receivers and caller integration remain unproved.",
+    "Restore dofrontscreens user-map label through menutext rather than the later gametextpal call.",
+    "Use freshly replayed MMULTI exported/reference bindings, with local symbols excluded, as independent anchors for the network globals and sendpacket call.",
+    "Restore enterlevel ordering: start music before board loading, stop/reset audio after loading, restore inline prediction/FIFO state, render the final page and handle wait cancellation before the timing reset and the retained player short at offset 728.",
+    "Preserve the target compiler grouping of zero assignments while enforcing the same physical global bindings used by other proved intervals; independently matching bytes with inconsistent names is rejected.",
+    "Remove the later standalone clearfrags, clearfifo and resetmys definitions from this PREMAP candidate. Their work is restored inline or in the earlier timing reset; this does not establish whether same-named helpers occur elsewhere in the executable.",
+    "Use the complete native terminal enterlevel extent of 1390 bytes, ending at its RET. The following two target zero bytes are outside the native CODE contribution; linker alignment and full-file reproduction remain unproved.",
+    "Use freshly replayed FX_MAN and MUSIC bindings as additional independent audio-call anchors; local symbol names remain excluded.",
+    "Retain owned DATA/BSS publics in each interval projection so external fixups to different names in one owned segment cannot infer incompatible bases; this establishes address compatibility, not initialized contents or zero-fill ownership.",
+    "Restore resetprestat sprite-queue clearing with fixed bound64 rather than the later configurable spriteqamount. The complete448-byte public interval and24fixups match, including all alignment bytes. Keep all existing reset assignments and conditionals.",
+    "Use the complete GAMEDEF exported/reference bindings as additional independent anchors; its module-local symbols, including dmval, remain excluded.",
+    "Restore the complete twelve-string 278-byte CONST pool as named C text fields with explicit compiler alignment residue, following the established GAMEDEF/CONFIG data-only technique. This includes the earlier max8 player-sprite error text. Every byte, including the 0xfc and printable alignment residue, matches object3 offset10600. No instruction bytes or output patches are used.",
+    "Keep the existing level_reset_flag spelling at player byte1332; independently complete SECTOR/PLAYER native observations identify its earlier aiming role. No shared field declaration is changed by this storage checkpoint.",
+    "Historical/superseded before Task86: Verify PREMAP own four-byte native local dmval BSS conditionally at unique paragraph-aligned offset587552 between accepted PLAYER end587538 and SECTOR start587568, using current complete proof/input identities, fresh complete native neighbor replays, native PUBLIC/PARA SEGDEF inventories, and the pinned adjacent module order with native paragraph/DWORD/reverse-order link controls. This does not verify remaining CODE, DATA2 or one-placement PREMAP.",
+    "Restore complete1328-byte resetpspritevars with87fixups: retain a16-byte local aiming-state save/restore across resetplayerstats(0) and1362-byte player cloning; playerbyte1332 is accessed through the existing provisional level_reset_flag name. Use earlier local short palette index, max8 diagnostic and separate player-palette then sprite-palette stores followed by UD-color postincrement. This source ordering preserves the observed WORD/BYTE copy-loop register allocation and exact color-store scheduling. Remove the unsupported global palette DATA2 only after complete native CODE/CONST/BSS verification passes. No shared field names or declarations are changed.",
+    "Historical/superseded before Task86: Verify every native segment together at CODE240976/CONST10600/conditional own BSS587552 with unchanged binding inference and full verifier. The approved ordered-boundary validator supplies only unused local BSSsegment5 after checking any inferred placement for agreement. All22 complete intervals,12654 CODEbytes,278CONSTbytes,4BSSbytes and815fixups pass. The following two zero linker bytes before independent complete SECTOR are outside native PREMAP.",
+    "Task86: define the existing logical wait_abort as ordinary char storage at its current source position. Its active native byte reset/set/test operands infer BSS587552 with wait_abort at+4/587556; private dmval remains+0. Complete CODE/CONST815fixup dictionaries remain unchanged. Remove the former conditional four-byte boundary route and use ordinary whole-native inference/verification. Exact public/local native contracts prevent an extern, private or widened counterfactual from claiming the owner. No source ABI/header/global/neighbor placement change or extra padding."
+  ],
+  "proved_intervals": [
+    "xyzmirror_",
+    "vscrn_",
+    "pickrandomspot_",
+    "resetplayerstats_",
+    "resetweapons_",
+    "resetinventory_",
+    "resetprestat_",
+    "setupbackdrop_",
+    "cachespritenum_",
+    "cachegoodsprites_",
+    "prelevel_",
+    "newgame_",
+    "resetpspritevars_",
+    "resettimevars_",
+    "genspriteremaps_",
+    "waitforeverybody_",
+    "compare_network_value_",
+    "getsound_",
+    "precachenecessarysounds_",
+    "cacheit_",
+    "dofrontscreens_",
+    "enterlevel_"
+  ],
+  "evidence": "evidence/premap-module.json",
+  "scope": "All22 complete CODE intervals,12654CODE/278CONST bytes and815fixups remain verified together. Ordinary native inference from the real public one-byte wait_abort places the complete5-byte BSS at587552, including private dmval. No conditional neighbor boundary, injected placement or standalone BSS projection is used. Following linker gaps, original linker identity and whole executable remain unproved.",
+  "compiler_identity_note": "GA is the canonical replay profile; matching intervals do not identify a unique original compiler.",
+  "selector_note": "LIBVER_BUILDREV selects the period reconstructed pragma profile, not a proven original build date.",
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false,
+  "tracked": "src/game/premap.c",
+  "analysis_aid": "profiles/watcom/ghidra/README.md",
+  "initialized_storage": {
+    "verified": true,
+    "initialized_bytes": 278,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 0,
+    "target_object": 3,
+    "target_offset": 10600,
+    "source_symbol": "_premap_text",
+    "module_local": true
+  },
+  "unverified_storage": [],
+  "bss_storage": {
+    "verified": true,
+    "zero_fill_bytes": 5,
+    "initialized_bytes": 0,
+    "verified_fixups": 0,
+    "source_segment": 5,
+    "target_object": 3,
+    "target_offset": 587552,
+    "private_symbols": {
+      "_dmval": {
+        "offset": 0,
+        "bytes": 4
+      }
+    },
+    "global_symbols": {
+      "_wait_abort": {
+        "offset": 4,
+        "bytes": 1,
+        "target_offset": 587556
+      }
+    },
+    "placement_basis": "Unchanged native infer_bindings from active owned abort-byte CODE references; unchanged complete verify_module. No injected placement or neighboring proof is required."
+  },
+  "complete_module": {
+    "descriptor": "modules/premap.json",
+    "evidence": "evidence/premap-module.json",
+    "initialized_bytes": 12932,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 815,
+    "code_bytes": 12654,
+    "code_publics": 22,
+    "one_code_placement": true,
+    "native_owned_BSS": true
+  },
+  "user_byte_role_correction": {
+    "kind": "logical field-role correction with unchanged native offsets and complete contributor bytes",
+    "show_help_offset": 6,
+    "scrollmode_offset": 7,
+    "source_change": "ud.scrollmode -> ud.show_help",
+    "allocation_verified": false,
+    "native_validation": "Complete contributor CODE/CONST/fixup proof retained; Task86 direct owned BSS5 supersedes the historical conditional four-byte route."
+  },
+  "historical_BSS_checkpoint": {
+    "scope": "Historical/superseded conditional4-byte proof only; not current ownership and never counted twice",
+    "BASE": "f13a6380620dddd64f7e7c2842fa929fa36ceb05",
+    "source_sha256": "5c1ea3530203559dab253f0490c67a37161733e0a70c0448c0e8ba02f69feee1",
+    "module_report_sha256": "4c0c4a5083b040b0c2a7515443793abfe48755e893fad796074655443d056034",
+    "progress_report_sha256": "d3201a11bee024539ced12ab9b8f13f262378dab821588bd24f16dd125172312"
+  },
+  "modifications_scope": "Chronological reconstruction history; earlier partial/conditional observations are historical and superseded by the current complete_module and bss_storage contracts."
+}

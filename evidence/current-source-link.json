@@ -1,0 +1,1512 @@
+{
+  "scope": "Whole current tracked source TUs plus generated EMBED;2 genuine HighC DATA prototypes explicitly experimental. No original SDK objects linked; no new source coverage. Missing imports include all global EXTDEF records. Native compiler success is not native byte matching. Direct-object ordering is diagnostic, not historical archive selection/layout proof.",
+  "objects": 82,
+  "compiled": 82,
+  "global_definition_names": 1609,
+  "all_global_import_names": 1573,
+  "undefined_names": 88,
+  "native_missing_matches_all_extdefs": true,
+  "duplicate_definitions": {},
+  "unresolved_locals": [],
+  "source_inputs_unchanged": true,
+  "embed_inputs_unchanged": true,
+  "unreferenced_global_EXTDEF_occurrences": 8,
+  "missing": {
+    "awe32noteoff": [
+      {
+        "symbol": "AWE32NOTEOFF",
+        "owner": "awe32",
+        "index": 4,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32noteon": [
+      {
+        "symbol": "AWE32NOTEON",
+        "owner": "awe32",
+        "index": 6,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32polykeypressure": [
+      {
+        "symbol": "AWE32POLYKEYPRESSURE",
+        "owner": "awe32",
+        "index": 7,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32channelpressure": [
+      {
+        "symbol": "AWE32CHANNELPRESSURE",
+        "owner": "awe32",
+        "index": 8,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32controller": [
+      {
+        "symbol": "AWE32CONTROLLER",
+        "owner": "awe32",
+        "index": 9,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32programchange": [
+      {
+        "symbol": "AWE32PROGRAMCHANGE",
+        "owner": "awe32",
+        "index": 10,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32pitchbend": [
+      {
+        "symbol": "AWE32PITCHBEND",
+        "owner": "awe32",
+        "index": 11,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32definebanksizes": [
+      {
+        "symbol": "AWE32DEFINEBANKSIZES",
+        "owner": "awe32",
+        "index": 19,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32detect": [
+      {
+        "symbol": "AWE32DETECT",
+        "owner": "awe32",
+        "index": 28,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32inithardware": [
+      {
+        "symbol": "AWE32INITHARDWARE",
+        "owner": "awe32",
+        "index": 29,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32initmidi": [
+      {
+        "symbol": "AWE32INITMIDI",
+        "owner": "awe32",
+        "index": 30,
+        "has_fixup_reference": true
+      }
+    ],
+    "___midieng_ecode": [
+      {
+        "symbol": "___midieng_ecode",
+        "owner": "awe32",
+        "index": 36,
+        "has_fixup_reference": true
+      }
+    ],
+    "___midieng_code": [
+      {
+        "symbol": "___midieng_code",
+        "owner": "awe32",
+        "index": 37,
+        "has_fixup_reference": true
+      }
+    ],
+    "___nrpn_ecode": [
+      {
+        "symbol": "___nrpn_ecode",
+        "owner": "awe32",
+        "index": 38,
+        "has_fixup_reference": true
+      }
+    ],
+    "___nrpn_code": [
+      {
+        "symbol": "___nrpn_code",
+        "owner": "awe32",
+        "index": 39,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32terminate": [
+      {
+        "symbol": "AWE32TERMINATE",
+        "owner": "awe32",
+        "index": 47,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32totalpatchram": [
+      {
+        "symbol": "AWE32TOTALPATCHRAM",
+        "owner": "awe32",
+        "index": 49,
+        "has_fixup_reference": true
+      }
+    ],
+    "awe32initnrpn": [
+      {
+        "symbol": "AWE32INITNRPN",
+        "owner": "awe32",
+        "index": 51,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_numberentries_": [
+      {
+        "symbol": "SCRIPT_NumberEntries_",
+        "owner": "config",
+        "index": 31,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_entry_": [
+      {
+        "symbol": "SCRIPT_Entry_",
+        "owner": "config",
+        "index": 32,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_getdoublestring_": [
+      {
+        "symbol": "SCRIPT_GetDoubleString_",
+        "owner": "config",
+        "index": 35,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_mapkey_": [
+      {
+        "symbol": "CONTROL_MapKey_",
+        "owner": "config",
+        "index": 37,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_getstring_": [
+      {
+        "symbol": "SCRIPT_GetString_",
+        "owner": "config",
+        "index": 39,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_mapbutton_": [
+      {
+        "symbol": "CONTROL_MapButton_",
+        "owner": "config",
+        "index": 40,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_mapanalogaxis_": [
+      {
+        "symbol": "CONTROL_MapAnalogAxis_",
+        "owner": "config",
+        "index": 42,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_mapdigitalaxis_": [
+      {
+        "symbol": "CONTROL_MapDigitalAxis_",
+        "owner": "config",
+        "index": 43,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_getnumber_": [
+      {
+        "symbol": "SCRIPT_GetNumber_",
+        "owner": "config",
+        "index": 44,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_setanalogaxisscale_": [
+      {
+        "symbol": "CONTROL_SetAnalogAxisScale_",
+        "owner": "config",
+        "index": 45,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_setmousesensitivity_": [
+      {
+        "symbol": "CONTROL_SetMouseSensitivity_",
+        "owner": "config",
+        "index": 46,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "CONTROL_SetMouseSensitivity_",
+        "owner": "menues",
+        "index": 142,
+        "has_fixup_reference": true
+      }
+    ],
+    "_control_joystickport": [
+      {
+        "symbol": "_CONTROL_JoystickPort",
+        "owner": "config",
+        "index": 47,
+        "has_fixup_reference": true
+      }
+    ],
+    "_control_rudderenabled": [
+      {
+        "symbol": "_CONTROL_RudderEnabled",
+        "owner": "config",
+        "index": 48,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_load_": [
+      {
+        "symbol": "SCRIPT_Load_",
+        "owner": "config",
+        "index": 55,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_clearassignments_": [
+      {
+        "symbol": "CONTROL_ClearAssignments_",
+        "owner": "config",
+        "index": 73,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_putnumber_": [
+      {
+        "symbol": "SCRIPT_PutNumber_",
+        "owner": "config",
+        "index": 79,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_putstring_": [
+      {
+        "symbol": "SCRIPT_PutString_",
+        "owner": "config",
+        "index": 80,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_getmousesensitivity_": [
+      {
+        "symbol": "CONTROL_GetMouseSensitivity_",
+        "owner": "config",
+        "index": 81,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "CONTROL_GetMouseSensitivity_",
+        "owner": "menues",
+        "index": 93,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_save_": [
+      {
+        "symbol": "SCRIPT_Save_",
+        "owner": "config",
+        "index": 82,
+        "has_fixup_reference": true
+      }
+    ],
+    "script_free_": [
+      {
+        "symbol": "SCRIPT_Free_",
+        "owner": "config",
+        "index": 83,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_enter1_": [
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_addr",
+        "index": 1,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_rec",
+        "index": 1,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_timer",
+        "index": 4,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 17,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_candidate_gf1mem",
+        "index": 7,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_candidate_gf1note",
+        "index": 15,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_candidate_gf1note1",
+        "index": 1,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 7,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_enter1_",
+        "owner": "gf1_candidate_gf1voice",
+        "index": 6,
+        "has_fixup_reference": true
+      }
+    ],
+    "outport_": [
+      {
+        "symbol": "outport_",
+        "owner": "gf1_addr",
+        "index": 6,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_leave_": [
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_addr",
+        "index": 7,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_rec",
+        "index": 5,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_timer",
+        "index": 6,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 18,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_candidate_gf1mem",
+        "index": 9,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_candidate_gf1note",
+        "index": 24,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_candidate_gf1note1",
+        "index": 7,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 8,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_leave_",
+        "owner": "gf1_candidate_gf1voice",
+        "index": 7,
+        "has_fixup_reference": true
+      }
+    ],
+    "os_dma_count_": [
+      {
+        "symbol": "os_dma_count_",
+        "owner": "gf1_dma1",
+        "index": 2,
+        "has_fixup_reference": true
+      }
+    ],
+    "_uart_init_data": [
+      {
+        "symbol": "_uart_init_data",
+        "owner": "gf1_uart",
+        "index": 1,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_delay_": [
+      {
+        "symbol": "gf1_delay_",
+        "owner": "gf1_uart",
+        "index": 5,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_delay_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 24,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "gf1_delay_",
+        "owner": "gf1_candidate_gf1note",
+        "index": 21,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_load_os_": [
+      {
+        "symbol": "gf1_load_os_",
+        "owner": "gus",
+        "index": 15,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_unload_os_": [
+      {
+        "symbol": "gf1_unload_os_",
+        "owner": "gus",
+        "index": 17,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_midi_parameter_": [
+      {
+        "symbol": "gf1_midi_parameter_",
+        "owner": "gusmidi",
+        "index": 31,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_midi_pitch_bend_": [
+      {
+        "symbol": "gf1_midi_pitch_bend_",
+        "owner": "gusmidi",
+        "index": 32,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_midi_synth_volume_": [
+      {
+        "symbol": "gf1_midi_synth_volume_",
+        "owner": "gusmidi",
+        "index": 34,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_stop_digital_": [
+      {
+        "symbol": "gf1_stop_digital_",
+        "owner": "guswave",
+        "index": 20,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_dig_set_freq_": [
+      {
+        "symbol": "gf1_dig_set_freq_",
+        "owner": "guswave",
+        "index": 23,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_dig_set_pan_": [
+      {
+        "symbol": "gf1_dig_set_pan_",
+        "owner": "guswave",
+        "index": 26,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_dig_set_vol_": [
+      {
+        "symbol": "gf1_dig_set_vol_",
+        "owner": "guswave",
+        "index": 28,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_play_digital_": [
+      {
+        "symbol": "gf1_play_digital_",
+        "owner": "guswave",
+        "index": 35,
+        "has_fixup_reference": true
+      }
+    ],
+    "serviceevents_": [
+      {
+        "symbol": "ServiceEvents_",
+        "owner": "mact_keyboard",
+        "index": 9,
+        "has_fixup_reference": true
+      }
+    ],
+    "keyboard_startup_": [
+      {
+        "symbol": "KEYBOARD_Startup_",
+        "owner": "mact_keyboard",
+        "index": 14,
+        "has_fixup_reference": true
+      }
+    ],
+    "keyboard_shutdown_": [
+      {
+        "symbol": "KEYBOARD_Shutdown_",
+        "owner": "mact_keyboard",
+        "index": 16,
+        "has_fixup_reference": true
+      }
+    ],
+    "vid_getpalette_": [
+      {
+        "symbol": "VID_GetPalette_",
+        "owner": "rgb_c",
+        "index": 9,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "VID_GetPalette_",
+        "owner": "rgb_asm",
+        "index": 2,
+        "has_fixup_reference": true
+      }
+    ],
+    "_control_mousepresent": [
+      {
+        "symbol": "_CONTROL_MousePresent",
+        "owner": "menues",
+        "index": 95,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_getinput_": [
+      {
+        "symbol": "CONTROL_GetInput_",
+        "owner": "menues",
+        "index": 97,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "CONTROL_GetInput_",
+        "owner": "player",
+        "index": 63,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "CONTROL_GetInput_",
+        "owner": "game",
+        "index": 258,
+        "has_fixup_reference": true
+      }
+    ],
+    "mouse_getbuttons_": [
+      {
+        "symbol": "MOUSE_GetButtons_",
+        "owner": "menues",
+        "index": 113,
+        "has_fixup_reference": true
+      }
+    ],
+    "_mwargstack": [
+      {
+        "symbol": "_mwargstack",
+        "owner": "pawe_midivar",
+        "index": 1,
+        "has_fixup_reference": false
+      },
+      {
+        "symbol": "_mwargstack",
+        "owner": "pawe_nrpnvar",
+        "index": 1,
+        "has_fixup_reference": false
+      }
+    ],
+    "_mwgoc": [
+      {
+        "symbol": "_mwgoc",
+        "owner": "pawe_midivar",
+        "index": 2,
+        "has_fixup_reference": false
+      },
+      {
+        "symbol": "_mwgoc",
+        "owner": "pawe_nrpnvar",
+        "index": 2,
+        "has_fixup_reference": false
+      }
+    ],
+    "_control_buttonstate2": [
+      {
+        "symbol": "_CONTROL_ButtonState2",
+        "owner": "player",
+        "index": 73,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "_CONTROL_ButtonState2",
+        "owner": "game",
+        "index": 260,
+        "has_fixup_reference": true
+      }
+    ],
+    "_control_buttonstate1": [
+      {
+        "symbol": "_CONTROL_ButtonState1",
+        "owner": "player",
+        "index": 79,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "_CONTROL_ButtonState1",
+        "owner": "game",
+        "index": 271,
+        "has_fixup_reference": true
+      }
+    ],
+    "_control_joystickenabled": [
+      {
+        "symbol": "_CONTROL_JoystickEnabled",
+        "owner": "player",
+        "index": 80,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "_CONTROL_JoystickEnabled",
+        "owner": "game",
+        "index": 339,
+        "has_fixup_reference": true
+      }
+    ],
+    "_everyothertime": [
+      {
+        "symbol": "_everyothertime",
+        "owner": "premap",
+        "index": 180,
+        "has_fixup_reference": true
+      },
+      {
+        "symbol": "_everyothertime",
+        "owner": "game",
+        "index": 393,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_clearbutton_": [
+      {
+        "symbol": "CONTROL_ClearButton_",
+        "owner": "game",
+        "index": 261,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_shutdown_": [
+      {
+        "symbol": "CONTROL_Shutdown_",
+        "owner": "game",
+        "index": 290,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_startup_": [
+      {
+        "symbol": "CONTROL_Startup_",
+        "owner": "game",
+        "index": 307,
+        "has_fixup_reference": true
+      }
+    ],
+    "z_availheap_": [
+      {
+        "symbol": "Z_AvailHeap_",
+        "owner": "game",
+        "index": 327,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_centerjoystick_": [
+      {
+        "symbol": "CONTROL_CenterJoystick_",
+        "owner": "game",
+        "index": 345,
+        "has_fixup_reference": true
+      }
+    ],
+    "control_defineflag_": [
+      {
+        "symbol": "CONTROL_DefineFlag_",
+        "owner": "game",
+        "index": 427,
+        "has_fixup_reference": true
+      }
+    ],
+    "os_init_channel_": [
+      {
+        "symbol": "os_init_channel_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 4,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_poke_block_": [
+      {
+        "symbol": "gf1_poke_block_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 19,
+        "has_fixup_reference": true
+      }
+    ],
+    "os_pgm_dma_": [
+      {
+        "symbol": "os_pgm_dma_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 22,
+        "has_fixup_reference": true
+      }
+    ],
+    "os_stop_dma_": [
+      {
+        "symbol": "os_stop_dma_",
+        "owner": "gf1_candidate_gf1dma",
+        "index": 28,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_poke_": [
+      {
+        "symbol": "gf1_poke_",
+        "owner": "gf1_candidate_gf1mem",
+        "index": 2,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_peek_": [
+      {
+        "symbol": "gf1_peek_",
+        "owner": "gf1_candidate_gf1mem",
+        "index": 3,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_good_dram_": [
+      {
+        "symbol": "gf1_good_dram_",
+        "owner": "gf1_candidate_gf1mem",
+        "index": 5,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_open_": [
+      {
+        "symbol": "gf1_open_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 1,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_read_": [
+      {
+        "symbol": "gf1_read_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 3,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_close_file_": [
+      {
+        "symbol": "gf1_close_file_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 4,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_strncmp_": [
+      {
+        "symbol": "gf1_strncmp_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 5,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_strcmp_": [
+      {
+        "symbol": "gf1_strcmp_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 6,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_seek_": [
+      {
+        "symbol": "gf1_seek_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 9,
+        "has_fixup_reference": true
+      }
+    ],
+    "gf1_update_waveform_": [
+      {
+        "symbol": "gf1_update_waveform_",
+        "owner": "gf1_candidate_gf1patch",
+        "index": 14,
+        "has_fixup_reference": true
+      }
+    ],
+    "os_eoi_": [
+      {
+        "symbol": "os_eoi_",
+        "owner": "gf1_candidate_gf1wisr",
+        "index": 4,
+        "has_fixup_reference": true
+      }
+    ]
+  },
+  "owners": {
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\digital.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\digital.c": [
+      {
+        "symbol": "gf1_stop_digital_",
+        "consumers": [
+          "guswave"
+        ]
+      },
+      {
+        "symbol": "gf1_dig_set_freq_",
+        "consumers": [
+          "guswave"
+        ]
+      },
+      {
+        "symbol": "gf1_dig_set_pan_",
+        "consumers": [
+          "guswave"
+        ]
+      },
+      {
+        "symbol": "gf1_dig_set_vol_",
+        "consumers": [
+          "guswave"
+        ]
+      },
+      {
+        "symbol": "gf1_play_digital_",
+        "consumers": [
+          "guswave"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1dram.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1dram.c": [
+      {
+        "symbol": "gf1_poke_block_",
+        "consumers": [
+          "gf1_candidate_gf1dma"
+        ]
+      },
+      {
+        "symbol": "gf1_poke_",
+        "consumers": [
+          "gf1_candidate_gf1mem"
+        ]
+      },
+      {
+        "symbol": "gf1_peek_",
+        "consumers": [
+          "gf1_candidate_gf1mem"
+        ]
+      },
+      {
+        "symbol": "gf1_good_dram_",
+        "consumers": [
+          "gf1_candidate_gf1mem"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1init.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1init.c": [
+      {
+        "symbol": "gf1_load_os_",
+        "consumers": [
+          "gus"
+        ]
+      },
+      {
+        "symbol": "gf1_unload_os_",
+        "consumers": [
+          "gus"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1midi.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1midi.c": [
+      {
+        "symbol": "gf1_midi_parameter_",
+        "consumers": [
+          "gusmidi"
+        ]
+      },
+      {
+        "symbol": "gf1_midi_pitch_bend_",
+        "consumers": [
+          "gusmidi"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1note.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1note.c": [
+      {
+        "symbol": "gf1_midi_synth_volume_",
+        "consumers": [
+          "gusmidi"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1wave.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\gf1wave.c": [
+      {
+        "symbol": "gf1_update_waveform_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\os\\dos32\\watcom\\os.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: C:\\PRG\\NEWGF1\\GF1NEW\\os\\dos32\\watcom\\os.c": [
+      {
+        "symbol": "os_dma_count_",
+        "consumers": [
+          "gf1_dma1"
+        ]
+      },
+      {
+        "symbol": "os_init_channel_",
+        "consumers": [
+          "gf1_candidate_gf1dma"
+        ]
+      },
+      {
+        "symbol": "os_pgm_dma_",
+        "consumers": [
+          "gf1_candidate_gf1dma"
+        ]
+      },
+      {
+        "symbol": "os_stop_dma_",
+        "consumers": [
+          "gf1_candidate_gf1dma"
+        ]
+      },
+      {
+        "symbol": "os_eoi_",
+        "consumers": [
+          "gf1_candidate_gf1wisr"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: gf1init2.asm | reference/duke3d-reconstructions/AUDIO_WF.LIB :: gf1init2.asm": [
+      {
+        "symbol": "gf1_delay_",
+        "consumers": [
+          "gf1_candidate_gf1dma",
+          "gf1_candidate_gf1note",
+          "gf1_uart"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: gf1sem.asm | reference/duke3d-reconstructions/AUDIO_WF.LIB :: gf1sem.asm": [
+      {
+        "symbol": "gf1_enter1_",
+        "consumers": [
+          "gf1_addr",
+          "gf1_candidate_gf1dma",
+          "gf1_candidate_gf1mem",
+          "gf1_candidate_gf1note",
+          "gf1_candidate_gf1note1",
+          "gf1_candidate_gf1patch",
+          "gf1_candidate_gf1voice",
+          "gf1_rec",
+          "gf1_timer"
+        ]
+      },
+      {
+        "symbol": "gf1_leave_",
+        "consumers": [
+          "gf1_addr",
+          "gf1_candidate_gf1dma",
+          "gf1_candidate_gf1mem",
+          "gf1_candidate_gf1note",
+          "gf1_candidate_gf1note1",
+          "gf1_candidate_gf1patch",
+          "gf1_candidate_gf1voice",
+          "gf1_rec",
+          "gf1_timer"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/GF1_OSF.LIB :: gf1wuart.asm | reference/duke3d-reconstructions/AUDIO_WF.LIB :: gf1wuart.asm": [
+      {
+        "symbol": "_uart_init_data",
+        "consumers": [
+          "gf1_uart"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/PAWE32.LIB :: hardware.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: hardware.c": [
+      {
+        "symbol": "awe32detect",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32inithardware",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32terminate",
+        "consumers": [
+          "awe32"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/PAWE32.LIB :: midieng.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: midieng.c": [
+      {
+        "symbol": "awe32noteoff",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32noteon",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32polykeypressure",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32channelpressure",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32controller",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32programchange",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32pitchbend",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32initmidi",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "___midieng_ecode",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "___midieng_code",
+        "consumers": [
+          "awe32"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/PAWE32.LIB :: nrpn.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: nrpn.c": [
+      {
+        "symbol": "___nrpn_ecode",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "___nrpn_code",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32initnrpn",
+        "consumers": [
+          "awe32"
+        ]
+      }
+    ],
+    "reference/audiolib-reconstructions/LIB/PAWE32.LIB :: sbkload.c | reference/duke3d-reconstructions/AUDIO_WF.LIB :: sbkload.c": [
+      {
+        "symbol": "awe32definebanksizes",
+        "consumers": [
+          "awe32"
+        ]
+      },
+      {
+        "symbol": "awe32totalpatchram",
+        "consumers": [
+          "awe32"
+        ]
+      }
+    ],
+    "reference/duke3d-reconstructions/MACT386.LIB :: P:\\LIBMACT\\control.c": [
+      {
+        "symbol": "control_mapkey_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_mapbutton_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_mapanalogaxis_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_mapdigitalaxis_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_setanalogaxisscale_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_setmousesensitivity_",
+        "consumers": [
+          "config",
+          "menues"
+        ]
+      },
+      {
+        "symbol": "_control_joystickport",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "_control_rudderenabled",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_clearassignments_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "control_getmousesensitivity_",
+        "consumers": [
+          "config",
+          "menues"
+        ]
+      },
+      {
+        "symbol": "_control_mousepresent",
+        "consumers": [
+          "menues"
+        ]
+      },
+      {
+        "symbol": "control_getinput_",
+        "consumers": [
+          "game",
+          "menues",
+          "player"
+        ]
+      },
+      {
+        "symbol": "_control_buttonstate2",
+        "consumers": [
+          "game",
+          "player"
+        ]
+      },
+      {
+        "symbol": "_control_buttonstate1",
+        "consumers": [
+          "game",
+          "player"
+        ]
+      },
+      {
+        "symbol": "_control_joystickenabled",
+        "consumers": [
+          "game",
+          "player"
+        ]
+      },
+      {
+        "symbol": "control_clearbutton_",
+        "consumers": [
+          "game"
+        ]
+      },
+      {
+        "symbol": "control_shutdown_",
+        "consumers": [
+          "game"
+        ]
+      },
+      {
+        "symbol": "control_startup_",
+        "consumers": [
+          "game"
+        ]
+      },
+      {
+        "symbol": "control_centerjoystick_",
+        "consumers": [
+          "game"
+        ]
+      },
+      {
+        "symbol": "control_defineflag_",
+        "consumers": [
+          "game"
+        ]
+      }
+    ],
+    "reference/duke3d-reconstructions/MACT386.LIB :: P:\\LIBMACT\\scriplib.c": [
+      {
+        "symbol": "script_numberentries_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_entry_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_getdoublestring_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_getstring_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_getnumber_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_load_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_putnumber_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_putstring_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_save_",
+        "consumers": [
+          "config"
+        ]
+      },
+      {
+        "symbol": "script_free_",
+        "consumers": [
+          "config"
+        ]
+      }
+    ],
+    "reference/duke3d-reconstructions/MACT386.LIB :: P:\\LIBMACT\\vidmsdos.c": [
+      {
+        "symbol": "serviceevents_",
+        "consumers": [
+          "mact_keyboard"
+        ]
+      },
+      {
+        "symbol": "keyboard_startup_",
+        "consumers": [
+          "mact_keyboard"
+        ]
+      },
+      {
+        "symbol": "keyboard_shutdown_",
+        "consumers": [
+          "mact_keyboard"
+        ]
+      },
+      {
+        "symbol": "vid_getpalette_",
+        "consumers": [
+          "rgb_asm",
+          "rgb_c"
+        ]
+      },
+      {
+        "symbol": "mouse_getbuttons_",
+        "consumers": [
+          "menues"
+        ]
+      }
+    ],
+    "reference/duke3d-reconstructions/MACT386.LIB :: P:\\LIBMACT\\zone.c": [
+      {
+        "symbol": "z_availheap_",
+        "consumers": [
+          "game"
+        ]
+      }
+    ],
+    "unattributed": [
+      {
+        "symbol": "outport_",
+        "consumers": [
+          "gf1_addr"
+        ]
+      },
+      {
+        "symbol": "_mwargstack",
+        "consumers": [
+          "pawe_midivar",
+          "pawe_nrpnvar"
+        ]
+      },
+      {
+        "symbol": "_mwgoc",
+        "consumers": [
+          "pawe_midivar",
+          "pawe_nrpnvar"
+        ]
+      },
+      {
+        "symbol": "_everyothertime",
+        "consumers": [
+          "game",
+          "premap"
+        ]
+      },
+      {
+        "symbol": "gf1_open_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      },
+      {
+        "symbol": "gf1_read_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      },
+      {
+        "symbol": "gf1_close_file_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      },
+      {
+        "symbol": "gf1_strncmp_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      },
+      {
+        "symbol": "gf1_strcmp_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      },
+      {
+        "symbol": "gf1_seek_",
+        "consumers": [
+          "gf1_candidate_gf1patch"
+        ]
+      }
+    ]
+  },
+  "full_executable_rebuilt": false,
+  "executable_present": false,
+  "root_commit": "368ca6c",
+  "artifact_directory": "build/current-source137",
+  "artifact_manifest_sha256": "88db6c9129cc55ad93ca3902f860badc663187f6c9f8652cbb4e8528095c856a",
+  "linker_and_stock_inputs_sha256": {
+    "toolchains/watcom-10.0-ga/BIN/wlink.exe": "da13f94f022b639fbee9aa9bcd554baec2fe8b5b13dd8769b22c969465a47cba",
+    "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+    "toolchains/watcom-10.0-ga/LIB386/math387r.lib": "ccc96d4aa29c2c798da9c57a085e02614e88739b46cd1c47609fd39c5c8647c9",
+    "toolchains/watcom-10.0-ga/LIB386/DOS/emu387.lib": "5b150d1cdca625eb27747b7ac182e36f5a66571e4441ccc19caccc6fbf773b5c"
+  },
+  "input_source_snapshot_sha256": "b7c92260a4af1779ce9654f11c35126b70a0eed6fc35542ddbaf21eb8cb555f6",
+  "native_object_receipts_sha256": "b288fd69255dad0d8ed2980582d6f4311cf4a9073c7d11c0f37fe3e4954b660c",
+  "native_link_files_sha256": {
+    "LINK.LNK": "2f1cd709cc550b82570a7603135bb240d17fa501997974e7912aa9451177b6b6",
+    "LINK.LOG": "594bbca60ddabf4e8a9c696176bd3bd3b273288d9194e68b7e8c59e957401398",
+    "LINKSTAT.TXT": "53e6f628e00e033372a1c4e452422910af1477ae62abffd80289ff855cce2b2a",
+    "OUT.MAP": "30d617fda32a8ea45389ec953e961db7e528621d202435ef5a30755d55973a95",
+    "aliases.json": "43c1018e0c0c6d9f16b45f801504aee04857031b41e296f6828064872abfa455"
+  },
+  "complete_source_contributions_added": 0
+}

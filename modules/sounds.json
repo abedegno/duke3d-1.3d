@@ -1,0 +1,40 @@
+{
+  "name": "SOUNDS",
+  "source": "src/game/sounds.c",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include"
+  ],
+  "source_reference_evidence": "evidence/game-sound-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/zu",
+    "/dAPPVER_EXEDEF=DN3D13G"
+  ],
+  "code_object": 1,
+  "code_offset": 281600,
+  "code_bytes": 4676,
+  "code_publics": 17,
+  "symbol_anchors": {
+    "USRHOOKS_GetMem_": [
+      1,
+      282240
+    ],
+    "USRHOOKS_FreeMem_": [
+      1,
+      282272
+    ]
+  },
+  "anchor_evidence": "evidence/midi-module.json",
+  "expected": {
+    "initialized_bytes": 4703,
+    "zero_fill_bytes": 12,
+    "verified_fixups": 288
+  }
+}

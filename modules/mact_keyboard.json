@@ -1,0 +1,144 @@
+{
+  "name": "MACT_KEYBOARD",
+  "source": "src/mact/keyboard.c",
+  "reference_headers": [],
+  "overlay_headers": "src/mact/keyboard",
+  "source_reference_evidence": "evidence/mact-keyboard-source-reference.json",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 568512,
+  "code_bytes": 616,
+  "code_publics": 13,
+  "expected": {
+    "initialized_bytes": 1906,
+    "zero_fill_bytes": 397,
+    "verified_fixups": 171
+  },
+  "expected_publics": {
+    "_KeyboardQueue": [
+      5,
+      0
+    ],
+    "_KB_KeyDown": [
+      5,
+      256
+    ],
+    "_Keytail": [
+      5,
+      384
+    ],
+    "_KeyPadActive": [
+      5,
+      388
+    ],
+    "_Keyhead": [
+      5,
+      392
+    ],
+    "KB_KeyEvent_": [
+      1,
+      0
+    ],
+    "KB_KeyWaiting_": [
+      1,
+      188
+    ],
+    "KB_Getch_": [
+      1,
+      208
+    ],
+    "KB_Addch_": [
+      1,
+      272
+    ],
+    "KB_TurnKeypadOn_": [
+      1,
+      316
+    ],
+    "KB_TurnKeypadOff_": [
+      1,
+      328
+    ],
+    "KB_KeypadActive_": [
+      1,
+      340
+    ],
+    "KB_FlushKeyboardQueue_": [
+      1,
+      348
+    ],
+    "KB_ClearKeysDown_": [
+      1,
+      368
+    ],
+    "KB_ScanCodeToString_": [
+      1,
+      400
+    ],
+    "KB_StringToScanCode_": [
+      1,
+      420
+    ],
+    "KB_Startup_": [
+      1,
+      468
+    ],
+    "KB_Shutdown_": [
+      1,
+      552
+    ],
+    "_KeyboardStarted": [
+      4,
+      0
+    ],
+    "_ASCIINames": [
+      4,
+      4
+    ],
+    "_ShiftNames": [
+      4,
+      132
+    ],
+    "_ScanStrings": [
+      4,
+      260
+    ],
+    "_KB_LastScan": [
+      5,
+      396
+    ]
+  },
+  "expected_local_publics": [
+    "_ASCIINames",
+    "_KeyPadActive",
+    "_KeyboardQueue",
+    "_KeyboardStarted",
+    "_Keyhead",
+    "_Keytail",
+    "_ScanStrings",
+    "_ShiftNames"
+  ],
+  "placements": {
+    "1": [
+      1,
+      568512
+    ],
+    "5": [
+      3,
+      2130656
+    ],
+    "4": [
+      3,
+      70408
+    ],
+    "2": [
+      3,
+      25624
+    ]
+  },
+  "boundary_limit": "Native109-pointer ScanStrings has observed lookup bound110. Index109 remains a historical one-past-table condition; no extra entry or bound correction introduced."
+}

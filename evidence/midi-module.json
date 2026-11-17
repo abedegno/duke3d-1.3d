@@ -1,0 +1,5679 @@
+{
+  "kind": "complete MIDI object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/midi.c",
+  "source_sha256": "6e5b11319b1ce9263a64d6c24886f7d4703ce9c28e668fd436bc3f7754f3011a",
+  "headers_sha256": {
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "descriptor": "modules/midi.json",
+  "descriptor_sha256": "a43971260a385b0ef1b1d271d8fdbb66cd33b5af3e0c4cc81306f5a049c1d663",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/zu"
+  ],
+  "placements": {
+    "1": [
+      1,
+      506240
+    ],
+    "5": [
+      3,
+      1780412
+    ],
+    "4": [
+      3,
+      59836
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 188,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 196,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 202,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 208,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 214,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 220,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 226,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 231,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 237,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 243,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 249,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 255,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 261,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 279,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 332,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 338,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 367,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 373,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 379,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 385,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 391,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 397,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 402,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 409,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 435,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 441,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 447,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 453,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 459,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 476,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 501,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 562,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 575,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 625,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 638,
+      "symbol": "_MIDI_Tempo",
+      "value": [
+        3,
+        60008
+      ]
+    },
+    {
+      "source_offset": 651,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 657,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 672,
+      "symbol": "TS_SetTaskRate_",
+      "value": [
+        1,
+        476408
+      ]
+    },
+    {
+      "source_offset": 690,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 695,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 703,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 712,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 721,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 734,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 746,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 751,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 782,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 797,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 809,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 966,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 993,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 999,
+      "symbol": "_MIDI_PatchMap",
+      "value": [
+        3,
+        1780476
+      ]
+    },
+    {
+      "source_offset": 1036,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 1055,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 1105,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 1154,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 1163,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 1175,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 1187,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 1199,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 1216,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 1234,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 1239,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 1272,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 1278,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 1371,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 1383,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 1396,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 1410,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 1424,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 1438,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 1452,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 1466,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 1519,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 1527,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 1533,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 1546,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 1556,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 1620,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 1633,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 1642,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 1654,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 1666,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 1678,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 1690,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 1702,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 1719,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 1736,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 1768,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1772,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1776,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1780,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1784,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1788,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1792,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 1811,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 1828,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 1834,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 1919,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 1931,
+      "symbol": "_MIDI_MetaEvent_",
+      "value": [
+        1,
+        506728
+      ]
+    },
+    {
+      "source_offset": 1945,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 1995,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 2023,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 2050,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2068,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2082,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2113,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 2118,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2146,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2159,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2189,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2202,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2232,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2259,
+      "symbol": "_MIDI_InterpretControllerInfo_",
+      "value": [
+        1,
+        507064
+      ]
+    },
+    {
+      "source_offset": 2269,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2282,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2311,
+      "symbol": "_MIDI_PatchMap",
+      "value": [
+        3,
+        1780476
+      ]
+    },
+    {
+      "source_offset": 2329,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2342,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2365,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2378,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2404,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 2420,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 2449,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 2455,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 2465,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 2475,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 2487,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 2498,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 2504,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 2510,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 2517,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 2522,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 2527,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 2536,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 2542,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 2551,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 2557,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 2563,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 2572,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 2578,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 2588,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 2593,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 2609,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 2618,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 2624,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 2653,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2676,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2689,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2753,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2778,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 2792,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 2807,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 2841,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 2847,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2856,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 2866,
+      "symbol": "__MIDI_UserChannelVolume",
+      "value": [
+        3,
+        59936
+      ]
+    },
+    {
+      "source_offset": 2899,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 2911,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 2929,
+      "symbol": "__MIDI_UserChannelVolume",
+      "value": [
+        3,
+        59936
+      ]
+    },
+    {
+      "source_offset": 2942,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 2969,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3025,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3032,
+      "symbol": "__MIDI_UserChannelVolume",
+      "value": [
+        3,
+        59936
+      ]
+    },
+    {
+      "source_offset": 3037,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 3058,
+      "symbol": "__MIDI_UserChannelVolume",
+      "value": [
+        3,
+        59936
+      ]
+    },
+    {
+      "source_offset": 3063,
+      "symbol": "__STOSD",
+      "value": [
+        1,
+        589815
+      ]
+    },
+    {
+      "source_offset": 3075,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3080,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 3111,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3116,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 3142,
+      "symbol": "MIDI_AllNotesOff_",
+      "value": [
+        1,
+        509000
+      ]
+    },
+    {
+      "source_offset": 3154,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 3162,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 3190,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 3204,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 3218,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 3235,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 3252,
+      "symbol": "_MIDI_SendControlChange_",
+      "value": [
+        1,
+        508872
+      ]
+    },
+    {
+      "source_offset": 3264,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3281,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3286,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 3308,
+      "symbol": "_Reset",
+      "value": [
+        3,
+        60004
+      ]
+    },
+    {
+      "source_offset": 3325,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3361,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3369,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 3386,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 3397,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3402,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 3423,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 3428,
+      "symbol": "_MIDI_SetChannelVolume_",
+      "value": [
+        1,
+        509064
+      ]
+    },
+    {
+      "source_offset": 3452,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3484,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 3502,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 3509,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 3517,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 3526,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 3535,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 3547,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 3558,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 3563,
+      "symbol": "MIDI_AllNotesOff_",
+      "value": [
+        1,
+        509000
+      ]
+    },
+    {
+      "source_offset": 3573,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 3581,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3592,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 3600,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 3607,
+      "symbol": "TS_Terminate_",
+      "value": [
+        1,
+        476236
+      ]
+    },
+    {
+      "source_offset": 3613,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 3619,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 3625,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 3630,
+      "symbol": "MIDI_Reset_",
+      "value": [
+        1,
+        509376
+      ]
+    },
+    {
+      "source_offset": 3635,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 3640,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3655,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 3660,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 3665,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 3670,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 3675,
+      "symbol": "USRHOOKS_FreeMem_",
+      "value": [
+        1,
+        282272
+      ]
+    },
+    {
+      "source_offset": 3682,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 3687,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 3692,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 3697,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 3702,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 3707,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 3712,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 3734,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 3742,
+      "symbol": "MIDI_StopSong_",
+      "value": [
+        1,
+        509828
+      ]
+    },
+    {
+      "source_offset": 3748,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 3754,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 3892,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 3920,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 3930,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 3959,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 4000,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 4007,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4012,
+      "symbol": "USRHOOKS_GetMem_",
+      "value": [
+        1,
+        282240
+      ]
+    },
+    {
+      "source_offset": 4035,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 4040,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4045,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 4054,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4059,
+      "symbol": "USRHOOKS_FreeMem_",
+      "value": [
+        1,
+        282272
+      ]
+    },
+    {
+      "source_offset": 4072,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4078,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 4084,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 4097,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 4103,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4132,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 4137,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4142,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 4147,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4154,
+      "symbol": "USRHOOKS_FreeMem_",
+      "value": [
+        1,
+        282272
+      ]
+    },
+    {
+      "source_offset": 4165,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4171,
+      "symbol": "__MIDI_TrackMemSize",
+      "value": [
+        3,
+        1780656
+      ]
+    },
+    {
+      "source_offset": 4231,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 4245,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 4250,
+      "symbol": "_MIDI_InitEMIDI_",
+      "value": [
+        1,
+        512252
+      ]
+    },
+    {
+      "source_offset": 4255,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 4266,
+      "symbol": "MIDI_LoadTimbres_",
+      "value": [
+        1,
+        513852
+      ]
+    },
+    {
+      "source_offset": 4271,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 4277,
+      "symbol": "_Reset",
+      "value": [
+        3,
+        60004
+      ]
+    },
+    {
+      "source_offset": 4285,
+      "symbol": "MIDI_Reset_",
+      "value": [
+        1,
+        509376
+      ]
+    },
+    {
+      "source_offset": 4300,
+      "symbol": "_MIDI_ServiceRoutine_",
+      "value": [
+        1,
+        508036
+      ]
+    },
+    {
+      "source_offset": 4310,
+      "symbol": "_Reset",
+      "value": [
+        3,
+        60004
+      ]
+    },
+    {
+      "source_offset": 4315,
+      "symbol": "TS_ScheduleTask_",
+      "value": [
+        1,
+        475972
+      ]
+    },
+    {
+      "source_offset": 4322,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 4333,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 4338,
+      "symbol": "_MIDI_Tempo",
+      "value": [
+        3,
+        60008
+      ]
+    },
+    {
+      "source_offset": 4379,
+      "symbol": "TS_SetTaskRate_",
+      "value": [
+        1,
+        476408
+      ]
+    },
+    {
+      "source_offset": 4401,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 4406,
+      "symbol": "TS_Dispatch_",
+      "value": [
+        1,
+        476348
+      ]
+    },
+    {
+      "source_offset": 4412,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 4418,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 4436,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 4449,
+      "symbol": "_MIDI_Tempo",
+      "value": [
+        3,
+        60008
+      ]
+    },
+    {
+      "source_offset": 4462,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 4477,
+      "symbol": "TS_SetTaskRate_",
+      "value": [
+        1,
+        476408
+      ]
+    },
+    {
+      "source_offset": 4494,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 4505,
+      "symbol": "_MIDI_Tempo",
+      "value": [
+        3,
+        60008
+      ]
+    },
+    {
+      "source_offset": 4512,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4516,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4520,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4524,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4528,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4532,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4536,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4553,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 4561,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 4656,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 4668,
+      "symbol": "_MIDI_MetaEvent_",
+      "value": [
+        1,
+        506728
+      ]
+    },
+    {
+      "source_offset": 4682,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 4732,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4760,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4787,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 4805,
+      "symbol": "__MIDI_RerouteFunctions",
+      "value": [
+        3,
+        59836
+      ]
+    },
+    {
+      "source_offset": 4819,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 4850,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 4855,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 4885,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 4912,
+      "symbol": "_MIDI_InterpretControllerInfo_",
+      "value": [
+        1,
+        507064
+      ]
+    },
+    {
+      "source_offset": 4922,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 4935,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 4967,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 4980,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 5003,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 5016,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 5042,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 5059,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 5092,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 5104,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 5109,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 5115,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 5121,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5127,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 5137,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 5143,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 5149,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5158,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 5164,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5170,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5179,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5185,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5195,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 5200,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5212,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 5221,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5227,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 5255,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 5273,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 5278,
+      "symbol": "MIDI_AllNotesOff_",
+      "value": [
+        1,
+        509000
+      ]
+    },
+    {
+      "source_offset": 5284,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 5291,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 5296,
+      "symbol": "MIDI_Reset_",
+      "value": [
+        1,
+        509376
+      ]
+    },
+    {
+      "source_offset": 5302,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 5309,
+      "symbol": "_MIDI_ProcessNextTick_",
+      "value": [
+        1,
+        510780
+      ]
+    },
+    {
+      "source_offset": 5319,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 5327,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 5333,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 5341,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 5346,
+      "symbol": "MIDI_SetVolume_",
+      "value": [
+        1,
+        509560
+      ]
+    },
+    {
+      "source_offset": 5352,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 5361,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 5385,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 5403,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 5408,
+      "symbol": "MIDI_AllNotesOff_",
+      "value": [
+        1,
+        509000
+      ]
+    },
+    {
+      "source_offset": 5450,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 5462,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 5467,
+      "symbol": "MIDI_Reset_",
+      "value": [
+        1,
+        509376
+      ]
+    },
+    {
+      "source_offset": 5475,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 5482,
+      "symbol": "_MIDI_ProcessNextTick_",
+      "value": [
+        1,
+        510780
+      ]
+    },
+    {
+      "source_offset": 5492,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 5499,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 5505,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 5513,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 5518,
+      "symbol": "MIDI_SetVolume_",
+      "value": [
+        1,
+        509560
+      ]
+    },
+    {
+      "source_offset": 5524,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 5533,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 5554,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 5571,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 5576,
+      "symbol": "MIDI_AllNotesOff_",
+      "value": [
+        1,
+        509000
+      ]
+    },
+    {
+      "source_offset": 5587,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5603,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5610,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 5626,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 5631,
+      "symbol": "MIDI_Reset_",
+      "value": [
+        1,
+        509376
+      ]
+    },
+    {
+      "source_offset": 5638,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5644,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5654,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 5668,
+      "symbol": "_MIDI_ProcessNextTick_",
+      "value": [
+        1,
+        510780
+      ]
+    },
+    {
+      "source_offset": 5678,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 5685,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 5691,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 5699,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 5704,
+      "symbol": "MIDI_SetVolume_",
+      "value": [
+        1,
+        509560
+      ]
+    },
+    {
+      "source_offset": 5710,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 5719,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 5739,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 5763,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 5794,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 5804,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 5812,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 5820,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 5839,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 5863,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 5900,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 5911,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 5919,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 5932,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5936,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5940,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5944,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5948,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5952,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5956,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5960,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5964,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5968,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5972,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5976,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5980,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5984,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5988,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5992,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 5996,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6000,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6004,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6008,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6026,
+      "symbol": "_MUSIC_SoundDevice",
+      "value": [
+        3,
+        59712
+      ]
+    },
+    {
+      "source_offset": 6042,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6126,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 6133,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 6138,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 6143,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 6148,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 6156,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 6162,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 6226,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 6244,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6250,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6256,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 6261,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 6267,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 6287,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 6293,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 6298,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 6305,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6314,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 6319,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 6335,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 6340,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 6346,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 6352,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6362,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 6368,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 6374,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6380,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6389,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6395,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6401,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6410,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6416,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6426,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 6431,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6443,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 6452,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6458,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 6547,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 6559,
+      "symbol": "_MIDI_MetaEvent_",
+      "value": [
+        1,
+        506728
+      ]
+    },
+    {
+      "source_offset": 6577,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 6594,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 6599,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 6605,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 6614,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 6620,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6626,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 6633,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6639,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6649,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6654,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6660,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6667,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6674,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6679,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6688,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6694,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 6708,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 6715,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6721,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 6775,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6851,
+      "segment": 1,
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 6887,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 6895,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 6904,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 6914,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 6924,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 6934,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 6944,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 6954,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 7176,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 7186,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 7197,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7209,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7221,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 7233,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 7245,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 7257,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 7272,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 7288,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 7295,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 7300,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 7305,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 7311,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7320,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 7326,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 7332,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7342,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 7347,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 7353,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7360,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7367,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7372,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7381,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7387,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 7401,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 7408,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7414,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 7448,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 7453,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 7467,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 7472,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7478,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7489,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 7499,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 7505,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 7515,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 7529,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 7534,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 7539,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 7544,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 7549,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 7554,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 7566,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 7598,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 7625,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 7633,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 7707,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 7802,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 7840,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 7872,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 7900,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 7925,
+      "symbol": "_MIDI_ReadDelta_",
+      "value": [
+        1,
+        506344
+      ]
+    },
+    {
+      "source_offset": 7942,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 7965,
+      "symbol": "_MIDI_ResetTracks_",
+      "value": [
+        1,
+        506412
+      ]
+    },
+    {
+      "source_offset": 7986,
+      "symbol": "MIDI_LockEnd_",
+      "value": [
+        1,
+        514220
+      ]
+    },
+    {
+      "source_offset": 7991,
+      "symbol": "_MIDI_ReadNumber_",
+      "value": [
+        1,
+        506304
+      ]
+    },
+    {
+      "source_offset": 7996,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 8006,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 8011,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8021,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 8026,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8036,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 8041,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8051,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 8056,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8066,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 8071,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8081,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 8086,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8096,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 8101,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8111,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 8116,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8126,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 8131,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8141,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 8146,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8156,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 8161,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8171,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 8176,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8186,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 8191,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8201,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 8206,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8216,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 8221,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8231,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 8236,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8246,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 8251,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8261,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 8266,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8276,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 8281,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8291,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 8296,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8306,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 8311,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8321,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 8326,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8336,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 8341,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8351,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 8356,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8366,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 8371,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8381,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 8386,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8396,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 8401,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8411,
+      "symbol": "_MIDI_Tempo",
+      "value": [
+        3,
+        60008
+      ]
+    },
+    {
+      "source_offset": 8416,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 8427,
+      "symbol": "MIDI_LockEnd_",
+      "value": [
+        1,
+        514220
+      ]
+    },
+    {
+      "source_offset": 8432,
+      "symbol": "_MIDI_ReadNumber_",
+      "value": [
+        1,
+        506304
+      ]
+    },
+    {
+      "source_offset": 8437,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 8449,
+      "symbol": "__MIDI_CommandLengths",
+      "value": [
+        1,
+        506240
+      ]
+    },
+    {
+      "source_offset": 8454,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8466,
+      "symbol": "__MIDI_TrackPtr",
+      "value": [
+        3,
+        59900
+      ]
+    },
+    {
+      "source_offset": 8471,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8483,
+      "symbol": "__MIDI_NumTracks",
+      "value": [
+        3,
+        1780660
+      ]
+    },
+    {
+      "source_offset": 8488,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8500,
+      "symbol": "__MIDI_SongActive",
+      "value": [
+        3,
+        59904
+      ]
+    },
+    {
+      "source_offset": 8505,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8517,
+      "symbol": "__MIDI_SongLoaded",
+      "value": [
+        3,
+        59908
+      ]
+    },
+    {
+      "source_offset": 8522,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8534,
+      "symbol": "__MIDI_Loop",
+      "value": [
+        3,
+        59912
+      ]
+    },
+    {
+      "source_offset": 8539,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8551,
+      "symbol": "__MIDI_PlayRoutine",
+      "value": [
+        3,
+        59916
+      ]
+    },
+    {
+      "source_offset": 8556,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8568,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 8573,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8585,
+      "symbol": "__MIDI_ActiveTracks",
+      "value": [
+        3,
+        1780616
+      ]
+    },
+    {
+      "source_offset": 8590,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8602,
+      "symbol": "__MIDI_TotalVolume",
+      "value": [
+        3,
+        59932
+      ]
+    },
+    {
+      "source_offset": 8607,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8619,
+      "symbol": "__MIDI_ChannelVolume",
+      "value": [
+        3,
+        1780412
+      ]
+    },
+    {
+      "source_offset": 8624,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8636,
+      "symbol": "__MIDI_Funcs",
+      "value": [
+        3,
+        60000
+      ]
+    },
+    {
+      "source_offset": 8641,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8653,
+      "symbol": "__MIDI_PositionInTicks",
+      "value": [
+        3,
+        1780632
+      ]
+    },
+    {
+      "source_offset": 8658,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8670,
+      "symbol": "__MIDI_Division",
+      "value": [
+        3,
+        1780640
+      ]
+    },
+    {
+      "source_offset": 8675,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8687,
+      "symbol": "__MIDI_Tick",
+      "value": [
+        3,
+        59920
+      ]
+    },
+    {
+      "source_offset": 8692,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8704,
+      "symbol": "__MIDI_Beat",
+      "value": [
+        3,
+        59924
+      ]
+    },
+    {
+      "source_offset": 8709,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8721,
+      "symbol": "__MIDI_Measure",
+      "value": [
+        3,
+        59928
+      ]
+    },
+    {
+      "source_offset": 8726,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8738,
+      "symbol": "__MIDI_Time",
+      "value": [
+        3,
+        1780604
+      ]
+    },
+    {
+      "source_offset": 8743,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8755,
+      "symbol": "__MIDI_BeatsPerMeasure",
+      "value": [
+        3,
+        1780624
+      ]
+    },
+    {
+      "source_offset": 8760,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8772,
+      "symbol": "__MIDI_TicksPerBeat",
+      "value": [
+        3,
+        1780652
+      ]
+    },
+    {
+      "source_offset": 8777,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8789,
+      "symbol": "__MIDI_TimeBase",
+      "value": [
+        3,
+        1780628
+      ]
+    },
+    {
+      "source_offset": 8794,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8806,
+      "symbol": "__MIDI_FPSecondsPerTick",
+      "value": [
+        3,
+        1780648
+      ]
+    },
+    {
+      "source_offset": 8811,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8823,
+      "symbol": "__MIDI_Context",
+      "value": [
+        3,
+        1780644
+      ]
+    },
+    {
+      "source_offset": 8828,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8840,
+      "symbol": "__MIDI_TotalTime",
+      "value": [
+        3,
+        1780620
+      ]
+    },
+    {
+      "source_offset": 8845,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8857,
+      "symbol": "__MIDI_TotalTicks",
+      "value": [
+        3,
+        1780636
+      ]
+    },
+    {
+      "source_offset": 8862,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8874,
+      "symbol": "__MIDI_TotalBeats",
+      "value": [
+        3,
+        1780608
+      ]
+    },
+    {
+      "source_offset": 8879,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8891,
+      "symbol": "__MIDI_TotalMeasures",
+      "value": [
+        3,
+        1780612
+      ]
+    },
+    {
+      "source_offset": 8896,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8908,
+      "symbol": "_MIDI_Tempo",
+      "value": [
+        3,
+        60008
+      ]
+    },
+    {
+      "source_offset": 8913,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 8922,
+      "symbol": "MIDI_UnlockMemory_",
+      "value": [
+        1,
+        514224
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 9115,
+    "zero_fill_bytes": 252,
+    "verified_fixups": 650,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 506240,
+        "compared_bytes": 8939,
+        "verified_fixups": 650,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 59836,
+        "compared_bytes": 176,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1780412,
+        "compared_bytes": 252,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "TS_ScheduleTask_": [
+        1,
+        475972
+      ],
+      "TS_Dispatch_": [
+        1,
+        476348
+      ],
+      "TS_Terminate_": [
+        1,
+        476236
+      ],
+      "__MIDI_CommandLengths": [
+        1,
+        506240
+      ],
+      "_MIDI_ReadNumber_": [
+        1,
+        506304
+      ],
+      "_MIDI_ReadDelta_": [
+        1,
+        506344
+      ],
+      "_MIDI_ResetTracks_": [
+        1,
+        506412
+      ],
+      "_MIDI_AdvanceTick_": [
+        1,
+        506600
+      ],
+      "_MIDI_SysEx_": [
+        1,
+        506712
+      ],
+      "_MIDI_MetaEvent_": [
+        1,
+        506728
+      ],
+      "_MIDI_InterpretControllerInfo_": [
+        1,
+        507064
+      ],
+      "_MIDI_ServiceRoutine_": [
+        1,
+        508036
+      ],
+      "_MIDI_SendControlChange_": [
+        1,
+        508872
+      ],
+      "MIDI_RerouteMidiChannel_": [
+        1,
+        508980
+      ],
+      "MIDI_AllNotesOff_": [
+        1,
+        509000
+      ],
+      "_MIDI_SetChannelVolume_": [
+        1,
+        509064
+      ],
+      "MIDI_SetUserChannelVolume_": [
+        1,
+        509228
+      ],
+      "MIDI_ResetUserChannelVolume_": [
+        1,
+        509284
+      ],
+      "_MIDI_SendChannelVolumes_": [
+        1,
+        509340
+      ],
+      "MIDI_Reset_": [
+        1,
+        509376
+      ],
+      "MIDI_SetVolume_": [
+        1,
+        509560
+      ],
+      "MIDI_GetVolume_": [
+        1,
+        509688
+      ],
+      "MIDI_SetContext_": [
+        1,
+        509732
+      ],
+      "MIDI_GetContext_": [
+        1,
+        509748
+      ],
+      "MIDI_SetLoopFlag_": [
+        1,
+        509756
+      ],
+      "MIDI_ContinueSong_": [
+        1,
+        509764
+      ],
+      "MIDI_PauseSong_": [
+        1,
+        509784
+      ],
+      "MIDI_SongPlaying_": [
+        1,
+        509812
+      ],
+      "MIDI_SetMidiFuncs_": [
+        1,
+        509820
+      ],
+      "MIDI_StopSong_": [
+        1,
+        509828
+      ],
+      "MIDI_PlaySong_": [
+        1,
+        509960
+      ],
+      "MIDI_SetTempo_": [
+        1,
+        510672
+      ],
+      "MIDI_GetTempo_": [
+        1,
+        510744
+      ],
+      "_MIDI_ProcessNextTick_": [
+        1,
+        510780
+      ],
+      "MIDI_SetSongTick_": [
+        1,
+        511488
+      ],
+      "MIDI_SetSongTime_": [
+        1,
+        511616
+      ],
+      "MIDI_SetSongPosition_": [
+        1,
+        511788
+      ],
+      "MIDI_GetSongPosition_": [
+        1,
+        511972
+      ],
+      "MIDI_GetSongLength_": [
+        1,
+        512072
+      ],
+      "_MIDI_InitEMIDI_": [
+        1,
+        512252
+      ],
+      "MIDI_LoadTimbres_": [
+        1,
+        513852
+      ],
+      "MIDI_LockEnd_": [
+        1,
+        514220
+      ],
+      "MIDI_UnlockMemory_": [
+        1,
+        514224
+      ],
+      "MIDI_LockMemory_": [
+        1,
+        514664
+      ],
+      "__MIDI_Division": [
+        3,
+        1780640
+      ],
+      "__MIDI_NumTracks": [
+        3,
+        1780660
+      ],
+      "__MIDI_Tick": [
+        3,
+        59920
+      ],
+      "__MIDI_Beat": [
+        3,
+        59924
+      ],
+      "__MIDI_Measure": [
+        3,
+        59928
+      ],
+      "__MIDI_Time": [
+        3,
+        1780604
+      ],
+      "__MIDI_BeatsPerMeasure": [
+        3,
+        1780624
+      ],
+      "__MIDI_TicksPerBeat": [
+        3,
+        1780652
+      ],
+      "__MIDI_TimeBase": [
+        3,
+        1780628
+      ],
+      "__MIDI_PositionInTicks": [
+        3,
+        1780632
+      ],
+      "__MIDI_ActiveTracks": [
+        3,
+        1780616
+      ],
+      "__MIDI_Context": [
+        3,
+        1780644
+      ],
+      "__MIDI_TrackPtr": [
+        3,
+        59900
+      ],
+      "__MIDI_FPSecondsPerTick": [
+        3,
+        1780648
+      ],
+      "_MIDI_Tempo": [
+        3,
+        60008
+      ],
+      "__MIDI_PlayRoutine": [
+        3,
+        59916
+      ],
+      "TS_SetTaskRate_": [
+        1,
+        476408
+      ],
+      "__MIDI_Funcs": [
+        3,
+        60000
+      ],
+      "_MIDI_PatchMap": [
+        3,
+        1780476
+      ],
+      "__MIDI_SongActive": [
+        3,
+        59904
+      ],
+      "__MIDI_RerouteFunctions": [
+        3,
+        59836
+      ],
+      "__MIDI_Loop": [
+        3,
+        59912
+      ],
+      "__MIDI_ChannelVolume": [
+        3,
+        1780412
+      ],
+      "__MIDI_TotalVolume": [
+        3,
+        59932
+      ],
+      "__MIDI_UserChannelVolume": [
+        3,
+        59936
+      ],
+      "__STOSD": [
+        1,
+        589815
+      ],
+      "clock_": [
+        1,
+        588240
+      ],
+      "_Reset": [
+        3,
+        60004
+      ],
+      "__MIDI_SongLoaded": [
+        3,
+        59908
+      ],
+      "__MIDI_TrackMemSize": [
+        3,
+        1780656
+      ],
+      "DPMI_UnlockMemory_": [
+        1,
+        527156
+      ],
+      "USRHOOKS_FreeMem_": [
+        1,
+        282272
+      ],
+      "__MIDI_TotalTime": [
+        3,
+        1780620
+      ],
+      "__MIDI_TotalTicks": [
+        3,
+        1780636
+      ],
+      "__MIDI_TotalBeats": [
+        3,
+        1780608
+      ],
+      "__MIDI_TotalMeasures": [
+        3,
+        1780612
+      ],
+      "USRHOOKS_GetMem_": [
+        1,
+        282240
+      ],
+      "DPMI_LockMemory_": [
+        1,
+        527064
+      ],
+      "_MUSIC_SoundDevice": [
+        3,
+        59712
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "DPMI_UnlockMemoryRegion_": [
+        1,
+        527152
+      ],
+      "DPMI_LockMemoryRegion_": [
+        1,
+        527060
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "TS_ScheduleTask_": [
+      1,
+      475972
+    ],
+    "TS_Dispatch_": [
+      1,
+      476348
+    ],
+    "TS_Terminate_": [
+      1,
+      476236
+    ]
+  },
+  "anchor_evidence": "evidence/task_man-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

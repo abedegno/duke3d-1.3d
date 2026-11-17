@@ -1,0 +1,62 @@
+{
+  "kind": "ROOT normal source-only preservation wrapper; independent review pending",
+  "source_assembly_unchanged": true,
+  "owned_sha256": {
+    "Makefile": "a07562f0d367eb55575d4942f71845915212a878a936951970903727a7c5a087",
+    "candidates/unidentified_data.json": "82fdbf9b98f213a5e5262b7fde9292948d0e92b3308d103f0726384d37359289",
+    "src/game/unidentified13d_data.md": "551658c7dd00bd692affa9b48b00c71d94b77107ed49ccf4615a0ed3ce5e7261",
+    "tests/test_unidentified_data.py": "e158599ddca00ac0487d291f319f2779459c711c3c9525283aa3594de97294b5",
+    "tools/build_unidentified_data.py": "7ad8e8b34539ac9a3eb5948db90c82afeaa9676120054bf4ecd468c8cfa25cf6"
+  },
+  "test_runs": [
+    {
+      "tests": 8,
+      "seconds": 0.565,
+      "result": "PASS"
+    },
+    {
+      "optimized": true,
+      "tests": 8,
+      "seconds": 0.561,
+      "result": "PASS"
+    }
+  ],
+  "make_targets_pass": [
+    "source-unidentified-data",
+    "proof-unidentified-data"
+  ],
+  "object_sha256": "de7bb98f3eab9c2974c73c98c0e65e03fff96fa0b50aa8d7ed16631a84516b33",
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 96,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 0,
+    "segments": [
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 30820,
+        "compared_bytes": 96,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {},
+    "local_symbols": {},
+    "full_executable_rebuilt": false
+  },
+  "known_incoming_loader_fields": [],
+  "independent_review": "task595 pending",
+  "historical_source_credit_added": 0,
+  "complete_module_credit_added": 0,
+  "whole_executable_identical": false,
+  "artifact_sha256": {
+    "build/task594-data96-normal/artifact-manifest.json": "01ff0d9ad3cf7245d041b9cf116aa4e6acb7eef2f6290f7017d7c2fb659f509f",
+    "build/task594-data96-normal/task-594-unidentified-data-normal.md": "8de57daf58414d2dd23750aebe1c9ada2f954cb9da5b99afa05b22470a97f027",
+    "build/task594-data96-normal/red.log": "2f0c012e6d6022d41649d6241ddbdb11ffac8538f030fbcc08c2cf57b2d9d02c",
+    "build/task594-data96-normal/green-first.log": "2e774ec98dbffca9cb933faf34777c9bcedb0ba714317782b2094a38e02d49d4",
+    "build/task594-data96-normal/optimized.log": "d6056eadd004b22a48785b74a6ebcdb5715f2c3da291e363ba1d47688e34c241",
+    "build/task594-data96-normal/make.log": "4f85b99ec7105112c83308f2adf712a7df3706c08cc6566aab00173b36df4021"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "goal": "Recover Duke Nukem 1.3D source with byte-identical complete rebuild and readable source",
+  "full_goal_achieved": true,
+  "complete_target_bytes": 1179131,
+  "complete_target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "different_bytes": 0,
+  "reproducible_command": "make complete-source-game-residue-preparation VENDOR_PREFIX=build/assets/dos4gw/vendor-prefix.bin",
+  "source_build": "121 fresh owned source inputs; original declared stock runtime and vendor prefix; no target game payload or research object as production input",
+  "source_readability": "docs/source-readability.md; named emitting sources and C counterparts; further C lowering is optional",
+  "required_review_evidence": [
+    "evidence/native-layout-review660.json",
+    "evidence/complete-preparation-review671.json",
+    "evidence/exact-cold670.json",
+    "evidence/root-exact672.json"
+  ],
+  "unidentified_data": "Explicitly declared and qualified, with no historical meaning or source credit inferred. Seven-byte variant is opt-in; adoption question is optional.",
+  "scope_not_claimed": "Unique original C spelling, fully C-only lowering, permission to publish proprietary vendor components, or changing legacy defaults."
+}

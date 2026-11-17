@@ -1,0 +1,2755 @@
+{
+  "kind": "complete GUSWAVE object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/guswave.c",
+  "source_sha256": "e998907607dbbded90d525fd8d6e16e1509a528b4b103dd6e37c3cd5a4e94e09",
+  "headers_sha256": {
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "descriptor": "modules/guswave.json",
+  "descriptor_sha256": "6185e9cba643a254804576f434d4f10303d31285c8efc35b5a5508bcb810ea40",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "placements": {
+    "1": [
+      1,
+      516336
+    ],
+    "4": [
+      3,
+      60088
+    ],
+    "6": [
+      3,
+      17796
+    ],
+    "5": [
+      3,
+      1780728
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 128,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 132,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 136,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 140,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 144,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 148,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 152,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 156,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 160,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 164,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 168,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 184,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 189,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 205,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 221,
+      "symbol": "GUS_ErrorString_",
+      "value": [
+        1,
+        523362
+      ]
+    },
+    {
+      "source_offset": 226,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 232,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 238,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 244,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 250,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 256,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 262,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 268,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 278,
+      "symbol": "__GETDS",
+      "value": [
+        1,
+        586216
+      ]
+    },
+    {
+      "source_offset": 294,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 312,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 365,
+      "symbol": "_GUS_Silence8",
+      "value": [
+        3,
+        60120
+      ]
+    },
+    {
+      "source_offset": 373,
+      "symbol": "_GUS_Silence16",
+      "value": [
+        3,
+        61144
+      ]
+    },
+    {
+      "source_offset": 409,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 417,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 434,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 439,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 448,
+      "symbol": "LL_RemoveNode_",
+      "value": [
+        1,
+        515224
+      ]
+    },
+    {
+      "source_offset": 460,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 465,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 472,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 478,
+      "symbol": "_GUSWAVE_CallBackFunc",
+      "value": [
+        3,
+        60100
+      ]
+    },
+    {
+      "source_offset": 490,
+      "symbol": "_GUSWAVE_CallBackFunc",
+      "value": [
+        3,
+        60100
+      ]
+    },
+    {
+      "source_offset": 502,
+      "symbol": "__GETDS",
+      "value": [
+        1,
+        586216
+      ]
+    },
+    {
+      "source_offset": 521,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 529,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 534,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 544,
+      "symbol": "DB_PrintNum_",
+      "value": [
+        1,
+        528560
+      ]
+    },
+    {
+      "source_offset": 549,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 554,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 576,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 582,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 587,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 597,
+      "symbol": "DB_PrintNum_",
+      "value": [
+        1,
+        528560
+      ]
+    },
+    {
+      "source_offset": 602,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 607,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 627,
+      "symbol": "GUSWAVE_GetNextVOCBlock_",
+      "value": [
+        1,
+        518608
+      ]
+    },
+    {
+      "source_offset": 638,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 643,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 654,
+      "symbol": "DB_PrintNum_",
+      "value": [
+        1,
+        528560
+      ]
+    },
+    {
+      "source_offset": 659,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 664,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 675,
+      "symbol": "DB_PrintNum_",
+      "value": [
+        1,
+        528560
+      ]
+    },
+    {
+      "source_offset": 680,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 685,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 712,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 719,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 726,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 731,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 756,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 761,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 767,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 772,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 782,
+      "symbol": "DB_PrintNum_",
+      "value": [
+        1,
+        528560
+      ]
+    },
+    {
+      "source_offset": 787,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 792,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 804,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 809,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 825,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 830,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 839,
+      "symbol": "LL_RemoveNode_",
+      "value": [
+        1,
+        515224
+      ]
+    },
+    {
+      "source_offset": 851,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 856,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 863,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 870,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 875,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 884,
+      "symbol": "_GUSWAVE_CallBackFunc",
+      "value": [
+        3,
+        60100
+      ]
+    },
+    {
+      "source_offset": 896,
+      "symbol": "_GUSWAVE_CallBackFunc",
+      "value": [
+        3,
+        60100
+      ]
+    },
+    {
+      "source_offset": 917,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 944,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 961,
+      "symbol": "GUSWAVE_GetVoice_",
+      "value": [
+        1,
+        517244
+      ]
+    },
+    {
+      "source_offset": 985,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1016,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1037,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 1046,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 1051,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 1082,
+      "symbol": "GUSWAVE_GetVoice_",
+      "value": [
+        1,
+        517244
+      ]
+    },
+    {
+      "source_offset": 1103,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 1109,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 1118,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 1123,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 1146,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 1163,
+      "symbol": "gf1_stop_digital_",
+      "value": [
+        1,
+        460896
+      ]
+    },
+    {
+      "source_offset": 1174,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 1179,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 1193,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 1198,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 1209,
+      "symbol": "gf1_stop_digital_",
+      "value": [
+        1,
+        460896
+      ]
+    },
+    {
+      "source_offset": 1216,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 1221,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 1244,
+      "symbol": "_GUSWAVE_Installed",
+      "value": [
+        3,
+        60096
+      ]
+    },
+    {
+      "source_offset": 1257,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 1265,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 1270,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 1282,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1298,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1307,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1312,
+      "symbol": "gf1_stop_digital_",
+      "value": [
+        1,
+        460896
+      ]
+    },
+    {
+      "source_offset": 1318,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1339,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 1345,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 1357,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1367,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 1373,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 1379,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 1385,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 1399,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1405,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1413,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1423,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 1429,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 1436,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 1442,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1486,
+      "symbol": "GUSWAVE_GetVoice_",
+      "value": [
+        1,
+        517244
+      ]
+    },
+    {
+      "source_offset": 1512,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 1530,
+      "symbol": "PITCH_GetScale_",
+      "value": [
+        1,
+        483824
+      ]
+    },
+    {
+      "source_offset": 1559,
+      "symbol": "gf1_dig_set_freq_",
+      "value": [
+        1,
+        460828
+      ]
+    },
+    {
+      "source_offset": 1593,
+      "symbol": "GUSWAVE_GetVoice_",
+      "value": [
+        1,
+        517244
+      ]
+    },
+    {
+      "source_offset": 1619,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 1639,
+      "symbol": "_GUSWAVE_PanTable",
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 1645,
+      "symbol": "_GUSWAVE_SwapLeftRight",
+      "value": [
+        3,
+        60108
+      ]
+    },
+    {
+      "source_offset": 1712,
+      "symbol": "gf1_dig_set_pan_",
+      "value": [
+        1,
+        460540
+      ]
+    },
+    {
+      "source_offset": 1718,
+      "symbol": "_GUSWAVE_Volume",
+      "value": [
+        3,
+        60104
+      ]
+    },
+    {
+      "source_offset": 1739,
+      "symbol": "gf1_dig_set_vol_",
+      "value": [
+        1,
+        460444
+      ]
+    },
+    {
+      "source_offset": 1801,
+      "symbol": "_GUSWAVE_Volume",
+      "value": [
+        3,
+        60104
+      ]
+    },
+    {
+      "source_offset": 1807,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1821,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1836,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1843,
+      "symbol": "_GUSWAVE_Volume",
+      "value": [
+        3,
+        60104
+      ]
+    },
+    {
+      "source_offset": 1864,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 1869,
+      "symbol": "gf1_dig_set_vol_",
+      "value": [
+        1,
+        460444
+      ]
+    },
+    {
+      "source_offset": 1875,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1901,
+      "symbol": "_GUSWAVE_Volume",
+      "value": [
+        3,
+        60104
+      ]
+    },
+    {
+      "source_offset": 1940,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 1947,
+      "symbol": "GUSWAVE_VoicesPlaying_",
+      "value": [
+        1,
+        517312
+      ]
+    },
+    {
+      "source_offset": 1953,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 1965,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 1977,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 1995,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 2016,
+      "symbol": "GUSWAVE_Kill_",
+      "value": [
+        1,
+        517404
+      ]
+    },
+    {
+      "source_offset": 2025,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 2038,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 2043,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 2052,
+      "symbol": "LL_RemoveNode_",
+      "value": [
+        1,
+        515224
+      ]
+    },
+    {
+      "source_offset": 2071,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 2089,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 2094,
+      "symbol": "GUSWAVE_GetVoice_",
+      "value": [
+        1,
+        517244
+      ]
+    },
+    {
+      "source_offset": 2100,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 2124,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 2130,
+      "symbol": "_GUSWAVE_VoiceHandle",
+      "value": [
+        3,
+        60088
+      ]
+    },
+    {
+      "source_offset": 2151,
+      "symbol": "GUSWAVE_VoicesPlaying_",
+      "value": [
+        1,
+        517312
+      ]
+    },
+    {
+      "source_offset": 2157,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 2179,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 2232,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2236,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2240,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2244,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2248,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2252,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2256,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2260,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2264,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2268,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 2406,
+      "segment": 1,
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 3121,
+      "symbol": "_GUSWAVE_SwapLeftRight",
+      "value": [
+        3,
+        60108
+      ]
+    },
+    {
+      "source_offset": 3128,
+      "symbol": "_GUSWAVE_PanTable",
+      "value": [
+        1,
+        516336
+      ]
+    },
+    {
+      "source_offset": 3178,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 3186,
+      "symbol": "GUSWAVE_CallBack_",
+      "value": [
+        1,
+        516612
+      ]
+    },
+    {
+      "source_offset": 3193,
+      "symbol": "GUSWAVE_DebugCallBack_",
+      "value": [
+        1,
+        516836
+      ]
+    },
+    {
+      "source_offset": 3199,
+      "symbol": "_GUS_HoldBuffer",
+      "value": [
+        3,
+        1796144
+      ]
+    },
+    {
+      "source_offset": 3232,
+      "symbol": "_GUSWAVE_Volume",
+      "value": [
+        3,
+        60104
+      ]
+    },
+    {
+      "source_offset": 3261,
+      "symbol": "gf1_play_digital_",
+      "value": [
+        1,
+        463572
+      ]
+    },
+    {
+      "source_offset": 3274,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 3282,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3287,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 3305,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 3310,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 3319,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 3339,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3370,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 3375,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 3382,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 3389,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 3400,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 3406,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 3415,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3420,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 3467,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3472,
+      "symbol": "strncmp_",
+      "value": [
+        1,
+        587989
+      ]
+    },
+    {
+      "source_offset": 3492,
+      "symbol": "_MV_ErrorCode",
+      "value": [
+        3,
+        59816
+      ]
+    },
+    {
+      "source_offset": 3497,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3514,
+      "symbol": "GUSWAVE_AllocVoice_",
+      "value": [
+        1,
+        518268
+      ]
+    },
+    {
+      "source_offset": 3526,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 3534,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3539,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 3558,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3608,
+      "symbol": "PITCH_GetScale_",
+      "value": [
+        1,
+        483824
+      ]
+    },
+    {
+      "source_offset": 3629,
+      "symbol": "GUSWAVE_GetNextVOCBlock_",
+      "value": [
+        1,
+        518608
+      ]
+    },
+    {
+      "source_offset": 3666,
+      "symbol": "GUSWAVE_GetNextVOCBlock_",
+      "value": [
+        1,
+        518608
+      ]
+    },
+    {
+      "source_offset": 3685,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 3690,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 3699,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 3709,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 3717,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3722,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 3746,
+      "symbol": "_MV_ErrorCode",
+      "value": [
+        3,
+        59816
+      ]
+    },
+    {
+      "source_offset": 3752,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3778,
+      "symbol": "GUSWAVE_Play_",
+      "value": [
+        1,
+        519420
+      ]
+    },
+    {
+      "source_offset": 3817,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3822,
+      "symbol": "strncmp_",
+      "value": [
+        1,
+        587989
+      ]
+    },
+    {
+      "source_offset": 3836,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3844,
+      "symbol": "strncmp_",
+      "value": [
+        1,
+        587989
+      ]
+    },
+    {
+      "source_offset": 3858,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 3866,
+      "symbol": "strncmp_",
+      "value": [
+        1,
+        587989
+      ]
+    },
+    {
+      "source_offset": 3886,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3923,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3961,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 3996,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4024,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 4031,
+      "symbol": "strncmp_",
+      "value": [
+        1,
+        587989
+      ]
+    },
+    {
+      "source_offset": 4051,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4069,
+      "symbol": "GUSWAVE_AllocVoice_",
+      "value": [
+        1,
+        518268
+      ]
+    },
+    {
+      "source_offset": 4081,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 4089,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 4094,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 4113,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4140,
+      "symbol": "GUSWAVE_GetNextWAVBlock_",
+      "value": [
+        1,
+        519212
+      ]
+    },
+    {
+      "source_offset": 4273,
+      "symbol": "PITCH_GetScale_",
+      "value": [
+        1,
+        483824
+      ]
+    },
+    {
+      "source_offset": 4311,
+      "symbol": "GUSWAVE_Play_",
+      "value": [
+        1,
+        519420
+      ]
+    },
+    {
+      "source_offset": 4336,
+      "symbol": "GUSWAVE_AllocVoice_",
+      "value": [
+        1,
+        518268
+      ]
+    },
+    {
+      "source_offset": 4348,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 4356,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 4361,
+      "symbol": "DB_printf_",
+      "value": [
+        1,
+        528688
+      ]
+    },
+    {
+      "source_offset": 4380,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4399,
+      "symbol": "GUSWAVE_GetNextDemandFeedBlock_",
+      "value": [
+        1,
+        519300
+      ]
+    },
+    {
+      "source_offset": 4447,
+      "symbol": "_GUS_Silence8",
+      "value": [
+        3,
+        60120
+      ]
+    },
+    {
+      "source_offset": 4454,
+      "symbol": "_GUS_Silence16",
+      "value": [
+        3,
+        61144
+      ]
+    },
+    {
+      "source_offset": 4496,
+      "symbol": "PITCH_GetScale_",
+      "value": [
+        1,
+        483824
+      ]
+    },
+    {
+      "source_offset": 4532,
+      "symbol": "GUSWAVE_Play_",
+      "value": [
+        1,
+        519420
+      ]
+    },
+    {
+      "source_offset": 4545,
+      "symbol": "_GUSWAVE_SwapLeftRight",
+      "value": [
+        3,
+        60108
+      ]
+    },
+    {
+      "source_offset": 4553,
+      "symbol": "_GUSWAVE_SwapLeftRight",
+      "value": [
+        3,
+        60108
+      ]
+    },
+    {
+      "source_offset": 4575,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 4581,
+      "symbol": "_VoiceStatus",
+      "value": [
+        3,
+        1780728
+      ]
+    },
+    {
+      "source_offset": 4599,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 4605,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 4611,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 4617,
+      "symbol": "_VoiceList",
+      "value": [
+        3,
+        1780984
+      ]
+    },
+    {
+      "source_offset": 4633,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4639,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4645,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4651,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4671,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4677,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4683,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4693,
+      "symbol": "gf1_malloc_",
+      "value": [
+        1,
+        469824
+      ]
+    },
+    {
+      "source_offset": 4699,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4705,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4713,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 4724,
+      "symbol": "_GUSMIDI_Installed",
+      "value": [
+        3,
+        62265
+      ]
+    },
+    {
+      "source_offset": 4741,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4753,
+      "symbol": "_GUSWAVE_Voices",
+      "value": [
+        3,
+        1780992
+      ]
+    },
+    {
+      "source_offset": 4763,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 4768,
+      "symbol": "_VoicePool",
+      "value": [
+        3,
+        1781208
+      ]
+    },
+    {
+      "source_offset": 4777,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 4801,
+      "symbol": "_GUSWAVE_CallBackFunc",
+      "value": [
+        3,
+        60100
+      ]
+    },
+    {
+      "source_offset": 4815,
+      "symbol": "_GUSWAVE_Installed",
+      "value": [
+        3,
+        60096
+      ]
+    },
+    {
+      "source_offset": 4823,
+      "symbol": "GUSWAVE_Shutdown_",
+      "value": [
+        1,
+        524046
+      ]
+    },
+    {
+      "source_offset": 4831,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4836,
+      "symbol": "GUS_Init_",
+      "value": [
+        1,
+        523697
+      ]
+    },
+    {
+      "source_offset": 4846,
+      "symbol": "_GUSWAVE_ErrorCode",
+      "value": [
+        3,
+        60116
+      ]
+    },
+    {
+      "source_offset": 4864,
+      "symbol": "_guswave_messages",
+      "value": [
+        3,
+        17796
+      ]
+    },
+    {
+      "source_offset": 4869,
+      "symbol": "USER_CheckParameter_",
+      "value": [
+        1,
+        475120
+      ]
+    },
+    {
+      "source_offset": 4874,
+      "symbol": "_GUS_Debug",
+      "value": [
+        3,
+        60112
+      ]
+    },
+    {
+      "source_offset": 4899,
+      "symbol": "_GUSWAVE_MaxVoices",
+      "value": [
+        3,
+        60092
+      ]
+    },
+    {
+      "source_offset": 4904,
+      "symbol": "GUSWAVE_InitVoices_",
+      "value": [
+        1,
+        520896
+      ]
+    },
+    {
+      "source_offset": 4915,
+      "symbol": "GUS_Shutdown_",
+      "value": [
+        1,
+        523983
+      ]
+    },
+    {
+      "source_offset": 4931,
+      "symbol": "_GUSWAVE_SwapLeftRight",
+      "value": [
+        3,
+        60108
+      ]
+    },
+    {
+      "source_offset": 4936,
+      "symbol": "_GUSWAVE_CallBackFunc",
+      "value": [
+        3,
+        60100
+      ]
+    },
+    {
+      "source_offset": 4942,
+      "symbol": "_GUSWAVE_Installed",
+      "value": [
+        3,
+        60096
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 7943,
+    "zero_fill_bytes": 488,
+    "verified_fixups": 295,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 516336,
+        "compared_bytes": 4950,
+        "verified_fixups": 295,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 60088,
+        "compared_bytes": 2080,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1780728,
+        "compared_bytes": 488,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 17796,
+        "compared_bytes": 913,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "LL_AddNode_": [
+        1,
+        515184
+      ],
+      "LL_RemoveNode_": [
+        1,
+        515224
+      ],
+      "_GUSWAVE_PanTable": [
+        1,
+        516336
+      ],
+      "GUSWAVE_ErrorString_": [
+        1,
+        516508
+      ],
+      "GUSWAVE_CallBack_": [
+        1,
+        516612
+      ],
+      "GUSWAVE_DebugCallBack_": [
+        1,
+        516836
+      ],
+      "GUSWAVE_GetVoice_": [
+        1,
+        517244
+      ],
+      "GUSWAVE_VoicePlaying_": [
+        1,
+        517296
+      ],
+      "GUSWAVE_VoicesPlaying_": [
+        1,
+        517312
+      ],
+      "GUSWAVE_Kill_": [
+        1,
+        517404
+      ],
+      "GUSWAVE_KillAllVoices_": [
+        1,
+        517572
+      ],
+      "GUSWAVE_SetPitch_": [
+        1,
+        517804
+      ],
+      "GUSWAVE_SetPan3D_": [
+        1,
+        517912
+      ],
+      "GUSWAVE_SetVolume_": [
+        1,
+        518092
+      ],
+      "GUSWAVE_GetVolume_": [
+        1,
+        518228
+      ],
+      "GUSWAVE_AllocVoice_": [
+        1,
+        518268
+      ],
+      "GUSWAVE_VoiceAvailable_": [
+        1,
+        518480
+      ],
+      "GUSWAVE_GetNextVOCBlock_": [
+        1,
+        518608
+      ],
+      "GUSWAVE_GetNextWAVBlock_": [
+        1,
+        519212
+      ],
+      "GUSWAVE_GetNextDemandFeedBlock_": [
+        1,
+        519300
+      ],
+      "GUSWAVE_Play_": [
+        1,
+        519420
+      ],
+      "GUSWAVE_PlayVOC_": [
+        1,
+        519776
+      ],
+      "GUSWAVE_PlayWAV_": [
+        1,
+        520128
+      ],
+      "GUSWAVE_StartDemandFeedPlayback_": [
+        1,
+        520660
+      ],
+      "GUSWAVE_SetReverseStereo_": [
+        1,
+        520880
+      ],
+      "GUSWAVE_GetReverseStereo_": [
+        1,
+        520888
+      ],
+      "GUSWAVE_InitVoices_": [
+        1,
+        520896
+      ],
+      "GUSWAVE_SetCallBack_": [
+        1,
+        521136
+      ],
+      "GUSWAVE_Init_": [
+        1,
+        521144
+      ],
+      "_GUSWAVE_ErrorCode": [
+        3,
+        60116
+      ],
+      "_guswave_messages": [
+        3,
+        17796
+      ],
+      "GUS_ErrorString_": [
+        1,
+        523362
+      ],
+      "__GETDS": [
+        1,
+        586216
+      ],
+      "_VoiceStatus": [
+        3,
+        1780728
+      ],
+      "_GUS_Silence8": [
+        3,
+        60120
+      ],
+      "_GUS_Silence16": [
+        3,
+        61144
+      ],
+      "_VoiceList": [
+        3,
+        1780984
+      ],
+      "_VoicePool": [
+        3,
+        1781208
+      ],
+      "_GUSWAVE_CallBackFunc": [
+        3,
+        60100
+      ],
+      "DB_printf_": [
+        1,
+        528688
+      ],
+      "DB_PrintNum_": [
+        1,
+        528560
+      ],
+      "_GUSWAVE_MaxVoices": [
+        3,
+        60092
+      ],
+      "_GUSWAVE_Voices": [
+        3,
+        1780992
+      ],
+      "_GUS_Debug": [
+        3,
+        60112
+      ],
+      "gf1_stop_digital_": [
+        1,
+        460896
+      ],
+      "_GUSWAVE_Installed": [
+        3,
+        60096
+      ],
+      "PITCH_GetScale_": [
+        1,
+        483824
+      ],
+      "gf1_dig_set_freq_": [
+        1,
+        460828
+      ],
+      "_GUSWAVE_SwapLeftRight": [
+        3,
+        60108
+      ],
+      "gf1_dig_set_pan_": [
+        1,
+        460540
+      ],
+      "_GUSWAVE_Volume": [
+        3,
+        60104
+      ],
+      "gf1_dig_set_vol_": [
+        1,
+        460444
+      ],
+      "_GUSWAVE_VoiceHandle": [
+        3,
+        60088
+      ],
+      "_GUS_HoldBuffer": [
+        3,
+        1796144
+      ],
+      "gf1_play_digital_": [
+        1,
+        463572
+      ],
+      "strncmp_": [
+        1,
+        587989
+      ],
+      "_MV_ErrorCode": [
+        3,
+        59816
+      ],
+      "gf1_malloc_": [
+        1,
+        469824
+      ],
+      "_GUSMIDI_Installed": [
+        3,
+        62265
+      ],
+      "GUSWAVE_Shutdown_": [
+        1,
+        524046
+      ],
+      "GUS_Init_": [
+        1,
+        523697
+      ],
+      "USER_CheckParameter_": [
+        1,
+        475120
+      ],
+      "GUS_Shutdown_": [
+        1,
+        523983
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "LL_AddNode_": [
+      1,
+      515184
+    ],
+    "LL_RemoveNode_": [
+      1,
+      515224
+    ]
+  },
+  "anchor_evidence": "evidence/ll_man-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

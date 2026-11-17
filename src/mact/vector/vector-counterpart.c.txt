@@ -1,0 +1,105 @@
+//-------------------------------------------------------------------------
+/*
+Copyright (C) 1996, 2003 - 3D Realms Entertainment
+
+This file is NOT part of Duke Nukem 3D version 1.5 - Atomic Edition
+However, it is either an older version of a file that is, or is
+some test code written during the development of Duke Nukem 3D.
+This file is provided purely for educational interest.
+
+Duke Nukem 3D is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+Prepared for public release: 03/21/2003 - Charlie Wiederhold, 3D Realms
+*/
+//-------------------------------------------------------------------------
+
+/* Authored readable VECTOR reconstruction from released VECTOR.H/TYPES.H
+ * and complete original MACT behavior. Original VECTOR.C not located.
+ * The returned errno-address query after each length operation is observed
+ * in native code; its historical source spelling/intent remains uncertain. */
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <errno.h>
+#include "types.h"
+#include "develop.h"
+#include "vector.h"
+
+void FP_VectorAdd(fpvector_t *result, fpvector_t *v1, fpvector_t *v2)
+{
+    result->x = v1->x + v2->x;
+    result->y = v1->y + v2->y;
+    result->z = v1->z + v2->z;
+}
+void FP_VectorSub(fpvector_t *result, fpvector_t *v1, fpvector_t *v2)
+{
+    result->x = v1->x - v2->x;
+    result->y = v1->y - v2->y;
+    result->z = v1->z - v2->z;
+}
+void FP_ScaleVector(fpvector_t *result, fpvector_t *v, appfloat scale)
+{
+    result->x = v->x * scale;
+    result->y = v->y * scale;
+    result->z = v->z * scale;
+}
+appfloat FP_VectorLength(fpvector_t *v)
+{
+    appfloat length;
+    length = sqrt(FP_DotProduct(v,v));
+    errno;
+    return length;
+}
+void FP_NormalizeVector(fpvector_t *v)
+{
+    appfloat length;
+    length = FP_VectorLength(v);
+    FP_ScaleVector(v,v,1.0/length);
+}
+appfloat FP_2x2Det(appfloat x1, appfloat y1, appfloat x2, appfloat y2)
+{
+    return x1*y2 - x2*y1;
+}
+void FP_CrossProduct(fpvector_t *result, fpvector_t *v1, fpvector_t *v2)
+{
+    result->x = FP_2x2Det(v1->y,v1->z,v2->y,v2->z);
+    result->y = -FP_2x2Det(v1->x,v1->z,v2->x,v2->z);
+    result->z = FP_2x2Det(v1->x,v1->y,v2->x,v2->y);
+}
+appfloat FP_TripleProduct(fpvector_t *vec1, fpvector_t *vec2, fpvector_t *vec3)
+{
+    fpvector_t cross;
+    FP_CrossProduct(&cross,vec2,vec3);
+    return FP_DotProduct(vec1,&cross);
+}
+void FP_DecomposeVector(fpvector_t *vector, fpvector_t *unit, appfloat *length)
+{
+    *length = FP_VectorLength(vector);
+    FP_ScaleVector(unit,vector,1.0/(*length));
+}
+fpvector_t FP_RotateVAV(fpvector_t *vector, fpvector_t *rotvector,
+                      appfloat cosang, appfloat sinang)
+{
+    fpvector_t scaled, cross, axis, result;
+    FP_ScaleVector(&scaled,vector,cosang);
+    FP_CrossProduct(&cross,rotvector,vector);
+    FP_ScaleVector(&cross,&cross,sinang);
+    FP_ScaleVector(&axis,rotvector,FP_DotProduct(rotvector,vector)*(1.0-cosang));
+    ASSIGN_VECTOR(result,scaled.x+cross.x+axis.x,
+                         scaled.y+cross.y+axis.y,
+                         scaled.z+cross.z+axis.z);
+    return result;
+}

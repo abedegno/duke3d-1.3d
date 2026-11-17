@@ -1,0 +1,5513 @@
+{
+  "kind": "complete SNDSCAPE object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/sndscape.c",
+  "source_sha256": "4ff87e32b394eb4680857e78678bd2102dc6c1d97124fd7dc1283ec12fec7add",
+  "headers_sha256": {
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "descriptor": "modules/sndscape.json",
+  "descriptor_sha256": "302a107149cbfb090dc6721372c7bbecc3dee11bc424686561d18a574c2a3d5e",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "placements": {
+    "1": [
+      1,
+      478560
+    ],
+    "4": [
+      3,
+      58420
+    ],
+    "6": [
+      3,
+      15136
+    ],
+    "5": [
+      3,
+      1743088
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 80,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 84,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 88,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 92,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 96,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 100,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 104,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 108,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 112,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 116,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 120,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 124,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 128,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 132,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 136,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 140,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 144,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 148,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 152,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 172,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 177,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 193,
+      "segment": 1,
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 198,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 204,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 216,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 222,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 228,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 234,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 240,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 246,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 252,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 258,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 264,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 270,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 276,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 287,
+      "symbol": "DMA_ErrorString_",
+      "value": [
+        1,
+        527520
+      ]
+    },
+    {
+      "source_offset": 292,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 298,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 304,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 316,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 332,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 402,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 416,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 443,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 451,
+      "symbol": "_SOUNDSCAPE_IntController1Mask",
+      "value": [
+        3,
+        1743136
+      ]
+    },
+    {
+      "source_offset": 476,
+      "symbol": "_SOUNDSCAPE_IntController1Mask",
+      "value": [
+        3,
+        1743136
+      ]
+    },
+    {
+      "source_offset": 490,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 520,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 536,
+      "symbol": "_SOUNDSCAPE_IntController2Mask",
+      "value": [
+        3,
+        1743148
+      ]
+    },
+    {
+      "source_offset": 571,
+      "symbol": "__GETDS",
+      "value": [
+        1,
+        586216
+      ]
+    },
+    {
+      "source_offset": 576,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 581,
+      "symbol": "_oldStackSelector",
+      "value": [
+        3,
+        1743178
+      ]
+    },
+    {
+      "source_offset": 595,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 601,
+      "symbol": "_ssc_stack_selector",
+      "value": [
+        3,
+        58444
+      ]
+    },
+    {
+      "source_offset": 611,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 627,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 633,
+      "symbol": "_oldStackSelector",
+      "value": [
+        3,
+        1743178
+      ]
+    },
+    {
+      "source_offset": 644,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 649,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 654,
+      "symbol": "_chain_intr_",
+      "value": [
+        1,
+        590488
+      ]
+    },
+    {
+      "source_offset": 660,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 671,
+      "symbol": "_SOUNDSCAPE_TransferLength",
+      "value": [
+        3,
+        58428
+      ]
+    },
+    {
+      "source_offset": 677,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 685,
+      "symbol": "_SOUNDSCAPE_DMABufferEnd",
+      "value": [
+        3,
+        1743164
+      ]
+    },
+    {
+      "source_offset": 691,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 700,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 705,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 711,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 720,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 726,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 732,
+      "symbol": "_oldStackSelector",
+      "value": [
+        3,
+        1743178
+      ]
+    },
+    {
+      "source_offset": 742,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 779,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 789,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 809,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 819,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 835,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 842,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 857,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 864,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 886,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 894,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 922,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 934,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 948,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 955,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 971,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 979,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 993,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1008,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 1016,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 1082,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 1092,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 1125,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 1139,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1146,
+      "symbol": "_SOUNDSCAPE_SampleSize",
+      "value": [
+        1,
+        478624
+      ]
+    },
+    {
+      "source_offset": 1151,
+      "symbol": "_SOUNDSCAPE_SamplePacketSize",
+      "value": [
+        3,
+        58436
+      ]
+    },
+    {
+      "source_offset": 1156,
+      "symbol": "pcm_format_",
+      "value": [
+        1,
+        479648
+      ]
+    },
+    {
+      "source_offset": 1167,
+      "symbol": "SOUNDSCAPE_DisableInterrupt_",
+      "value": [
+        1,
+        478956
+      ]
+    },
+    {
+      "source_offset": 1175,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1182,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1198,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 1206,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 1219,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1226,
+      "symbol": "DMA_EndTransfer_",
+      "value": [
+        1,
+        527928
+      ]
+    },
+    {
+      "source_offset": 1232,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 1238,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 1256,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1267,
+      "symbol": "DMA_SetupTransfer_",
+      "value": [
+        1,
+        527664
+      ]
+    },
+    {
+      "source_offset": 1278,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 1291,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1297,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 1303,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 1309,
+      "symbol": "_SOUNDSCAPE_TotalDMABufferSize",
+      "value": [
+        3,
+        1743140
+      ]
+    },
+    {
+      "source_offset": 1316,
+      "symbol": "_SOUNDSCAPE_DMAChannel",
+      "value": [
+        3,
+        58448
+      ]
+    },
+    {
+      "source_offset": 1322,
+      "symbol": "_SOUNDSCAPE_DMABufferEnd",
+      "value": [
+        3,
+        1743164
+      ]
+    },
+    {
+      "source_offset": 1337,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 1356,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 1365,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1370,
+      "symbol": "DMA_GetCurrentPos_",
+      "value": [
+        1,
+        527980
+      ]
+    },
+    {
+      "source_offset": 1376,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 1382,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1397,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1419,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1441,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1457,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1470,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1482,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1489,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1498,
+      "symbol": "SOUNDSCAPE_EnableInterrupt_",
+      "value": [
+        1,
+        478872
+      ]
+    },
+    {
+      "source_offset": 1506,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1513,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1523,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 1551,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 1559,
+      "symbol": "SOUNDSCAPE_DisableInterrupt_",
+      "value": [
+        1,
+        478956
+      ]
+    },
+    {
+      "source_offset": 1571,
+      "symbol": "ad_write_",
+      "value": [
+        1,
+        479412
+      ]
+    },
+    {
+      "source_offset": 1576,
+      "symbol": "tdelay_",
+      "value": [
+        1,
+        479436
+      ]
+    },
+    {
+      "source_offset": 1581,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1588,
+      "symbol": "DMA_EndTransfer_",
+      "value": [
+        1,
+        527928
+      ]
+    },
+    {
+      "source_offset": 1594,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 1600,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 1617,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1624,
+      "symbol": "_SOUNDSCAPE_SampleSize",
+      "value": [
+        1,
+        478624
+      ]
+    },
+    {
+      "source_offset": 1631,
+      "symbol": "_SOUNDSCAPE_SamplePacketSize",
+      "value": [
+        3,
+        58436
+      ]
+    },
+    {
+      "source_offset": 1636,
+      "symbol": "pcm_format_",
+      "value": [
+        1,
+        479648
+      ]
+    },
+    {
+      "source_offset": 1643,
+      "symbol": "SOUNDSCAPE_SetupDMABuffer_",
+      "value": [
+        1,
+        479808
+      ]
+    },
+    {
+      "source_offset": 1688,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 1693,
+      "symbol": "pcm_format_",
+      "value": [
+        1,
+        479648
+      ]
+    },
+    {
+      "source_offset": 1707,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 1712,
+      "symbol": "SOUNDSCAPE_EnableInterrupt_",
+      "value": [
+        1,
+        478872
+      ]
+    },
+    {
+      "source_offset": 1721,
+      "symbol": "_SOUNDSCAPE_TransferLength",
+      "value": [
+        3,
+        58428
+      ]
+    },
+    {
+      "source_offset": 1726,
+      "symbol": "SOUNDSCAPE_BeginPlayback_",
+      "value": [
+        1,
+        479972
+      ]
+    },
+    {
+      "source_offset": 1744,
+      "symbol": "SOUNDSCAPE_FindCard_",
+      "value": [
+        1,
+        481228
+      ]
+    },
+    {
+      "source_offset": 1769,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 1782,
+      "symbol": "SOUNDSCAPE_LockEnd_",
+      "value": [
+        1,
+        480336
+      ]
+    },
+    {
+      "source_offset": 1787,
+      "symbol": "SOUNDSCAPE_EnableInterrupt_",
+      "value": [
+        1,
+        478872
+      ]
+    },
+    {
+      "source_offset": 1792,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 1802,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 1807,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1817,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 1822,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1832,
+      "symbol": "_SOUNDSCAPE_Installed",
+      "value": [
+        3,
+        58420
+      ]
+    },
+    {
+      "source_offset": 1837,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1847,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 1852,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1862,
+      "symbol": "_SOUNDSCAPE_DMABufferEnd",
+      "value": [
+        3,
+        1743164
+      ]
+    },
+    {
+      "source_offset": 1867,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1877,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 1882,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1892,
+      "symbol": "_SOUNDSCAPE_TotalDMABufferSize",
+      "value": [
+        3,
+        1743140
+      ]
+    },
+    {
+      "source_offset": 1897,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1907,
+      "symbol": "_SOUNDSCAPE_TransferLength",
+      "value": [
+        3,
+        58428
+      ]
+    },
+    {
+      "source_offset": 1912,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1922,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 1927,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1937,
+      "symbol": "_SOUNDSCAPE_SamplePacketSize",
+      "value": [
+        3,
+        58436
+      ]
+    },
+    {
+      "source_offset": 1942,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1952,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 1957,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1967,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 1972,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1982,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 1987,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 1997,
+      "symbol": "_SOUNDSCAPE_IntController1Mask",
+      "value": [
+        3,
+        1743136
+      ]
+    },
+    {
+      "source_offset": 2002,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2012,
+      "symbol": "_SOUNDSCAPE_IntController2Mask",
+      "value": [
+        3,
+        1743148
+      ]
+    },
+    {
+      "source_offset": 2017,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2027,
+      "symbol": "SOUNDSCAPE_LockEnd_",
+      "value": [
+        1,
+        480336
+      ]
+    },
+    {
+      "source_offset": 2032,
+      "symbol": "SOUNDSCAPE_EnableInterrupt_",
+      "value": [
+        1,
+        478872
+      ]
+    },
+    {
+      "source_offset": 2037,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2049,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 2054,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2066,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 2071,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2083,
+      "symbol": "_SOUNDSCAPE_Installed",
+      "value": [
+        3,
+        58420
+      ]
+    },
+    {
+      "source_offset": 2088,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2100,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 2105,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2117,
+      "symbol": "_SOUNDSCAPE_DMABufferEnd",
+      "value": [
+        3,
+        1743164
+      ]
+    },
+    {
+      "source_offset": 2122,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2134,
+      "symbol": "_SOUNDSCAPE_CurrentDMABuffer",
+      "value": [
+        3,
+        1743156
+      ]
+    },
+    {
+      "source_offset": 2139,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2151,
+      "symbol": "_SOUNDSCAPE_TotalDMABufferSize",
+      "value": [
+        3,
+        1743140
+      ]
+    },
+    {
+      "source_offset": 2156,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2168,
+      "symbol": "_SOUNDSCAPE_TransferLength",
+      "value": [
+        3,
+        58428
+      ]
+    },
+    {
+      "source_offset": 2173,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2185,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 2190,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2202,
+      "symbol": "_SOUNDSCAPE_SamplePacketSize",
+      "value": [
+        3,
+        58436
+      ]
+    },
+    {
+      "source_offset": 2207,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2219,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 2224,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2236,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 2241,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2253,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 2258,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2270,
+      "symbol": "_SOUNDSCAPE_IntController1Mask",
+      "value": [
+        3,
+        1743136
+      ]
+    },
+    {
+      "source_offset": 2275,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2287,
+      "symbol": "_SOUNDSCAPE_IntController2Mask",
+      "value": [
+        3,
+        1743148
+      ]
+    },
+    {
+      "source_offset": 2292,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2301,
+      "symbol": "SOUNDSCAPE_UnlockMemory_",
+      "value": [
+        1,
+        480340
+      ]
+    },
+    {
+      "source_offset": 2317,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 2350,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2396,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 2447,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2475,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 2503,
+      "symbol": "rewind_",
+      "value": [
+        1,
+        590513
+      ]
+    },
+    {
+      "source_offset": 2527,
+      "symbol": "fgets_",
+      "value": [
+        1,
+        590536
+      ]
+    },
+    {
+      "source_offset": 2591,
+      "symbol": "strcmp_",
+      "value": [
+        1,
+        586240
+      ]
+    },
+    {
+      "source_offset": 2679,
+      "symbol": "_SOUNDSCAPE_FoundCard",
+      "value": [
+        3,
+        58424
+      ]
+    },
+    {
+      "source_offset": 2694,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2699,
+      "symbol": "getenv_",
+      "value": [
+        1,
+        589923
+      ]
+    },
+    {
+      "source_offset": 2712,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2752,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2759,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2800,
+      "symbol": "fopen_",
+      "value": [
+        1,
+        584545
+      ]
+    },
+    {
+      "source_offset": 2828,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 2854,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 2869,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2878,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 2894,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 2905,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 2920,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2927,
+      "symbol": "strstr_",
+      "value": [
+        1,
+        590641
+      ]
+    },
+    {
+      "source_offset": 2937,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 2949,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 2956,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 2967,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 2973,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3006,
+      "symbol": "strtol_",
+      "value": [
+        1,
+        590385
+      ]
+    },
+    {
+      "source_offset": 3011,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 3016,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3025,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 3041,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3052,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3076,
+      "symbol": "strtol_",
+      "value": [
+        1,
+        590385
+      ]
+    },
+    {
+      "source_offset": 3081,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3086,
+      "symbol": "DMA_VerifyChannel_",
+      "value": [
+        1,
+        527592
+      ]
+    },
+    {
+      "source_offset": 3103,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3114,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3129,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 3138,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 3149,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3178,
+      "symbol": "strtol_",
+      "value": [
+        1,
+        590385
+      ]
+    },
+    {
+      "source_offset": 3183,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3194,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3203,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 3212,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 3223,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3239,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3263,
+      "symbol": "strtol_",
+      "value": [
+        1,
+        590385
+      ]
+    },
+    {
+      "source_offset": 3268,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3279,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3289,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3305,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3311,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3337,
+      "symbol": "_SOUNDSCAPE_Interrupts",
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 3352,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3363,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3378,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 3387,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 3403,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3414,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3429,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 3436,
+      "symbol": "strcmp_",
+      "value": [
+        1,
+        586240
+      ]
+    },
+    {
+      "source_offset": 3452,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3457,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3469,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3492,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3498,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3545,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3556,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3578,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3590,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3602,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3612,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3620,
+      "symbol": "_ssc_constants",
+      "value": [
+        3,
+        15136
+      ]
+    },
+    {
+      "source_offset": 3629,
+      "symbol": "parse_",
+      "value": [
+        1,
+        481048
+      ]
+    },
+    {
+      "source_offset": 3645,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3656,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3680,
+      "symbol": "strtol_",
+      "value": [
+        1,
+        590385
+      ]
+    },
+    {
+      "source_offset": 3687,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3695,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3702,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 3708,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3717,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3729,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3745,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3751,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3760,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3787,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3795,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3807,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3818,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3847,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3855,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3874,
+      "symbol": "_SOUNDSCAPE_FoundCard",
+      "value": [
+        3,
+        58424
+      ]
+    },
+    {
+      "source_offset": 3880,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 3902,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3918,
+      "symbol": "SOUNDSCAPE_DisableInterrupt_",
+      "value": [
+        1,
+        478956
+      ]
+    },
+    {
+      "source_offset": 3926,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3933,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3946,
+      "symbol": "SOUNDSCAPE_DisableInterrupt_",
+      "value": [
+        1,
+        478956
+      ]
+    },
+    {
+      "source_offset": 3958,
+      "symbol": "ad_write_",
+      "value": [
+        1,
+        479412
+      ]
+    },
+    {
+      "source_offset": 3963,
+      "symbol": "tdelay_",
+      "value": [
+        1,
+        479436
+      ]
+    },
+    {
+      "source_offset": 3968,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 3975,
+      "symbol": "DMA_EndTransfer_",
+      "value": [
+        1,
+        527928
+      ]
+    },
+    {
+      "source_offset": 3981,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 3987,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 3993,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4006,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4018,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4030,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4038,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4073,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4122,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4136,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4148,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4157,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4169,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4186,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4202,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4214,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4226,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4237,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4243,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4249,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4270,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4284,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4291,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4301,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4316,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 4324,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 4338,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4345,
+      "symbol": "_SOUNDSCAPE_Interrupts",
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 4352,
+      "symbol": "_dos_getvect_",
+      "value": [
+        1,
+        589701
+      ]
+    },
+    {
+      "source_offset": 4357,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 4362,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4369,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 4379,
+      "symbol": "SOUNDSCAPE_ServiceInterrupt_",
+      "value": [
+        1,
+        479120
+      ]
+    },
+    {
+      "source_offset": 4388,
+      "symbol": "_dos_setvect_",
+      "value": [
+        1,
+        589656
+      ]
+    },
+    {
+      "source_offset": 4395,
+      "symbol": "SOUNDSCAPE_ServiceInterrupt_",
+      "value": [
+        1,
+        479120
+      ]
+    },
+    {
+      "source_offset": 4404,
+      "symbol": "IRQ_SetVector_",
+      "value": [
+        1,
+        515592
+      ]
+    },
+    {
+      "source_offset": 4424,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 4437,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4444,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4456,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4463,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4473,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4485,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4492,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4504,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4515,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4526,
+      "symbol": "SOUNDSCAPE_EnableInterrupt_",
+      "value": [
+        1,
+        478872
+      ]
+    },
+    {
+      "source_offset": 4532,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 4545,
+      "symbol": "SOUNDSCAPE_FindCard_",
+      "value": [
+        1,
+        481228
+      ]
+    },
+    {
+      "source_offset": 4555,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4567,
+      "symbol": "_SOUNDSCAPE_Installed",
+      "value": [
+        3,
+        58420
+      ]
+    },
+    {
+      "source_offset": 4575,
+      "symbol": "SOUNDSCAPE_Shutdown_",
+      "value": [
+        1,
+        483368
+      ]
+    },
+    {
+      "source_offset": 4595,
+      "symbol": "_SOUNDSCAPE_IntController1Mask",
+      "value": [
+        3,
+        1743136
+      ]
+    },
+    {
+      "source_offset": 4603,
+      "symbol": "_SOUNDSCAPE_IntController2Mask",
+      "value": [
+        3,
+        1743148
+      ]
+    },
+    {
+      "source_offset": 4609,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 4615,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 4621,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 4626,
+      "symbol": "SOUNDSCAPE_FindCard_",
+      "value": [
+        1,
+        481228
+      ]
+    },
+    {
+      "source_offset": 4639,
+      "symbol": "SOUNDSCAPE_LockMemory_",
+      "value": [
+        1,
+        480584
+      ]
+    },
+    {
+      "source_offset": 4650,
+      "symbol": "SOUNDSCAPE_UnlockMemory_",
+      "value": [
+        1,
+        480340
+      ]
+    },
+    {
+      "source_offset": 4667,
+      "symbol": "allocateTimerStack_",
+      "value": [
+        1,
+        480892
+      ]
+    },
+    {
+      "source_offset": 4673,
+      "symbol": "_ssc_stack_selector",
+      "value": [
+        3,
+        58444
+      ]
+    },
+    {
+      "source_offset": 4683,
+      "symbol": "SOUNDSCAPE_UnlockMemory_",
+      "value": [
+        1,
+        480340
+      ]
+    },
+    {
+      "source_offset": 4699,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 4721,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4727,
+      "symbol": "_SOUNDSCAPE_Installed",
+      "value": [
+        3,
+        58420
+      ]
+    },
+    {
+      "source_offset": 4732,
+      "symbol": "SOUNDSCAPE_Setup_",
+      "value": [
+        1,
+        482456
+      ]
+    },
+    {
+      "source_offset": 4743,
+      "symbol": "SOUNDSCAPE_Shutdown_",
+      "value": [
+        1,
+        483368
+      ]
+    },
+    {
+      "source_offset": 4757,
+      "symbol": "_SOUNDSCAPE_SampleRate",
+      "value": [
+        3,
+        58440
+      ]
+    },
+    {
+      "source_offset": 4766,
+      "symbol": "pcm_format_",
+      "value": [
+        1,
+        479648
+      ]
+    },
+    {
+      "source_offset": 4771,
+      "symbol": "_SOUNDSCAPE_SampleSize",
+      "value": [
+        1,
+        478624
+      ]
+    },
+    {
+      "source_offset": 4777,
+      "symbol": "_SOUNDSCAPE_MixMode",
+      "value": [
+        3,
+        58432
+      ]
+    },
+    {
+      "source_offset": 4782,
+      "symbol": "_SOUNDSCAPE_SamplePacketSize",
+      "value": [
+        3,
+        58436
+      ]
+    },
+    {
+      "source_offset": 4787,
+      "symbol": "pcm_format_",
+      "value": [
+        1,
+        479648
+      ]
+    },
+    {
+      "source_offset": 4793,
+      "symbol": "_SOUNDSCAPE_ErrorCode",
+      "value": [
+        3,
+        58452
+      ]
+    },
+    {
+      "source_offset": 4816,
+      "symbol": "SOUNDSCAPE_DisableInterrupt_",
+      "value": [
+        1,
+        478956
+      ]
+    },
+    {
+      "source_offset": 4828,
+      "symbol": "ad_write_",
+      "value": [
+        1,
+        479412
+      ]
+    },
+    {
+      "source_offset": 4833,
+      "symbol": "tdelay_",
+      "value": [
+        1,
+        479436
+      ]
+    },
+    {
+      "source_offset": 4838,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4845,
+      "symbol": "DMA_EndTransfer_",
+      "value": [
+        1,
+        527928
+      ]
+    },
+    {
+      "source_offset": 4851,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 4859,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 4865,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4872,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4882,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4899,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4909,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4924,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4939,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4950,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4962,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4979,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 4991,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5000,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5012,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5024,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5030,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5052,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5066,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5072,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5085,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5100,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5106,
+      "symbol": "_ssc_private_state",
+      "value": [
+        3,
+        1743088
+      ]
+    },
+    {
+      "source_offset": 5113,
+      "symbol": "_SOUNDSCAPE_Interrupts",
+      "value": [
+        1,
+        478560
+      ]
+    },
+    {
+      "source_offset": 5125,
+      "symbol": "IRQ_RestoreVector_",
+      "value": [
+        1,
+        516128
+      ]
+    },
+    {
+      "source_offset": 5132,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 5138,
+      "symbol": "_SOUNDSCAPE_OldInt",
+      "value": [
+        3,
+        1743172
+      ]
+    },
+    {
+      "source_offset": 5145,
+      "symbol": "_dos_setvect_",
+      "value": [
+        1,
+        589656
+      ]
+    },
+    {
+      "source_offset": 5152,
+      "symbol": "_SOUNDSCAPE_SoundPlaying",
+      "value": [
+        3,
+        1743160
+      ]
+    },
+    {
+      "source_offset": 5157,
+      "symbol": "_SOUNDSCAPE_DMABuffer",
+      "value": [
+        3,
+        1743144
+      ]
+    },
+    {
+      "source_offset": 5162,
+      "symbol": "_SOUNDSCAPE_CallBack",
+      "value": [
+        3,
+        1743152
+      ]
+    },
+    {
+      "source_offset": 5167,
+      "symbol": "SOUNDSCAPE_UnlockMemory_",
+      "value": [
+        1,
+        480340
+      ]
+    },
+    {
+      "source_offset": 5174,
+      "symbol": "_ssc_stack_selector",
+      "value": [
+        3,
+        58444
+      ]
+    },
+    {
+      "source_offset": 5197,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 5225,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 5234,
+      "symbol": "_ssc_stack_selector",
+      "value": [
+        3,
+        58444
+      ]
+    },
+    {
+      "source_offset": 5242,
+      "symbol": "_SOUNDSCAPE_Installed",
+      "value": [
+        3,
+        58420
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 6539,
+    "zero_fill_bytes": 92,
+    "verified_fixups": 445,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 478560,
+        "compared_bytes": 5254,
+        "verified_fixups": 445,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 58420,
+        "compared_bytes": 36,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1743088,
+        "compared_bytes": 92,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 15136,
+        "compared_bytes": 1249,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "IRQ_SetVector_": [
+        1,
+        515592
+      ],
+      "IRQ_RestoreVector_": [
+        1,
+        516128
+      ],
+      "_SOUNDSCAPE_Interrupts": [
+        1,
+        478560
+      ],
+      "_SOUNDSCAPE_SampleSize": [
+        1,
+        478624
+      ],
+      "SOUNDSCAPE_ErrorString_": [
+        1,
+        478716
+      ],
+      "SOUNDSCAPE_EnableInterrupt_": [
+        1,
+        478872
+      ],
+      "SOUNDSCAPE_DisableInterrupt_": [
+        1,
+        478956
+      ],
+      "SOUNDSCAPE_ServiceInterrupt_": [
+        1,
+        479120
+      ],
+      "ga_read_": [
+        1,
+        479336
+      ],
+      "ga_write_": [
+        1,
+        479364
+      ],
+      "ad_read_": [
+        1,
+        479392
+      ],
+      "ad_write_": [
+        1,
+        479412
+      ],
+      "tdelay_": [
+        1,
+        479436
+      ],
+      "SOUNDSCAPE_SetPlaybackRate_": [
+        1,
+        479608
+      ],
+      "pcm_format_": [
+        1,
+        479648
+      ],
+      "SOUNDSCAPE_GetPlaybackRate_": [
+        1,
+        479684
+      ],
+      "SOUNDSCAPE_SetMixMode_": [
+        1,
+        479692
+      ],
+      "SOUNDSCAPE_StopPlayback_": [
+        1,
+        479724
+      ],
+      "SOUNDSCAPE_SetupDMABuffer_": [
+        1,
+        479808
+      ],
+      "SOUNDSCAPE_GetCurrentPos_": [
+        1,
+        479892
+      ],
+      "SOUNDSCAPE_BeginPlayback_": [
+        1,
+        479972
+      ],
+      "SOUNDSCAPE_BeginBufferedPlayback_": [
+        1,
+        480100
+      ],
+      "SOUNDSCAPE_GetCardInfo_": [
+        1,
+        480300
+      ],
+      "SOUNDSCAPE_SetCallBack_": [
+        1,
+        480328
+      ],
+      "SOUNDSCAPE_LockEnd_": [
+        1,
+        480336
+      ],
+      "SOUNDSCAPE_UnlockMemory_": [
+        1,
+        480340
+      ],
+      "SOUNDSCAPE_LockMemory_": [
+        1,
+        480584
+      ],
+      "allocateTimerStack_": [
+        1,
+        480892
+      ],
+      "deallocateTimerStack_": [
+        1,
+        480984
+      ],
+      "parse_": [
+        1,
+        481048
+      ],
+      "SOUNDSCAPE_FindCard_": [
+        1,
+        481228
+      ],
+      "SOUNDSCAPE_Setup_": [
+        1,
+        482456
+      ],
+      "SOUNDSCAPE_GetMIDIPort_": [
+        1,
+        483104
+      ],
+      "SOUNDSCAPE_Init_": [
+        1,
+        483120
+      ],
+      "SOUNDSCAPE_Shutdown_": [
+        1,
+        483368
+      ],
+      "_SOUNDSCAPE_ErrorCode": [
+        3,
+        58452
+      ],
+      "_ssc_constants": [
+        3,
+        15136
+      ],
+      "DMA_ErrorString_": [
+        1,
+        527520
+      ],
+      "_ssc_private_state": [
+        3,
+        1743088
+      ],
+      "_SOUNDSCAPE_IntController1Mask": [
+        3,
+        1743136
+      ],
+      "_SOUNDSCAPE_IntController2Mask": [
+        3,
+        1743148
+      ],
+      "__GETDS": [
+        1,
+        586216
+      ],
+      "_oldStackSelector": [
+        3,
+        1743178
+      ],
+      "_ssc_stack_selector": [
+        3,
+        58444
+      ],
+      "_SOUNDSCAPE_OldInt": [
+        3,
+        1743172
+      ],
+      "_chain_intr_": [
+        1,
+        590488
+      ],
+      "_SOUNDSCAPE_TransferLength": [
+        3,
+        58428
+      ],
+      "_SOUNDSCAPE_CurrentDMABuffer": [
+        3,
+        1743156
+      ],
+      "_SOUNDSCAPE_DMABufferEnd": [
+        3,
+        1743164
+      ],
+      "_SOUNDSCAPE_DMABuffer": [
+        3,
+        1743144
+      ],
+      "_SOUNDSCAPE_CallBack": [
+        3,
+        1743152
+      ],
+      "clock_": [
+        1,
+        588240
+      ],
+      "_SOUNDSCAPE_MixMode": [
+        3,
+        58432
+      ],
+      "_SOUNDSCAPE_SampleRate": [
+        3,
+        58440
+      ],
+      "_SOUNDSCAPE_SamplePacketSize": [
+        3,
+        58436
+      ],
+      "DMA_EndTransfer_": [
+        1,
+        527928
+      ],
+      "_SOUNDSCAPE_SoundPlaying": [
+        3,
+        1743160
+      ],
+      "DMA_SetupTransfer_": [
+        1,
+        527664
+      ],
+      "_SOUNDSCAPE_TotalDMABufferSize": [
+        3,
+        1743140
+      ],
+      "_SOUNDSCAPE_DMAChannel": [
+        3,
+        58448
+      ],
+      "DMA_GetCurrentPos_": [
+        1,
+        527980
+      ],
+      "DPMI_UnlockMemoryRegion_": [
+        1,
+        527152
+      ],
+      "DPMI_UnlockMemory_": [
+        1,
+        527156
+      ],
+      "_SOUNDSCAPE_Installed": [
+        3,
+        58420
+      ],
+      "DPMI_LockMemoryRegion_": [
+        1,
+        527060
+      ],
+      "DPMI_LockMemory_": [
+        1,
+        527064
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "int386_": [
+        1,
+        588346
+      ],
+      "rewind_": [
+        1,
+        590513
+      ],
+      "fgets_": [
+        1,
+        590536
+      ],
+      "strcmp_": [
+        1,
+        586240
+      ],
+      "_SOUNDSCAPE_FoundCard": [
+        3,
+        58424
+      ],
+      "getenv_": [
+        1,
+        589923
+      ],
+      "fopen_": [
+        1,
+        584545
+      ],
+      "fclose_": [
+        1,
+        583330
+      ],
+      "strstr_": [
+        1,
+        590641
+      ],
+      "strtol_": [
+        1,
+        590385
+      ],
+      "DMA_VerifyChannel_": [
+        1,
+        527592
+      ],
+      "_dos_getvect_": [
+        1,
+        589701
+      ],
+      "_dos_setvect_": [
+        1,
+        589656
+      ]
+    },
+    "local_symbols": {
+      "SOUNDSCAPE_BeginPlayback_": [
+        1,
+        479972
+      ],
+      "SOUNDSCAPE_DisableInterrupt_": [
+        1,
+        478956
+      ],
+      "SOUNDSCAPE_EnableInterrupt_": [
+        1,
+        478872
+      ],
+      "SOUNDSCAPE_FindCard_": [
+        1,
+        481228
+      ],
+      "SOUNDSCAPE_LockEnd_": [
+        1,
+        480336
+      ],
+      "SOUNDSCAPE_LockMemory_": [
+        1,
+        480584
+      ],
+      "SOUNDSCAPE_ServiceInterrupt_": [
+        1,
+        479120
+      ],
+      "SOUNDSCAPE_SetupDMABuffer_": [
+        1,
+        479808
+      ],
+      "SOUNDSCAPE_Setup_": [
+        1,
+        482456
+      ],
+      "SOUNDSCAPE_UnlockMemory_": [
+        1,
+        480340
+      ],
+      "_SOUNDSCAPE_CurrentDMABuffer": [
+        3,
+        1743156
+      ],
+      "_SOUNDSCAPE_DMABuffer": [
+        3,
+        1743144
+      ],
+      "_SOUNDSCAPE_DMABufferEnd": [
+        3,
+        1743164
+      ],
+      "_SOUNDSCAPE_FoundCard": [
+        3,
+        58424
+      ],
+      "_SOUNDSCAPE_Installed": [
+        3,
+        58420
+      ],
+      "_SOUNDSCAPE_IntController1Mask": [
+        3,
+        1743136
+      ],
+      "_SOUNDSCAPE_IntController2Mask": [
+        3,
+        1743148
+      ],
+      "_SOUNDSCAPE_MixMode": [
+        3,
+        58432
+      ],
+      "_SOUNDSCAPE_OldInt": [
+        3,
+        1743172
+      ],
+      "_SOUNDSCAPE_SamplePacketSize": [
+        3,
+        58436
+      ],
+      "_SOUNDSCAPE_SampleRate": [
+        3,
+        58440
+      ],
+      "_SOUNDSCAPE_TotalDMABufferSize": [
+        3,
+        1743140
+      ],
+      "_SOUNDSCAPE_TransferLength": [
+        3,
+        58428
+      ],
+      "_oldStackSelector": [
+        3,
+        1743178
+      ],
+      "_ssc_constants": [
+        3,
+        15136
+      ],
+      "_ssc_private_state": [
+        3,
+        1743088
+      ],
+      "_ssc_stack_selector": [
+        3,
+        58444
+      ],
+      "ad_read_": [
+        1,
+        479392
+      ],
+      "ad_write_": [
+        1,
+        479412
+      ],
+      "allocateTimerStack_": [
+        1,
+        480892
+      ],
+      "deallocateTimerStack_": [
+        1,
+        480984
+      ],
+      "ga_read_": [
+        1,
+        479336
+      ],
+      "ga_write_": [
+        1,
+        479364
+      ],
+      "parse_": [
+        1,
+        481048
+      ],
+      "pcm_format_": [
+        1,
+        479648
+      ],
+      "tdelay_": [
+        1,
+        479436
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "IRQ_SetVector_": [
+      1,
+      515592
+    ],
+    "IRQ_RestoreVector_": [
+      1,
+      516128
+    ]
+  },
+  "anchor_evidence": "evidence/irq-module.json",
+  "source_build": {
+    "source_only": true,
+    "original_or_target_read_during_production": false,
+    "module": "sndscape",
+    "source": "src/audio/sndscape.c",
+    "source_sha256": "4ff87e32b394eb4680857e78678bd2102dc6c1d97124fd7dc1283ec12fec7add",
+    "home": "/Users/jonw/duke3d/toolchains/watcom-10.0a",
+    "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+    "options": [
+      "/omaxnet",
+      "/zp4",
+      "/5r"
+    ],
+    "native_build_directory": "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0",
+    "object": "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/sndscape.obj",
+    "object_sha256": "0d21817e4cc6a004a0b57c1d588debf3b2c643a5830d30d490ad28c1b771e3e8",
+    "headers_sha256": {
+      "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+      "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+      "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+      "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+      "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+      "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+      "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+      "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+      "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+      "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+      "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+      "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+      "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+      "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+      "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+      "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+      "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+      "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+      "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+      "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+      "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+      "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+      "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+      "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+      "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+      "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+      "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+      "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+      "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+      "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+      "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+      "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+      "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+      "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+      "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+      "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+      "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+      "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+      "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+      "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+      "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+      "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+    },
+    "tool_home_sha256": {
+      "BIN/ads.trp": "e3517870933e10129916907e0fc12b602658dfb30fcccb0f28fff74eff2a6af3",
+      "BIN/adshelp.exp": "506cfec9344e6c19042ccbddacd3205e09896d9645d41caa0e61d9ee41b8f630",
+      "BIN/cfig386.exe": "c9adb1a1b7c9a37f8ea2f365bf4d21b1220855e01436f981b3d3430a002cfc5f",
+      "BIN/cmdedit.exe": "9ea52edd75d37b2687c89a33abd46805ac53332b81c038ae18867b35840c12b6",
+      "BIN/codeview.dip": "209c84c2131eb9d5a06f15e96b07a9bf9cc93c63c82a3a5e96e27318099505dc",
+      "BIN/cvpack.exe": "fcdea345b45f41f2792b28bc5dd53f1939838f03e7fd3f3ce53732133d5a814b",
+      "BIN/d4grun.exe": "314eb04f95484c219d489498568fa6851e2d8d37853428a6712b0f7f8e1ed5e0",
+      "BIN/dbglib.rex": "6d803ceb37903d70666d8d3558c28670f6075feb019d82b55ebcb84c74c28955",
+      "BIN/dos4gw.exe": "dd9f4f342533f99570475b62e53231a468de2e3d83e4fc31e80c27d3a7d6b49c",
+      "BIN/dwarf.dip": "99682b910cad366fa421009bc4953079cf88ad79f8b38110b1d3222d1840319a",
+      "BIN/export.dip": "75c6a424796c0e4fc4daa2a521e758b1294bbd5753f374f6bb7558ed5f3dca57",
+      "BIN/makehm.exe": "0f3eeb3ae814326633067378571dcf5b9d1bb9772a49afdd9df3131f3cb2d756",
+      "BIN/markmidi.exe": "a7c47f3a86f41c95866146f83ab3bbabac224bfa5b71925df8e9337d6d95b378",
+      "BIN/net.trp": "867e83b9c5d94e7a2a8b6b8ffb59601da36f55ef0e58fcbaa01c86eb6ec3baad",
+      "BIN/netserv.exe": "5d6f5c19b912b98958d2215a5ab920f31bad0417a0410da22fb41cfa77ee5675",
+      "BIN/nmp.trp": "c6819f2b6de09c3e510f71e24d66a190b1bf89755510680ba6f418f0c691b48b",
+      "BIN/nmpserv.exe": "4163ea754b9c854569449e39bc0f42bca11bd8269cf4fef564b9fd360b4638bd",
+      "BIN/nov.trp": "1a9181d448ec5a628316cf8edd28d0c799d7576763a2dd6e5040b8b8b36d8b24",
+      "BIN/novserv.exe": "848b5b76a09b7852be759e540e33a8bbb583fb0e6577cbe2f9fdc83584c404f7",
+      "BIN/par.trp": "0c4cebb1467b9f9505a6c3b81784b4a78d199edc0c3c3350fb08f2a29c2ce286",
+      "BIN/parserv.exe": "222fe81386a4d8cdb90ef8e102264bc0bddc7e4c6b3f905482e2ebe5832eb95c",
+      "BIN/pedhelp.exp": "6e25e77ce00ec330655f3c65f5380e748471028152ced4ed5c75ab0fb0a33e64",
+      "BIN/pls.trp": "807e878ff5f4cc9fe93417d5e3ec6cefec83b79557055c94a2cf61fa6504277b",
+      "BIN/plshelp.exp": "9804c97c3dc59240052817257158454f6da6d3c42f613beb08ebe69a69f91a5f",
+      "BIN/pminfo.exe": "466dc240c0aebe8e7bc316ce4b09d685ae657e8f78947df0e0af84864fcf6a92",
+      "BIN/privatxm.exe": "66c6f352aeecec4470c5a1d6ca909386b9250ba543452ef01e889baacbe31995",
+      "BIN/rfx.exe": "458bc8076c4f7f7b1754458a451df90176897b7d23ec225fc256b20d5ea7453d",
+      "BIN/rminfo.exe": "ac1ab9d96ed987908342a65747db1fa2b8aaf8aac306f9962c0d931a2a5066fe",
+      "BIN/rsi.trp": "15a37fd68e0f944ad40ec24c1b5e5e2cb6d07456a114dcfc6283eeb66b4681af",
+      "BIN/rsihelp.exp": "2c38311dcc486bd1ab6a7263e6d73c2edf112cfd655d45f8bd38eff09323c667",
+      "BIN/ser.trp": "f1289e13c537d7803f8fcd962532a4b83dbfe41ac552a0c50be138e63a59dbdc",
+      "BIN/serserv.exe": "ca78e82872d6c49e68d92919d26f80319060bcdaab98ec011a1e542caedfdc1a",
+      "BIN/std.trp": "0bf14bda634d8a0f271dcc85781aac8362b1fc5db6ee00ee3d3af6f54fe6721b",
+      "BIN/templdef.exe": "44439e42d071b98cb156231d60e2708ae3a04481d0ea276dddb8677797a92c65",
+      "BIN/tntrun.exe": "f07c9be3df99b1e6361d6e22e1b1b1affc8cf6773de67d52b27d480ae23d03b8",
+      "BIN/vdmserv.exe": "09a74eb2c7739e4dbd16d283236f2024a4c198e5c4104f27aa4323eb1c6f7752",
+      "BIN/vi.exe": "c0f3b099ea963347886c004b636806dd1316318105f644e70e220812c9bc5487",
+      "BIN/w32run.exe": "d9028582ce7d2d7b0990d677e1947c10e0b0deaefb32d78319fbd2cea603cfcf",
+      "BIN/watcom.dip": "28a29cf4445de8916c139a37902aad5d3b27b7bb387ced474200854af26b7cfb",
+      "BIN/wd.exe": "05d6fcc24d53c2f2708dd9b3fb5259cf77b1028086c401b4f9370be200889b60",
+      "BIN/whelp.exe": "b50e75d00a4738684584e01df8260d5b1cf6b9741d1ac70529e65f924a99bbea",
+      "BIN/win.trp": "457e390b3863d0dec4076753c579771021364fa377b3f0edb108ccf008c4f5ce",
+      "BIN/winserv.exe": "9186f0020bd7cf22a0d9589d9f47662ce0935eb293dad4596780d20cddead91a",
+      "BIN/wlink.exe": "33379379fe3034b0083c4455b61600a841c7e97d9bd2dbb016176fd4536fb797",
+      "BIN/wlink.lnk": "f312c29d7fadd5823c0c64746ebc71845fa83198b591f8f3aae763deec990145",
+      "BIN/wmakel.exe": "27c498a128be85feaf7cfbbfeb8f35dc8dbe9cf7db8bdc306f88ccbb5005f986",
+      "BIN/wprof.exe": "879fdbee5a2d39d7e6f8579de6dfe51efc56e0be407b2894192e888126591f4c",
+      "BIN/wsample.exe": "1eb5d25fd0d8c637fc44a073e6b6fc8137e3923b3b790a8451fad97a5a053f3f",
+      "BIN/wsamppls.exp": "7bcf01c9747391f6b802874b91f6b1798efdd6af817740ecd43adb1a36ab9f26",
+      "BIN/wsamprsi.exe": "438233b542969a1b3b73f52c109aa7b3195c285a5e938a2b626761057371e35c",
+      "BIN/x32run.exe": "576c8404395c421d6da00f0727b992c52eb22d5ca83cbb1ad85e05b1ba1c9f87",
+      "BINB/addsrc.dbg": "dde59ffbecc3bbb06133119ec35db5f00391db1287ce921d2f1772f8894ed75a",
+      "BINB/ads.dbg": "3a38f1f1c0c3debc8b8b781810b3410cf8042e833001c9c3bc7ec88f38a0ae5f",
+      "BINB/animate.dbg": "21ef3291ccd8aa9dc1df382517f40d05e80e8d2483454a0e8dded90a742e4462",
+      "BINB/bcnt.dbg": "9ce055e8d14b05ed3fe475f68fc71cf4e312620e58aa6357cdae29c29a2b0fc0",
+      "BINB/bif.dbg": "f6df2dfccef4947b3e65ff29167688828f8035d9b051e1d22e4cef34a9a64957",
+      "BINB/bp.dbg": "227c139ab45926e2554d119c63a85d54be77867e98bc9272afd2417e8a20d971",
+      "BINB/bpatch.exe": "4c91f51f5bc509f1c23e82517eea292a949e916109b88fa128836418549959dd",
+      "BINB/c.prs": "b042626537899766c3cdf781e291133ee7165774f22f8dfc295b0820c5d68bf3",
+      "BINB/cguide.ihp": "6413270724beccca664936ae214bab2aa398a76aed8fd030fdb4720377e1498e",
+      "BINB/clib.ihp": "b00e0c7d7c985669d16da6da18a17f18905e4902bbd6eeebbbdc498c7a84bdd4",
+      "BINB/cmdedit.txt": "836729c2f0f145c7d648118b8007613c3b38f2d73fc1e7dd52e646aa2a2853ae",
+      "BINB/colour.dbg": "8c5420303f38cf8e875e67053d38c7799e70019fce6ebb1ca6836ea60fb414a3",
+      "BINB/cpp.prs": "b3516432050a0ffdb6c6a401f10153dcb82b51057d5cae59eba817738f490854",
+      "BINB/cpplib.ihp": "0ff9521c62ba4306aaea013988aacaf4de1fec6baa8f2cbbecc0da226ee64998",
+      "BINB/ctags.exe": "0570b769f5db44e4db4890ea746635dec4fc753a1d6ac8be13102bec519ead4e",
+      "BINB/cvkeys.dbg": "c880f056f45f54a80fc8188e99996a46227315864b8d2398b3207c21f374b184",
+      "BINB/default.dbg": "d36339906e929da2d82dc5820ea545aeb6cff8a36a37be5cdbd5593ebecdbee7",
+      "BINB/edbind.exe": "a18b9e891b54e4965bfdc862ef13364d828101c9791ee7c232fc100d75fc453c",
+      "BINB/fcenable.exe": "98e565de83d05a85740aa48d0dcc8f415dacc8385017a9c3ffcb4a46e1f98e86",
+      "BINB/fill.dbg": "7f0e9ba9ca8e20ce2af4c988c305cbdb78a5ec4e9403fba00fd31b449b9b2a9d",
+      "BINB/fortran.prs": "ecdc7b3be2c605eca3e54a30a89ef2d861e4669c285690c35051ad02e93f70d5",
+      "BINB/hc.bat": "c54e64f7ec893be170c1e7659b5c0c2b5d96401e82856096bffc8c5f857461c7",
+      "BINB/hc30.exe": "c631c876e6b56c456c1c720106c3141eb8c192d4c8f2682bc952f341f18bca51",
+      "BINB/hc31.err": "13413a81e4b7b5b5aca1bfc2f394f04eae183d4faa6c1ef7d7e069f373302d15",
+      "BINB/hc31.exe": "1b1aadceb75328156f1ef3179f9d8b7c58a28d5c9972490d2ad0d28c5be18bd1",
+      "BINB/ide.cfg": "8df3c1d3d0b2b8b3a035aaf8b39ad5d55e39fe52b5d0ae65fff8ebc16f8da86b",
+      "BINB/ideads.cfg": "b749517296afb025cbc7aa03d21261335fc0ced290f1b3683c72a482bceb0dd3",
+      "BINB/idedos.cfg": "e7914c987279a9a0bff458706057e0b58ccc06cfa120962db1dee35eb88c20d3",
+      "BINB/idemfc21.cfg": "692d0bd7618a5d80cd2dda4153056b35000c54996795ce5d458d1ff7ba121f69",
+      "BINB/idemfc25.cfg": "bf7f16c54627087ca8740d8367e63d045d7a8a3a7dd5673cf81ca03d66739324",
+      "BINB/idenlm.cfg": "b3aedd8b89b3256be990e89f8b5ac359934c00e6b7a4165813a980075744d37c",
+      "BINB/ideos2.cfg": "ff2741cffb6b0cfbd908863941dff7f27f943696a00875ef38ec63bbe986c490",
+      "BINB/idew32.cfg": "4782f62b4370708f3dd009c2910bfff4de79709773c8d07a0b69529e848e3322",
+      "BINB/idewin.cfg": "d3d155d5afc11c0db8b5aef347f92a512d448fc5119ef02e87172e81ae485155",
+      "BINB/kanji.uni": "74215dce5ae422322ffa07231360796ec0dd0c665923ef855fbb9907216b3146",
+      "BINB/lguide.ihp": "6b854558b549d9086290c036b50a599d96eface4811eb313741266ba1d5cc8c3",
+      "BINB/mono.dbg": "1804dd8180aa40dfc9ed01878b8fc1c38453a0250bba1c4be019305f7afaa618",
+      "BINB/mrbc.exe": "6e1756184b1bae50c12150e07a59ec1cc95b9f12ebc02baa2b2f5f2ac387f8ad",
+      "BINB/ms2wlink.exe": "adf40b3daa59af7db084a9a5010c18183b84526f5600e2cb47120fc9f0e1efcf",
+      "BINB/nwvkeys.dbg": "698afd561ff5a7daf5bd648f2decb39bc1deeb4a38e28accbfa5225a21fb4ec6",
+      "BINB/owvkeys.dbg": "97f1aa9e8d71622e5a873fde2a3eb97d51ae7061ab29a063534defad2338e9e7",
+      "BINB/pguide.ihp": "a4ed0b1c3fe760cbb05e11f9461a29748908112758141c32ad444d2549a1082c",
+      "BINB/rescomp.ihp": "5369870420ba1a97443dd7c6addb58eb2364f384ca694fb85684bd47b4f8972b",
+      "BINB/resize.dbg": "eae529af83febd82b4bba6208d4497ac1c3c5a2e1701a4af52276d02f73d3a63",
+      "BINB/restart.dbg": "fa1586d715f18af53e3cc8b5c7366933938eb03366cecca9bf5d2d3169103941",
+      "BINB/return.dbg": "785d5077a8496037f69fc8014627d9de883da10280bce7474c9938973688d7c0",
+      "BINB/save.dbg": "bed6c0820c2541880b879f021f6cd2109fb0df18d3394ebef1708431a534feae",
+      "BINB/setup.dbg": "4f5a0f1422d63778d882c731af8cc66d49eeebe8adda8a0c2611d7e0ff79ec6b",
+      "BINB/slow.dbg": "3a3378415e695d466602c1dce6b3181af3e5d1d46fd95fb142348aa5d0e6c505",
+      "BINB/tdemu.dbg": "33e067ba2e5cac21d90ad686f850cebd68cc304a3532dc77802b75d1c3221320",
+      "BINB/tdkeys.dbg": "0912044e922a39fc4ffbcb490ea05079a3e7743865946a0d30b9324fd2a62a5a",
+      "BINB/techinfo.exe": "0795445aa59973ffb3fc066d98dbf345ef6a838e33594a33908d343ea1b7e024",
+      "BINB/tools.ihp": "d2900310cf60d60185f1302d72232dd05a2e2f155f138bc65125bafbb5a1e57c",
+      "BINB/unicode.437": "91ff4744fc4354ad6de3f5fed84ea5b27c53552fbe8a06c5e5b22d50a6833ced",
+      "BINB/unicode.850": "ca9b39a1256c77c4723919f4cccd7bef913eee8d78c5bf6a07f3cb829da6debe",
+      "BINB/vc.dbg": "d6ac9a77d9178183bf9d719a292e05183b91af930165f718139c3503c448c849",
+      "BINB/vikeys.dbg": "1ed289ceca449eb1002f9b570f4e6c7cba8d13e1fe020fe45332b747d692edfd",
+      "BINB/vr.dbg": "6987b23bcd491f70198817f83363e7e3547aef6a111d442ac93107c5e854af93",
+      "BINB/wasm.exe": "a79e0dc11a26b098728aa988cfc974113e7ac5d28c81baded1f077ed27be0513",
+      "BINB/wbind.exe": "07fc2244e388b5da90a31b0edc4a946bc8a9ceca84ff22f6bc42bc467576572b",
+      "BINB/wbrg.exe": "aaa9ca004a00590cc9e1dc2bcccfe2128671e70e0df78493ea0e58f5066bfb37",
+      "BINB/wcc.exe": "d0d90e23ad0de79c8a4fbb8186cb90ce1543a35e1fa0ddafd318af87eeb14f60",
+      "BINB/wcc386.exe": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+      "BINB/wcl.exe": "9cdaf0f0e29e20f1dd33ac98cbbb7932fcb5b906f1c14566101b60ab4c4fc21a",
+      "BINB/wcl386.exe": "335784005ab25fb4ae723cf15747e6ac776f683bd8b4b532c2277700c461d4c1",
+      "BINB/wd.dbg": "e9a4a79405353eaaf67546c4adc7994e3fdca208172cbfecf9496a992877e71a",
+      "BINB/wd.ihp": "3194ad68764f0bc6418233424d1c0c88f29b1ae3855f32e3b8d90d5f15ef4fe0",
+      "BINB/wdisasm.exe": "28d0af1976a970be401f8215ea8c6f2f334933f1c22500dff7efd1f79d04af7d",
+      "BINB/wdkeys.dbg": "56b2a9c16717f015544b2319c69912d98299ea45bfe9e0cc27e0d4d7e3677da9",
+      "BINB/wlib.exe": "e17d2d20bd850f3a7f028cca81c165b20d9499f54b54cfb09eb3bb922d18861e",
+      "BINB/wlsystem.lnk": "7efebd9bc495b68c1edcb4674e8d6fb188cbcdf355df8cd91f193a9a752c7bb9",
+      "BINB/wmake.exe": "81ce9d7e6edc2d557e1f63cde2c49f09ed58b0b611eab7477d3611029842451b",
+      "BINB/wpp.exe": "f9cb5b4fa22c37da5653d0e8344acf9dd216c2b6e506b61f12efde1233273df9",
+      "BINB/wpp386.exe": "647f4e754cd27fc76b3c44a47227ae3baa4ff2e2f253a8ec27216414653b1e6f",
+      "BINB/wprof.ihp": "1d44fe41ca35f0982d4ea1bc2a00967f0e0abdddb269bbb0b4c5d9c69a777ebc",
+      "BINB/wrc.exe": "4aaaf02168fe514dd8dd77f32fa309611969b9130299034b4af1aff54a96a425",
+      "BINB/wstrip.exe": "6c698ac8fd0cae6a405729f514406ba462106567daa66067f2a9ff71c61f8b3a",
+      "BINB/wstub.exe": "304f5f20b24894489363228d30ea8756025922eb9aecd929f10c2e3ac3e319f3",
+      "BINB/wstubq.exe": "42535e1d581bfb4c8892e37e4b54856595449baff41aa1118c70d58e139e0c9c",
+      "BINB/wtouch.exe": "dd4488f8b955a0f75a242bb7fd79808741a9c383a564350732ecd1a48679bfd1",
+      "H/NT/afx.h": "a126f2194d6f35ea22bf24355245329a96833a91b8c1b5aa85b23fcadc05c799",
+      "H/NT/afx.inl": "cb774d3e9ebe63018999c85cfb6802c86cda2de55bfc2f49a864635b8279810c",
+      "H/NT/afxcoll.h": "26b1a67075a727eaed5d4c4543ad713e5309fa4bced35819e6225539e7d0fc0a",
+      "H/NT/afxcoll.inl": "04ed839c12e1c033723ce741b8a696c61bb32654aaa0cb87d7d42494c6835358",
+      "H/NT/afxdd_.h": "9d36e6a0622ffaebb636e1a5112defe6380d63eab0ea0d64c709ebebd93c4882",
+      "H/NT/afxdlgs.h": "dbf4405e3f802a929217b57fc9602ed4e05d97330ff18469e78130fa9256caa9",
+      "H/NT/afxdlgs.inl": "5777ca2f1356d0e2e351dc4812699153e45138bb39631e9a4c2c7e6ab2039efc",
+      "H/NT/afxext.h": "982d64bc4f1f0f3b9e6b98b9f47932b52680b09d3b4213844c76c27e9729f11b",
+      "H/NT/afxext.inl": "fbcb47a61889758654bbd59d8e278c9cf89cd60682ef079ac152a10b4f184b68",
+      "H/NT/afxhelp.hm": "89661ff0f44ad0ba065d44f29d8b7a08603eed2b47d37fa1c738195c532c78a7",
+      "H/NT/afxmsg_.h": "e629b745f9915b5896528cfe73c5262028d342ccb14ea5ef8495e63cb8b77bc8",
+      "H/NT/afxole.h": "b2054d883f65ba5a1390f4b5c604ebde4f91f094f8f1776830f04b7a23fe5d54",
+      "H/NT/afxole.inl": "1f51072b69b5d3490946753c2f6d82d0c6793f378d2d6e95a3bd1652e332be99",
+      "H/NT/afxolecl.rc": "a1fca1d15de230598751cc38732a8fdfef10783562721bd915fdfcca09c486fa",
+      "H/NT/afxolesv.rc": "675c2c7a0022af24529417715902fc75916ef788362491ff0cd6cf61470745a5",
+      "H/NT/afxprint.rc": "fac0112304ee78b3c51c9ef7b485dff675fda20688c7d1284551168ebc1a4959",
+      "H/NT/afxpriv.h": "6ef0b7b13606f5aaa0f5e39bc1f4fa500ccacedc1a55481cd5062c746408bf53",
+      "H/NT/afxres.h": "832cc990f332cc0cb7f4ef1c07401835de1b08f2a19447a43d8c73f068cf9b9f",
+      "H/NT/afxres.rc": "9298faa8e33824de12f4328a9183f1525bf3b98140b495141fefae0c8b55cd87",
+      "H/NT/afxv_cfg.h": "97c5757d190902c72214a80237d5f20271d08466751954edeac8363463d3642c",
+      "H/NT/afxv_nt.h": "0bf2e27a40168f2b38ab9c2312135b88bd7a2d2b942657d126d45aa2635f5d20",
+      "H/NT/afxver_.h": "080dfd734d2160e6696bd00b3728beb85bd1a2aa088d0baa6c81fce2a361b3f6",
+      "H/NT/afxwin.h": "81bed9735b4db44e2013995bab0b8f7abc47da8a8cef165b6f3ecb9897a36425",
+      "H/NT/afxwin1.inl": "26b1672f5877ff7191b6969fac4097199d22361b00da25ba370c9cd14d230029",
+      "H/NT/afxwin2.inl": "d255e72f60afc305f24c0a4aabfb20d81e03de52ecc50597e09745dbf578e62f",
+      "H/NT/cderr.h": "1d62a8e0c8e239d0e0e30c2071fd49b0db1777b67d770b3e147e14e8dcae7059",
+      "H/NT/color.dlg": "2618aa73e381ad2772e9d26a95fa9b597c3cd1dca0b4f2142b6de24afd95691d",
+      "H/NT/colordlg.h": "3ca6d45696e6a20f4a510bb20e4d62b3e000c548327fea1bbd1f83e37b4c5a20",
+      "H/NT/commdlg.h": "c432efe809927268ee9018f6b9b6c71fdf319224ad27ae4f9d11981fc495e34e",
+      "H/NT/cpl.h": "5297e2572d827470a211904cfc0d972cdfa4f8331c77af2de614d9bf4e321ed4",
+      "H/NT/custcntl.h": "ffd1709c19ce67ce57f6909d2d409c9cc57cd7b0b4ccb60b3c31c93dd793794d",
+      "H/NT/dde.h": "444442c5f28e9e5b97c487d5bb829ab5f08a3c08e45d95cb9fad552ab15a3b8c",
+      "H/NT/ddeml.h": "136b7947c869f3578757b2ebfe791badf6aebdc5dc8ed7e7690b0f280dcb06ad",
+      "H/NT/dlcapi.h": "fa265a4c97aaf155e18570cf695ce3a5e1ed2229c9c57f131944d47a67f2c4ba",
+      "H/NT/dlgs.h": "e41008804db023cbb8501240a575bd20ce2b89a9439fd7afe8761f275ac74519",
+      "H/NT/drivinit.h": "0d2c7be7aa884cf5573c122e433e8df33b647447fa6e0b2ec9e0ddbbd7f28b2e",
+      "H/NT/excpt.h": "4d6c19b659f59749846f216c1d572200d8e31979785e3fd8706119b911e7bb91",
+      "H/NT/fileopen.dlg": "2bb487831825e5411071889c836bec04e54acbccc86a47ab35104395fc42aed3",
+      "H/NT/findtext.dlg": "c39a8e96b3537afe19b29eb7e860ebfe1b161ddf0edc0fbc95956ae0112e24a1",
+      "H/NT/font.dlg": "f21eb664bd26125c8ad9cdb116d2724902c5e36d388f664e7ef03d062afd799b",
+      "H/NT/fpieee.h": "f1a6a93bf0da52650fd9e4bf8971104f41a85587c69942e66ca54b5553b03587",
+      "H/NT/help.cur": "be41abe6de0b646482573471decc73d1b7b13f3cdac562dbf96d55e1ff267bf9",
+      "H/NT/lm.h": "042686ffa32aa1b0fa0668c49b56865dc382cd06f6864a8f18026d142b9c23d5",
+      "H/NT/lmaccess.h": "bbbb9d6c234cf5edc9115d422611f42e4dbf9142e22bb1aeca8318a1f52c8102",
+      "H/NT/lmalert.h": "6ff9608c5cb4823741a3d2ef5e42203be42426e644b2ac8187390fddf34e1607",
+      "H/NT/lmapibuf.h": "93c382f75e19ee381ab8bf1f8f9cf1ba0c94f6d24bf284c9ff73c6b9c408fcb3",
+      "H/NT/lmat.h": "8a0ee991d78095631fcefe21b0a39f26de72feb3ed8509db7cb6fc24789a8932",
+      "H/NT/lmaudit.h": "fe520fee67ada1991b5834831eb2b9384da0773c57b26031d40a950017165c37",
+      "H/NT/lmbrowsr.h": "226cf936e74d4f2481f38faa2a9ef413a3abdc806194682b52138e5ef3c6c7f8",
+      "H/NT/lmchdev.h": "e61f7b40709005e6aeab5977260e9db737aa7dd532f374a8ba59d27c69c175f7",
+      "H/NT/lmconfig.h": "7745c5c85bcab35a3142b074fe407d259e4e1acd4353c0a35ec9f75d3334895e",
+      "H/NT/lmcons.h": "792c0baa37d18eccc38cb3eb7b899d7bde28249c0c572e5d880ae06b26773cec",
+      "H/NT/lmerr.h": "47a15edf0949208aa0631b70bf0da5e49f922bcd26e0f098a4570e86dc40b698",
+      "H/NT/lmerrlog.h": "b9a5f1bec70ad214b884dd7487a05aaf2f14ea0a8353b20b80e8d63605028fd9",
+      "H/NT/lmmsg.h": "af50014c3af669e323c424e34cd24b2b75e9d60eba9a1f5317855f520640b4ba",
+      "H/NT/lmremutl.h": "d082dc4c5b98ff63d21fce8a14daff29c975a560ed4a159fce39ee4bbb3b9d35",
+      "H/NT/lmrepl.h": "cf8a7d36865d5e80dee81f7fde29e27c5c960b2103ac194ac6ce33cdaec7dbc8",
+      "H/NT/lmserver.h": "d3dfd09b44957d90f8e4f1c8159532ced392ce5c5a006f56f1e16288c8a6e334",
+      "H/NT/lmshare.h": "296491fddf30bced465bd0a6238bd329790c36b67a4cf6a29c1f352d4a875671",
+      "H/NT/lmsname.h": "f01363d130648536c61bf20e1d9fc5643a14ad72f889aaa97ecec8a05300e530",
+      "H/NT/lmstats.h": "8b8cbd9d3d25797f87fc0160ff8646403b8fa6f4f76dfad261d7889b1701ec34",
+      "H/NT/lmsvc.h": "208b234a140e5d3468556b94a447bf08640f4d137a4f6cf856991b4faa58cf86",
+      "H/NT/lmuse.h": "cb15a9c72f18464a388bacdc1df3f302a8ed1e8e54c9b178ccb2a7b0983b0716",
+      "H/NT/lmuseflg.h": "20c1328ff51b1407841fc5021f512f5bd667dea11fadc8ca48b1198efeb5e2a9",
+      "H/NT/lmwksta.h": "4ec61ff28156e7ca5c615245217c6bd2d01bd373d6ac59dbba3bf31d28c327ef",
+      "H/NT/lzexpand.h": "a425be116f26a76708161a4ce687ab3cd3d4aa60efae9cb818f5498a60b9c452",
+      "H/NT/magnify.cur": "5824c6b0cead09e4074f2de55766ddcf738434fd822a54b8ce363cf475c9b107",
+      "H/NT/mgmtapi.h": "9d6968a33bcd8bcd91ce16c96a5aa10d60a60044e92a0b606c7201195f16f91a",
+      "H/NT/mmsystem.h": "6ce1bc8d6823758542a55f0b85ddbe6cf09317340be1b4defdecd7ad0e141d96",
+      "H/NT/nb30.h": "6df640314417de73fa966f27c2b19383b4c62446c977eef1b3e7bf557ceaebf4",
+      "H/NT/nddeapi.h": "cb5d9c587682cc013a2a61e0b2b5851823b704b0f7fef8cdc60aec2103a04cbd",
+      "H/NT/nddesec.h": "7252cb4751c87ebdb2b00df147a374a4fed353c0df5c3023ce54ef79d562e2a0",
+      "H/NT/nodrop.cur": "94398635ff14051fa74ecd81d9687f92b8046d890915e125e08b3262f3fd7cef",
+      "H/NT/ntimage.h": "4ca0fc548407e716683959f66cb1df135bb81baafe578b3dfc2954caf187ca17",
+      "H/NT/ntsdexts.h": "040b2cc609c365e53d04d32946ed49c175a5983e640bdf24e66d6ad1686e42cb",
+      "H/NT/ole.h": "d7feec5faeee0982c38b4f35176601305711a294d3a062fd6574622b213b5d30",
+      "H/NT/prnsetup.dlg": "db4e0fe58d3f4f3fe12369bb3a27ad8095ce08d1c4bac5f7df14828a7792949e",
+      "H/NT/ras.h": "e24979f400d0499b6ded43c6c67a8874fa0db959f979615c11603690a4d7c9f9",
+      "H/NT/raserror.h": "4d5a19a263ed2852a38ad4d6ec6dc16386504c8438ca77ace9a6e266b1386229",
+      "H/NT/rpc.h": "9eeb2a9c7c0ddba0a8384f3ed9d1c0fd623d2f63c7db1d091b0713681b16b945",
+      "H/NT/rpcdce.h": "ac30a6c1e46c5d08dc4dd34019d3284549dea5c97477e8f79eb91c694809aad7",
+      "H/NT/rpcdcep.h": "3726a6f809a30f623d610026a12004b223a2c12d188cd0fe1c77a7e84f2f68aa",
+      "H/NT/rpcndr.h": "483173d0147326cca80b574b2728b801b4bba688f468b8731dd4484b40682889",
+      "H/NT/rpcnsi.h": "dcc0442ddb75d2ff81b7bc34859fd8c5e2d93e45251646dde039af8f2218ffc6",
+      "H/NT/rpcnsip.h": "528bd2c55333204dbab9f0d2fd54b7b45a9c3fdf93ce9b3aeeff2e129a4644a9",
+      "H/NT/rpcnterr.h": "03c3e562967f7d2a050b79fe88833c2347e7aa9c73b5d9b563804092eccc163a",
+      "H/NT/sarrows.cur": "29ab0b2d7833c3add711187d54f8c5f888deff62f320f31f904f56b7f20ad54d",
+      "H/NT/scrnsave.h": "a94c59f916933a124a1be42bddfacde161536dd997c4b26a39333979e69639ce",
+      "H/NT/shellapi.h": "771abd9841a7752235747240a68f6643e60f23ae8ea61e68137757b5d4a9ffc0",
+      "H/NT/snmp.h": "770dac72e4f949f26ad368b039167b3b02e90fdb8f405dea497e3405168175b9",
+      "H/NT/splith.cur": "badd20b7f1055e7d12cdc3769e0853de47f7a78061cce7ac859ea2936a07bbd0",
+      "H/NT/splitv.cur": "98548d6a5a96be22b21ea39a59879a623e1876ffd35fa32a9eba6a61a05177f2",
+      "H/NT/vdmdbg.h": "262a1a69ae3dc0f14794e231427c0ad05ac82f88348801a22f00196189933aad",
+      "H/NT/wdbgexts.h": "4ae2f2a000f0c37f24c42d67d9d2a0c4872ba37cd821c52078c11fcfc7377c81",
+      "H/NT/wfext.h": "d024a218a4280e3d0e276694a85a3ebb1079f1a3e90ac1af8c9a85a6b67b9133",
+      "H/NT/winbase.h": "ffea0559ce491f5ba6707469eebc6a1ae8e563853440227a0700e8e9675dc3b8",
+      "H/NT/wincon.h": "7264c5db1e40afca1e29c61a891782be0782ce13b1bf3449f76239dcd50dc075",
+      "H/NT/windef.h": "5b4f82e37f74af1da3199477231781b455b555d474612392dc5c39600882373c",
+      "H/NT/windows.h": "cec75b7a82322fbc7805c8dd1312804585b9977f51fffcfdd352ec076576aaae",
+      "H/NT/windowsx.h": "261362fae145c81124b8ce1a5a62e2b36d6bac5a0488fa03733473d1cda6d133",
+      "H/NT/windowsx.h16": "8d81a0e38515e68859c2998e2a0adad37bd4a47d72fcf679e5c7d1855c6e9bde",
+      "H/NT/winerror.h": "de2366d30af886c818278209a5bf442ef00f5c74719c76a343f183eec13c53f5",
+      "H/NT/wingdi.h": "fe16e143fc0cb0453e5ce708e638543e7501d89b6cc46def9e9f80aab58cf3dc",
+      "H/NT/winioctl.h": "b2992d4870526f7ec31be3108517bc3f24be177030001f36d3cfc8c698bf9228",
+      "H/NT/winmm.h": "0d2064384a3ab0177b8cc1121ccec0f679ac1c4ff621e2ffdffca930e91b0ead",
+      "H/NT/winnetwk.h": "c26914b8b9b5e30b1f302a5501d7d13a8684f2abca47f830aa7830f4dfe65af7",
+      "H/NT/winnls.h": "2a3fc767d1b153022d2f30ebade53a9ced14ab6d4661824ce40c21ebd8fe4b92",
+      "H/NT/winnt.h": "4d1c4575c443d12857b135aaeedc717ab7bbfc0551d2749461515f31ec2f34ed",
+      "H/NT/winperf.h": "99dd0d4af57307c018ddfe98920ef2db497681dbed4067d4c1b76d62b54a5f6e",
+      "H/NT/winreg.h": "79e58bc98e4924cbe683b97a9b737134d06e6aee2cad8f473e34b3ae647bd871",
+      "H/NT/winres.h": "a62a33143c5158d5bc9a2871dddc78484f070f7e1594ad81da82cf6483a02ac0",
+      "H/NT/winsock.h": "518112d30a66efd8e1f5291805125e3dbeea258e538d11205e90e7a039060cef",
+      "H/NT/winspool.h": "f92639c309bd0549404d5cd32240705ff124353335299184e8bac1f754eac3fe",
+      "H/NT/winsvc.h": "b841b22d0f4d7d926e0a70d6975c337b0b7a079913830ad875f38d80f15bfa89",
+      "H/NT/winuser.h": "2221a3c59c361daa68a24070c596dad2a2f5c5163664e1632bbcbe0b8993eb79",
+      "H/NT/winver.h": "b6d2866358ce604d1373279e47b18676d0aa1cf2d496b0bb946fc591586bdd42",
+      "H/NT/wsipx.h": "977b360b2adec7aae2a3ca0f100bdc096b68f503273381dc6e171fdef2bf4a9a",
+      "H/NT/wsnwlink.h": "f00339370949db4901a26c9a15bf88a48e2f887a9a5ae05d5201ac378bd62ba4",
+      "H/OS2/abios.h": "9ce19ec87e256ecd7b18772c7135f384d7a7a205451cd12527ab15cbdf6c1a6b",
+      "H/OS2/basedef.inc": "d8590ee1d4aea28d0d78bdc7aff8b986b8dbeafb5a66473f0cb9091e45973458",
+      "H/OS2/basemaca.inc": "c735b8323cb1e6d04f5ed4c4fe011f0ed6cccb03ec5ab45a395e4a0c5dbcd896",
+      "H/OS2/basemid.inc": "d0bd6df720deedd84824b7e731d1daf7e61f6f3363248d7b70bcf0afcfd7ef08",
+      "H/OS2/bdcalls.h": "24bb9cedb835a06b68f2a5ffdc2fbd1fb60790c5f2c041af4a707dd01da55690",
+      "H/OS2/bse.h": "a8a2048a7d47833c915feaeace060a19fcf6d5ac1f767aad6bd31148bc9a5f21",
+      "H/OS2/bse.inc": "54d45cf811139cabb644073a1eb1ce9717726ec1fc334cbf071dc41bae7bd33c",
+      "H/OS2/bsedev.h": "aaeb1de053a03d085de037011069129dc5a69a56f0a9b75a8e740bea20c95497",
+      "H/OS2/bsedev.inc": "c5028a5a65a2fcce02b0cb3372454e4fd911f9137bd562909d027b46d7353b76",
+      "H/OS2/bsedos.h": "2ce315a897087ac558c141c384bc9fa8e5e38f5c872474c7986ee8423691e67a",
+      "H/OS2/bsedos.inc": "0b6788e8ced1c89f95225e83aff18c7d4981a895e91166204077ca65d634bf97",
+      "H/OS2/bseerr.h": "7269d7510b5f371bdfc95637fbd9c8ba600dd2c5470e1c36a98f20212914ac74",
+      "H/OS2/bseerr.inc": "462bdf228e7534a764414631b51334a144f845e488e4693f85831f666c4a62ce",
+      "H/OS2/bsememf.h": "b83d905e32023c98414284996a4aaf650c7d0248eee656e9670c7efdf6b0f66a",
+      "H/OS2/bsememf.inc": "5a0b72279f8a57c63065acfc0e77f050210d5de05422f064ea865d8cd2854cc1",
+      "H/OS2/bseord.h": "50538133c394256407e472db27f3e683ba4dca20e270742d593ffeffb6a0a01f",
+      "H/OS2/bseord.inc": "8e51d16661791057cc747897e23c51ad25337c2aa72e6807bbba5024ecbf7be2",
+      "H/OS2/bsesub.h": "e8fb2bc9eea4dc05571b24a222726b7926ebc8e63fc7e99d3d9292900e7d01b7",
+      "H/OS2/bsesub.inc": "e714be96328846be16de7095a46eab12652e65e51cc70df80af4388e2900fb1f",
+      "H/OS2/bsetib.h": "89c31347a37de5e0ee422e40bc5361728010d7d30e04cb378340b78c167a08b8",
+      "H/OS2/bsetib.inc": "3eab6a8f0bb39512bb16301f0cbe43ba06e35ace8f24eb894055911f890f430a",
+      "H/OS2/bsexcpt.h": "c409a6df6422a09eaf7f8e225a682f6e04167b321f37724f953a979210f6ded1",
+      "H/OS2/bsexcpt.inc": "b6bdd81c055380cb97dc7cd28acb1983cd755c2c72d7ba0be74bba733e36dbf2",
+      "H/OS2/cmacros.inc": "72cfecc3492140c030dced788ad12603f798d7e04eb5ae133290b224157fc875",
+      "H/OS2/devcmd.inc": "bfc3284b60088d5540fd28a6dfdb3db5ea702c0efa72035278943150dfdcb990",
+      "H/OS2/devhdr.inc": "5c3024637493bbb3ae58509b3fee95cf23c60cdc6b761e652d8f931d77c70776",
+      "H/OS2/devhlp.inc": "5a78c2e534a1718f60506b05074301548e15df0ab4c29b3b3390ac922fc27ae9",
+      "H/OS2/devsym.inc": "ca434b1528e06e99b502cd24a398feadeced3e8df7648a2f02956e743828d150",
+      "H/OS2/exe.h": "de4e736bc82e9ce9cdaaa25963cd96c2e5130f91279a70506157635166f34617",
+      "H/OS2/exe386.h": "8c57cff917642dfdacf2b2e56e46ec324dde576bf51d9f9cb26c0d47058584c4",
+      "H/OS2/gas.inc": "6c738b819cc08c65bea2080136463f5769245b6e13e8d1dcb85ddf465c9dd79c",
+      "H/OS2/hmtailor.h": "4b73988ba39a52a7d290e136f8b824dee810fb33745290da79c453f3046bd9d4",
+      "H/OS2/infoseg.inc": "cf2c160979096767789f02349ac31d87861e349f046bc09d9e2704beadba88c8",
+      "H/OS2/iorb.h": "7d9f777957d2b4a7dc8377a3e4d0b676402f7e0cb50997bd90931c437d3885f3",
+      "H/OS2/mi.inc": "5e75c72c9100c49e61e1a1b66e5a428e5b13aa8526194318e94fbd497232d843",
+      "H/OS2/misc.h": "31c508e5a4761938d34edf944c1cd570dc1afc73a2f8db283197d499818ad601",
+      "H/OS2/mvdm.inc": "b2933fea28cba8e8d898b57237c2e969b2100c2642395234e6aba88005416b3b",
+      "H/OS2/newexe.h": "64c5361fbf01c9b0fa2c11daca8242a0be5c768598401244e5e32804ee20543d",
+      "H/OS2/os2.h": "9660b5e2caf148df27b6b15ee76890330d43c0b0477ce92340dc9a6eaa4afce8",
+      "H/OS2/os2.inc": "c9e13acc9eca8bd3672c69377b404d4192cbbc3d3b54c4f687b2bab2c0330a2d",
+      "H/OS2/os2def.h": "34148bdd9c14e6c67ed12f698ae79de0879b45dde2413e98cee53c2cbb09e174",
+      "H/OS2/os2def.inc": "cc6a5b1ffc6d0c7c7675659ec167b26ecf4fc3ddd2f1b3e506dd5165fdb0b327",
+      "H/OS2/os2nls.h": "7451f855fe1923ba8514329b340984fc24399687ae23dd687feff66354d01a2b",
+      "H/OS2/os2nls.inc": "1e5008717af602dc6cb7138115cb1ab63fdd6fed6da3ffc7afecf891e604d951",
+      "H/OS2/pm.h": "ce93e74af93128208634259a893b7434396ead5b7a025a7e479fcd595b2478e8",
+      "H/OS2/pm.inc": "4eea6779c4143f135b1017252256f58ebfca220c437c5be76f4568e0d1299d38",
+      "H/OS2/pmavio.h": "36489ca88c9cca675656d61707a99a1e7697d5044180ea53a76c42804b1a0021",
+      "H/OS2/pmavio.inc": "c1c62ccea18b83f1407c1dd896dfccb4d0311d8424a0c4208329858239a27058",
+      "H/OS2/pmbitmap.h": "47a5c1f4a35b062a1d11ffd6ec2278dc947babe4cc0bf0e321aaef5618af7073",
+      "H/OS2/pmbitmap.inc": "3f4ad7a493ca4b0e0e6516ada96ab72baa25c87825bf5eea26ba7254c1f556d5",
+      "H/OS2/pmddi.h": "0621e5cfca9acfb7f7448e39f54c0b743031de6c8fa277c5084d964a89bc7c21",
+      "H/OS2/pmddi.inc": "f17619caefe43eaa0034910b17180432b14e21072d61e537fcdf5830a4f1fbf3",
+      "H/OS2/pmddim.h": "7b124b20efcb305d1c1fe25cc451113834635b3425c84262f2bf45784b4708a4",
+      "H/OS2/pmddim.inc": "959c33d4bbb38f78b53d2469d429600250ffa052eece4b1617a7e9aab0251bcf",
+      "H/OS2/pmdev.h": "8bc4426395c5d1be536d52310dd254e01a8971c886ad6d477f302318f10f868f",
+      "H/OS2/pmdev.inc": "77f645c6593fe97afb87e4f615c8caaf63d8c0436ceb0e69ab4f4af946d25f05",
+      "H/OS2/pmerr.h": "57db3cf27261f110f7b09ac4c5e3fe7dfe64fd8952ff5547dcf1382ad6d4768a",
+      "H/OS2/pmerr.inc": "d116cf13c7c22db923c33c2a49c90f48a7d263001ef93f3a5f555aa68b529e8f",
+      "H/OS2/pmfont.h": "eac403e8f3f388b4e127144d747ec35f1e3451e7c13666a8f847ee6a0a77260c",
+      "H/OS2/pmfont.inc": "c2c8626969d252833df93e48cf0e49cee2fae6cadc8ca09eefd023c2b67454b6",
+      "H/OS2/pmgpi.h": "58d75c5675730d21e922aa9d69730b869d1e16428503ffcfd3f10b9ad6cad2b2",
+      "H/OS2/pmgpi.inc": "5fcb680278066326a1d06d2b561bb83384c9e69d8cd3e7ad40c47eedc3299eb3",
+      "H/OS2/pmhelp.h": "a32280449fa50bde4696a39bf5482e0ab574ac63269b0708b9326795e110f913",
+      "H/OS2/pmhelp.inc": "b654c1dac9debd30da1cfcebbd07904d2d7ea8a40c74dbfd7bff9a834612b5a7",
+      "H/OS2/pmmle.h": "2f38e2182dcf5a784a88677af5905a2e7d585286f77e710cb1be831b28d4de68",
+      "H/OS2/pmmle.inc": "ef0bcbc2083578fc5a68f87b93a0fb6bb27b35d407998cc70c89fe11643c188d",
+      "H/OS2/pmord.h": "9d58b20d70b1972441c2c4e2a1f92331a44ec6561e8e12281a179855131e5298",
+      "H/OS2/pmord.inc": "7b4eb2026a39c7086b42054177c1a8f7e0f4ffe31e51b29a4ae1ba9b56488f6d",
+      "H/OS2/pmpic.h": "5a7acca8d4dc84f9ab1cbac1a00f511b020669f5c64021e2885154993caa7701",
+      "H/OS2/pmpic.inc": "02c4fbdcdf7e3f5ce155d72bea63859a2a7e5f1bac1af954951a54642e6aacf8",
+      "H/OS2/pmsei.h": "2dd435398d7a81aab3c871c579714168d7b12b10d0e3e224687d0b7eca51ce75",
+      "H/OS2/pmsei.inc": "0cbb9276d041fc645a8cc05ad05b927ccca6299630a0693d593712a835003e95",
+      "H/OS2/pmshl.h": "622e643738a914d179b87ba89a7e6e4460e9c86e5b8525edb64ea2100b18f95b",
+      "H/OS2/pmshl.inc": "3b842ff248b7820282a5b66097d16a9de9818e1944b90ec25849ff6829da4bd2",
+      "H/OS2/pmspl.h": "d7b782d7bad528cac0f0b03c9df484c40afb466568079de91885e93982893c3a",
+      "H/OS2/pmspl.inc": "019fa6b320a692164182c754d91cf114a722432a12267d0195695dd9d0930506",
+      "H/OS2/pmstddlg.h": "5ac9e302ec900d9dea20d8a4d0e2eab769f0ad5d2510fcef7b22b87f94dcac6a",
+      "H/OS2/pmstddlg.inc": "abbcaf752f8840cf6a271178cf7a5cc762a4ec9a5a8e3298085359ae0a8d22d8",
+      "H/OS2/pmtypes.h": "81861f2a73f4b1ffbc4540588601eb591a90747245d0eec10d659c0a441b591b",
+      "H/OS2/pmtypes.inc": "b4e53be0a93af4fe5bac7a9f4e9cbaa78643a4783ba385bf0542e28986a7a9e0",
+      "H/OS2/pmwin.h": "81e4062ddaa818951028db80c8b644f04ac9fe42966ad04e6c0c2c592405f060",
+      "H/OS2/pmwin.inc": "e85c08d23a58c7cb9c7dd87ebfd8b87dc9c8b73a3b35cc538b7d4bc59bd57133",
+      "H/OS2/pmwp.h": "4bf013b62336d6e699caf72d62649714fffbbb3195996c8c82b16d9b6f4ee263",
+      "H/OS2/pmwp.inc": "75002091758ca8e4d561e15575bb92a623034290291b7e0ff69e84d317a506da",
+      "H/OS2/rexxsaa.h": "844e24dd9396494adbeddad8a00069b05a6a918a410970198c878e01fe598028",
+      "H/OS2/rexxsaa.inc": "382017665101aaeaf7e6767a649beea68951fcecf20f8a98be053bb8dff0545f",
+      "H/OS2/scb.h": "4362e643a96ab474aa93f162de9593b214bb56c577f8faac0c81fc2f1b6d8568",
+      "H/OS2/scsi.h": "e3cb10d3bdd335576e40943967ac3e3ebadd48c06632aa7bf114a94812d67713",
+      "H/OS2/som.h": "286a7d354a27c518d6c2a5066d700251a9f68a1d3d40e37c92472d566533d6af",
+      "H/OS2/som.xh": "59ddea5c9d655ef02b6f6d8cf5ae40dcced2665f0f0f5c3d18c7b999596aebb7",
+      "H/OS2/sombtype.h": "644497f28e97e6df28c8a8e8b2cb589710d494e60dd477777604b2d04669cb1b",
+      "H/OS2/somcdev.h": "8b0678f3034ba44139d3abb14d3a8f151b7cb9b4f3c060547d8f8982609976e6",
+      "H/OS2/somcls.api": "af5e5458011fea996f74ed1c71cec6b1970c0b693ad33485220f1097b822d9ef",
+      "H/OS2/somcls.h": "e0d6776429e17bf31510a459ccc54dc84652e9132e0ede2eab4bc3fe1c393a62",
+      "H/OS2/somcls.sc": "43b5b1b26cbc67214cd0e0ab5d8c5d9bd01a26298cf4405267e319b86c14a18d",
+      "H/OS2/somcls.xh": "492affa9775a334a6394fdd3903f923c8da0bf3c39de5ae6b569b0025680ac9a",
+      "H/OS2/somcm.h": "a17cb767570d61fb51d0a2e0fb23bbb32b33f14c8655b91c951c2f05a44e4741",
+      "H/OS2/somcm.sc": "876df3dae5df4f6e7f85976cd3e3a2eb2a7dbd933bd8d1588f19a319155b97b9",
+      "H/OS2/somcm.xh": "4f20ff55532cecca69fd21cfabf4472cd5dfdbb40c61c0311382783276b9fd87",
+      "H/OS2/somerr.h": "51969a792acda3799f422f3dcdaa16754d9d03926c5701a1ff29d9f0cad72810",
+      "H/OS2/somnames.h": "92af0407735dc6ced19da7d6e30f23db9dc79bc4ccaf1a7a3e9f22ecbef02415",
+      "H/OS2/somobj.h": "34f3624b87821fdb973d704ad8381b153933d2e122d2660132be99a246705010",
+      "H/OS2/somobj.sc": "b7dbc9bfc6a655a52298210be511a25baff9122e28c3fb990b997bdc0cf251e8",
+      "H/OS2/somobj.xh": "9027f985b55861199beaa7eb265787cf50bc1121637bc3ceff50f61f41b3fbee",
+      "H/OS2/somtypes.h": "210da7502684ab9f58fd8ae3ba2d5cf0bd3bed10e134028eba9987b7f077409c",
+      "H/OS2/somtypes.xh": "7d5438d84178660415a4b98af81630cfdada82da0de06953174392a8adfd609b",
+      "H/OS2/v8086.inc": "6e96971100766afa00b7ea2bf27cd5dfd1d2464d401f75b510ebdfdfc7de031e",
+      "H/OS2/vdma.inc": "7c99fbebf5c400c8867f9c918111be787254638a0f25ed0f4c6c12f9fa88100a",
+      "H/OS2/vdmbios.inc": "5fb7c941a814dbc840fc554906159f3c79477340f98a5f0bbda5670b850c1859",
+      "H/OS2/vdmm.inc": "62faf6beaec8e0e03842449c5bf16e6d11901d0cf5f474c40554708960623ef4",
+      "H/OS2/vdmprop.inc": "29fc1ec52a706771bd7523810ce6957d1498a1adf1e41e61253b462e383f204b",
+      "H/OS2/vdos.inc": "84729d06339f4f69a649d948fc9d0b8636f7f0157c68a66f0472f748107c95e8",
+      "H/OS2/vkbd.inc": "6d2f23f138bcaa65e435adef278b3404f4cfc2010c5bf2652a697ecc8d86275f",
+      "H/OS2/vlpt.inc": "29736d71d186b158fd8cdb1a069dee446098ed2a6f4c06ce4ad1f087a71e07eb",
+      "H/OS2/vpic.inc": "6e553b68041f5a79b42e6093ff702fb44430ead2feaa40df7844330f3b74c967",
+      "H/OS2/wincfg.xh": "e37938a1ecebd1281fb619eb80ea58990d1f1151b5225a09eae7d2a3345a403e",
+      "H/OS2/wpabs.h": "4aa86345b1eba454997d78cedeaf3919c3dfb0347625a67c8fa84f0d30bfe9b2",
+      "H/OS2/wpabs.sc": "06d50e1298ad91328b98e2281b56ecf1a712d71b92de9a62eb7091eb32215cf2",
+      "H/OS2/wpabs.xh": "feddffbd1904f246f701496903592b1894de7b306d5991df95332c26c3384ae0",
+      "H/OS2/wpbitmap.h": "6d426a4b982997bdf2fa0f57d3199eb73e917ff75dd40ad64885656f90fe3c9d",
+      "H/OS2/wpbitmap.sc": "492696e4d0d78bddc901068a90e57a826fc5a1097a8ecf3d95922708ba992ca5",
+      "H/OS2/wpbitmap.xh": "de0955f01cd60b177ec01d1b3ac0c5874e71bdb6415abf590133bbafaef06501",
+      "H/OS2/wpclock.h": "7a140a49ee34e0f5df6016c74ce954d79b199c20b3a88499080a8b37a668e3f4",
+      "H/OS2/wpclock.sc": "ebad0bc7ee5de4f9e5bae8eaad4bccac732fc107cf99c0bd89622100ec438bd9",
+      "H/OS2/wpclock.xh": "0016653b370b253ac9477a28d5ac4a6ae69a707758e895de57956df7cc0670c2",
+      "H/OS2/wpclrpal.h": "ef20aea377e4ff5a0b119d3d5a51435506dc44a2d942e4b21bd198496d43704a",
+      "H/OS2/wpclrpal.sc": "0dc5e67572ee1955364590a2da3fa03ee33647db24a7ef59cb75e845a15d1502",
+      "H/OS2/wpclrpal.xh": "7deb9385910014a68ced2412030855e0803dc178a12644abc298d4359cce6ea4",
+      "H/OS2/wpclsmgr.h": "c4008149c0d2ec610572fb1d8a4376af7b3b7253b3aba87cdfe87f69df98725a",
+      "H/OS2/wpclsmgr.xh": "87face3f5b681779d2ac52980af678fe6cc6d0a7a25353d0bcff533f21877c60",
+      "H/OS2/wpcmdf.h": "9703bd0f51686b51b28f01c4832c66701790ba7d8fb9733691cc6bb3bdfb96ed",
+      "H/OS2/wpcmdf.sc": "5e812cc2252e2c8002b2c5902cebedd596d47caec0d4219f4530a65415b518a5",
+      "H/OS2/wpcmdf.xh": "73b0405aa4729f122411a6f41c79f632b68a0072460234f689129daa4e24fe10",
+      "H/OS2/wpcnrvw.xh": "92efaeb568741ec452d7d2bf69bbd7d9d0454eb5a1caa4afa4600484d1b62442",
+      "H/OS2/wpctry.h": "28fe08fe7c4f718d37eb4d2b3bd22fec7f7e81f90b0ed901dbc564b1b9edf5b1",
+      "H/OS2/wpctry.sc": "96d44e90550dd333eac5fe63d2dc4bee7b413b2ca125e54178f84efc0a6bdc81",
+      "H/OS2/wpctry.xh": "644fe0d23fdf26ae327199311b944bbaa5e087222f04df226416c8b5f6e7b2e2",
+      "H/OS2/wpdataf.h": "a273d1546d8a20051b81665b1d44b78ed9d87cdf5aa8b2b012271471dfab46f9",
+      "H/OS2/wpdataf.sc": "9da5d9197b53da0582040c947c983e7b76da218bb17676978350bc9881ac8b6e",
+      "H/OS2/wpdataf.xh": "11f766dfcf5b7b260f7f147bc4115f7fa80c08d68a77bbb5f3f85eafe77abacc",
+      "H/OS2/wpdesk.h": "a0cf83588e64d7c7c2cc68e927b16095a587c06083ef3bcf2c886fecaf684905",
+      "H/OS2/wpdesk.sc": "abcacf5613e170faf84db7e960628ce682afe02b8039b48ec9ad42c8524b0028",
+      "H/OS2/wpdesk.xh": "96c0c1011980899f5c35c080e5f1b9c8c79f1ecc7f69024d3e0dd0ea45ffc41e",
+      "H/OS2/wpdisk.h": "ec162711c2587642f10f203792adc85e8fc19cd5f8b896c51bda5d5372cc8db3",
+      "H/OS2/wpdisk.sc": "0c494ead658174fa00aeef332d3bf012d439bc284493c84fa78b9073dcfe33a8",
+      "H/OS2/wpdisk.xh": "926eba1a5d7bb67d195f4691ca9c8517ba5b39a9a8e44409e142cbd760b0b121",
+      "H/OS2/wpdiskcv.xh": "864589bbcebe52e3a4eb7320b49248e3c898a07164e3904a85e3a84ccb984c5e",
+      "H/OS2/wpdrives.h": "d6355e62cc01fc2b4b714a5653490d9ec7e2367bd07ebeba8eb156d4362c7be7",
+      "H/OS2/wpdrives.sc": "bebded9e5018433dc4230d9f3ad47cc81bcca629fbf50c32fe7c9b30cc37c85e",
+      "H/OS2/wpdrives.xh": "b261817a2db86817dc23c86e5ec165c5684feb721cf699162167628f438e0cb0",
+      "H/OS2/wpfilter.xh": "61f5a6ebe6798706ee5ad7a9c44f585cccf6875f645843a8a41dd91e4cfac84b",
+      "H/OS2/wpfinder.xh": "875ac42f6112541cd0a4f003061f670c3ad45a4df6be9b2727a060aa6da667f3",
+      "H/OS2/wpfldrcv.xh": "db31b57043203740a9295240e2dba621b0f5949107a2663395980a617c3fc8ee",
+      "H/OS2/wpfndfdr.xh": "cd380d07f970820c56a18d04529b47224b6638f89bef3730968412e22c56e01a",
+      "H/OS2/wpfntpal.h": "ecf8d53a5e79ea110fd9f7b0823734f101271e330e46f9bae2fdfe15c39c9fe9",
+      "H/OS2/wpfntpal.sc": "2e50cd96fcdb76e3ca5d68a89c96aa8801711e08f1f84dc904b0bc5c7cec0fa4",
+      "H/OS2/wpfntpal.xh": "59e09f1698eb2df487adf998f579659e68905a0e4a9459e74e799090b9434276",
+      "H/OS2/wpfolder.h": "94f3ff854b756bdba88152bf10ae127c4b94c1cd099e559ec8ef2b00840b8467",
+      "H/OS2/wpfolder.sc": "ec47a668d4d0a15364a4a528eb653c8eb6c7db18445bee77bd4e15f19c73e04b",
+      "H/OS2/wpfolder.xh": "fc335c1cee9d28ffaaf748ba97d42933c3f58cc17916fd68c234983757532e5a",
+      "H/OS2/wpfsys.h": "6442b985e88343a3a56cf5772c742a284bad32d38fe65803390db7e7b1584b21",
+      "H/OS2/wpfsys.sc": "297609c2f92a161a5f40741c7f047b031a60a6a537973812f14147fadcd13726",
+      "H/OS2/wpfsys.xh": "f3db5c13f85c60930c34b99ee7e1de133b4bf20cf09247d0dec1984d9fed10f1",
+      "H/OS2/wpicon.h": "b85a126ca3b66b11eaf8977204b012e7c774ec6c7fb337d3c811fc74590b2891",
+      "H/OS2/wpicon.sc": "e97ff1bd11cdca97b1120d679c31386b4328c726549cde0917f348c402213a62",
+      "H/OS2/wpicon.xh": "7321b5b2c8f1ce66ba29982e8ccfd1ff59b9bdf9cbf11415b7f3643ff751c989",
+      "H/OS2/wpjob.h": "86616b7de84a45faf64043aa53f730c88028ce89c15a3221a6dfbf057ac4fead",
+      "H/OS2/wpjob.sc": "965e039138c176d550bfd493072fe9945a90a195ff74020400aafa6cbbbc6d12",
+      "H/OS2/wpjob.xh": "a5514dcddbd4e2287c8370f993fd3cd35930ee2c009d9f546cb5b4100ecbc2f2",
+      "H/OS2/wpkeybd.h": "2f6d8d9b4cd61da37e2fb9796216cc04bdcbd27e8dedf65d3fa53fa6d9816e83",
+      "H/OS2/wpkeybd.sc": "91f860a9e7507c2777323b46d28a7cbd5215c892d74292b4b9894aea25608bbb",
+      "H/OS2/wpkeybd.xh": "86e2f9ca1bdb38b1114f327f2c8053a9179562986d6e59aec30544aadfd4d3a1",
+      "H/OS2/wpmet.xh": "300b13f9506409d0d00234323366af16ef5e76fe9dd3b7d1976e44fea8d6fff8",
+      "H/OS2/wpminwin.xh": "b2778b2e81743b480e8774c438b2da60da5e21c5da245a3c29b5289f021e0f75",
+      "H/OS2/wpmouse.h": "bee822c6cabf7a855494f4c7a0f9d7637c3373acdf50a4d9803cb11a88785010",
+      "H/OS2/wpmouse.sc": "097987db0ad206dcc7c74215d77fe4aa86a6cd0091be1bb6874d863187acad6e",
+      "H/OS2/wpmouse.xh": "e7af422ff618aa6d498ae51a5002e86c14726f0354f2ac0db0aa6a4fcff1778f",
+      "H/OS2/wpmwv.xh": "f263ff7411d25cbedc73c18fa89ae9973a8d2812fcdc470ec0228e41fe2e936a",
+      "H/OS2/wpnetgrp.xh": "e2c71c18ae262dd52de098546d4886cdc5cfb6b5be52d64d2e593b0443f016b5",
+      "H/OS2/wpnetlnk.xh": "7056cae7a3335254e7d32d91ba888214a3a2aea0e2eba111c0bb935ad6797e34",
+      "H/OS2/wpnetwrk.xh": "54ebe981ae9792e7e41dadfbbb53237ffcd6e2fca34359125a4d1cc418d4cbc7",
+      "H/OS2/wpobject.h": "7c54efe2f4e861f5eb714bb8c6f801e071728067b782f0297da2094003b2179c",
+      "H/OS2/wpobject.sc": "392b26c5eb69a89fe0864a4da322c96f4b0d5c5ad73224e89957b41aca06930f",
+      "H/OS2/wpobject.xh": "340790f49e2a4c94cea2f9b816dc67fd97519ed8d2c9fa40b6cf908b97648715",
+      "H/OS2/wppalet.h": "6136351ef886110e5261f17161144e452f3ecab6e01567eca94035489084dadf",
+      "H/OS2/wppalet.sc": "3bfa742fb79519509de4b68343f6ce4b2b95942519c3b52d383d831dbeadafd5",
+      "H/OS2/wppalet.xh": "7005574e9dacc7c3ad66e188649ebc1502dd851ecb1b27bb0350b331013c4e2c",
+      "H/OS2/wppdr.h": "84f19f763b8a7d2705e97d3e72a5b8c346703d27b6b0f3c984e5d41d95a90b2a",
+      "H/OS2/wppdr.sc": "5b599b03ba9d7c1bc3e63d6c84f7096acd325f2a7feca1424109a6a143a34ad2",
+      "H/OS2/wppdr.xh": "5f5894c33a6beb7f42125d859f1cb6a5fd936132235ef44ca748b1b2d327af8f",
+      "H/OS2/wppdrv.xh": "f08bc91b80715b8a508ec33e5dc2d9c6389417fa8306f30d0f87be2629ef4764",
+      "H/OS2/wppgm.h": "be723bf2caab7f32411fc2ad5da54023c999b26d42dc9d7e7ecc7a91e3b08c0d",
+      "H/OS2/wppgm.sc": "e824a1f82837bc21598319b8b72b98d13623001f4fdcecc91984cae139facd5e",
+      "H/OS2/wppgm.xh": "b7dceff71043186e09b4e12190baad44d324d9fd4cd17a573824ee88ec45c681",
+      "H/OS2/wppgmf.h": "6fc38b4e68bc8fed238fc320f18023ce2d69efa29d14ddcbd1bcec4b3ab12305",
+      "H/OS2/wppgmf.sc": "2cf75a5ec48b4ca1bb23dd9666c8c7145db147757e27d1205d65dd41d0566e61",
+      "H/OS2/wppgmf.xh": "198145406bca562574c244c98ed8d7194a6cab26204ce36dcde21c6650fb29f7",
+      "H/OS2/wppgmgrp.xh": "3a16293bbccca20e4de744ee68774411116d7b7c72402ecd4ab13e5d02d672da",
+      "H/OS2/wppif.xh": "13b6b03ea1ba9c9d45ef1de646aabad642f8dd7cf7c3b14a63c3c466d1d4c780",
+      "H/OS2/wpport.h": "fa8ba491bc819ebe519fb3993d8ef86041b4311af451ccf11d48b93c5156df3b",
+      "H/OS2/wpport.sc": "5390b968c5bf304570213bc5c7550751fb814f94679ac2dc51a85c588c317736",
+      "H/OS2/wpport.xh": "c8873acccc1877306fac38b610a7f534ec311c305d7fc1ca5661eee91b5222e3",
+      "H/OS2/wppower.xh": "bf62d04bccf02f386552e6e747c570b61d5574f717ddeb44a8afac124f39398a",
+      "H/OS2/wpprint.h": "e768f145e9d7d2104384939c3f3e59f2037def6123349cae70ea20f59a6cf415",
+      "H/OS2/wpprint.sc": "1982d57dee76703803df0c968b8f7cb859c8bc18787220a25637453824cbdb47",
+      "H/OS2/wpprint.xh": "8c4dc5e7b96bc446ba38bbf1cf9ef8554199d8adbf004480ab11902a457de88c",
+      "H/OS2/wpptr.h": "17c56ce5e33b8f579c6fa66ce7be085f893f5492a63225f73377ef298344716b",
+      "H/OS2/wpptr.sc": "b12344513ae4be023b88ee6fe852f4bf76b1074290c84f0c2c2ba3723815f1dc",
+      "H/OS2/wpptr.xh": "8e4de91f770c746dbb3f493cb8f4b6177716d2cdf553d254599ef1cbdfadd98e",
+      "H/OS2/wpqdr.h": "42d2b822ea3dac803424e6e400dddd259a60dc9354944b36da9e503e40ac6ffe",
+      "H/OS2/wpqdr.sc": "77259baf2872a7a1bd9da7c37f931455c1ab67c1cefc67a24e620166ac720311",
+      "H/OS2/wpqdr.xh": "6d3e1a2a1fae0ec1e3436189e79e1b1ead0e544ffa42c2d4a07d6b9d1b47343a",
+      "H/OS2/wprootf.h": "1075756051cad3c3ae2ea933aa0f1793224e2d52201a42fb2fbb8908cb44a363",
+      "H/OS2/wprootf.sc": "8d775e1fe2560a1b302f04fc57259d7d15f1e94ace64ca15c4e84bfd52ee5e57",
+      "H/OS2/wprootf.xh": "d9b240ead3754407e5fd05cfe4aa405388cd537156fb96d69195fe688edcc822",
+      "H/OS2/wprprint.xh": "f35e87f759526e3e1a8319e84e6cc2539c6e17084184a17a8befd324429943b1",
+      "H/OS2/wpscheme.h": "f4ae4a0857a31c0ae1675e5e93d2306eb0bbc30f19faf0d4af3d3c910ddc6564",
+      "H/OS2/wpscheme.sc": "518bc8487ab61b2716cc622a1e787c1e2620984a97b91eae366d57cfd6019545",
+      "H/OS2/wpscheme.xh": "7edf01970a104244f40d47fd2636841d13955476322766a0243c132a8149b96c",
+      "H/OS2/wpserver.xh": "e065df5f9cb38eef75cfa0423dcc18b1da9599fb9f57970d97227da39ca99906",
+      "H/OS2/wpshadow.h": "328dfe16142ad0fe8591ac36982ceff67f0f7ab7f8f4f0627cae842e55443d40",
+      "H/OS2/wpshadow.sc": "682812a30365bb9899df61af710fc9c736a5b2cb1b12147d0c0e2e884222fbd3",
+      "H/OS2/wpshadow.xh": "9d42bcf0c3f9c9ddcd2d79f1fbb4629e443b53f61c9042ff2dcc1c25708084ca",
+      "H/OS2/wpshdir.xh": "1c352ae8c0ea3b683810db2bb72032a96b321f6b8324141620029609f3271e3e",
+      "H/OS2/wpshred.h": "1151c300dc807a710626583129a45a39c01d3f1d9967eaa28e16922a53eefb5f",
+      "H/OS2/wpshred.sc": "d11933ded08eeff7d672cf5c7076cf570d3c8672a97b860eecf5f1cdc9eef621",
+      "H/OS2/wpshred.xh": "2238dccef909e65366799267db5a7f56a6c9d2682eba39b32b120f1845fc2804",
+      "H/OS2/wpsound.h": "f10b0a4b6311fb3793efeccc1a09c18ad92757ff8bd49e4405a3ff1f23882c51",
+      "H/OS2/wpsound.sc": "05b6f6cd6c7f9684d3f8b59cc7ee9eedc49b446455d0e693f0bff126a37fbdb7",
+      "H/OS2/wpsound.xh": "ea76ebb9b963fba0f9069f661451370589b1d8d83ef4b7a9b477d2592f901576",
+      "H/OS2/wpspneed.h": "d115d3dde0a9d2d27c085f39d010dd90f394968dfc429924d4b2d9a63822ea74",
+      "H/OS2/wpspneed.sc": "d9f9be7e89b2c1185a9fed243cc7c8d411136c6e868702ed592ea840c3b5f0e2",
+      "H/OS2/wpspneed.xh": "ea6292172a50d4f0d48e618c22d5ef36646f71fd66fd07f1e2199581dd4edb77",
+      "H/OS2/wpspool.h": "237e869e1a3b15abc5a07f0003d11b2c2d4d033c7af9c4e9093885a15691110e",
+      "H/OS2/wpspool.sc": "c3ddec8309edefcdef3e15f82f7c98126018042936afba806c3da325ffcaa1a8",
+      "H/OS2/wpspool.xh": "2f7d9af7bfb60f43595a9a6d3dca72bb376533930b380ffea0024ec56ccd3826",
+      "H/OS2/wpstart.h": "398df295fb38ba0aa9e84e959415df0017b4040c5211db1aa601ef4936e207cb",
+      "H/OS2/wpstart.sc": "c888f9305374a169f3d941849df49cd0685882dfbf65c4f8eaae4109db32c436",
+      "H/OS2/wpstart.xh": "6146986d1ab24c6815f8cb3cdfa602ae0098f3f93edb81afd225f1f08a1783a1",
+      "H/OS2/wpsystem.h": "7b49d3b26df178ee5a1bbdbaa640265b3c1411f1d35822daff661f30f0478eac",
+      "H/OS2/wpsystem.sc": "63ae9d166d5459d4d466be6f5dae3b718940b2ec482206a1ec753a78391be1b6",
+      "H/OS2/wpsystem.xh": "c9387a7bd7aa3738a6697749fd298780262c1484ce1f62903b8419a59267633d",
+      "H/OS2/wptemps.h": "053d8f14f1da95f38f5a26d823a5c5508b028f96fcd1f50bb103fc61e9957905",
+      "H/OS2/wptemps.sc": "d47207d70522bf15df4c148f36d9311a968b8f4d6646230c5787e3b241c77f78",
+      "H/OS2/wptemps.xh": "f4cc54cf83e07b6df11fe37b25c45355f5743d301b633b95dfad3ec5b20b21f5",
+      "H/OS2/wptrans.h": "5f02495392452e02e623d63b80bfdc4ee55574c376d6abe1dad9d7ca90c64b45",
+      "H/OS2/wptrans.sc": "9716815c6a07f2afbaea9909c2f879888c0bb10831c5b279f88dba4212ce3158",
+      "H/OS2/wptrans.xh": "9f68b3c6b8f84636e24cb9f64ebdad5ac88d9cb18d59e9fe8f528a7937740cfa",
+      "H/SYS/locking.h": "b9c2e833717bd293a3d67bbdcf41d07f99a487d30f932735515c319240286e16",
+      "H/SYS/stat.h": "1674d8dca0a27820589b1b4012a195c7f4b2a065d927b99440dd93708d57ffba",
+      "H/SYS/timeb.h": "d9db30325b47fa5009a8248105a6e92af6fa7642d4f360997122cfad1f0ab253",
+      "H/SYS/types.h": "f6036edfeba77a1057d068e7a0a0fccadadfd2c4042a96955170d8d594aac813",
+      "H/SYS/utime.h": "b1c9704a25b16455ced874355d8de84556c7f63d8839fd619193038ab762e48b",
+      "H/WIN/_win386.h": "962fd846a97ab1290e51d8fe073218636ea51167e13d411871ad283ec676e93e",
+      "H/WIN/afx.h": "4d095ad76596cb3a3f6efde56ec8d264b1cfdfcab013e02e76794b6d47850812",
+      "H/WIN/afx.inl": "093d567aebc32690b8c9ce6fe62836fa75d0a57edf09e18890aa64f42b9c2725",
+      "H/WIN/afxcoll.h": "939154d7d45eb0810157fb5de3bdfdc0c36d605c4eb14ed3d30ec3c3aa751604",
+      "H/WIN/afxcoll.inl": "1a12f5462a7175d568181fd57aabf257d3e30167900fcf02ab65aff82f8bce3f",
+      "H/WIN/afxdb.h": "1916f6a111fd1474cc983f68808f70406381ae8ca3f38f097cb3fb341d50d4c4",
+      "H/WIN/afxdb.inl": "b78af4096be9e33fbcf7233207f690f77b978a2178fcdf24792dc814f0d4ac1c",
+      "H/WIN/afxdb.rc": "9323d756cbd06f0bef6195747233746d09664c662a92aea4e6d977e3b3e61189",
+      "H/WIN/afxdd_.h": "8cee3200a42d6ddc7a242a527f62c255f6042882d9f87f88ec360314531f9652",
+      "H/WIN/afxdisp.h": "6463b802f34c10b9cde00c9a538da478bfb521caa8f0dac8515cc0daf0dc2390",
+      "H/WIN/afxdlgs.h": "77518c12c9ab075e4d3860ec082ecab3292ef8924cbb31e0f6c19d4776ad826d",
+      "H/WIN/afxdlgs.inl": "d2d922bae6a08c2ea911ebdb5dc733882ae9b2aee5ccbafc62eb110cbb5a6035",
+      "H/WIN/afxdll_.h": "f5fc4c62c3c23eec36b9d39ab46ed6ed77f84be3410b9d91d30d60b84cac2b5e",
+      "H/WIN/afxdllx.h": "b34674bfdd4862ba109c771389380f7978990ce81acce8988e42e72f5a372bee",
+      "H/WIN/afxext.h": "e9de4d4b857055d2696b324e45f8c658f05870fccebe1156eae2c9333a7a261d",
+      "H/WIN/afxext.inl": "7a0b7a35aba7866dd30c79ab07352908b86feb19e96da14aeeaeebc384517509",
+      "H/WIN/afxhelp.hm": "a73049d24048a93b1fb4650e157ab1100dad09eb90cd3fa618f2db474f7d6a4d",
+      "H/WIN/afxmsg_.h": "746ae03a4f35ff11ad17fe77ffd30bac860874ce1aa8c0886a3cfee5fcb3875c",
+      "H/WIN/afxodlgs.h": "b78068983d9bcea20a9975084c8cc68e84828fbe8c50e045140c86fea5d142a8",
+      "H/WIN/afxole.h": "d7c64a100d653e7f97d9e4de0e09bc6527a022b69d281c7892eb664adbc9e398",
+      "H/WIN/afxole.inl": "c164b6a37114a9feb021838c2c236e23938a1b9f212f0539cacc63697bfc9f54",
+      "H/WIN/afxolecl.rc": "5d282f26d6440486f61474f76007cd9cf73841c411b5120a4c03619ff869b817",
+      "H/WIN/afxolesv.rc": "7b73bf465d72f9d291126df564dba60ece6ef8f0e2a5bfded2738c2fa958b88d",
+      "H/WIN/afxpen.h": "1ceee906c51f91bcd7d2a40316804347aa5cc82139ed3acd3f5663288af1a0a3",
+      "H/WIN/afxpen.inl": "5e9189324121d65332830ab56db7eeb5e45d36050393498a4bc853f605ffb360",
+      "H/WIN/afxprint.rc": "6c7ae3025ab92c25c248f23c0a92a982d445a023ae32e579c98e7dcfdad1d5d0",
+      "H/WIN/afxpriv.h": "e6917e24b16306d49424cac1400ddbe944f9ad3428789960db32a9799134d393",
+      "H/WIN/afxres.h": "4f8cce87e75632b43a582eb4f644b3cdc9c6304e2d0c5bad7cc672de2c7b0576",
+      "H/WIN/afxres.rc": "5c4cc6ffd52efe0433950311cfe3cad3f78fa3919fc1759cf3ae1fe876b2afb1",
+      "H/WIN/afxv_dll.h": "0545fa3b2921eac6790cad32eda80a6465897e49ef2d37fa4059371bf707e38e",
+      "H/WIN/afxv_dos.h": "7752247f38e3647b22e81148230eb1d9dd47231bb33dc16a5a27a6cfdd004215",
+      "H/WIN/afxver_.h": "10216623403ca9c35cb5df46a02e23a0e244616c349e7f03087e81311013c56b",
+      "H/WIN/afxwin.h": "822d522af1db3568d47057e8fbb68bed6f1cc23764d17b35f5fbf5a418015249",
+      "H/WIN/afxwin1.inl": "96a8d08b38cc520c83d9c62fdc464c2f168fc43258a0b4a4ca20817b6dc1b8ad",
+      "H/WIN/afxwin2.inl": "b01645192921b0f754611064e11af532482c0fe6702f5131a78e4e91392533a3",
+      "H/WIN/cderr.h": "f97fefe9f8874d5babfbbf9a3aa246b93d7e3d95b72b7cdfa8f2d8a9bf00726c",
+      "H/WIN/cobjps.h": "1f1b154a20a6d7cd804402e8c6ed72a7fb2982bff2207a4198e1867786825af5",
+      "H/WIN/coguid.h": "b57a879e88c980f3819cec07ef5224818e277e6d937eaeacfa6005e45244fc69",
+      "H/WIN/colordlg.h": "0034c2dfdbc686061f35db6c2a9200b6757cb6c7156c0506435556950ba69c2f",
+      "H/WIN/commdlg.h": "6867caec8b30c98e1b8315a59f804f4d79f0ed3742b0c1049de06808e896d5ec",
+      "H/WIN/compobj.h": "0c0e615c7492aee762f650dac2751b35cb0cb81e42649c334382d50f12ff17ea",
+      "H/WIN/cpl.h": "6ffebebe23f9b185cd65c4c45cb3eabde6b24d2115bc17a1c05040358940f516",
+      "H/WIN/custcntl.h": "4117da182c7cbab239ec7c7c2ac96fef89ad11aaee5c6f10b35dc4ffcdbe1db2",
+      "H/WIN/dde.h": "196a0376e853886cc8a82dff04592a38da44e9da78c8f8e712ab99b0e89fe847",
+      "H/WIN/ddeml.h": "ed92846c897b8f3b0a8d396a505d236b6032197d681e81bb64da877dd192bd8d",
+      "H/WIN/dispatch.h": "e07153a3edb526efd808a333218a56af8f33ab9f906c4a0a6a535c9bff0b729e",
+      "H/WIN/dlgs.h": "6c831457d4a35852a80121753836abc7da14b5f022c67d9bf3291a4ca7a6a9b7",
+      "H/WIN/drivinit.h": "842b8448a3440408ca5c9006e0f9ece7e953346e8c3eac3161a71c9ccdfdb3b0",
+      "H/WIN/dvobj.h": "c89882268248029759de9e70fd8785045e3d5e324ddfa13f2fa64f21bab3c946",
+      "H/WIN/help.cur": "be41abe6de0b646482573471decc73d1b7b13f3cdac562dbf96d55e1ff267bf9",
+      "H/WIN/initguid.h": "5dcb72db3a79ac1dca3f0c3306f25621d377d5608af52101e3f442beb975539f",
+      "H/WIN/lzdos.h": "a7892617924ece22be9e87001418272eb7281beb47349a9007040f70ed46e536",
+      "H/WIN/lzexpand.h": "93ca9a8afc9cf378aa7bc487985a96c3160bbdbfff2338aebf331a0dc342f89e",
+      "H/WIN/magnify.cur": "5824c6b0cead09e4074f2de55766ddcf738434fd822a54b8ce363cf475c9b107",
+      "H/WIN/mmsystem.h": "2d73cf013b2ae41fbee24736da18ed2a27db06f8b5c82a3ef98f50f80a3cfe9b",
+      "H/WIN/moniker.h": "a41276413df41c8f3b91298cc0fb9d25d910b32d65256e7f40c86c209119d607",
+      "H/WIN/move4way.cur": "620909689fbd23cf0d0b9ba8221245a022146bddf2787902002ace486d899f3a",
+      "H/WIN/nodrop.cur": "94398635ff14051fa74ecd81d9687f92b8046d890915e125e08b3262f3fd7cef",
+      "H/WIN/ole.h": "05eb140fd65b33bcf551702da41ae6ad519201ebe5af771af9655e7d4b9835ee",
+      "H/WIN/ole1cls.h": "0671df52052229824c632185a7c502737d94133a89ada48c3c99f1f3c2f5c1c3",
+      "H/WIN/ole2.h": "4f4e917adbaf75d01b10a5d97daeaa8c8a13fc4d7624d1f41e80e4bcf87131fc",
+      "H/WIN/ole2dbg.h": "98e4982d8e7d65f1d2825d7bee83af562967c3783d52c008a47887710490d28e",
+      "H/WIN/ole2ui.h": "22a3fb1d81cd8eef82e5961103f741c96eec7ce42b61413dbc4eb63892f9b17b",
+      "H/WIN/ole2ver.h": "e817d9c9adb0b1cf40b4519143d179f4a02de4fb82d954a4b46cf6d412c465bb",
+      "H/WIN/oleguid.h": "8ab2d496e4af0abbe729d81d3e9d271c91ed8d7851408d59418ba50b64d6a702",
+      "H/WIN/olenls.h": "1ec3b1e6d5d01121338403f01d214d179471973d2590e86fa8b733cdfbabc04a",
+      "H/WIN/olestd.h": "6221e63f38df8f296ab6c397567cf68e522f59f5ea6bfd251eb5bb847aa867ab",
+      "H/WIN/penwin.h": "bd31971630fef6c69951d9c11a7a5cb708f354de753d51a8b60e776109bf1419",
+      "H/WIN/penwoem.h": "1875b98fcb0f880a67ee62338c78a68738f1806cf6f3d48b1e6d58057e77be6c",
+      "H/WIN/print.h": "85d1757dbee98efa44c4fc6613f038356b05dee86d5637f9d4982cf47338a32e",
+      "H/WIN/sarrows.cur": "29ab0b2d7833c3add711187d54f8c5f888deff62f320f31f904f56b7f20ad54d",
+      "H/WIN/scode.h": "5d35fb7b0b02ebb380e1500964f560a1c2b0ecb4e7581456cbc5c9c170af5977",
+      "H/WIN/scrnsave.h": "655ce97cf26bf64a4db15d58a321db0c6ebbbfb3908386d85b5fc6457c6058f0",
+      "H/WIN/shellapi.h": "5f6af83515d5306764c91aa46a368b6b2afce7413fd0321bede3d5a841aea9d8",
+      "H/WIN/splith.cur": "badd20b7f1055e7d12cdc3769e0853de47f7a78061cce7ac859ea2936a07bbd0",
+      "H/WIN/splitv.cur": "98548d6a5a96be22b21ea39a59879a623e1876ffd35fa32a9eba6a61a05177f2",
+      "H/WIN/sql.h": "bd9ac98b5c4f097c300e475740399dc53c732f21bdf0253e7b1b1e41d6da7677",
+      "H/WIN/sqlext.h": "9cbfbb4c9ff411117281280ae0afefce52eca37a80b24cf548e177d9369a9a3a",
+      "H/WIN/storage.h": "7bd339898f8479955ee8b8e0bfc4c20701b7cf9a464f069ea5e5a8d6decde6b3",
+      "H/WIN/stress.h": "69a4c851b15da06239bac3c8b8edaec82344ff2620ae8ddb6ab5f23238f7640f",
+      "H/WIN/toolhelp.h": "03b01c09b2777ef684fbfda95076bf1d1bc569d0d3c3084dedc26f1f5c53e374",
+      "H/WIN/trck4way.cur": "79e87baa6779f7382079a423c26e923717028b08860c673fb89501c4a9dfb34c",
+      "H/WIN/trcknesw.cur": "5358e95a316aac30c986d2bcbf22769879f12396b2f8255457428711b3759824",
+      "H/WIN/trckns.cur": "b496899a03dbe010043a4620ddca6acdca7947e1426631846175b3eb33a7e8a7",
+      "H/WIN/trcknwse.cur": "8df7095e6b5d14e8decba6c501a82cadf557d3403144a826586ade7facc0fb3c",
+      "H/WIN/trckwe.cur": "66ac9c382121c8b67917433b8d57613f1ce4ac80399208d37dc6e6a809785707",
+      "H/WIN/variant.h": "d58be1a5fad1f213fcc345e4c8dc6f8f7b8984acd6d789a56ea98f887f48efc3",
+      "H/WIN/ver.h": "520ae227c109951870c4945e7f5a5c9e725f9a4fe31f5e3b41b2bde2758f5b69",
+      "H/WIN/wfext.h": "5472e92ddfa9bd7c0ad56b702a1a6c7802404c8c7444e7992f317b62d50b2865",
+      "H/WIN/win16.h": "77f14e0df853654abc8b7d75f6c0ed71b34b81761a82bedb8a58b65f2c2e5fae",
+      "H/WIN/win386.h": "3c4c3d783bbbf87774b275185473bd935d8960ec1873a623023c904ee4770136",
+      "H/WIN/windows.h": "dfcf0e626c55d53ebc6af5b7274f8ece0e0f008fa002bee80d2565a0232c2ffd",
+      "H/WIN/windowsx.h": "fe79443bb1f27f2d5a2112b94aade9d1d4382e0a773e1ddc66559947bf01388b",
+      "H/WIN/winmem32.h": "152979940fa0e0adc16d8ca6499f0d2d5631b3ae529db39f8da6a145b7db2c66",
+      "H/WIN/winres.h": "d0024d3710181ea57b579dbda32da54eadd2f4f04b1c01949c8de630aa20458b",
+      "H/assert.h": "0e01f1eb3b301911dff3a42e3e15d1deaf0964dc326305ddd35d424e9b86eaba",
+      "H/bios.h": "3c4d7d2ce1e796ce18e9d8e182f94a016082f330b2fae465713df6134ee88991",
+      "H/bios98.h": "c6c4d1bb2326f30803484cb89fd13d007478bb254551abb283be79d06bfb76ad",
+      "H/common.cnv": "82c4d0f645fc45d37a6a5a39012382f026d54a9164ad6767771b94cd3c2d6ccf",
+      "H/complex.h": "71b02f6b4dc588e2fffcbdd77e9a576c55a5fe96d3ef61b1bc835c2208d85e61",
+      "H/conio.h": "f94365acafcc36c4fb1237f5ba25c9aa2723f7d1a9e9fb8214de1ec4230b7948",
+      "H/ctype.h": "9a83ade4b66271bb4149cd1071ec0a20f536b1d9f30e0f56d56c36fe30aba2f4",
+      "H/direct.h": "011e69cb70d9c2a8731ba8b3332bad98e0019f7b40417279d3d4e66ea3c4de32",
+      "H/dos.h": "ba2f96187f557305d52f260b6f1e50d60ce87c32e8742e68a959427aa0275ee0",
+      "H/dosfunc.h": "e0818cff823f622700d84b57ce2a163cad8b69ff59dbdba85f37939cdcd93258",
+      "H/env.h": "c94e73a2fb8beeffedbbf3da0f6bf30b38e3acdd70edeeeb7697b9c16e4734c5",
+      "H/errno.h": "380a36f1051a81f74ff974efdd1f4a0d67504c451315024b7f761c86b434cf65",
+      "H/except.h": "4c3c26c36bb22196c7d622aefce575496a657a7ac015005cf0b6fd8fa1d69c67",
+      "H/fcntl.h": "dc5ae8a746c111a332245ae7abfbcb0777adb7706dcd5a97976bb18588b9c89b",
+      "H/float.h": "25032e2ce0cdaaec802db9013db3d357453a8fe8003883c66d614c807fb28887",
+      "H/fstream.h": "a4e6bd2939b3305a9ccf176ec672e508a1b5714ff86bff1e3f7f852adf5af543",
+      "H/generic.h": "735ed532c9152801307bf31f89b27b6804808f46e7c7fac5195cc99aaba30574",
+      "H/graph.h": "bb631005db869fac252067901f0137b3c3ec60d53a01ae9e70a6bf0f21c022b3",
+      "H/graph98.h": "de02fa8c14ba453d8a8778f22fec02d615d3da62ada5805d44628dc033342cdc",
+      "H/i86.h": "14f0a3daed5226486cb9f35febd5823aee9bc5c6b53794afee8486400decb2bc",
+      "H/io.h": "2fb1343cfce131234508c94a0837bc3fd5cc71488841ece1bc317ba4a5cc76d9",
+      "H/iomanip.h": "b2cc77957300e7f5f0dbaa724a96c80bc9be8277d44698a1d37056e31fd94438",
+      "H/iostream.h": "955885667ae26c248402ac2c523fd440226de7d68ac621451b40aa724f9f72a7",
+      "H/jctype.h": "4dc6fe0120e9988ffc0f61918107d9e643070cff79d98942dac434afb3bb063d",
+      "H/jstring.h": "57e6d7b8aba06767587aa52c013012899a3af43416dd58f3f91fe023b9b9c85d",
+      "H/jtime.h": "124c81110eccb8a14471421a674c2bc548d16ce5720999e8c1a61174ddbbf06c",
+      "H/limits.h": "ce0b72abf1833015e20f671cdbc136068f011e9ef083e6dd1050e365feadc509",
+      "H/locale.h": "ebab144384a548277d327164aa5e9b116188135b9c3175d6fcf6cf469e56a8cf",
+      "H/malloc.h": "d269c7807424c126231a7e2196058fd067148c4505fc29b91c0308830a941a30",
+      "H/math.h": "e6bf91eb159f681f7b2b3d3629eb4aaa94473a13690450f45cfcdeb9001bfa2d",
+      "H/mem.h": "5ca07935305d1f293897e37e399c56814c4c70175f0523d33d4b41aaec2bf82c",
+      "H/new.h": "bb7f953e5b82ffc0773f14b65c9ee733974725857c99a1fe83f1c8a330c17ac7",
+      "H/pgchart.h": "35d5ab57adf7cf07422632ee6bd71d67fe8cdd0bca4917a6e12cfda3a2d8580e",
+      "H/process.h": "75d933650b527024462e23704a808856b6ba52e1d8ed7912073454f54792cf24",
+      "H/search.h": "6b7b9cdbb3336da91e9848aa2985a7c282a6eb26224c81b2e88b118d45b4907e",
+      "H/setjmp.h": "d2039415d0ea2a72012b472678ea0b1e62ba5d82bd647b2ec9989b3bf9c34f3d",
+      "H/share.h": "cca00bdddf3d5110f240b3d4e2b18a74b319e3d7df6938699143f4754fe28983",
+      "H/signal.h": "c82885ca1c80d544a05de0c654d80dfbfce24f6ceafed3a700325a801c65b3a1",
+      "H/stdarg.h": "ddc782c553543ad86ac7bdca6d4270f34ccb989871cd7c6832d8bab87df817fc",
+      "H/stddef.h": "37f11ac8b1b9ecfa30c3aa3a60eb9a8f75752f21a019d41127ed7879b8973f72",
+      "H/stdio.h": "de275400f58feb96f19a1cd313f6906d7a3c849b9c2cfcba0fd7d619c341d6d1",
+      "H/stdiobuf.h": "4b3519258f3897ae2d04ee29260d952f16e3bcb54ccfaf76fe02e4e0da808091",
+      "H/stdlib.h": "4e14c82775dd96c4cd42255c64fc81e33ef0cd9ce8ceb2853265351a4cfafd15",
+      "H/streambu.h": "edd9ff4b635d54dba53fe3528932dc68b6ed87ffda0896243e2141b3803947cc",
+      "H/string.h": "7b5e9dfad7588bea54e19c87a72de5e72fcb3ff062b0b4b2f6d9652d40ef3eeb",
+      "H/string.hpp": "cec68fcdbc1bfd3d8b49fa5fe9f13303fa3e9b21a116b28331cc1618fb703963",
+      "H/strstrea.h": "1f9c1b8d8f07440bb7b34ac33e205cb4e89ac4a786df6b1ba8b923e0fa116f73",
+      "H/time.h": "2baeafdf340f6a9bf6c4f8b2482817ab0b18a5787d680bd7441b681f72cb1d16",
+      "H/unistd.h": "eaae97b116bf29c9e371027e667b751f358a71d656c9768948df7a736db158c5",
+      "H/varargs.h": "7ff9e6d71c3ec0209b3954d2351d2f7ac34787ad5e8b878b4f5af60a9321f5f0",
+      "H/wcdefs.h": "ea0839a1814467bf4204b23cbefbea913d73bb063a49b108bd083152cf8ab949",
+      "H/wcexcept.h": "6eb6d759109c136282003a3419d3119472f4032963da1407720aa69e241d20c0",
+      "H/wchash.h": "6539b4890743ba181f314a1c80e7d7bbe70265d7d82875b4f501d22562bb8b68",
+      "H/wchbase.h": "dac5a292d5264b443c0cbfd29916b16e22cd2f86b0ea3a55f1b6a2fd619054a7",
+      "H/wchiter.h": "ffdb365d947d4f511050b6a907f127788679b533ec3174c436d770088728570c",
+      "H/wclbase.h": "cacb50d44235e8e435741224dd2f4c94bacb6f7a1ea3d51a5501dad54bfb7d46",
+      "H/wclcom.h": "97c405c4266ca1ae8e4ec554377ca86032e8775716a01d47e72cbeb535c3a696",
+      "H/wclibase.h": "e69556b3660fb6127029c47be30db4561d504f8932ff11f5c586ef37939f6dd0",
+      "H/wclist.h": "0780ac96a5bbbc452091b490e44bb6a754b2d3ad641d47b456e069eb5ed8ae7b",
+      "H/wclistit.h": "934b57fd2b6ff54c434684f3182d7f043b4f12247afc7746fd15739eae9686e2",
+      "H/wcqueue.h": "2aa528501181806c1fc47e3dde698b2ec2438c2a38098b6bb5049edde8e9fab4",
+      "H/wcsbase.h": "a955b335b760b7ef903116b00a4ef1a2e379b94d267ea7f470d3e9a89067ca39",
+      "H/wcsibase.h": "b6d875e30feca0fa53a798861daf68d118b021128ff914bb70386a6dd220ce1d",
+      "H/wcskip.h": "9a968f2011fffe92bc088ef3a1fe41ef2c95c61c27c38ad9e4faf1fd5f0993ec",
+      "H/wcskipit.h": "58be3b727ab3a86022815ed0277c142453a1bc20ecb2d057f8a77f848ac9b014",
+      "H/wcstack.h": "c35192d8b1b09e608f6b8e05b508cd50a45cc357d4bccd3b7af3aa635bdc0c1c",
+      "H/wcvbase.h": "3b8c00de68c28d6c3155c2c4ea419ebda775f2817b4d23ed2efa9e14f2a78e51",
+      "H/wcvector.h": "eba9b301f7274fa69aeb577d3577ca2c862b54f84862de54d5ae90b36de2cb18",
+      "H/wdefwin.h": "6331bec748b9b410931cb6d7960a23b8522f1cfe4a829276bd0f7cd6cc919e2a",
+      "H/wsample.h": "5c2c9de1e05fe9bebf16e02cc0ae68b348b80f5c6ca4b2cc59d09261b41753d6",
+      "LIB386/DOS/adiestrt.obj": "c16f3ee6eebe8af7511240ee9edbe95e84f51a24cbfed48276851ca7061e5b1e",
+      "LIB386/DOS/adifstrt.obj": "03e39df3ef1f9bf0afba8ce35c11f8237dbe4396cbdd552af50ea488aa17b1b9",
+      "LIB386/DOS/adsstart.obj": "98a60e852ca2c9361d386c6e12074c5a016d251e69776eb161a1623a8bb8ba1e",
+      "LIB386/DOS/clib3r.lib": "ea6f73080f9ea18825258369989f6e1d0b7abc7c3df05e4bb8f17a31a5cbdee8",
+      "LIB386/DOS/clib3s.lib": "031c9b3467137d357dfbed0ab3fad4badd0fb862afd399dad473615ff2ccdb48",
+      "LIB386/DOS/cstrtx3r.obj": "74e02e8dc8b5b13f32748ebfb172ccc7a3ca495e399eb3ef4512c6e5975c0656",
+      "LIB386/DOS/cstrtx3s.obj": "e0b0cbab00a4251d44bfaf6a9da3cba35e8854ae3024b0f4dbae2f74a3a0dbdb",
+      "LIB386/DOS/emu387.lib": "5b150d1cdca625eb27747b7ac182e36f5a66571e4441ccc19caccc6fbf773b5c",
+      "LIB386/DOS/graph.lib": "93701eb6ae0d6bed268dc2b3217b5fe0b1da6ce43a9bea4b94c223b7ec4cc85e",
+      "LIB386/NETWARE/clib3s.lib": "ae640283ff179374f7ee0e75f14c7c961ba4f47005190bc97d56082fc1dcae9c",
+      "LIB386/NETWARE/emu387.lib": "21afb6e48ff0860fff42a55202770c5e844f2e860ab0d7c4b91bf4d8ce1d956a",
+      "LIB386/NT/clib3r.lib": "efb920061a686cb8b105134c6c3948621b668d30aa749b2e4abc069def9eb86d",
+      "LIB386/NT/clib3s.lib": "2c60cd406059acfbe3721107368f8fc83711b624b0a136a54ca499e6813c07ba",
+      "LIB386/NT/emu387.lib": "21afb6e48ff0860fff42a55202770c5e844f2e860ab0d7c4b91bf4d8ce1d956a",
+      "LIB386/NT/nt.lib": "b6c2b8570ae58ddc2ee1ecaa8fa4da80c2fab74fc6486940792da86d0c5d98b2",
+      "LIB386/NT/rafxcr.lib": "6283990ab44bd41dcc9079317ab5fb3382c8b94a3bcd1a77bb57701c53cd61e8",
+      "LIB386/NT/rafxcrd.lib": "8736645ab97d2673d9eec3563a0e9496d80e7a6fb13a23f327319793b99656e0",
+      "LIB386/NT/rafxcw.lib": "6708dc9d7adb0afc8fe84aa0602d3cef701ba7620494b7a575c5abaf2af8e3dc",
+      "LIB386/NT/rafxcwd.lib": "291f26a577f5b67a6b7128af9563154e93d0a5d5b93bbf88a694524b5dd3b5ad",
+      "LIB386/NT/rafxdw.lib": "15590b84748a2c4e15364489736314b922e43aee4cc8d823030c28d8be6b1f37",
+      "LIB386/NT/rafxdwd.lib": "aa83e4fbdf2dde430289ef4ea6e46ae5afd0abeaf2075dc9b2f7f8ff9f55a9e9",
+      "LIB386/NT/safxcr.lib": "c068a80fa44d64cfd8f181ef9103b1989df486f54f944f2fa42f7707090ff3c6",
+      "LIB386/NT/safxcrd.lib": "f7d5f51cd3315ad51c325b31dd12576b86cd60cc82709a57f8b5ab92cd9c4e35",
+      "LIB386/NT/safxcw.lib": "1b2ccf0c682480eae90d306af80c57ff46eedc060197d74035d92901414e23d5",
+      "LIB386/NT/safxcwd.lib": "f436061214ab88e986ecfbf8b31df195064dff80a797de35fce00159aa3a94da",
+      "LIB386/NT/safxdw.lib": "15f63a2db18282313a7183cc9860286f466850a776864b987aeac6f62f6a6052",
+      "LIB386/NT/safxdwd.lib": "1a3e203135028899a64aa9579776024e4c677b8ec8c559cf4f921b68e14986e3",
+      "LIB386/OS2/clib3r.lib": "b6c123f8657287cc729246db4fbf8b49f3d110b0f9477631742686399a9ab785",
+      "LIB386/OS2/clib3s.lib": "2535ed64eddb1606807c1c845e7e32bcd491b5e06f33f2636e796fcb8f5697c1",
+      "LIB386/OS2/emu387.lib": "21afb6e48ff0860fff42a55202770c5e844f2e860ab0d7c4b91bf4d8ce1d956a",
+      "LIB386/OS2/os2286.lib": "4721939930df046eb3dd1bf2f5eabe78740c2b49a6aedf9c6e0f688e18a82334",
+      "LIB386/OS2/os2386.lib": "8eba0e86547ee29233490df0db91c5eb1dde6d88e8c290e448a6cb25459a1abc",
+      "LIB386/OS2/rexx.lib": "882145d492f2901d9e7315834d5949dc82ec68adddf2709301be65e453d93e1a",
+      "LIB386/OS2/som.lib": "5038999095366330f2f673942faf014fad1a79bf66e13e4d9164a0cbeb3f5811",
+      "LIB386/OS2/vdh.lib": "73bba525d0a1ba5b87fb7b1a21870f2ec8e0667afc614a4bf479fb8b9623ad4e",
+      "LIB386/WIN/clib3r.lib": "c2fd1a7f681f4f5d29984d698fcd77a1712d1f216a5ec015dc5216ad3494d474",
+      "LIB386/WIN/clib3s.lib": "eedefe1ed5a360a39811686f9f7b6a94c33815906ad7bb92c213058be9a7ef3f",
+      "LIB386/WIN/emu387.lib": "21afb6e48ff0860fff42a55202770c5e844f2e860ab0d7c4b91bf4d8ce1d956a",
+      "LIB386/WIN/win386.lib": "abff73acc05b94eb0787f4728366828bb04b3c2eb0ce05c5c70344fd7a29ddf8",
+      "LIB386/cplx3r.lib": "a8520ff427dd31f535eef6d71860321d880fe78d20f0015510b06bd817994d36",
+      "LIB386/cplx3s.lib": "ac9c3fbb2398c2e06e7ad439b0f70759efb9e8ba3b2fe3d7f2ffc3c11bf65729",
+      "LIB386/cplx73r.lib": "c3a54fb52e2bf6f006bb763c7d3b8d90174bd16cd3dea0c153275a8d5dfa5cce",
+      "LIB386/cplx73s.lib": "321e43117f8a76e26937d318a0cc3003c8fc0f897e4fe94c991a609fc73fae6f",
+      "LIB386/math387r.lib": "97c532ab26c54a0d15f7ae8c74a9ca82d615562eb8a63edf685b2bf3990f672c",
+      "LIB386/math387s.lib": "56c06c8798691e821912eb195824c55557e2fee5f84837622f48bf6400897ddb",
+      "LIB386/math3r.lib": "061c20b697fb7507ada63dcf4f4a3ae2c9a81a9233c7370836111514569ed1a2",
+      "LIB386/math3s.lib": "7f828bc8295c9a9f6cd0e51c867e01d1af379a54e03b07a30c23ea46dfbc5845",
+      "LIB386/noemu387.lib": "21afb6e48ff0860fff42a55202770c5e844f2e860ab0d7c4b91bf4d8ce1d956a",
+      "LIB386/plbx3r.lib": "cb1bc9526fde4429cf65ecfb023ffb75fbc22c9517e9dadff89fcb9efd11e383",
+      "LIB386/plbx3s.lib": "6e1a50f010dd7aba79f07722e9eb183ca4155ee36004448d7d9235edd8ba614a",
+      "LIB386/plbxmt3r.lib": "813ba7833d2aa2e2ad762dafa8526c3ccda0a1cbe9ed218fe0f37e5a76be43d3",
+      "LIB386/plbxmt3s.lib": "fe082316bcf51c6dabbc5aedd160bfe673f7d31965f132c960d4f0558cc1ef9a",
+      "LIB386/plib3r.lib": "bc42ba17249d84d6275050b4b9a413d54bac3f5f7b966b4688fe43a638e20e05",
+      "LIB386/plib3s.lib": "e415983ecfff5960c2fcbce94091be434fc811e209da3af0531453e4d2800368",
+      "LIB386/plibmt3r.lib": "1904fd046ea379bcf1740d38620e9c37bba7162103413309509c9209cd838e4f",
+      "LIB386/plibmt3s.lib": "7f3db9d9f137040edbf2cc55222ea608b70fb03cca1da4c5906fb783efc30b78"
+    },
+    "inputs_sha256": {
+      "/Users/jonw/duke3d/.worktrees/audio564/evidence/audio-layout-source-reference.json": "3d78c3456a8e8ea9555f131f2d9603853278f0b8f6a3f0fc1823403d611ccb9a",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/sndscape.c": "4ff87e32b394eb4680857e78678bd2102dc6c1d97124fd7dc1283ec12fec7add",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/sndsrc.c": "73484f473b3dcf9e65155a78063e540980001b4cfd4c9e40c6df1e7e3be58b2a",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/pas16.c": "e62fa9a87f865111e93f3cf19c633b3af32cedb0e4a290468756f33ac3e60a3d",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/irq.c": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/blaster.c": "b8ba3fa812941920b13c4adbc6e89f2119cadb17ce4efba793205bf61a03d190",
+      "/Users/jonw/duke3d/.worktrees/audio564/modules/sndscape.json": "302a107149cbfb090dc6721372c7bbecc3dee11bc424686561d18a574c2a3d5e",
+      "/Users/jonw/duke3d/.worktrees/audio564/modules/sndsrc.json": "10317f52791720862b470c90d2e932cf06ab1146ecf54c40a2373f7abeedc49e",
+      "/Users/jonw/duke3d/.worktrees/audio564/modules/pas16.json": "aa670a68c0761a76d9753597d490cba73e5ef11959701672cfb2be781b3d0902",
+      "/Users/jonw/duke3d/.worktrees/audio564/modules/irq.json": "a010baf245d804f8ce483a94326ecb6aaba7aef0e52a92d001468a07076431f5",
+      "/Users/jonw/duke3d/.worktrees/audio564/modules/blaster.json": "ba5e2180a380cd0d42afdc83e4fa38a60da79247cc5a5aa55df5c0a51bd148d3",
+      "/Users/jonw/duke3d/.worktrees/audio564/tools/probe_audio_layout.py": "1ba716daa0e8a3cbbfbd1d40eda5e9eb3438bb0a1efa369499756a89b93ad42a",
+      "/Users/jonw/duke3d/.worktrees/audio564/tools/prove_module.py": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+      "/Users/jonw/duke3d/.worktrees/audio564/profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+      "/Users/jonw/duke3d/.worktrees/audio564/profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+      "/Users/jonw/duke3d/.worktrees/audio564/profiles/watcom/audio-layout-tools.json": "e1171bca0b7fb9e27cad4aa0484266d5ec56ae38d1a6802908abf86da445e513",
+      "/Users/jonw/duke3d/.worktrees/audio564/tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+      "/Users/jonw/duke3d/.worktrees/audio564/tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+      "/Users/jonw/duke3d/.worktrees/audio564/tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+      "/Users/jonw/duke3d/.worktrees/audio564/profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/layout-README.md": "9d94af091c0ed612934e4fc69b72bd72b912c8a3b9727518e6d6548133d963be",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/audio/gpl.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/MUSIC.H": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/DMA.H": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/ADLIBFX.H": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/MPU401.H": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/MULTIVOC.H": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/MIDI.H": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/PITCH.H": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/FX_MAN.H": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/TASK_MAN.H": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/AL_MIDI.H": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_MULTIVC.H": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/SNDCARDS.H": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/GUSWAVE.H": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_SNDSCAP.H": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/INTERRUP.H": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/MYPRINT.H": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/AWE32.H": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_PAS16.H": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_BLASTER.H": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/BLASTER.H": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_GUSWAVE.H": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/DEBUGIO.H": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/GUSMIDI.H": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/PAS16.H": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/USER.H": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/SNDSRC.H": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/LL_MAN.H": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/NEWGF1.H": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/SNDSCAPE.H": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_AL_MIDI.H": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/LINKLIST.H": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/IRQ.H": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/MEMCHECK.H": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/STANDARD.H": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/PCFX.H": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/DPMI.H": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/_MIDI.H": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/ASSERT.H": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/GUSMIDI2.H": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/CTAWEAPI.H": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+      "/Users/jonw/duke3d/.worktrees/audio564/dukenukem3d/audiolib/SOURCE/USRHOOKS.H": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0",
+      "/Users/jonw/duke3d/.worktrees/audio564/src/include/pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+      "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+      "/opt/homebrew/Cellar/dosbox-x/2026.10.01/bin/dosbox-x": "e1a2c458b0e717403b4bb639e430c0abe69a939bcc96bf4e63114fdc7504e1d7"
+    },
+    "staged_sha256": {
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/source-only/sndscape.c": "4ff87e32b394eb4680857e78678bd2102dc6c1d97124fd7dc1283ec12fec7add",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/source-only/layout-README.md": "9d94af091c0ed612934e4fc69b72bd72b912c8a3b9727518e6d6548133d963be",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/source-only/gpl.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/include/usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+    },
+    "outputs_sha256": {
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/sndscape.obj": "0d21817e4cc6a004a0b57c1d588debf3b2c643a5830d30d490ad28c1b771e3e8",
+      "/Users/jonw/duke3d/.worktrees/audio564/build/sndscape-proof/sndscape-audio-u08gkuu0/sndscape.log": "4ce328cd995a90408aeee1460703d220d477eff73d24c325feee388bdac2c2a6"
+    },
+    "source_credit": 0
+  },
+  "native_inventory": {
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 5254,
+        "attributes": 105,
+        "access": null
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 36,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 92,
+        "attributes": 105,
+        "access": null
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 1249,
+        "attributes": 169,
+        "access": null
+      }
+    ],
+    "publics": {
+      "_ssc_private_state": [
+        5,
+        0
+      ],
+      "_SOUNDSCAPE_IntController1Mask": [
+        5,
+        48
+      ],
+      "_SOUNDSCAPE_TotalDMABufferSize": [
+        5,
+        52
+      ],
+      "_SOUNDSCAPE_DMABuffer": [
+        5,
+        56
+      ],
+      "_SOUNDSCAPE_IntController2Mask": [
+        5,
+        60
+      ],
+      "_SOUNDSCAPE_CallBack": [
+        5,
+        64
+      ],
+      "_SOUNDSCAPE_CurrentDMABuffer": [
+        5,
+        68
+      ],
+      "_SOUNDSCAPE_SoundPlaying": [
+        5,
+        72
+      ],
+      "_SOUNDSCAPE_Installed": [
+        4,
+        0
+      ],
+      "_SOUNDSCAPE_FoundCard": [
+        4,
+        4
+      ],
+      "_SOUNDSCAPE_TransferLength": [
+        4,
+        8
+      ],
+      "_SOUNDSCAPE_MixMode": [
+        4,
+        12
+      ],
+      "_SOUNDSCAPE_SamplePacketSize": [
+        4,
+        16
+      ],
+      "_SOUNDSCAPE_SampleRate": [
+        4,
+        20
+      ],
+      "_ssc_stack_selector": [
+        4,
+        24
+      ],
+      "_SOUNDSCAPE_Interrupts": [
+        1,
+        0
+      ],
+      "_SOUNDSCAPE_SampleSize": [
+        1,
+        64
+      ],
+      "SOUNDSCAPE_ErrorString_": [
+        1,
+        156
+      ],
+      "SOUNDSCAPE_EnableInterrupt_": [
+        1,
+        312
+      ],
+      "SOUNDSCAPE_DisableInterrupt_": [
+        1,
+        396
+      ],
+      "SOUNDSCAPE_ServiceInterrupt_": [
+        1,
+        560
+      ],
+      "ga_read_": [
+        1,
+        776
+      ],
+      "ga_write_": [
+        1,
+        804
+      ],
+      "ad_read_": [
+        1,
+        832
+      ],
+      "ad_write_": [
+        1,
+        852
+      ],
+      "tdelay_": [
+        1,
+        876
+      ],
+      "SOUNDSCAPE_SetPlaybackRate_": [
+        1,
+        1048
+      ],
+      "pcm_format_": [
+        1,
+        1088
+      ],
+      "SOUNDSCAPE_GetPlaybackRate_": [
+        1,
+        1124
+      ],
+      "SOUNDSCAPE_SetMixMode_": [
+        1,
+        1132
+      ],
+      "SOUNDSCAPE_StopPlayback_": [
+        1,
+        1164
+      ],
+      "SOUNDSCAPE_SetupDMABuffer_": [
+        1,
+        1248
+      ],
+      "SOUNDSCAPE_GetCurrentPos_": [
+        1,
+        1332
+      ],
+      "SOUNDSCAPE_BeginPlayback_": [
+        1,
+        1412
+      ],
+      "SOUNDSCAPE_BeginBufferedPlayback_": [
+        1,
+        1540
+      ],
+      "SOUNDSCAPE_GetCardInfo_": [
+        1,
+        1740
+      ],
+      "SOUNDSCAPE_SetCallBack_": [
+        1,
+        1768
+      ],
+      "SOUNDSCAPE_LockEnd_": [
+        1,
+        1776
+      ],
+      "SOUNDSCAPE_UnlockMemory_": [
+        1,
+        1780
+      ],
+      "SOUNDSCAPE_LockMemory_": [
+        1,
+        2024
+      ],
+      "allocateTimerStack_": [
+        1,
+        2332
+      ],
+      "deallocateTimerStack_": [
+        1,
+        2424
+      ],
+      "parse_": [
+        1,
+        2488
+      ],
+      "SOUNDSCAPE_FindCard_": [
+        1,
+        2668
+      ],
+      "SOUNDSCAPE_Setup_": [
+        1,
+        3896
+      ],
+      "SOUNDSCAPE_GetMIDIPort_": [
+        1,
+        4544
+      ],
+      "SOUNDSCAPE_Init_": [
+        1,
+        4560
+      ],
+      "SOUNDSCAPE_Shutdown_": [
+        1,
+        4808
+      ],
+      "_SOUNDSCAPE_DMAChannel": [
+        4,
+        28
+      ],
+      "_SOUNDSCAPE_ErrorCode": [
+        4,
+        32
+      ],
+      "_SOUNDSCAPE_DMABufferEnd": [
+        5,
+        76
+      ],
+      "_SOUNDSCAPE_OldInt": [
+        5,
+        84
+      ],
+      "_oldStackSelector": [
+        5,
+        90
+      ],
+      "_ssc_constants": [
+        6,
+        0
+      ]
+    },
+    "local_publics": [
+      "SOUNDSCAPE_BeginPlayback_",
+      "SOUNDSCAPE_DisableInterrupt_",
+      "SOUNDSCAPE_EnableInterrupt_",
+      "SOUNDSCAPE_FindCard_",
+      "SOUNDSCAPE_LockEnd_",
+      "SOUNDSCAPE_LockMemory_",
+      "SOUNDSCAPE_ServiceInterrupt_",
+      "SOUNDSCAPE_SetupDMABuffer_",
+      "SOUNDSCAPE_Setup_",
+      "SOUNDSCAPE_UnlockMemory_",
+      "_SOUNDSCAPE_CurrentDMABuffer",
+      "_SOUNDSCAPE_DMABuffer",
+      "_SOUNDSCAPE_DMABufferEnd",
+      "_SOUNDSCAPE_FoundCard",
+      "_SOUNDSCAPE_Installed",
+      "_SOUNDSCAPE_IntController1Mask",
+      "_SOUNDSCAPE_IntController2Mask",
+      "_SOUNDSCAPE_MixMode",
+      "_SOUNDSCAPE_OldInt",
+      "_SOUNDSCAPE_SamplePacketSize",
+      "_SOUNDSCAPE_SampleRate",
+      "_SOUNDSCAPE_TotalDMABufferSize",
+      "_SOUNDSCAPE_TransferLength",
+      "_oldStackSelector",
+      "_ssc_constants",
+      "_ssc_private_state",
+      "_ssc_stack_selector",
+      "ad_read_",
+      "ad_write_",
+      "allocateTimerStack_",
+      "deallocateTimerStack_",
+      "ga_read_",
+      "ga_write_",
+      "parse_",
+      "pcm_format_",
+      "tdelay_"
+    ],
+    "externals": [
+      "_SOUNDSCAPE_ErrorCode",
+      "_ssc_constants",
+      "DMA_ErrorString_",
+      "_ssc_private_state",
+      "_SOUNDSCAPE_IntController1Mask",
+      "_SOUNDSCAPE_IntController2Mask",
+      "__GETDS",
+      "_oldStackSelector",
+      "_ssc_stack_selector",
+      "_SOUNDSCAPE_OldInt",
+      "_chain_intr_",
+      "_SOUNDSCAPE_TransferLength",
+      "_SOUNDSCAPE_CurrentDMABuffer",
+      "_SOUNDSCAPE_DMABufferEnd",
+      "_SOUNDSCAPE_DMABuffer",
+      "_SOUNDSCAPE_CallBack",
+      "clock_",
+      "_SOUNDSCAPE_MixMode",
+      "_SOUNDSCAPE_SampleRate",
+      "_SOUNDSCAPE_SampleSize",
+      "_SOUNDSCAPE_SamplePacketSize",
+      "pcm_format_",
+      "SOUNDSCAPE_DisableInterrupt_",
+      "DMA_EndTransfer_",
+      "_SOUNDSCAPE_SoundPlaying",
+      "DMA_SetupTransfer_",
+      "_SOUNDSCAPE_TotalDMABufferSize",
+      "_SOUNDSCAPE_DMAChannel",
+      "DMA_GetCurrentPos_",
+      "SOUNDSCAPE_EnableInterrupt_",
+      "ad_write_",
+      "tdelay_",
+      "SOUNDSCAPE_SetupDMABuffer_",
+      "SOUNDSCAPE_BeginPlayback_",
+      "SOUNDSCAPE_FindCard_",
+      "SOUNDSCAPE_LockEnd_",
+      "DPMI_UnlockMemoryRegion_",
+      "DPMI_UnlockMemory_",
+      "_SOUNDSCAPE_Installed",
+      "DPMI_LockMemoryRegion_",
+      "DPMI_LockMemory_",
+      "SOUNDSCAPE_UnlockMemory_",
+      "memset_",
+      "int386_",
+      "rewind_",
+      "fgets_",
+      "strcmp_",
+      "_SOUNDSCAPE_FoundCard",
+      "getenv_",
+      "fopen_",
+      "parse_",
+      "fclose_",
+      "strstr_",
+      "strtol_",
+      "DMA_VerifyChannel_",
+      "_SOUNDSCAPE_Interrupts",
+      "_dos_getvect_",
+      "SOUNDSCAPE_ServiceInterrupt_",
+      "_dos_setvect_",
+      "IRQ_SetVector_",
+      "SOUNDSCAPE_Shutdown_",
+      "SOUNDSCAPE_LockMemory_",
+      "allocateTimerStack_",
+      "SOUNDSCAPE_Setup_",
+      "IRQ_RestoreVector_"
+    ],
+    "local_externals": [
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      18,
+      19,
+      21,
+      22,
+      23,
+      27,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      39,
+      42,
+      48,
+      51,
+      58,
+      62,
+      63,
+      64
+    ]
+  },
+  "observer_inputs_sha256": {
+    "/Users/jonw/duke3d/.worktrees/audio564/reference/DUKE3D.EXE": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+    "/Users/jonw/duke3d/.worktrees/audio564/tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "/Users/jonw/duke3d/.worktrees/audio564/tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "/Users/jonw/duke3d/.worktrees/audio564/tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "/Users/jonw/duke3d/.worktrees/audio564/profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "/Users/jonw/duke3d/.worktrees/audio564/reference/duke3d-reconstructions/AUDIO_WF.LIB": "47d3f7d479eea7b68cc98a3d54fec35522f35f078b4a54b0ad86e00c06dc1a9a"
+  },
+  "private_members": {
+    "_SOUNDSCAPE_Config": {
+      "source_owner": "_ssc_private_state",
+      "member_offset": 0,
+      "target": [
+        3,
+        1743088
+      ]
+    },
+    "_oldStackPointer": {
+      "source_owner": "_ssc_private_state",
+      "member_offset": 40,
+      "target": [
+        3,
+        1743128
+      ]
+    },
+    "_StackPointer": {
+      "source_owner": "_ssc_private_state",
+      "member_offset": 44,
+      "target": [
+        3,
+        1743132
+      ]
+    }
+  },
+  "original_global_definitions_and_scopes_exact": true,
+  "unresolved_project_work": [
+    "final native layout",
+    "whole EXE identity",
+    "humanization"
+  ],
+  "source_credit": 0,
+  "full_executable_rebuilt": false
+}

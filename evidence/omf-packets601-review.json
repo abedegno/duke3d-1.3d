@@ -1,0 +1,20 @@
+{
+  "kind": "Independent source-derived OMF packet profile private experiment review",
+  "scope": "Private experiment only; no normal admission or target-source credit",
+  "reviewed_author_artifacts": 1257,
+  "root_checked_review_artifacts": 228,
+  "actual_DMA_ordered_loader_records": 64,
+  "whole_target_pages_identical": false,
+  "runtime_bytes_and_field_multisets_unchanged": true,
+  "nonblocking_notes": [
+    "Strict uint32 parsing must replace modulo-wrapping percent-u before normal packaging; actual source encoder is bounded.",
+    "Inherited native compiler warnings total105 in2 categories; earlier one-warning description was inaccurate."
+  ],
+  "normal_admission": false,
+  "source_credit_added": 0,
+  "artifact_sha256": {
+    "build/task601-packet-review/review-freeze.json": "03b246459134d356ad54cb8a1aab6339b5e978611ce90dd9e0ad89e530f2d93a",
+    "build/task601-packet-review/artifact-manifest.json": "79101e2aa6ae97e61d6a9219f6aed6530c9c25daedb8d62bcc6cf0aca41383a0",
+    "build/task601-packet-review/task-601-source-derived-omf-packets-review.md": "06bf669486f601c12abc2d4b8a3e465756577c402bd193bac3afa1a4b7ffc97f"
+  }
+}

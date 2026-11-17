@@ -1,0 +1,23 @@
+{
+  "media": {
+    "path": "DN3D_REG.iso",
+    "size": 104138752,
+    "sha256": "d62a38a9213184f43640575338196417c613a40272550d807dd5d90b886da553"
+  },
+  "target": {
+    "iso_entry": "DN3DINST/DUKE3D.EXE",
+    "path": "reference/DUKE3D.EXE",
+    "size": 1179131,
+    "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4"
+  },
+  "dependencies": {
+    "dukenukem3d": {
+      "commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+      "upstream": "https://github.com/videogamepreservation/dukenukem3d.git"
+    },
+    "exhume": {
+      "commit": "d566d00f70c6a162d3a35fef8d0aa8c2455f2b20",
+      "upstream": "https://github.com/abedegno/Exhume.git"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "WATCOM_RAND",
+  "source": "src/runtime/rand.c",
+  "reference_headers": "src/runtime/include",
+  "overlay_headers": [],
+  "source_reference_evidence": "evidence/watcom_rand-source-reference.json",
+  "options": [
+    "/3r",
+    "/s",
+    "/os"
+  ],
+  "code_object": 1,
+  "code_offset": 583791,
+  "code_bytes": 58,
+  "code_publics": 3,
+  "expected": {
+    "initialized_bytes": 62,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 3
+  }
+}

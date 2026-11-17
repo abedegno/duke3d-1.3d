@@ -1,0 +1,16 @@
+[submodule "dukenukem3d"]
+	path = dukenukem3d
+	url = https://github.com/videogamepreservation/dukenukem3d.git
+[submodule "exhume"]
+	path = exhume
+	url = https://github.com/abedegno/Exhume.git
+	ignore = untracked
+[submodule "reference/audiolib-reconstructions"]
+	path = reference/audiolib-reconstructions
+	url = https://github.com/gamesrc-ver-recreation/audiolib.git
+[submodule "reference/build-reconstructions"]
+	path = reference/build-reconstructions
+	url = https://github.com/gamesrc-ver-recreation/build.git
+[submodule "reference/duke3d-reconstructions"]
+	path = reference/duke3d-reconstructions
+	url = https://github.com/gamesrc-ver-recreation/duke3d.git

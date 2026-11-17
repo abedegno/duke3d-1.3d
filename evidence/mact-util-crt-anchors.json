@@ -1,0 +1,2602 @@
+{
+  "kind": "Fixed native-only supplied CRT anchor witness; no rebuilt source credit",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "origin": {
+    "historical_inventory_report_sha256": "8488c4d474a121574097f5be0f84ca8ed461a2e2364d805c364aac14c37bd80f",
+    "scope": "Five complete supplied native CRT records retained independently of coverage bookkeeping; fresh original member replay proves all source imports. Existing three records are unchanged."
+  },
+  "native_verification_inputs": {
+    "tools/inventory_watcom_runtime.py": "fd548be9eb7d55ccde4f59a83a20e01b45770717597176130b9ad669556e6b8a",
+    "tools/infer_bindings.py": "8cc27466d70bb8a2eb0aae73bba4ae2486cc8e76821bca381666c226c5f80c3d",
+    "tools/verify_module.py": "24f358d506d43cfa39e2edf8adb4bdea5f2327f1fa7ec09888c073f4c80a70d0",
+    "tools/match_function.py": "617ded3134cd086cc7d3462a188e4b3ce22d2e0cb8795d7d20cf30308c046324",
+    "tools/prove_module.py": "a0222d15425aaa51d4b6433f3d9ff2fc5e05d73f1a28592d9908e31ee94b7ad8",
+    "profiles/watcom/tools/omf32.py": "f7797f61f49153c4f09bb28890c0677754de59d11541f5c0731dd7f478e4ab3c",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  },
+  "components": [
+    {
+      "offset": 39920,
+      "end": 40395,
+      "size": 475,
+      "name": "strtok",
+      "sha256": "377a44d03d773d8ff2be363e0ab05c68ba54fbae1f658b37d68ac3ec4943e529",
+      "padding_bytes": 5,
+      "records": [
+        {
+          "offset": 39920,
+          "end": 39931,
+          "size": 11,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "17d8a2adb05bac0865d14333a3c4b52027703e23dc1cfda02950f4e3127e5ae2"
+        },
+        {
+          "offset": 39931,
+          "end": 39941,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "95dd0e8b7aeecbaea95cb635e2dfdf07f386684701f27feae7257b51b0747739"
+        },
+        {
+          "offset": 39941,
+          "end": 39951,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 39951,
+          "end": 39957,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 39957,
+          "end": 39983,
+          "size": 26,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "2d96cd389e52740810726ab9351f2ca1c0db705160834ed38d215071a6a809ed"
+        },
+        {
+          "offset": 39983,
+          "end": 39993,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "f9cc6319b3057bf549e4a222fab0ce6b029ca344bf895a0bc376cd6db47c10a2"
+        },
+        {
+          "offset": 39993,
+          "end": 40005,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "f69124e96c2628cbf96db5fe1eca633ee3e51577cd96d9a3ed897e4e92b80b51"
+        },
+        {
+          "offset": 40005,
+          "end": 40013,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 40013,
+          "end": 40023,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 40023,
+          "end": 40035,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "61ab0305c465de9b2e9c984e0410aa540a1ba940f240dc5b325253a45445081f"
+        },
+        {
+          "offset": 40035,
+          "end": 40046,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 40046,
+          "end": 40058,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "bfaf7d6300c7f8722be8a974f63e712711c4c76b4842d443edd2f4f35fbcf49f"
+        },
+        {
+          "offset": 40058,
+          "end": 40068,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 40068,
+          "end": 40080,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c666e8f4e09389fc8f40f7651b8f3bcd0a6c3c3d64eea521e6e9f0c4a6902849"
+        },
+        {
+          "offset": 40080,
+          "end": 40089,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 40089,
+          "end": 40101,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c3aec3ddc8b43b3fa85f11c4e00087387cbe7b42927b390de37c8b99c7606068"
+        },
+        {
+          "offset": 40101,
+          "end": 40114,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "f76a221775483fff3019d5bf83629e06b30bc3fa73c1131228e362efd949c414"
+        },
+        {
+          "offset": 40114,
+          "end": 40128,
+          "size": 14,
+          "kind": 180,
+          "checksum": "valid",
+          "sha256": "0f193867181fdd7fcfd9d251a3a275513ea81225df535b85fc8424984ecc3b11"
+        },
+        {
+          "offset": 40128,
+          "end": 40152,
+          "size": 24,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "50dd7e645ae3ddd2a8b73e72651a96499a6620d19dcf7110730cf872cf6992b4"
+        },
+        {
+          "offset": 40152,
+          "end": 40310,
+          "size": 158,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "42b32d08ab71e20ea9fc28b1d4f2b98ce98cf66d664506511f2e99b4f43e5d99"
+        },
+        {
+          "offset": 40310,
+          "end": 40338,
+          "size": 28,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "6746b661a9c488a70de54f3aa7c60f45315fa6aa63c16e51322bb33d8f84c817"
+        },
+        {
+          "offset": 40338,
+          "end": 40357,
+          "size": 19,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "caec3fb96d1fce04e397bcdaa4e53b3d5da18ec05bd20d931c90529caf31e6a1"
+        },
+        {
+          "offset": 40357,
+          "end": 40370,
+          "size": 13,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "db2ebe791ee1386aef2b8688d2e4d96d0a08e821ffdebf22a42a9bc10198dd5c"
+        },
+        {
+          "offset": 40370,
+          "end": 40390,
+          "size": 20,
+          "kind": 183,
+          "checksum": "valid",
+          "sha256": "0722c04c09f901ac06f3b4e728061b98a7dd81f47006ab451ce9ce7e9b7f64cb"
+        },
+        {
+          "offset": 40390,
+          "end": 40395,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ],
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "source_status": "supplied original stock toolchain component",
+      "rebuilt_source_credit": 0,
+      "discovery": {
+        "historical_native_gate": "reported verified; untrusted discovery",
+        "code_nomination": [
+          1,
+          589392
+        ],
+        "location_scan_is_proof": false
+      },
+      "metadata": {
+        "segments": [
+          {
+            "number": 1,
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 149,
+            "attributes": 41,
+            "access": null
+          },
+          {
+            "number": 2,
+            "name": "CONST",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 3,
+            "name": "CONST2",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 4,
+            "name": "_DATA",
+            "class": "DATA",
+            "size": 4,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 5,
+            "name": "_BSS",
+            "class": "BSS",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "strtok_": [
+            1,
+            0
+          ],
+          "_nexttok": [
+            4,
+            0
+          ]
+        },
+        "local_publics": [
+          "_nexttok"
+        ],
+        "externals": [
+          "_nexttok",
+          "__setbits_",
+          "__Bits"
+        ],
+        "local_externals": [
+          1
+        ],
+        "groups": [
+          [
+            "DGROUP",
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ]
+        ],
+        "comments": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043"
+          },
+          {
+            "class": 233,
+            "payload_hex": ""
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01"
+          }
+        ],
+        "options_scope": "observed producer/model metadata only; original command line not recovered",
+        "options_metadata": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63",
+            "ascii": "3sOc"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043",
+            "ascii": "D\u0001\u0000C"
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01",
+            "ascii": "O\u0001"
+          }
+        ],
+        "code_data_ranges": [],
+        "fixups": [
+          {
+            "segment": 1,
+            "offset": 13,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 28,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 51,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 3,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 101,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 3,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 120,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 137,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          }
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          589392
+        ],
+        "4": [
+          3,
+          72396
+        ]
+      },
+      "constraints": [
+        {
+          "source_offset": 13,
+          "symbol": "_nexttok",
+          "value": [
+            3,
+            72396
+          ]
+        },
+        {
+          "source_offset": 28,
+          "symbol": "__setbits_",
+          "value": [
+            1,
+            601171
+          ]
+        },
+        {
+          "source_offset": 51,
+          "symbol": "__Bits",
+          "value": [
+            3,
+            29396
+          ]
+        },
+        {
+          "source_offset": 101,
+          "symbol": "__Bits",
+          "value": [
+            3,
+            29396
+          ]
+        },
+        {
+          "source_offset": 120,
+          "symbol": "_nexttok",
+          "value": [
+            3,
+            72396
+          ]
+        },
+        {
+          "source_offset": 137,
+          "symbol": "_nexttok",
+          "value": [
+            3,
+            72396
+          ]
+        }
+      ],
+      "expected": {
+        "initialized_bytes": 153,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 6
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 153,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 6,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 589392,
+            "compared_bytes": 149,
+            "verified_fixups": 6,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 72396,
+            "compared_bytes": 4,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "strtok_": [
+            1,
+            589392
+          ],
+          "_nexttok": [
+            3,
+            72396
+          ],
+          "__setbits_": [
+            1,
+            601171
+          ],
+          "__Bits": [
+            3,
+            29396
+          ]
+        },
+        "local_symbols": {
+          "_nexttok": [
+            3,
+            72396
+          ]
+        },
+        "full_executable_rebuilt": false
+      },
+      "external_anchor_bindings": {
+        "strtok_": [
+          1,
+          589392
+        ],
+        "__setbits_": [
+          1,
+          601171
+        ],
+        "__Bits": [
+          3,
+          29396
+        ]
+      },
+      "target_ranges": [
+        {
+          "component": "strtok",
+          "segment": 1,
+          "class": "CODE",
+          "object": 1,
+          "start": 589392,
+          "end": 589541
+        },
+        {
+          "component": "strtok",
+          "segment": 4,
+          "class": "DATA",
+          "object": 3,
+          "start": 72396,
+          "end": 72400
+        }
+      ],
+      "coverage_accounting": {
+        "initialized_bytes": 153,
+        "zero_fill_bytes": 0,
+        "code_bytes": 149,
+        "overlap_initialized_bytes": 0,
+        "overlap_zero_fill_bytes": 0,
+        "overlap_code_bytes": 0,
+        "additional_supplied_initialized_bytes": 153,
+        "additional_supplied_zero_fill_bytes": 0,
+        "additional_supplied_code_bytes": 149,
+        "rebuilt_source_bytes_added": 0,
+        "complete_source_contributions_added": 0,
+        "overlaps": []
+      }
+    },
+    {
+      "offset": 75200,
+      "end": 75640,
+      "size": 440,
+      "name": "cmain386",
+      "sha256": "121ab7b4d090826c6fd95fa79b840064939e9b04fd1c92a23d44d2414d5c89a8",
+      "padding_bytes": 8,
+      "records": [
+        {
+          "offset": 75200,
+          "end": 75213,
+          "size": 13,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "ad74711f3b228fe302921830e779e14ab38ec6501770e590f92e136bdba1d6d6"
+        },
+        {
+          "offset": 75213,
+          "end": 75223,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "95dd0e8b7aeecbaea95cb635e2dfdf07f386684701f27feae7257b51b0747739"
+        },
+        {
+          "offset": 75223,
+          "end": 75233,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 75233,
+          "end": 75239,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 75239,
+          "end": 75265,
+          "size": 26,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "2d96cd389e52740810726ab9351f2ca1c0db705160834ed38d215071a6a809ed"
+        },
+        {
+          "offset": 75265,
+          "end": 75275,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "f9cc6319b3057bf549e4a222fab0ce6b029ca344bf895a0bc376cd6db47c10a2"
+        },
+        {
+          "offset": 75275,
+          "end": 75287,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "376940d0ad232ad8111694b1c6c23fe81020a49bba5b2db084f77fc5a13db939"
+        },
+        {
+          "offset": 75287,
+          "end": 75295,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 75295,
+          "end": 75305,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 75305,
+          "end": 75317,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "61ab0305c465de9b2e9c984e0410aa540a1ba940f240dc5b325253a45445081f"
+        },
+        {
+          "offset": 75317,
+          "end": 75328,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 75328,
+          "end": 75340,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "bfaf7d6300c7f8722be8a974f63e712711c4c76b4842d443edd2f4f35fbcf49f"
+        },
+        {
+          "offset": 75340,
+          "end": 75350,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 75350,
+          "end": 75362,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "cb47d4a16b3ef9238b955b23b2a40d452de7d02df893f916552a6512cebcdd97"
+        },
+        {
+          "offset": 75362,
+          "end": 75371,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 75371,
+          "end": 75383,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c3aec3ddc8b43b3fa85f11c4e00087387cbe7b42927b390de37c8b99c7606068"
+        },
+        {
+          "offset": 75383,
+          "end": 75396,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "f76a221775483fff3019d5bf83629e06b30bc3fa73c1131228e362efd949c414"
+        },
+        {
+          "offset": 75396,
+          "end": 75488,
+          "size": 92,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "87c89656384b86c561e18e605e26b939dcfe8b5419869faec91775807ea7175c"
+        },
+        {
+          "offset": 75488,
+          "end": 75576,
+          "size": 88,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "c17f450ea4b4fe467794d152add8e30dda20aaeb821a8ad6cdb630021eceafa9"
+        },
+        {
+          "offset": 75576,
+          "end": 75616,
+          "size": 40,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "a7bbec8ba71e55f3af06bed68ae67883d6ea5ad9e52206d3cb2568c2d78c72ff"
+        },
+        {
+          "offset": 75616,
+          "end": 75635,
+          "size": 19,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "f7fbe652fbae9b1aeca5266125ad7f10288d60045fb0ab31da1b2b0b0ecba001"
+        },
+        {
+          "offset": 75635,
+          "end": 75640,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ],
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "source_status": "supplied original stock toolchain component",
+      "rebuilt_source_credit": 0,
+      "discovery": {
+        "historical_native_gate": "reported verified; untrusted discovery",
+        "code_nomination": [
+          1,
+          596879
+        ],
+        "location_scan_is_proof": false
+      },
+      "metadata": {
+        "segments": [
+          {
+            "number": 1,
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 79,
+            "attributes": 41,
+            "access": null
+          },
+          {
+            "number": 2,
+            "name": "CONST",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 3,
+            "name": "CONST2",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 4,
+            "name": "_DATA",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 5,
+            "name": "_BSS",
+            "class": "BSS",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "__CMain": [
+            1,
+            0
+          ]
+        },
+        "local_publics": [],
+        "externals": [
+          "__ASTACKSIZ",
+          "stackavail_",
+          "__ASTACKPTR",
+          "__CommonInit_",
+          "____Argv",
+          "____Argc",
+          "main_",
+          "exit_"
+        ],
+        "local_externals": [],
+        "groups": [
+          [
+            "DGROUP",
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ]
+        ],
+        "comments": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043"
+          },
+          {
+            "class": 233,
+            "payload_hex": ""
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01"
+          }
+        ],
+        "options_scope": "observed producer/model metadata only; original command line not recovered",
+        "options_metadata": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63",
+            "ascii": "3sOc"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043",
+            "ascii": "D\u0001\u0000C"
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01",
+            "ascii": "O\u0001"
+          }
+        ],
+        "code_data_ranges": [],
+        "fixups": [
+          {
+            "segment": 1,
+            "offset": 6,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 17,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 37,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 44,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 3,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 49,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 55,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 5,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 60,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 6,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 65,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 7,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 70,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 8,
+            "displacement": 0
+          }
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          596879
+        ]
+      },
+      "constraints": [
+        {
+          "source_offset": 6,
+          "symbol": "__ASTACKSIZ",
+          "value": [
+            3,
+            72680
+          ]
+        },
+        {
+          "source_offset": 17,
+          "symbol": "stackavail_",
+          "value": [
+            1,
+            588030
+          ]
+        },
+        {
+          "source_offset": 37,
+          "symbol": "__ASTACKSIZ",
+          "value": [
+            3,
+            72680
+          ]
+        },
+        {
+          "source_offset": 44,
+          "symbol": "__ASTACKPTR",
+          "value": [
+            3,
+            72684
+          ]
+        },
+        {
+          "source_offset": 49,
+          "symbol": "__CommonInit_",
+          "value": [
+            1,
+            608928
+          ]
+        },
+        {
+          "source_offset": 55,
+          "symbol": "____Argv",
+          "value": [
+            3,
+            2132852
+          ]
+        },
+        {
+          "source_offset": 60,
+          "symbol": "____Argc",
+          "value": [
+            3,
+            2132848
+          ]
+        },
+        {
+          "source_offset": 65,
+          "symbol": "main_",
+          "value": [
+            1,
+            65824
+          ]
+        },
+        {
+          "source_offset": 70,
+          "symbol": "exit_",
+          "value": [
+            1,
+            583687
+          ]
+        }
+      ],
+      "expected": {
+        "initialized_bytes": 79,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 9
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 79,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 9,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 596879,
+            "compared_bytes": 79,
+            "verified_fixups": 9,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "__CMain": [
+            1,
+            596879
+          ],
+          "__ASTACKSIZ": [
+            3,
+            72680
+          ],
+          "stackavail_": [
+            1,
+            588030
+          ],
+          "__ASTACKPTR": [
+            3,
+            72684
+          ],
+          "__CommonInit_": [
+            1,
+            608928
+          ],
+          "____Argv": [
+            3,
+            2132852
+          ],
+          "____Argc": [
+            3,
+            2132848
+          ],
+          "main_": [
+            1,
+            65824
+          ],
+          "exit_": [
+            1,
+            583687
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "external_anchor_bindings": {
+        "__CMain": [
+          1,
+          596879
+        ],
+        "__ASTACKSIZ": [
+          3,
+          72680
+        ],
+        "stackavail_": [
+          1,
+          588030
+        ],
+        "__ASTACKPTR": [
+          3,
+          72684
+        ],
+        "__CommonInit_": [
+          1,
+          608928
+        ],
+        "____Argv": [
+          3,
+          2132852
+        ],
+        "____Argc": [
+          3,
+          2132848
+        ],
+        "main_": [
+          1,
+          65824
+        ],
+        "exit_": [
+          1,
+          583687
+        ]
+      },
+      "target_ranges": [
+        {
+          "component": "cmain386",
+          "segment": 1,
+          "class": "CODE",
+          "object": 1,
+          "start": 596879,
+          "end": 596958
+        }
+      ],
+      "coverage_accounting": {
+        "initialized_bytes": 79,
+        "zero_fill_bytes": 0,
+        "code_bytes": 79,
+        "overlap_initialized_bytes": 0,
+        "overlap_zero_fill_bytes": 0,
+        "overlap_code_bytes": 0,
+        "additional_supplied_initialized_bytes": 79,
+        "additional_supplied_zero_fill_bytes": 0,
+        "additional_supplied_code_bytes": 79,
+        "rebuilt_source_bytes_added": 0,
+        "complete_source_contributions_added": 0,
+        "overlaps": []
+      }
+    },
+    {
+      "offset": 137184,
+      "end": 137434,
+      "size": 250,
+      "name": "nmsize",
+      "sha256": "de51f91cff67456548f278db57214b863650089f84956a00fd1dd6b58083a13c",
+      "padding_bytes": 6,
+      "records": [
+        {
+          "offset": 137184,
+          "end": 137195,
+          "size": 11,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "82b115ed79c36e764839a1ee124990949993bde8b3a901dff1eee6e03a7439c0"
+        },
+        {
+          "offset": 137195,
+          "end": 137205,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "95dd0e8b7aeecbaea95cb635e2dfdf07f386684701f27feae7257b51b0747739"
+        },
+        {
+          "offset": 137205,
+          "end": 137215,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 137215,
+          "end": 137221,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 137221,
+          "end": 137247,
+          "size": 26,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "2d96cd389e52740810726ab9351f2ca1c0db705160834ed38d215071a6a809ed"
+        },
+        {
+          "offset": 137247,
+          "end": 137257,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "f9cc6319b3057bf549e4a222fab0ce6b029ca344bf895a0bc376cd6db47c10a2"
+        },
+        {
+          "offset": 137257,
+          "end": 137269,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "1d7fa54331fc7584eebc84f263967f07e1710a5bcf542e075b798ac3cc3c6ecd"
+        },
+        {
+          "offset": 137269,
+          "end": 137277,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 137277,
+          "end": 137287,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 137287,
+          "end": 137299,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "61ab0305c465de9b2e9c984e0410aa540a1ba940f240dc5b325253a45445081f"
+        },
+        {
+          "offset": 137299,
+          "end": 137310,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 137310,
+          "end": 137322,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "bfaf7d6300c7f8722be8a974f63e712711c4c76b4842d443edd2f4f35fbcf49f"
+        },
+        {
+          "offset": 137322,
+          "end": 137332,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 137332,
+          "end": 137344,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "cb47d4a16b3ef9238b955b23b2a40d452de7d02df893f916552a6512cebcdd97"
+        },
+        {
+          "offset": 137344,
+          "end": 137353,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 137353,
+          "end": 137365,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c3aec3ddc8b43b3fa85f11c4e00087387cbe7b42927b390de37c8b99c7606068"
+        },
+        {
+          "offset": 137365,
+          "end": 137378,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "f76a221775483fff3019d5bf83629e06b30bc3fa73c1131228e362efd949c414"
+        },
+        {
+          "offset": 137378,
+          "end": 137396,
+          "size": 18,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "152b18d70c145fd2cd56de6a60872a8be6eb4859c47464ed668f61d71a7e33a6"
+        },
+        {
+          "offset": 137396,
+          "end": 137429,
+          "size": 33,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "c463460c9319aff0f6963bff938d286c8112bf57c7eca936ee05e27c07faaea1"
+        },
+        {
+          "offset": 137429,
+          "end": 137434,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ],
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "source_status": "supplied original stock toolchain component",
+      "rebuilt_source_credit": 0,
+      "discovery": {
+        "historical_native_gate": "reported verified; untrusted discovery",
+        "code_nomination": [
+          1,
+          591250
+        ],
+        "location_scan_is_proof": false
+      },
+      "metadata": {
+        "segments": [
+          {
+            "number": 1,
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 9,
+            "attributes": 41,
+            "access": null
+          },
+          {
+            "number": 2,
+            "name": "CONST",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 3,
+            "name": "CONST2",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 4,
+            "name": "_DATA",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 5,
+            "name": "_BSS",
+            "class": "BSS",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "_nmsize_": [
+            1,
+            0
+          ],
+          "_msize_": [
+            1,
+            0
+          ]
+        },
+        "local_publics": [],
+        "externals": [],
+        "local_externals": [],
+        "groups": [
+          [
+            "DGROUP",
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ]
+        ],
+        "comments": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043"
+          },
+          {
+            "class": 233,
+            "payload_hex": ""
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01"
+          }
+        ],
+        "options_scope": "observed producer/model metadata only; original command line not recovered",
+        "options_metadata": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63",
+            "ascii": "3sOc"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043",
+            "ascii": "D\u0001\u0000C"
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01",
+            "ascii": "O\u0001"
+          }
+        ],
+        "code_data_ranges": [],
+        "fixups": []
+      },
+      "placements": {
+        "1": [
+          1,
+          591250
+        ]
+      },
+      "constraints": [],
+      "expected": {
+        "initialized_bytes": 9,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 9,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591250,
+            "compared_bytes": 9,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_nmsize_": [
+            1,
+            591250
+          ],
+          "_msize_": [
+            1,
+            591250
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "external_anchor_bindings": {
+        "_nmsize_": [
+          1,
+          591250
+        ],
+        "_msize_": [
+          1,
+          591250
+        ]
+      },
+      "target_ranges": [
+        {
+          "component": "nmsize",
+          "segment": 1,
+          "class": "CODE",
+          "object": 1,
+          "start": 591250,
+          "end": 591259
+        }
+      ],
+      "coverage_accounting": {
+        "initialized_bytes": 9,
+        "zero_fill_bytes": 0,
+        "code_bytes": 9,
+        "overlap_initialized_bytes": 0,
+        "overlap_zero_fill_bytes": 0,
+        "overlap_code_bytes": 0,
+        "additional_supplied_initialized_bytes": 9,
+        "additional_supplied_zero_fill_bytes": 0,
+        "additional_supplied_code_bytes": 9,
+        "rebuilt_source_bytes_added": 0,
+        "complete_source_contributions_added": 0,
+        "overlaps": []
+      }
+    },
+    {
+      "offset": 73808,
+      "end": 74084,
+      "size": 276,
+      "name": "vprintf",
+      "sha256": "b404698a136b3bd5b1df12df8877392b0ab156984297e26559860bf30fbbd873",
+      "padding_bytes": 12,
+      "records": [
+        {
+          "offset": 73808,
+          "end": 73820,
+          "size": 12,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "f7902fbf156f93500fb49d71779af4518a91e79f3404e494e771e43ca2a894dd"
+        },
+        {
+          "offset": 73820,
+          "end": 73830,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "95dd0e8b7aeecbaea95cb635e2dfdf07f386684701f27feae7257b51b0747739"
+        },
+        {
+          "offset": 73830,
+          "end": 73840,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 73840,
+          "end": 73846,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 73846,
+          "end": 73878,
+          "size": 32,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "c81750c3e27fe95d138eab9cc58ff94d4846fed6fddf1146073e4c8def9e9754"
+        },
+        {
+          "offset": 73878,
+          "end": 73890,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "b8863484d88e74fa6bc74fa89308735dbaf596516a3fa0468a635275a3552a50"
+        },
+        {
+          "offset": 73890,
+          "end": 73898,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 73898,
+          "end": 73908,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 73908,
+          "end": 73920,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "61ab0305c465de9b2e9c984e0410aa540a1ba940f240dc5b325253a45445081f"
+        },
+        {
+          "offset": 73920,
+          "end": 73931,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 73931,
+          "end": 73943,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "bfaf7d6300c7f8722be8a974f63e712711c4c76b4842d443edd2f4f35fbcf49f"
+        },
+        {
+          "offset": 73943,
+          "end": 73953,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 73953,
+          "end": 73965,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "cb47d4a16b3ef9238b955b23b2a40d452de7d02df893f916552a6512cebcdd97"
+        },
+        {
+          "offset": 73965,
+          "end": 73974,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 73974,
+          "end": 73986,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c3aec3ddc8b43b3fa85f11c4e00087387cbe7b42927b390de37c8b99c7606068"
+        },
+        {
+          "offset": 73986,
+          "end": 73999,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "f76a221775483fff3019d5bf83629e06b30bc3fa73c1131228e362efd949c414"
+        },
+        {
+          "offset": 73999,
+          "end": 74021,
+          "size": 22,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "974c8c293cc892ea40293432ca08d2eb4dfc02fb2161a3a25440e3036ff8b0a6"
+        },
+        {
+          "offset": 74021,
+          "end": 74047,
+          "size": 26,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "4de11a4689411f9a9eac029c7a5f754d70f8f9df22bc05e6acea94fd574b4338"
+        },
+        {
+          "offset": 74047,
+          "end": 74059,
+          "size": 12,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "85ee545255c8d7ea58fa3f9fd0a486a7f9493e3edb9fdaf91e2583f6b1e730ac"
+        },
+        {
+          "offset": 74059,
+          "end": 74079,
+          "size": 20,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "de2f77ec22a9776ed66860d8b5a478658d1201642cc6c77c885e19d6d747de9a"
+        },
+        {
+          "offset": 74079,
+          "end": 74084,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ],
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "source_status": "supplied original stock toolchain component",
+      "rebuilt_source_credit": 0,
+      "discovery": {
+        "historical_native_gate": "reported verified; untrusted discovery",
+        "code_nomination": [
+          1,
+          591233
+        ],
+        "location_scan_is_proof": false,
+        "origin": "additional fixed stock-member nominations"
+      },
+      "metadata": {
+        "segments": [
+          {
+            "number": 1,
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 17,
+            "attributes": 41,
+            "access": null
+          },
+          {
+            "number": 2,
+            "name": "CONST",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 3,
+            "name": "CONST2",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 4,
+            "name": "_DATA",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 5,
+            "name": "_BSS",
+            "class": "BSS",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "vprintf_": [
+            1,
+            0
+          ]
+        },
+        "local_publics": [],
+        "externals": [
+          "___iob",
+          "__fprtf_"
+        ],
+        "local_externals": [],
+        "groups": [
+          [
+            "DGROUP",
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ]
+        ],
+        "comments": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043"
+          },
+          {
+            "class": 233,
+            "payload_hex": ""
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01"
+          }
+        ],
+        "options_scope": "observed producer/model metadata only; original command line not recovered",
+        "options_metadata": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63",
+            "ascii": "3sOc"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043",
+            "ascii": "D\u0001\u0000C"
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01",
+            "ascii": "O\u0001"
+          }
+        ],
+        "code_data_ranges": [],
+        "fixups": [
+          {
+            "segment": 1,
+            "offset": 6,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 11,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          }
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          591233
+        ]
+      },
+      "constraints": [
+        {
+          "source_offset": 6,
+          "symbol": "___iob",
+          "value": [
+            3,
+            71864
+          ]
+        },
+        {
+          "source_offset": 11,
+          "symbol": "__fprtf_",
+          "value": [
+            1,
+            592563
+          ]
+        }
+      ],
+      "expected": {
+        "initialized_bytes": 17,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 2
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 17,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 2,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591233,
+            "compared_bytes": 17,
+            "verified_fixups": 2,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "vprintf_": [
+            1,
+            591233
+          ],
+          "___iob": [
+            3,
+            71864
+          ],
+          "__fprtf_": [
+            1,
+            592563
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "external_anchor_bindings": {
+        "vprintf_": [
+          1,
+          591233
+        ],
+        "___iob": [
+          3,
+          71864
+        ],
+        "__fprtf_": [
+          1,
+          592563
+        ]
+      },
+      "target_ranges": [
+        {
+          "component": "vprintf",
+          "segment": 1,
+          "class": "CODE",
+          "object": 1,
+          "start": 591233,
+          "end": 591250
+        }
+      ],
+      "coverage_accounting": {
+        "initialized_bytes": 17,
+        "zero_fill_bytes": 0,
+        "code_bytes": 17,
+        "overlap_initialized_bytes": 0,
+        "overlap_zero_fill_bytes": 0,
+        "overlap_code_bytes": 0,
+        "additional_supplied_initialized_bytes": 17,
+        "additional_supplied_zero_fill_bytes": 0,
+        "additional_supplied_code_bytes": 17,
+        "rebuilt_source_bytes_added": 0,
+        "complete_source_contributions_added": 0,
+        "overlaps": []
+      }
+    },
+    {
+      "offset": 196400,
+      "end": 196918,
+      "size": 518,
+      "name": "nrealloc",
+      "sha256": "aa52b33f130584f880e8d03e080bf8f1054d75ef26f03c941d448ea5b40799a9",
+      "padding_bytes": 10,
+      "records": [
+        {
+          "offset": 196400,
+          "end": 196413,
+          "size": 13,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "36d935ecb3357f6bddf63b9603245347adbab09c6c414ffe5ab34684db98bfe0"
+        },
+        {
+          "offset": 196413,
+          "end": 196423,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "95dd0e8b7aeecbaea95cb635e2dfdf07f386684701f27feae7257b51b0747739"
+        },
+        {
+          "offset": 196423,
+          "end": 196433,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 196433,
+          "end": 196439,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 196439,
+          "end": 196471,
+          "size": 32,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "c81750c3e27fe95d138eab9cc58ff94d4846fed6fddf1146073e4c8def9e9754"
+        },
+        {
+          "offset": 196471,
+          "end": 196483,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "5b7e817f9ef655f11ad122365f544f789fa6f315f4a594d1a9f985ce631e82be"
+        },
+        {
+          "offset": 196483,
+          "end": 196491,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 196491,
+          "end": 196501,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 196501,
+          "end": 196513,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "61ab0305c465de9b2e9c984e0410aa540a1ba940f240dc5b325253a45445081f"
+        },
+        {
+          "offset": 196513,
+          "end": 196524,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 196524,
+          "end": 196536,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "bfaf7d6300c7f8722be8a974f63e712711c4c76b4842d443edd2f4f35fbcf49f"
+        },
+        {
+          "offset": 196536,
+          "end": 196546,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 196546,
+          "end": 196558,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "cb47d4a16b3ef9238b955b23b2a40d452de7d02df893f916552a6512cebcdd97"
+        },
+        {
+          "offset": 196558,
+          "end": 196567,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 196567,
+          "end": 196579,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c3aec3ddc8b43b3fa85f11c4e00087387cbe7b42927b390de37c8b99c7606068"
+        },
+        {
+          "offset": 196579,
+          "end": 196592,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "f76a221775483fff3019d5bf83629e06b30bc3fa73c1131228e362efd949c414"
+        },
+        {
+          "offset": 196592,
+          "end": 196670,
+          "size": 78,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "6c574e6ad45b03dccc3262476e88e5584d3203a022aa51c1cdf5a294b4020924"
+        },
+        {
+          "offset": 196670,
+          "end": 196837,
+          "size": 167,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "c291a9222c9995cecc8ae209ef9a64777bb3c8b35e050798f45acbbb485b23ab"
+        },
+        {
+          "offset": 196837,
+          "end": 196877,
+          "size": 40,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "7b851e826a1a5256144a95343fb9d24cdfa7b85b71f8ba3ac3eacd78765c1ee7"
+        },
+        {
+          "offset": 196877,
+          "end": 196913,
+          "size": 36,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "00a75e0afb25f95b4bf5f794cc95ba1a8215bf03c0f975f3ce14d7857a291448"
+        },
+        {
+          "offset": 196913,
+          "end": 196918,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ],
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "source_status": "supplied original stock toolchain component",
+      "rebuilt_source_credit": 0,
+      "discovery": {
+        "historical_native_gate": "reported verified; untrusted discovery",
+        "code_nomination": [
+          1,
+          591259
+        ],
+        "location_scan_is_proof": false,
+        "origin": "additional fixed stock-member nominations"
+      },
+      "metadata": {
+        "segments": [
+          {
+            "number": 1,
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 158,
+            "attributes": 41,
+            "access": null
+          },
+          {
+            "number": 2,
+            "name": "CONST",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 3,
+            "name": "CONST2",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 4,
+            "name": "_DATA",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "number": 5,
+            "name": "_BSS",
+            "class": "BSS",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "_nrealloc_": [
+            1,
+            0
+          ],
+          "realloc_": [
+            1,
+            0
+          ]
+        },
+        "local_publics": [],
+        "externals": [
+          "_nmalloc_",
+          "_nfree_",
+          "_nmsize_",
+          "_nexpand_",
+          "__Extender",
+          "__ReAllocDPMIBlock_"
+        ],
+        "local_externals": [],
+        "groups": [
+          [
+            "DGROUP",
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ]
+        ],
+        "comments": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043"
+          },
+          {
+            "class": 233,
+            "payload_hex": ""
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01"
+          }
+        ],
+        "options_scope": "observed producer/model metadata only; original command line not recovered",
+        "options_metadata": [
+          {
+            "class": 155,
+            "payload_hex": "33734f63",
+            "ascii": "3sOc"
+          },
+          {
+            "class": 254,
+            "payload_hex": "44010043",
+            "ascii": "D\u0001\u0000C"
+          },
+          {
+            "class": 254,
+            "payload_hex": "4f01",
+            "ascii": "O\u0001"
+          }
+        ],
+        "code_data_ranges": [],
+        "fixups": [
+          {
+            "segment": 1,
+            "offset": 16,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 30,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 42,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 3,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 51,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 62,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 5,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 78,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 6,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 94,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 135,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 146,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          }
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          591259
+        ]
+      },
+      "constraints": [
+        {
+          "source_offset": 16,
+          "symbol": "_nmalloc_",
+          "value": [
+            1,
+            587632
+          ]
+        },
+        {
+          "source_offset": 30,
+          "symbol": "_nfree_",
+          "value": [
+            1,
+            587859
+          ]
+        },
+        {
+          "source_offset": 42,
+          "symbol": "_nmsize_",
+          "value": [
+            1,
+            591250
+          ]
+        },
+        {
+          "source_offset": 51,
+          "symbol": "_nexpand_",
+          "value": [
+            1,
+            605241
+          ]
+        },
+        {
+          "source_offset": 62,
+          "symbol": "__Extender",
+          "value": [
+            3,
+            72702
+          ]
+        },
+        {
+          "source_offset": 78,
+          "symbol": "__ReAllocDPMIBlock_",
+          "value": [
+            1,
+            598304
+          ]
+        },
+        {
+          "source_offset": 94,
+          "symbol": "_nmalloc_",
+          "value": [
+            1,
+            587632
+          ]
+        },
+        {
+          "source_offset": 135,
+          "symbol": "_nfree_",
+          "value": [
+            1,
+            587859
+          ]
+        },
+        {
+          "source_offset": 146,
+          "symbol": "_nexpand_",
+          "value": [
+            1,
+            605241
+          ]
+        }
+      ],
+      "expected": {
+        "initialized_bytes": 158,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 9
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 158,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 9,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591259,
+            "compared_bytes": 158,
+            "verified_fixups": 9,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_nrealloc_": [
+            1,
+            591259
+          ],
+          "realloc_": [
+            1,
+            591259
+          ],
+          "_nmalloc_": [
+            1,
+            587632
+          ],
+          "_nfree_": [
+            1,
+            587859
+          ],
+          "_nmsize_": [
+            1,
+            591250
+          ],
+          "_nexpand_": [
+            1,
+            605241
+          ],
+          "__Extender": [
+            3,
+            72702
+          ],
+          "__ReAllocDPMIBlock_": [
+            1,
+            598304
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "external_anchor_bindings": {
+        "_nrealloc_": [
+          1,
+          591259
+        ],
+        "realloc_": [
+          1,
+          591259
+        ],
+        "_nmalloc_": [
+          1,
+          587632
+        ],
+        "_nfree_": [
+          1,
+          587859
+        ],
+        "_nmsize_": [
+          1,
+          591250
+        ],
+        "_nexpand_": [
+          1,
+          605241
+        ],
+        "__Extender": [
+          3,
+          72702
+        ],
+        "__ReAllocDPMIBlock_": [
+          1,
+          598304
+        ]
+      },
+      "target_ranges": [
+        {
+          "component": "nrealloc",
+          "segment": 1,
+          "class": "CODE",
+          "object": 1,
+          "start": 591259,
+          "end": 591417
+        }
+      ],
+      "coverage_accounting": {
+        "initialized_bytes": 158,
+        "zero_fill_bytes": 0,
+        "code_bytes": 158,
+        "overlap_initialized_bytes": 0,
+        "overlap_zero_fill_bytes": 0,
+        "overlap_code_bytes": 0,
+        "additional_supplied_initialized_bytes": 158,
+        "additional_supplied_zero_fill_bytes": 0,
+        "additional_supplied_code_bytes": 158,
+        "rebuilt_source_bytes_added": 0,
+        "complete_source_contributions_added": 0,
+        "overlaps": []
+      }
+    }
+  ],
+  "rebuilt_source_credit": 0,
+  "full_executable_rebuilt": false
+}

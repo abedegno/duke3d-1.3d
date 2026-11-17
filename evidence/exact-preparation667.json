@@ -1,0 +1,11 @@
+{
+  "purpose": "Independent proposal-only full executable comparison",
+  "result_sha256": "e26c29495b95de75e5594f18531c9d4860a761e6ba41e7ee381389855ab250ba",
+  "bound_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "bytes": 1179131,
+  "different_bytes": 0,
+  "verified_input_stage_output_pins": 616,
+  "normal_adoption": false,
+  "preservation_permission": "pending",
+  "single_complete_cold_command": "pending optional producer selection integration"
+}

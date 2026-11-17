@@ -1,0 +1,133 @@
+{
+  "kind": "Complete reconstructed CLRMAP source; not historical C or final EXE identity",
+  "lineage": {
+    "repository": "https://github.com/videogamepreservation/dukenukem3d",
+    "commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+    "released_primary": "dukenukem3d/extras/CLRMAP.H/_CLRMAP.H/TYPES.H/DEVELOP.H/UTIL_LIB.H and project GPL text; no released CLRMAP function body located by the bounded Task480 search",
+    "reviewed_source_sha256": "b460a4625849961de00b64d30c8fb74c455232c9dc8bfa7e1b0beb89accaa075",
+    "corrected_source_boundary": "Task494 corrected pre-copy/live/staged/generated-file freshness; old Task480 race helper is not a production input",
+    "model": "Named binary64 scalar observations and formulas; per-operation literal owners and RGB palette source, not opaque target segments",
+    "humanization_backlog": "Full ordinary C aid retained; symbolic native body is the complete matching producer, no matching-C claim",
+    "authored_counterpart": "Complete ordinary C reconstructed from released APIs/types and native behavior, not original CLRMAP.C or matching-C identity",
+    "C_negatives": "Task480 unchanged C: GA4631 CODE/133 fields; 10.5 4595 CODE/120 fields, both full negative; no C flag/source grid",
+    "original_member": {
+      "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+      "offset": 115712,
+      "size": 9854,
+      "sha256": "aa7f9769bfc15c9ee942ff1f69628265eb8c097e8e468bc60f6a6965bdf4dbea",
+      "observer_only": true
+    },
+    "model_owners": {
+      "CONST": "78 named per-operation binary64 literals; repeated compiler-pool objects are explicit",
+      "DATA": "Private16x3 RGB palette; true observed0/87/171/255 component values",
+      "BSS": "Public16-byte EGA palette index output",
+      "CODE_table": "Six real CS-dispatched DWORD target words, then1568 symbolic instruction rows",
+      "ABS": "12 genuine low/high words of six named floating values plus3 EGA levels",
+      "producer_metadata": "GNU empty default-library COMENT; original math387r/emu387 obligations explicitly retained"
+    }
+  },
+  "source_credit": 0,
+  "tracked_sources_sha256": {
+    "src/mact/clrmap/CLRMAP.S": "b460a4625849961de00b64d30c8fb74c455232c9dc8bfa7e1b0beb89accaa075",
+    "src/mact/clrmap/clrmap.c": "8f2a6904f53bcc48f64f87effc05ce960ae78e3cf3eed31d407f904ebf35f200",
+    "src/mact/clrmap/color_constants.py": "03f2947eb53d4ca06ae6f5262d5b2c8c33cdadbc15cb565f6f0866b6bff8d48e",
+    "src/mact/clrmap/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/clrmap/include/clrmap.h": "20ff38f9a3e31d0657a75e064ad447900d7e5425bca19f7d297e82cd1600530d",
+    "src/mact/clrmap/include/_clrmap.h": "722ee2385bc712fc40f6d50c0eb70163a67f9b34cc8cfa671105310c605d7395",
+    "src/mact/clrmap/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/clrmap/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "src/mact/clrmap/contract.py": "3d772462d8a1bcfe3dacd5bb308d7a534bbe4d08390e836411e89cb84090bba4"
+  },
+  "notice_files_sha256": {
+    "src/mact/clrmap/README.md": "0404a4771493507f61646190e82c9c4c926360de914d04f8ea08ce6487b9f448",
+    "src/mact/clrmap/SOURCE_NOTES.md": "1eac8104291b69e6809281782529853de85c61bdf59a473262e8d7349ef09b39",
+    "src/mact/clrmap/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "profiles/gnu_elf_omf_imports/README.md": "276f1f12748e2388b5d4ed6d2b2d17434b6666bc05ff724b487678724b912927"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_clrmap.py": "d891563eae82767b51efe91a00585f573806d58cd56d8644ab0acbf4516e70d5",
+    "profiles/gnu_elf_omf_imports/identity.py": "506c2b25324b9449585ae48e8989bd69c781ef8adaacf04a0d369cf781b21b80",
+    "profiles/gnu_elf_omf_imports/profile.json": "41e175ed0d63e5ebc360a17505413b9fc7055dec100bab6ef04d775ec1618e77",
+    "profiles/gnu_elf_omf_imports/apply_fork.py": "e35766dc9ad8397bc60dccb250c5f2e17e1efad405ddaf175a3fa5b0fa566cdd",
+    "profiles/gnu_elf_omf_imports/setup.py": "c7319cd912fb1b701af2a32ea98ca62a4a8fa23d928d2f22e3c04d0b9c7572ba",
+    "profiles/gnu_elf_omf_imports/defined-global.patch": "92a8e263b694d39908393742313cea625798721e9dd1bba443d30f4e3993c530",
+    "profiles/gnu_elf_omf_imports/unused-imports.patch": "230379a2bed7525f43b59041a02087d75cafdeb55cb8aeace555742c61ef0906",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  },
+  "descriptor_sha256": "e862f5f23f740f77f6bb084ba260b9e6fdc5361f452debd3e8de55a963376e6a",
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "566cb801c13dd13fd311d5a13a2eca48ebbdb304fd66c43eb1c5e61982b69a3e",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

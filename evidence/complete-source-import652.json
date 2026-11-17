@@ -1,0 +1,24 @@
+{
+  "task": 652,
+  "review": "APPROVED633+646;645 race HOLD resolved",
+  "review_freeze_sha256": "5fff4370765bec0f400f7d291591db7d1f1b9fa12b7d4259dcd7eaf4458501e8",
+  "review_report_sha256": "332aeab94230dbcc70998e1fe2cb4dafbed42a42015f02063bc5d1f7e5ebb932",
+  "review_manifest_sha256": "4715de4a6e8ce5345040e8fffbb89abea2ef38731c7aaa0bdbcdea6419152c24",
+  "independent_artifact_pins_verified": 433,
+  "imported_files_sha256": {
+    "Makefile": "a62b8c196449d0acfaac7a281bb234c3141c9a2bfe72a306d3ae1299f87aeee4",
+    "candidates/complete_source.json": "fd51c9100a41b63466b81b14949578b65a16d8fe25226222446630a0d1598738",
+    "docs/complete-source-build.md": "5bdf021bd318d709400cfa482672785e553d299fb5a355db94ce3e6ac327ffcd",
+    "tests/test_complete_source_build.py": "50866a6cc273b716ec8d2e7286059870b34d8a1798d03abc68e1a74b54fb39dc",
+    "tests/test_complete_native_publication.py": "cc32146f6e2ba0b4307dbfaf3a19d8d63bc180d41463ed25385e53243fd3bcc9",
+    "tools/bind_dos4gw.py": "29bcdbcf0b3e5fcafa425128ab0ecfbdf335ab6f591bbfb6c926c9ff15469d8d",
+    "tools/build_complete.py": "5a7062cd7268a5014b0627c7ff3fb7c5bdc61c0fb514a58668b647a1ce77cd36"
+  },
+  "root_tests": {
+    "normal": "14pass1.246s",
+    "optimized": "14pass1.270s",
+    "dependency": "DOS4GW_PREFIX explicitly set to declared pinned633 vendor prefix; default-root fixture location absent"
+  },
+  "whole_target_match": false,
+  "known_remaining": "Normal record layout integration and seven pending CONST bytes; no cold rebuild repeated for import."
+}

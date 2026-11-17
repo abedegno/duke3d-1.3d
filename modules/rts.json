@@ -1,0 +1,10 @@
+{
+  "name": "RTS",
+  "source": "src/rts/rts.c",
+  "options": ["/4r", "/s", "/oteir"],
+  "code_object": 1,
+  "code_offset": 286288,
+  "code_bytes": 869,
+  "code_publics": 7,
+  "expected": {"initialized_bytes": 1157, "zero_fill_bytes": 27, "verified_fixups": 70}
+}

@@ -1,0 +1,11581 @@
+{
+  "kind": "complete PLAYER object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/game/player.c",
+  "source_sha256": "de58bd2fc2d3b30c5c0e38ac8d7df8e2bef211e405f73bb42ef4db842b29f9ba",
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+  },
+  "descriptor": "modules/player.json",
+  "descriptor_sha256": "0d02e62b6201394bdd4209f3e0237c0dd07c12b8ac0ba0fd8755c7353e0e62b4",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "placements": {
+    "1": [
+      1,
+      203888
+    ],
+    "5": [
+      3,
+      587520
+    ],
+    "4": [
+      3,
+      31220
+    ],
+    "6": [
+      3,
+      10508
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 225,
+      "symbol": "_slimepal",
+      "value": [
+        3,
+        76936
+      ]
+    },
+    {
+      "source_offset": 254,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 278,
+      "symbol": "_slimepal",
+      "value": [
+        3,
+        76936
+      ]
+    },
+    {
+      "source_offset": 284,
+      "symbol": "_restorepalette",
+      "value": [
+        3,
+        77741
+      ]
+    },
+    {
+      "source_offset": 312,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 325,
+      "symbol": "_waterpal",
+      "value": [
+        3,
+        75400
+      ]
+    },
+    {
+      "source_offset": 331,
+      "symbol": "_restorepalette",
+      "value": [
+        3,
+        77741
+      ]
+    },
+    {
+      "source_offset": 345,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 351,
+      "symbol": "_restorepalette",
+      "value": [
+        3,
+        77741
+      ]
+    },
+    {
+      "source_offset": 397,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 406,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 430,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 464,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 555,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 625,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 641,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 648,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 678,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 683,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 688,
+      "symbol": "guts_",
+      "value": [
+        1,
+        89776
+      ]
+    },
+    {
+      "source_offset": 709,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 939,
+      "symbol": "updatesector_",
+      "value": [
+        1,
+        369184
+      ]
+    },
+    {
+      "source_offset": 978,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 990,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1000,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 1010,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 1023,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 1060,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1093,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 1152,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1207,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1227,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1235,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1253,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1260,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1267,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1275,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1283,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1288,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 1302,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1308,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1317,
+      "symbol": "FindDistance2D_",
+      "value": [
+        1,
+        566176
+      ]
+    },
+    {
+      "source_offset": 1360,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1367,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 1386,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1443,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1459,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1467,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1486,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1492,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1500,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1509,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1515,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1520,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 1539,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 1547,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1554,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 1582,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1592,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1601,
+      "symbol": "FindDistance2D_",
+      "value": [
+        1,
+        566176
+      ]
+    },
+    {
+      "source_offset": 1671,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1706,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1730,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 1757,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 1804,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1845,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1899,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1940,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1958,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1966,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 1989,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 2004,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 2044,
+      "symbol": "_headspritestat",
+      "value": [
+        3,
+        1644984
+      ]
+    },
+    {
+      "source_offset": 2061,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2075,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2089,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2112,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2117,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 2145,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2152,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 2164,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2197,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2209,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2270,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2292,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2311,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2433,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2439,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2458,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2521,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2570,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2576,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2607,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2624,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2634,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2640,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2645,
+      "symbol": "cansee_",
+      "value": [
+        1,
+        354154
+      ]
+    },
+    {
+      "source_offset": 2677,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 2759,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2811,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2821,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2827,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2837,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2861,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2867,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 2927,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 2975,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 2987,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3032,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 3040,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 3311,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 3325,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 3343,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 3404,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3411,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3441,
+      "symbol": "findplayer_",
+      "value": [
+        1,
+        254864
+      ]
+    },
+    {
+      "source_offset": 3455,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3471,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3495,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3505,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3514,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 3569,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 3596,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 3614,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 3675,
+      "symbol": "FindDistance2D_",
+      "value": [
+        1,
+        566176
+      ]
+    },
+    {
+      "source_offset": 3712,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 3727,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 3758,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 3791,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 3805,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 3811,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 3833,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 3864,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 3885,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 3899,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 3915,
+      "symbol": "_headspritesect",
+      "value": [
+        3,
+        1647034
+      ]
+    },
+    {
+      "source_offset": 3933,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3943,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3961,
+      "symbol": "_nextspritesect",
+      "value": [
+        3,
+        1080256
+      ]
+    },
+    {
+      "source_offset": 3978,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 3996,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4018,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4045,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 4052,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4071,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4098,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4104,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4113,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4119,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4126,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4132,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4141,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 4151,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4161,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4171,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4181,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4186,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 4195,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4208,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4218,
+      "symbol": "ssp_",
+      "value": [
+        1,
+        89472
+      ]
+    },
+    {
+      "source_offset": 4224,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4230,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4236,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4245,
+      "symbol": "setsprite_",
+      "value": [
+        1,
+        352579
+      ]
+    },
+    {
+      "source_offset": 4380,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 4393,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 4404,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4417,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4434,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 4444,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4458,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4465,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 4490,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4514,
+      "symbol": "_max_player_health",
+      "value": [
+        3,
+        579532
+      ]
+    },
+    {
+      "source_offset": 4524,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4533,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4555,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4577,
+      "symbol": "checkhitsprite_",
+      "value": [
+        1,
+        269328
+      ]
+    },
+    {
+      "source_offset": 4606,
+      "symbol": "checkhitswitch_",
+      "value": [
+        1,
+        262416
+      ]
+    },
+    {
+      "source_offset": 4640,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4650,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4684,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4693,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4725,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4778,
+      "symbol": "checkhitwall_",
+      "value": [
+        1,
+        265936
+      ]
+    },
+    {
+      "source_offset": 4802,
+      "symbol": "checkhitswitch_",
+      "value": [
+        1,
+        262416
+      ]
+    },
+    {
+      "source_offset": 4852,
+      "symbol": "aim_",
+      "value": [
+        1,
+        205632
+      ]
+    },
+    {
+      "source_offset": 4878,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4884,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4892,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 4904,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4953,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4977,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4985,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4992,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5000,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 5023,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5029,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5042,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 5070,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5105,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5112,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5126,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5141,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5184,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5191,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5203,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5241,
+      "symbol": "findplayer_",
+      "value": [
+        1,
+        254864
+      ]
+    },
+    {
+      "source_offset": 5257,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5280,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5291,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5299,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 5330,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5347,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5369,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5393,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5405,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5412,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 5419,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5501,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 5527,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 5546,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 5573,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5599,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 5609,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 5650,
+      "symbol": "tracers_",
+      "value": [
+        1,
+        204656
+      ]
+    },
+    {
+      "source_offset": 5711,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 5729,
+      "symbol": "_actorscrptr",
+      "value": [
+        3,
+        266136
+      ]
+    },
+    {
+      "source_offset": 5741,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5746,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 5765,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5774,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5819,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 5830,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5836,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5852,
+      "symbol": "checkhitceiling_",
+      "value": [
+        1,
+        268608
+      ]
+    },
+    {
+      "source_offset": 5865,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 5892,
+      "symbol": "checkhitsprite_",
+      "value": [
+        1,
+        269328
+      ]
+    },
+    {
+      "source_offset": 5907,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5926,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 5934,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5940,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5954,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5960,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5966,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5978,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5985,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5992,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 6012,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6026,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 6053,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6133,
+      "symbol": "checkhitswitch_",
+      "value": [
+        1,
+        262416
+      ]
+    },
+    {
+      "source_offset": 6167,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 6182,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6187,
+      "symbol": "isadoorwall_",
+      "value": [
+        1,
+        254448
+      ]
+    },
+    {
+      "source_offset": 6222,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6295,
+      "symbol": "checkhitswitch_",
+      "value": [
+        1,
+        262416
+      ]
+    },
+    {
+      "source_offset": 6319,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6333,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6351,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6391,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6413,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6428,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6453,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6471,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6502,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6523,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6537,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6553,
+      "symbol": "_headspritesect",
+      "value": [
+        3,
+        1647034
+      ]
+    },
+    {
+      "source_offset": 6571,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6581,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6599,
+      "symbol": "_nextspritesect",
+      "value": [
+        3,
+        1080256
+      ]
+    },
+    {
+      "source_offset": 6608,
+      "symbol": "_headspritestat",
+      "value": [
+        3,
+        1644984
+      ]
+    },
+    {
+      "source_offset": 6626,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6641,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 6648,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6656,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6664,
+      "symbol": "dist_",
+      "value": [
+        1,
+        254816
+      ]
+    },
+    {
+      "source_offset": 6682,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 6697,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 6723,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6730,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6739,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6745,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6751,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6759,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6764,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 6779,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6786,
+      "symbol": "ssp_",
+      "value": [
+        1,
+        89472
+      ]
+    },
+    {
+      "source_offset": 6800,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6810,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6844,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6853,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6937,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 6955,
+      "symbol": "_actorscrptr",
+      "value": [
+        3,
+        266136
+      ]
+    },
+    {
+      "source_offset": 6971,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 6986,
+      "symbol": "checkhitsprite_",
+      "value": [
+        1,
+        269328
+      ]
+    },
+    {
+      "source_offset": 7001,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7017,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 7027,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7033,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7072,
+      "symbol": "checkhitwall_",
+      "value": [
+        1,
+        265936
+      ]
+    },
+    {
+      "source_offset": 7077,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 7117,
+      "symbol": "xyzsound_",
+      "value": [
+        1,
+        282736
+      ]
+    },
+    {
+      "source_offset": 7267,
+      "symbol": "aim_",
+      "value": [
+        1,
+        205632
+      ]
+    },
+    {
+      "source_offset": 7291,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7297,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7305,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 7320,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7354,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7362,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7369,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7374,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 7401,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7407,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7416,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 7443,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7450,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7470,
+      "symbol": "findplayer_",
+      "value": [
+        1,
+        254864
+      ]
+    },
+    {
+      "source_offset": 7477,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 7505,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7512,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7537,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7546,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 7737,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 7750,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 7761,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7774,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7791,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7798,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7821,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7828,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7833,
+      "symbol": "ssp_",
+      "value": [
+        1,
+        89472
+      ]
+    },
+    {
+      "source_offset": 7845,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7850,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 7863,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7889,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7901,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 7916,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 7931,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 8006,
+      "symbol": "aim_",
+      "value": [
+        1,
+        205632
+      ]
+    },
+    {
+      "source_offset": 8032,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8038,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8046,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 8061,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8088,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8110,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8117,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8129,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 8147,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8166,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8172,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8185,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 8209,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8216,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8262,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 8278,
+      "symbol": "findplayer_",
+      "value": [
+        1,
+        254864
+      ]
+    },
+    {
+      "source_offset": 8301,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8307,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8316,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 8333,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8394,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8401,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8426,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8431,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 8453,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 8473,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 8566,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 8598,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 8640,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 8653,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 8664,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8677,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8690,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8698,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8704,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8710,
+      "symbol": "_numfreezebounces",
+      "value": [
+        3,
+        31188
+      ]
+    },
+    {
+      "source_offset": 8717,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8724,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8734,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8768,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8784,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 8805,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 8814,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8831,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8843,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8850,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8858,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 8871,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8879,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8898,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 8907,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8932,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 8938,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8949,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8956,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8962,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8972,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8986,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8992,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9019,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9043,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9064,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9072,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9090,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9095,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 9104,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9118,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9124,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9130,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9149,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9156,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9162,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9173,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9191,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9211,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9217,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 9237,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9242,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 9261,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9270,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9277,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9293,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9311,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9334,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9347,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9353,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9361,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9374,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9380,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9406,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9412,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9421,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9429,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9441,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9447,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9467,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9473,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9511,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9518,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9582,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9604,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 9635,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9646,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 9696,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 9721,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 9746,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 9771,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 9838,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 9853,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9868,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 9882,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9887,
+      "symbol": "ssp_",
+      "value": [
+        1,
+        89472
+      ]
+    },
+    {
+      "source_offset": 9907,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9914,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 9920,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 9929,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 9935,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 9941,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 9952,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 9968,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 9992,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 10027,
+      "symbol": "findplayer_",
+      "value": [
+        1,
+        254864
+      ]
+    },
+    {
+      "source_offset": 10043,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10058,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10063,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 10159,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 10181,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 10202,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 10252,
+      "symbol": "aim_",
+      "value": [
+        1,
+        205632
+      ]
+    },
+    {
+      "source_offset": 10276,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10282,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10290,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 10303,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10327,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10350,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10357,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10365,
+      "symbol": "ldist_",
+      "value": [
+        1,
+        254768
+      ]
+    },
+    {
+      "source_offset": 10384,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10394,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10403,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 10429,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10436,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10463,
+      "symbol": "findplayer_",
+      "value": [
+        1,
+        254864
+      ]
+    },
+    {
+      "source_offset": 10480,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10569,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 10577,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 10606,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 10624,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10630,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10678,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10710,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10728,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 10747,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10767,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 10787,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 10794,
+      "symbol": "_ydim",
+      "value": [
+        3,
+        1644976
+      ]
+    },
+    {
+      "source_offset": 10801,
+      "symbol": "_xdim",
+      "value": [
+        3,
+        1644980
+      ]
+    },
+    {
+      "source_offset": 10861,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10878,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10894,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 10911,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10968,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11007,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11053,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 11117,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 11142,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11151,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11168,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11184,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 11192,
+      "symbol": "_ydim",
+      "value": [
+        3,
+        1644976
+      ]
+    },
+    {
+      "source_offset": 11200,
+      "symbol": "_xdim",
+      "value": [
+        3,
+        1644980
+      ]
+    },
+    {
+      "source_offset": 11248,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 11278,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 11329,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 11336,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11356,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11366,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11390,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11421,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11433,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11442,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11459,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11475,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 11488,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11512,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11518,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11564,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 11571,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11583,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11610,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 11666,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 11672,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11687,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11697,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11714,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11743,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11755,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11764,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11781,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11797,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 11823,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11829,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11848,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11901,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 11908,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11937,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 11970,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11979,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11996,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12012,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 12029,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12042,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 12055,
+      "symbol": "_windowy2",
+      "value": [
+        3,
+        1640120
+      ]
+    },
+    {
+      "source_offset": 12062,
+      "symbol": "_windowx2",
+      "value": [
+        3,
+        1640128
+      ]
+    },
+    {
+      "source_offset": 12069,
+      "symbol": "_windowy1",
+      "value": [
+        3,
+        1640124
+      ]
+    },
+    {
+      "source_offset": 12076,
+      "symbol": "_windowx1",
+      "value": [
+        3,
+        1640132
+      ]
+    },
+    {
+      "source_offset": 12089,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 12126,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 12131,
+      "symbol": "_windowy2",
+      "value": [
+        3,
+        1640120
+      ]
+    },
+    {
+      "source_offset": 12138,
+      "symbol": "_windowx2",
+      "value": [
+        3,
+        1640128
+      ]
+    },
+    {
+      "source_offset": 12145,
+      "symbol": "_windowy1",
+      "value": [
+        3,
+        1640124
+      ]
+    },
+    {
+      "source_offset": 12152,
+      "symbol": "_windowx1",
+      "value": [
+        3,
+        1640132
+      ]
+    },
+    {
+      "source_offset": 12162,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 12193,
+      "symbol": "_windowy2",
+      "value": [
+        3,
+        1640120
+      ]
+    },
+    {
+      "source_offset": 12200,
+      "symbol": "_windowx2",
+      "value": [
+        3,
+        1640128
+      ]
+    },
+    {
+      "source_offset": 12207,
+      "symbol": "_windowy1",
+      "value": [
+        3,
+        1640124
+      ]
+    },
+    {
+      "source_offset": 12214,
+      "symbol": "_windowx1",
+      "value": [
+        3,
+        1640132
+      ]
+    },
+    {
+      "source_offset": 12240,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 12262,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 12268,
+      "symbol": "_windowy2",
+      "value": [
+        3,
+        1640120
+      ]
+    },
+    {
+      "source_offset": 12274,
+      "symbol": "_windowx2",
+      "value": [
+        3,
+        1640128
+      ]
+    },
+    {
+      "source_offset": 12281,
+      "symbol": "_windowy1",
+      "value": [
+        3,
+        1640124
+      ]
+    },
+    {
+      "source_offset": 12288,
+      "symbol": "_windowx1",
+      "value": [
+        3,
+        1640132
+      ]
+    },
+    {
+      "source_offset": 12303,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 12336,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 12386,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 12393,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12416,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12445,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12457,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12466,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 12483,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12499,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 12530,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12561,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12569,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12606,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 12613,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12641,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 12690,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 12697,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12713,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12723,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 12747,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12774,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12786,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12805,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 12831,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12866,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12876,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12920,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 12927,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12987,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12993,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 13020,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 13027,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 13053,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 13083,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 13100,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13104,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13108,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13112,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13116,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13120,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13124,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13128,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13132,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13136,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13140,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13144,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13148,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13152,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13156,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13160,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13164,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13168,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13172,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13176,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13180,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13184,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13188,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13192,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13196,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13200,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13204,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13208,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13212,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13216,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13220,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13224,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13228,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13232,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13236,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13240,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13244,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13248,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13252,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13256,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13260,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13264,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 13304,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 13371,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 13411,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 13448,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 13458,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 13487,
+      "symbol": "animatefist_",
+      "value": [
+        1,
+        214832
+      ]
+    },
+    {
+      "source_offset": 13504,
+      "symbol": "animateknuckles_",
+      "value": [
+        1,
+        215520
+      ]
+    },
+    {
+      "source_offset": 13521,
+      "symbol": "animatetip_",
+      "value": [
+        1,
+        216240
+      ]
+    },
+    {
+      "source_offset": 13538,
+      "symbol": "animateaccess_",
+      "value": [
+        1,
+        216544
+      ]
+    },
+    {
+      "source_offset": 13555,
+      "symbol": "animateknee_",
+      "value": [
+        1,
+        215184
+      ]
+    },
+    {
+      "source_offset": 13612,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 13669,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 13698,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 13733,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 13842,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 14037,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 14053,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 14086,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 14114,
+      "symbol": "_fistsign",
+      "value": [
+        3,
+        587536
+      ]
+    },
+    {
+      "source_offset": 14126,
+      "symbol": "_fistsign",
+      "value": [
+        3,
+        587536
+      ]
+    },
+    {
+      "source_offset": 14132,
+      "symbol": "_fistsign",
+      "value": [
+        3,
+        587536
+      ]
+    },
+    {
+      "source_offset": 14144,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 14230,
+      "symbol": "myos_",
+      "value": [
+        1,
+        11216
+      ]
+    },
+    {
+      "source_offset": 14236,
+      "symbol": "_fistsign",
+      "value": [
+        3,
+        587536
+      ]
+    },
+    {
+      "source_offset": 14248,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 14329,
+      "symbol": "myos_",
+      "value": [
+        1,
+        11216
+      ]
+    },
+    {
+      "source_offset": 14351,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 14381,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 14587,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 14624,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 14771,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 14869,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 14941,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 14978,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 15015,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 15127,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 15198,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 15235,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 15283,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 15354,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 15555,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 16011,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 16022,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 16059,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 16091,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 16130,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 16138,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 16240,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 16345,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 16357,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 16476,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 16492,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 16500,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 16617,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 16668,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 16802,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 16918,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 16955,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 16984,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 17292,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 17434,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 17567,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 17703,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 17815,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 17852,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 17885,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 18173,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 18194,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 18231,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 18398,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 18435,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 18539,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 18672,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 18809,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 18919,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 18969,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 19006,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 19036,
+      "segment": 1,
+      "value": [
+        1,
+        203888
+      ]
+    },
+    {
+      "source_offset": 19055,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 19063,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 19081,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 19184,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 19353,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 19404,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 19459,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 19519,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 19582,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 19590,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 19608,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 19699,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 19753,
+      "symbol": "myospal_",
+      "value": [
+        1,
+        11376
+      ]
+    },
+    {
+      "source_offset": 19763,
+      "symbol": "displayloogie_",
+      "value": [
+        1,
+        214544
+      ]
+    },
+    {
+      "source_offset": 19809,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 19818,
+      "symbol": "CONTROL_GetInput_",
+      "value": [
+        1,
+        576180
+      ]
+    },
+    {
+      "source_offset": 19841,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 19850,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 19873,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 19879,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 19885,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 19892,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 19898,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 19904,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 19921,
+      "symbol": "_gamequit",
+      "value": [
+        3,
+        31187
+      ]
+    },
+    {
+      "source_offset": 19927,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 19938,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 19943,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 19954,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 19960,
+      "symbol": "_lastcontroltime",
+      "value": [
+        3,
+        587524
+      ]
+    },
+    {
+      "source_offset": 19965,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 19970,
+      "symbol": "_lastcontroltime",
+      "value": [
+        3,
+        587524
+      ]
+    },
+    {
+      "source_offset": 19975,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 19984,
+      "symbol": "_MouseAiming",
+      "value": [
+        3,
+        587696
+      ]
+    },
+    {
+      "source_offset": 19996,
+      "symbol": "_myaimmode",
+      "value": [
+        3,
+        31220
+      ]
+    },
+    {
+      "source_offset": 20004,
+      "symbol": "_myaimstat",
+      "value": [
+        3,
+        31224
+      ]
+    },
+    {
+      "source_offset": 20010,
+      "symbol": "_omyaimstat",
+      "value": [
+        3,
+        31228
+      ]
+    },
+    {
+      "source_offset": 20015,
+      "symbol": "_myaimstat",
+      "value": [
+        3,
+        31224
+      ]
+    },
+    {
+      "source_offset": 20025,
+      "symbol": "_myaimmode",
+      "value": [
+        3,
+        31220
+      ]
+    },
+    {
+      "source_offset": 20032,
+      "symbol": "_myaimmode",
+      "value": [
+        3,
+        31220
+      ]
+    },
+    {
+      "source_offset": 20045,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 20050,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20061,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20066,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20078,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20087,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20109,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20131,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20149,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20158,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20173,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20179,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20188,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20202,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20209,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20215,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20224,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20238,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20249,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20267,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20286,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20305,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20324,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20343,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20362,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20381,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20400,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20419,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20438,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20457,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20477,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20487,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20505,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20523,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20541,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20550,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20565,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20574,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20589,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20598,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20613,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20622,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20636,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20643,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20649,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20658,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20672,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20680,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20686,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 20707,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20725,
+      "symbol": "_myaimmode",
+      "value": [
+        3,
+        31220
+      ]
+    },
+    {
+      "source_offset": 20737,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20752,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20760,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20778,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20783,
+      "symbol": "_gamequit",
+      "value": [
+        3,
+        31187
+      ]
+    },
+    {
+      "source_offset": 20795,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20804,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20819,
+      "symbol": "_CONTROL_ButtonState2",
+      "value": [
+        3,
+        2132664
+      ]
+    },
+    {
+      "source_offset": 20828,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20843,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20852,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20866,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20873,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20879,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20888,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20902,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20910,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20916,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 20938,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 20944,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 20950,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 20956,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 20963,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 20969,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 20978,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 20987,
+      "symbol": "_CONTROL_JoystickEnabled",
+      "value": [
+        3,
+        71708
+      ]
+    },
+    {
+      "source_offset": 21012,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21043,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21067,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21073,
+      "symbol": "_myaimmode",
+      "value": [
+        3,
+        31220
+      ]
+    },
+    {
+      "source_offset": 21098,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21112,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21121,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21138,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21143,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21175,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21181,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21209,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21215,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21233,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21244,
+      "symbol": "_turnheldtime",
+      "value": [
+        3,
+        587528
+      ]
+    },
+    {
+      "source_offset": 21259,
+      "symbol": "_turnheldtime",
+      "value": [
+        3,
+        587528
+      ]
+    },
+    {
+      "source_offset": 21270,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21278,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21287,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21307,
+      "symbol": "_turnheldtime",
+      "value": [
+        3,
+        587528
+      ]
+    },
+    {
+      "source_offset": 21318,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21326,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21337,
+      "symbol": "_turnheldtime",
+      "value": [
+        3,
+        587528
+      ]
+    },
+    {
+      "source_offset": 21343,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21357,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21363,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21377,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21383,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21392,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21398,
+      "symbol": "_CONTROL_ButtonState1",
+      "value": [
+        3,
+        2132660
+      ]
+    },
+    {
+      "source_offset": 21411,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21417,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21426,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21436,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21445,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21455,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21464,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21474,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21483,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21493,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21502,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21512,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21521,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21531,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21540,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21550,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21559,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21569,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 21578,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 21586,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21591,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 21596,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21603,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 21612,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21617,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21626,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21632,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21649,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 21658,
+      "symbol": "_myang",
+      "value": [
+        3,
+        581278
+      ]
+    },
+    {
+      "source_offset": 21689,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 21694,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21730,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 21735,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 21755,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 21761,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21795,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 21800,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 21819,
+      "symbol": "_fricyv",
+      "value": [
+        3,
+        579536
+      ]
+    },
+    {
+      "source_offset": 21826,
+      "symbol": "_fricxv",
+      "value": [
+        3,
+        579540
+      ]
+    },
+    {
+      "source_offset": 21835,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 21842,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21847,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21852,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 21859,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21864,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 21922,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 22006,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22013,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 22023,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 22043,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22150,
+      "symbol": "checkavailinven_",
+      "value": [
+        1,
+        85040
+      ]
+    },
+    {
+      "source_offset": 22166,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 22176,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 22196,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22244,
+      "symbol": "checkavailinven_",
+      "value": [
+        1,
+        85040
+      ]
+    },
+    {
+      "source_offset": 22261,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22268,
+      "symbol": "setpal_",
+      "value": [
+        1,
+        204096
+      ]
+    },
+    {
+      "source_offset": 22315,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22331,
+      "symbol": "checkavailinven_",
+      "value": [
+        1,
+        85040
+      ]
+    },
+    {
+      "source_offset": 22381,
+      "symbol": "checkavailinven_",
+      "value": [
+        1,
+        85040
+      ]
+    },
+    {
+      "source_offset": 22398,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22408,
+      "symbol": "stopsound_",
+      "value": [
+        1,
+        284832
+      ]
+    },
+    {
+      "source_offset": 22418,
+      "symbol": "stopsound_",
+      "value": [
+        1,
+        284832
+      ]
+    },
+    {
+      "source_offset": 22444,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 22485,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 22517,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 22551,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 22605,
+      "symbol": "checkhitswitch_",
+      "value": [
+        1,
+        262416
+      ]
+    },
+    {
+      "source_offset": 22621,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 22690,
+      "symbol": "checkhitswitch_",
+      "value": [
+        1,
+        262416
+      ]
+    },
+    {
+      "source_offset": 22706,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 22821,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 22864,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 22906,
+      "symbol": "_max_player_health",
+      "value": [
+        3,
+        579532
+      ]
+    },
+    {
+      "source_offset": 22945,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 22995,
+      "symbol": "checkavailinven_",
+      "value": [
+        1,
+        85040
+      ]
+    },
+    {
+      "source_offset": 23030,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 23043,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 23053,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 23061,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 23089,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 23106,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 23129,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 23183,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 23202,
+      "symbol": "_weapon_sprites",
+      "value": [
+        3,
+        31232
+      ]
+    },
+    {
+      "source_offset": 23230,
+      "symbol": "_weapon_tiles",
+      "value": [
+        3,
+        31116
+      ]
+    },
+    {
+      "source_offset": 23261,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 23304,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 23324,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 23364,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 23416,
+      "symbol": "quickkill_",
+      "value": [
+        1,
+        204464
+      ]
+    },
+    {
+      "source_offset": 23426,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 23448,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 23542,
+      "symbol": "getzrange_",
+      "value": [
+        1,
+        377429
+      ]
+    },
+    {
+      "source_offset": 23563,
+      "symbol": "getflorzofslope_",
+      "value": [
+        1,
+        410144
+      ]
+    },
+    {
+      "source_offset": 23594,
+      "symbol": "getceilzofslope_",
+      "value": [
+        1,
+        409894
+      ]
+    },
+    {
+      "source_offset": 23691,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 23701,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 23792,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 23824,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 23864,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 23892,
+      "symbol": "updatesector_",
+      "value": [
+        1,
+        369184
+      ]
+    },
+    {
+      "source_offset": 23915,
+      "symbol": "getflorzofslope_",
+      "value": [
+        1,
+        410144
+      ]
+    },
+    {
+      "source_offset": 23946,
+      "symbol": "getflorzofslope_",
+      "value": [
+        1,
+        410144
+      ]
+    },
+    {
+      "source_offset": 24074,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24084,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24150,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24189,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24196,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 24211,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24228,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24252,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24264,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 24279,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 24299,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 24329,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 24364,
+      "symbol": "incur_damage_",
+      "value": [
+        1,
+        204256
+      ]
+    },
+    {
+      "source_offset": 24465,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24473,
+      "symbol": "closedemowrite_",
+      "value": [
+        1,
+        68208
+      ]
+    },
+    {
+      "source_offset": 24483,
+      "symbol": "sound_",
+      "value": [
+        1,
+        284224
+      ]
+    },
+    {
+      "source_offset": 24544,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24553,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24561,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24567,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24595,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24603,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24616,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24621,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24628,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24637,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24643,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24652,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24665,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24673,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24679,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24689,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24694,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24699,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24708,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 24724,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 24730,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 24796,
+      "symbol": "FX_StopAllSounds_",
+      "value": [
+        1,
+        526644
+      ]
+    },
+    {
+      "source_offset": 24801,
+      "symbol": "clearsoundlocks_",
+      "value": [
+        1,
+        286192
+      ]
+    },
+    {
+      "source_offset": 24823,
+      "symbol": "sound_",
+      "value": [
+        1,
+        284224
+      ]
+    },
+    {
+      "source_offset": 24835,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 24852,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 24868,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 24874,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 24885,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24900,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24905,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24912,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24922,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24928,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24933,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 24990,
+      "symbol": "_pub",
+      "value": [
+        3,
+        582922
+      ]
+    },
+    {
+      "source_offset": 24996,
+      "symbol": "_pus",
+      "value": [
+        3,
+        582924
+      ]
+    },
+    {
+      "source_offset": 25045,
+      "symbol": "checkweapons_",
+      "value": [
+        1,
+        227056
+      ]
+    },
+    {
+      "source_offset": 25111,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 25121,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 25129,
+      "symbol": "closedemowrite_",
+      "value": [
+        1,
+        68208
+      ]
+    },
+    {
+      "source_offset": 25144,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 25168,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 25214,
+      "symbol": "stopsound_",
+      "value": [
+        1,
+        284832
+      ]
+    },
+    {
+      "source_offset": 25231,
+      "symbol": "FX_StopSound_",
+      "value": [
+        1,
+        526616
+      ]
+    },
+    {
+      "source_offset": 25241,
+      "symbol": "testcallback_",
+      "value": [
+        1,
+        285856
+      ]
+    },
+    {
+      "source_offset": 25287,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 25351,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 25374,
+      "symbol": "_frags",
+      "value": [
+        3,
+        111216
+      ]
+    },
+    {
+      "source_offset": 25392,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 25406,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 25414,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 25420,
+      "symbol": "_player_text",
+      "value": [
+        3,
+        10508
+      ]
+    },
+    {
+      "source_offset": 25425,
+      "symbol": "_fta_quotes",
+      "value": [
+        3,
+        397904
+      ]
+    },
+    {
+      "source_offset": 25430,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 25450,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 25456,
+      "symbol": "_player_text",
+      "value": [
+        3,
+        10508
+      ]
+    },
+    {
+      "source_offset": 25469,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 25478,
+      "symbol": "_player_text",
+      "value": [
+        3,
+        10508
+      ]
+    },
+    {
+      "source_offset": 25483,
+      "symbol": "_fta_quotes",
+      "value": [
+        3,
+        397904
+      ]
+    },
+    {
+      "source_offset": 25488,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 25507,
+      "symbol": "_player_text",
+      "value": [
+        3,
+        10508
+      ]
+    },
+    {
+      "source_offset": 25512,
+      "symbol": "_fta_quotes",
+      "value": [
+        3,
+        397904
+      ]
+    },
+    {
+      "source_offset": 25517,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 25535,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 25550,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 25556,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 25563,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 25586,
+      "symbol": "_player_text",
+      "value": [
+        3,
+        10508
+      ]
+    },
+    {
+      "source_offset": 25591,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 25596,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 25604,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 25609,
+      "symbol": "sendscore_",
+      "value": [
+        1,
+        65584
+      ]
+    },
+    {
+      "source_offset": 25637,
+      "symbol": "_pus",
+      "value": [
+        3,
+        582924
+      ]
+    },
+    {
+      "source_offset": 25770,
+      "symbol": "clipmove_",
+      "value": [
+        1,
+        361524
+      ]
+    },
+    {
+      "source_offset": 25876,
+      "symbol": "updatesector_",
+      "value": [
+        1,
+        369184
+      ]
+    },
+    {
+      "source_offset": 25919,
+      "symbol": "pushmove_",
+      "value": [
+        1,
+        368227
+      ]
+    },
+    {
+      "source_offset": 26089,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 26101,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 26113,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 26126,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 26185,
+      "symbol": "doincrements_",
+      "value": [
+        1,
+        225776
+      ]
+    },
+    {
+      "source_offset": 26405,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 26552,
+      "symbol": "ksqrt_",
+      "value": [
+        1,
+        332211
+      ]
+    },
+    {
+      "source_offset": 26582,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 26604,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 26631,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 26871,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 26886,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 26904,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 27231,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 27260,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 27272,
+      "symbol": "_global_random",
+      "value": [
+        3,
+        581298
+      ]
+    },
+    {
+      "source_offset": 27306,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 27312,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27323,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27349,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27357,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 27368,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27374,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27382,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27399,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 27496,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 27561,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 27579,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 27791,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 27925,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 28011,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 28049,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 28132,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 28152,
+      "symbol": "_headspritesect",
+      "value": [
+        3,
+        1647034
+      ]
+    },
+    {
+      "source_offset": 28164,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 28201,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 28226,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 28253,
+      "symbol": "_nextspritesect",
+      "value": [
+        3,
+        1080256
+      ]
+    },
+    {
+      "source_offset": 28309,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 28323,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 28335,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 28407,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 28425,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 28437,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 28509,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 28631,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 28692,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 28717,
+      "symbol": "quickkill_",
+      "value": [
+        1,
+        204464
+      ]
+    },
+    {
+      "source_offset": 28739,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 28779,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 28829,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 28841,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 28908,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 28935,
+      "symbol": "FX_StopSound_",
+      "value": [
+        1,
+        526616
+      ]
+    },
+    {
+      "source_offset": 29417,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 29666,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 29844,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 29884,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 29954,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 29997,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 30015,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 30051,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 30076,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 30098,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 30108,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 30151,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 30169,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 30205,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 30234,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 30270,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 30288,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 30324,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 30362,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 30391,
+      "symbol": "checkavailinven_",
+      "value": [
+        1,
+        85040
+      ]
+    },
+    {
+      "source_offset": 30432,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 30442,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 30478,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 30603,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 30627,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 30658,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 30672,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 30691,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 30772,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 30800,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 30865,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 30894,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 30927,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 30956,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 30981,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31004,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31032,
+      "symbol": "abs_",
+      "value": [
+        1,
+        585491
+      ]
+    },
+    {
+      "source_offset": 31050,
+      "symbol": "abs_",
+      "value": [
+        1,
+        585491
+      ]
+    },
+    {
+      "source_offset": 31091,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31097,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31103,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31135,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31141,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31147,
+      "symbol": "_dukefriction",
+      "value": [
+        3,
+        31180
+      ]
+    },
+    {
+      "source_offset": 31227,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 31233,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 31310,
+      "symbol": "updatesector_",
+      "value": [
+        1,
+        369184
+      ]
+    },
+    {
+      "source_offset": 31329,
+      "symbol": "changespritesect_",
+      "value": [
+        1,
+        353812
+      ]
+    },
+    {
+      "source_offset": 31388,
+      "symbol": "clipmove_",
+      "value": [
+        1,
+        361524
+      ]
+    },
+    {
+      "source_offset": 31446,
+      "symbol": "checkplayerhurt_",
+      "value": [
+        1,
+        268048
+      ]
+    },
+    {
+      "source_offset": 31537,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 31626,
+      "symbol": "setsprite_",
+      "value": [
+        1,
+        352579
+      ]
+    },
+    {
+      "source_offset": 31672,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 31682,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 31692,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 31719,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 31729,
+      "symbol": "quickkill_",
+      "value": [
+        1,
+        204464
+      ]
+    },
+    {
+      "source_offset": 31797,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 31806,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 31824,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 31854,
+      "symbol": "changespritesect_",
+      "value": [
+        1,
+        353812
+      ]
+    },
+    {
+      "source_offset": 31860,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 31912,
+      "symbol": "pushmove_",
+      "value": [
+        1,
+        368227
+      ]
+    },
+    {
+      "source_offset": 31931,
+      "symbol": "furthestangle_",
+      "value": [
+        1,
+        155152
+      ]
+    },
+    {
+      "source_offset": 31981,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 31987,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 32033,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 32043,
+      "symbol": "isanunderoperator_",
+      "value": [
+        1,
+        254608
+      ]
+    },
+    {
+      "source_offset": 32072,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 32077,
+      "symbol": "isanearoperator_",
+      "value": [
+        1,
+        254640
+      ]
+    },
+    {
+      "source_offset": 32099,
+      "symbol": "activatebysector_",
+      "value": [
+        1,
+        265856
+      ]
+    },
+    {
+      "source_offset": 32110,
+      "symbol": "quickkill_",
+      "value": [
+        1,
+        204464
+      ]
+    },
+    {
+      "source_offset": 32163,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 32168,
+      "symbol": "isanunderoperator_",
+      "value": [
+        1,
+        254608
+      ]
+    },
+    {
+      "source_offset": 32184,
+      "symbol": "activatebysector_",
+      "value": [
+        1,
+        265856
+      ]
+    },
+    {
+      "source_offset": 32480,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 32642,
+      "symbol": "addweapon_",
+      "value": [
+        1,
+        84864
+      ]
+    },
+    {
+      "source_offset": 32792,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 32797,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 32802,
+      "symbol": "dist_",
+      "value": [
+        1,
+        254816
+      ]
+    },
+    {
+      "source_offset": 32840,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 32845,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 32850,
+      "symbol": "guts_",
+      "value": [
+        1,
+        89776
+      ]
+    },
+    {
+      "source_offset": 32867,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 32884,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 32901,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33034,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33047,
+      "symbol": "operaterespawns_",
+      "value": [
+        1,
+        261328
+      ]
+    },
+    {
+      "source_offset": 33064,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33075,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33086,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 33091,
+      "symbol": "quickkill_",
+      "value": [
+        1,
+        204464
+      ]
+    },
+    {
+      "source_offset": 33108,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33125,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 33132,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33137,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 33154,
+      "symbol": "deletesprite_",
+      "value": [
+        1,
+        353362
+      ]
+    },
+    {
+      "source_offset": 33183,
+      "symbol": "deletesprite_",
+      "value": [
+        1,
+        353362
+      ]
+    },
+    {
+      "source_offset": 33224,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33240,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 33249,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 33264,
+      "symbol": "getincangle_",
+      "value": [
+        1,
+        145840
+      ]
+    },
+    {
+      "source_offset": 33293,
+      "symbol": "doincrements_",
+      "value": [
+        1,
+        225776
+      ]
+    },
+    {
+      "source_offset": 33618,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 33643,
+      "symbol": "_weapon_tiles",
+      "value": [
+        3,
+        31116
+      ]
+    },
+    {
+      "source_offset": 34095,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 34128,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 34152,
+      "symbol": "hitscan_",
+      "value": [
+        1,
+        354777
+      ]
+    },
+    {
+      "source_offset": 34205,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 34234,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 34263,
+      "symbol": "_headspritesect",
+      "value": [
+        3,
+        1647034
+      ]
+    },
+    {
+      "source_offset": 34277,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 34291,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 34316,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 34327,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 34351,
+      "symbol": "_nextspritesect",
+      "value": [
+        3,
+        1080256
+      ]
+    },
+    {
+      "source_offset": 34387,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 34401,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 34426,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 34444,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 34475,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 34609,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 34654,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 34719,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 34817,
+      "symbol": "_weapon_tiles",
+      "value": [
+        3,
+        31116
+      ]
+    },
+    {
+      "source_offset": 35217,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 35266,
+      "symbol": "_sintable",
+      "value": [
+        3,
+        1285056
+      ]
+    },
+    {
+      "source_offset": 35287,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 35313,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35320,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35332,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35342,
+      "symbol": "hits_",
+      "value": [
+        1,
+        205024
+      ]
+    },
+    {
+      "source_offset": 35359,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35376,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35383,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35394,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35402,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 35562,
+      "symbol": "addweapon_",
+      "value": [
+        1,
+        84864
+      ]
+    },
+    {
+      "source_offset": 35595,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35607,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 35612,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 35620,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 35653,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 35712,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 35759,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 35783,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 35827,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35839,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35851,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35863,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35875,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35887,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35899,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 35926,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 35931,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 35939,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 36050,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 36075,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 36087,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36104,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36109,
+      "symbol": "ssp_",
+      "value": [
+        1,
+        89472
+      ]
+    },
+    {
+      "source_offset": 36115,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36215,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 36230,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36237,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36251,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36258,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36278,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 36285,
+      "symbol": "ssp_",
+      "value": [
+        1,
+        89472
+      ]
+    },
+    {
+      "source_offset": 36302,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 36314,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 36319,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 36327,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 36356,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 36472,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 36487,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 36495,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 36502,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 36564,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 36577,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 36587,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 36609,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 36685,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 36698,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 36708,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 36715,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 36777,
+      "symbol": "spritesound_",
+      "value": [
+        1,
+        284768
+      ]
+    },
+    {
+      "source_offset": 36837,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 36860,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    },
+    {
+      "source_offset": 36924,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 36956,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 37006,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 37019,
+      "symbol": "_lastvisinc",
+      "value": [
+        3,
+        587520
+      ]
+    },
+    {
+      "source_offset": 37039,
+      "symbol": "shoot_",
+      "value": [
+        1,
+        206624
+      ]
+    },
+    {
+      "source_offset": 37046,
+      "symbol": "checkavailweapon_",
+      "value": [
+        1,
+        85296
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 37207,
+    "zero_fill_bytes": 18,
+    "verified_fixups": 1322,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 203888,
+        "compared_bytes": 37082,
+        "verified_fixups": 1322,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 31220,
+        "compared_bytes": 34,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587520,
+        "compared_bytes": 18,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 10508,
+        "compared_bytes": 91,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "EGS_": [
+        1,
+        30672
+      ],
+      "FTA_": [
+        1,
+        22704
+      ],
+      "FX_StopSound_": [
+        1,
+        526616
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "_MouseAiming": [
+        3,
+        587696
+      ],
+      "_Sound": [
+        3,
+        574936
+      ],
+      "_actorscrptr": [
+        3,
+        266136
+      ],
+      "_connecthead": [
+        3,
+        1733236
+      ],
+      "_connectpoint2": [
+        3,
+        1733104
+      ],
+      "_dukefriction": [
+        3,
+        31180
+      ],
+      "_fta_quotes": [
+        3,
+        397904
+      ],
+      "_headspritesect": [
+        3,
+        1647034
+      ],
+      "_headspritestat": [
+        3,
+        1644984
+      ],
+      "_hittype": [
+        3,
+        120728
+      ],
+      "_max_player_health": [
+        3,
+        579532
+      ],
+      "_myconnectindex": [
+        3,
+        1733242
+      ],
+      "_nextspritesect": [
+        3,
+        1080256
+      ],
+      "_nextspritestat": [
+        3,
+        1088448
+      ],
+      "_numfreezebounces": [
+        3,
+        31188
+      ],
+      "_numplayers": [
+        3,
+        1733240
+      ],
+      "_palette": [
+        3,
+        1596352
+      ],
+      "_ps": [
+        3,
+        376112
+      ],
+      "_screenpeek": [
+        3,
+        581290
+      ],
+      "_sector": [
+        3,
+        1597120
+      ],
+      "_sintable": [
+        3,
+        1285056
+      ],
+      "_sprite": [
+        3,
+        1104832
+      ],
+      "_sync": [
+        3,
+        573632
+      ],
+      "_tempbuf": [
+        3,
+        413968
+      ],
+      "_tilesizy": [
+        3,
+        1056576
+      ],
+      "_totalclock": [
+        3,
+        1644968
+      ],
+      "_ud": [
+        3,
+        579668
+      ],
+      "_wall": [
+        3,
+        1289152
+      ],
+      "_windowx1": [
+        3,
+        1640132
+      ],
+      "_windowx2": [
+        3,
+        1640128
+      ],
+      "_windowy1": [
+        3,
+        1640124
+      ],
+      "_windowy2": [
+        3,
+        1640120
+      ],
+      "_xdim": [
+        3,
+        1644980
+      ],
+      "_ydim": [
+        3,
+        1644976
+      ],
+      "addweapon_": [
+        1,
+        84864
+      ],
+      "badguy_": [
+        1,
+        10560
+      ],
+      "cansee_": [
+        1,
+        354154
+      ],
+      "changespritesect_": [
+        1,
+        353812
+      ],
+      "checkavailinven_": [
+        1,
+        85040
+      ],
+      "checkavailweapon_": [
+        1,
+        85296
+      ],
+      "clearsoundlocks_": [
+        1,
+        286192
+      ],
+      "clipmove_": [
+        1,
+        361524
+      ],
+      "deletesprite_": [
+        1,
+        353362
+      ],
+      "furthestangle_": [
+        1,
+        155152
+      ],
+      "getangle_": [
+        1,
+        331976
+      ],
+      "getceilzofslope_": [
+        1,
+        409894
+      ],
+      "getflorzofslope_": [
+        1,
+        410144
+      ],
+      "getincangle_": [
+        1,
+        145840
+      ],
+      "getzrange_": [
+        1,
+        377429
+      ],
+      "guts_": [
+        1,
+        89776
+      ],
+      "hitscan_": [
+        1,
+        354777
+      ],
+      "isanearoperator_": [
+        1,
+        254640
+      ],
+      "krand_": [
+        1,
+        377409
+      ],
+      "ksqrt_": [
+        1,
+        332211
+      ],
+      "operaterespawns_": [
+        1,
+        261328
+      ],
+      "pushmove_": [
+        1,
+        368227
+      ],
+      "rand_": [
+        1,
+        583797
+      ],
+      "rotatesprite_": [
+        1,
+        381330
+      ],
+      "setsprite_": [
+        1,
+        352579
+      ],
+      "sound_": [
+        1,
+        284224
+      ],
+      "spawn_": [
+        1,
+        31536
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "spritesound_": [
+        1,
+        284768
+      ],
+      "ssp_": [
+        1,
+        89472
+      ],
+      "stopsound_": [
+        1,
+        284832
+      ],
+      "testcallback_": [
+        1,
+        285856
+      ],
+      "updatesector_": [
+        1,
+        369184
+      ],
+      "xyzsound_": [
+        1,
+        282736
+      ],
+      "setpal_": [
+        1,
+        204096
+      ],
+      "incur_damage_": [
+        1,
+        204256
+      ],
+      "quickkill_": [
+        1,
+        204464
+      ],
+      "forceplayerangle_": [
+        1,
+        204592
+      ],
+      "tracers_": [
+        1,
+        204656
+      ],
+      "hits_": [
+        1,
+        205024
+      ],
+      "hitasprite_": [
+        1,
+        205232
+      ],
+      "hitawall_": [
+        1,
+        205504
+      ],
+      "aim_": [
+        1,
+        205632
+      ],
+      "shoot_": [
+        1,
+        206624
+      ],
+      "displayloogie_": [
+        1,
+        214544
+      ],
+      "animatefist_": [
+        1,
+        214832
+      ],
+      "animateknee_": [
+        1,
+        215184
+      ],
+      "animateknuckles_": [
+        1,
+        215520
+      ],
+      "displaymasks_": [
+        1,
+        215840
+      ],
+      "animatetip_": [
+        1,
+        216240
+      ],
+      "animateaccess_": [
+        1,
+        216544
+      ],
+      "displayweapon_": [
+        1,
+        217168
+      ],
+      "getinput_": [
+        1,
+        223680
+      ],
+      "doincrements_": [
+        1,
+        225776
+      ],
+      "checkweapons_": [
+        1,
+        227056
+      ],
+      "processinput_": [
+        1,
+        227168
+      ],
+      "_slimepal": [
+        3,
+        76936
+      ],
+      "_restorepalette": [
+        3,
+        77741
+      ],
+      "_waterpal": [
+        3,
+        75400
+      ],
+      "FindDistance2D_": [
+        1,
+        566176
+      ],
+      "findplayer_": [
+        1,
+        254864
+      ],
+      "checkhitsprite_": [
+        1,
+        269328
+      ],
+      "checkhitswitch_": [
+        1,
+        262416
+      ],
+      "checkhitwall_": [
+        1,
+        265936
+      ],
+      "ldist_": [
+        1,
+        254768
+      ],
+      "checkhitceiling_": [
+        1,
+        268608
+      ],
+      "isadoorwall_": [
+        1,
+        254448
+      ],
+      "dist_": [
+        1,
+        254816
+      ],
+      "myospal_": [
+        1,
+        11376
+      ],
+      "_fistsign": [
+        3,
+        587536
+      ],
+      "myos_": [
+        1,
+        11216
+      ],
+      "CONTROL_GetInput_": [
+        1,
+        576180
+      ],
+      "_vel": [
+        3,
+        574848
+      ],
+      "_loc": [
+        3,
+        579656
+      ],
+      "_svel": [
+        3,
+        574844
+      ],
+      "_angvel": [
+        3,
+        574856
+      ],
+      "_horiz": [
+        3,
+        574852
+      ],
+      "_gamequit": [
+        3,
+        31187
+      ],
+      "_lastcontroltime": [
+        3,
+        587524
+      ],
+      "_CONTROL_ButtonState2": [
+        3,
+        2132664
+      ],
+      "_myaimmode": [
+        3,
+        31220
+      ],
+      "_myaimstat": [
+        3,
+        31224
+      ],
+      "_omyaimstat": [
+        3,
+        31228
+      ],
+      "_CONTROL_ButtonState1": [
+        3,
+        2132660
+      ],
+      "_CONTROL_JoystickEnabled": [
+        3,
+        71708
+      ],
+      "_turnheldtime": [
+        3,
+        587528
+      ],
+      "_myang": [
+        3,
+        581278
+      ],
+      "_fricyv": [
+        3,
+        579536
+      ],
+      "_fricxv": [
+        3,
+        579540
+      ],
+      "_weapon_sprites": [
+        3,
+        31232
+      ],
+      "_weapon_tiles": [
+        3,
+        31116
+      ],
+      "closedemowrite_": [
+        1,
+        68208
+      ],
+      "FX_StopAllSounds_": [
+        1,
+        526644
+      ],
+      "_pub": [
+        3,
+        582922
+      ],
+      "_pus": [
+        3,
+        582924
+      ],
+      "_frags": [
+        3,
+        111216
+      ],
+      "_player_text": [
+        3,
+        10508
+      ],
+      "sendscore_": [
+        1,
+        65584
+      ],
+      "_global_random": [
+        3,
+        581298
+      ],
+      "abs_": [
+        1,
+        585491
+      ],
+      "checkplayerhurt_": [
+        1,
+        268048
+      ],
+      "isanunderoperator_": [
+        1,
+        254608
+      ],
+      "activatebysector_": [
+        1,
+        265856
+      ],
+      "_lastvisinc": [
+        3,
+        587520
+      ],
+      "_dmval": [
+        3,
+        587532
+      ]
+    },
+    "local_symbols": {
+      "_dmval": [
+        3,
+        587532
+      ],
+      "_player_text": [
+        3,
+        10508
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "EGS_": [
+      1,
+      30672
+    ],
+    "FTA_": [
+      1,
+      22704
+    ],
+    "FX_StopSound_": [
+      1,
+      526616
+    ],
+    "_KB_KeyDown": [
+      3,
+      2130912
+    ],
+    "_MouseAiming": [
+      3,
+      587696
+    ],
+    "_Sound": [
+      3,
+      574936
+    ],
+    "_actorscrptr": [
+      3,
+      266136
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_dukefriction": [
+      3,
+      31180
+    ],
+    "_fta_quotes": [
+      3,
+      397904
+    ],
+    "_headspritesect": [
+      3,
+      1647034
+    ],
+    "_headspritestat": [
+      3,
+      1644984
+    ],
+    "_hittype": [
+      3,
+      120728
+    ],
+    "_max_player_health": [
+      3,
+      579532
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_nextspritesect": [
+      3,
+      1080256
+    ],
+    "_nextspritestat": [
+      3,
+      1088448
+    ],
+    "_numfreezebounces": [
+      3,
+      31188
+    ],
+    "_numplayers": [
+      3,
+      1733240
+    ],
+    "_palette": [
+      3,
+      1596352
+    ],
+    "_ps": [
+      3,
+      376112
+    ],
+    "_screenpeek": [
+      3,
+      581290
+    ],
+    "_sector": [
+      3,
+      1597120
+    ],
+    "_sintable": [
+      3,
+      1285056
+    ],
+    "_sprite": [
+      3,
+      1104832
+    ],
+    "_sync": [
+      3,
+      573632
+    ],
+    "_tempbuf": [
+      3,
+      413968
+    ],
+    "_tilesizy": [
+      3,
+      1056576
+    ],
+    "_totalclock": [
+      3,
+      1644968
+    ],
+    "_ud": [
+      3,
+      579668
+    ],
+    "_wall": [
+      3,
+      1289152
+    ],
+    "_windowx1": [
+      3,
+      1640132
+    ],
+    "_windowx2": [
+      3,
+      1640128
+    ],
+    "_windowy1": [
+      3,
+      1640124
+    ],
+    "_windowy2": [
+      3,
+      1640120
+    ],
+    "_xdim": [
+      3,
+      1644980
+    ],
+    "_ydim": [
+      3,
+      1644976
+    ],
+    "addweapon_": [
+      1,
+      84864
+    ],
+    "badguy_": [
+      1,
+      10560
+    ],
+    "cansee_": [
+      1,
+      354154
+    ],
+    "changespritesect_": [
+      1,
+      353812
+    ],
+    "checkavailinven_": [
+      1,
+      85040
+    ],
+    "checkavailweapon_": [
+      1,
+      85296
+    ],
+    "clearsoundlocks_": [
+      1,
+      286192
+    ],
+    "clipmove_": [
+      1,
+      361524
+    ],
+    "deletesprite_": [
+      1,
+      353362
+    ],
+    "furthestangle_": [
+      1,
+      155152
+    ],
+    "getangle_": [
+      1,
+      331976
+    ],
+    "getceilzofslope_": [
+      1,
+      409894
+    ],
+    "getflorzofslope_": [
+      1,
+      410144
+    ],
+    "getincangle_": [
+      1,
+      145840
+    ],
+    "getzrange_": [
+      1,
+      377429
+    ],
+    "guts_": [
+      1,
+      89776
+    ],
+    "hitscan_": [
+      1,
+      354777
+    ],
+    "isanearoperator_": [
+      1,
+      254640
+    ],
+    "krand_": [
+      1,
+      377409
+    ],
+    "ksqrt_": [
+      1,
+      332211
+    ],
+    "operaterespawns_": [
+      1,
+      261328
+    ],
+    "pushmove_": [
+      1,
+      368227
+    ],
+    "rand_": [
+      1,
+      583797
+    ],
+    "rotatesprite_": [
+      1,
+      381330
+    ],
+    "setsprite_": [
+      1,
+      352579
+    ],
+    "sound_": [
+      1,
+      284224
+    ],
+    "spawn_": [
+      1,
+      31536
+    ],
+    "sprintf_": [
+      1,
+      583257
+    ],
+    "spritesound_": [
+      1,
+      284768
+    ],
+    "ssp_": [
+      1,
+      89472
+    ],
+    "stopsound_": [
+      1,
+      284832
+    ],
+    "testcallback_": [
+      1,
+      285856
+    ],
+    "updatesector_": [
+      1,
+      369184
+    ],
+    "xyzsound_": [
+      1,
+      282736
+    ]
+  },
+  "anchor_evidence": [
+    "evidence/engine-function-matches.json",
+    "evidence/gamedef-module.json",
+    "evidence/sounds-module.json",
+    "evidence/mmulti-module.json",
+    "evidence/config-module.json",
+    "evidence/actors-progress.json",
+    "evidence/premap-progress.json"
+  ],
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

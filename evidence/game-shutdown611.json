@@ -1,0 +1,138 @@
+{
+  "scope": "Normal GAME C two-call source-version correction proposal; parent review/adoption pending",
+  "base": "15f1d88",
+  "new_ShutDown48_7": {
+    "symbol": "ShutDown_",
+    "source_offset": 65104,
+    "target_offset": 65120,
+    "size": 48,
+    "comparison": {
+      "symbol": "ShutDown_",
+      "target_object": 1,
+      "target_offset": 65120,
+      "compared_bytes": 48,
+      "verified_fixups": 7,
+      "differing_offsets": [],
+      "match": true
+    },
+    "bindings": {
+      "CONFIG_WriteSetup_": [
+        1,
+        291504
+      ],
+      "CONTROL_Shutdown_": [
+        1,
+        577248
+      ],
+      "KB_Shutdown_": [
+        1,
+        569064
+      ],
+      "MusicShutdown_": [
+        1,
+        282176
+      ],
+      "ShutDown_": [
+        1,
+        65120
+      ],
+      "SoundShutdown_": [
+        1,
+        281952
+      ],
+      "uninitengine_": [
+        1,
+        326286
+      ],
+      "uninittimer_": [
+        1,
+        528
+      ]
+    },
+    "placements": {
+      "1": [
+        1,
+        16
+      ]
+    }
+  },
+  "other77_function_dicts_literal": true,
+  "native5016_roles_raw_segments_shapes_scope_literal_except_two_real_EXTDEF_owner_names": true,
+  "raw_FIXUP_dataclasses_literal": true,
+  "ordered_EXTDEF_changed": [
+    289,
+    290
+  ],
+  "all32_prepared_headers_literal": true,
+  "game_only_palette_header_delta_unchanged": true,
+  "source_only_native_inventory_reissued_without_guard_waiver": true,
+  "sourceRef_actual_map_deltas": 14,
+  "logical_origin_manifest_only_real_changed_inputs": [
+    "src/game/game.c",
+    "tools/probe_game.py"
+  ],
+  "seven_origin_semantic_witnesses_literal": true,
+  "fresh_peer_whole_proofs": {
+    "mact_zone-module.json": {
+      "whole_verification_literal": true
+    },
+    "mact_debug-module.json": {
+      "whole_verification_literal": true
+    },
+    "mact_rox-module.json": {
+      "whole_verification_literal": true
+    },
+    "mact_wad-module.json": {
+      "whole_verification_literal": true
+    },
+    "mact-vidmsdos-module.json": {
+      "all_byte_role_geometry_counts_literal": true,
+      "only_verification_change": "actual reissued logical-origin evidence_sha256",
+      "old": "fc361eca9ad8aca61ec4842d7fcb6c874950838877040a1bd675cc5a50da853b",
+      "new": "9323f5102ab5f50d47cb6e245b0914c14ba1759d98e4a601a1a9f7e7ee2c789a"
+    },
+    "irq-module.json": {
+      "all_byte_role_geometry_counts_literal": true,
+      "only_verification_change": "actual reissued logical-origin evidence_sha256",
+      "old": "fc361eca9ad8aca61ec4842d7fcb6c874950838877040a1bd675cc5a50da853b",
+      "new": "9323f5102ab5f50d47cb6e245b0914c14ba1759d98e4a601a1a9f7e7ee2c789a"
+    },
+    "gf1_os_preserved-module.json": {
+      "all_byte_role_geometry_counts_literal": true,
+      "only_verification_change": "actual reissued logical-origin evidence_sha256",
+      "old": "fc361eca9ad8aca61ec4842d7fcb6c874950838877040a1bd675cc5a50da853b",
+      "new": "9323f5102ab5f50d47cb6e245b0914c14ba1759d98e4a601a1a9f7e7ee2c789a"
+    }
+  },
+  "runtime134_component_dicts_literal": true,
+  "startup755_34_inventory_entry_stack_dependencies_literal": true,
+  "inputSTACK4096_linkSTACK51200": true,
+  "ledger_after_adoption": {
+    "complete": 112,
+    "CODE": 564981,
+    "ranges": 364,
+    "conflicts": 0
+  },
+  "pending_adoption_disputed48_CODE": 564933,
+  "new_CODE_credit": 0,
+  "historical_ShutDown_inference_explicitly_invalid": true,
+  "three_other_C_body_negatives_unchanged": [
+    "wallswitchcheck_",
+    "spawn_",
+    "checkcommandline_"
+  ],
+  "CONST_source_bytes_not_edited": true,
+  "tests": {
+    "affected_GAME_native_source_fidelity": "24 PASS855.235s",
+    "initial_context_suite": "58 methods; missing local TASM/nativefixture class setup andskip retained",
+    "required_context_native_classes_after_fixtures": "15 PASS5.589s no skips",
+    "new_shutdown_Python_O": "3 PASS12.652s",
+    "source_only_Python_O": "PASS no target/SDK/caller production"
+  },
+  "matcher_parser_driver_buildproducer_unchanged": true,
+  "no_normal_ASM610_adoption": true,
+  "no_seven_CONST_proposal_adoption": true,
+  "source_credit": 0,
+  "review_status": "pending independent parent review",
+  "source_reference_correction_sha256": "508b56a1c84204b52092b4032b999f24fa2efc43db9efbd62c7851415490641f"
+}

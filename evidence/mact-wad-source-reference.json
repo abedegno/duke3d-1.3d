@@ -1,0 +1,151 @@
+{
+  "kind": "complete reconstructed WAD source, not fullEXE",
+  "lineage": {
+    "private_source_reviews": [
+      453,
+      459,
+      477,
+      481
+    ],
+    "ordinary_C": "src/mact/wad/WAD.C",
+    "primary_interfaces": [
+      "WAD.H",
+      "_WAD.H",
+      "WADTYPE.H",
+      "LUMPTYPE.H",
+      "TYPES.H"
+    ],
+    "historical_source_discovery": false,
+    "original_member": {
+      "offset": 23552,
+      "size": 9912,
+      "sha256": "ed59d08b219765234d4c9c001582b0e669443f4becc1af6da08f6532db654782"
+    }
+  },
+  "descriptor_sha256": "8a8bc35794d928c995ea8a3708a2a9deaf251670f9488a84c8d272c82dc131cf",
+  "tracked_sources_sha256": {
+    "src/mact/wad/WAD.C": "aca2093d73198e852afe5a90e8b991c8e008858495a73f27c64a500ed369670c",
+    "src/mact/wad/WAD.S": "e64ac81dced4b11dbc8ab15894bd87c4925e3228f22627ae30a3ce0d72fe7be8",
+    "src/mact/wad/coff_contract.py": "168d3eadcf43502fe2d01204f8ceddd9e27ce5defbcce39d112a28af19ef5c86",
+    "src/mact/wad/elf_contract.py": "f79c5bf444f722f29edda777eca408c0a5a114d048e3a75cbd47e5d9a3bdbad1",
+    "src/mact/wad/lineage/include/_wad.h": "c990184d2d000262689df970feef4287e48f26a5a5e6a8c2af87e77b1169039a",
+    "src/mact/wad/lineage/include/crc.h": "e0c7d4de0fadf4cfb3d463c9fca5317fe39932f273dea6cf0e7faf1d94e6c040",
+    "src/mact/wad/lineage/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/wad/lineage/include/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "src/mact/wad/lineage/include/lumptype.h": "9c657e0f01df7f615291ef14b836e85394780a1491c56774feab6a1b9480b593",
+    "src/mact/wad/lineage/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/wad/lineage/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "src/mact/wad/lineage/include/wad.h": "6967d7cb0c985ec2cad5ff7b6658f442460375be57ce89aeb5c2556de5a878dc",
+    "src/mact/wad/lineage/include/wadtype.h": "fff628bc89af5315e6a3afa0e3013e733977f26cc0334a3fcb6d1de4f611012d",
+    "src/mact/wad/source_contract.py": "c5d198e7b19aff012007bd488dfdd8c49743d7e10a83f750f886b2503886764b"
+  },
+  "notice_files_sha256": {
+    "src/mact/wad/README.md": "a38b184e53eb115582cead07bdaba567f861ac1937c90d57a2e527b46f24f730",
+    "src/mact/wad/GPL-2.0.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "profiles/gnu_elf_omf/README.md": "2fb98db1498b8705dcea39b8d0bbe7a8dbf0829771b9fc673a9f08f07a48f0a6",
+    "profiles/capstone/README.md": "b251955848c4bf47762a4e4651c495a37c7125c0102b7441379f9d4b89f51409"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_wad.py": "f865f132a7d62f43ca6e2ce54e4a74c656b0246f232355f3e46e6f4021173e59",
+    "profiles/gnu_elf_omf/identity.py": "f97c9a3e849bbe786bdb3f530d9e2a866e081f6630dbab1cac108d66a157f9d8",
+    "profiles/gnu_elf_omf/profile.json": "36c67429e16ae92c1ff84a22699bc65edb5c5f441187261c54e6ceb523b23594",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19",
+    "tools/mact_wad_callees.py": "41439840c1dc05006548ad5c5feb778814d3eb9a06e44be2efaf1a5d7625ab60",
+    "profiles/capstone/identity.py": "e340cf55a62aaa0b9250ea7029ecf6099a21869b8ef137e754d48afd806bfb5d",
+    "profiles/capstone/files.json": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d"
+  },
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "2e7151d907871dba8370100fd5eba3a51b5bd0899d2b8e2f479e4581f26ed708",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

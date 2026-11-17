@@ -1,0 +1,89 @@
+{
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "inputs": [
+    {
+      "upstream": "CONFIG.C",
+      "upstream_sha256": "f1955aaf99a9a0b608cd7dc1196a54e2f2bfdff409bca710d99eb66bef612efb",
+      "tracked": "src/game/config.c",
+      "tracked_sha256": "1791fb759b339136bac540664f4481312df7b05324fffc32d27d2cf21731299d"
+    },
+    {
+      "upstream": "_FUNCTIO.H",
+      "upstream_sha256": "357acd963e429e4b67be5d3efdf490e051ef329376f01fb8ab8f1300edcd91e5",
+      "tracked": "src/game/include/_functio.h",
+      "tracked_sha256": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399"
+    },
+    {
+      "tracked": "src/game/include/soundabi.h",
+      "tracked_sha256": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554"
+    },
+    {
+      "tracked": "src/include/pragmas.h",
+      "tracked_sha256": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da"
+    },
+    {
+      "tracked": "src/game/include/userdef.h",
+      "tracked_sha256": "4ac6fe1badf9d617df2c880c6b74da6d407b7207c6fa810bd18e9208bdc5d825",
+      "origin": "Restored external user declaration; see userdef-declaration.json for checked fields and limits."
+    },
+    {
+      "tracked": "src/game/include/playdef.h",
+      "tracked_sha256": "e5bba3ee36199264a070d315984b00b9be908c41ae7feabc448dcb5e5ad64877",
+      "origin": "Restored external declarations; ownership and unused declarations remain unfinished."
+    },
+    {
+      "tracked": "src/game/include/duke3d.h",
+      "tracked_sha256": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+      "origin": "Restored external declarations; ownership and unused declarations remain unfinished."
+    }
+  ],
+  "license": "GPL-2.0-or-later; pinned public source ancestry and GPL text retained",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "modifications": [
+    "Remove later mouse-flip/game-aiming/aim-mode and weapon-choice settings; omit the later friendly-fire default and default-controller mouse call.",
+    "Restore save version 103 and remove the later extra save-header integer read.",
+    "Restore Environment configuration key rather than Password; omit later MouseAiming write while retaining its read and the controller-dependent sensitivity write.",
+    "Use measured shared external user-state member views. These allocate no storage and do not claim the complete original type.",
+    "Express each constant string as a typed field and measured alignment residue as explicit padding, including the 52 function-name pointer targets. No instruction payload is stored as data.",
+    "Use four readable Watcom inline string-copy instructions for the fixed 11-byte setup filename, reproducing the original literal-copy expansion after explicit constant-pool reconstruction.",
+    "Normalize line endings and add scope/provenance notices.",
+    "Replace opaque user-view gaps with the restored external user declaration. Existing sound/CONFIG offsets remain unchanged; allocation ownership and untested ancestral members remain unfinished.",
+    "Replace the opaque player view with the restored declaration and use 11 weapon slots. Inferred array choices and untested ancestral members remain explicitly unverified; existing source contributions retain all runtime bytes and fixups."
+  ],
+  "user_view_fields": {
+    "lockout": 1510,
+    "screen_tilting": 1470,
+    "shadows": 1474,
+    "detail": 1562,
+    "m_marker": 1590,
+    "screen_size": 1506,
+    "pwlockout": 1157,
+    "crosshair": 1514,
+    "savegame": 937,
+    "ridecule": 537,
+    "rtsname": 1285,
+    "fta_on": 1478,
+    "brightness": 1538,
+    "executions": 1482,
+    "auto_run": 1486,
+    "camerasprite": 1420
+  },
+  "external_state_storage_recovered": false,
+  "independent_anchor_evidence": "evidence/sounds-module.json",
+  "neighbor_boundaries": {
+    "CODE_end_and_ENGINE_start": 292130,
+    "CONST_end_and_ENGINE_start": 13284,
+    "DATA_end_and_ENGINE_start": 31604,
+    "BSS_end_and_ENGINE_start": 587744
+  },
+  "negative_controls": [
+    "Missing descriptor rejected before implementation.",
+    "Unrestored WriteSetup and ReadSetup instruction layouts rejected.",
+    "Raw constant-pool residue and later Password key fail full unmasked CONST comparison.",
+    "The later timing static exceeds the measured CONFIG-to-ENGINE BSS allocation by four bytes.",
+    "Every nonempty segment tail, CODE prefix, string padding and used user-member relocation is mutation-tested."
+  ],
+  "full_executable_rebuilt": false
+}

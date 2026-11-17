@@ -1,0 +1,824 @@
+{
+  "kind": "three complete source-built MACT assembly contributions",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "original_reference_proofs": [
+    {
+      "member": {
+        "offset": 5120,
+        "end": 5402,
+        "size": 282,
+        "name": "pent.asm",
+        "sha256": "24fd4545aa51b8a88882287773b92b9f9172f02939432fe075577a5629d01361",
+        "padding_bytes": 230,
+        "records": [
+          {
+            "offset": 5120,
+            "end": 5133,
+            "size": 13,
+            "kind": 128,
+            "checksum": "valid",
+            "sha256": "0d4171fdf0d2332d946bb12f3ec4a39f60811a2fe7cc90ab1d993c11d1cf46ee"
+          },
+          {
+            "offset": 5133,
+            "end": 5170,
+            "size": 37,
+            "kind": 150,
+            "checksum": "valid",
+            "sha256": "0fb66c425eb0d184f861dd07bb8f38ba34655c97dc7aa93bf733e840bf3d7267"
+          },
+          {
+            "offset": 5170,
+            "end": 5182,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "3474123ee89870e7f7ab3c0d3ef81022df391fe9adc845cf05c68a1d422d226a"
+          },
+          {
+            "offset": 5182,
+            "end": 5194,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "37b3c298e4e20ed9327cd3270abc8ad8f19c4afe3bd6e8d74ac77811200814af"
+          },
+          {
+            "offset": 5194,
+            "end": 5206,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "e68a735519a7293aba78d8e15fbc17e4ae7a45e37a012ca94db3e2c48b9da21f"
+          },
+          {
+            "offset": 5206,
+            "end": 5211,
+            "size": 5,
+            "kind": 154,
+            "checksum": "valid",
+            "sha256": "5692bc7221d43e5e78a1bd32b11ba5b8416f548cefc47f816169e420c7c359c8"
+          },
+          {
+            "offset": 5211,
+            "end": 5247,
+            "size": 36,
+            "kind": 144,
+            "checksum": "valid",
+            "sha256": "5b3d043da35d139c8e21d2d826578571c23970af2d3527206434fbcc4b364069"
+          },
+          {
+            "offset": 5247,
+            "end": 5282,
+            "size": 35,
+            "kind": 144,
+            "checksum": "valid",
+            "sha256": "b4a3d98a5cfc1f64f3b8a88d6d881c3bd7bc07e32162f50f8800a7a2c89f2e9e"
+          },
+          {
+            "offset": 5282,
+            "end": 5289,
+            "size": 7,
+            "kind": 136,
+            "checksum": "valid",
+            "sha256": "bf071151c1fc055a30f85ce9ec9a8dfde6a6eca7ca1030019b4ec1d5bda9ace0"
+          },
+          {
+            "offset": 5289,
+            "end": 5352,
+            "size": 63,
+            "kind": 160,
+            "checksum": "valid",
+            "sha256": "45a8adbbf7a0a8b12d89c323259521c7d15541a1a3e44661e28f662f81f03704"
+          },
+          {
+            "offset": 5352,
+            "end": 5386,
+            "size": 34,
+            "kind": 157,
+            "checksum": "valid",
+            "sha256": "71263556a40b2b3d6f079ff103df1795364f162aaf48818f7ae54e7b425bded6"
+          },
+          {
+            "offset": 5386,
+            "end": 5397,
+            "size": 11,
+            "kind": 136,
+            "checksum": "valid",
+            "sha256": "c553c75197ae0131d8907e7782ec6cfdc91f2b02b151b49f9c91845a4ea74d02"
+          },
+          {
+            "offset": 5397,
+            "end": 5402,
+            "size": 5,
+            "kind": 138,
+            "checksum": "valid",
+            "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 72,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 6,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 67936,
+            "compared_bytes": 16,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "TEXT",
+            "target_object": 2,
+            "target_offset": 0,
+            "compared_bytes": 56,
+            "verified_fixups": 6,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_PENT_timeh": [
+            3,
+            67944
+          ],
+          "_PENT_timel": [
+            3,
+            67948
+          ],
+          "PENT_Start_": [
+            2,
+            0
+          ],
+          "PENT_Stop_": [
+            2,
+            22
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "reference_only": true,
+      "scope": "Original member reference only; zero source-built contribution credit"
+    },
+    {
+      "member": {
+        "offset": 14336,
+        "end": 14612,
+        "size": 276,
+        "name": "precise.asm",
+        "sha256": "ea4bf6d0214c0c8720e138723c3324a15bc6c3a0021db3a96e478691e1613077",
+        "padding_bytes": 236,
+        "records": [
+          {
+            "offset": 14336,
+            "end": 14352,
+            "size": 16,
+            "kind": 128,
+            "checksum": "valid",
+            "sha256": "dc98def7b3127dc27c7e6802c32beb9de54b0ef95273c05fc85b4690f0d8b72d"
+          },
+          {
+            "offset": 14352,
+            "end": 14389,
+            "size": 37,
+            "kind": 150,
+            "checksum": "valid",
+            "sha256": "0fb66c425eb0d184f861dd07bb8f38ba34655c97dc7aa93bf733e840bf3d7267"
+          },
+          {
+            "offset": 14389,
+            "end": 14401,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "3474123ee89870e7f7ab3c0d3ef81022df391fe9adc845cf05c68a1d422d226a"
+          },
+          {
+            "offset": 14401,
+            "end": 14413,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "96de12005f0e84aa6f89791ee4c101570a2b53d1cbb41d46b5fbcd3dfa7bcf57"
+          },
+          {
+            "offset": 14413,
+            "end": 14425,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "091d7e7d869fa29cbd7739172138a0e89dff4fbce57bcde8520924b97eb12d04"
+          },
+          {
+            "offset": 14425,
+            "end": 14430,
+            "size": 5,
+            "kind": 154,
+            "checksum": "valid",
+            "sha256": "5692bc7221d43e5e78a1bd32b11ba5b8416f548cefc47f816169e420c7c359c8"
+          },
+          {
+            "offset": 14430,
+            "end": 14473,
+            "size": 43,
+            "kind": 144,
+            "checksum": "valid",
+            "sha256": "0d028ae888b0180f17aac7979c6b967461a24e3b2fe0bb30f0acf23c7d36c9df"
+          },
+          {
+            "offset": 14473,
+            "end": 14480,
+            "size": 7,
+            "kind": 136,
+            "checksum": "valid",
+            "sha256": "bf071151c1fc055a30f85ce9ec9a8dfde6a6eca7ca1030019b4ec1d5bda9ace0"
+          },
+          {
+            "offset": 14480,
+            "end": 14489,
+            "size": 9,
+            "kind": 160,
+            "checksum": "valid",
+            "sha256": "2aceaf010f359a35b3a838cd0e5d931b4700ea2bd5b8d532fcbe54a2306fb942"
+          },
+          {
+            "offset": 14489,
+            "end": 14557,
+            "size": 68,
+            "kind": 160,
+            "checksum": "valid",
+            "sha256": "904ad9b439820fedd66b56bc0b3713e3c7282e4317e445cfd2e5207f3fbf1693"
+          },
+          {
+            "offset": 14557,
+            "end": 14596,
+            "size": 39,
+            "kind": 157,
+            "checksum": "valid",
+            "sha256": "cf83e213e14cead3638cc2312e39d98f2ee57eb9cb6902cb41b885233be416ca"
+          },
+          {
+            "offset": 14596,
+            "end": 14607,
+            "size": 11,
+            "kind": 136,
+            "checksum": "valid",
+            "sha256": "2c30fa305101db40ab5be0ad005bc5fe4f3cdf2666c6f88c2c123c5acdd5c755"
+          },
+          {
+            "offset": 14607,
+            "end": 14612,
+            "size": 5,
+            "kind": 138,
+            "checksum": "valid",
+            "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 63,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 7,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 67964,
+            "compared_bytes": 2,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "TEXT",
+            "target_object": 2,
+            "target_offset": 64,
+            "compared_bytes": 61,
+            "verified_fixups": 7,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "PRECISION_High_": [
+            2,
+            64
+          ],
+          "PRECISION_Low_": [
+            2,
+            99
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "reference_only": true,
+      "scope": "Original member reference only; zero source-built contribution credit"
+    },
+    {
+      "member": {
+        "offset": 14848,
+        "end": 15182,
+        "size": 334,
+        "name": "joystick.asm",
+        "sha256": "9761006539692927b7d17bb9c13570895bdf4e1252aae103df55e7fcc1e3d071",
+        "padding_bytes": 178,
+        "records": [
+          {
+            "offset": 14848,
+            "end": 14865,
+            "size": 17,
+            "kind": 128,
+            "checksum": "valid",
+            "sha256": "4b4a17f0e9cb67d654d517524dffee21981da70077e4f2a2f46e8e2e499995e6"
+          },
+          {
+            "offset": 14865,
+            "end": 14902,
+            "size": 37,
+            "kind": 150,
+            "checksum": "valid",
+            "sha256": "0fb66c425eb0d184f861dd07bb8f38ba34655c97dc7aa93bf733e840bf3d7267"
+          },
+          {
+            "offset": 14902,
+            "end": 14914,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "3474123ee89870e7f7ab3c0d3ef81022df391fe9adc845cf05c68a1d422d226a"
+          },
+          {
+            "offset": 14914,
+            "end": 14926,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "3994e5f0bcc0ad2d8ddf6e18aacbf43d7d9855d086e2e1405e1926c0e9c3f6ea"
+          },
+          {
+            "offset": 14926,
+            "end": 14938,
+            "size": 12,
+            "kind": 153,
+            "checksum": "valid",
+            "sha256": "92900ca91d143127df1a204d0e0cb671181f0692219f2d0b700603abe50ed2dd"
+          },
+          {
+            "offset": 14938,
+            "end": 14943,
+            "size": 5,
+            "kind": 154,
+            "checksum": "valid",
+            "sha256": "5692bc7221d43e5e78a1bd32b11ba5b8416f548cefc47f816169e420c7c359c8"
+          },
+          {
+            "offset": 14943,
+            "end": 15006,
+            "size": 63,
+            "kind": 144,
+            "checksum": "valid",
+            "sha256": "bc67c634ae9ca6253f639400899c76c92bac607608f5f3b3ed282e0cf4146167"
+          },
+          {
+            "offset": 15006,
+            "end": 15030,
+            "size": 24,
+            "kind": 144,
+            "checksum": "valid",
+            "sha256": "bd1d08b67d98e4e74cd188337ef5c12a4ebbd823aad143b83e5cd8894b40018d"
+          },
+          {
+            "offset": 15030,
+            "end": 15037,
+            "size": 7,
+            "kind": 136,
+            "checksum": "valid",
+            "sha256": "bf071151c1fc055a30f85ce9ec9a8dfde6a6eca7ca1030019b4ec1d5bda9ace0"
+          },
+          {
+            "offset": 15037,
+            "end": 15137,
+            "size": 100,
+            "kind": 160,
+            "checksum": "valid",
+            "sha256": "b057d2e2d868ab4d87818167257f0c9e7a99c3727b65af8a64e70a464eb19527"
+          },
+          {
+            "offset": 15137,
+            "end": 15166,
+            "size": 29,
+            "kind": 157,
+            "checksum": "valid",
+            "sha256": "77e827b718fb73f295403c1416b63f03479389420ac43872452122dcddd93cd8"
+          },
+          {
+            "offset": 15166,
+            "end": 15177,
+            "size": 11,
+            "kind": 136,
+            "checksum": "valid",
+            "sha256": "f18f721e7c2574f4ebf898a9d5712500c8a651d881c8327546d19c499a4ae7e9"
+          },
+          {
+            "offset": 15177,
+            "end": 15182,
+            "size": 5,
+            "kind": 138,
+            "checksum": "valid",
+            "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+          }
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 110,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 5,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 67966,
+            "compared_bytes": 17,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "TEXT",
+            "target_object": 2,
+            "target_offset": 128,
+            "compared_bytes": 93,
+            "verified_fixups": 5,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_Joy_x1": [
+            3,
+            67966
+          ],
+          "_Joy_y1": [
+            3,
+            67970
+          ],
+          "_Joy_x2": [
+            3,
+            67974
+          ],
+          "_Joy_y2": [
+            3,
+            67978
+          ],
+          "_Joy_mask": [
+            3,
+            67982
+          ],
+          "JoyStick_Vals_": [
+            2,
+            128
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "reference_only": true,
+      "scope": "Original member reference only; zero source-built contribution credit"
+    }
+  ],
+  "modules": {
+    "pent": {
+      "kind": "complete native source-built MACT PENT contributions",
+      "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+      "source": "src/mact/pent.asm",
+      "source_sha256": "34f2f96c8f1bdfc66f3dc5e647ce38d4fbb24374595308384e476dac5d65d50c",
+      "headers_sha256": {},
+      "assembler_sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2",
+      "options": [
+        "-fo=OUT.OBJ"
+      ],
+      "descriptor": "modules/mact_pent.json",
+      "descriptor_sha256": "f211b4b899dfb2440faa7b03d96679c968b0d09d3346af2cf5fb1e587dc5ae20",
+      "native_object_sha256": "e2c9373441a3dd2d00e9433637b247728f80a0e938e2c6b899d8571b4f3b56a4",
+      "native_log_sha256": "42d0346e9420034be354f2d864d0bf5a86bb31ccb5be4acaff0aa77e3d883561",
+      "native_error_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "placements": {
+        "2": [
+          3,
+          67936
+        ],
+        "3": [
+          2,
+          0
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 72,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 6,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 67936,
+            "compared_bytes": 16,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "TEXT",
+            "target_object": 2,
+            "target_offset": 0,
+            "compared_bytes": 56,
+            "verified_fixups": 6,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_PENT_timeh": [
+            3,
+            67944
+          ],
+          "_PENT_timel": [
+            3,
+            67948
+          ],
+          "PENT_Start_": [
+            2,
+            0
+          ],
+          "PENT_Stop_": [
+            2,
+            22
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "native_inventory": [
+        [
+          "_TEXT",
+          "CODE",
+          0,
+          73
+        ],
+        [
+          "_DATA",
+          "DATA",
+          16,
+          73
+        ],
+        [
+          "TEXT",
+          "",
+          56,
+          97
+        ]
+      ],
+      "object1_code_bytes": 0,
+      "instruction_object": 2,
+      "instruction_bytes": 56,
+      "initialized_scalar_bytes": 16,
+      "original_reference": {
+        "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+        "offset": 5120,
+        "size": 282,
+        "name": "pent.asm",
+        "sha256": "24fd4545aa51b8a88882287773b92b9f9172f02939432fe075577a5629d01361",
+        "reference_only": true
+      },
+      "full_executable_rebuilt": false
+    },
+    "precise": {
+      "kind": "complete native source-built MACT PRECISE contributions",
+      "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+      "source": "src/mact/precise.asm",
+      "source_sha256": "6ba7bce8baeb474f6554c3df24845157ffe369916dc6751f7ae63d561f1e462b",
+      "headers_sha256": {},
+      "assembler_sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2",
+      "options": [
+        "-fo=OUT.OBJ"
+      ],
+      "descriptor": "modules/mact_precise.json",
+      "descriptor_sha256": "bf72f30bfbca399bec5440a87a05469860915078bc8e8c1543892dfb21d67599",
+      "native_object_sha256": "55869f61a8c87f8689d21c6025f27f51178f7764cbf599b89a1a6bb1b4a84221",
+      "native_log_sha256": "d32e37bd2a76a733586ef2c7e65a44b7bb96024e5cef15caa48e88d47f183a3a",
+      "native_error_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "placements": {
+        "2": [
+          3,
+          67964
+        ],
+        "3": [
+          2,
+          64
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 63,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 7,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 67964,
+            "compared_bytes": 2,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "TEXT",
+            "target_object": 2,
+            "target_offset": 64,
+            "compared_bytes": 61,
+            "verified_fixups": 7,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "PRECISION_High_": [
+            2,
+            64
+          ],
+          "PRECISION_Low_": [
+            2,
+            99
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "native_inventory": [
+        [
+          "_TEXT",
+          "CODE",
+          0,
+          73
+        ],
+        [
+          "_DATA",
+          "DATA",
+          2,
+          73
+        ],
+        [
+          "TEXT",
+          "",
+          61,
+          97
+        ]
+      ],
+      "object1_code_bytes": 0,
+      "instruction_object": 2,
+      "instruction_bytes": 61,
+      "initialized_scalar_bytes": 2,
+      "original_reference": {
+        "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+        "offset": 14336,
+        "size": 276,
+        "name": "precise.asm",
+        "sha256": "ea4bf6d0214c0c8720e138723c3324a15bc6c3a0021db3a96e478691e1613077",
+        "reference_only": true
+      },
+      "full_executable_rebuilt": false
+    },
+    "joystick": {
+      "kind": "complete native source-built MACT JOYSTICK contributions",
+      "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+      "source": "src/mact/joystick.asm",
+      "source_sha256": "f2c4a237043e3369499b00078fda6d4c5828e0050817663ad63c763d21eb4363",
+      "headers_sha256": {},
+      "assembler_sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2",
+      "options": [
+        "-fo=OUT.OBJ"
+      ],
+      "descriptor": "modules/mact_joystick.json",
+      "descriptor_sha256": "ef138301173070d8171c0a32e9f60c5326e5d76b67687b38404ecf4acc776ad8",
+      "native_object_sha256": "8fa2d38ab3d239e516d25f38121969095b889777250e7af10bf1db5892d19101",
+      "native_log_sha256": "aef37ca5f073f48334c77b7c4d19cf9b33f29f2b8878d52d0f13d8a9516b36cd",
+      "native_error_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "placements": {
+        "2": [
+          3,
+          67966
+        ],
+        "3": [
+          2,
+          128
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 110,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 5,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 67966,
+            "compared_bytes": 17,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "TEXT",
+            "target_object": 2,
+            "target_offset": 128,
+            "compared_bytes": 93,
+            "verified_fixups": 5,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_Joy_x1": [
+            3,
+            67966
+          ],
+          "_Joy_y1": [
+            3,
+            67970
+          ],
+          "_Joy_x2": [
+            3,
+            67974
+          ],
+          "_Joy_y2": [
+            3,
+            67978
+          ],
+          "_Joy_mask": [
+            3,
+            67982
+          ],
+          "JoyStick_Vals_": [
+            2,
+            128
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "native_inventory": [
+        [
+          "_TEXT",
+          "CODE",
+          0,
+          73
+        ],
+        [
+          "_DATA",
+          "DATA",
+          17,
+          73
+        ],
+        [
+          "TEXT",
+          "",
+          93,
+          97
+        ]
+      ],
+      "object1_code_bytes": 0,
+      "instruction_object": 2,
+      "instruction_bytes": 93,
+      "initialized_scalar_bytes": 17,
+      "original_reference": {
+        "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+        "offset": 14848,
+        "size": 334,
+        "name": "joystick.asm",
+        "sha256": "9761006539692927b7d17bb9c13570895bdf4e1252aae103df55e7fcc1e3d071",
+        "reference_only": true
+      },
+      "full_executable_rebuilt": false
+    }
+  },
+  "new_complete_contributions": 3,
+  "initialized_bytes": 245,
+  "instruction_object2_bytes": 210,
+  "initialized_scalar_bytes": 35,
+  "verified_fixups": 18,
+  "zero_fill_bytes": 0,
+  "object1_code_bytes": 0,
+  "excluded_alignment_bytes": 11,
+  "full_executable_rebuilt": false
+}

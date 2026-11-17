@@ -1,0 +1,141 @@
+{
+  "sources_sha256": {
+    "src/mact/time/time_dos.c": "fb92c120640417f972b2619fd8db8e90ada6d47a4142f6ecf45b5dd8e1e0c9f6",
+    "src/mact/time/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/time/include/timer.h": "9d143947cc46b906570bf13e4a32e14d098395e7626548c8b7997773342a41ba",
+    "src/mact/time/include/task_man.h": "20b11da5d7a0a0c21568dd240796cf998213d96682351a6ecdefec6bb5545b72"
+  },
+  "notices_sha256": {
+    "src/mact/time/README.md": "77f693aaefc0394ef4abded1065edbf44c49d5b1fbb52b3f7f34ef20497a8de2",
+    "src/mact/time/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_time.py": "c9de5d5c20cf8aae3c0bc38edeedb561306506dc433d940d0a854342d7e44e22",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/mact-time-tools.json": "0803da3ae6363bc7972f84f554d70227660ca32db06c311c6b6b7b5a4398ae41"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  },
+  "emulator_sha256": "e1a2c458b0e717403b4bb639e430c0abe69a939bcc96bf4e63114fdc7504e1d7",
+  "descriptor_sha256": "feafe41ced4e1fb7a9fd86f053a68893ced89e87f9dbef7cf0ba3fa10d580b76",
+  "caller_receipt_sha256": "e7607aaa773db4e6dba31d3c3a3319803774340e645f7794d69170cc9dd6d5c9",
+  "original_library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+  "lineage": {
+    "kind": "Reconstructed ordinary C with exact published extras TYPES/TIMER/TASK_MAN headers and complete original notices/GPL; no original C-file discovery claim",
+    "history": "Frozen Task433/independent review is provenance only, never a producer/observer path",
+    "source_credit": 0
+  },
+  "root_registration_refresh": {
+    "prior_driver_sha256": "a89c4f9f8885584aafb2e3068ebc577bf1d202db8878f6445fe19a260a544e02",
+    "current_driver_sha256": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8",
+    "scope": "Combined named source route registration only. Default proof semantics and source body unchanged; actual normal replay required."
+  },
+  "sound_vector_source_registration_refresh": {
+    "prior_checkpoint": "d8475bf",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8",
+        "current": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29"
+      }
+    },
+    "scope": "Fixed named SOUND, WSOUND and VECTOR source producer/CLI dispatch only. Default parse/matcher/inference/verifier/source and historical proof dictionaries unchanged; fresh normal replays follow. No new origin or target waiver."
+  },
+  "rox_named_source_registration_refresh": {
+    "prior_checkpoint": "d5801b4",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29",
+        "current": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9"
+      }
+    },
+    "scope": "New explicit mact_rox dispatch only; default parse/infer/matcher/verifier and source machine code unchanged. Fresh named normal replays required."
+  },
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

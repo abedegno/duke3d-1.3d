@@ -1,0 +1,19 @@
+{
+  "name": "DMA",
+  "source": "src/audio/dma.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 527248,
+  "code_bytes": 931,
+  "code_publics": 7,
+  "expected": {
+    "initialized_bytes": 1035,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 28
+  }
+}

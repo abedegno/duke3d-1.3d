@@ -1,0 +1,38 @@
+{
+  "kind": "Independent actual WLINK source/native OWN GAME roundtrip confirmation; no target corrections/credit",
+  "checks": {
+    "C_is_literal_prior587_baseline": true,
+    "all3_objects_literal": true,
+    "all174_pages_literal": true,
+    "all_loaded_object_bytes_literal": true,
+    "all27383_loader_records_literal_multiset": true,
+    "entry_stack_pagesize_literal": true,
+    "unbound_size_literal": true
+  },
+  "native_C_sha256": "4583cca9029d4f8a3995bf0660222b114dab5f74c4c9d8ba97002402f31d1ae0",
+  "native_ASM_sha256": "98fb963b646e4a7bf16989bbd00df14c6bc31f532b86af84763f6bc2702bed94",
+  "source_native_object_sha256": "24586fb1f3c620349963c147eff8eebf3e5f2f4577c6695b8716e80ec8a04ecc",
+  "loader_records": 27383,
+  "raw_differing_bytes": 24922,
+  "raw_differences_all_inside_fixup_record_region": true,
+  "source_credit": 0,
+  "target_GAME_verified": false,
+  "full_executable_identical": false,
+  "artifact_sha256": {
+    "build/task600-game-empty-defaults/result.json": "e512abee2dfba90da562840e0a3d72c26111bfdd3e142448039456570b4c68c3",
+    "build/task600-game-empty-defaults/C/GAME.EXE": "4583cca9029d4f8a3995bf0660222b114dab5f74c4c9d8ba97002402f31d1ae0",
+    "build/task600-game-empty-defaults/ASM/GAME.EXE": "98fb963b646e4a7bf16989bbd00df14c6bc31f532b86af84763f6bc2702bed94",
+    "build/task600-game-empty-defaults/C/LINK.LNK": "8ef13590a45b3500f498bd16f31a42adecb8653c3738362b021d81ad34a85477",
+    "build/task600-game-empty-defaults/ASM/LINK.LNK": "8ef13590a45b3500f498bd16f31a42adecb8653c3738362b021d81ad34a85477",
+    "build/task602-game-native-root-review/verify.py": "b1ea7f4a9f6f4fd85683ff63499c8d9a96841bba70bd2de80a1fe126348e593c",
+    "build/task600-game-empty-defaults/production-freeze.json": "8b96c5cee0682f32c8b3427efa87ab849661bd07cdb8a36b12fc0d1c6e7fcb51",
+    "build/task600-game-empty-defaults/artifact-manifest.json": "4d1a2cdb25f6dc9c1213f7b41c89203a0f44b454dd33d5d3a28cc65f7ec0ce52",
+    "build/task604-game-source-review/review-freeze.json": "cbaa5f7f9428400ee45f9fd3aebce93f9ee59bcabd62dbdba5c8f50d4674edc2",
+    "build/task604-game-source-review/artifact-manifest.json": "ac9c105e0f2dbe609ccb5bfd927b2e1f746341752bad00b41bd71951329c3470",
+    "build/task604-game-source-review/task-604-own-game-source-emitter-review.md": "0df94a73935ab69c39fa262ee5a4988bdede840d6033cc156c56b9505f6871f1"
+  },
+  "source_emitter_review": "task604 approved development prerequisite only",
+  "source_emitter_author_pins_checked": 954,
+  "source_emitter_review_pins_checked": 216,
+  "all_checked_pins_literal": true
+}

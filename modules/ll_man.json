@@ -1,0 +1,19 @@
+{
+  "name": "LL_MAN",
+  "source": "src/audio/ll_man.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 515184,
+  "code_bytes": 185,
+  "code_publics": 5,
+  "expected": {
+    "initialized_bytes": 185,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 6
+  }
+}

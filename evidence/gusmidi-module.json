@@ -1,0 +1,1392 @@
+{
+  "kind": "complete GUSMIDI object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/gusmidi.c",
+  "source_sha256": "acec04d0227ab474ab68da41f193932e738c1586953b2003287fcc4c4e55c786",
+  "headers_sha256": {
+    "_al_midi.h": "219b4a6dc6a45dec01b703b8f2fb3b5b87a03ed5901fecc2a505f79695f577db",
+    "_blaster.h": "0fcb195e640533f0225947da087cd05ae20ac620b79017d2e2d2575bcf4f5378",
+    "_guswave.h": "cac5bb2fb8b52345989b707f1f347900b43b10657afefbd5c17dae29a285edf9",
+    "_midi.h": "6be1b80bf55633bf4643e0ca74120776870489853415e8dcfec42615365d213b",
+    "_multivc.h": "aaeae29d1fdc1e9a8af8b46d9c562a45dcabd0f64b2d4e4bacab9ee704ae0e5f",
+    "_pas16.h": "8f36f8588de47117be8b678cd8c032331cc01bfe64c3840b43cf306cd026cc34",
+    "_sndscap.h": "0d9798da8d035433f8a11b493cf6e3336a03695727656b812d1c4e5f92ab4f7d",
+    "adlibfx.h": "82d8329b172022947897b0e21dd3ad902618773bd9a410ee2bfaf08b7ac475a1",
+    "al_midi.h": "60927c322a80c55f62af01e3eb6505747e3396b3b4f0f291a3532148510b362a",
+    "assert.h": "39f065d7feb468c546bd2366ff6078925cc3dfaabb887fb3a6a468d50a415be4",
+    "awe32.h": "196bb2bcf4733c1905c1fa8c4452aa7845c87f7fccdf378290d8bb57fd984078",
+    "blaster.h": "25aadf9f09a78d4a42ac3c6b8e71107658312686806c4577255e7744fb25b1fa",
+    "ctaweapi.h": "ec1d263245097922f431001223293fe30f26035d5b54103f9119a534ddd0f71d",
+    "debugio.h": "ac3819e56cc696698d58ab1c4f562a3c7dc171a852ad6ab0d0f2011eb5878366",
+    "dma.h": "4b66044ccce427dd5ff6ba12aa83bdb5bb27642236c1c3f1a09c0257ec55c73a",
+    "dpmi.h": "9432edefbd66b2efd6308f84844e5451713ca5db8418d6a1321f55beb60bb5b7",
+    "fx_man.h": "b936c4ad37296e98d4bc78df43a29d470d81b1d9db2c3026311850609fc242ea",
+    "gusmidi.h": "9f8d9497db9f8339d2cc08c19ad801a351efc5d51a18967d79677ca4062d1569",
+    "gusmidi2.h": "8a342b30fad1c73c08cd6af8f3480cf6e74accced5e2ed7c0c79830b5d761487",
+    "guswave.h": "8958ed6b6201e5caeeccbb06683cffa43eea902d3e37477fe3c4213d888dcb58",
+    "interrup.h": "5667ca3d04093d275b3477680e2780f539a8d5af07beaae142310a07f4f8c2d8",
+    "irq.h": "67594c70648e85c4a0d5a70185fe0f1bc93a80243c5fc65e7a1280a9fbee7d7b",
+    "linklist.h": "2a70f201d13471149423598e967ff619036ffa560de346145ad5626c466a7c64",
+    "ll_man.h": "6b0978b56971701187e15e3211652e62ee8057de182b2289693d9f610eb6fbd7",
+    "memcheck.h": "03f280d0e41dee69f05fd9de996297d2f25fe2587edd0143e2f7adb9c74864a3",
+    "midi.h": "af77032e78c1d95e1e5e4fc3003e09801154a0dffbdafb7ff3746c5d2682be34",
+    "mpu401.h": "9de63b57f9f066da124bf9298675d3f631b3e6ef33a338877a4e0311a2535282",
+    "multivoc.h": "15bec554964f6da5f8b1916eccd73f81da5688e16ef29e97cc7f1ec8ae8f744d",
+    "music.h": "8e077afa961fe76822cf9a1739ee78e6ad334ecc977ac0715fb7358fe133bd6a",
+    "myprint.h": "aba3058d753205565229b821e2b6b317eb1fd3903ed64131bfb1ee9989b0695a",
+    "newgf1.h": "8bc4ebb2278cd35c773d30e17ec5b6fed21d7ef5daed4d449357b05a183b70cc",
+    "pas16.h": "1e5943570cec3f6ec8c57fb2e720af2c333b8b5060108d066ea133c1c651b7a9",
+    "pcfx.h": "7b6f101f299314171043733241837b9946b3ee374ed74975a9c42c43e54904b5",
+    "pitch.h": "f704aab5b707d47aec9957bd56a0be6c38bedec31caac535f3ded5162cb9e409",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "sndcards.h": "907c8efcb85854300021554a63c4196674858e1d0ac529407557bab26cebf080",
+    "sndscape.h": "e55d0c4209b85522997a280ad27a9ebb78ae58b43e7b7fcd8208102337eac9fe",
+    "sndsrc.h": "77d9e437e5b2a1f32873071e621fba0ae44076c057eb922e65ade41d3ceff093",
+    "standard.h": "1e7e5224b175d838e8d1695456035bfa3d9f3e2ea8ed9db0a46dd0e03ade2f7e",
+    "task_man.h": "b9a3e21347239f2546d6c9623bb1c5d3d350f87c4cc8029738e51a6f914d8890",
+    "user.h": "00d259903cb9f1c36ba121a300ca4a659a9214eb4709fbaf5b327a18d711c15a",
+    "usrhooks.h": "62e23ce37183ecb83a43d88dc61502ec2a5ebbe1bf064f6c19da2376ac6bd3ee"
+  },
+  "descriptor": "modules/gusmidi.json",
+  "descriptor_sha256": "0013be77ce2803c440e218edac5e92ecff58ea1622f435ea62cb26d43ed757fd",
+  "compiler_sha256": "2b6672b7cb109452a31cb7fd6bf6776f518f43466f66dc3efd8365708fd243c6",
+  "debug_metadata": {
+    "format": "Watcom native",
+    "excluded_segments": [
+      {
+        "segment": 6,
+        "name": "$$SYMBOLS",
+        "class": "DEBSYM",
+        "bytes": 1127,
+        "segdef_access": 2,
+        "fixups": 11,
+        "sha256": "a89ceec4bc49c28a19391125dc9bd951d92dc3de268a37a5c596e98eb9e5f87b",
+        "scope": "non-loadable Watcom debugger metadata; excluded from source coverage"
+      },
+      {
+        "segment": 7,
+        "name": "$$TYPES",
+        "class": "DEBTYP",
+        "bytes": 1365,
+        "segdef_access": 2,
+        "fixups": 0,
+        "sha256": "3798525194635adfc51bdd60b40f76234d0e4520f55a98e7270674160419e2ce",
+        "scope": "non-loadable Watcom debugger metadata; excluded from source coverage"
+      },
+      {
+        "segment": 8,
+        "name": "$$TYPES",
+        "class": "DEBTYP",
+        "bytes": 272,
+        "segdef_access": 2,
+        "fixups": 0,
+        "sha256": "b70f8d081e80c638ad586852d8e81b48bf306c7611db0f5a3fa58a31b2b6d5d6",
+        "scope": "non-loadable Watcom debugger metadata; excluded from source coverage"
+      }
+    ],
+    "line_entries": 146
+  },
+  "options": [
+    "/zq",
+    "/w4",
+    "/d2",
+    "/dLIBVER_ASSREV=19960116"
+  ],
+  "placements": {
+    "1": [
+      1,
+      521286
+    ],
+    "5": [
+      3,
+      1781216
+    ],
+    "2": [
+      3,
+      18712
+    ],
+    "4": [
+      3,
+      62168
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 6,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 61,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 77,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 93,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 109,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 125,
+      "symbol": "_ProgramName",
+      "value": [
+        3,
+        1793760
+      ]
+    },
+    {
+      "source_offset": 133,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 138,
+      "symbol": "getenv_",
+      "value": [
+        1,
+        589923
+      ]
+    },
+    {
+      "source_offset": 153,
+      "symbol": "_GUS_ErrorCode",
+      "value": [
+        3,
+        62284
+      ]
+    },
+    {
+      "source_offset": 177,
+      "symbol": "_InstrumentDirectory",
+      "value": [
+        3,
+        1796064
+      ]
+    },
+    {
+      "source_offset": 182,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 187,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 192,
+      "symbol": "_InstrumentDirectory",
+      "value": [
+        3,
+        1796064
+      ]
+    },
+    {
+      "source_offset": 197,
+      "symbol": "strcat_",
+      "value": [
+        1,
+        583733
+      ]
+    },
+    {
+      "source_offset": 205,
+      "symbol": "_ConfigDirectory",
+      "value": [
+        3,
+        62181
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 215,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 220,
+      "symbol": "_ConfigDirectory",
+      "value": [
+        3,
+        62181
+      ]
+    },
+    {
+      "source_offset": 225,
+      "symbol": "strcat_",
+      "value": [
+        1,
+        583733
+      ]
+    },
+    {
+      "source_offset": 236,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 241,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 249,
+      "symbol": "fopen_",
+      "value": [
+        1,
+        584545
+      ]
+    },
+    {
+      "source_offset": 263,
+      "symbol": "_InstrumentDirectory",
+      "value": [
+        3,
+        1796064
+      ]
+    },
+    {
+      "source_offset": 271,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 282,
+      "symbol": "strcat_",
+      "value": [
+        1,
+        583733
+      ]
+    },
+    {
+      "source_offset": 287,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 295,
+      "symbol": "fopen_",
+      "value": [
+        1,
+        584545
+      ]
+    },
+    {
+      "source_offset": 310,
+      "symbol": "_GUS_ErrorCode",
+      "value": [
+        3,
+        62284
+      ]
+    },
+    {
+      "source_offset": 342,
+      "symbol": "fgets_",
+      "value": [
+        1,
+        590536
+      ]
+    },
+    {
+      "source_offset": 373,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 383,
+      "symbol": "sscanf_",
+      "value": [
+        1,
+        590988
+      ]
+    },
+    {
+      "source_offset": 402,
+      "symbol": "_ProgramName",
+      "value": [
+        3,
+        1793760
+      ]
+    },
+    {
+      "source_offset": 416,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 433,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 450,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 467,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 479,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 489,
+      "symbol": "sscanf_",
+      "value": [
+        1,
+        590988
+      ]
+    },
+    {
+      "source_offset": 505,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 534,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 563,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 574,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 586,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 604,
+      "symbol": "_Patch",
+      "value": [
+        3,
+        1786592
+      ]
+    },
+    {
+      "source_offset": 611,
+      "symbol": "gf1_unload_patch_",
+      "value": [
+        1,
+        466092
+      ]
+    },
+    {
+      "source_offset": 623,
+      "symbol": "_PatchWaves",
+      "value": [
+        3,
+        1785568
+      ]
+    },
+    {
+      "source_offset": 638,
+      "symbol": "_PatchWaves",
+      "value": [
+        3,
+        1785568
+      ]
+    },
+    {
+      "source_offset": 643,
+      "symbol": "USRHOOKS_FreeMem_",
+      "value": [
+        1,
+        282272
+      ]
+    },
+    {
+      "source_offset": 655,
+      "symbol": "_PatchWaves",
+      "value": [
+        3,
+        1785568
+      ]
+    },
+    {
+      "source_offset": 670,
+      "symbol": "_Patch",
+      "value": [
+        3,
+        1786592
+      ]
+    },
+    {
+      "source_offset": 681,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 716,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 745,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 756,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 768,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 801,
+      "symbol": "_ProgramName",
+      "value": [
+        3,
+        1793760
+      ]
+    },
+    {
+      "source_offset": 821,
+      "symbol": "_InstrumentDirectory",
+      "value": [
+        3,
+        1796064
+      ]
+    },
+    {
+      "source_offset": 829,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 840,
+      "symbol": "_ProgramName",
+      "value": [
+        3,
+        1793760
+      ]
+    },
+    {
+      "source_offset": 850,
+      "symbol": "strcat_",
+      "value": [
+        1,
+        583733
+      ]
+    },
+    {
+      "source_offset": 855,
+      "segment": 2,
+      "value": [
+        3,
+        18712
+      ]
+    },
+    {
+      "source_offset": 863,
+      "symbol": "strcat_",
+      "value": [
+        1,
+        583733
+      ]
+    },
+    {
+      "source_offset": 877,
+      "symbol": "gf1_get_patch_info_",
+      "value": [
+        1,
+        464688
+      ]
+    },
+    {
+      "source_offset": 894,
+      "symbol": "_GUS_AuxError",
+      "value": [
+        3,
+        62280
+      ]
+    },
+    {
+      "source_offset": 900,
+      "symbol": "_GUS_ErrorCode",
+      "value": [
+        3,
+        62284
+      ]
+    },
+    {
+      "source_offset": 936,
+      "symbol": "USRHOOKS_GetMem_",
+      "value": [
+        1,
+        282240
+      ]
+    },
+    {
+      "source_offset": 951,
+      "symbol": "_GUS_ErrorCode",
+      "value": [
+        3,
+        62284
+      ]
+    },
+    {
+      "source_offset": 981,
+      "symbol": "_GUS_HoldBuffer",
+      "value": [
+        3,
+        1796144
+      ]
+    },
+    {
+      "source_offset": 990,
+      "symbol": "_Patch",
+      "value": [
+        3,
+        1786592
+      ]
+    },
+    {
+      "source_offset": 1006,
+      "symbol": "gf1_load_patch_",
+      "value": [
+        1,
+        464920
+      ]
+    },
+    {
+      "source_offset": 1023,
+      "symbol": "USRHOOKS_FreeMem_",
+      "value": [
+        1,
+        282272
+      ]
+    },
+    {
+      "source_offset": 1031,
+      "symbol": "_GUS_AuxError",
+      "value": [
+        3,
+        62280
+      ]
+    },
+    {
+      "source_offset": 1037,
+      "symbol": "_GUS_ErrorCode",
+      "value": [
+        3,
+        62284
+      ]
+    },
+    {
+      "source_offset": 1065,
+      "symbol": "_PatchWaves",
+      "value": [
+        3,
+        1785568
+      ]
+    },
+    {
+      "source_offset": 1074,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 1104,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1135,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 1146,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 1158,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 1173,
+      "symbol": "_Patch",
+      "value": [
+        3,
+        1786592
+      ]
+    },
+    {
+      "source_offset": 1180,
+      "symbol": "gf1_midi_change_program_",
+      "value": [
+        1,
+        458184
+      ]
+    },
+    {
+      "source_offset": 1192,
+      "symbol": "gf1_midi_change_program_",
+      "value": [
+        1,
+        458184
+      ]
+    },
+    {
+      "source_offset": 1210,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1249,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 1260,
+      "symbol": "_PatchMap",
+      "value": [
+        3,
+        1781472
+      ]
+    },
+    {
+      "source_offset": 1272,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 1304,
+      "symbol": "_Patch",
+      "value": [
+        3,
+        1786592
+      ]
+    },
+    {
+      "source_offset": 1311,
+      "symbol": "gf1_midi_note_on_",
+      "value": [
+        1,
+        453604
+      ]
+    },
+    {
+      "source_offset": 1335,
+      "symbol": "gf1_midi_note_on_",
+      "value": [
+        1,
+        453604
+      ]
+    },
+    {
+      "source_offset": 1352,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1384,
+      "symbol": "gf1_midi_note_off_",
+      "value": [
+        1,
+        455276
+      ]
+    },
+    {
+      "source_offset": 1401,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1436,
+      "symbol": "gf1_midi_parameter_",
+      "value": [
+        1,
+        447368
+      ]
+    },
+    {
+      "source_offset": 1453,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1488,
+      "symbol": "gf1_midi_pitch_bend_",
+      "value": [
+        1,
+        447136
+      ]
+    },
+    {
+      "source_offset": 1505,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1553,
+      "symbol": "GUSMIDI_UnloadPatch_",
+      "value": [
+        1,
+        521814
+      ]
+    },
+    {
+      "source_offset": 1574,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1656,
+      "symbol": "_GUSMIDI_Volume",
+      "value": [
+        3,
+        62261
+      ]
+    },
+    {
+      "source_offset": 1668,
+      "symbol": "gf1_midi_synth_volume_",
+      "value": [
+        1,
+        450924
+      ]
+    },
+    {
+      "source_offset": 1687,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1706,
+      "symbol": "_GUSMIDI_Volume",
+      "value": [
+        3,
+        62261
+      ]
+    },
+    {
+      "source_offset": 1731,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 1751,
+      "symbol": "_GUSMIDI_Installed",
+      "value": [
+        3,
+        62265
+      ]
+    },
+    {
+      "source_offset": 1759,
+      "symbol": "GUSMIDI_Shutdown_",
+      "value": [
+        1,
+        523311
+      ]
+    },
+    {
+      "source_offset": 1764,
+      "symbol": "GUS_Init_",
+      "value": [
+        1,
+        523697
+      ]
+    },
+    {
+      "source_offset": 1790,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 1799,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 1809,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 1818,
+      "symbol": "_GUS_MemConfig",
+      "value": [
+        3,
+        1796152
+      ]
+    },
+    {
+      "source_offset": 1860,
+      "symbol": "_ProgramName",
+      "value": [
+        3,
+        1793760
+      ]
+    },
+    {
+      "source_offset": 1873,
+      "symbol": "_PatchWaves",
+      "value": [
+        3,
+        1785568
+      ]
+    },
+    {
+      "source_offset": 1886,
+      "symbol": "_PatchLoaded",
+      "value": [
+        3,
+        1781216
+      ]
+    },
+    {
+      "source_offset": 1899,
+      "symbol": "GUSMIDI_SetVolume_",
+      "value": [
+        1,
+        522854
+      ]
+    },
+    {
+      "source_offset": 1905,
+      "symbol": "_GUSMIDI_Installed",
+      "value": [
+        3,
+        62265
+      ]
+    },
+    {
+      "source_offset": 1914,
+      "symbol": "_ConfigFileName",
+      "value": [
+        3,
+        62168
+      ]
+    },
+    {
+      "source_offset": 1919,
+      "symbol": "GUS_GetPatchMap_",
+      "value": [
+        1,
+        521286
+      ]
+    },
+    {
+      "source_offset": 1933,
+      "symbol": "GUSMIDI_Shutdown_",
+      "value": [
+        1,
+        523311
+      ]
+    },
+    {
+      "source_offset": 1946,
+      "symbol": "gf1_mem_avail_",
+      "value": [
+        1,
+        470364
+      ]
+    },
+    {
+      "source_offset": 1983,
+      "symbol": "GUSMIDI_LoadPatch_",
+      "value": [
+        1,
+        521996
+      ]
+    },
+    {
+      "source_offset": 1998,
+      "symbol": "_GUSMIDI_Installed",
+      "value": [
+        3,
+        62265
+      ]
+    },
+    {
+      "source_offset": 2031,
+      "symbol": "__CHK",
+      "value": [
+        1,
+        590840
+      ]
+    },
+    {
+      "source_offset": 2050,
+      "symbol": "GUSMIDI_ReleasePatches_",
+      "value": [
+        1,
+        522785
+      ]
+    },
+    {
+      "source_offset": 2055,
+      "symbol": "GUS_Shutdown_",
+      "value": [
+        1,
+        523983
+      ]
+    },
+    {
+      "source_offset": 2061,
+      "symbol": "_GUSMIDI_Installed",
+      "value": [
+        3,
+        62265
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 2227,
+    "zero_fill_bytes": 14928,
+    "verified_fixups": 125,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 521286,
+        "compared_bytes": 2076,
+        "verified_fixups": 125,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 18712,
+        "compared_bytes": 50,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 62168,
+        "compared_bytes": 101,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1781216,
+        "compared_bytes": 14928,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "GUSMIDI_Init_": [
+        1,
+        523011
+      ],
+      "GUSMIDI_Shutdown_": [
+        1,
+        523311
+      ],
+      "GUSMIDI_SetVolume_": [
+        1,
+        522854
+      ],
+      "GUSMIDI_GetVolume_": [
+        1,
+        522967
+      ],
+      "GUSMIDI_NoteOff_": [
+        1,
+        522632
+      ],
+      "GUSMIDI_NoteOn_": [
+        1,
+        522490
+      ],
+      "GUS_GetPatchMap_": [
+        1,
+        521286
+      ],
+      "GUSMIDI_UnloadPatch_": [
+        1,
+        521814
+      ],
+      "GUSMIDI_LoadPatch_": [
+        1,
+        521996
+      ],
+      "GUSMIDI_ProgramChange_": [
+        1,
+        522384
+      ],
+      "GUSMIDI_ControlChange_": [
+        1,
+        522681
+      ],
+      "GUSMIDI_PitchBend_": [
+        1,
+        522733
+      ],
+      "GUSMIDI_ReleasePatches_": [
+        1,
+        522785
+      ],
+      "__CHK": [
+        1,
+        590840
+      ],
+      "_PatchMap": [
+        3,
+        1781472
+      ],
+      "_ProgramName": [
+        3,
+        1793760
+      ],
+      "getenv_": [
+        1,
+        589923
+      ],
+      "_GUS_ErrorCode": [
+        3,
+        62284
+      ],
+      "_InstrumentDirectory": [
+        3,
+        1796064
+      ],
+      "strcpy_": [
+        1,
+        583173
+      ],
+      "strcat_": [
+        1,
+        583733
+      ],
+      "_ConfigDirectory": [
+        3,
+        62181
+      ],
+      "fopen_": [
+        1,
+        584545
+      ],
+      "fgets_": [
+        1,
+        590536
+      ],
+      "sscanf_": [
+        1,
+        590988
+      ],
+      "fclose_": [
+        1,
+        583330
+      ],
+      "_GUS_MemConfig": [
+        3,
+        1796152
+      ],
+      "_PatchLoaded": [
+        3,
+        1781216
+      ],
+      "_Patch": [
+        3,
+        1786592
+      ],
+      "gf1_unload_patch_": [
+        1,
+        466092
+      ],
+      "_PatchWaves": [
+        3,
+        1785568
+      ],
+      "USRHOOKS_FreeMem_": [
+        1,
+        282272
+      ],
+      "gf1_get_patch_info_": [
+        1,
+        464688
+      ],
+      "_GUS_AuxError": [
+        3,
+        62280
+      ],
+      "USRHOOKS_GetMem_": [
+        1,
+        282240
+      ],
+      "_GUS_HoldBuffer": [
+        3,
+        1796144
+      ],
+      "gf1_load_patch_": [
+        1,
+        464920
+      ],
+      "gf1_midi_change_program_": [
+        1,
+        458184
+      ],
+      "gf1_midi_note_on_": [
+        1,
+        453604
+      ],
+      "gf1_midi_note_off_": [
+        1,
+        455276
+      ],
+      "gf1_midi_parameter_": [
+        1,
+        447368
+      ],
+      "gf1_midi_pitch_bend_": [
+        1,
+        447136
+      ],
+      "_GUSMIDI_Volume": [
+        3,
+        62261
+      ],
+      "gf1_midi_synth_volume_": [
+        1,
+        450924
+      ],
+      "_GUSMIDI_Installed": [
+        3,
+        62265
+      ],
+      "GUS_Init_": [
+        1,
+        523697
+      ],
+      "_ConfigFileName": [
+        3,
+        62168
+      ],
+      "gf1_mem_avail_": [
+        1,
+        470364
+      ],
+      "GUS_Shutdown_": [
+        1,
+        523983
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "GUSMIDI_Init_": [
+      1,
+      523011
+    ],
+    "GUSMIDI_Shutdown_": [
+      1,
+      523311
+    ],
+    "GUSMIDI_SetVolume_": [
+      1,
+      522854
+    ],
+    "GUSMIDI_GetVolume_": [
+      1,
+      522967
+    ],
+    "GUSMIDI_NoteOff_": [
+      1,
+      522632
+    ],
+    "GUSMIDI_NoteOn_": [
+      1,
+      522490
+    ]
+  },
+  "anchor_evidence": "evidence/music-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

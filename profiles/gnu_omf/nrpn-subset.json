@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "name": "gnu-objconv-nrpn-finite-extension",
+  "base_tool_profile_sha256": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+  "scope": "Additional closed NRPN source subset; shared hardware guard unchanged",
+  "contract": "src/pawe32/nrpn/contract.py",
+  "descriptor": "modules/pawe_nrpn.json",
+  "decoder_manifest_sha256": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+  "sections": [".text", ".data", ".bss", "_TEXT", "_DATA"],
+  "code_pointer_table_entries": 55,
+  "real_cs_indirect_dispatches": 2,
+  "source_private_identities": 95,
+  "source_absolute_constants": 17,
+  "public_definitions": 3,
+  "imports": 8,
+  "fixups": 149,
+  "source_credit": 0,
+  "general_coff_support": false
+}

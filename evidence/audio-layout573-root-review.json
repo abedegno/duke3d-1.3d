@@ -1,0 +1,92 @@
+{
+  "kind": "ROOT independent564+copyfix review",
+  "commits": [
+    "c243259c4d33ea05f615ab477ef8fd50ca99ceef",
+    "840ecda3acee9fbccebbff50a1a9b26ac365f1e7"
+  ],
+  "owned_pins_checked": 94,
+  "five_sources_exact_reviewed": true,
+  "five_old_new_coverage_unions_and_counts_equal": true,
+  "other_top_level_whole_dictionaries_literal_except_VID_context": 118,
+  "dispatcher_only_named_five_route_hook": true,
+  "core_and_Make_literal": true,
+  "GAME78_runtime134_literal": true,
+  "copy_identity_independent_regression": "fixed-copy-results.json",
+  "whole_executable_identical": false,
+  "ROOT_adoption_commits": [
+    "2d27c26",
+    "f3939b5"
+  ],
+  "independent_tests": {
+    "methods": 15,
+    "seconds": 20.308,
+    "log_sha256": "9d905389488159a9094ee8ada1bb29e3806b2137f7a069c342e237946e7a940d"
+  },
+  "actual_independent_pre_copy_controls": [
+    {
+      "copied_input": "irq.c",
+      "rejected_before_native": true,
+      "error": "audio layout pre-copy expected stage bytes differ"
+    },
+    {
+      "copied_input": "layout-README.md",
+      "rejected_before_native": true,
+      "error": "audio layout pre-copy expected stage bytes differ"
+    },
+    {
+      "copied_input": "gpl.txt",
+      "rejected_before_native": true,
+      "error": "audio layout pre-copy expected stage bytes differ"
+    }
+  ],
+  "old_producer_actual_failure": {
+    "producer_admitted": true,
+    "copied_source": "/Users/jonw/duke3d/build/task573-audio564-review/copy-gap-native/irq-audio-l09_e_z_/source-only/irq.c",
+    "live_source_sha256": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994",
+    "actual_staged_sha256": "7587cfd5fc00ce273edf66cea16e7b367a90c8292c8be9522e1a1ed940f22e27",
+    "live_and_staged_source_equal": false,
+    "object_sha256": "27ffd537a9835786af6e25aafbeee6dbfe46f89f1435518efba04b81b4eb2aef"
+  },
+  "fresh_ROOT_registered_whole_gates": {
+    "sndscape": {
+      "initialized": 6539,
+      "BSS": 92,
+      "fields": 445,
+      "receipt_sha256": "2f6c4ee872b0bc0dc33fee0f27ce1b3b250da879fdbfc2d362683086bd64cd94"
+    },
+    "sndsrc": {
+      "initialized": 2062,
+      "BSS": 28,
+      "fields": 201,
+      "receipt_sha256": "2e03ca6ab35500d3610efea049d98faf29847b6966d897198045d1251db4954c"
+    },
+    "pas16": {
+      "initialized": 6716,
+      "BSS": 104,
+      "fields": 489,
+      "receipt_sha256": "9d8cf6210b5cd2197e482000c58dbd4c0d820e76e07dfb717b96f06c1c109c01"
+    },
+    "irq": {
+      "initialized": 1016,
+      "BSS": 54,
+      "fields": 103,
+      "receipt_sha256": "5a1a8b373758fdc510ce9e6aa3da7c75931b9045b81c57496561754e4308ea09"
+    },
+    "blaster": {
+      "initialized": 7791,
+      "BSS": 86,
+      "fields": 565,
+      "receipt_sha256": "91f96045cb3bd5722bcc7365a0704afab86b5eb6109923d3a09b6035cdaeca25"
+    }
+  },
+  "admitted_totals": {
+    "whole_contributions": 111,
+    "CODE_bytes": 564409,
+    "target_CODE_bytes": 632345,
+    "initialized_bytes": 562204,
+    "BSS_bytes": 1549424,
+    "fields": 28658,
+    "disjoint_range_records": 368,
+    "source_coverage_union_changed": false
+  }
+}

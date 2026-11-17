@@ -1,0 +1,45 @@
+{
+  "kind": "Independent approval of normal user-authorized unidentifiedDATA96 wrapper",
+  "author_commit": "a0da2e2",
+  "review": {
+    "review_task": 595,
+    "author_commit": "a0da2e2",
+    "verdict": "Approved bounded user-authorized DATA96 preservation; no Critical/Important findings",
+    "minor_finding": "unescaped dot in ZERO directive regex; actual assembler rejects invalid prefix so no admission bypass",
+    "author_12pins_unchanged": true,
+    "initial_source_pins_unchanged": true,
+    "normal_tests": {
+      "methods": 8,
+      "seconds": 0.559,
+      "passed": true
+    },
+    "Python_O_tests": {
+      "methods": 8,
+      "seconds": 0.536,
+      "passed": true
+    },
+    "independent_controls_each_mode": 8,
+    "source_only_audited_each_mode": true,
+    "fresh_object_sha256": "de7bb98f3eab9c2974c73c98c0e65e03fff96fa0b50aa8d7ed16631a84516b33",
+    "fresh_whole_proof_sha256": "d2f061546cba909fe945ea7dc44083a3f1048a11ee32e24183f8be3608daf75a",
+    "report_sha256": "e46bd7ce647b066b4e1541336b2863127e94114e99cfc6b44c714530920ae836",
+    "artifact_manifest_sha256": "e8c5099425c13ee67a0cc4b99e9bff11647faa1c912697df1216503b3bc0b355",
+    "artifact_files": 234,
+    "source_or_ROOT_tracked_files_edited": false,
+    "historical_source_credit": 0,
+    "complete_module_credit": 0,
+    "whole_executable_identical": false
+  },
+  "root_review_pins_checked": 234,
+  "root_author_pins_checked": 12,
+  "changed_pins": [],
+  "remaining_nonblocking_minor": "ZERO directive regex dot is unescaped; actual assembler rejects invalid prefix before any source build/proof. Deferred until next wrapper edit; no admission bypass.",
+  "historical_source_credit_added": 0,
+  "complete_module_credit_added": 0,
+  "full_executable_identical": false,
+  "artifact_sha256": {
+    "build/task595-data96-review/review-freeze.json": "e763d39c1d7f6b50367e9096e47dab924492061a43f9d2673d725f002d6f755c",
+    "build/task595-data96-review/artifact-manifest.json": "e8c5099425c13ee67a0cc4b99e9bff11647faa1c912697df1216503b3bc0b355",
+    "build/task595-data96-review/task-595-data96-normal-independent-review.md": "e46bd7ce647b066b4e1541336b2863127e94114e99cfc6b44c714530920ae836"
+  }
+}

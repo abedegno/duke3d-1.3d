@@ -1,0 +1,2685 @@
+{
+  "kind": "complete GAMEDEF contributions with public interval diagnostics, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/game/gamedef.c",
+  "source_sha256": "132712a9d6c8b058fe344290d68d5f2297eb0d7ac1da2e96e6548cf602624346",
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "4ac6fe1badf9d617df2c880c6b74da6d407b7207c6fa810bd18e9208bdc5d825",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+  },
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "anchor_evidence_sha256": {
+    "evidence/engine-function-matches.json": "22ae2f5dc73b50aea3c2141ced565e3ff85e29e116c59466731153dc5598e7d0",
+    "evidence/sounds-module.json": "48788ff88fb864053ffe326609e59f050ba5d703fafb70c4fe616302f0f4c200"
+  },
+  "functions": [
+    {
+      "symbol": "getincangle_",
+      "source_offset": 0,
+      "target_offset": 145840,
+      "size": 80,
+      "comparison": {
+        "symbol": "getincangle_",
+        "target_object": 1,
+        "target_offset": 145840,
+        "compared_bytes": 80,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "getincangle_": [
+          1,
+          145840
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ]
+      }
+    },
+    {
+      "symbol": "ispecial_",
+      "source_offset": 80,
+      "target_offset": 145920,
+      "size": 48,
+      "comparison": {
+        "symbol": "ispecial_",
+        "target_object": 1,
+        "target_offset": 145920,
+        "compared_bytes": 48,
+        "verified_fixups": 2,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_line_number": [
+          3,
+          77794
+        ],
+        "ispecial_": [
+          1,
+          145920
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "isaltok_",
+      "source_offset": 128,
+      "target_offset": 145968,
+      "size": 64,
+      "comparison": {
+        "symbol": "isaltok_",
+        "target_object": 1,
+        "target_offset": 145968,
+        "compared_bytes": 64,
+        "verified_fixups": 1,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "__IsTable": [
+          3,
+          29136
+        ],
+        "isaltok_": [
+          1,
+          145968
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ]
+      }
+    },
+    {
+      "symbol": "getglobalz_",
+      "source_offset": 192,
+      "target_offset": 146032,
+      "size": 512,
+      "comparison": {
+        "symbol": "getglobalz_",
+        "target_object": 1,
+        "target_offset": 146032,
+        "compared_bytes": 512,
+        "verified_fixups": 18,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "getglobalz_": [
+          1,
+          146032
+        ],
+        "getzrange_": [
+          1,
+          377429
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ]
+      }
+    },
+    {
+      "symbol": "makeitfall_",
+      "source_offset": 704,
+      "target_offset": 146544,
+      "size": 448,
+      "comparison": {
+        "symbol": "makeitfall_",
+        "target_object": 1,
+        "target_offset": 146544,
+        "compared_bytes": 448,
+        "verified_fixups": 13,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "ceilingspace_": [
+          1,
+          84592
+        ],
+        "floorspace_": [
+          1,
+          84672
+        ],
+        "getzrange_": [
+          1,
+          377429
+        ],
+        "makeitfall_": [
+          1,
+          146544
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ]
+      }
+    },
+    {
+      "symbol": "getlabel_",
+      "source_offset": 1152,
+      "target_offset": 146992,
+      "size": 144,
+      "comparison": {
+        "symbol": "getlabel_",
+        "target_object": 1,
+        "target_offset": 146992,
+        "compared_bytes": 144,
+        "verified_fixups": 12,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "__IsTable": [
+          3,
+          29136
+        ],
+        "_label": [
+          3,
+          574928
+        ],
+        "_labelcnt": [
+          3,
+          574916
+        ],
+        "_line_number": [
+          3,
+          77794
+        ],
+        "_textptr": [
+          3,
+          574932
+        ],
+        "getlabel_": [
+          1,
+          146992
+        ],
+        "ispecial_": [
+          1,
+          145920
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "keyword_",
+      "source_offset": 1296,
+      "target_offset": 147136,
+      "size": 128,
+      "comparison": {
+        "symbol": "keyword_",
+        "target_object": 1,
+        "target_offset": 147136,
+        "compared_bytes": 128,
+        "verified_fixups": 8,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_keyw": [
+          3,
+          30424
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_textptr": [
+          3,
+          574932
+        ],
+        "isaltok_": [
+          1,
+          145968
+        ],
+        "keyword_": [
+          1,
+          147136
+        ],
+        "strcmp_": [
+          1,
+          586240
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "4": [
+          3,
+          30424
+        ]
+      }
+    },
+    {
+      "symbol": "transword_",
+      "source_offset": 1424,
+      "target_offset": 147264,
+      "size": 272,
+      "comparison": {
+        "symbol": "transword_",
+        "target_object": 1,
+        "target_offset": 147264,
+        "compared_bytes": 272,
+        "verified_fixups": 27,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_error": [
+          3,
+          582932
+        ],
+        "_gamedef_text": [
+          3,
+          4348
+        ],
+        "_keyw": [
+          3,
+          30424
+        ],
+        "_line_number": [
+          3,
+          77794
+        ],
+        "_scriptptr": [
+          3,
+          579464
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_textptr": [
+          3,
+          574932
+        ],
+        "isaltok_": [
+          1,
+          145968
+        ],
+        "printf_": [
+          1,
+          583204
+        ],
+        "strcmp_": [
+          1,
+          586240
+        ],
+        "transword_": [
+          1,
+          147264
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ],
+        "4": [
+          3,
+          30424
+        ],
+        "6": [
+          3,
+          4348
+        ]
+      }
+    },
+    {
+      "symbol": "transnum_",
+      "source_offset": 1696,
+      "target_offset": 147536,
+      "size": 960,
+      "comparison": {
+        "symbol": "transnum_",
+        "target_object": 1,
+        "target_offset": 147536,
+        "compared_bytes": 960,
+        "verified_fixups": 174,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "__IsTable": [
+          3,
+          29136
+        ],
+        "_error": [
+          3,
+          582932
+        ],
+        "_gamedef_text": [
+          3,
+          4348
+        ],
+        "_keyw": [
+          3,
+          30424
+        ],
+        "_label": [
+          3,
+          574928
+        ],
+        "_labelcnt": [
+          3,
+          574916
+        ],
+        "_labelcode": [
+          3,
+          574900
+        ],
+        "_line_number": [
+          3,
+          77794
+        ],
+        "_scriptptr": [
+          3,
+          579464
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_textptr": [
+          3,
+          574932
+        ],
+        "atol_": [
+          1,
+          583945
+        ],
+        "isaltok_": [
+          1,
+          145968
+        ],
+        "printf_": [
+          1,
+          583204
+        ],
+        "strcmp_": [
+          1,
+          586240
+        ],
+        "transnum_": [
+          1,
+          147536
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ],
+        "4": [
+          3,
+          30424
+        ],
+        "6": [
+          3,
+          4348
+        ]
+      }
+    },
+    {
+      "symbol": "parsecommand_",
+      "source_offset": 2656,
+      "target_offset": 148496,
+      "size": 5616,
+      "comparison": {
+        "symbol": "parsecommand_",
+        "target_object": 1,
+        "target_offset": 148496,
+        "compared_bytes": 5616,
+        "verified_fixups": 543,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_actorscrptr": [
+          3,
+          266136
+        ],
+        "_betaname": [
+          3,
+          111728
+        ],
+        "_bouncemineblastradius": [
+          3,
+          573796
+        ],
+        "_camerashitable": [
+          3,
+          582921
+        ],
+        "_checking_ifelse": [
+          3,
+          77799
+        ],
+        "_designertime": [
+          3,
+          574228
+        ],
+        "_dukefriction": [
+          3,
+          31180
+        ],
+        "_env_music_fn": [
+          3,
+          582826
+        ],
+        "_error": [
+          3,
+          582932
+        ],
+        "_freezerhurtowner": [
+          3,
+          31184
+        ],
+        "_fta_quotes": [
+          3,
+          397904
+        ],
+        "_gamedef_text": [
+          3,
+          4348
+        ],
+        "_impact_damage": [
+          3,
+          579544
+        ],
+        "_keyw": [
+          3,
+          30424
+        ],
+        "_label": [
+          3,
+          574928
+        ],
+        "_labelcnt": [
+          3,
+          574916
+        ],
+        "_labelcode": [
+          3,
+          574900
+        ],
+        "_last_used_size": [
+          3,
+          77780
+        ],
+        "_last_used_text": [
+          3,
+          77760
+        ],
+        "_level_file_names": [
+          3,
+          111808
+        ],
+        "_level_names": [
+          3,
+          581308
+        ],
+        "_line_number": [
+          3,
+          77794
+        ],
+        "_loadfromgrouponly": [
+          3,
+          582928
+        ],
+        "_max_ammo_amount": [
+          3,
+          579488
+        ],
+        "_max_armour_amount": [
+          3,
+          579484
+        ],
+        "_max_player_health": [
+          3,
+          579532
+        ],
+        "_morterblastradius": [
+          3,
+          573832
+        ],
+        "_music_fn": [
+          3,
+          582397
+        ],
+        "_num_squigilly_brackets": [
+          3,
+          77792
+        ],
+        "_numfreezebounces": [
+          3,
+          31188
+        ],
+        "_parsing_actor": [
+          3,
+          574924
+        ],
+        "_parsing_state": [
+          3,
+          77798
+        ],
+        "_partime": [
+          3,
+          574708
+        ],
+        "_pipebombblastradius": [
+          3,
+          573820
+        ],
+        "_respawnactortime": [
+          3,
+          31140
+        ],
+        "_respawnitemtime": [
+          3,
+          31144
+        ],
+        "_rpgblastradius": [
+          3,
+          573808
+        ],
+        "_scriptptr": [
+          3,
+          579464
+        ],
+        "_seenineblastradius": [
+          3,
+          573824
+        ],
+        "_shrinkerblastradius": [
+          3,
+          573792
+        ],
+        "_soundm": [
+          3,
+          573880
+        ],
+        "_soundpe": [
+          3,
+          116032
+        ],
+        "_soundpr": [
+          3,
+          574360
+        ],
+        "_soundps": [
+          3,
+          116728
+        ],
+        "_sounds": [
+          3,
+          282520
+        ],
+        "_soundvo": [
+          3,
+          118816
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_textptr": [
+          3,
+          574932
+        ],
+        "_total_script_lines": [
+          3,
+          77796
+        ],
+        "_tripbombblastradius": [
+          3,
+          573816
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_warning": [
+          3,
+          582931
+        ],
+        "getlabel_": [
+          1,
+          146992
+        ],
+        "isaltok_": [
+          1,
+          145968
+        ],
+        "kclose_": [
+          1,
+          420443
+        ],
+        "keyword_": [
+          1,
+          147136
+        ],
+        "kfilelength_": [
+          1,
+          420387
+        ],
+        "kopen4load_": [
+          1,
+          419813
+        ],
+        "kread_": [
+          1,
+          420053
+        ],
+        "parsecommand_": [
+          1,
+          148496
+        ],
+        "printf_": [
+          1,
+          583204
+        ],
+        "puts_": [
+          1,
+          583900
+        ],
+        "strcmp_": [
+          1,
+          586240
+        ],
+        "toupper_": [
+          1,
+          583021
+        ],
+        "transnum_": [
+          1,
+          147536
+        ],
+        "transword_": [
+          1,
+          147264
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ],
+        "6": [
+          3,
+          4348
+        ],
+        "4": [
+          3,
+          30424
+        ]
+      }
+    },
+    {
+      "symbol": "passone_",
+      "source_offset": 8272,
+      "target_offset": 154112,
+      "size": 48,
+      "comparison": {
+        "symbol": "passone_",
+        "target_object": 1,
+        "target_offset": 154112,
+        "compared_bytes": 48,
+        "verified_fixups": 5,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_error": [
+          3,
+          582932
+        ],
+        "_gamedef_text": [
+          3,
+          4348
+        ],
+        "_warning": [
+          3,
+          582931
+        ],
+        "parsecommand_": [
+          1,
+          148496
+        ],
+        "passone_": [
+          1,
+          154112
+        ],
+        "puts_": [
+          1,
+          583900
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "6": [
+          3,
+          4348
+        ]
+      }
+    },
+    {
+      "symbol": "loadefs_",
+      "source_offset": 8320,
+      "target_offset": 154160,
+      "size": 672,
+      "comparison": {
+        "symbol": "loadefs_",
+        "target_object": 1,
+        "target_offset": 154160,
+        "compared_bytes": 672,
+        "verified_fixups": 79,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "KB_FlushKeyboardQueue_": [
+          1,
+          568860
+        ],
+        "KB_Getch_": [
+          1,
+          568720
+        ],
+        "KB_KeyWaiting_": [
+          1,
+          568700
+        ],
+        "_actorscrptr": [
+          3,
+          266136
+        ],
+        "_buf": [
+          3,
+          287392
+        ],
+        "_error": [
+          3,
+          582932
+        ],
+        "_gamedef_text": [
+          3,
+          4348
+        ],
+        "_groupfile": [
+          3,
+          574872
+        ],
+        "_labelcnt": [
+          3,
+          574916
+        ],
+        "_last_used_end": [
+          3,
+          77776
+        ],
+        "_last_used_size": [
+          3,
+          77780
+        ],
+        "_last_used_text": [
+          3,
+          77760
+        ],
+        "_line_number": [
+          3,
+          77794
+        ],
+        "_loadfromgrouponly": [
+          3,
+          582928
+        ],
+        "_script": [
+          3,
+          287488
+        ],
+        "_scriptptr": [
+          3,
+          579464
+        ],
+        "_textptr": [
+          3,
+          574932
+        ],
+        "_total_script_lines": [
+          3,
+          77796
+        ],
+        "_warning": [
+          3,
+          582931
+        ],
+        "gameexit_": [
+          1,
+          22896
+        ],
+        "kclose_": [
+          1,
+          420443
+        ],
+        "kfilelength_": [
+          1,
+          420387
+        ],
+        "kopen4load_": [
+          1,
+          419813
+        ],
+        "kread_": [
+          1,
+          420053
+        ],
+        "loadefs_": [
+          1,
+          154160
+        ],
+        "passone_": [
+          1,
+          154112
+        ],
+        "printf_": [
+          1,
+          583204
+        ],
+        "puts_": [
+          1,
+          583900
+        ],
+        "sprintf_": [
+          1,
+          583257
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "6": [
+          3,
+          4348
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "dodge_",
+      "source_offset": 8992,
+      "target_offset": 154832,
+      "size": 320,
+      "comparison": {
+        "symbol": "dodge_",
+        "target_object": 1,
+        "target_offset": 154832,
+        "compared_bytes": 320,
+        "verified_fixups": 13,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "dodge_": [
+          1,
+          154832
+        ],
+        "krand_": [
+          1,
+          377409
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ]
+      }
+    },
+    {
+      "symbol": "furthestangle_",
+      "source_offset": 9312,
+      "target_offset": 155152,
+      "size": 272,
+      "comparison": {
+        "symbol": "furthestangle_",
+        "target_object": 1,
+        "target_offset": 155152,
+        "compared_bytes": 272,
+        "verified_fixups": 5,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_g_t": [
+          3,
+          77764
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "furthestangle_": [
+          1,
+          155152
+        ],
+        "hitscan_": [
+          1,
+          354777
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "furthestcanseepoint_",
+      "source_offset": 9584,
+      "target_offset": 155424,
+      "size": 416,
+      "comparison": {
+        "symbol": "furthestcanseepoint_",
+        "target_object": 1,
+        "target_offset": 155424,
+        "compared_bytes": 416,
+        "verified_fixups": 11,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_g_t": [
+          3,
+          77764
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "cansee_": [
+          1,
+          354154
+        ],
+        "furthestcanseepoint_": [
+          1,
+          155424
+        ],
+        "hitscan_": [
+          1,
+          354777
+        ],
+        "krand_": [
+          1,
+          377409
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "alterang_",
+      "source_offset": 10000,
+      "target_offset": 155840,
+      "size": 656,
+      "comparison": {
+        "symbol": "alterang_",
+        "target_object": 1,
+        "target_offset": 155840,
+        "compared_bytes": 656,
+        "verified_fixups": 41,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_g_i": [
+          3,
+          77788
+        ],
+        "_g_p": [
+          3,
+          77790
+        ],
+        "_g_sp": [
+          3,
+          77768
+        ],
+        "_g_t": [
+          3,
+          77764
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "alterang_": [
+          1,
+          155840
+        ],
+        "cansee_": [
+          1,
+          354154
+        ],
+        "furthestangle_": [
+          1,
+          155152
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getincangle_": [
+          1,
+          145840
+        ],
+        "hits_": [
+          1,
+          205024
+        ],
+        "krand_": [
+          1,
+          377409
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "move_",
+      "source_offset": 10656,
+      "target_offset": 156496,
+      "size": 2288,
+      "comparison": {
+        "symbol": "move_",
+        "target_object": 1,
+        "target_offset": 156496,
+        "compared_bytes": 2288,
+        "verified_fixups": 146,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_dukefriction": [
+          3,
+          31180
+        ],
+        "_g_i": [
+          3,
+          77788
+        ],
+        "_g_p": [
+          3,
+          77790
+        ],
+        "_g_sp": [
+          3,
+          77768
+        ],
+        "_g_t": [
+          3,
+          77764
+        ],
+        "_g_x": [
+          3,
+          77772
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "alterang_": [
+          1,
+          155840
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "dodge_": [
+          1,
+          154832
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getceilzofslope_": [
+          1,
+          409894
+        ],
+        "getflorzofslope_": [
+          1,
+          410144
+        ],
+        "getincangle_": [
+          1,
+          145840
+        ],
+        "move_": [
+          1,
+          156496
+        ],
+        "movesprite_": [
+          1,
+          88288
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    },
+    {
+      "symbol": "parseifelse_",
+      "source_offset": 12944,
+      "target_offset": 158784,
+      "size": 528,
+      "comparison": {
+        "symbol": "parseifelse_",
+        "target_object": 1,
+        "target_offset": 158784,
+        "compared_bytes": 528,
+        "verified_fixups": 124,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_insptr": [
+          3,
+          574888
+        ],
+        "parse_": [
+          1,
+          159312
+        ],
+        "parseifelse_": [
+          1,
+          158784
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ]
+      }
+    },
+    {
+      "symbol": "parse_",
+      "source_offset": 13472,
+      "target_offset": 159312,
+      "size": 13072,
+      "comparison": {
+        "symbol": "parse_",
+        "target_object": 1,
+        "target_offset": 159312,
+        "compared_bytes": 13072,
+        "verified_fixups": 971,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "FTA_": [
+          1,
+          22704
+        ],
+        "_KB_KeyDown": [
+          3,
+          2130912
+        ],
+        "_Sound": [
+          3,
+          574936
+        ],
+        "_cameraclock": [
+          3,
+          29564
+        ],
+        "_cameradist": [
+          3,
+          29560
+        ],
+        "_g_i": [
+          3,
+          77788
+        ],
+        "_g_p": [
+          3,
+          77790
+        ],
+        "_g_sp": [
+          3,
+          77768
+        ],
+        "_g_t": [
+          3,
+          77764
+        ],
+        "_g_x": [
+          3,
+          77772
+        ],
+        "_gamedef_text": [
+          3,
+          4348
+        ],
+        "_headspritesect": [
+          3,
+          1647034
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_insptr": [
+          3,
+          574888
+        ],
+        "_killit_flag": [
+          3,
+          582934
+        ],
+        "_lastsavedpos": [
+          3,
+          31212
+        ],
+        "_max_ammo_amount": [
+          3,
+          579488
+        ],
+        "_max_armour_amount": [
+          3,
+          579484
+        ],
+        "_max_player_health": [
+          3,
+          579532
+        ],
+        "_neartaghitdist": [
+          3,
+          574860
+        ],
+        "_neartagsector": [
+          3,
+          581286
+        ],
+        "_neartagsprite": [
+          3,
+          581288
+        ],
+        "_neartagwall": [
+          3,
+          581292
+        ],
+        "_nextspritesect": [
+          3,
+          1080256
+        ],
+        "_otherp": [
+          3,
+          77748
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_screenpeek": [
+          3,
+          581290
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_sync": [
+          3,
+          573632
+        ],
+        "_totalclock": [
+          3,
+          1644968
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_weaponsandammosprites": [
+          3,
+          31148
+        ],
+        "addammo_": [
+          1,
+          84752
+        ],
+        "addweapon_": [
+          1,
+          84864
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "cansee_": [
+          1,
+          354154
+        ],
+        "ceilingspace_": [
+          1,
+          84592
+        ],
+        "changespritesect_": [
+          1,
+          353812
+        ],
+        "cmenu_": [
+          1,
+          173120
+        ],
+        "dodge_": [
+          1,
+          154832
+        ],
+        "floorspace_": [
+          1,
+          84672
+        ],
+        "forceplayerangle_": [
+          1,
+          204592
+        ],
+        "furthestcanseepoint_": [
+          1,
+          155424
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getglobalz_": [
+          1,
+          146032
+        ],
+        "getincangle_": [
+          1,
+          145840
+        ],
+        "guts_": [
+          1,
+          89776
+        ],
+        "hitasprite_": [
+          1,
+          205232
+        ],
+        "hitradius_": [
+          1,
+          86128
+        ],
+        "ifhitbyweapon_": [
+          1,
+          91728
+        ],
+        "ifsquished_": [
+          1,
+          85840
+        ],
+        "inventory_": [
+          1,
+          10496
+        ],
+        "isanearoperator_": [
+          1,
+          254640
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "lotsofmoney_": [
+          1,
+          89648
+        ],
+        "neartag_": [
+          1,
+          359182
+        ],
+        "operaterespawns_": [
+          1,
+          261328
+        ],
+        "operatesectors_": [
+          1,
+          257504
+        ],
+        "parse_": [
+          1,
+          159312
+        ],
+        "parseifelse_": [
+          1,
+          158784
+        ],
+        "pickrandomspot_": [
+          1,
+          241456
+        ],
+        "printf_": [
+          1,
+          583204
+        ],
+        "pushmove_": [
+          1,
+          368227
+        ],
+        "resetinventory_": [
+          1,
+          242624
+        ],
+        "resetweapons_": [
+          1,
+          242448
+        ],
+        "setpal_": [
+          1,
+          204096
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ],
+        "shoot_": [
+          1,
+          206624
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spriteglass_": [
+          1,
+          82320
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "stopsound_": [
+          1,
+          284832
+        ],
+        "updatesector_": [
+          1,
+          369184
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ],
+        "6": [
+          3,
+          4348
+        ]
+      }
+    },
+    {
+      "symbol": "execute_",
+      "source_offset": 26544,
+      "target_offset": 172384,
+      "size": 721,
+      "comparison": {
+        "symbol": "execute_",
+        "target_object": 1,
+        "target_offset": 172384,
+        "compared_bytes": 721,
+        "verified_fixups": 47,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_actorscrptr": [
+          3,
+          266136
+        ],
+        "_g_i": [
+          3,
+          77788
+        ],
+        "_g_p": [
+          3,
+          77790
+        ],
+        "_g_sp": [
+          3,
+          77768
+        ],
+        "_g_t": [
+          3,
+          77764
+        ],
+        "_g_x": [
+          3,
+          77772
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_insptr": [
+          3,
+          574888
+        ],
+        "_killit_flag": [
+          3,
+          582934
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "changespritestat_": [
+          1,
+          353883
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "execute_": [
+          1,
+          172384
+        ],
+        "move_": [
+          1,
+          156496
+        ],
+        "parse_": [
+          1,
+          159312
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          145840
+        ],
+        "5": [
+          3,
+          77760
+        ]
+      }
+    }
+  ],
+  "initialized_data": [
+    {
+      "segment": 4,
+      "target_object": 3,
+      "target_offset": 30424,
+      "size": 396,
+      "comparison": {
+        "symbol": "range",
+        "target_object": 3,
+        "target_offset": 30424,
+        "compared_bytes": 396,
+        "verified_fixups": 99,
+        "differing_offsets": [],
+        "match": true
+      }
+    },
+    {
+      "segment": 6,
+      "target_object": 3,
+      "target_offset": 4348,
+      "size": 3173,
+      "comparison": {
+        "symbol": "range",
+        "target_object": 3,
+        "target_offset": 4348,
+        "compared_bytes": 3173,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    }
+  ],
+  "data_placements": {
+    "4": [
+      3,
+      30424
+    ],
+    "6": [
+      3,
+      4348
+    ]
+  },
+  "data_bindings": {
+    "_keyw": [
+      3,
+      30424
+    ],
+    "_gamedef_text": [
+      3,
+      4348
+    ]
+  },
+  "matched_function_bytes": 27265,
+  "matched_function_fixups": 2240,
+  "matched_initialized_data_bytes": 3569,
+  "matched_data_fixups": 99,
+  "source_code_bytes": 27265,
+  "source_bss_bytes": 40,
+  "unverified_code_publics": [],
+  "full_module_gate": {
+    "verified": true,
+    "initialized_bytes": 30834,
+    "zero_fill_bytes": 40,
+    "verified_fixups": 2339,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 145840,
+        "compared_bytes": 27265,
+        "verified_fixups": 2240,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 30424,
+        "compared_bytes": 396,
+        "verified_fixups": 99,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 77760,
+        "compared_bytes": 40,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 4348,
+        "compared_bytes": 3173,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_keyw": [
+        3,
+        30424
+      ],
+      "_gamedef_text": [
+        3,
+        4348
+      ],
+      "getincangle_": [
+        1,
+        145840
+      ],
+      "ispecial_": [
+        1,
+        145920
+      ],
+      "isaltok_": [
+        1,
+        145968
+      ],
+      "getglobalz_": [
+        1,
+        146032
+      ],
+      "makeitfall_": [
+        1,
+        146544
+      ],
+      "getlabel_": [
+        1,
+        146992
+      ],
+      "keyword_": [
+        1,
+        147136
+      ],
+      "transword_": [
+        1,
+        147264
+      ],
+      "transnum_": [
+        1,
+        147536
+      ],
+      "parsecommand_": [
+        1,
+        148496
+      ],
+      "passone_": [
+        1,
+        154112
+      ],
+      "loadefs_": [
+        1,
+        154160
+      ],
+      "dodge_": [
+        1,
+        154832
+      ],
+      "furthestangle_": [
+        1,
+        155152
+      ],
+      "furthestcanseepoint_": [
+        1,
+        155424
+      ],
+      "alterang_": [
+        1,
+        155840
+      ],
+      "move_": [
+        1,
+        156496
+      ],
+      "parseifelse_": [
+        1,
+        158784
+      ],
+      "parse_": [
+        1,
+        159312
+      ],
+      "execute_": [
+        1,
+        172384
+      ],
+      "getangle_": [
+        1,
+        331976
+      ],
+      "setsprite_": [
+        1,
+        352579
+      ],
+      "deletesprite_": [
+        1,
+        353362
+      ],
+      "changespritesect_": [
+        1,
+        353812
+      ],
+      "changespritestat_": [
+        1,
+        353883
+      ],
+      "cansee_": [
+        1,
+        354154
+      ],
+      "hitscan_": [
+        1,
+        354777
+      ],
+      "neartag_": [
+        1,
+        359182
+      ],
+      "pushmove_": [
+        1,
+        368227
+      ],
+      "updatesector_": [
+        1,
+        369184
+      ],
+      "krand_": [
+        1,
+        377409
+      ],
+      "getzrange_": [
+        1,
+        377429
+      ],
+      "getceilzofslope_": [
+        1,
+        409894
+      ],
+      "getflorzofslope_": [
+        1,
+        410144
+      ],
+      "printf_": [
+        1,
+        583204
+      ],
+      "_totalclock": [
+        3,
+        1644968
+      ],
+      "_sintable": [
+        3,
+        1285056
+      ],
+      "_headspritesect": [
+        3,
+        1647034
+      ],
+      "_sprite": [
+        3,
+        1104832
+      ],
+      "_nextspritesect": [
+        3,
+        1080256
+      ],
+      "_sector": [
+        3,
+        1597120
+      ],
+      "kopen4load_": [
+        1,
+        419813
+      ],
+      "kread_": [
+        1,
+        420053
+      ],
+      "kclose_": [
+        1,
+        420443
+      ],
+      "_headspritestat": [
+        3,
+        1644984
+      ],
+      "_nextspritestat": [
+        3,
+        1088448
+      ],
+      "spritesound_": [
+        1,
+        284768
+      ],
+      "stopsound_": [
+        1,
+        284832
+      ],
+      "kfilelength_": [
+        1,
+        420387
+      ],
+      "_sounds": [
+        3,
+        282520
+      ],
+      "_loadfromgrouponly": [
+        3,
+        582928
+      ],
+      "_fta_quotes": [
+        3,
+        397904
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "_ps": [
+        3,
+        376112
+      ],
+      "FTA_": [
+        1,
+        22704
+      ],
+      "_Sound": [
+        3,
+        574936
+      ],
+      "_soundpr": [
+        3,
+        574360
+      ],
+      "_soundm": [
+        3,
+        573880
+      ],
+      "_ud": [
+        3,
+        579668
+      ],
+      "_screenpeek": [
+        3,
+        581290
+      ],
+      "_soundps": [
+        3,
+        116728
+      ],
+      "_soundpe": [
+        3,
+        116032
+      ],
+      "_soundvo": [
+        3,
+        118816
+      ],
+      "badguy_": [
+        1,
+        10560
+      ],
+      "_hittype": [
+        3,
+        120728
+      ],
+      "_line_number": [
+        3,
+        77794
+      ],
+      "__IsTable": [
+        3,
+        29136
+      ],
+      "ssp_": [
+        1,
+        89472
+      ],
+      "floorspace_": [
+        1,
+        84672
+      ],
+      "ceilingspace_": [
+        1,
+        84592
+      ],
+      "_textptr": [
+        3,
+        574932
+      ],
+      "_labelcnt": [
+        3,
+        574916
+      ],
+      "_label": [
+        3,
+        574928
+      ],
+      "_tempbuf": [
+        3,
+        413968
+      ],
+      "strcmp_": [
+        1,
+        586240
+      ],
+      "_scriptptr": [
+        3,
+        579464
+      ],
+      "_error": [
+        3,
+        582932
+      ],
+      "_labelcode": [
+        3,
+        574900
+      ],
+      "atol_": [
+        1,
+        583945
+      ],
+      "_parsing_actor": [
+        3,
+        574924
+      ],
+      "_parsing_state": [
+        3,
+        77798
+      ],
+      "_num_squigilly_brackets": [
+        3,
+        77792
+      ],
+      "_warning": [
+        3,
+        582931
+      ],
+      "_music_fn": [
+        3,
+        582397
+      ],
+      "_env_music_fn": [
+        3,
+        582826
+      ],
+      "_checking_ifelse": [
+        3,
+        77799
+      ],
+      "_last_used_text": [
+        3,
+        77760
+      ],
+      "_last_used_size": [
+        3,
+        77780
+      ],
+      "_total_script_lines": [
+        3,
+        77796
+      ],
+      "_actorscrptr": [
+        3,
+        266136
+      ],
+      "_betaname": [
+        3,
+        111728
+      ],
+      "_level_file_names": [
+        3,
+        111808
+      ],
+      "_level_names": [
+        3,
+        581308
+      ],
+      "_partime": [
+        3,
+        574708
+      ],
+      "_designertime": [
+        3,
+        574228
+      ],
+      "toupper_": [
+        1,
+        583021
+      ],
+      "puts_": [
+        1,
+        583900
+      ],
+      "_impact_damage": [
+        3,
+        579544
+      ],
+      "_max_player_health": [
+        3,
+        579532
+      ],
+      "_max_armour_amount": [
+        3,
+        579484
+      ],
+      "_respawnactortime": [
+        3,
+        31140
+      ],
+      "_respawnitemtime": [
+        3,
+        31144
+      ],
+      "_dukefriction": [
+        3,
+        31180
+      ],
+      "_rpgblastradius": [
+        3,
+        573808
+      ],
+      "_pipebombblastradius": [
+        3,
+        573820
+      ],
+      "_shrinkerblastradius": [
+        3,
+        573792
+      ],
+      "_tripbombblastradius": [
+        3,
+        573816
+      ],
+      "_morterblastradius": [
+        3,
+        573832
+      ],
+      "_bouncemineblastradius": [
+        3,
+        573796
+      ],
+      "_seenineblastradius": [
+        3,
+        573824
+      ],
+      "_max_ammo_amount": [
+        3,
+        579488
+      ],
+      "_camerashitable": [
+        3,
+        582921
+      ],
+      "_numfreezebounces": [
+        3,
+        31188
+      ],
+      "_freezerhurtowner": [
+        3,
+        31184
+      ],
+      "gameexit_": [
+        1,
+        22896
+      ],
+      "_script": [
+        3,
+        287488
+      ],
+      "_last_used_end": [
+        3,
+        77776
+      ],
+      "_groupfile": [
+        3,
+        574872
+      ],
+      "KB_FlushKeyboardQueue_": [
+        1,
+        568860
+      ],
+      "KB_KeyWaiting_": [
+        1,
+        568700
+      ],
+      "KB_Getch_": [
+        1,
+        568720
+      ],
+      "_buf": [
+        3,
+        287392
+      ],
+      "_g_t": [
+        3,
+        77764
+      ],
+      "_g_sp": [
+        3,
+        77768
+      ],
+      "_g_p": [
+        3,
+        77790
+      ],
+      "_g_i": [
+        3,
+        77788
+      ],
+      "hits_": [
+        1,
+        205024
+      ],
+      "_g_x": [
+        3,
+        77772
+      ],
+      "movesprite_": [
+        1,
+        88288
+      ],
+      "_insptr": [
+        3,
+        574888
+      ],
+      "_killit_flag": [
+        3,
+        582934
+      ],
+      "hitasprite_": [
+        1,
+        205232
+      ],
+      "ifhitbyweapon_": [
+        1,
+        91728
+      ],
+      "ifsquished_": [
+        1,
+        85840
+      ],
+      "_otherp": [
+        3,
+        77748
+      ],
+      "shoot_": [
+        1,
+        206624
+      ],
+      "guts_": [
+        1,
+        89776
+      ],
+      "spawn_": [
+        1,
+        31536
+      ],
+      "addammo_": [
+        1,
+        84752
+      ],
+      "addweapon_": [
+        1,
+        84864
+      ],
+      "lotsofmoney_": [
+        1,
+        89648
+      ],
+      "spriteglass_": [
+        1,
+        82320
+      ],
+      "EGS_": [
+        1,
+        30672
+      ],
+      "_weaponsandammosprites": [
+        3,
+        31148
+      ],
+      "_lastsavedpos": [
+        3,
+        31212
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "cmenu_": [
+        1,
+        173120
+      ],
+      "pickrandomspot_": [
+        1,
+        241456
+      ],
+      "resetinventory_": [
+        1,
+        242624
+      ],
+      "resetweapons_": [
+        1,
+        242448
+      ],
+      "_cameradist": [
+        3,
+        29560
+      ],
+      "_cameraclock": [
+        3,
+        29564
+      ],
+      "setpal_": [
+        1,
+        204096
+      ],
+      "hitradius_": [
+        1,
+        86128
+      ],
+      "_sync": [
+        3,
+        573632
+      ],
+      "forceplayerangle_": [
+        1,
+        204592
+      ],
+      "_neartaghitdist": [
+        3,
+        574860
+      ],
+      "_neartagsprite": [
+        3,
+        581288
+      ],
+      "_neartagwall": [
+        3,
+        581292
+      ],
+      "_neartagsector": [
+        3,
+        581286
+      ],
+      "isanearoperator_": [
+        1,
+        254640
+      ],
+      "operatesectors_": [
+        1,
+        257504
+      ],
+      "inventory_": [
+        1,
+        10496
+      ],
+      "operaterespawns_": [
+        1,
+        261328
+      ],
+      "_dmval": [
+        3,
+        77784
+      ]
+    },
+    "local_symbols": {
+      "_checking_ifelse": [
+        3,
+        77799
+      ],
+      "_dmval": [
+        3,
+        77784
+      ],
+      "_g_i": [
+        3,
+        77788
+      ],
+      "_g_p": [
+        3,
+        77790
+      ],
+      "_g_sp": [
+        3,
+        77768
+      ],
+      "_g_t": [
+        3,
+        77764
+      ],
+      "_g_x": [
+        3,
+        77772
+      ],
+      "_gamedef_text": [
+        3,
+        4348
+      ],
+      "_last_used_end": [
+        3,
+        77776
+      ],
+      "_last_used_size": [
+        3,
+        77780
+      ],
+      "_last_used_text": [
+        3,
+        77760
+      ],
+      "_line_number": [
+        3,
+        77794
+      ],
+      "_num_squigilly_brackets": [
+        3,
+        77792
+      ],
+      "_parsing_state": [
+        3,
+        77798
+      ],
+      "_total_script_lines": [
+        3,
+        77796
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "scope": "All public CODE intervals and initialized data are checked, followed by a complete module check with one CODE placement and every native segment, public and relocation. A public interval may contain a following function switch-table prefix. Linking and the complete executable remain unverified.",
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false
+}

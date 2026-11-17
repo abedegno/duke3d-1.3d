@@ -1,0 +1,77 @@
+{
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "inputs": [
+    {
+      "upstream": "SOUNDS.C",
+      "upstream_sha256": "8dab9bea8c0c19e7b1b03d15f737719d43e8973d181d6182d1fa6998cb3dcc49",
+      "tracked": "src/game/sounds.c",
+      "tracked_sha256": "f8b55bab53a6113ff8db102bdff3c066b1ecdeb739a891b28f1c2645ec2c321f"
+    },
+    {
+      "upstream": "DUKE3D.H",
+      "upstream_sha256": "36be6b0e36f3b5aeaaaee343d59d4b71b9f422d6ee9447b965255949626803d1",
+      "tracked": "src/game/include/duke3d.h",
+      "tracked_sha256": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f"
+    },
+    {
+      "tracked": "src/game/include/soundabi.h",
+      "tracked_sha256": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+      "origin": "Measured sound-used external ABI views; not an ownership recovery or complete game header."
+    },
+    {
+      "tracked": "src/game/include/userdef.h",
+      "tracked_sha256": "4ac6fe1badf9d617df2c880c6b74da6d407b7207c6fa810bd18e9208bdc5d825",
+      "origin": "Restored external user declaration; see userdef-declaration.json for checked fields and limits."
+    },
+    {
+      "tracked": "src/game/include/playdef.h",
+      "tracked_sha256": "e5bba3ee36199264a070d315984b00b9be908c41ae7feabc448dcb5e5ad64877",
+      "origin": "Restored external declarations; ownership and unused declarations remain unfinished."
+    }
+  ],
+  "license": "GPL-2.0-or-later; original header notices retained",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "selector": {
+    "APPVER_EXEDEF": "DN3D13G",
+    "note": "Source configuration selector. Upstream covers the 1.3D editor and later games; it does not claim a complete 1.3D game reconstruction."
+  },
+  "modifications": [
+    "Restore 348 sound slots and measured sound-used external state views.",
+    "Move positional lockout check after the voice loop, remove the later soundm128 global-sound bypass and opponent-voice restriction.",
+    "Remove later negative-distance clamps and restore quarter-distance rather than one-thirty-second occlusion.",
+    "Check full Sound[num].num before assigning the short callback counter; remove the later SoundOwner tail invalidation.",
+    "Add recovery/ABI scope notices and normalize line endings.",
+    "Use the shared period pragma overlay, omitting the later unused timing static: 12 owned BSS bytes plus 4 linker-alignment bytes before RTS, instead of the prior 16-byte BSS attribution. All code, initialized data and relocations remain identical.",
+    "Replace opaque user-view gaps with the restored external user declaration. Existing sound/CONFIG offsets remain unchanged; allocation ownership and untested ancestral members remain unfinished.",
+    "Replace the opaque player view with the restored declaration and use 11 weapon slots. Inferred array choices and untested ancestral members remain explicitly unverified; existing source contributions retain all runtime bytes and fixups."
+  ],
+  "state_view_scope": {
+    "owns_player_or_user_storage": false,
+    "player_stride": 1362,
+    "player_fields": {
+      "oposx": 568,
+      "oposy": 572,
+      "oposz": 576,
+      "ang": 640,
+      "cursectnum": 646,
+      "look_ang": 648,
+      "timebeforeexit": 748,
+      "gm": 1302
+    },
+    "user_view_fields": {
+      "camerasprite": 1420,
+      "lockout": 1510
+    },
+    "note": "Restored declarations have target checks for the listed accessed fields and player stride. Remaining ancestral members and inferred array choices, complete game behavior and storage ownership remain unfinished."
+  },
+  "build_note": "Tracked C and explicitly merged pinned root/MACT headers plus tracked overlays are compiled; no target payload or prebuilt game bytes enter source output.",
+  "full_executable_rebuilt": false,
+  "bss_attribution": {
+    "owned_bytes": 12,
+    "alignment_before_rts": 4,
+    "previous_checkpoint_owned_bytes": 16,
+    "reason": "CONFIG must end at ENGINE BSS; the shared period pragma omits the later timing static."
+  }
+}

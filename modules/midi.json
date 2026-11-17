@@ -1,0 +1,35 @@
+{
+  "name": "MIDI",
+  "source": "src/audio/midi.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/zu"
+  ],
+  "code_object": 1,
+  "code_offset": 506240,
+  "code_bytes": 8939,
+  "code_publics": 41,
+  "symbol_anchors": {
+    "TS_ScheduleTask_": [
+      1,
+      475972
+    ],
+    "TS_Dispatch_": [
+      1,
+      476348
+    ],
+    "TS_Terminate_": [
+      1,
+      476236
+    ]
+  },
+  "anchor_evidence": "evidence/task_man-module.json",
+  "expected": {
+    "initialized_bytes": 9115,
+    "zero_fill_bytes": 252,
+    "verified_fixups": 650
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "Root626/627 remaining normal source replay and actual full native link",
+  "normal_owned_source_objects_fresh": 121,
+  "all_SOURCE_objects_except_GAME_fresh": true,
+  "fresh_unidentified_DATA96": true,
+  "remaining43_object_comparison": {
+    "count": 43,
+    "raw_identical": 25,
+    "comments_only": 16,
+    "module_name_only": 2,
+    "other_differences": []
+  },
+  "native_replay": {
+    "kind": "Fresh121 normal owned source inputs plus sourceDATA96; GAME private610 and runtime/vendor inputs inherited",
+    "program": "/Users/jonw/duke3d/build/task627-source121-link/link/GAME.EXE",
+    "sha256": "16778a2885510dbe1f92aacd9d0692511907aac50edba91118dcee293ab7983b",
+    "bytes": 961367,
+    "normal_source_owned_inputs": 121,
+    "unidentified96_fresh": true,
+    "private_GAME_inherited": true,
+    "all_link_inputs_unchanged": true,
+    "entire_native_executable_literal_previous_best": true,
+    "full_target_executable_identical": false,
+    "clean_complete_source_rebuild": false,
+    "source_credit_added": 0
+  },
+  "recipe_corrections": "Seven initial calls rejected wrong compiler/profile homes; replayed with existing declared homes. No source, compiler option, ABI, metadata guard or verification changes.",
+  "remaining_work": "GAME614 tracked integration, complete portable source/link/runtime/vendor/binder orchestration, outsideGAME raw relocation order, seven CONST bytes awaiting user reply.",
+  "evidence_sha256": {
+    "build/task626-remaining-source-replay/produce.py": "57fd180941a9ffa224ac9eb92a7f30bdee764c9893ad3f4cbe5405c8383ddf40",
+    "build/task626-remaining-source-replay/native-objects.json": "267ec9388fbad2fd05830b8693eb3e203a1f2789c26318571f5e5a745e3c434c",
+    "build/task626-remaining-source-replay/retry_declared_homes.py": "6152d774e0a5e678753c389f7a342a578ed9d4d22dc8914a13887de70faa55a6",
+    "build/task626-remaining-source-replay/declared-home-objects.json": "befa1c4086e49f130180db902d5c4af450711cf5a563f9c05ec92d02b230a6ea",
+    "build/task626-remaining-source-replay/comparison.json": "101b24f8dfc20655b136e83505108039ceeec4c821f44ceebcbb05c57f5ef6ea",
+    "build/task626-remaining-source-replay/tail-wasm2/source-build.json": "45485080d199ac22c77189e5e01446904c6b3f10a97535d4fa81c4035c83477c",
+    "build/task626-remaining-source-replay/unidentified-source.json": "30880c18395288c13e68cf3d500160330f8cc17127e0d946ed43cb0d6303f9ea",
+    "build/task627-source121-link/replay.py": "65a94da2fb607bd6d6282adeb1cad077f9254a311ef13b81f79ceda1807f69d4",
+    "build/task627-source121-link/result.json": "e053781da5e76452e58f62ec06b8913e154bdd7c69e4e74666eb719f2e80c87d"
+  },
+  "source_credit_added": 0,
+  "full_target_executable_identical": false,
+  "clean_complete_source_rebuild": false
+}

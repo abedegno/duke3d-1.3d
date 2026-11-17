@@ -1,0 +1,209 @@
+{
+  "kind": "reconstructed complete ROX source, source-only native pipeline plus observer; no wholeEXE claim",
+  "lineage": {
+    "released_primary": "dukenukem3d/extras ROX.H/_ROX.H interfaces and primary MACT semantics",
+    "readable_C": "src/mact/rox/C-counterpart/rox.c",
+    "symbolic_source": "src/mact/rox/ROX.S",
+    "reviewed_prior_COFF_source_sha256": "10810534aa0884a68b5b0f4555b72ff92ac6674118f2bb6a96f20342e27e3a49",
+    "mechanism_reviews": [
+      455,
+      461,
+      462,
+      469
+    ],
+    "original_member": {
+      "library": "reference/duke3d-reconstructions/MACT386.LIB",
+      "offset": 8192,
+      "size": 4451,
+      "sha256": "ef8f9c4ddac7ded7c328bbb6dcc75eb31a2b8e0f7fe343fef4247b38d36789a7"
+    },
+    "scope": "All globals/private names are recovered identities, not an original historical source claim; complete C aid and GPL notices retained",
+    "current_accepted_base": "3744956dfc543a5f2372a6ca7743fe21c8d23541"
+  },
+  "descriptor_sha256": "6b0977e3a55c0dd09312e47804e78d7ca17e81e7af23341935833964b6b88e51",
+  "tracked_sources_sha256": {
+    "src/mact/rox/C-counterpart/include/_rox.h": "3483bb8b82dc3a5def4981e22356036388e0fe30bf7c7a884ef99a28f37a9608",
+    "src/mact/rox/C-counterpart/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/rox/C-counterpart/include/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "src/mact/rox/C-counterpart/include/linklist.h": "486e1511568358df8b8606908b2466bbf82e352c7e16272ab62c5194f45e5e80",
+    "src/mact/rox/C-counterpart/include/rox.h": "a2f842302f24e8de0865940866dc5d1d9d19f6fe21cc3a00d8dee26cad9e53c3",
+    "src/mact/rox/C-counterpart/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/rox/C-counterpart/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "src/mact/rox/C-counterpart/include/zone_api.h": "441c775d19c29cc5a0ca75988bb241c3fad1544e5aaf3e24e1550e0eb7665acf",
+    "src/mact/rox/C-counterpart/rox.c": "664f72ebb0f5da72d4e22d213dc9e29afa82578daed949f7d10c7ead428de571",
+    "src/mact/rox/ROX.S": "59010feccfd4e81b3ad2b1ddd476c8b43bb588472f90aa3536dd91d141bb3797",
+    "src/mact/rox/elf_contract.py": "ead6efcee30364d4c7e68c6b556fe585015a6fe7b15a879473b71185f6edc466",
+    "src/mact/rox/literal_source.py": "cd80727bb09408e744ca5e1ecf879ad311972421b1ce68f716b2880fc7147b2c",
+    "src/mact/rox/literals.json": "5f33a4f0f1b54d4054a47119f17a3b603d205d241723b155f96ceb05496b8f6e",
+    "src/mact/rox/source_guard.py": "1886a39150f8e1e9de3065d4c9759f436b8068051315868463c4a6fc94bca646"
+  },
+  "notice_files_sha256": {
+    "src/mact/rox/README.md": "4fef552c006ba3bb438c612207bf1022bf74a22e7e864d4a518d58a4b7674d98",
+    "src/mact/rox/C-counterpart/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "profiles/gnu_elf_omf/README.md": "2fb98db1498b8705dcea39b8d0bbe7a8dbf0829771b9fc673a9f08f07a48f0a6"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_rox.py": "8f4f32baa114fc768d52b88e5d4fc469c2b9f9407748a07d342f7f4bfa4522a7",
+    "profiles/gnu_elf_omf/identity.py": "f97c9a3e849bbe786bdb3f530d9e2a866e081f6630dbab1cac108d66a157f9d8",
+    "profiles/gnu_elf_omf/profile.json": "36c67429e16ae92c1ff84a22699bc65edb5c5f441187261c54e6ceb523b23594",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/gnu_elf_omf/setup.py": "dadaf390a4215c45628a0598eba984e0189a4030d0d0afb7dd403855f1e5cb88",
+    "profiles/gnu_elf_omf/apply_fork.py": "d6c683abdcb67802d931cd38a84b25ad1893b9d73636348db85b032e9f8f5fd9",
+    "profiles/gnu_elf_omf/defined-global.patch": "92a8e263b694d39908393742313cea625798721e9dd1bba443d30f4e3993c530",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19",
+    "tools/mact_rox_callees.py": "65d001b354305977e0c868aafb722e57c54dffa66f745392e210228b216b42d3",
+    "tools/probe_mact_zone.py": "e49435504a116041010f4b8bf84ad9fc8aba29774a798245c7b5fecc5b144815"
+  },
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source_credit": 0,
+  "whole_executable_rebuilt": false,
+  "observer_pin_history": [
+    {
+      "private_pre_rebase_checkpoint": "8df110c",
+      "base": "d8475bf5e9a71034e1ede5b960569b45f79760da",
+      "observer_tools_sha256": {
+        "tools/prove_module.py": "b648d3e54191c6e5beb9b1c4365b1c4c520f0194d2e5f973104678ef39ad2933",
+        "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+        "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+        "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+        "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+        "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+        "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19",
+        "tools/mact_rox_callees.py": "65d001b354305977e0c868aafb722e57c54dffa66f745392e210228b216b42d3",
+        "tools/probe_mact_zone.py": "4000f6d3b9d21b7cafa51ececd79c1d362ac8d51e3cdf583f945d8cb823bfa62"
+      },
+      "reason": "Adopt accepted3744956 current ZONE/GAME/DEBUG context, plus own finite ROX dispatcher; source/native/target proof dictionaries unchanged. Historical private receipts retained under build/task471, not falsely rewritten."
+    }
+  ],
+  "rox_root_ZONE_observer_refresh": {
+    "prior": "f0c534fef944bbbce28a62f1d1d8f4fd16da032e64038fa71fdc73d2102995c0",
+    "current": "1e41d819b2e0acd08096b1343444a207c244264f7d7653a2545658c8d14752cc",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "library_batch_ZONE_observer_refresh": {
+    "prior": "1e41d819b2e0acd08096b1343444a207c244264f7d7653a2545658c8d14752cc",
+    "current": "5755081e9b663c72cd2c87ce3eaba7f51245b3534a9584c02cf0f212ba4974a9",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task545_ZONE_observer_refresh": {
+    "prior": "5755081e9b663c72cd2c87ce3eaba7f51245b3534a9584c02cf0f212ba4974a9",
+    "current": "b250c41c4980e4614b86ea3df9c7f8b47e4533737b7387bc9ca32310e4b8480f",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task552_ZONE_observer_refresh": {
+    "prior": "02092cec73bae12f151694173e3ffa2d6405730c9cf3e0dac7df25453e70738f",
+    "current": "02092cec73bae12f151694173e3ffa2d6405730c9cf3e0dac7df25453e70738f",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task552_GAME_header_witness": {
+    "prior_helper_sha256": "d1d02e755bed433680c482079a555bde4305e25dee670435ed128b7e776da17e",
+    "current_helper_sha256": "f49788366dc29310d3551f00b7c7160b3f0966c5571112a93ea1107436a96162",
+    "scope": "Fresh accepted GAME-only header graph includes tracked compound endingpal context, alongside all old header directories. Every prepared header must equal the actual accepted caller receipt; no mismatch tolerance."
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task564_ZONE_observer_refresh": {
+    "prior": "f49788366dc29310d3551f00b7c7160b3f0966c5571112a93ea1107436a96162",
+    "current": "520b1db3e4f24f05d1c046a6a67f79c1b9d0e17e7b28138af317bf125f03fa99",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_ZONE_observer_refresh": {
+    "prior": "520b1db3e4f24f05d1c046a6a67f79c1b9d0e17e7b28138af317bf125f03fa99",
+    "current": "5811650b475f38c6b2e9aa86805580ebdec9e57c9aa89b8fe1accb9fa55123ff",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  },
+  "task585_ZONE_observer_refresh": {
+    "prior": "5811650b475f38c6b2e9aa86805580ebdec9e57c9aa89b8fe1accb9fa55123ff",
+    "current": "3b701d8709e44f69b16e5b24e3d67843ad74b1fad6cce198eb64a4e59aa9e366",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "MV_MIX",
+  "source": "src/audio/mv_mix.asm",
+  "producer": "tasm",
+  "source_reference_evidence": "evidence/audio-assembly-source-reference.json",
+  "options": [
+    "/t",
+    "/p",
+    "/mx",
+    "/w2",
+    "/dLIBVER_ASSREV=19960116"
+  ],
+  "code_object": 1,
+  "code_offset": 493376,
+  "code_bytes": 901,
+  "code_publics": 4,
+  "symbol_anchors": {
+    "MV_Mix8BitMono_": [
+      1,
+      493376
+    ],
+    "MV_Mix8BitStereo_": [
+      1,
+      493600
+    ],
+    "MV_Mix16BitMono_": [
+      1,
+      493805
+    ],
+    "MV_Mix16BitStereo_": [
+      1,
+      494050
+    ]
+  },
+  "anchor_evidence": "evidence/multivoc-module.json",
+  "expected": {
+    "initialized_bytes": 901,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 56
+  }
+}

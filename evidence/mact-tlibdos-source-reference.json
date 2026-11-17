@@ -1,0 +1,134 @@
+{
+  "kind": "complete reconstructed TLIBDOS source capsule; no wholeEXE claim",
+  "lineage": {
+    "primary_interfaces": [
+      "types.h",
+      "timelib.h"
+    ],
+    "source_recovery_reviews": [
+      472,
+      473
+    ],
+    "original_member": {
+      "library": "reference/duke3d-reconstructions/MACT386.LIB",
+      "offset": 12800,
+      "size": 1062,
+      "sha256": "5650542bb4b9322f1bfed08bc21903868a56bdccec65659eb9bc092f0cd7d040"
+    },
+    "ordinary_C": "src/mact/tlibdos/tlibdos-counterpart.c",
+    "historical_ASM_source_claim": false
+  },
+  "descriptor_sha256": "a4776d7b7e9494034f310af47f956a202b78e78bba14cacf50a6ec4972ebf988",
+  "tracked_sources_sha256": {
+    "src/mact/tlibdos/TLIBDOS.S": "1919045ae5e7407994982b46777d2fb72753f6f1a294a2831414c3eac6c3a474",
+    "src/mact/tlibdos/tlibdos-counterpart.c": "06929a55cc14030c0f65692c509d8595eba08f2a9f7398eb807d9cce4603550d",
+    "src/mact/tlibdos/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/tlibdos/timelib.h": "81e571575893135a0df33c8ce1550a4b1d27258905e5114e7455cee843d96c3e",
+    "src/mact/tlibdos/contract.py": "4860c08e1e602c212c1e9737ef9e0ae55ad923c8a454204c3803c4f826df28cd"
+  },
+  "notice_files_sha256": {
+    "src/mact/tlibdos/README.md": "752d3f19725a8607eb2a1dcbf73c450e18116a31bd308c13d984103974feb0c7",
+    "src/mact/tlibdos/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "profiles/gnu_elf_omf/README.md": "2fb98db1498b8705dcea39b8d0bbe7a8dbf0829771b9fc673a9f08f07a48f0a6"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_tlibdos.py": "33ae3384bed7d157ddcb08354b8d0e9701599b0eaba0b53e9904b561a1b994d2",
+    "profiles/gnu_elf_omf/identity.py": "f97c9a3e849bbe786bdb3f530d9e2a866e081f6630dbab1cac108d66a157f9d8",
+    "profiles/gnu_elf_omf/profile.json": "36c67429e16ae92c1ff84a22699bc65edb5c5f441187261c54e6ceb523b23594",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19"
+  },
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "62cceff52a1124f4b806c8b995ba456ddab8de7ff6296145696fd932b6979a30",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

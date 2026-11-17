@@ -1,0 +1,31 @@
+{
+  "kind": "Root630 tracked supplied stock-runtime preparation",
+  "production_files_sha256": {
+    "candidates/stock_runtime_inputs.json": "b906f2cb6568be798fb648a7c73b7f28e337fc3822a2fe9b0ffae6086e3d0bc1",
+    "tools/prepare_stock_runtime.py": "7d1220be852cf03f5f2fdde8a253d54583e088724ce19165df75cd7083b9f818",
+    "tests/test_stock_runtime_preparation.py": "7f87356ffe93ae5c571abbd3ea7f09fbf8d4c5f9d441853631cc68c76bacfee6",
+    "docs/watcom-runtime-components.md": "b47093c0ceac31ff9fcb43bdab277fe323c003129263b52e3af958fca58d8fe1",
+    "Makefile": "0aabdd5288cd744602c8c0382096d7b317c691e99d9c19ddc6e393368879e20d"
+  },
+  "exact_whole_stock_objects": 177,
+  "exact_whole_libraries": 5,
+  "all182_fresh_outputs_literal_current_link": true,
+  "source_credit_added": 0,
+  "target_or_game_archive_read_by_preparer": false,
+  "normal_tests": {
+    "methods": 3,
+    "seconds": 0.115,
+    "result": "PASS"
+  },
+  "optimized_tests": {
+    "methods": 3,
+    "seconds": 0.114,
+    "result": "PASS"
+  },
+  "test_first": "Three methods failed missing preparer, then passed; meaningful controls reject an interior member offset and a read-then-change manifest.",
+  "stock_scope": "No native compilation or object/output rewriting; complete original compiler library members only. Equivalent candidates are not historical ownership evidence.",
+  "receipt_sha256": "08242e062fc8e0d86e211186196d3133e16ba7f53f4855e5b2fba4b00424a2f7",
+  "initial_framing_audit_sha256": "de8161dd1ca7056a23aee11cad133e39bc40450a9b4549e5a9fc723b687f4811",
+  "full_executable_identical": false,
+  "independent_review": "pending"
+}

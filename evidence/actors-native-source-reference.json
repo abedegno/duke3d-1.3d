@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "scope": "Whole source-only ACTORS alternate mnemonic backend; no credit or final EXE claim",
+  "source_credit": 0,
+  "source_files_sha256": {
+    "src/game/actors_native/ACTORS.S": "8fbca8a8b9bd4e4582aa61fc15f0f7a8c5c246ac31bf9706a1ca58dd637c086d",
+    "src/game/actors_native/source-model.json": "51084f915238ec2b8d47f6d16771045983cf77f526e6cb6660efd4ee5efecfa7",
+    "src/game/actors_native/actors-C-counterpart.c.txt": "086e47a4d6b3e11abe7c589614ea009b6fb096cd3a0bc0d2b4a25e8a8776e864",
+    "src/game/actors_native/moveeffectors-NASM-counterpart.asm.txt": "891765b2497cc3d784a3198cc9c647c65a478da9dd328996c62cb620ad9f181f",
+    "src/game/actors_native/source_policy.py": "a0c5676f4dc29403b834ff4d50d071e868680fd251edbbc2f146b37378239c13",
+    "src/game/actors_native/source-policy.json": "c3b90dd702a3ff576798ed32ae6750ad2810880f95c630b432e1da3049ceb0e6",
+    "src/game/actors_native/native_schema.py": "630ad83d943a17b4f5af361e6acbbf7436f156e0cde4fbf080f00a00c4f3e9d3",
+    "src/game/actors_native/native-output-policy.json": "15d3384f530f3e2f950b5a9a3e89402f85f7f02cfc6d1046d31235740ac5df8b",
+    "src/game/actors_native/ACTORS-whole-C-owned.plan": "999fdc40ccd1f532eb291d7d1c29b7532763a408c79423534c4f5e4dcf5658b1",
+    "src/game/actors_native/groups.plan": "8f2536d10ea67341e86194c1004be4d97631defcd2310d7eb2cebbb1c3a8cafc"
+  },
+  "notice_files_sha256": {
+    "src/game/actors_native/README.md": "acc7c0235e9e45f44b5c71d98d78621da9e0ed024a8feb1e78c40e0df5ca47ea",
+    "src/game/actors_native/GPL-2.0.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+    "src/game/actors_native/actors-fixed-complete-C-counterpart.c.txt": "b1b81ad080415b24462bd436e01448e57816a3c528ba343f91c3ebdb5c78ff67"
+  },
+  "producer_tools_sha256": {
+    "tools/build_actors_native.py": "2ad706c599a03e114cb241ddc0220df60615d0af014e0e4da31352509fa2ac72",
+    "profiles/gnu_elf_omf_layouts/identity.py": "eeccdb1932c0be47b2788196d8071bd3a98e2a753eeff56c19d121c97f431a2e",
+    "profiles/gnu_elf_omf_layouts/profile.json": "113e0be4d509f4bd755663d0181947e88726048f5958a62f5a2a984ac574c7c3",
+    "profiles/gnu_elf_omf_imports/profile.json": "41e175ed0d63e5ebc360a17505413b9fc7055dec100bab6ef04d775ec1618e77",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "descriptor_sha256": "e010f54100278d831b0ec047574e1a1981842ac8b20f6366712a9aa88e54e337",
+  "lineage": {
+    "approved_private_task648_report_sha256": "db9d441c907464156adc6141772ace5674bafaafb4f0816473ae33a6068cde9b",
+    "authored_source_unchanged": true,
+    "fresh_C_prefix": "canonical ACTORS /4r /s /ort with effector source exclusion, exact32headers",
+    "effector": "unchanged existing symbolic source and real frame-home roles",
+    "packet_descriptor": "fresh fixed whole-C source-owned metadata, no target fitting",
+    "plain_C_limit": "moveeffectors298ESP-displacement bytes/14frame homes; other36plain-C exact",
+    "primary_notices": "Both original counterparts and complete GPL retained",
+    "default_library_obligations": [
+      "math387r",
+      "emu387"
+    ],
+    "producer_metadata_differences": [
+      "No GNU default-library COMENT synthesis",
+      "No C far-call hint",
+      "Genuine CODE-data types retained in source/model, no copied annotation"
+    ],
+    "normal_admission": false
+  }
+}

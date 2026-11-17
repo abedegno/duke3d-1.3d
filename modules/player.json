@@ -1,0 +1,329 @@
+{
+  "name": "PLAYER",
+  "source": "src/game/player.c",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include",
+    "src/engine/include"
+  ],
+  "source_reference_evidence": "evidence/player-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "code_object": 1,
+  "code_offset": 203888,
+  "code_bytes": 37082,
+  "code_publics": 22,
+  "symbol_anchors": {
+    "EGS_": [
+      1,
+      30672
+    ],
+    "FTA_": [
+      1,
+      22704
+    ],
+    "FX_StopSound_": [
+      1,
+      526616
+    ],
+    "_KB_KeyDown": [
+      3,
+      2130912
+    ],
+    "_MouseAiming": [
+      3,
+      587696
+    ],
+    "_Sound": [
+      3,
+      574936
+    ],
+    "_actorscrptr": [
+      3,
+      266136
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_dukefriction": [
+      3,
+      31180
+    ],
+    "_fta_quotes": [
+      3,
+      397904
+    ],
+    "_headspritesect": [
+      3,
+      1647034
+    ],
+    "_headspritestat": [
+      3,
+      1644984
+    ],
+    "_hittype": [
+      3,
+      120728
+    ],
+    "_max_player_health": [
+      3,
+      579532
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_nextspritesect": [
+      3,
+      1080256
+    ],
+    "_nextspritestat": [
+      3,
+      1088448
+    ],
+    "_numfreezebounces": [
+      3,
+      31188
+    ],
+    "_numplayers": [
+      3,
+      1733240
+    ],
+    "_palette": [
+      3,
+      1596352
+    ],
+    "_ps": [
+      3,
+      376112
+    ],
+    "_screenpeek": [
+      3,
+      581290
+    ],
+    "_sector": [
+      3,
+      1597120
+    ],
+    "_sintable": [
+      3,
+      1285056
+    ],
+    "_sprite": [
+      3,
+      1104832
+    ],
+    "_sync": [
+      3,
+      573632
+    ],
+    "_tempbuf": [
+      3,
+      413968
+    ],
+    "_tilesizy": [
+      3,
+      1056576
+    ],
+    "_totalclock": [
+      3,
+      1644968
+    ],
+    "_ud": [
+      3,
+      579668
+    ],
+    "_wall": [
+      3,
+      1289152
+    ],
+    "_windowx1": [
+      3,
+      1640132
+    ],
+    "_windowx2": [
+      3,
+      1640128
+    ],
+    "_windowy1": [
+      3,
+      1640124
+    ],
+    "_windowy2": [
+      3,
+      1640120
+    ],
+    "_xdim": [
+      3,
+      1644980
+    ],
+    "_ydim": [
+      3,
+      1644976
+    ],
+    "addweapon_": [
+      1,
+      84864
+    ],
+    "badguy_": [
+      1,
+      10560
+    ],
+    "cansee_": [
+      1,
+      354154
+    ],
+    "changespritesect_": [
+      1,
+      353812
+    ],
+    "checkavailinven_": [
+      1,
+      85040
+    ],
+    "checkavailweapon_": [
+      1,
+      85296
+    ],
+    "clearsoundlocks_": [
+      1,
+      286192
+    ],
+    "clipmove_": [
+      1,
+      361524
+    ],
+    "deletesprite_": [
+      1,
+      353362
+    ],
+    "furthestangle_": [
+      1,
+      155152
+    ],
+    "getangle_": [
+      1,
+      331976
+    ],
+    "getceilzofslope_": [
+      1,
+      409894
+    ],
+    "getflorzofslope_": [
+      1,
+      410144
+    ],
+    "getincangle_": [
+      1,
+      145840
+    ],
+    "getzrange_": [
+      1,
+      377429
+    ],
+    "guts_": [
+      1,
+      89776
+    ],
+    "hitscan_": [
+      1,
+      354777
+    ],
+    "isanearoperator_": [
+      1,
+      254640
+    ],
+    "krand_": [
+      1,
+      377409
+    ],
+    "ksqrt_": [
+      1,
+      332211
+    ],
+    "operaterespawns_": [
+      1,
+      261328
+    ],
+    "pushmove_": [
+      1,
+      368227
+    ],
+    "rand_": [
+      1,
+      583797
+    ],
+    "rotatesprite_": [
+      1,
+      381330
+    ],
+    "setsprite_": [
+      1,
+      352579
+    ],
+    "sound_": [
+      1,
+      284224
+    ],
+    "spawn_": [
+      1,
+      31536
+    ],
+    "sprintf_": [
+      1,
+      583257
+    ],
+    "spritesound_": [
+      1,
+      284768
+    ],
+    "ssp_": [
+      1,
+      89472
+    ],
+    "stopsound_": [
+      1,
+      284832
+    ],
+    "testcallback_": [
+      1,
+      285856
+    ],
+    "updatesector_": [
+      1,
+      369184
+    ],
+    "xyzsound_": [
+      1,
+      282736
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 37207,
+    "zero_fill_bytes": 18,
+    "verified_fixups": 1322
+  },
+  "anchor_evidence": [
+    "evidence/engine-function-matches.json",
+    "evidence/gamedef-module.json",
+    "evidence/sounds-module.json",
+    "evidence/mmulti-module.json",
+    "evidence/config-module.json",
+    "evidence/actors-progress.json",
+    "evidence/premap-progress.json"
+  ]
+}

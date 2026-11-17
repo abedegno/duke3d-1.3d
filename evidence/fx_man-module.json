@@ -1,0 +1,2377 @@
+{
+  "kind": "complete FX_MAN object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/fx_man.c",
+  "source_sha256": "a201ae2b2cc6ccec3b6581e44dd2ee1a191e3fc858d5b82e89c18039c6f8317b",
+  "headers_sha256": {
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "descriptor": "modules/fx_man.json",
+  "descriptor_sha256": "f59ad6f356e645860a544c11177c7da8d8da46ed10ef5be5b1b7d7be5f420de5",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "placements": {
+    "1": [
+      1,
+      524176
+    ],
+    "4": [
+      3,
+      62288
+    ],
+    "6": [
+      3,
+      18992
+    ],
+    "5": [
+      3,
+      1796160
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 0,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 4,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 8,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 12,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 16,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 20,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 24,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 28,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 32,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 36,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 40,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 44,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 48,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 52,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 56,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 60,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 64,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 68,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 72,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 76,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 80,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 101,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 106,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 126,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 131,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 140,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 154,
+      "symbol": "BLASTER_ErrorString_",
+      "value": [
+        1,
+        529244
+      ]
+    },
+    {
+      "source_offset": 165,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 178,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 188,
+      "symbol": "PAS_ErrorString_",
+      "value": [
+        1,
+        484224
+      ]
+    },
+    {
+      "source_offset": 204,
+      "symbol": "SOUNDSCAPE_ErrorString_",
+      "value": [
+        1,
+        478716
+      ]
+    },
+    {
+      "source_offset": 220,
+      "symbol": "GUSWAVE_ErrorString_",
+      "value": [
+        1,
+        516508
+      ]
+    },
+    {
+      "source_offset": 236,
+      "symbol": "SS_ErrorString_",
+      "value": [
+        1,
+        476708
+      ]
+    },
+    {
+      "source_offset": 247,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 261,
+      "symbol": "MV_ErrorString_",
+      "value": [
+        1,
+        494361
+      ]
+    },
+    {
+      "source_offset": 272,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 281,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 292,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 296,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 300,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 304,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 308,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 312,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 316,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 320,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 324,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 328,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 332,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 336,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 348,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 353,
+      "symbol": "USER_CheckParameter_",
+      "value": [
+        1,
+        475120
+      ]
+    },
+    {
+      "source_offset": 373,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 384,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 389,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 408,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 413,
+      "symbol": "BLASTER_Init_",
+      "value": [
+        1,
+        535208
+      ]
+    },
+    {
+      "source_offset": 433,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 460,
+      "symbol": "BLASTER_GetCardInfo_",
+      "value": [
+        1,
+        533904
+      ]
+    },
+    {
+      "source_offset": 473,
+      "symbol": "PAS_Init_",
+      "value": [
+        1,
+        488524
+      ]
+    },
+    {
+      "source_offset": 483,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 519,
+      "symbol": "PAS_GetCardInfo_",
+      "value": [
+        1,
+        487364
+      ]
+    },
+    {
+      "source_offset": 574,
+      "symbol": "SOUNDSCAPE_GetCardInfo_",
+      "value": [
+        1,
+        480300
+      ]
+    },
+    {
+      "source_offset": 598,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 616,
+      "symbol": "GUSWAVE_Init_",
+      "value": [
+        1,
+        521144
+      ]
+    },
+    {
+      "source_offset": 635,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 670,
+      "symbol": "SS_Init_",
+      "value": [
+        1,
+        477700
+      ]
+    },
+    {
+      "source_offset": 690,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 703,
+      "symbol": "SS_Shutdown_",
+      "value": [
+        1,
+        477920
+      ]
+    },
+    {
+      "source_offset": 747,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 774,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 779,
+      "symbol": "BLASTER_GetEnv_",
+      "value": [
+        1,
+        533308
+      ]
+    },
+    {
+      "source_offset": 799,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 942,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 948,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 955,
+      "symbol": "BLASTER_SetCardSettings_",
+      "value": [
+        1,
+        533696
+      ]
+    },
+    {
+      "source_offset": 960,
+      "symbol": "BLASTER_Init_",
+      "value": [
+        1,
+        535208
+      ]
+    },
+    {
+      "source_offset": 980,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1005,
+      "symbol": "BLASTER_GetCardInfo_",
+      "value": [
+        1,
+        533904
+      ]
+    },
+    {
+      "source_offset": 1024,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1028,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1032,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1036,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1040,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1044,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1048,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1052,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1056,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1060,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1064,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1068,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1079,
+      "symbol": "_FX_Installed",
+      "value": [
+        3,
+        62296
+      ]
+    },
+    {
+      "source_offset": 1087,
+      "symbol": "FX_Shutdown_",
+      "value": [
+        1,
+        525496
+      ]
+    },
+    {
+      "source_offset": 1092,
+      "symbol": "_FX_messages",
+      "value": [
+        3,
+        18992
+      ]
+    },
+    {
+      "source_offset": 1097,
+      "symbol": "USER_CheckParameter_",
+      "value": [
+        1,
+        475120
+      ]
+    },
+    {
+      "source_offset": 1117,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1127,
+      "symbol": "LL_LockMemory_",
+      "value": [
+        1,
+        515340
+      ]
+    },
+    {
+      "source_offset": 1147,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1163,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 1170,
+      "symbol": "_FX_MixRate",
+      "value": [
+        3,
+        1796160
+      ]
+    },
+    {
+      "source_offset": 1183,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1188,
+      "symbol": "_FX_MixRate",
+      "value": [
+        3,
+        1796160
+      ]
+    },
+    {
+      "source_offset": 1202,
+      "symbol": "MV_Init_",
+      "value": [
+        1,
+        503023
+      ]
+    },
+    {
+      "source_offset": 1221,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1239,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1248,
+      "symbol": "LL_UnlockMemory_",
+      "value": [
+        1,
+        515320
+      ]
+    },
+    {
+      "source_offset": 1256,
+      "symbol": "_FX_Installed",
+      "value": [
+        3,
+        62296
+      ]
+    },
+    {
+      "source_offset": 1272,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1276,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1280,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1284,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1288,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1292,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1296,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1300,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1304,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1308,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1312,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1316,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1326,
+      "symbol": "_FX_Installed",
+      "value": [
+        3,
+        62296
+      ]
+    },
+    {
+      "source_offset": 1341,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 1354,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1359,
+      "symbol": "MV_Shutdown_",
+      "value": [
+        1,
+        503932
+      ]
+    },
+    {
+      "source_offset": 1381,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1399,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1407,
+      "symbol": "_FX_Installed",
+      "value": [
+        3,
+        62296
+      ]
+    },
+    {
+      "source_offset": 1412,
+      "symbol": "LL_UnlockMemory_",
+      "value": [
+        1,
+        515320
+      ]
+    },
+    {
+      "source_offset": 1424,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1428,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1432,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1436,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1440,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1444,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1448,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1452,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1456,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1460,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1464,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1468,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1476,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 1491,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1496,
+      "symbol": "MV_SetCallBack_",
+      "value": [
+        1,
+        502759
+      ]
+    },
+    {
+      "source_offset": 1507,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1528,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1532,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1536,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1540,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1544,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1548,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1552,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1556,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1560,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1564,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1568,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1572,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1580,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 1593,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1598,
+      "symbol": "BLASTER_CardHasMixer_",
+      "value": [
+        1,
+        532844
+      ]
+    },
+    {
+      "source_offset": 1609,
+      "symbol": "BLASTER_SetVoiceVolume_",
+      "value": [
+        1,
+        532336
+      ]
+    },
+    {
+      "source_offset": 1618,
+      "symbol": "PAS_SetPCMVolume_",
+      "value": [
+        1,
+        486892
+      ]
+    },
+    {
+      "source_offset": 1629,
+      "symbol": "MV_SetVolume_",
+      "value": [
+        1,
+        502541
+      ]
+    },
+    {
+      "source_offset": 1638,
+      "symbol": "GUSWAVE_SetVolume_",
+      "value": [
+        1,
+        518092
+      ]
+    },
+    {
+      "source_offset": 1647,
+      "symbol": "MV_SetVolume_",
+      "value": [
+        1,
+        502541
+      ]
+    },
+    {
+      "source_offset": 1656,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1660,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1664,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1668,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1672,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1676,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1680,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1684,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1688,
+      "symbol": "MV_GetVolume_",
+      "value": [
+        1,
+        502753
+      ]
+    },
+    {
+      "source_offset": 1692,
+      "symbol": "GUSWAVE_GetVolume_",
+      "value": [
+        1,
+        518228
+      ]
+    },
+    {
+      "source_offset": 1696,
+      "symbol": "MV_GetVolume_",
+      "value": [
+        1,
+        502753
+      ]
+    },
+    {
+      "source_offset": 1700,
+      "symbol": "MV_GetVolume_",
+      "value": [
+        1,
+        502753
+      ]
+    },
+    {
+      "source_offset": 1705,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 1718,
+      "segment": 1,
+      "value": [
+        1,
+        524176
+      ]
+    },
+    {
+      "source_offset": 1723,
+      "symbol": "BLASTER_CardHasMixer_",
+      "value": [
+        1,
+        532844
+      ]
+    },
+    {
+      "source_offset": 1731,
+      "symbol": "MV_GetVolume_",
+      "value": [
+        1,
+        502753
+      ]
+    },
+    {
+      "source_offset": 1736,
+      "symbol": "BLASTER_GetVoiceVolume_",
+      "value": [
+        1,
+        532172
+      ]
+    },
+    {
+      "source_offset": 1741,
+      "symbol": "PAS_GetPCMVolume_",
+      "value": [
+        1,
+        487004
+      ]
+    },
+    {
+      "source_offset": 1751,
+      "symbol": "MV_GetVolume_",
+      "value": [
+        1,
+        502753
+      ]
+    },
+    {
+      "source_offset": 1765,
+      "symbol": "MV_SetReverseStereo_",
+      "value": [
+        1,
+        502765
+      ]
+    },
+    {
+      "source_offset": 1773,
+      "symbol": "MV_GetReverseStereo_",
+      "value": [
+        1,
+        502771
+      ]
+    },
+    {
+      "source_offset": 1781,
+      "symbol": "MV_SetReverb_",
+      "value": [
+        1,
+        498633
+      ]
+    },
+    {
+      "source_offset": 1789,
+      "symbol": "MV_SetFastReverb_",
+      "value": [
+        1,
+        498696
+      ]
+    },
+    {
+      "source_offset": 1797,
+      "symbol": "MV_GetMaxReverbDelay_",
+      "value": [
+        1,
+        498738
+      ]
+    },
+    {
+      "source_offset": 1805,
+      "symbol": "MV_GetReverbDelay_",
+      "value": [
+        1,
+        498747
+      ]
+    },
+    {
+      "source_offset": 1813,
+      "symbol": "MV_SetReverbDelay_",
+      "value": [
+        1,
+        498771
+      ]
+    },
+    {
+      "source_offset": 1821,
+      "symbol": "MV_VoiceAvailable_",
+      "value": [
+        1,
+        497673
+      ]
+    },
+    {
+      "source_offset": 1829,
+      "symbol": "MV_SetPan_",
+      "value": [
+        1,
+        498463
+      ]
+    },
+    {
+      "source_offset": 1842,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1861,
+      "symbol": "MV_SetPitch_",
+      "value": [
+        1,
+        497793
+      ]
+    },
+    {
+      "source_offset": 1874,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1893,
+      "symbol": "MV_SetFrequency_",
+      "value": [
+        1,
+        497902
+      ]
+    },
+    {
+      "source_offset": 1906,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 1943,
+      "symbol": "MV_PlayVOC_",
+      "value": [
+        1,
+        501909
+      ]
+    },
+    {
+      "source_offset": 1964,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2005,
+      "symbol": "MV_PlayLoopedVOC_",
+      "value": [
+        1,
+        501947
+      ]
+    },
+    {
+      "source_offset": 2027,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2059,
+      "symbol": "MV_PlayWAV_",
+      "value": [
+        1,
+        500894
+      ]
+    },
+    {
+      "source_offset": 2080,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2121,
+      "symbol": "MV_PlayLoopedWAV_",
+      "value": [
+        1,
+        501102
+      ]
+    },
+    {
+      "source_offset": 2143,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2170,
+      "symbol": "MV_PlayVOC3D_",
+      "value": [
+        1,
+        501743
+      ]
+    },
+    {
+      "source_offset": 2192,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2218,
+      "symbol": "MV_PlayWAV3D_",
+      "value": [
+        1,
+        500933
+      ]
+    },
+    {
+      "source_offset": 2240,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2281,
+      "symbol": "MV_PlayRaw_",
+      "value": [
+        1,
+        500591
+      ]
+    },
+    {
+      "source_offset": 2303,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2355,
+      "symbol": "MV_PlayLoopedRaw_",
+      "value": [
+        1,
+        500632
+      ]
+    },
+    {
+      "source_offset": 2377,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2393,
+      "symbol": "MV_Pan3D_",
+      "value": [
+        1,
+        498526
+      ]
+    },
+    {
+      "source_offset": 2405,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2425,
+      "symbol": "MV_VoicePlaying_",
+      "value": [
+        1,
+        497189
+      ]
+    },
+    {
+      "source_offset": 2433,
+      "symbol": "MV_VoicesPlaying_",
+      "value": [
+        1,
+        497399
+      ]
+    },
+    {
+      "source_offset": 2442,
+      "symbol": "MV_Kill_",
+      "value": [
+        1,
+        497286
+      ]
+    },
+    {
+      "source_offset": 2462,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2470,
+      "symbol": "MV_KillAllVoices_",
+      "value": [
+        1,
+        497230
+      ]
+    },
+    {
+      "source_offset": 2490,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2520,
+      "symbol": "MV_StartDemandFeedPlayback_",
+      "value": [
+        1,
+        500312
+      ]
+    },
+    {
+      "source_offset": 2542,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2561,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 2578,
+      "symbol": "MV_StartRecording_",
+      "value": [
+        1,
+        499999
+      ]
+    },
+    {
+      "source_offset": 2598,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2616,
+      "symbol": "_FX_ErrorCode",
+      "value": [
+        3,
+        62292
+      ]
+    },
+    {
+      "source_offset": 2625,
+      "symbol": "_FX_SoundDevice",
+      "value": [
+        3,
+        62288
+      ]
+    },
+    {
+      "source_offset": 2634,
+      "symbol": "MV_StopRecord_",
+      "value": [
+        1,
+        500258
+      ]
+    },
+    {
+      "source_offset": 2644,
+      "symbol": "MV_StopRecord_",
+      "value": [
+        1,
+        500258
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 2847,
+    "zero_fill_bytes": 4,
+    "verified_fixups": 228,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 524176,
+        "compared_bytes": 2648,
+        "verified_fixups": 228,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 62288,
+        "compared_bytes": 12,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1796160,
+        "compared_bytes": 4,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 18992,
+        "compared_bytes": 187,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "BLASTER_ErrorString_": [
+        1,
+        529244
+      ],
+      "BLASTER_Init_": [
+        1,
+        535208
+      ],
+      "BLASTER_GetEnv_": [
+        1,
+        533308
+      ],
+      "FX_ErrorString_": [
+        1,
+        524260
+      ],
+      "FX_SetupCard_": [
+        1,
+        524516
+      ],
+      "FX_GetBlasterSettings_": [
+        1,
+        524936
+      ],
+      "FX_SetupSoundBlaster_": [
+        1,
+        525040
+      ],
+      "FX_Init_": [
+        1,
+        525248
+      ],
+      "FX_Shutdown_": [
+        1,
+        525496
+      ],
+      "FX_SetCallBack_": [
+        1,
+        525648
+      ],
+      "FX_SetVolume_": [
+        1,
+        525752
+      ],
+      "FX_GetVolume_": [
+        1,
+        525880
+      ],
+      "FX_SetReverseStereo_": [
+        1,
+        525940
+      ],
+      "FX_GetReverseStereo_": [
+        1,
+        525948
+      ],
+      "FX_SetReverb_": [
+        1,
+        525956
+      ],
+      "FX_SetFastReverb_": [
+        1,
+        525964
+      ],
+      "FX_GetMaxReverbDelay_": [
+        1,
+        525972
+      ],
+      "FX_GetReverbDelay_": [
+        1,
+        525980
+      ],
+      "FX_SetReverbDelay_": [
+        1,
+        525988
+      ],
+      "FX_VoiceAvailable_": [
+        1,
+        525996
+      ],
+      "FX_SetPan_": [
+        1,
+        526004
+      ],
+      "FX_SetPitch_": [
+        1,
+        526036
+      ],
+      "FX_SetFrequency_": [
+        1,
+        526068
+      ],
+      "FX_PlayVOC_": [
+        1,
+        526100
+      ],
+      "FX_PlayLoopedVOC_": [
+        1,
+        526152
+      ],
+      "FX_PlayWAV_": [
+        1,
+        526216
+      ],
+      "FX_PlayLoopedWAV_": [
+        1,
+        526268
+      ],
+      "FX_PlayVOC3D_": [
+        1,
+        526332
+      ],
+      "FX_PlayWAV3D_": [
+        1,
+        526380
+      ],
+      "FX_PlayRaw_": [
+        1,
+        526428
+      ],
+      "FX_PlayLoopedRaw_": [
+        1,
+        526492
+      ],
+      "FX_Pan3D_": [
+        1,
+        526568
+      ],
+      "FX_SoundActive_": [
+        1,
+        526600
+      ],
+      "FX_SoundsPlaying_": [
+        1,
+        526608
+      ],
+      "FX_StopSound_": [
+        1,
+        526616
+      ],
+      "FX_StopAllSounds_": [
+        1,
+        526644
+      ],
+      "FX_StartDemandFeedPlayback_": [
+        1,
+        526672
+      ],
+      "FX_StartRecording_": [
+        1,
+        526732
+      ],
+      "FX_StopRecord_": [
+        1,
+        526800
+      ],
+      "_FX_ErrorCode": [
+        3,
+        62292
+      ],
+      "_FX_messages": [
+        3,
+        18992
+      ],
+      "_FX_SoundDevice": [
+        3,
+        62288
+      ],
+      "PAS_ErrorString_": [
+        1,
+        484224
+      ],
+      "SOUNDSCAPE_ErrorString_": [
+        1,
+        478716
+      ],
+      "GUSWAVE_ErrorString_": [
+        1,
+        516508
+      ],
+      "SS_ErrorString_": [
+        1,
+        476708
+      ],
+      "MV_ErrorString_": [
+        1,
+        494361
+      ],
+      "USER_CheckParameter_": [
+        1,
+        475120
+      ],
+      "BLASTER_GetCardInfo_": [
+        1,
+        533904
+      ],
+      "PAS_Init_": [
+        1,
+        488524
+      ],
+      "PAS_GetCardInfo_": [
+        1,
+        487364
+      ],
+      "SOUNDSCAPE_GetCardInfo_": [
+        1,
+        480300
+      ],
+      "GUSWAVE_Init_": [
+        1,
+        521144
+      ],
+      "SS_Init_": [
+        1,
+        477700
+      ],
+      "SS_Shutdown_": [
+        1,
+        477920
+      ],
+      "BLASTER_SetCardSettings_": [
+        1,
+        533696
+      ],
+      "_FX_Installed": [
+        3,
+        62296
+      ],
+      "LL_LockMemory_": [
+        1,
+        515340
+      ],
+      "_FX_MixRate": [
+        3,
+        1796160
+      ],
+      "MV_Init_": [
+        1,
+        503023
+      ],
+      "LL_UnlockMemory_": [
+        1,
+        515320
+      ],
+      "MV_Shutdown_": [
+        1,
+        503932
+      ],
+      "MV_SetCallBack_": [
+        1,
+        502759
+      ],
+      "BLASTER_CardHasMixer_": [
+        1,
+        532844
+      ],
+      "BLASTER_SetVoiceVolume_": [
+        1,
+        532336
+      ],
+      "PAS_SetPCMVolume_": [
+        1,
+        486892
+      ],
+      "MV_SetVolume_": [
+        1,
+        502541
+      ],
+      "GUSWAVE_SetVolume_": [
+        1,
+        518092
+      ],
+      "MV_GetVolume_": [
+        1,
+        502753
+      ],
+      "GUSWAVE_GetVolume_": [
+        1,
+        518228
+      ],
+      "BLASTER_GetVoiceVolume_": [
+        1,
+        532172
+      ],
+      "PAS_GetPCMVolume_": [
+        1,
+        487004
+      ],
+      "MV_SetReverseStereo_": [
+        1,
+        502765
+      ],
+      "MV_GetReverseStereo_": [
+        1,
+        502771
+      ],
+      "MV_SetReverb_": [
+        1,
+        498633
+      ],
+      "MV_SetFastReverb_": [
+        1,
+        498696
+      ],
+      "MV_GetMaxReverbDelay_": [
+        1,
+        498738
+      ],
+      "MV_GetReverbDelay_": [
+        1,
+        498747
+      ],
+      "MV_SetReverbDelay_": [
+        1,
+        498771
+      ],
+      "MV_VoiceAvailable_": [
+        1,
+        497673
+      ],
+      "MV_SetPan_": [
+        1,
+        498463
+      ],
+      "MV_SetPitch_": [
+        1,
+        497793
+      ],
+      "MV_SetFrequency_": [
+        1,
+        497902
+      ],
+      "MV_PlayVOC_": [
+        1,
+        501909
+      ],
+      "MV_PlayLoopedVOC_": [
+        1,
+        501947
+      ],
+      "MV_PlayWAV_": [
+        1,
+        500894
+      ],
+      "MV_PlayLoopedWAV_": [
+        1,
+        501102
+      ],
+      "MV_PlayVOC3D_": [
+        1,
+        501743
+      ],
+      "MV_PlayWAV3D_": [
+        1,
+        500933
+      ],
+      "MV_PlayRaw_": [
+        1,
+        500591
+      ],
+      "MV_PlayLoopedRaw_": [
+        1,
+        500632
+      ],
+      "MV_Pan3D_": [
+        1,
+        498526
+      ],
+      "MV_VoicePlaying_": [
+        1,
+        497189
+      ],
+      "MV_VoicesPlaying_": [
+        1,
+        497399
+      ],
+      "MV_Kill_": [
+        1,
+        497286
+      ],
+      "MV_KillAllVoices_": [
+        1,
+        497230
+      ],
+      "MV_StartDemandFeedPlayback_": [
+        1,
+        500312
+      ],
+      "MV_StartRecording_": [
+        1,
+        499999
+      ],
+      "MV_StopRecord_": [
+        1,
+        500258
+      ]
+    },
+    "local_symbols": {
+      "_FX_MixRate": [
+        3,
+        1796160
+      ],
+      "_FX_messages": [
+        3,
+        18992
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "BLASTER_ErrorString_": [
+      1,
+      529244
+    ],
+    "BLASTER_Init_": [
+      1,
+      535208
+    ],
+    "BLASTER_GetEnv_": [
+      1,
+      533308
+    ]
+  },
+  "anchor_evidence": "evidence/blaster-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

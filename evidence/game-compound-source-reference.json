@@ -1,0 +1,247 @@
+{
+  "kind": "normal source-only partial GAME C/private-prefix+six public BSS objects",
+  "sources_sha256": {
+    "src/game/game.c": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d",
+    "src/game/game_tail.asm": "ca1ad3024d620fac400e1a6cf0a1fa3f2cea4218c4285df55bb3a34c11518850"
+  },
+  "notices_sha256": {
+    "src/game/gpl.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+    "src/game/compound-README.md": "4b20d6789b11074678bb60d2810f3ede6a8790513ba65bee61910e20b48cb9cd",
+    "evidence/game-source-reference.json": "508b56a1c84204b52092b4032b999f24fa2efc43db9efbd62c7851415490641f"
+  },
+  "producer_tools_sha256": {
+    "tools/build_game_compound.py": "129ff2ba5ef27708c5789031c470252308d40e45818e00be972e534fc5c9e6b7",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/game-compound-tools.json": "0803da3ae6363bc7972f84f554d70227660ca32db06c311c6b6b7b5a4398ae41"
+  },
+  "header_sources_sha256": {
+    "reference/duke3d-reconstructions/ANIMLIB.H": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "reference/duke3d-reconstructions/BUILD.H": "ad960aaa84439d11ae8a217217afdbdb6071151f4c247ee95c07b292597d018b",
+    "reference/duke3d-reconstructions/CONFIG.H": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "reference/duke3d-reconstructions/DUKE3D.H": "36be6b0e36f3b5aeaaaee343d59d4b71b9f422d6ee9447b965255949626803d1",
+    "reference/duke3d-reconstructions/FUNCT.H": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "reference/duke3d-reconstructions/FUNCTION.H": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "reference/duke3d-reconstructions/FX_MAN.H": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "reference/duke3d-reconstructions/GAMEDEFS.H": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "reference/duke3d-reconstructions/GAMEVER.H": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "reference/duke3d-reconstructions/KEYBOARD.H": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "reference/duke3d-reconstructions/MUSIC.H": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "reference/duke3d-reconstructions/NAMES.H": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "reference/duke3d-reconstructions/PRAGMAS.H": "f314037a6069fbb38fed91d0510fabe40b872bf6910fa88c0acb3719b84a1de8",
+    "reference/duke3d-reconstructions/RTS.H": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "reference/duke3d-reconstructions/SNDCARDS.H": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "reference/duke3d-reconstructions/SOUNDEFS.H": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "reference/duke3d-reconstructions/SOUNDS.H": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "reference/duke3d-reconstructions/TASK_MAN.H": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "reference/duke3d-reconstructions/_ANIMLIB.H": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "reference/duke3d-reconstructions/_FUNCTIO.H": "357acd963e429e4b67be5d3efdf490e051ef329376f01fb8ab8f1300edcd91e5",
+    "reference/duke3d-reconstructions/_RTS.H": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "reference/duke3d-reconstructions/MACT/CONTROL.H": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "reference/duke3d-reconstructions/MACT/DEVELOP.H": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "reference/duke3d-reconstructions/MACT/FILE_LIB.H": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "reference/duke3d-reconstructions/MACT/MOUSE.H": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "reference/duke3d-reconstructions/MACT/SCRIPLIB.H": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "reference/duke3d-reconstructions/MACT/TYPES.H": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "reference/duke3d-reconstructions/MACT/UTIL_LIB.H": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "src/include/pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "src/game/include/_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "src/game/include/duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "src/game/include/playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "src/game/include/soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "src/game/include/userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "src/engine/include/build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "src/engine/include/pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "src/engine/include/ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb",
+    "src/game/compound/include/duke3d.h": "e6ddef7e060328dac5c0ac25d1b47512294f4f1143bf6c0c3d68c206f6ea35a3"
+  },
+  "prepared_headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "e6ddef7e060328dac5c0ac25d1b47512294f4f1143bf6c0c3d68c206f6ea35a3",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+  },
+  "descriptor_sha256": "41b77747918acfc1e84958afa594c37112c24148aec352bb0f36ac67e50beb79",
+  "observer_tools_sha256": {
+    "tools/probe_game.py": "1fd463c15f6820cdace5f949bf323a08f9cffe8fe8bc65e3132b9a2415755888",
+    "tools/probe_premap.py": "91962353f2d8f24279fd74881b544ffb7a0de6cdced9546a664ba8fc71688dea",
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "tools/preserve.py": "04316ed1bdec64255fee8466417ccd00f0f71588b61a3032762da3f5671332b8",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  },
+  "emulator_sha256": "e1a2c458b0e717403b4bb639e430c0abe69a939bcc96bf4e63114fdc7504e1d7",
+  "python_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "scope": "Source-only complete current C/private-prefix+real public-tail generation;78 complete intervals/prefix/DATA remain partial. Exact GAME-only palette declaration context preserves shared headers/ABI/owners. Five real palette roles are independently qualified; tempwallptr/dmval target names and whole layout/EXE remain unproved. No target/SDK object/caller producer input or complete contribution credit.",
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "game_compound_root_context_refresh": {
+    "prior_checkpoint": "a1e65a2",
+    "changed_dependencies": {
+      "tools/prove_module.py": {
+        "prior": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8",
+        "current": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29"
+      }
+    },
+    "scope": "Exact reviewed GAME C/ASM public-tail source and source-first observer adoption; only named dependencies updated. Default parser/inference/matcher/verifier unchanged; full old witness/proof preservation requires actual fresh replay."
+  },
+  "rox_named_source_registration_refresh": {
+    "prior_checkpoint": "d5801b4",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29",
+        "current": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9"
+      }
+    },
+    "scope": "New explicit mact_rox dispatch only; default parse/infer/matcher/verifier and source machine code unchanged. Fresh named normal replays required."
+  },
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "palette_header_context": {
+    "shared_header": "src/game/include/duke3d.h",
+    "shared_sha256": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "GAME_only_header": "src/game/compound/include/duke3d.h",
+    "variant_sha256": "e6ddef7e060328dac5c0ac25d1b47512294f4f1143bf6c0c3d68c206f6ea35a3",
+    "removed_only": "redundant endingpal extern; real public definition unchanged",
+    "other_translation_units_use_shared_header": true
+  },
+  "task552_approved_GAME_context": {
+    "approved_commit": "16d548ab3672ad5e1a79fc85b89b1aeb9bba64b8",
+    "independent_review": "task-544-game-palette-independent-review.md",
+    "preserved_prior_checkpoint": "ac3486d",
+    "semantic_keys_merged": [
+      "descriptor_sha256",
+      "header_sources_sha256",
+      "palette_header_context",
+      "prepared_headers_sha256",
+      "scope"
+    ],
+    "scope": "Only exact approved GAME header context and added two partial intervals. Current closed pin maps retained then explicitly refreshed for actual changed inputs."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/probe_game.py": {
+        "prior": "10f0a371d4f035c650eecda4091d4b0185e761105b3b82978bf57a76b9198943",
+        "current": "23c6cd1d230acb5235940e17fa1a07888a1302ef3d51712ad86cfedb9eb374b8"
+      },
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      },
+      "producer_tools_sha256:tools/build_game_compound.py": {
+        "prior": "bba0d1a81d60c67d5751581fb9fc1e584bfa3863f2196f26aa9e595f7993e286",
+        "current": "129ff2ba5ef27708c5789031c470252308d40e45818e00be972e534fc5c9e6b7"
+      },
+      "notices_sha256:src/game/compound-README.md": {
+        "prior": "58b9ec69af9ff87bf1b277c3bace5792e2177a3fc8c39d74a83bb84d46830233",
+        "current": "4b20d6789b11074678bb60d2810f3ede6a8790513ba65bee61910e20b48cb9cd"
+      },
+      "notices_sha256:evidence/game-source-reference.json": {
+        "prior": "02d644153a307e6c0feb571605a732d3b1757a610cf3f3e693d508f556adcb7f",
+        "current": "0698c4f92e98b447dff051821265dffa214a5cdb407be21d39c5ed6838120d81"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

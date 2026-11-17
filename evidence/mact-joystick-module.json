@@ -1,0 +1,113 @@
+{
+  "kind": "complete native source-built MACT JOYSTICK contributions",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/joystick.asm",
+  "source_sha256": "f2c4a237043e3369499b00078fda6d4c5828e0050817663ad63c763d21eb4363",
+  "headers_sha256": {},
+  "assembler_sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2",
+  "options": [
+    "-fo=OUT.OBJ"
+  ],
+  "descriptor": "modules/mact_joystick.json",
+  "descriptor_sha256": "ef138301173070d8171c0a32e9f60c5326e5d76b67687b38404ecf4acc776ad8",
+  "native_object_sha256": "8fa2d38ab3d239e516d25f38121969095b889777250e7af10bf1db5892d19101",
+  "native_log_sha256": "aef37ca5f073f48334c77b7c4d19cf9b33f29f2b8878d52d0f13d8a9516b36cd",
+  "native_error_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "placements": {
+    "2": [
+      3,
+      67966
+    ],
+    "3": [
+      2,
+      128
+    ]
+  },
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 110,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 5,
+    "segments": [
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 67966,
+        "compared_bytes": 17,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "TEXT",
+        "target_object": 2,
+        "target_offset": 128,
+        "compared_bytes": 93,
+        "verified_fixups": 5,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_Joy_x1": [
+        3,
+        67966
+      ],
+      "_Joy_y1": [
+        3,
+        67970
+      ],
+      "_Joy_x2": [
+        3,
+        67974
+      ],
+      "_Joy_y2": [
+        3,
+        67978
+      ],
+      "_Joy_mask": [
+        3,
+        67982
+      ],
+      "JoyStick_Vals_": [
+        2,
+        128
+      ]
+    },
+    "local_symbols": {},
+    "full_executable_rebuilt": false
+  },
+  "native_inventory": [
+    [
+      "_TEXT",
+      "CODE",
+      0,
+      73
+    ],
+    [
+      "_DATA",
+      "DATA",
+      17,
+      73
+    ],
+    [
+      "TEXT",
+      "",
+      93,
+      97
+    ]
+  ],
+  "object1_code_bytes": 0,
+  "instruction_object": 2,
+  "instruction_bytes": 93,
+  "initialized_scalar_bytes": 17,
+  "original_reference": {
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "offset": 14848,
+    "size": 334,
+    "name": "joystick.asm",
+    "sha256": "9761006539692927b7d17bb9c13570895bdf4e1252aae103df55e7fcc1e3d071",
+    "reference_only": true
+  },
+  "full_executable_rebuilt": false
+}

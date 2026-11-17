@@ -1,0 +1,281 @@
+{
+  "scope": "ROOT one symbolic prefix-clear source spike, complete whole module positive; no production/accounting credit until independent review and standard route integration.",
+  "source_credit": 0,
+  "source_sha256": "f4a1eec6b5a3cf1295bbc1a7536618312ef4be4d1a4ab3cd5eae65e406b8613e",
+  "source_artifact": "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/VIDMSDOS.C",
+  "object_sha256": "ee4f8ed8788b9525b007db78083dff224e4702e3674a5f81d855a28f17cda3e8",
+  "object_artifact": "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/VIDMSDOS.OBJ",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/nm=VIDMSDOS"
+  ],
+  "native_warning_count": 0,
+  "native_error_count": 0,
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 1297,
+    "zero_fill_bytes": 64048,
+    "verified_fixups": 54,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 553424,
+        "compared_bytes": 1153,
+        "verified_fixups": 54,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 68120,
+        "compared_bytes": 144,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1799760,
+        "compared_bytes": 64048,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "KB_KeyEvent_": [
+        1,
+        568512
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "ServiceEvents_": [
+        1,
+        553864
+      ],
+      "KEYBOARD_Startup_": [
+        1,
+        554420
+      ],
+      "KEYBOARD_Shutdown_": [
+        1,
+        554500
+      ],
+      "VID_GetPalette_": [
+        1,
+        553740
+      ],
+      "VID_Init_": [
+        1,
+        553424
+      ],
+      "VID_Shutdown_": [
+        1,
+        553592
+      ],
+      "VID_GetBuffer_": [
+        1,
+        553628
+      ],
+      "VID_Update_": [
+        1,
+        553632
+      ],
+      "VID_UpdateScreen_": [
+        1,
+        553668
+      ],
+      "VID_NormalizePalette_": [
+        1,
+        553708
+      ],
+      "VID_SetPalette_": [
+        1,
+        553788
+      ],
+      "VID_ClearViewBuffer_": [
+        1,
+        553836
+      ],
+      "MOUSE_ShowCursor_": [
+        1,
+        553868
+      ],
+      "MOUSE_HideCursor_": [
+        1,
+        553908
+      ],
+      "MOUSE_GetPosition_": [
+        1,
+        553948
+      ],
+      "MOUSE_GetDelta_": [
+        1,
+        554008
+      ],
+      "MOUSE_GetButtons_": [
+        1,
+        554068
+      ],
+      "MOUSE_Init_": [
+        1,
+        554112
+      ],
+      "MOUSE_Shutdown_": [
+        1,
+        554160
+      ],
+      "KEYBOARD_Isr_": [
+        1,
+        554164
+      ],
+      "int386_": [
+        1,
+        588346
+      ],
+      "_vid_flushall": [
+        3,
+        1863760
+      ],
+      "_vid": [
+        3,
+        1863772
+      ],
+      "_display_buffer": [
+        3,
+        1799760
+      ],
+      "__GETDS": [
+        1,
+        586216
+      ],
+      "_PauseCount": [
+        3,
+        1863764
+      ],
+      "_PauseScanCode": [
+        3,
+        68120
+      ],
+      "_ExtendedKeyFlag": [
+        3,
+        1863768
+      ],
+      "_ExtendedScanCodes": [
+        3,
+        68132
+      ],
+      "_KEYBOARD_Started": [
+        3,
+        68260
+      ],
+      "_dos_getvect_": [
+        1,
+        589701
+      ],
+      "_oldkeyboardisr": [
+        3,
+        68126
+      ],
+      "_dos_setvect_": [
+        1,
+        589656
+      ]
+    },
+    "local_symbols": {
+      "KEYBOARD_Isr_": [
+        1,
+        554164
+      ],
+      "_ExtendedKeyFlag": [
+        3,
+        1863768
+      ],
+      "_ExtendedScanCodes": [
+        3,
+        68132
+      ],
+      "_KEYBOARD_Started": [
+        3,
+        68260
+      ],
+      "_PauseCount": [
+        3,
+        1863764
+      ],
+      "_PauseScanCode": [
+        3,
+        68120
+      ],
+      "_display_buffer": [
+        3,
+        1799760
+      ],
+      "_oldkeyboardisr": [
+        3,
+        68126
+      ]
+    },
+    "full_executable_rebuilt": false,
+    "logical_segment_origins": [
+      {
+        "source_segment": 4,
+        "origin": [
+          3,
+          29560
+        ],
+        "segment_identity": [
+          "_DATA",
+          "DATA",
+          "DGROUP",
+          "use32",
+          "PUBLIC2"
+        ],
+        "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+        "evidence_sha256": "07ad040f1936ef07c1d17ed477eea2193e0892fcbfa4527f75de8b8f984567a0",
+        "scope": "Candidate combined PUBLIC DATA layout only; not complete historical link order, executable identity or source contribution credit."
+      }
+    ]
+  },
+  "runtime_original_relative_equal": {
+    "all_segment_bytes": true,
+    "all_segment_metadata": true,
+    "all_fixup_dataclasses": true,
+    "all_publics": true,
+    "local_publics": true,
+    "local_externals": true,
+    "externals": true,
+    "groups": true,
+    "code_data_ranges": true,
+    "default_libraries": true
+  },
+  "inputs_sha256": {
+    "/Users/jonw/duke3d/.worktrees/vid189/src/mact/vidmsdos.c": "98416c5940ce0595c990f55cf42a65fe182d94a0ac82191688376a81d6add7da",
+    "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/VIDMSDOS.C": "f4a1eec6b5a3cf1295bbc1a7536618312ef4be4d1a4ab3cd5eae65e406b8613e",
+    "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/include/TYPES.H": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/include/MOUSE.H": "71c3d9f3a5a3ec571b65db921621e77eaf1f5a656a7d17e351e2eceeb30b2aaf",
+    "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/include/KEYBOARD.H": "ff41010dca80c96429847b6da8dad5f120d9e9ed69bc0b889c6dd791c61a790c",
+    "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/include/VID.H": "bfbf270ce558882182cb03b0db7094b71568aec1dc65fe5f16b118babc29a4db",
+    "/Users/jonw/duke3d/build/task340-vid-clear-helper/one-helper-nbopry6k/include/DEVELOP.H": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/BINB/wcc386.exe": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/BIN/w32run.exe": "d9028582ce7d2d7b0990d677e1947c10e0b0deaefb32d78319fbd2cea603cfcf"
+  },
+  "frozen_manifest": {
+    "path": "build/task340-vid-clear-helper/artifact-manifest.json",
+    "sha256": "424bc578680531533c17da0ae5c0306fe7d1095adcada3b54eb399df80c0df0e",
+    "entries": 55
+  },
+  "humanization_backlog": [
+    "CopyVGAFrame symbolic string primitive; readable C loop counterpart retained",
+    "FillVGAFrame symbolic string primitive; readable C loop counterpart retained",
+    "ClearExtendedKeyPrefix symbolic zero DWORD store; ordinary C assignment counterpart retained"
+  ],
+  "full_executable_rebuilt": false
+}

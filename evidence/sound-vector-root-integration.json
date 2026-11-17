@@ -1,0 +1,609 @@
+{
+  "scope": "ROOT acceptance of independently reviewed complete SOUND WSOUND and VECTOR source; final target byte identity unfinished",
+  "complete_source_contributions_added": 3,
+  "complete_project_contributions": 103,
+  "project_main_CODE_bytes": 538752,
+  "project_main_CODE_total": 632345,
+  "project_main_CODE_percent": 85.19906063936617,
+  "complete_initialized_bytes": 539413,
+  "complete_BSS_bytes": 1546216,
+  "complete_source_fixups": 27639,
+  "disjoint_source_ranges": 367,
+  "modules": {
+    "gf1_sound": {
+      "receipt": "evidence/gf1_sound-module.json",
+      "receipt_sha256": "5ba7f45d6f4479867ffaf120a2caac73cec2601da914362d606783aad64b611a",
+      "object_sha256": "d87a042332c55ef6b931196a38ec05c0d499069dd19c92b1d88c448348aa87b9",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 1747,
+        "zero_fill_bytes": 72,
+        "verified_fixups": 111,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 445040,
+            "compared_bytes": 1671,
+            "verified_fixups": 111,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 56940,
+            "compared_bytes": 76,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_BSS",
+            "target_object": 3,
+            "target_offset": 1733296,
+            "compared_bytes": 72,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "sound_init_": [
+            1,
+            445040
+          ],
+          "gf1_sound_volume_": [
+            1,
+            445688
+          ],
+          "gf1_sound_pan_": [
+            1,
+            445760
+          ],
+          "gf1_sound_frequency_": [
+            1,
+            445832
+          ],
+          "gf1_sound_stop_": [
+            1,
+            445968
+          ],
+          "gf1_sound_mode_": [
+            1,
+            446112
+          ],
+          "gf1_sound_playing_": [
+            1,
+            446372
+          ],
+          "gf1_sound_start_": [
+            1,
+            446484
+          ],
+          "_sound_init_data": [
+            3,
+            58324
+          ],
+          "_gf1_voices": [
+            3,
+            1742948
+          ],
+          "_gf1_freq_divisor": [
+            3,
+            58156
+          ],
+          "gf1_enter1_": [
+            1,
+            474815
+          ],
+          "_gf1_page_register": [
+            3,
+            58228
+          ],
+          "outp_": [
+            1,
+            589541
+          ],
+          "_gf1_register_select": [
+            3,
+            58230
+          ],
+          "_gf1_data_high": [
+            3,
+            58234
+          ],
+          "gf1_leave_": [
+            1,
+            474854
+          ],
+          "gf1_delay_": [
+            1,
+            474913
+          ],
+          "_gf1_data_low": [
+            3,
+            58232
+          ],
+          "inpw_": [
+            1,
+            589751
+          ],
+          "_vol_table": [
+            3,
+            57016
+          ],
+          "outpw_": [
+            1,
+            588586
+          ],
+          "gf1_free_voice_": [
+            1,
+            468244
+          ],
+          "convert_to_16bit_": [
+            1,
+            466256
+          ],
+          "gf1_set_addr_regs_": [
+            1,
+            466376
+          ],
+          "inp_": [
+            1,
+            589551
+          ],
+          "gf1_allocate_voice_": [
+            1,
+            467900
+          ],
+          "_freq_divisor": [
+            3,
+            1733364
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "original_reference_verification": {
+        "verified": true,
+        "initialized_bytes": 1747,
+        "zero_fill_bytes": 72,
+        "verified_fixups": 118,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 445040,
+            "compared_bytes": 1671,
+            "verified_fixups": 118,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 56940,
+            "compared_bytes": 76,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_BSS",
+            "target_object": 3,
+            "target_offset": 1733296,
+            "compared_bytes": 72,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "sound_init_": [
+            1,
+            445040
+          ],
+          "set_pan_": [
+            1,
+            445144
+          ],
+          "set_vol_": [
+            1,
+            445232
+          ],
+          "gf1_sound_volume_": [
+            1,
+            445688
+          ],
+          "gf1_sound_pan_": [
+            1,
+            445760
+          ],
+          "gf1_sound_frequency_": [
+            1,
+            445832
+          ],
+          "gf1_sound_stop_": [
+            1,
+            445968
+          ],
+          "gf1_sound_mode_": [
+            1,
+            446112
+          ],
+          "gf1_sound_playing_": [
+            1,
+            446372
+          ],
+          "gf1_sound_start_": [
+            1,
+            446484
+          ],
+          "_sound_init_data": [
+            3,
+            58324
+          ],
+          "_sound_voice_status": [
+            3,
+            1733296
+          ],
+          "_gf1_voices": [
+            3,
+            1742948
+          ],
+          "_pertab": [
+            3,
+            56940
+          ],
+          "_vrperiod": [
+            3,
+            1733360
+          ],
+          "_gf1_freq_divisor": [
+            3,
+            58156
+          ],
+          "_freq_divisor": [
+            3,
+            1733364
+          ],
+          "gf1_enter1_": [
+            1,
+            474815
+          ],
+          "_gf1_page_register": [
+            3,
+            58228
+          ],
+          "outp_": [
+            1,
+            589541
+          ],
+          "_gf1_register_select": [
+            3,
+            58230
+          ],
+          "_gf1_data_high": [
+            3,
+            58234
+          ],
+          "gf1_leave_": [
+            1,
+            474854
+          ],
+          "gf1_delay_": [
+            1,
+            474913
+          ],
+          "_gf1_data_low": [
+            3,
+            58232
+          ],
+          "inpw_": [
+            1,
+            589751
+          ],
+          "_vol_table": [
+            3,
+            57016
+          ],
+          "outpw_": [
+            1,
+            588586
+          ],
+          "gf1_free_voice_": [
+            1,
+            468244
+          ],
+          "convert_to_16bit_": [
+            1,
+            466256
+          ],
+          "gf1_set_addr_regs_": [
+            1,
+            466376
+          ],
+          "inp_": [
+            1,
+            589551
+          ],
+          "gf1_allocate_voice_": [
+            1,
+            467900
+          ]
+        },
+        "local_symbols": {
+          "_pertab": [
+            3,
+            56940
+          ],
+          "_sound_voice_status": [
+            3,
+            1733296
+          ],
+          "_vrperiod": [
+            3,
+            1733360
+          ],
+          "set_pan_": [
+            1,
+            445144
+          ],
+          "set_vol_": [
+            1,
+            445232
+          ]
+        },
+        "full_executable_rebuilt": false
+      }
+    },
+    "gf1_wsound": {
+      "receipt": "evidence/gf1_wsound-module.json",
+      "receipt_sha256": "90b0ae8f0e9362caa2a6df404999ff07a0c31a9776092da4511d29cea9268c4a",
+      "object_sha256": "227f8a97c18d1be59f8438c9624b6c32c0f923b71e4eecaa033386525200a141",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 7,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 1,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 58324,
+            "compared_bytes": 1,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_GF1INIT",
+            "target_object": 3,
+            "target_offset": 73172,
+            "compared_bytes": 6,
+            "verified_fixups": 1,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_sound_init_data": [
+            3,
+            58324
+          ],
+          "sound_init_": [
+            1,
+            445040
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "original_reference_verification": {
+        "verified": true,
+        "initialized_bytes": 7,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 1,
+        "segments": [
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 58324,
+            "compared_bytes": 1,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_GF1INIT",
+            "target_object": 3,
+            "target_offset": 73172,
+            "compared_bytes": 6,
+            "verified_fixups": 1,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_sound_init_data": [
+            3,
+            58324
+          ],
+          "sound_init_": [
+            1,
+            445040
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "mact_vector": {
+      "receipt": "evidence/mact_vector-module.json",
+      "receipt_sha256": "4e95121a04ccf55408c238ea2cae3fd5faba048320c70f105b61ede64cbb013a",
+      "object_sha256": "b01eb01e160fd444d828b39eb9bdf9add5d2b4277f3ba3b29d8fbf71e874f1a4",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 735,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 3,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 554592,
+            "compared_bytes": 735,
+            "verified_fixups": 3,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "FP_VectorAdd_": [
+            1,
+            554592
+          ],
+          "FP_VectorSub_": [
+            1,
+            554620
+          ],
+          "FP_ScaleVector_": [
+            1,
+            554648
+          ],
+          "FP_VectorLength_": [
+            1,
+            554676
+          ],
+          "FP_NormalizeVector_": [
+            1,
+            554716
+          ],
+          "FP_2x2Det_": [
+            1,
+            554784
+          ],
+          "FP_CrossProduct_": [
+            1,
+            554808
+          ],
+          "FP_TripleProduct_": [
+            1,
+            554992
+          ],
+          "FP_DecomposeVector_": [
+            1,
+            555036
+          ],
+          "FP_RotateVAV_": [
+            1,
+            555116
+          ],
+          "__get_errno_ptr_": [
+            1,
+            591221
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "original_reference_verification": {
+        "verified": true,
+        "initialized_bytes": 735,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 5,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 554592,
+            "compared_bytes": 735,
+            "verified_fixups": 5,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "FP_VectorAdd_": [
+            1,
+            554592
+          ],
+          "FP_VectorSub_": [
+            1,
+            554620
+          ],
+          "FP_ScaleVector_": [
+            1,
+            554648
+          ],
+          "FP_VectorLength_": [
+            1,
+            554676
+          ],
+          "FP_NormalizeVector_": [
+            1,
+            554716
+          ],
+          "FP_2x2Det_": [
+            1,
+            554784
+          ],
+          "FP_CrossProduct_": [
+            1,
+            554808
+          ],
+          "FP_TripleProduct_": [
+            1,
+            554992
+          ],
+          "FP_DecomposeVector_": [
+            1,
+            555036
+          ],
+          "FP_RotateVAV_": [
+            1,
+            555116
+          ],
+          "__get_errno_ptr_": [
+            1,
+            591221
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    }
+  },
+  "preservation": {
+    "runtime134_components_and_totals_literal": true,
+    "startup_whole_proof_stack_and_dependencies_literal": true,
+    "seven_origin_witnesses_literal": true,
+    "nine_old_module_whole_proofs_literal": true,
+    "VID_context_only": true,
+    "all361_previous_ranges_literal": true,
+    "origin384_closed_inputs_exact": true,
+    "active_source_maps_exact": 21,
+    "diagnostic_current_link_zero_unresolved": true
+  },
+  "actual_current_normal_source112_link": {
+    "scope": "Source112 named CODE order with accepted normal ROOT468 routes; private realcounter strictnegative remains; no final target identity",
+    "source_objects": 112,
+    "exact_stock_objects": 136,
+    "unresolved_names": 0,
+    "unresolved": [],
+    "native_status": "OK",
+    "executable_present": true,
+    "response_sha256": "74eefd08d9b576e6e76bab4b56c734c44b118f787c37158110d8b6ccfa433864",
+    "stack_reservation_bytes": 51200,
+    "source_global_definitions": 1925,
+    "source_global_import_names": 1689,
+    "source_duplicate_definitions": {},
+    "all_inputs_unchanged": true,
+    "source_credit": 0,
+    "full_target_executable_rebuilt": false,
+    "output_bytes": 938331,
+    "output_sha256": "f283fdece65e0e0761541f77bbcf093c7bb25176dd5ae7647cef80ef04339568"
+  },
+  "full_target_executable_rebuilt": false
+}

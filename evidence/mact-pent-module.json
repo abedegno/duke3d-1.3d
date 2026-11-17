@@ -1,0 +1,105 @@
+{
+  "kind": "complete native source-built MACT PENT contributions",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/pent.asm",
+  "source_sha256": "34f2f96c8f1bdfc66f3dc5e647ce38d4fbb24374595308384e476dac5d65d50c",
+  "headers_sha256": {},
+  "assembler_sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2",
+  "options": [
+    "-fo=OUT.OBJ"
+  ],
+  "descriptor": "modules/mact_pent.json",
+  "descriptor_sha256": "f211b4b899dfb2440faa7b03d96679c968b0d09d3346af2cf5fb1e587dc5ae20",
+  "native_object_sha256": "e2c9373441a3dd2d00e9433637b247728f80a0e938e2c6b899d8571b4f3b56a4",
+  "native_log_sha256": "42d0346e9420034be354f2d864d0bf5a86bb31ccb5be4acaff0aa77e3d883561",
+  "native_error_log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "placements": {
+    "2": [
+      3,
+      67936
+    ],
+    "3": [
+      2,
+      0
+    ]
+  },
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 72,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 6,
+    "segments": [
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 67936,
+        "compared_bytes": 16,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "TEXT",
+        "target_object": 2,
+        "target_offset": 0,
+        "compared_bytes": 56,
+        "verified_fixups": 6,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_PENT_timeh": [
+        3,
+        67944
+      ],
+      "_PENT_timel": [
+        3,
+        67948
+      ],
+      "PENT_Start_": [
+        2,
+        0
+      ],
+      "PENT_Stop_": [
+        2,
+        22
+      ]
+    },
+    "local_symbols": {},
+    "full_executable_rebuilt": false
+  },
+  "native_inventory": [
+    [
+      "_TEXT",
+      "CODE",
+      0,
+      73
+    ],
+    [
+      "_DATA",
+      "DATA",
+      16,
+      73
+    ],
+    [
+      "TEXT",
+      "",
+      56,
+      97
+    ]
+  ],
+  "object1_code_bytes": 0,
+  "instruction_object": 2,
+  "instruction_bytes": 56,
+  "initialized_scalar_bytes": 16,
+  "original_reference": {
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "offset": 5120,
+    "size": 282,
+    "name": "pent.asm",
+    "sha256": "24fd4545aa51b8a88882287773b92b9f9172f02939432fe075577a5629d01361",
+    "reference_only": true
+  },
+  "full_executable_rebuilt": false
+}

@@ -1,0 +1,331 @@
+{
+  "kind": "Complete MENUES native contribution, not a full executable",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "MENUES.C",
+  "upstream_sha256": "1dfa05b4c4a19ff7c13eb613f3f8c19e835dff7abbe9cea72d5f81b30cb12b48",
+  "gpl_reference": {
+    "repository": "https://github.com/videogamepreservation/dukenukem3d.git",
+    "commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+    "path": "source/MENUES.C",
+    "sha256": "0add87f4e0f0efc70524c8a10bb5fc3b0f2baf60cd9a7f840b6ecabe4267caa1"
+  },
+  "tracked": "src/game/menues.c",
+  "tracked_sha256": "07bfe5776e89e1a160db10e0abe2537636e1a73ad80e222d2ac5072669d6a92b",
+  "license": "GPL-2.0-or-later; original-author credit and GPL text retained",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "headers": {
+    "reference": [
+      "reference/duke3d-reconstructions",
+      "reference/duke3d-reconstructions/MACT"
+    ],
+    "overlays": [
+      "src/include",
+      "src/game/include",
+      "src/engine/include"
+    ]
+  },
+  "modifications": [
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Preserve the pinned reconstructed helper bodies and period header overlay. Normalize line endings and retain GPL release authorship/notice.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Keep loadplayer/saveplayer as explicitly unverified earlier-format C candidates. menus is now also a complete unverified C candidate, with unsupported later TEN, mouseflip, friendly-fire and player-count preview paths removed from target evidence. No compatibility fields or replacement stubs are supplied.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Omit later TEN dummy callbacks and text, whose target identities remain unverified.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Remove later globalskillsound DATA and numplr BSS globals. Exact cmenu/probe/bar/getfilenames intervals require common DATA base31204 and BSS base582944. This proves address consistency of referenced owned publics, not the contents or complete ownership of either allocation.",
+    "Historical checkpoint before menus restoration: sortfilenames had a complete native 208-byte interval whose suffix differed from target menu tables. In rounds4/5 its complete native public interval was448 bytes, containing a200-byte body plus a248-byte menu-table prefix, and remained unverified because CODE/table placements disagreed. Round6 now verifies that entire448-byte public and all73fixups; no body-only or trimmed proof is accepted.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore both menu font functions without later dash glyph cases. For lowercase input menutext keeps its toupper call but adds26 to the BIGALPHANUM base as required by the target immediate; its centering and rendering passes both use the earlier mapping. Complete intervals752 and656 bytes match, with toupper anchored independently through GAMEDEF.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore the save-preview loadpheader signature with four register arguments; skip the later numplr read, require version103 and use screenshot tileMAXTILES-4. The complete304-byte interval and23fixups match with engine/GAMEDEF anchors and all prior intervals preserved.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Isolate the later five-argument loadpheader declaration by pre-include macro rename and undef, then declare the target-backed four-argument interface locally. The controller explicitly authorized this temporary module-local isolation until other callers are reconciled; it emits no callback, stub or helper code.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Preserve the target-backed wb save-mode string through the retained unused automatic pointer in getfilenames, introduced while saveplayer was omitted. It emits a symbolic CONST literal and no instructions, preserving CONST base 7524 for loadpheader/getfilenames. saveplayer is now an unverified C candidate; the complete current 2983-byte CONST segment is verified within the scoped current non-CODE projection. CODE tables and historical complete-module ownership remain unverified.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore drawoverheadmap using physical user byte7 through the current provisional ud.clipping member. PLAYER independently confirms a scroll-related test at+7; PREMAP clearing+6 may have a different role. The controller authorized this module-local access; no new field/storage or shared-header change is introduced. Its complete3952-byte interval and97fixups match; wrong byte6 is rejected. Field meaning/name remains inferred.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore endanimsounds frame102 sound27 (MENUES_ENDSEQVOL3SND1), followed by SQUISHED. The ancestor comments out ENDSEQVOL3SND1 and substitutes THUD158; the target requires27. Frame158 remains unchanged. The complete352-byte interval and12fixups match.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore playanm to the earlier507-byte terminal native interval ending at its RET. Open before keyboard flushing; allocate tileMAXTILES-4-t with lock220+t; flush after loading and set the clock before palette conversion; wait without later network/key polling; use the earlier episode timing and only logo/end callbacks; check the keyboard after drawing and sound callbacks. Remove six later episode4 callback definitions as explicitly omitted/unverified. The following target CODE prefix tables belong to unresolved later placement and are outside this terminal source interval, with no payload copied.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Replay the existing complete ANIMLIB descriptor privately from the production probe and use external_anchor_bindings on its freshly verified scoped exports. Older shared ANIMLIB evidence lacks scope metadata and is not treated as filtered exports. Replay source/header/descriptor/compiler/options/result are embedded under native_anchor_replays; shared evidence is unchanged.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore complete unverified loadplayer/saveplayer C candidates for format103 (0x67), label19 (0x13), script words20000 (0x4e20), scripted actor records2048 (0x800), queue64 (0x40), mirror arrays64 (0x40), sky offsets256 (0x100). World sprites remain4096 (0x1000); no engine allocation or shared header is altered. The target retains both spriteqloc and queue64, with no later spriteqamount field.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Use sizeof(ps[0]) with count16 for both player transfers: current measured live and serialized extent is1362 (0x552). Use sizeof(po[0]) with count16 for player_orig. Later multiplayer/ffire/marker/network/RNG save tails and cloud/actortype/boardfilename transfers are omitted where the target serialized path ends earlier.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore the load candidate earlier sequencing: direct single-player filename/header; music before world data; player0 camera/mode/palette state; resettiming and inline clocks/FIFO resets; interpolation setup; final backdrop selected by the saved parallax sector ceiling tile. The complete emitted public interval remains unverified, including its native tail alignment and the following out-of-order save-body prefix.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Do not trim or independently accept the load2525-byte body: its complete source public interval is2528 bytes while the mapped target next public is4432 bytes away. The save candidate emits an ordinary C entry followed by body; the target call entry follows its body. Both full public gates explicitly fail and contribute zero new accepted bytes.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Add complete FX_MAN/MUSIC and verified ACTORS/PREMAP function identities as filtered independent call anchors, recording evidence hashes. No partial-module local/global data aliases are imported as cross-module anchors.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Use signed decimal macros for format loop bounds. A private positive-enum attempt emitted unsigned JB at two load loop comparisons; target opcodes are signed JL. Native regressions check those branches along with the 0x552/1362 player transfer in both candidate functions. These checks do not promote either failed full public interval.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore menus as a complete but unverified main-menu C candidate. Use registered three-episode selection without the later user-map episode row or Atomic menu choices; remove TEN entry/errors, aiming-flip controls, friendly-fire setup and the eleventh network byte. Target packet-5 send sites use10 (0x0a) bytes. Restore no player-count preview label or fifth loadpheader argument.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Isolate gametext locally around the shared header to use the target four-register-argument interface; convert main-menu text calls from later five-argument dabits form. Historical checkpoint ABI support used a private terminal263-byte/5-fixup native callee diagnostic at576; the controller subsequently reported independent approval of the full272-byte GAME public with four arguments/flags26. This worker does not import that later GAME report as a production anchor, and the complete main-menu callsite proof remains unverified. The controller explicitly authorized this declaration isolation.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Historical round4 credits restoration added eight pages990..997 with66 human-readable gametext calls, navigation wrap and a shared title. Its compiler-generated table supplied the missing32-byte prefix, producing a full448-byte sortfilenames public with200-byte body plus248-byte menu-table prefix. Table addresses remained inconsistent in rounds4/5. Round6 restores the menu control flow sufficiently to prove the entire448-byte public and all73fixups, including all62 table destinations; main itself remains unverified.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore case370 deletion confirmation from target code: Y/left click removes the selected save, restores last menu/cursor, and negative keys/right click cancel with the exit sound. The case uses the existing deletespot/last_menu/lastprobey fields; its entry is external to this routine, with no invented Delete-key handler.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Historical round4 checkpoint removed later PRESS ANY KEY shareware prompt, temporarily retained one unconditional sensitivity control, used the spaced HELP label and START USER MAP text, and restored the range-OR backdrop guard and multiplayer packet check after menu state clearing. Round5 restores both target sensitivity branches, described below; full main code remains unverified.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Verify the complete current non-CODE source projection with the unchanged verify_module, omitting CODE explicitly: CONST2983 bytes at object3:7524, DATA16 at3:31204, BSS4571 at3:582944, no storage fixups. Placements remain constrained by the prior15 accepted intervals, with the new complete sort interval agreeing on its BSS placement. All2999 initialized bytes and4571 BSS bytes pass; this does not promote full-module historical ownership, CODE tables or a complete contribution. Corrupt CONST/DATA/BSS or owned menunamecnt placement is rejected.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore the unsigned8-bit slot ABI locally for loadplayer/saveplayer, with explicit int return type. Pre-include renames isolate later signed-slot declarations; undef and unsigned-char prototypes emit no replacement/helper code. The controller approved this isolation. Target menu calls at0x2cfb5 (184245),0x2d50c (185612),0x2f359 (193369) use zero-extension and call the load/save publics. Production regressions check three emitted source calls and their unsigned prefixes, while every full candidate gate remains failed and adds zero code coverage.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore the earlier quick-restore path: clear keyboard, stop FX, clear sound locks and directly load the unsigned saved slot. Confirm-load clears MODE_MENU, loads current_menu-1000, then records lastsavedpos; cancellation records that slot before exit sound. Remove the later negative-slot multiplayer save/load and packet126 branch. Save calls the direct unsigned slot and cancelled label input calls readsavenames. Native body/public ordering is still unverified.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore main and pause menu y positions0x3f (63) and0x3d (61), with the Duke logo at y0x18 (24) and no Atomic overlay. Keep target connecthead checks for new-game setup/waiting, target multimode/demo availability for load/save, full setview before pause-menu load, and multimode-based quit-to-title availability. Later movesperpacket master-only restrictions are removed from these paths. Full main identity remains failed.",
+    "Historical round5 candidate: restore skill selection delay of0xf0 (240) clock ticks after its sound, remove Atomic volume3 fade handling and later monsters_off resets, retain only the target respawn/multimode writes, and use int skill_sound to avoid a later short narrowing. The target skill-name stride0x14 (20) differs from the shared later0x21 (33) declaration; the separately documented local byte-row accessor now handles this, while declaration/storage ownership remains controller work.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore options title y0x18 (24), bar y0x13 (19), first row0x29 (41), and probe x=c. ControllerType==1 has the active sensitivity path; the other path displays a disabled sensitivity row and a disabled bar. Separate long temporaries are passed by low-short address, and the active setter narrows the result to signed short before shifting. This corrects the earlier unconditional-control candidate; frame/register/block layout is still unverified.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore earlier sound-control label/value palettes from raw target: toggle values use palette0, SOUND label uses MusicDevice comparison, DUKE TALK/AMBIENCE/FLIP STEREO label disabling depends only on SoundToggle, and their ON/OFF values use palette0. Hardware checks remain on action paths. Music volume calls the target MUSIC_SetVolume interface, not later Music_SetVolume. These remain unverified main source statements, not accepted subintervals.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore multiplayer header/bar y0x22 (34)/0x1d (29), probe y0x3b (59), and earlier row spacing. Marker control/display does not depend on coop; monster-skill cycling omits the later positive-skill reset shortcut, and skill display uses only monsters_off. Remove the later board-filename text below START USER MAP and menu-exit cameraclock/cameradist resets. Raw target evidence supports these semantic restorations; full main instruction/frame/register identity and common module placement remain open. The associated switch prefix is separately proved with sortfilenames in round6.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Access target skill labels through MENUES_SKILL_NAME(row), a module-local char-byte expression using stride0x14 (20). The controller independently confirmed normal fixed strings at object3:0x7927 (31015),0x793b (31035),0x794f (31055),0x7963 (31075), approved this accessor and assigned initialized-prefix ownership to GLOBAL work. Native regression changed from later addends[0,33,66,99,0] to[0,20,40,60,0]; raw target loader-fixup operands support the four fixed rows. Dynamic multiplayer label selection uses the same expression. No shared array declaration, allocation, label payload, helper function or accepted-code scope changed. volume_names retains stride0x21 (33).",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Restore skill sounds as calls inside the four switch cases rather than assigning a shared skill_sound temporary and calling it unconditionally. Raw target bounds JA at0x2e5f9 (189945) bypasses the sound and reaches the clock wait at0x2e627 (189991). This removes the candidate undefined-default call; native regression checks the emitted branch destination. The whole main interval remains unverified.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore separate load-menu and save-menu cancellation state/clock branches, each using the existing DISPLAYNAMES exit after its applicable state work. The raw target has distinct paths for non-game load cancellation, paused load cancellation and paused save cancellation. Restore explicit boardfilename-conditioned START USER MAP label calls instead of computing a palette boolean in a single call. These same-function C branches naturally reproduce the target switch destinations and common-tail folding; no source instruction payload, helper or new segment is introduced.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): After the adult menu labels have finished using coordinate c on the locked-wall exit path, reuse c to hold SCREENBREAK6 while the loop replaces the appropriate pictures. This remains readable target-backed C and changes no external state beyond the already measured replacements. Together with the restored menu control flow it aligns all62 compiler-generated switch-table destinations. The full main instruction/register/frame proof still fails, so this statement is not independently counted as accepted main code.",
+    "Historical through round6 (superseded for menus by the round7 full public proof below): Accept sortfilenames only as its complete native448-byte (0x1c0) public at object1:182096 (0x2c750), with200-byte (0xc8) body and248-byte (0xf8) associated menu switch prefix, all73 (0x49) fixups verified. Common CODE placement for that interval is object1:173152 (0x2a460), and its BSS placement agrees at object3:582944 (0x8e520). Native regression corrupts both the final relocated table byte and first table destination, and rejects a trimmed200-byte extent. Total accepted scope is now16 intervals/10043 (0x273b) bytes/475 (0x1db) fixups; no complete module contribution is claimed.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Record two new ordinary same-function save-order negative controls privately: an empty leading goto with all initialization in trailing OPEN, and a trailing do/while entry condition with all initialization there. They differ from the older initialized-prefix goto test. Watcom canonicalizes both to entry-first code, leaving save public3312 (0xcf0), next probe5280 (0x14a0), full save extent1968 (0x7b0). Neither is promoted or used as proof; genuine target body-before-entry ordering and the32-byte placement shortfall remain unresolved.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore both actual short sensitivity locals and pass their addresses directly to bar. The active setter promotes the signed short before shifting; no widened backing field or cast layout is used. Together with delaying the existing delete filename initialization to its Y/left-click use path, these lifetimes naturally reproduce selection EBP-12, active sensitivity EBP-4, inactive sensitivity EBP-8 and clock/volume EBP-16. All stack operations are checked within the complete menus public.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Restore SCREENBREAK6 directly inside the existing locked-wall switch instead of reusing coordinate c. With the restored real local types/lifetimes, Watcom naturally hoists the target constants and uses the exact registers; no instruction placement directive, helper, new storage or payload is supplied.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Express negative skill-result cancellation as an ordinary single-case switch on x: case -1 calls cmenu(100), with other negative values doing nothing. This preserves the native signed-word dispatch and avoids the near-match CWDE plus 32-bit equality. Explicit casts, a scoped cancellation alias, result-assignment forms and signed-short probe return were private rejected controls. probe retains its accepted int ABI.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Accept menus only as its entire native public at object1:0x2c910 (182544), source0x24b0 (9392), extent0x3f40 (16192), with all0x584 (1412) fixups. The next public palto defines the full end, including native tail alignment. Common named bindings and all current non-CODE placements agree with every prior accepted interval. Sort retains all0x1c0 (448) bytes and0x49 (73) fixups, including the0xf8 (248)-byte prefix. No main fragment, mask, trimmed extent, instruction payload or manufactured helper contributes acceptance.",
+    "Historical recovery step (retained unless superseded by the current round8 proof below): Round7 production RED requires17 intervals/26235 (0x667b) bytes/1887 (0x75f) fixups and fails the prior16 report. GREEN runs21 focused native/matcher/verifier tests, with native corruption checks for the main tail, frame home, signed-word cancel instruction and saveplayer call target, plus rejected main truncation. Current non-CODE remains2999 (0xbb7) initialized/4571 (0x11db) BSS/0fixups. The complete MENUES placement and load/save public ordering remain unverified; this checkpoint adds no complete contribution.",
+    "Round8 complete native restoration adds an explicitly INFERRED unused static C tail entry returning saveplayer(57), after the existing save definition. Canonical GA naturally moves the serialization body before saveplayer, emits the exact MOV57/native alignment/fallthrough prefix, and resolves the32-byte placement deficit. Historical name, original visibility/caller and role remain unknown. The model is dead source, is never executed during recovery, and its static OMF scope prevents inferred-name export. The controller explicitly authorized this compiler-derived model under the user's unused-code permission; no instruction payload, assembly, helper implementation of the save body, fake storage or new segment is used.",
+    "Require unchanged whole-module verification at CODE object1:173120 before deriving new public geometry. Every byte/fixup of CODE30763 (0x782b), CONST2983 (0xba7), DATA16 (0x10), BSS4571 (0x11db) passes at one consistent placement, with33762 (0x83e2) initialized bytes and2263 (0x8d7) fixups. Prior17 target extents/bindings and current non-CODE are preserved. Surrounding5 inter-module CODE alignment bytes are excluded; no full-executable/linker/binder completion is claimed.",
+    "The whole-proof-backed20-public partition covers all30763 CODE bytes/2263fixups. Loadplayer now spans4416 (0x1140) bytes/372 (0x174) fixups, including the source save serialization body and alignment, ending at inferred local entry178320 (0x2b890); that16-byte entry ends at independently known saveplayer178336 (0x2b8a0), whose complete96-byte public has4fixups and ends at probe178432 (0x2b900). The former4432 bound skipped the newly reconstructed public; only the whole-module proof justifies this geometry. Old4432 and2525-body trims are rejected; shared public-start semantics and verifier remain unchanged.",
+    "Promote complete MENUES descriptor/evidence and extend native RED/GREEN: production17 fails required20; GREEN verifies all20 complete publics, whole-segment tails, both inferred-prefix mutations, save public relocation, inferred-name local scope and export exclusion, full CODE inventory truncation, old4432 load boundary and2525 body trim, plus every prior corruption control. Canonical compiler emits0warnings/0errors. Owned probe replays ANIMLIB through freshly scoped exports, validates descriptor anchors against independent evidence, and exposes full verification. Root owns shared standard CLI/Makefile/coverage wiring after review.",
+    "Later TEN/episode4 ancestor callbacks are excluded from this earlier target profile, rather than omitted target bodies. All emitted native CODE and storage are proved; omitted_code_bodies and unverified_code_publics are empty. Logical names remain reconstructed/inferred and do not establish unique historical spelling or original developer intent."
+  ],
+  "proved_intervals": [
+    "cmenu_",
+    "savetemp_",
+    "getangplayers_",
+    "loadpheader_",
+    "probe_",
+    "menutext_",
+    "menutextc_",
+    "bar_",
+    "dispnames_",
+    "getfilenames_",
+    "sortfilenames_",
+    "menus_",
+    "palto_",
+    "logoanimsounds_",
+    "drawoverheadmap_",
+    "endanimsounds_",
+    "playanm_",
+    "loadplayer_",
+    "menues_inferred_save_tail_entry_",
+    "saveplayer_"
+  ],
+  "omitted_code_bodies": [],
+  "unverified_code_publics": [],
+  "evidence": "evidence/menues-module.json",
+  "scope": "Every emitted CODE, CONST, DATA and BSS byte/fixup is verified at one consistent native placement. The complete20-public CODE partition follows the successful whole-module proof; its inferred static tail entry has unknown historical name/role and is excluded from cross-module exports. Later ancestor TEN/episode4 bodies are outside this earlier target profile. The following5 bytes of inter-module CODE alignment are not counted. This adds one complete MENUES contribution, not a rebuilt executable.",
+  "compiler_identity_note": "GA is the canonical replay profile; these matches do not identify a unique original compiler.",
+  "selector_note": "LIBVER_BUILDREV selects the period reconstructed pragma profile, not a proved original build date.",
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false,
+  "candidate_full_intervals": {},
+  "diagnostic_corrections": [
+    "The round2 report private note said1358-byte player serialization. This was a decimal conversion error: target immediates at0x2aa05 and0x2b2e2 are0x552=1362, consistent with live stride.0x54e would be1358 and is not observed there. No accepted coverage or shared header depended on this erroneous diagnostic note.",
+    "The round2 private note assumed eight serialized sky offsets, conflating this transfer with PREMAP setupbackdrop clearing eight entries. Load0x2ac58 and save0x2b6b1 encode count0x100=256 shorts; PREMAP clear8 is a separate independently verified operation."
+  ],
+  "noncode_storage_scope": "Complete native non-CODE projection only; CODE is omitted from this auxiliary check and is required by the separate whole-module verification.",
+  "round5_diagnostics": {
+    "scope": "Historical round5 diagnostics: Unverified candidate diagnostics only. Equal size in a private intermediate was not acceptance; no public was trimmed or helpers manufactured.",
+    "main_before": {
+      "hex": "0x41f0",
+      "decimal": 16880
+    },
+    "main_current": {
+      "hex": "0x3ed0",
+      "decimal": 16080
+    },
+    "main_target": {
+      "hex": "0x3f40",
+      "decimal": 16192
+    },
+    "current_CODE": {
+      "hex": "0x779b",
+      "decimal": 30619
+    },
+    "skill_name_stride": {
+      "target_hex": "0x14",
+      "target_decimal": 20,
+      "shared_later_hex": "0x21",
+      "shared_later_decimal": 33,
+      "status": "approved module-local byte-row accessor and native regression; shared declaration/default initialized prefix ownership remains GLOBAL/controller work"
+    },
+    "storage": "Complete current non-CODE projection remains2999 initialized/4571 BSS bytes/0fixups, not complete historical module ownership.",
+    "main_before_accessor": {
+      "hex": "0x3ec0",
+      "decimal": 16064
+    }
+  },
+  "round6_diagnostics": {
+    "scope": "Historical round6 diagnostics: Only the complete sortfilenames native public is newly accepted. Private normalization/comparison diagnostics and equal main extent add no main coverage.",
+    "main_before": {
+      "hex": "0x3ed0",
+      "decimal": 16080
+    },
+    "main_current": {
+      "hex": "0x3f40",
+      "decimal": 16192
+    },
+    "main_target": {
+      "hex": "0x3f40",
+      "decimal": 16192
+    },
+    "current_CODE": {
+      "hex": "0x780b",
+      "decimal": 30731
+    },
+    "sort_public": {
+      "hex": "0x1c0",
+      "decimal": 448
+    },
+    "sort_body": {
+      "hex": "0xc8",
+      "decimal": 200
+    },
+    "sort_associated_table_prefix": {
+      "hex": "0xf8",
+      "decimal": 248
+    },
+    "sort_fixups": {
+      "hex": "0x49",
+      "decimal": 73
+    },
+    "sort_table_destinations": {
+      "hex": "0x3e",
+      "decimal": 62
+    },
+    "failed_main_error": "missing/unsupported loader fixup at 0x2d281",
+    "save_order_negative_controls": [
+      "empty leading goto with initialization only in trailing OPEN",
+      "trailing do/while entry with initialization only in trailing OPEN"
+    ],
+    "save_order_result": "Both canonicalize to ordinary entry-first body and remain unverified. No helper, payload, label patch, extra segment or trimmed proof."
+  },
+  "round7_diagnostics": {
+    "scope": "Historical round7 diagnostics: The entire menus native public is newly accepted with all prior16 intervals and complete current non-CODE preserved. Earlier failed controls are retained privately, not accepted fragments. No source/per-function CPU option or ABI change is promoted.",
+    "main_public": {
+      "hex": "0x3f40",
+      "decimal": 16192
+    },
+    "main_fixups": {
+      "hex": "0x584",
+      "decimal": 1412
+    },
+    "accepted_bytes": {
+      "hex": "0x667b",
+      "decimal": 26235
+    },
+    "accepted_fixups": {
+      "hex": "0x75f",
+      "decimal": 1887
+    },
+    "current_CODE": {
+      "hex": "0x780b",
+      "decimal": 30731
+    },
+    "frame_homes": {
+      "selection": -12,
+      "active_sensitivity": -4,
+      "inactive_sensitivity": -8,
+      "clock_volume": -16
+    },
+    "historical_three_byte_failure": {
+      "status": "Rejected intermediate before the single-case cancellation switch; never accepted",
+      "differing_offsets": [
+        {
+          "hex": "0x1d8a",
+          "decimal": 7562
+        },
+        {
+          "hex": "0x1d8b",
+          "decimal": 7563
+        },
+        {
+          "hex": "0x1d8c",
+          "decimal": 7564
+        }
+      ],
+      "checked_bytes": 16192,
+      "checked_fixups": 1412
+    },
+    "CPU_control": "Private /5r changes accepted savetemp extent, main0x40a0 (16544), CODE0x79e3 (31203), rejected before main comparison. /3r skipped after controller-reported identical-header invalid-CPU evidence. Canonical /4r retained.",
+    "probe_return_control": "Signed-short definition/prototype changes the accepted probe at target0x2ba42 (178754) and causes69 main raw differences; rejected. Int ABI retained.",
+    "full_module_gate": {
+      "verified": false,
+      "error": "conflicting placement/binding for probe_: (1, 178432) != (1, 178400)"
+    }
+  },
+  "later_ancestor_bodies_excluded": [
+    "dummyfunc_",
+    "dummymess_",
+    "TENtext_",
+    "intro4animsounds_",
+    "first4animsounds_",
+    "intro42animsounds_",
+    "endanimvol41_",
+    "endanimvol42_",
+    "endanimvol43_"
+  ],
+  "progress_evidence": "evidence/menues-progress.json",
+  "module_descriptor": "modules/menues.json",
+  "module_descriptor_sha256": "1b3abf9abe9b77f8c7d9758cee1d565650966bfae7405983723ba05e46089160",
+  "round8_complete_module": {
+    "code_bytes": 30763,
+    "code_publics": 20,
+    "initialized_bytes": 33762,
+    "zero_fill_bytes": 4571,
+    "verified_fixups": 2263,
+    "placements": {
+      "1": [
+        1,
+        173120
+      ],
+      "5": [
+        3,
+        582944
+      ],
+      "4": [
+        3,
+        31204
+      ],
+      "2": [
+        3,
+        7524
+      ]
+    },
+    "scope": "All emitted native segments at one placement; no following5 CODE alignment bytes or complete executable claim.",
+    "inferred_local_entry": {
+      "symbol": "menues_inferred_save_tail_entry_",
+      "target_offset_hex": "0x2b890",
+      "target_offset_decimal": 178320,
+      "extent": 16,
+      "fixups": 0,
+      "historical_identity": "unknown; source name, role, caller and original visibility inferred",
+      "current_source_scope": "static/local OMF public, excluded from external_anchor_bindings"
+    },
+    "geometry": {
+      "loadplayer_": {
+        "target_offset": 173904,
+        "extent": 4416,
+        "fixups": 372
+      },
+      "saveplayer_": {
+        "target_offset": 178336,
+        "extent": 96,
+        "fixups": 4
+      }
+    },
+    "historical_boundary_correction": "Old load4432 max-known-public span omitted the newly inferred public. Revision follows successful complete CODE/nonCODE common-placement proof, never a body-only workaround.",
+    "following_alignment_excluded": {
+      "target_object": 1,
+      "target_offset": 203883,
+      "size": 5
+    },
+    "compiler_diagnostics": {
+      "warnings": 0,
+      "errors": 0
+    }
+  },
+  "user_byte_role_correction": {
+    "kind": "logical field-role correction with unchanged native offsets and complete contributor bytes",
+    "show_help_offset": 6,
+    "scrollmode_offset": 7,
+    "source_change": "ud.clipping -> ud.scrollmode",
+    "allocation_verified": false,
+    "native_validation": "Complete contributor byte/public/fixup proof retained; PREMAP four-byte BSS boundary condition remains unchanged."
+  }
+}

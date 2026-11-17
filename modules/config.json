@@ -1,0 +1,87 @@
+{
+  "name": "CONFIG",
+  "source": "src/game/config.c",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include"
+  ],
+  "source_reference_evidence": "evidence/game-config-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G"
+  ],
+  "code_object": 1,
+  "code_offset": 287168,
+  "code_bytes": 4962,
+  "code_publics": 12,
+  "symbol_anchors": {
+    "_FXDevice": [
+      3,
+      587736
+    ],
+    "_BlasterConfig": [
+      3,
+      587652
+    ],
+    "_NumVoices": [
+      3,
+      587712
+    ],
+    "_MixRate": [
+      3,
+      587692
+    ],
+    "_NumBits": [
+      3,
+      587720
+    ],
+    "_NumChannels": [
+      3,
+      587716
+    ],
+    "_FXVolume": [
+      3,
+      587680
+    ],
+    "_ReverseStereo": [
+      3,
+      587724
+    ],
+    "_MusicDevice": [
+      3,
+      587732
+    ],
+    "_MidiPort": [
+      3,
+      587704
+    ],
+    "_MusicVolume": [
+      3,
+      587684
+    ],
+    "_MusicToggle": [
+      3,
+      587636
+    ],
+    "_SoundToggle": [
+      3,
+      587640
+    ],
+    "_VoiceToggle": [
+      3,
+      587644
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 7394,
+    "zero_fill_bytes": 112,
+    "verified_fixups": 629
+  },
+  "anchor_evidence": "evidence/sounds-module.json"
+}

@@ -1,0 +1,128 @@
+{
+  "kind": "Private final native difference decomposition; no output patch or source ownership inference",
+  "initializer_order_result": {
+    "scope": "Private authentic stock fltused6/1 initializer reordered to proven target slot; input bytes and CODE order unchanged",
+    "status": "OK",
+    "CODE_size_gap": 0,
+    "object3_virtual_gap": 96,
+    "shifted_initialized_DATA_differences": [
+      56808,
+      56809,
+      58364,
+      68276,
+      72389,
+      72808,
+      72809
+    ],
+    "shifted_DATA_nonloader_differences": [
+      56808,
+      56809
+    ],
+    "output_bytes": 961271,
+    "output_sha256": "103d5b5131c186b6a108bc961b2ebcdadb422aae2d3469700e19d668a7e2d787",
+    "program": "/Users/jonw/duke3d/build/task578-initializer-order/link/GAME.EXE",
+    "inputs_unchanged": true,
+    "source_credit": 0,
+    "full_executable_identical": false
+  },
+  "complete_outside_GAME_typed_equations": {
+    "scope": "Read-only complete typed-field equations outside GAME; source coordinates shifted only for observed DATA gap, never output bytes",
+    "native_sha256": "103d5b5131c186b6a108bc961b2ebcdadb422aae2d3469700e19d668a7e2d787",
+    "regions": {
+      "1": {
+        "fields": 23069,
+        "target_delta_histogram": [
+          {
+            "target_object": 1,
+            "actual_minus_target": 0,
+            "fields": 2119
+          },
+          {
+            "target_object": 3,
+            "actual_minus_target": -96,
+            "fields": 19832
+          },
+          {
+            "target_object": 3,
+            "actual_minus_target": 0,
+            "fields": 1108
+          },
+          {
+            "target_object": 2,
+            "actual_minus_target": 0,
+            "fields": 10
+          }
+        ]
+      },
+      "2": {
+        "fields": 18,
+        "target_delta_histogram": [
+          {
+            "target_object": 3,
+            "actual_minus_target": -96,
+            "fields": 18
+          }
+        ]
+      },
+      "3": {
+        "fields": 325,
+        "target_delta_histogram": [
+          {
+            "target_object": 3,
+            "actual_minus_target": 0,
+            "fields": 223
+          },
+          {
+            "target_object": 1,
+            "actual_minus_target": 0,
+            "fields": 98
+          },
+          {
+            "target_object": 3,
+            "actual_minus_target": -96,
+            "fields": 4
+          }
+        ]
+      }
+    },
+    "exceptions": [],
+    "full_executable_identical": false
+  },
+  "nonloader_initialized_DATA_difference_owner": {
+    "owner": "unadmitted GF1_OS candidate",
+    "target_offsets": [
+      56808,
+      56809
+    ],
+    "source_values": [
+      0,
+      0
+    ],
+    "target_values": [
+      101,
+      102
+    ],
+    "classification": "Actual source DATA boundary bytes; interpretation and faithful source reproduction unresolved, not treated as authorized filler"
+  },
+  "other_remaining": [
+    "Unowned96-byte initialized source contribution",
+    "GAME instruction/field/shared-tail differences and remaining storage roles",
+    "Seven leading GAME CONST residue bytes",
+    "Normal-source integrations still undergoing independent admission",
+    "Exact final headers/field-record serialization and full-file identity"
+  ],
+  "artifact_sha256": {
+    "build/task578-initializer-order/observe_fltused.py": "ed44100d504adac626642dfac7b3876da96e0b2503baec83dd821b4580666ba5",
+    "build/task578-initializer-order/fltused-whole-proof.json": "7987342ab2a7262e27a54c88dee71b83e9bcae69f88ea26b4ba68d894a35bb29",
+    "build/task578-initializer-order/replay.py": "ed66190303faea9e00eea9a777f665262fddd2cef44003fcd8fcf618e5c3ba39",
+    "build/task578-initializer-order/result.json": "42bb534ecf3db13613391c71f96c78fc0a717dd7f36655368f79ecedd5230b5e",
+    "build/task578-initializer-order/link/LINK.LNK": "d3b5dcee77e38bbb63fe52f9dd1c5c66ee164e0e126e35d218bb1f378b32b764",
+    "build/task578-initializer-order/link/LINK.LOG": "0d393a1fcf3aea82bcefe55e89d273062d7bd357df400808681856317b02d2c0",
+    "build/task578-initializer-order/link/OUT.MAP": "c04392be944a4f6fd46e7da81c0a6ee50749ab1b290ed24ff54ba76937f901d0",
+    "build/task578-initializer-order/link/GAME.EXE": "103d5b5131c186b6a108bc961b2ebcdadb422aae2d3469700e19d668a7e2d787",
+    "build/task581-image-equations/outside-GAME-equations.json": "6cf005afe343a03d866c1b53ae0c06de3968015f5bf7a672436df5e3a1833150",
+    "build/task577-final-difference-map/object3-regions.json": "1d37f8b7e147f5f2a762e38721dad9430555de79566897d572a9c8db48504b10"
+  },
+  "source_credit_added": 0,
+  "full_executable_identical": false
+}

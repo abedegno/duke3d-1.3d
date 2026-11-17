@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "name": "gnu-objconv-sbkload-finite-extension",
+  "base_tool_profile_sha256": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+  "scope": "Closed manually authored SBKLOAD source subset; existing hardware/NRPN guards unchanged",
+  "contract": "src/pawe32/sbkload/contract.py",
+  "descriptor": "modules/pawe_sbkload.json",
+  "decoder_manifest_sha256": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+  "sections": [
+    ".text",
+    ".data",
+    ".bss",
+    "_TEXT",
+    "_DATA"
+  ],
+  "code_pointer_table_entries": 34,
+  "real_cs_indirect_dispatches": 1,
+  "source_private_identities": 171,
+  "source_absolute_constants": 90,
+  "public_definitions": 15,
+  "imports": 8,
+  "fixups": 149,
+  "signed_absolute_values": "COFF32 modulo2**32; original signed expression and qualified symbol retained",
+  "comma_declarations": "Literal validated source names, not anonymous/export aliases",
+  "source_credit": 0,
+  "general_coff_support": false
+}

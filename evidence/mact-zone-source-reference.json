@@ -1,0 +1,322 @@
+{
+  "kind": "Complete authored symbolic ZONE source; readable26/27matching C ancestry, no historical ASM claim",
+  "source_credit": 0,
+  "historical_source_identity": false,
+  "tracked_sources_sha256": {
+    "src/mact/zone.asm": "92ee1e0b7cedbc2a73901fd0a9470c915f81df06f5d0278f6b17ad3a5b0aa13f",
+    "src/mact/zone/GPL-2.0.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+    "src/mact/zone/contract.py": "b72eb7896be0e1c5ec7406b16ca736b1dd3a603992bbfb57ab82ae5932be00f9",
+    "src/mact/zone/include/_zone.h": "7b89d30b388faccb2af277d87607bd573c25b5469ce175cfe2690b015c32d837",
+    "src/mact/zone/include/debug.h": "7a1011ff80eb4c4009a702667e2b1f3b764fc38e6820a486e25545c882569b1d",
+    "src/mact/zone/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/zone/include/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "src/mact/zone/include/linklist.h": "486e1511568358df8b8606908b2466bbf82e352c7e16272ab62c5194f45e5e80",
+    "src/mact/zone/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/zone/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "src/mact/zone/scope_roles.py": "b0a54ac9cec78b4f355f9152f46678b3f1dfc4837af5142793cc783cfa7b5f9d",
+    "src/mact/zone/zone_counterpart.c": "f7ad3dc64e26f73367d8ca5401c23c5ddd0b3d75de85b0bd2f62443b59d9b648",
+    "src/mact/zone/zone_diagnostics.py": "6f52215a35064e0c124a7216aa041e0f358051f419cf3d437d773a7a90035f39",
+    "src/mact/zone/zone_port.py": "a1faaa9a5ad7333dfeb790077b3e76c0412c250bc7c15cac8b1c33e9a9031250"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_zone.py": "e49435504a116041010f4b8bf84ad9fc8aba29774a798245c7b5fecc5b144815",
+    "profiles/gnu_omf/identity.py": "a863fe69d8a7b129e9f146a1f2074a58b412e3d1ca23ce13b48dbdbec3114102",
+    "profiles/gnu_omf/profile.json": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+    "profiles/gnu_omf/objconv-source-files.json": "38d6e25f9256a54d407c2960fbe2e05358b6a60f778aa22e05bdc6e2f5b51e23",
+    "profiles/gnu_omf/zone-subset.json": "59039685efc1e1f4c123a03839ac00e58672c658ac0acd658cea6683cab19457",
+    "profiles/gnu_omf/setup.py": "e955800a35a8754ae2f9ce8e0f5b79c181fa0b42919ed155a874fee30239db93",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/capstone/identity.py": "e340cf55a62aaa0b9250ea7029ecf6099a21869b8ef137e754d48afd806bfb5d",
+    "profiles/capstone/files.json": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+    "profiles/capstone/setup.py": "045c73432d8891fb1804e820754f0d96da16ad6a1afa409e763563a835dc0ca2"
+  },
+  "notice_files_sha256": {
+    "src/mact/zone/README.md": "25c1cdec436dc049d615aa7d5d665c4820d464c2be9ec22a449adc2170f70b0a",
+    "profiles/capstone/README.md": "b251955848c4bf47762a4e4651c495a37c7125c0102b7441379f9d4b89f51409",
+    "profiles/gnu_omf/README.md": "dc1855eb465831e1b88ad7983ee25f2b37612ba137aefa24ddd08f22329240de",
+    "profiles/gnu_omf/ZONE.md": "3b1fabc7e8ccb0b14c7c5eb7d0c6fcd92df35124ea88fa5e130ed58a69661b50"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19",
+    "tools/probe_game.py": "1fd463c15f6820cdace5f949bf323a08f9cffe8fe8bc65e3132b9a2415755888",
+    "tools/probe_premap.py": "91962353f2d8f24279fd74881b544ffb7a0de6cdced9546a664ba8fc71688dea",
+    "tools/build_game_compound.py": "129ff2ba5ef27708c5789031c470252308d40e45818e00be972e534fc5c9e6b7"
+  },
+  "descriptor_sha256": "955de309b09ccebab3b25244c21d79b4d7c4f6c1de9bf0743512e1d56d1997bb",
+  "source_only_before_observation": true,
+  "original_or_target_producer_inputs": false,
+  "original_member": {
+    "library": "reference/duke3d-reconstructions/MACT386.LIB",
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "offset": 15360,
+    "size": 8040,
+    "name": "P:\\LIBMACT\\zone.c",
+    "sha256": "1d2d19f85ec63e23da9969930d9b394753e137662383913d19e7e694debdb1e9"
+  },
+  "caller": {
+    "path": "evidence/game-progress.json",
+    "sha256": "c1f3a6af100bab0a8a80a401d45a7523525daf4bfac5e79b399de27379ca7f06",
+    "contract": "Accepted current GAME main1488/192, actual Z_AvailHeap_ typed callee, live source/options/all32prepared headers after native production"
+  },
+  "source_lineage": {
+    "ancestor": "Released ROTT list/allocation/DPMI source, exact Duke extras private header/types; missing original public ZONE.H not fabricated",
+    "notice": "Apogee GPL2-or-later in readable C; full GPL text and seven unchanged original header notices",
+    "remaining_C_gap": "Task18126/27exact, only Z_Malloc256 stack/register colors; AvailHeap84/5 already exact",
+    "humanization": [
+      "Ordinary C Z_Malloc matching and historical local/header context",
+      "Physical ABI/alias documentation and historical producer/source identity",
+      "Actual DOS DPMI validation, other owners and full EXE"
+    ]
+  },
+  "private_scope_policy": "Original7named local definitions retained through genuine source/C_STAT name/value/use correspondence, not raw LPUB identity or synthetic Module locals; all127sourceprivate identities preserved; no external anchors",
+  "native_alignment": "Actual BYTE41 custom sections; exact original target logical16/4/4/16 checked, no geometry waiver",
+  "role_policy": {
+    "original_roles": 114,
+    "native_typed": 78,
+    "resolved_same_TU_calls": 36,
+    "all_source_private": 127,
+    "original_private": 7
+  },
+  "spike": {
+    "report": "task-403-zone-source-spike.md",
+    "report_sha256": "01109de12d45df3f63d2ae84d8bc3741039b83714b7518655671ef606db72556",
+    "native_omf_sha256": "3736122c3baa7b73026bf3947040e8172f8bcc4743243fa7cb766b2c7de4fa32",
+    "independent_root_review": "Task413 independently reproduced full proof/roles/17controls and additional actual DPMIservice500->501 negative; normal package removes ignored spike dependencies"
+  },
+  "full_executable_rebuilt": false,
+  "primary_origins": {
+    "released_headers": {
+      "repository": "https://github.com/videogamepreservation/dukenukem3d",
+      "revision": "ef609159bd352985a0c63734a11241d86c873fe5",
+      "files": {
+        "util_lib.h": {
+          "released_path": "extras/UTIL_LIB.H",
+          "sha256": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd"
+        },
+        "debug.h": {
+          "released_path": "extras/DEBUG.H",
+          "sha256": "7a1011ff80eb4c4009a702667e2b1f3b764fc38e6820a486e25545c882569b1d"
+        },
+        "file_lib.h": {
+          "released_path": "extras/FILE_LIB.H",
+          "sha256": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4"
+        },
+        "types.h": {
+          "released_path": "extras/TYPES.H",
+          "sha256": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1"
+        },
+        "linklist.h": {
+          "released_path": "extras/LINKLIST.H",
+          "sha256": "486e1511568358df8b8606908b2466bbf82e352c7e16272ab62c5194f45e5e80"
+        },
+        "_zone.h": {
+          "released_path": "extras/_ZONE.H",
+          "sha256": "7b89d30b388faccb2af277d87607bd573c25b5469ce175cfe2690b015c32d837"
+        },
+        "develop.h": {
+          "released_path": "extras/DEVELOP.H",
+          "sha256": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861"
+        }
+      },
+      "public_ZONE_H": "not present in inspected released source; native dependencyrecord proves original inclusion; no counterfeit replacement"
+    },
+    "related_ROTT": {
+      "repository": "https://github.com/videogamepreservation/rott",
+      "published_source": "rott/Z_ZONE.C",
+      "source_sha256": "baa38ec141cd5cc04f404eb9051c4eef59ed64adaf330ea6d5992da020d0a641",
+      "private_header_sha256": "cf755e1eae2dfba47ae10224b1e7665a6072d3a2efa6040066b987dd0b886916",
+      "public_header_sha256": "9e06436c97bbe0d0f78c0eb0e38df14c3bd27602de7c3edd375455b2e4b4a06d",
+      "limit": "real related parsing/allocation/DPMI lineage, different sentinel/record ABI, not original MACTZONE C"
+    },
+    "readable_C_ancestry": {
+      "file": "src/mact/zone/zone_counterpart.c",
+      "sha256": "f7ad3dc64e26f73367d8ca5401c23c5ddd0b3d75de85b0bd2f62443b59d9b648",
+      "task181_private_source_freeze_sha256": "636945cc8a5251e63627d68bc3bce43682670b9ec89ea1467474e83ea28ef6d0",
+      "historical_source_claim": false
+    }
+  },
+  "four_owner_source_registration_refresh": {
+    "prior_checkpoint": "d5b9aea",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "4cbaa3bfaf0ea5a15be53e48c644bb4ca917948e3d82962dedf73e6ec9307790",
+        "current": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8"
+      }
+    },
+    "scope": "Fixed named VOLTAB, WDIGITAL, DEBUG and TIME_DOS source producer/CLI dispatch only. Default parse/matcher/inference/verifier/source and historical proof dictionaries unchanged; fresh normal replays follow. No new origin or target waiver."
+  },
+  "sound_vector_source_registration_refresh": {
+    "prior_checkpoint": "d8475bf",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8",
+        "current": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29"
+      }
+    },
+    "scope": "Fixed named SOUND, WSOUND and VECTOR source producer/CLI dispatch only. Default parse/matcher/inference/verifier/source and historical proof dictionaries unchanged; fresh normal replays follow. No new origin or target waiver."
+  },
+  "game_compound_root_context_refresh": {
+    "prior_checkpoint": "a1e65a2",
+    "changed_dependencies": {
+      "tools/probe_game.py": {
+        "prior": "0b4111751a210ac5722de931016e190fb271b8019393d826a4f68b521968ddcf",
+        "current": "10f0a371d4f035c650eecda4091d4b0185e761105b3b82978bf57a76b9198943"
+      }
+    },
+    "scope": "Exact reviewed GAME C/ASM public-tail source and source-first observer adoption; only named dependencies updated. Default parser/inference/matcher/verifier unchanged; full old witness/proof preservation requires actual fresh replay."
+  },
+  "game_compound_root_caller_refresh": {
+    "prior": "5621db29bb556f18e1313b5714ba8e1eaa60ff0d8dc8c2883be8d0f893c260d2",
+    "current": "15335b36e0090662b1be926d8853bf8f876dc1a2332eb63dc987a9f224706bd1",
+    "scope": "Fresh normal GAME compound main proof dictionary literally equals old accepted main; source/header/options and192typed fields unchanged."
+  },
+  "rox_named_source_registration_refresh": {
+    "prior_checkpoint": "d5801b4",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29",
+        "current": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9"
+      }
+    },
+    "scope": "New explicit mact_rox dispatch only; default parse/infer/matcher/verifier and source machine code unchanged. Fresh named normal replays required."
+  },
+  "rox_root_caller_refresh": {
+    "prior_GAME_receipt": "15335b36e0090662b1be926d8853bf8f876dc1a2332eb63dc987a9f224706bd1",
+    "current_GAME_receipt": "2e582efc96b88b7e7f1b3068fdd6bf8a7edb2d62dcd363fb94ffbb866b3ce8e8",
+    "scope": "Exact normalGAME source closure/driver context changed; all76function dictionaries remain literal."
+  },
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "library_batch_caller_refresh": {
+    "prior_GAME_receipt": "2e582efc96b88b7e7f1b3068fdd6bf8a7edb2d62dcd363fb94ffbb866b3ce8e8",
+    "current_GAME_receipt": "35dbb23271d1012e815b5c2de5b29a6fed2209b424f382398dc8591b3bb91756",
+    "scope": "Exact normalGAME source closure/driver context changed; all76function dictionaries remain literal."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task545_caller_refresh": {
+    "prior_GAME_receipt": "35dbb23271d1012e815b5c2de5b29a6fed2209b424f382398dc8591b3bb91756",
+    "current_GAME_receipt": "4bd5a225434fe33793dba3cc4c3e541826b330f0acdcad9f2869a95bfd46c76c",
+    "scope": "Normal GAME observer closure/paths changed; all76 function dictionaries remain literal, source bodies and scopes unchanged."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/probe_game.py": {
+        "prior": "10f0a371d4f035c650eecda4091d4b0185e761105b3b82978bf57a76b9198943",
+        "current": "23c6cd1d230acb5235940e17fa1a07888a1302ef3d51712ad86cfedb9eb374b8"
+      },
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task552_caller_refresh": {
+    "prior_GAME_receipt": "1944281d8cec2ee03f73fb1ff5db3a45daf785ff8a88b350e7a867d98dd34f56",
+    "current_GAME_receipt": "1944281d8cec2ee03f73fb1ff5db3a45daf785ff8a88b350e7a867d98dd34f56",
+    "scope": "Normal GAME observer closure/paths changed; old76 function dictionaries remain literal, source bodies and scopes unchanged."
+  },
+  "task552_GAME_header_witness": {
+    "prior_helper_sha256": "d1d02e755bed433680c482079a555bde4305e25dee670435ed128b7e776da17e",
+    "current_helper_sha256": "f49788366dc29310d3551f00b7c7160b3f0966c5571112a93ea1107436a96162",
+    "scope": "Fresh accepted GAME-only header graph includes tracked compound endingpal context, alongside all old header directories. Every prepared header must equal the actual accepted caller receipt; no mismatch tolerance.",
+    "closed_builder_sha256": "129ff2ba5ef27708c5789031c470252308d40e45818e00be972e534fc5c9e6b7"
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task564_caller_refresh": {
+    "prior_GAME_receipt": "1944281d8cec2ee03f73fb1ff5db3a45daf785ff8a88b350e7a867d98dd34f56",
+    "current_GAME_receipt": "c0931540cc8de36f50da8f9e6e9006539f35d161a4826df140df4f84dfb1cf4c",
+    "scope": "Normal GAME observer closure/paths changed; old76 function dictionaries remain literal, source bodies and scopes unchanged."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_caller_refresh": {
+    "prior_GAME_receipt": "c0931540cc8de36f50da8f9e6e9006539f35d161a4826df140df4f84dfb1cf4c",
+    "current_GAME_receipt": "8864c53fc87c78dbfa1c72eac7b32cd6f4bac114951a07b9e0e17c38f11b855f",
+    "scope": "Normal GAME observer closure/paths changed; old76 function dictionaries remain literal, source bodies and scopes unchanged."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  },
+  "task585_caller_refresh": {
+    "prior_GAME_receipt": "8864c53fc87c78dbfa1c72eac7b32cd6f4bac114951a07b9e0e17c38f11b855f",
+    "current_GAME_receipt": "54a5ff19ac887968248a0a1d3e1f5ace3ecf412e721436429717effea48adc52",
+    "scope": "Normal GAME observer closure/paths changed; old76 function dictionaries remain literal, source bodies and scopes unchanged."
+  },
+  "task611_shutdown_caller_refresh": {
+    "old_caller_sha256": "54a5ff19ac887968248a0a1d3e1f5ace3ecf412e721436429717effea48adc52",
+    "current_caller_sha256": "c1f3a6af100bab0a8a80a401d45a7523525daf4bfac5e79b399de27379ca7f06",
+    "old_helper_sha256": "3b701d8709e44f69b16e5b24e3d67843ad74b1fad6cce198eb64a4e59aa9e366",
+    "current_helper_sha256": "e49435504a116041010f4b8bf84ad9fc8aba29774a798245c7b5fecc5b144815",
+    "scope": "GAME main1488/192 and Z_AvailHeap role unchanged; actual GAME C Shutdown call order and independent provider nominations corrected. No ZONE instruction/source/ABI/role change."
+  }
+}

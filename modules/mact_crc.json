@@ -1,0 +1,22 @@
+{
+  "name": "MACT_CRC",
+  "source": "src/mact/crc.c",
+  "reference_headers": [],
+  "overlay_headers": "src/mact",
+  "source_reference_evidence": "evidence/mact-crc-source-reference.json",
+  "options": [
+    "/5r",
+    "/s",
+    "/ort",
+    "/ol"
+  ],
+  "code_object": 1,
+  "code_offset": 570880,
+  "code_bytes": 80,
+  "code_publics": 2,
+  "expected": {
+    "initialized_bytes": 592,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 2
+  }
+}

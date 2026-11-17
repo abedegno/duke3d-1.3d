@@ -1,0 +1,68 @@
+{
+  "scope": "Negative compiler-selection experiment for an interim engine source; not a complete module or executable proof. Fixup equivalence was not used as a separate gate here.",
+  "source_sha256": "9f4f67953633955af1750cf1fcbd4f50c816a8533cf99d4b83e46ad6d8ea8fbd",
+  "source_note": "Private interim candidate, with older sprite/map sorting and the common wall visibility tail restored. Later source iterations may differ.",
+  "compiler_options": [
+    "/4r",
+    "/s",
+    "/or"
+  ],
+  "baseline_compiler_sha256": "1b97a68f7b8a3efd89b05f64ce99836b1e533f398699305f96dc423254939d6a",
+  "probes": [
+    {
+      "version": "10.5a",
+      "compiler_sha256": "fe101e23ec6217e60fa5bd0711f51ec5d0edd299d6e1860e97cec4eebb7663ec",
+      "segment_bytes_and_layout_equal_to_10_5": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "segment_count_equal": true
+    },
+    {
+      "version": "10.6",
+      "compiler_sha256": "a257b6a25a95f02b404c4571839297af0a8cd941479f4dd19149ea949fd88c42",
+      "segment_bytes_and_layout_equal_to_10_5": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "segment_count_equal": true
+    }
+  ],
+  "patch_10_5a": {
+    "url": "https://archive.org/download/watcom-c-cpp-compilers-collection/watcom-10.5/patches/c105_a.zip",
+    "sha256": "fa27afd9b1a19d4c217879761d5249399147dcb8bc07dd798949a10e4ca0be0c",
+    "method": "Apply PTCH25.A to a private copy of the 10.5 compiler with the original BINW/bpatch.exe -b -p. Retain original 10.5 headers and W32RUN.EXE."
+  },
+  "codegen_memory": {
+    "compiler_version": "10.5",
+    "tested_kib": [
+      64,
+      128,
+      256,
+      512,
+      8192
+    ],
+    "drawalls_bytes_in_every_test": 8039,
+    "effect_observed": false,
+    "query_output": "Maximum WCGMEMORY=4096"
+  },
+  "full_executable_rebuilt": false,
+  "input_replay": {
+    "base_source": "src/engine/engine.c",
+    "base_source_sha256": "0d91fbd1b46835de2459628e8fa2559696513d5fdec11f0027a50f539876e055",
+    "patch": "evidence/engine-compiler-input.patch",
+    "patch_sha256": "ebd393d1093925b72ad7c8fb6f73b0ce30092921b70a19dd4ce069d9099da380",
+    "command": "Export src/engine/engine.c, src/engine/include and src/cache/include from git revision 2b35669 to build/engine-compiler-replay/base, then run: patch -o build/engine-compiler-replay/engine.c build/engine-compiler-replay/base/src/engine/engine.c evidence/engine-compiler-input.patch",
+    "expected_source_sha256": "9f4f67953633955af1750cf1fcbd4f50c816a8533cf99d4b83e46ad6d8ea8fbd",
+    "compile_recipe": "Use profiles/watcom/tools/runner.py compile_source(home, replay_source, output, [\"/4r\",\"/s\",\"/or\"], 60, include_dirs=[Path(\"build/engine-compiler-replay/base/src/engine/include\"), Path(\"build/engine-compiler-replay/base/src/cache/include\")]) for each compiler home. Compare all parsed OMF segment names, classes, sizes, attributes and data bytes with the 10.5 baseline.",
+    "unpacker_commit": "973a92211701437d881d513a62c2ca80e7a79db1",
+    "unpacker_10_6": "toolchains/support/watcom-compilers/scripts/extract-10.6.sh",
+    "base_source_revision": "2b35669"
+  }
+}

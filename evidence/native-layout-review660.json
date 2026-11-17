@@ -1,0 +1,21 @@
+{
+  "task": 660,
+  "verdict": "APPROVED650+661 common layout integration; source prerequisites separately reviewed",
+  "original650_hold_resolved": true,
+  "author650_artifacts_verified": 593,
+  "author650_owned_snapshots": 32,
+  "author661_artifacts_verified": 32,
+  "author661_freeze_sha256": "2ebb3d36f8109b22a0a3a99e649cc4e440bf2d1a74b06f3167c234c9a27fc6e6",
+  "author661_manifest_sha256": "aea61a865d4b7b0aebbce9e7a845efafc2a2f14134606d5c66138d3dc75b5ef5",
+  "independent_controls": "Actual changedCODE83to82 validOMF afterprojection: original650accepts,661rejects normal/-O with no receipt",
+  "tests": {
+    "normal": "28pass2.493s",
+    "optimized": "28pass2.213s"
+  },
+  "full_replay": "Root659 all615pins and only7pendingCONSTdifferences",
+  "reviewed_scope": "22source-only numeric CODEplans; all parsed native properties literal except bounded LOCAT; directive-only IRQ port; opt-in121 compiland FILEgraph; no object/image rewriting or research production input",
+  "remaining": "657 independent approval, import650+661, cold121 source build, sevenDATApermission, full final identity/humanization audit",
+  "source_credit_added": 0,
+  "whole_target_match": false,
+  "root_review_freeze_sha256": "6abcd5d370250d7f544508b3d021e86fc76bd0ba89a9ee3b3a4ff85ccb03b175"
+}

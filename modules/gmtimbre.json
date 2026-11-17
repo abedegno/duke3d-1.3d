@@ -1,0 +1,28 @@
+{
+  "name": "GMTIMBRE",
+  "source": "src/audio/gmtimbre.c",
+  "reference_headers": "reference/audiolib-reconstructions/SOURCE",
+  "source_reference_evidence": "evidence/audio-tables-source-reference.json",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/dLIBVER_ASSREV=19960116"
+  ],
+  "code_bytes": 0,
+  "code_publics": 0,
+  "symbol_anchors": {
+    "_ADLIB_TimbreBank": [
+      3,
+      64456
+    ]
+  },
+  "anchor_evidence": "evidence/al_midi-module.json",
+  "expected": {
+    "initialized_bytes": 3328,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 0
+  },
+  "data_only": true,
+  "data_publics": 1
+}

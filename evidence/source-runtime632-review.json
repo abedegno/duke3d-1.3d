@@ -1,0 +1,24 @@
+{
+  "kind": "Root632 independent review adoption for tracked source modes and supplied runtime preparation",
+  "reviews": {
+    "631": {
+      "verdict": "APPROVED combined629+631 delta",
+      "artifact_count": 457,
+      "review_freeze_sha256": "b8248d4d65886a7072ad79df5aeb17b8e423a96e4246c3df17e5367400a7d8e6",
+      "report_sha256": "3023c80a138200ca877179710416d75a75a3e5994cbff67422b8ff74f59ad1ff",
+      "all_frozen_artifacts_verified": true
+    },
+    "630": {
+      "verdict": "APPROVED",
+      "artifact_count": 741,
+      "review_freeze_sha256": "17caed911c9420eff342ab9ae805d1d64f2d315732830b74105673d4f2470649",
+      "report_sha256": "6a49cef92c282539c6e293891b3803bf055ae7bcc6252617ebe43fb97dfaa85f",
+      "all_frozen_artifacts_verified": true
+    }
+  },
+  "all_current_author_files_match_reviewed_checkpoints": true,
+  "original617_618_620_and629_HOLD_findings_retained_as_history": true,
+  "runtime_source_bytes_changed": false,
+  "source_credit_added": 0,
+  "full_executable_identical": false
+}

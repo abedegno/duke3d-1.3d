@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "scope": "Opt-in source-built GAME metadata profile; old defaults/profiles unchanged; no packet policy",
+  "source_archives": {
+    "binutils": {
+      "url": "https://sourceware.org/pub/binutils/releases/binutils-2.44.tar.xz",
+      "sha256": "ce2017e059d63e67ddb9240e9d4ec49c2893605035cd60e92ad53177f4377237"
+    },
+    "objconv": {
+      "url": "https://www.agner.org/optimize/objconv.zip",
+      "sha256": "0f604f93f97f689afd7615c86176eb15bc95001eadf8317f17ebd099c50c59e1",
+      "source_zip_sha256": "9d329506e670cd315903eaf06d5db5e82d74a1d00714af73b38c678a89d06ee7"
+    }
+  },
+  "tools": {
+    "bin/as-new": {
+      "sha256": "55218742bd2ef982d53e5f46246bff3cd3a949a72c3a69fda62a021fb4e28ce6",
+      "version": "GNU binutils2.44 i386-elf"
+    },
+    "bin/objconv": {
+      "sha256": "c40834666e308760ba46c81f32836f4e4fed69ea7e15189f84ddf75b120da5f1",
+      "version": "objconv2.57 source forks455+482+598+600"
+    }
+  },
+  "options": {
+    "assembler": [
+      "--32",
+      "-n",
+      "-L",
+      "-march=i386",
+      "--fatal-warnings",
+      "-no-pad-sections"
+    ],
+    "converter": [
+      "-fomf32",
+      "-wex",
+      "-omit-unused-gnu-defaults"
+    ]
+  },
+  "base_imports_profile_sha256": "41e175ed0d63e5ebc360a17505413b9fc7055dec100bab6ef04d775ec1618e77",
+  "derived_source_files": {
+    "error.h": "b12d9dd5eee7282299ab82e3d5ea258e8edbb205788244abb7f867fb8ae41e92",
+    "coff.cpp": "13e1175e2f7a9f87d0dcd8fc19293a1afa8ca40eb08fe1a06b71447d2467db54",
+    "proposed_improvements.txt": "e9dba4076da2eed17ddef2c0f3095bd9d1e1e625d363eea4bbcd30cb5aad76fa",
+    "stdafx.h": "fa89a0dbeed1ace13eae3a765c40f7657ee91e46f796d2809525668ad20014d2",
+    "converters.h": "679c0904f8c2c83ed585eca8104cb2b5b71157ed60a4ffa9d475013e79e9e153",
+    "omf2asm.cpp": "1038d0fd7790fb01fe46b16021b621cbdf12ef1789cc237ffb7de0aac0580de8",
+    "elf2cof.cpp": "27ee322dcbf838304a3633d53520587cd557eb9fb13b5dbb4d841dec36ae90e8",
+    "mac2asm.cpp": "a344cde4341ef5cebec31b29c19381d0210afd6938839f28b0603695451537e4",
+    "library.h": "602883c193c8c0b31976910cdb1ebf2516e722da0ba928c5f030eb791f045499",
+    "elf2mac.cpp": "01aa810a05f2eda3fe84d9295c5e60f0e6781ecf684c16a07dae13cf9272e8b3",
+    "error.cpp": "b626746c7cfe95cd79875d373936526d18cade58b133f1539fbf4e83e00af7b0",
+    "mac2mac.cpp": "7ea6900c950681a28f5fd1562500458fe1d1690a84f8d7210b5b520297bd3432",
+    "objconv.vcxproj": "2244c022dcb743e148e499092464903bf2bbe8e63b6b2db12477021ce1c516a0",
+    "containers.cpp": "956e2214b36fbe9fb820d93fe8b09f2edea6a23b2adf2b841b50f048bc737fda",
+    "objconv.sln": "40ea3880b969b8536daa21a22dd669615eeb4076de814c32e8b04636d89e5fd0",
+    "elf2asm.cpp": "f89d2ff955305707365f7a51cf2bcecd91a7aff6fefb8c0f71c9a4005a5f3f07",
+    "omf2cof.cpp": "a47f3dd175cfc303f56c052cde6ff6ebb608077bf6e897f64ccd484a3a3dbf6b",
+    "cmdline.h": "1dfc519c59fa3e7c9d462ac5b96033fd620a87e3242e8b47e199f2f7ce3ea5ec",
+    "disasm1.cpp": "06d16ef7175ebecaadcf9a837ae5f1b13e4457b226924ba1fc145d5defa6fb3d",
+    "omfhash.cpp": "0014d5082cb6cc270bf8a18b29ae7f470724ba4cf844b8835063eb711c3ccd9d",
+    "maindef.h": "dcd803aaa6c744d1334d185511f3288f0d38d031bbbb97477e0739eefa57da78",
+    "elf.cpp": "8d4c9487075fe845761a4ac02acc01314d53c5482dde2942a7f171ac06d6b8fa",
+    "elf.h": "67c89696b586d9779bcb29fe6ef30a23574ce6b00db9f1a85989227c02ab37c9",
+    "disasm2.cpp": "82923d73f44e09118cd777559be0b8faf91a84f1943038b3bdc45a012f19bfd4",
+    "cof2elf.cpp": "bf53ea1623839a7df0b4b49e7f859114109cd2025f9aebed836ee2e553e2a39f",
+    "library.cpp": "e6731aacde8cb8cfaef8c57b78e7ad0fec22e13ca9b56b26ee82184adf485509",
+    "build.sh": "70ac2e8c32a450493b017b079a9ddbf166c02dddbfbc4639a591a66450ddeba1",
+    "omf.cpp": "60637518f95f80a7d39a50e049effbc3a16b1059d3d42ed8fa4afc9004e5e064",
+    "cmdline.cpp": "d06933bc7cbc793a2096b57fc4113dc4666b687057b3480a514c17ec33c078ff",
+    "cof2omf.cpp": "5b71ff25d13ada68fd8c4e3d017954e026fcb71a7a6af21f408f097d26f51d3a",
+    "omf.h": "64b3243049e318543e075d9744b0bfc7ef5d0f0929b797b14ff9e3422586c870",
+    "mac2elf.cpp": "2fdc68e886c7c4be2b1444523f72199c332e368f8db85b96d270b3c3d3b5d3d0",
+    "opcodes.cpp": "faf15f7b263af20066dd254e90eb398c565b3780f8cd8e0838f1f73f08f3e017",
+    "disasm.h": "713f6b442bf9ceb82a3a6ee66f871df68c7f45ded16b6866d1b505a7b93a76d9",
+    "cof2cof.cpp": "16ac766939bd3ecdc8c502e3dcc7b653e2c6fd2c5f10fdd7e25139990a9acfa4",
+    "macho.h": "5e3dbcceea2a6618fa3474840c1b9b37a2862d96f8580b7c12c4f5b9dcd7f49f",
+    "macho.cpp": "4e463f9f394a4937bcfba9cb3b007f335469dc102e0b576a70f2edb2b140b16e",
+    "containers.h": "a1486797631bdca1324ada27ffb239f7bffb87c20af6a120c32caebaa5ffe326",
+    "cof2asm.cpp": "27ae40008434c58dece4ea82100c6c9b7425f211ec003189f7432d9617e99485",
+    "coff.h": "d0153de235756345f06bcc3cef4f46a731d68270676e2bf106843031717eb7be",
+    "elf2elf.cpp": "573cfb1b98ff03ad77126a9e5c8f031fab73b5097a9d235616376808b4951762",
+    "main.cpp": "45282e0f438bd905570cb86dc478ef106c3c9d3facf9c30e6a3b8784e7d45b8a"
+  },
+  "metadata_patches": {
+    "source-groups.patch": "342aef1b4c2b6eb7f13453673d15fe4c438e7aabdd7dc878dda374746afc1494",
+    "unused-defaults.patch": "869eb78f3e76964184a9525dd81b4908018cc57c427e98f407b6b74a1fa970b4"
+  },
+  "native_host_runtime_dependencies": [
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++.1.dylib"
+  ],
+  "host_runtime_note": "Native OS shared-cache libraries are host dependencies, not DOS link inputs; cannot individually hash nonexistent on-disk shared-cache paths. Actual executables and every source/producer input are hash-bound.",
+  "source_credit": 0
+}

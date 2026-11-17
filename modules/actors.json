@@ -1,0 +1,526 @@
+{
+  "name": "ACTORS",
+  "producer": "actors-composite",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include",
+    "src/engine/include"
+  ],
+  "source_reference_evidence": "evidence/actors-effector-source.json",
+  "producers": {
+    "actors_c": {
+      "source": "src/game/actors.c",
+      "producer": "watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320",
+        "/dDUKE13D_EFFECTOR_ASM=1"
+      ],
+      "placements": {
+        "1": [
+          1,
+          84160
+        ],
+        "5": [
+          3,
+          77744
+        ]
+      },
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "attributes": 105,
+          "bytes": 42884
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "attributes": 169,
+          "bytes": 0
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "attributes": 169,
+          "bytes": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "attributes": 169,
+          "bytes": 0
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "attributes": 105,
+          "bytes": 6
+        }
+      ],
+      "publics": {
+        "_dmval": [
+          5,
+          0
+        ],
+        "_otherp": [
+          5,
+          4
+        ],
+        "_radius_status_record": [
+          1,
+          0
+        ],
+        "addammo_": [
+          1,
+          592
+        ],
+        "addweapon_": [
+          1,
+          704
+        ],
+        "bounce_": [
+          1,
+          19904
+        ],
+        "ceilingspace_": [
+          1,
+          432
+        ],
+        "checkavailinven_": [
+          1,
+          880
+        ],
+        "checkavailweapon_": [
+          1,
+          1136
+        ],
+        "clearsectinterpolate_": [
+          1,
+          6256
+        ],
+        "dointerpolations_": [
+          1,
+          272
+        ],
+        "floorspace_": [
+          1,
+          512
+        ],
+        "guts_": [
+          1,
+          5616
+        ],
+        "gutsdir_": [
+          1,
+          5856
+        ],
+        "hitradius_": [
+          1,
+          1968
+        ],
+        "ifhitbyweapon_": [
+          1,
+          7568
+        ],
+        "ifhitsectors_": [
+          1,
+          7504
+        ],
+        "ifsquished_": [
+          1,
+          1680
+        ],
+        "insertspriteq_": [
+          1,
+          5408
+        ],
+        "lotsofmoney_": [
+          1,
+          5488
+        ],
+        "moveactors_": [
+          1,
+          27216
+        ],
+        "movecyclers_": [
+          1,
+          8432
+        ],
+        "movedummyplayers_": [
+          1,
+          8704
+        ],
+        "moveexplosions_": [
+          1,
+          38752
+        ],
+        "movefallers_": [
+          1,
+          11328
+        ],
+        "movefta_": [
+          1,
+          6656
+        ],
+        "movefx_": [
+          1,
+          10160
+        ],
+        "moveplayers_": [
+          1,
+          9200
+        ],
+        "movesprite_": [
+          1,
+          4128
+        ],
+        "movestandables_": [
+          1,
+          12144
+        ],
+        "movetransports_": [
+          1,
+          23840
+        ],
+        "moveweapons_": [
+          1,
+          20416
+        ],
+        "ms_": [
+          1,
+          6400
+        ],
+        "restoreinterpolations_": [
+          1,
+          384
+        ],
+        "setinterpolation_": [
+          1,
+          80
+        ],
+        "setsectinterpolate_": [
+          1,
+          6096
+        ],
+        "ssp_": [
+          1,
+          5312
+        ],
+        "stopinterpolation_": [
+          1,
+          160
+        ],
+        "updateinterpolations_": [
+          1,
+          32
+        ]
+      },
+      "local_publics": [
+        "_dmval",
+        "_radius_status_record"
+      ],
+      "local_externals": [
+        16
+      ],
+      "code_data_ranges": [
+        [
+          1,
+          0,
+          24
+        ]
+      ],
+      "fixups": 1889
+    },
+    "actors_asm": {
+      "source": "src/game/moveeffectors.asm",
+      "producer": "nasm-2.16.03",
+      "options": [
+        "-f",
+        "obj"
+      ],
+      "placements": {
+        "1": [
+          1,
+          127044
+        ],
+        "2": [
+          3,
+          4280
+        ]
+      },
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "attributes": 41,
+          "bytes": 18790
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "attributes": 169,
+          "bytes": 67
+        }
+      ],
+      "publics": {
+        "moveeffectors_": [
+          1,
+          12
+        ]
+      },
+      "local_publics": [],
+      "local_externals": [],
+      "code_data_ranges": [],
+      "fixups": 923
+    }
+  },
+  "expected_ranges": [
+    [
+      1,
+      84160,
+      61674,
+      "initialized"
+    ],
+    [
+      3,
+      4280,
+      67,
+      "initialized"
+    ],
+    [
+      3,
+      77744,
+      6,
+      "BSS"
+    ]
+  ],
+  "expected": {
+    "initialized_bytes": 61741,
+    "zero_fill_bytes": 6,
+    "verified_fixups": 2812
+  },
+  "functions": {
+    "updateinterpolations_": {
+      "target_object": 1,
+      "target_offset": 84192,
+      "size": 48
+    },
+    "setinterpolation_": {
+      "target_object": 1,
+      "target_offset": 84240,
+      "size": 80
+    },
+    "stopinterpolation_": {
+      "target_object": 1,
+      "target_offset": 84320,
+      "size": 112
+    },
+    "dointerpolations_": {
+      "target_object": 1,
+      "target_offset": 84432,
+      "size": 112
+    },
+    "restoreinterpolations_": {
+      "target_object": 1,
+      "target_offset": 84544,
+      "size": 48
+    },
+    "ceilingspace_": {
+      "target_object": 1,
+      "target_offset": 84592,
+      "size": 80
+    },
+    "floorspace_": {
+      "target_object": 1,
+      "target_offset": 84672,
+      "size": 80
+    },
+    "addammo_": {
+      "target_object": 1,
+      "target_offset": 84752,
+      "size": 112
+    },
+    "addweapon_": {
+      "target_object": 1,
+      "target_offset": 84864,
+      "size": 176
+    },
+    "checkavailinven_": {
+      "target_object": 1,
+      "target_offset": 85040,
+      "size": 256
+    },
+    "checkavailweapon_": {
+      "target_object": 1,
+      "target_offset": 85296,
+      "size": 544
+    },
+    "ifsquished_": {
+      "target_object": 1,
+      "target_offset": 85840,
+      "size": 288
+    },
+    "hitradius_": {
+      "target_object": 1,
+      "target_offset": 86128,
+      "size": 2160
+    },
+    "movesprite_": {
+      "target_object": 1,
+      "target_offset": 88288,
+      "size": 1184
+    },
+    "ssp_": {
+      "target_object": 1,
+      "target_offset": 89472,
+      "size": 96
+    },
+    "insertspriteq_": {
+      "target_object": 1,
+      "target_offset": 89568,
+      "size": 80
+    },
+    "lotsofmoney_": {
+      "target_object": 1,
+      "target_offset": 89648,
+      "size": 128
+    },
+    "guts_": {
+      "target_object": 1,
+      "target_offset": 89776,
+      "size": 240
+    },
+    "gutsdir_": {
+      "target_object": 1,
+      "target_offset": 90016,
+      "size": 240
+    },
+    "setsectinterpolate_": {
+      "target_object": 1,
+      "target_offset": 90256,
+      "size": 160
+    },
+    "clearsectinterpolate_": {
+      "target_object": 1,
+      "target_offset": 90416,
+      "size": 144
+    },
+    "ms_": {
+      "target_object": 1,
+      "target_offset": 90560,
+      "size": 256
+    },
+    "movefta_": {
+      "target_object": 1,
+      "target_offset": 90816,
+      "size": 848
+    },
+    "ifhitsectors_": {
+      "target_object": 1,
+      "target_offset": 91664,
+      "size": 64
+    },
+    "ifhitbyweapon_": {
+      "target_object": 1,
+      "target_offset": 91728,
+      "size": 864
+    },
+    "movecyclers_": {
+      "target_object": 1,
+      "target_offset": 92592,
+      "size": 272
+    },
+    "movedummyplayers_": {
+      "target_object": 1,
+      "target_offset": 92864,
+      "size": 496
+    },
+    "moveplayers_": {
+      "target_object": 1,
+      "target_offset": 93360,
+      "size": 960
+    },
+    "movefx_": {
+      "target_object": 1,
+      "target_offset": 94320,
+      "size": 1168
+    },
+    "movefallers_": {
+      "target_object": 1,
+      "target_offset": 95488,
+      "size": 816
+    },
+    "movestandables_": {
+      "target_object": 1,
+      "target_offset": 96304,
+      "size": 7760
+    },
+    "bounce_": {
+      "target_object": 1,
+      "target_offset": 104064,
+      "size": 512
+    },
+    "moveweapons_": {
+      "target_object": 1,
+      "target_offset": 104576,
+      "size": 3424
+    },
+    "movetransports_": {
+      "target_object": 1,
+      "target_offset": 108000,
+      "size": 3376
+    },
+    "moveactors_": {
+      "target_object": 1,
+      "target_offset": 111376,
+      "size": 11536
+    },
+    "moveexplosions_": {
+      "target_object": 1,
+      "target_offset": 122912,
+      "size": 4144
+    },
+    "moveeffectors_": {
+      "target_object": 1,
+      "target_offset": 127056,
+      "size": 18778
+    }
+  },
+  "code_bytes": 61674,
+  "code_publics": 38,
+  "anchor_evidence": [
+    {
+      "path": "evidence/engine-function-matches.json",
+      "proof": "module_verification"
+    },
+    {
+      "path": "evidence/gamedef-module.json",
+      "proof": "verification"
+    },
+    {
+      "path": "evidence/sounds-module.json",
+      "proof": "verification"
+    },
+    {
+      "path": "evidence/mmulti-module.json",
+      "proof": "verification"
+    },
+    {
+      "path": "evidence/config-module.json",
+      "proof": "verification"
+    },
+    {
+      "path": "evidence/player-module.json",
+      "proof": "verification"
+    }
+  ],
+  "function_publics": 37
+}

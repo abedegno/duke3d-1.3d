@@ -1,0 +1,74 @@
+{
+  "name": "unidentified_data96",
+  "source_sha256": "f5f7d0fa4768f50a991504d44f7721cf75165cc54fb8b76fbb383700f5c698c1",
+  "notice_sha256": "551658c7dd00bd692affa9b48b00c71d94b77107ed49ccf4615a0ed3ce5e7261",
+  "helpers_sha256": {
+    "tools/build_unidentified_data.py": "7ad8e8b34539ac9a3eb5948db90c82afeaa9676120054bf4ecd468c8cfa25cf6",
+    "profiles/gnu_elf_omf/identity.py": "f97c9a3e849bbe786bdb3f530d9e2a866e081f6630dbab1cac108d66a157f9d8",
+    "profiles/gnu_elf_omf/profile.json": "36c67429e16ae92c1ff84a22699bc65edb5c5f441187261c54e6ceb523b23594",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f"
+  },
+  "python_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "native_inventory": {
+    "name": "UNIDENT.obj",
+    "segments": [
+      {
+        "name": ".text",
+        "class_name": "CODE",
+        "size": 0,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": ".data",
+        "class_name": "DATA",
+        "size": 0,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": ".bss",
+        "class_name": "BSS",
+        "size": 0,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": "_DATA",
+        "class_name": "DATA",
+        "size": 96,
+        "attributes": 169,
+        "access": null
+      }
+    ],
+    "publics": {},
+    "externals": [],
+    "local_publics": [],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [],
+    "default_libraries": [],
+    "far_call_optimization_segments": [],
+    "comments": [],
+    "dosseg_directives": [],
+    "code_data_ranges": [],
+    "line_numbers": [],
+    "format": "standard-omf",
+    "format_source": null,
+    "fixup_encodings": [],
+    "thread_definitions": [],
+    "source_records": []
+  },
+  "historical_source_credit": 0,
+  "complete_module_credit": 0,
+  "authorization": "User explicitly answered Preserve unidentified DATA for LE object3[30820,30916). No historical declaration/type/module owner inferred."
+}

@@ -1,0 +1,415 @@
+{
+  "scope": "Candidate combined PUBLIC DATA coordinate only; no complete historical linker order, executable rebuild or source credit.",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "origin": [
+    3,
+    29560
+  ],
+  "segment_identity": [
+    "_DATA",
+    "DATA",
+    "DGROUP",
+    "use32",
+    "PUBLIC2"
+  ],
+  "context_evidence_sha256": "9323f5102ab5f50d47cb6e245b0914c14ba1759d98e4a601a1a9f7e7ee2c789a",
+  "input_manifest_sha256": "4deb39724368c5db3a4c8ce65f32b2549061313fdb368123c6027a8049a3ad05",
+  "policy_sha256": "a87945292ae503ddf97d5f0035ee072ff772f9c8f3d54945a5e8231337ab38e7",
+  "factory": "tools.prove_logical_data_origin.replay_target_data_origin",
+  "serialized_evidence_is_not_authority": true,
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "witnesses": {
+    "GAME_CODE_prefix": {
+      "automatic_buffer_initializer_bytes": 240,
+      "bonus_animation_table_bytes": 200,
+      "compared_bytes": 448,
+      "complete_prefix_verified": true,
+      "differing_offsets": [],
+      "match": true,
+      "native_alignment_bytes": 8,
+      "recognized_data_bytes": 440,
+      "source_offset": 0,
+      "source_segment": 1,
+      "symbol": "GAME leading native initializer data/alignment",
+      "target_object": 1,
+      "target_offset": 16,
+      "verified_fixups": 0
+    },
+    "GAME_inittimer": {
+      "bindings": {
+        "TS_Dispatch_": [
+          1,
+          476348
+        ],
+        "TS_ScheduleTask_": [
+          1,
+          475972
+        ],
+        "_TimerPtr": [
+          3,
+          30056
+        ],
+        "inittimer_": [
+          1,
+          480
+        ],
+        "timerhandler_": [
+          1,
+          464
+        ]
+      },
+      "comparison": {
+        "compared_bytes": 48,
+        "differing_offsets": [],
+        "match": true,
+        "symbol": "inittimer_",
+        "target_object": 1,
+        "target_offset": 480,
+        "verified_fixups": 4
+      },
+      "placements": {
+        "1": [
+          1,
+          16
+        ],
+        "4": [
+          3,
+          29560
+        ]
+      },
+      "size": 48,
+      "source_offset": 464,
+      "symbol": "inittimer_",
+      "target_offset": 480
+    },
+    "GAME_complete_DATA": {
+      "alignment_residues": [
+        {
+          "inferred_name": true,
+          "kind": "identified noninstruction DATA alignment residue",
+          "left_object": "_eightytwofifty",
+          "left_object_size": 1,
+          "local": true,
+          "right_object": "_CommandSoundToggleOff",
+          "runtime_fixup_references": 0,
+          "size": 3,
+          "source_offset": 9,
+          "symbol": "_inferred_serial_alignment",
+          "target_object": 3,
+          "target_offset": 29569
+        },
+        {
+          "inferred_name": true,
+          "kind": "identified noninstruction DATA alignment residue",
+          "left_object": "_todd",
+          "left_object_size": 81,
+          "local": true,
+          "right_object": "_TimerPtr",
+          "runtime_fixup_references": 0,
+          "size": 3,
+          "source_offset": 493,
+          "symbol": "_inferred_copyright_alignment",
+          "target_object": 3,
+          "target_offset": 30053
+        },
+        {
+          "inferred_name": true,
+          "kind": "identified noninstruction DATA alignment residue",
+          "left_object": "_inputloc",
+          "left_object_size": 2,
+          "local": true,
+          "right_object": "_oyrepeat",
+          "runtime_fixup_references": 0,
+          "size": 2,
+          "source_offset": 506,
+          "symbol": "_inferred_inputloc_alignment",
+          "target_object": 3,
+          "target_offset": 30066
+        }
+      ],
+      "full_executable_rebuilt": false,
+      "initialized_bytes": 864,
+      "local_symbols": {
+        "_framecnt": [
+          3,
+          30060
+        ],
+        "_inferred_copyright_alignment": [
+          3,
+          30053
+        ],
+        "_inferred_inputloc_alignment": [
+          3,
+          30066
+        ],
+        "_inferred_serial_alignment": [
+          3,
+          29569
+        ],
+        "_oyrepeat": [
+          3,
+          30068
+        ],
+        "_todd": [
+          3,
+          29972
+        ]
+      },
+      "next_complete_data_boundary": {
+        "evidence": "evidence/gamedef-module.json",
+        "evidence_sha256": "6ea0e2d3101303d623c00d8438d85aebe3c2c75247827f77c90bb2b1b4a32727",
+        "target_object": 3,
+        "target_offset": 30424
+      },
+      "ordinary_native_zero_alignment": {
+        "size": 1,
+        "source_offset": 407
+      },
+      "publics": {
+        "_CommandMusicToggleOff": [
+          3,
+          29576
+        ],
+        "_CommandSoundToggleOff": [
+          3,
+          29572
+        ],
+        "_TimerPtr": [
+          3,
+          30056
+        ],
+        "_actor_tog": [
+          3,
+          29965
+        ],
+        "_boardfilename": [
+          3,
+          29836
+        ],
+        "_cameraclock": [
+          3,
+          29564
+        ],
+        "_cameradist": [
+          3,
+          29560
+        ],
+        "_cheatquotes": [
+          3,
+          30072
+        ],
+        "_confilename": [
+          3,
+          29580
+        ],
+        "_debug_on": [
+          3,
+          29964
+        ],
+        "_eightytwofifty": [
+          3,
+          29568
+        ],
+        "_framecnt": [
+          3,
+          30060
+        ],
+        "_frecfilep": [
+          3,
+          29968
+        ],
+        "_groupfilename": [
+          3,
+          29708
+        ],
+        "_in_menu": [
+          3,
+          30423
+        ],
+        "_inferred_copyright_alignment": [
+          3,
+          30053
+        ],
+        "_inferred_inputloc_alignment": [
+          3,
+          30066
+        ],
+        "_inferred_serial_alignment": [
+          3,
+          29569
+        ],
+        "_inputloc": [
+          3,
+          30064
+        ],
+        "_memorycheckoveride": [
+          3,
+          29966
+        ],
+        "_oyrepeat": [
+          3,
+          30068
+        ],
+        "_todd": [
+          3,
+          29972
+        ],
+        "_which_demo": [
+          3,
+          30422
+        ]
+      },
+      "scope": "Complete864-byte GAME _DATA only, including three identified inferred local alignment residues and one ordinary native zero alignment byte. Other initialized CONST storage, BSS and whole GAME remain unverified. No complete module contribution is claimed.",
+      "segments": [
+        {
+          "compared_bytes": 864,
+          "differing_offsets": [],
+          "match": true,
+          "symbol": "_DATA",
+          "target_object": 3,
+          "target_offset": 29560,
+          "verified_fixups": 0
+        }
+      ],
+      "source_segment": 4,
+      "verified": true,
+      "verified_fixups": 0,
+      "zero_fill_bytes": 0
+    },
+    "matherr_member": {
+      "name": "_matherr",
+      "offset": 31472,
+      "sha256": "0e7fa19a1405c1dfe027549c81c4e165a14748d4fd6f78c8cbb1f6c0c59b75da",
+      "size": 859
+    },
+    "matherr_complete_verification": {
+      "full_executable_rebuilt": false,
+      "group_frames": {
+        "1": [
+          3,
+          0
+        ]
+      },
+      "initialized_bytes": 295,
+      "local_symbols": {
+        "_Msgs": [
+          3,
+          29532
+        ]
+      },
+      "publics": {
+        "_Msgs": [
+          3,
+          29532
+        ],
+        "__RWD_matherr": [
+          3,
+          73156
+        ],
+        "__get_std_stream_": [
+          1,
+          626189
+        ],
+        "__matherr": [
+          1,
+          626184
+        ],
+        "__rterrmsg_": [
+          1,
+          625270
+        ],
+        "__set_EDOM_": [
+          1,
+          596526
+        ],
+        "__set_ERANGE_": [
+          1,
+          596543
+        ],
+        "_matherr_": [
+          1,
+          625342
+        ],
+        "_set_matherr_": [
+          1,
+          625264
+        ],
+        "fputc_": [
+          1,
+          596361
+        ],
+        "fputs_": [
+          1,
+          596238
+        ]
+      },
+      "segments": [
+        {
+          "compared_bytes": 125,
+          "differing_offsets": [],
+          "match": true,
+          "symbol": "_TEXT",
+          "target_object": 1,
+          "target_offset": 625264,
+          "verified_fixups": 12
+        },
+        {
+          "compared_bytes": 138,
+          "differing_offsets": [],
+          "match": true,
+          "symbol": "CONST",
+          "target_object": 3,
+          "target_offset": 28980,
+          "verified_fixups": 0
+        },
+        {
+          "compared_bytes": 28,
+          "differing_offsets": [],
+          "match": true,
+          "symbol": "CONST2",
+          "target_object": 3,
+          "target_offset": 29532,
+          "verified_fixups": 6
+        },
+        {
+          "compared_bytes": 4,
+          "differing_offsets": [],
+          "match": true,
+          "symbol": "_DATA",
+          "target_object": 3,
+          "target_offset": 73156,
+          "verified_fixups": 1
+        }
+      ],
+      "verified": true,
+      "verified_fixups": 19,
+      "zero_fill_bytes": 0
+    },
+    "matherr_pointer_nomination": {
+      "callee_source_credit": 0,
+      "edge": {
+        "alias": false,
+        "source_object": 3,
+        "source_offset": 73156,
+        "source_type": 7,
+        "target_address": 691720,
+        "target_object": 1,
+        "target_offset": 626184,
+        "width": 4
+      },
+      "kind": "unique matherr DATA pointer nomination; full native gate required",
+      "symbol": "__matherr",
+      "value": [
+        1,
+        626184
+      ]
+    },
+    "released_first_file": "game"
+  },
+  "native_receipt": {
+    "work": "build/task611/vidmsdos/vid-pkob4yet/logical-origin-replay/target-origin-k6sza_zw",
+    "GAME_OBJ_sha256": "98eb127ee5e1846f2eefa2d53a4039b417db8c1e7be4833c44acd503b48d97a4",
+    "receipts_sha256": "7658a09bffeceb12430a0ad9509a507056a2facdb18ed910d1b9b0a90d00a636"
+  }
+}

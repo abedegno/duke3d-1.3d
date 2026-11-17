@@ -1,0 +1,67 @@
+{
+  "name": "MACT_PRECISE",
+  "source": "src/mact/precise.asm",
+  "producer": "native-wasm",
+  "options": [
+    "-fo=OUT.OBJ"
+  ],
+  "source_reference_evidence": "evidence/mact-asm-source-reference.json",
+  "placements": {
+    "2": [
+      3,
+      67964
+    ],
+    "3": [
+      2,
+      64
+    ]
+  },
+  "segments": [
+    [
+      "_TEXT",
+      "CODE",
+      0,
+      73
+    ],
+    [
+      "_DATA",
+      "DATA",
+      2,
+      73
+    ],
+    [
+      "TEXT",
+      "",
+      61,
+      97
+    ]
+  ],
+  "publics": {
+    "PRECISION_High_": [
+      3,
+      0
+    ],
+    "PRECISION_Low_": [
+      3,
+      35
+    ]
+  },
+  "symbol_anchors": {
+    "PRECISION_High_": [
+      2,
+      64
+    ],
+    "PRECISION_Low_": [
+      2,
+      99
+    ]
+  },
+  "instruction_object": 2,
+  "instruction_bytes": 61,
+  "object1_code_bytes": 0,
+  "expected": {
+    "initialized_bytes": 63,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 7
+  }
+}

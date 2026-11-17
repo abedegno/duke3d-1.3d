@@ -1,0 +1,33 @@
+{
+  "task": 672,
+  "command": "python3 tools/build_complete.py --native-layout --prepare-game-residue --assets build/assets/pawe --vendor-prefix build/assets/dos4gw/vendor-prefix.bin --build build/task672-root-exact --report build/task672-root-exact/result.json",
+  "result_sha256": "266d1674c4b21016fec5261b07267fd80889cab2b6529fd4a187568a8336d729",
+  "bound_program": "/Users/jonw/duke3d/build/task672-root-exact/complete-source-xoxaxuif/DUKE3D.EXE",
+  "bytes": 1179131,
+  "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "different_bytes": 0,
+  "owned_source_objects": 121,
+  "elapsed_seconds": 156.10661687504034,
+  "native_sha256": "a5fd6a00453c9f923b6c453a91be2401bfafad3ce55ee6ff741727f2346be88a",
+  "source_only_before_vendor_binding": true,
+  "target_or_research_production_input": false,
+  "reviewed_import_files_sha256": {
+    "evidence/game-symbolic-preserved-reference.json": "e732e1b8284549af40295b5abcb20afe8c494bebcddc1545941c3739b95e86b6",
+    "modules/game_symbolic_preserved.json": "de8e8346e7a6eb3df09bc77428b6b97d72d9196286701467c45b233a362aacab",
+    "src/game/symbolic_preserved/GAME.S": "da1216001bdfbca2a19bc3ae03c707b4019bfeed95d15fdddf7730a4a245e5cc",
+    "src/game/symbolic_preserved/README.md": "7b23c7190f609fd98c464390a9673484310dabcf64638a3d8a63e3a067e3a337",
+    "src/game/symbolic_preserved/contract-model.json": "833e29fd844363fa361fddf6efc9a76c34a9971bc228a77f5402bb63afe7e75e",
+    "src/game/symbolic_preserved/contract.py": "4994bade2a014f03fe124d0ec9a8c8a4c13a37daabcc835774d50aed2c65b563",
+    "tests/test_game_symbolic_preserved.py": "95f0654ab3f210a4f4a0c5d2633274c951df173ddef324a9384239ae1fa61fa1",
+    "tools/build_game_symbolic_preserved.py": "547ec073aca023c4820d51b20e9638dd3e499f8c33f0edf82d5e9fc159acf938",
+    "tools/observe_game_symbolic_preserved.py": "f5e9fd55f8ab63cb5fd24e14fd2546325f9a2444e1128d69e65a7460a503e212",
+    "Makefile": "dabc0c8b173e5e118d8984315303880ffe7a08272a9c1533c08547dd915b0ae4",
+    "docs/complete-source-build.md": "b5a3c95ade8f41a4fd28452c7493aeb1dc2bf6f8ea1a9a94ef586fe5a5d28839",
+    "tests/test_complete_game_preparation.py": "119712b87a082579830ca2c63bd0b405834370fdace3bb3c95fac47ef1330725",
+    "tools/build_complete.py": "e09a983e9578989bcfa7da5c2efc3cf85f424ffcc428f8be3c2a0f1d01fc15fc"
+  },
+  "preparation_only": true,
+  "adoption_approved": false,
+  "only_remaining_gate": "Pending user decision on adopting seven explicitly unidentified post-NUL DATA bytes.",
+  "humanization": "Named source and ordinary C aids documented in docs/source-readability.md; this exact cold build includes that readable source tree. Further compiler-faithful C lowering remains explicit optional work."
+}

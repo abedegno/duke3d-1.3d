@@ -1,0 +1,9 @@
+{
+  "outputs_sha256": {
+    "ACTORS.ELF": "5173942336d9af9fca956391964f1b5c1cdeaed45d142083c621058fe3658f99",
+    "ACTORS.OBJ": "d3ad94db01b800eb6a71a315c5dfe7b786beb53ec34271019b3ce15412342b88"
+  },
+  "stage_namespace": "ACTORS.S fixed .file identity",
+  "normal_admission": false,
+  "COFF_contract": "Complete raw schema/field/aux/scope equations; actual native creation timestamp within measured command clock bounds, raw hash retained"
+}

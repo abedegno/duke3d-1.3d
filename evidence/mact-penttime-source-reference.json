@@ -1,0 +1,146 @@
+{
+  "kind": "Complete reconstructed PENTTIME source capsule, no historical C claim or EXE claim",
+  "lineage": {
+    "released_repository": "https://github.com/videogamepreservation/dukenukem3d",
+    "commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+    "primary_headers": {
+      "types.h": {
+        "upstream": "dukenukem3d/extras/TYPES.H",
+        "sha256": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+        "released_bytes_literal": true
+      },
+      "penttime.h": {
+        "upstream": "dukenukem3d/extras/PENTTIME.H",
+        "sha256": "2f5e4a7f686013908e71332444f046ddc410e76ee506c17755d37e33349252a0",
+        "released_bytes_literal": true
+      },
+      "timer.h": {
+        "upstream": "dukenukem3d/extras/TIMER.H",
+        "sha256": "9d143947cc46b906570bf13e4a32e14d098395e7626548c8b7997773342a41ba",
+        "released_bytes_literal": true
+      }
+    },
+    "source_origin": "Authored semantic reconstruction with complete ordinary C aid; reviewed479/482/483 source unchanged",
+    "historical_C_claim": false,
+    "reviewed_assembly_sha256": "98e2c912b07b3dd1e9eb4e34e2f9196f43080b0e78e7b7cf1d2d2b87d6202209",
+    "reviewed_counterpart_sha256": "f7c1ec292c3f31e7013d67c04aeeab62bd941cb7f17cf80be7a81e0a06507178"
+  },
+  "tracked_sources_sha256": {
+    "src/mact/penttime/PENTTIME.S": "98e2c912b07b3dd1e9eb4e34e2f9196f43080b0e78e7b7cf1d2d2b87d6202209",
+    "src/mact/penttime/penttime.c": "f7c1ec292c3f31e7013d67c04aeeab62bd941cb7f17cf80be7a81e0a06507178",
+    "src/mact/penttime/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/penttime/penttime.h": "2f5e4a7f686013908e71332444f046ddc410e76ee506c17755d37e33349252a0",
+    "src/mact/penttime/timer.h": "9d143947cc46b906570bf13e4a32e14d098395e7626548c8b7997773342a41ba",
+    "src/mact/penttime/contract.py": "a1dc2e52665bac9b1855ecb2c2ced8a7ee15edfa4ed4452d8eb422a9da77c64f"
+  },
+  "notice_files_sha256": {
+    "src/mact/penttime/README.md": "b748f47ced9f61dffe56302b74a1bf2570e10172aa03e9599dc1f221bdf2bf7f",
+    "src/mact/penttime/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "profiles/gnu_elf_omf_imports/README.md": "276f1f12748e2388b5d4ed6d2b2d17434b6666bc05ff724b487678724b912927"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_penttime.py": "a98da921ffb715d6ccbf59d36aa1a74d66191863329dba9ad573694ee2acff8e",
+    "profiles/gnu_elf_omf_imports/identity.py": "506c2b25324b9449585ae48e8989bd69c781ef8adaacf04a0d369cf781b21b80",
+    "profiles/gnu_elf_omf_imports/profile.json": "41e175ed0d63e5ebc360a17505413b9fc7055dec100bab6ef04d775ec1618e77",
+    "profiles/gnu_elf_omf_imports/apply_fork.py": "e35766dc9ad8397bc60dccb250c5f2e17e1efad405ddaf175a3fa5b0fa566cdd",
+    "profiles/gnu_elf_omf_imports/setup.py": "c7319cd912fb1b701af2a32ea98ca62a4a8fa23d928d2f22e3c04d0b9c7572ba",
+    "profiles/gnu_elf_omf_imports/defined-global.patch": "92a8e263b694d39908393742313cea625798721e9dd1bba443d30f4e3993c530",
+    "profiles/gnu_elf_omf_imports/unused-imports.patch": "230379a2bed7525f43b59041a02087d75cafdeb55cb8aeace555742c61ef0906",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/probe_mact_time.py": "c9de5d5c20cf8aae3c0bc38edeedb561306506dc433d940d0a854342d7e44e22"
+  },
+  "descriptor_sha256": "4f91f759c94e5a3372d9110a9f043db0da7cebb6d3879c096c7e20989ef5a906",
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "c906a48fa1ac9640e0d60c77715816101f993eb39448d8f2380660155f939252",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "scope": "Opt-in source-native CODE layout; fresh source ELF/COFF inputs only, no old OMF/target objects",
+  "profile": "profiles/gnu_elf_omf_layouts/profile.json",
+  "source_credit_added": 0,
+  "whole_target_match": false,
+  "modules": {
+    "O101.OBJ": {
+      "name": "nrpn",
+      "plan": "src/native_layout/nrpn.plan",
+      "plan_sha256": "ad9be440a729ced966b6fb11f70271799490f2bfaece936e483594c334df935a",
+      "code_extent": 2808,
+      "source_format": "coff",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O102.OBJ": {
+      "name": "sbkload",
+      "plan": "src/native_layout/sbkload.plan",
+      "plan_sha256": "f0d4f920d24e208e033761375b65d8ef7a793a9d0fbcfe71ee0a37396d5caf67",
+      "code_extent": 4884,
+      "source_format": "coff",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O103.OBJ": {
+      "name": "midieng",
+      "plan": "src/native_layout/midieng.plan",
+      "plan_sha256": "3af14bf8630efe7285ed380ec71f322335188fde2b30bee6590278e0691b34b1",
+      "code_extent": 7284,
+      "source_format": "coff",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O116.OBJ": {
+      "name": "penttime",
+      "plan": "src/native_layout/penttime.plan",
+      "plan_sha256": "ad95e5c2b07487afb9768eaadcd4e557be19b7c7fe05b75e99a27f83bf5a08d1",
+      "code_extent": 527,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O114.OBJ": {
+      "name": "rox",
+      "plan": "src/native_layout/rox.plan",
+      "plan_sha256": "f397d57f45fdd1d2f20de967ecfdbcc68120d32815fe5e975c0b063ca8d16645",
+      "code_extent": 1217,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O115.OBJ": {
+      "name": "wad",
+      "plan": "src/native_layout/wad.plan",
+      "plan_sha256": "634471658ef5a41e6f4da7121002bc2ea825620f8fac3f41668a1f14b5510024",
+      "code_extent": 3326,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O121.OBJ": {
+      "name": "mipmap",
+      "plan": "src/native_layout/mipmap.plan",
+      "plan_sha256": "6049507a4122da6dd03d64e0925b6fe8ebac4c0fcb9c26658c371215a8e5c844",
+      "code_extent": 1133,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O122.OBJ": {
+      "name": "lbmlib",
+      "plan": "src/native_layout/lbmlib.plan",
+      "plan_sha256": "87a0a9ab835908bf487e9d1cea7a046bce2777e5ce05803a4693a8785e95bbd7",
+      "code_extent": 1797,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O098.OBJ": {
+      "name": "control",
+      "plan": "src/native_layout/control.plan",
+      "plan_sha256": "73be26aa67ac61d35f04098db76e226eacfe1dc4a50fcb6a21db03344a38362f",
+      "code_extent": 6329,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O120.OBJ": {
+      "name": "clrmap",
+      "plan": "src/native_layout/clrmap.plan",
+      "plan_sha256": "40fb5246f310f26c3e08be161d7df3aec868cb0690b4e1076f9fbdda0b94d5bd",
+      "code_extent": 4711,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O119.OBJ": {
+      "name": "anim_late",
+      "plan": "src/native_layout/anim_late.plan",
+      "plan_sha256": "60090225a1ea38ea9bd14dd652d28c49461bc8737daeb91697f1eab4b13e002f",
+      "code_extent": 1005,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O077.OBJ": {
+      "name": "note",
+      "plan": "src/native_layout/note.plan",
+      "plan_sha256": "329c197c345067851a76ea08f0c6883b1471ba7ce74cc87552756c45d0bd5520",
+      "code_extent": 9268,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O025.OBJ": {
+      "name": "utils",
+      "plan": "src/native_layout/utils.plan",
+      "plan_sha256": "d2a79b5e95703acfb85d34821cb578dc5142d20aba077a18888a9192077af16c",
+      "code_extent": 256,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O110.OBJ": {
+      "name": "sound",
+      "plan": "src/native_layout/sound.plan",
+      "plan_sha256": "56eb7c5276f192839ebc7c2342d35d6f59cc424eeed1cdf7778e864b1fad9ab2",
+      "code_extent": 1671,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O104.OBJ": {
+      "name": "digital",
+      "plan": "src/native_layout/digital.plan",
+      "plan_sha256": "6c83c4fd6d16f529570bf0bc542880cfd3a098d17e419a5773f745f863cd6ed3",
+      "code_extent": 4997,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O105.OBJ": {
+      "name": "zone",
+      "plan": "src/native_layout/zone.plan",
+      "plan_sha256": "d02acda58b925eda10c58b60719dc1acd3c707271d16ae3b77f205efcbd816fe",
+      "code_extent": 2367,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O108.OBJ": {
+      "name": "debug",
+      "plan": "src/native_layout/debug.plan",
+      "plan_sha256": "e179b160fb65590b28cd6a0ea97d07c9151b10bfb558d873700a554d1be42ff6",
+      "code_extent": 1033,
+      "source_format": "elf",
+      "provenance": "624-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O071.OBJ": {
+      "name": "game",
+      "plan": "src/native_layout/game.plan",
+      "plan_sha256": "26111a4ac1ececd089111fe58a2aad71445488b470e1bd31a80effaba28b71c4",
+      "code_extent": 84142,
+      "source_format": "elf",
+      "provenance": "619-nonunique-reconstructed-source-layout",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O100.OBJ": {
+      "name": "hardware",
+      "plan": "src/native_layout/hardware.plan",
+      "plan_sha256": "85e89310f67d2a28eba816113549c3ad8c45b8af4c22a7a29c7006015e639724",
+      "code_extent": 2660,
+      "source_format": "coff",
+      "provenance": "615-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O035.OBJ": {
+      "name": "irq",
+      "plan": "src/native_layout/irq.plan",
+      "plan_sha256": "36adce5dd50367dbc093d816acf7dc62ef8cabffbda0fe5bb51a8305a2a5f5fa",
+      "code_extent": 952,
+      "source_format": "elf",
+      "provenance": "606-fresh-C-owned-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false,
+      "source_backend": "irq-elf"
+    },
+    "O074.OBJ": {
+      "name": "dma",
+      "plan": "src/native_layout/dma.plan",
+      "plan_sha256": "3e7b12f3e20de32f3396191e2bfd5893b51b4335c332af285a127d9afcbd3361",
+      "code_extent": 1225,
+      "source_format": "elf",
+      "provenance": "592-fresh-C-owned-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false
+    },
+    "O099.OBJ": {
+      "name": "dram",
+      "plan": "src/native_layout/dram.plan",
+      "plan_sha256": "78d210b0f21affd52ac0cb198e3b571ea8705781e92aa7988fbd6d6f45d6943f",
+      "code_extent": 915,
+      "source_format": "elf",
+      "provenance": "636-original-native-records",
+      "only_CODE_record_spans": true,
+      "target_addresses_or_payload_bytes": false,
+      "unique_historical_flush_policy_claimed": false,
+      "source_backend": "dram-elf"
+    }
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "scope": "ROOT acceptance of complete reviewed SBKLOAD source; capsule source_credit0 does not decide project accounting",
+  "complete_source_contributions_added": 1,
+  "complete_project_contributions": 92,
+  "project_main_CODE_bytes": 511273,
+  "project_main_CODE_total": 632345,
+  "project_main_CODE_percent": 80.85348978801129,
+  "complete_initialized_bytes": 508348,
+  "complete_BSS_bytes": 1536914,
+  "complete_source_fixups": 26429,
+  "disjoint_source_ranges": 343,
+  "all_previous341_ranges_literal": true,
+  "module": {
+    "receipt": "evidence/pawe_sbkload-module.json",
+    "receipt_sha256": "399ca0dc7bf1c5f1429bdf80ebf1220e2fe51d3a17364dee01035c9618b509f9",
+    "source": "src/pawe32/sbkload.asm",
+    "source_sha256": "f67dcf2d0d75d3309de9c0cc12b643c583eac420e5767f2e8667606b61c8e2fb",
+    "object_sha256": "1cba856d6ded8df437317b9dad35608bda47175f7a18eb25259a4dc3f4614c5d",
+    "verification": {
+      "verified": true,
+      "initialized_bytes": 5404,
+      "zero_fill_bytes": 0,
+      "verified_fixups": 149,
+      "segments": [
+        {
+          "symbol": "_TEXT",
+          "target_object": 1,
+          "target_offset": 429120,
+          "compared_bytes": 4884,
+          "verified_fixups": 149,
+          "differing_offsets": [],
+          "match": true
+        },
+        {
+          "symbol": "_DATA",
+          "target_object": 3,
+          "target_offset": 34488,
+          "compared_bytes": 520,
+          "verified_fixups": 0,
+          "differing_offsets": [],
+          "match": true
+        }
+      ],
+      "publics": {
+        "AWE32DEFINEBANKSIZES": [
+          1,
+          429148
+        ],
+        "AWE32TOTALPATCHRAM": [
+          1,
+          429128
+        ],
+        "___sbkload_code": [
+          1,
+          429120
+        ],
+        "AWE32RELEASEBANK": [
+          1,
+          429340
+        ],
+        "AWE32RELEASEALLBANKS": [
+          1,
+          429492
+        ],
+        "AWE32SETPRESETS": [
+          1,
+          430744
+        ],
+        "AWE32STREAMSAMPLE": [
+          1,
+          432348
+        ],
+        "AWE32SFONTLOADREQUEST": [
+          1,
+          432452
+        ],
+        "AWE32WPLOADREQUEST": [
+          1,
+          432828
+        ],
+        "AWE32WPLOADWAVE": [
+          1,
+          433000
+        ],
+        "AWE32WPSTREAMWAVE": [
+          1,
+          433116
+        ],
+        "AWE32WPBUILDSFONT": [
+          1,
+          433284
+        ],
+        "__AWE32NOTEOFF": [
+          1,
+          433676
+        ],
+        "__AWE32ISPLAYING": [
+          1,
+          433828
+        ],
+        "___sbkload_ecode": [
+          1,
+          433996
+        ],
+        "_awe32DramSize": [
+          3,
+          35536
+        ],
+        "_awe32Scratch": [
+          3,
+          35540
+        ],
+        "_awe32GChannel": [
+          3,
+          36740
+        ],
+        "AWE32REGRDW": [
+          1,
+          437168
+        ],
+        "AWE32REGW": [
+          1,
+          436840
+        ],
+        "___awe32AllocGChannel": [
+          1,
+          437284
+        ],
+        "AWE32REGDW": [
+          1,
+          437048
+        ],
+        "_awe32NumG": [
+          3,
+          35532
+        ]
+      },
+      "local_symbols": {},
+      "full_executable_rebuilt": false
+    },
+    "original_reference_verification": {
+      "verified": true,
+      "initialized_bytes": 5404,
+      "zero_fill_bytes": 0,
+      "verified_fixups": 149,
+      "segments": [
+        {
+          "symbol": "_TEXT",
+          "target_object": 1,
+          "target_offset": 429120,
+          "compared_bytes": 4884,
+          "verified_fixups": 149,
+          "differing_offsets": [],
+          "match": true
+        },
+        {
+          "symbol": "_DATA",
+          "target_object": 3,
+          "target_offset": 34488,
+          "compared_bytes": 520,
+          "verified_fixups": 0,
+          "differing_offsets": [],
+          "match": true
+        }
+      ],
+      "publics": {
+        "AWE32DEFINEBANKSIZES": [
+          1,
+          429148
+        ],
+        "AWE32TOTALPATCHRAM": [
+          1,
+          429128
+        ],
+        "___sbkload_code": [
+          1,
+          429120
+        ],
+        "AWE32RELEASEBANK": [
+          1,
+          429340
+        ],
+        "AWE32RELEASEALLBANKS": [
+          1,
+          429492
+        ],
+        "AWE32SETPRESETS": [
+          1,
+          430744
+        ],
+        "AWE32STREAMSAMPLE": [
+          1,
+          432348
+        ],
+        "AWE32SFONTLOADREQUEST": [
+          1,
+          432452
+        ],
+        "AWE32WPLOADREQUEST": [
+          1,
+          432828
+        ],
+        "AWE32WPLOADWAVE": [
+          1,
+          433000
+        ],
+        "AWE32WPSTREAMWAVE": [
+          1,
+          433116
+        ],
+        "AWE32WPBUILDSFONT": [
+          1,
+          433284
+        ],
+        "__AWE32NOTEOFF": [
+          1,
+          433676
+        ],
+        "__AWE32ISPLAYING": [
+          1,
+          433828
+        ],
+        "___sbkload_ecode": [
+          1,
+          433996
+        ],
+        "_awe32DramSize": [
+          3,
+          35536
+        ],
+        "_awe32Scratch": [
+          3,
+          35540
+        ],
+        "_awe32GChannel": [
+          3,
+          36740
+        ],
+        "AWE32REGRDW": [
+          1,
+          437168
+        ],
+        "AWE32REGW": [
+          1,
+          436840
+        ],
+        "___awe32AllocGChannel": [
+          1,
+          437284
+        ],
+        "AWE32REGDW": [
+          1,
+          437048
+        ],
+        "_awe32NumG": [
+          3,
+          35532
+        ]
+      },
+      "local_symbols": {},
+      "full_executable_rebuilt": false,
+      "group_frames": {
+        "1": [
+          3,
+          0
+        ]
+      }
+    }
+  },
+  "preservation": {
+    "runtime134_components_and_totals_literal": true,
+    "startup_complete_proof_stack_and_dependencies_literal": true,
+    "seven_origin_witness_dictionaries_literal": true,
+    "four_existing_module_verification_dicts_literal": true,
+    "VID_only_context_identity_changed": true,
+    "origin_closed_inputs_exact": 384,
+    "active_source_reference_maps_exact": 11
+  },
+  "native_link": {
+    "objects": 102,
+    "unresolved_names": 26,
+    "resolved": [
+      "awe32definebanksizes",
+      "awe32totalpatchram"
+    ],
+    "new_undefined": [
+      "___awe32allocgchannel",
+      "awe32regrdw"
+    ],
+    "response_sha256": "435ca28c741adad944c1c65b563cc5ceedcd54bb906acdf8a35ddd8fe1eb4a0f",
+    "graph": {
+      "objects": 102,
+      "actual_unique_global_definitions": 1826,
+      "actual_unique_global_import_names": 1689,
+      "native_undefined_exactly_matches_all_EXTDEFs": true,
+      "undefined_names": 26,
+      "missing": {
+        "awe32noteoff": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32NOTEOFF",
+            "fixup_reference": true
+          }
+        ],
+        "awe32noteon": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32NOTEON",
+            "fixup_reference": true
+          }
+        ],
+        "awe32polykeypressure": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32POLYKEYPRESSURE",
+            "fixup_reference": true
+          }
+        ],
+        "awe32channelpressure": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32CHANNELPRESSURE",
+            "fixup_reference": true
+          }
+        ],
+        "awe32controller": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32CONTROLLER",
+            "fixup_reference": true
+          }
+        ],
+        "awe32programchange": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32PROGRAMCHANGE",
+            "fixup_reference": true
+          }
+        ],
+        "awe32pitchbend": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32PITCHBEND",
+            "fixup_reference": true
+          }
+        ],
+        "awe32initmidi": [
+          {
+            "owner": "awe32",
+            "symbol": "AWE32INITMIDI",
+            "fixup_reference": true
+          }
+        ],
+        "___midieng_ecode": [
+          {
+            "owner": "awe32",
+            "symbol": "___midieng_ecode",
+            "fixup_reference": true
+          }
+        ],
+        "___midieng_code": [
+          {
+            "owner": "awe32",
+            "symbol": "___midieng_code",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_midi_synth_volume_": [
+          {
+            "owner": "gusmidi",
+            "symbol": "gf1_midi_synth_volume_",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_stop_digital_": [
+          {
+            "owner": "guswave",
+            "symbol": "gf1_stop_digital_",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_dig_set_freq_": [
+          {
+            "owner": "guswave",
+            "symbol": "gf1_dig_set_freq_",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_dig_set_pan_": [
+          {
+            "owner": "guswave",
+            "symbol": "gf1_dig_set_pan_",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_dig_set_vol_": [
+          {
+            "owner": "guswave",
+            "symbol": "gf1_dig_set_vol_",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_play_digital_": [
+          {
+            "owner": "guswave",
+            "symbol": "gf1_play_digital_",
+            "fixup_reference": true
+          }
+        ],
+        "_everyothertime": [
+          {
+            "owner": "premap",
+            "symbol": "_everyothertime",
+            "fixup_reference": true
+          },
+          {
+            "owner": "game",
+            "symbol": "_everyothertime",
+            "fixup_reference": true
+          }
+        ],
+        "z_availheap_": [
+          {
+            "owner": "game",
+            "symbol": "Z_AvailHeap_",
+            "fixup_reference": true
+          }
+        ],
+        "gf1_midi_patch_removed_": [
+          {
+            "owner": "gf1_candidate_gf1patch",
+            "symbol": "gf1_midi_patch_removed_",
+            "fixup_reference": true
+          }
+        ],
+        "_dig_voice_status": [
+          {
+            "owner": "gf1_digpause",
+            "symbol": "_dig_voice_status",
+            "fixup_reference": true
+          },
+          {
+            "owner": "gf1_digpos",
+            "symbol": "_dig_voice_status",
+            "fixup_reference": true
+          }
+        ],
+        "dig_change_voice_": [
+          {
+            "owner": "gf1_digpause",
+            "symbol": "dig_change_voice_",
+            "fixup_reference": true
+          }
+        ],
+        "awe32regrw": [
+          {
+            "owner": "pawe_hardware",
+            "symbol": "AWE32REGRW",
+            "fixup_reference": true
+          },
+          {
+            "owner": "pawe_nrpn",
+            "symbol": "AWE32REGRW",
+            "fixup_reference": true
+          }
+        ],
+        "awe32regw": [
+          {
+            "owner": "pawe_hardware",
+            "symbol": "AWE32REGW",
+            "fixup_reference": true
+          },
+          {
+            "owner": "pawe_nrpn",
+            "symbol": "AWE32REGW",
+            "fixup_reference": true
+          },
+          {
+            "owner": "pawe_sbkload",
+            "symbol": "AWE32REGW",
+            "fixup_reference": true
+          }
+        ],
+        "awe32regdw": [
+          {
+            "owner": "pawe_hardware",
+            "symbol": "AWE32REGDW",
+            "fixup_reference": true
+          },
+          {
+            "owner": "pawe_sbkload",
+            "symbol": "AWE32REGDW",
+            "fixup_reference": true
+          }
+        ],
+        "awe32regrdw": [
+          {
+            "owner": "pawe_sbkload",
+            "symbol": "AWE32REGRDW",
+            "fixup_reference": true
+          }
+        ],
+        "___awe32allocgchannel": [
+          {
+            "owner": "pawe_sbkload",
+            "symbol": "___awe32AllocGChannel",
+            "fixup_reference": true
+          }
+        ]
+      },
+      "duplicate_global_definitions": {},
+      "unsatisfied_local_externals": [],
+      "unreferenced_global_EXTDEF_occurrences": 64,
+      "source_credit_added": 0
+    }
+  },
+  "full_executable_rebuilt": false
+}

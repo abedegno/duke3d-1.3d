@@ -1,0 +1,27 @@
+{
+  "version": "10.5",
+  "archive_sha256": "e7d8275b71f05c782b69918365c770716bde8f56a08fcdc62fe23dc43d808b9b",
+  "home": "toolchains/watcom-10.5",
+  "source": {
+    "url": "https://archive.org/download/watcom-c-cpp-compilers-collection/watcom-10.5/Watcom_C%2B%2B_10.5.iso",
+    "sha256": "e7d8275b71f05c782b69918365c770716bde8f56a08fcdc62fe23dc43d808b9b"
+  },
+  "tools": {
+    "BINW/wcc386.exe": {
+      "size": 567558,
+      "sha256": "1b97a68f7b8a3efd89b05f64ce99836b1e533f398699305f96dc423254939d6a"
+    },
+    "BINW/wasm.exe": {
+      "size": 201181,
+      "sha256": "06c5bb2488d3b5f936d01c1006712ba618c8c802e1cecb8372db16d5e75adad8"
+    },
+    "BINW/wlink.exe": {
+      "size": 282554,
+      "sha256": "a0f1162b3e68a80bdee2cf6d10db9b33235fb1f074146e3d0a08f928f4a1685c"
+    },
+    "BINW/dos4gw.exe": {
+      "size": 265396,
+      "sha256": "b8265123ac8a189637448618409ef3ecd2e9f3e1a47062c685a02240f688dec1"
+    }
+  }
+}

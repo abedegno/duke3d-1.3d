@@ -1,0 +1,81 @@
+{
+  "kind": "Mathematical table and ordinary C provenance for source-built MACT CRC",
+  "source": "src/mact/crc.c",
+  "source_sha256": "fde64b711886506bf0898d073ee1b0caaf99942df71f155e21f1a85736274903",
+  "table_source": "src/mact/crctable.h",
+  "table_source_sha256": "52c4ccecef493631f3dea98b55de83355149d38a6637bbe3b128ee0d038b8a45",
+  "generator": "tools/probe_mact_crc.py",
+  "generator_sha256": "5c3062eb481f7ed2c30422f951e14fb96bc118ad3bf30a5606eb08853babf6b1",
+  "reference_repository": "reference/duke3d-reconstructions",
+  "reference_commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "reference_readme_sha256": "ff8739186a89afc7c75f188273bd830bbe61870485e9d25966738f7b1d4cdba8",
+  "library": "reference/duke3d-reconstructions/MACT386.LIB",
+  "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+  "reference_member": {
+    "offset": 94208,
+    "size": 1156,
+    "name": "P:\\libMACT\\CRC.c",
+    "sha256": "982c4ebb06a712c14620890e13651e12b3a49c3ecea3766f19add32f2acaef93"
+  },
+  "source_ancestry": "Original MACT C text and CRC.h are absent from the pinned reconstruction tree. This C is newly reconstructed from the complete original CRC member instructions, public/self-external scope, signed table loads, buffer loads, counter and shift operations. The original object is reference-only and supplies no source output payload.",
+  "table_derivation": {
+    "name": "CRC-16/IBM",
+    "normal_polynomial": 32773,
+    "reflected_polynomial": 40961,
+    "recipe": "For each integer i in 0..255, start value=i and repeat eight times: value=(value>>1) XOR (0xA001 if value AND 1 else 0). Emit each result as its mathematical signed-short representative.",
+    "entries": 256,
+    "entry_bytes": 2,
+    "first_eight_values": [
+      0,
+      49345,
+      49537,
+      320,
+      49921,
+      960,
+      640,
+      49729
+    ],
+    "regenerate": "python3 tools/probe_mact_crc.py --generate-table src/mact/crctable.h",
+    "binary_bytes_used_as_source": false,
+    "complete_table_proof": "All 512 native DATA bytes compared in the unchanged complete module verifier."
+  },
+  "abi_scope": {
+    "table": "static signed16 short crc16tab[256], with local PUBDEF and self-local EXTDEF retained",
+    "update": "CRC and data operands use32-bit signed int arithmetic; low8 of CRC XOR data index the table, arithmetic shift by8 combines with sign-extended short table value. The low16 bits are the CRC update; original caller-side narrowing and historical typedef spelling are not uniquely established.",
+    "calculate": "Unsigned8 buffer reads, unsigned32 length and counter, signed32 accumulator initialized0. Explicit unsigned16 table conversion keeps the zero-seeded result in16 bits. All complete native instructions, operand widths, loop and return tail match.",
+    "source_typedef_spellings_inferred": true,
+    "fake_abi_or_structural_fields": false
+  },
+  "producer": {
+    "tool": "toolchains/watcom-10.0-ga/BINB/wcc386.exe",
+    "sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "options": [
+      "/5r",
+      "/s",
+      "/ort",
+      "/ol"
+    ],
+    "headers": [
+      "src/mact/crctable.h"
+    ],
+    "derivation": "Measured /4r /s /ort baseline used MOVSX and a different loop. Pentium /5r emits the original signed-short load plus arithmetic shift; /ol produces the original pretested loop. Explicit meaningful index/shift/table-XOR sequencing reproduces CalculateCRC scheduling and complete tail. No ASM fallback, pragmas, opaque arrays, dead fillers or instruction payloads."
+  },
+  "copyright_license_scope": "Original MACT authorship/copyright and C source license are unresolved. No source license is inferred solely from bundled binary provenance; this private reconstruction is not labelled GPL and is not authorized for external publication/distribution.",
+  "contribution": {
+    "initialized_bytes": 592,
+    "code_bytes": 80,
+    "table_data_bytes": 512,
+    "zero_fill_bytes": 0,
+    "fixups": 2,
+    "code_placement": [
+      1,
+      570880
+    ],
+    "table_placement": [
+      3,
+      71184
+    ]
+  },
+  "remaining_scope": "Exactly one complete member contribution. Other MACT members and complete executable linking/binding/identity remain unfinished.",
+  "full_executable_rebuilt": false
+}

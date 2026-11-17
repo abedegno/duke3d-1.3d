@@ -1,0 +1,99 @@
+{
+  "name": "MACT_JOYSTICK",
+  "source": "src/mact/joystick.asm",
+  "producer": "native-wasm",
+  "options": [
+    "-fo=OUT.OBJ"
+  ],
+  "source_reference_evidence": "evidence/mact-asm-source-reference.json",
+  "placements": {
+    "2": [
+      3,
+      67966
+    ],
+    "3": [
+      2,
+      128
+    ]
+  },
+  "segments": [
+    [
+      "_TEXT",
+      "CODE",
+      0,
+      73
+    ],
+    [
+      "_DATA",
+      "DATA",
+      17,
+      73
+    ],
+    [
+      "TEXT",
+      "",
+      93,
+      97
+    ]
+  ],
+  "publics": {
+    "_Joy_x1": [
+      2,
+      0
+    ],
+    "_Joy_y1": [
+      2,
+      4
+    ],
+    "_Joy_x2": [
+      2,
+      8
+    ],
+    "_Joy_y2": [
+      2,
+      12
+    ],
+    "_Joy_mask": [
+      2,
+      16
+    ],
+    "JoyStick_Vals_": [
+      3,
+      0
+    ]
+  },
+  "symbol_anchors": {
+    "_Joy_x1": [
+      3,
+      67966
+    ],
+    "_Joy_y1": [
+      3,
+      67970
+    ],
+    "_Joy_x2": [
+      3,
+      67974
+    ],
+    "_Joy_y2": [
+      3,
+      67978
+    ],
+    "_Joy_mask": [
+      3,
+      67982
+    ],
+    "JoyStick_Vals_": [
+      2,
+      128
+    ]
+  },
+  "instruction_object": 2,
+  "instruction_bytes": 93,
+  "object1_code_bytes": 0,
+  "expected": {
+    "initialized_bytes": 110,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 5
+  }
+}

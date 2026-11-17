@@ -1,0 +1,160 @@
+{
+  "name": "MMULTI",
+  "source": "src/network/mmulti.c",
+  "reference_headers": "reference/build-reconstructions",
+  "source_reference_evidence": "evidence/mmulti-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/or",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "code_object": 1,
+  "code_offset": 423022,
+  "code_bytes": 2227,
+  "code_publics": 13,
+  "symbol_anchors": {
+    "_bakpacketlen": [
+      3,
+      1698736
+    ],
+    "_bakpacketptr": [
+      3,
+      1706928
+    ],
+    "_bakpacketbuf": [
+      3,
+      1715120
+    ],
+    "_crctable": [
+      3,
+      1731504
+    ],
+    "_lastpacket": [
+      3,
+      1732528
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_incnt": [
+      3,
+      1733136
+    ],
+    "_errorstate": [
+      3,
+      1733152
+    ],
+    "_outcntplc": [
+      3,
+      1733168
+    ],
+    "_outcntend": [
+      3,
+      1733184
+    ],
+    "_regs": [
+      3,
+      1733200
+    ],
+    "_gcom": [
+      3,
+      1733228
+    ],
+    "_dmval": [
+      3,
+      1733232
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_lastpacketleng": [
+      3,
+      1733238
+    ],
+    "_numplayers": [
+      3,
+      1733240
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_inlastpacket": [
+      3,
+      32348
+    ],
+    "_bakpacketplc": [
+      3,
+      32349
+    ],
+    "initmultiplayers_": [
+      1,
+      423026
+    ],
+    "initcrc_": [
+      1,
+      423287
+    ],
+    "getcrc_": [
+      1,
+      423376
+    ],
+    "sendlogon_": [
+      1,
+      423447
+    ],
+    "uninitmultiplayers_": [
+      1,
+      423447
+    ],
+    "sendlogoff_": [
+      1,
+      423448
+    ],
+    "getoutputcirclesize_": [
+      1,
+      423520
+    ],
+    "setsocket_": [
+      1,
+      423522
+    ],
+    "sendpacket_": [
+      1,
+      423523
+    ],
+    "dosendpackets_": [
+      1,
+      423945
+    ],
+    "getpacket_": [
+      1,
+      424518
+    ],
+    "flushpackets_": [
+      1,
+      425035
+    ],
+    "genericmultifunction_": [
+      1,
+      425140
+    ],
+    "_syncstate": [
+      3,
+      32353
+    ],
+    "_lastpacketfrom": [
+      3,
+      1733244
+    ]
+  },
+  "anchor_evidence": "evidence/historical-mmulti-object-match.json",
+  "expected": {
+    "initialized_bytes": 2237,
+    "zero_fill_bytes": 34510,
+    "verified_fixups": 165
+  }
+}

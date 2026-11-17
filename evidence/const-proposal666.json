@@ -1,0 +1,64 @@
+{
+  "scope": "Independent DATA-only proposal review; no normal source changed or approval inferred",
+  "current_source_sha256": "c194be76eaa39cea4750e19035df47a306b478f139b0028380988ee5b7c7a86d",
+  "patch_sha256": "19cd88516bade383da155d83eb835ced4ed1d3c7d093be41f488af94dabb74ad",
+  "four_changed_rows": [
+    {
+      "capacity": 48,
+      "first_NUL": 46,
+      "different_offsets": [
+        47
+      ],
+      "new_values": [
+        16
+      ]
+    },
+    {
+      "capacity": 48,
+      "first_NUL": 44,
+      "different_offsets": [
+        45,
+        46
+      ],
+      "new_values": [
+        86,
+        7
+      ]
+    },
+    {
+      "capacity": 4,
+      "first_NUL": 1,
+      "different_offsets": [
+        2,
+        3
+      ],
+      "new_values": [
+        3,
+        216
+      ]
+    },
+    {
+      "capacity": 36,
+      "first_NUL": 33,
+      "different_offsets": [
+        34,
+        35
+      ],
+      "new_values": [
+        160,
+        86
+      ]
+    }
+  ],
+  "logical_C_strings_and_existing_capacity_unchanged": true,
+  "exactly_seven_bytes_after_existing_NULs": true,
+  "expected_final_hashes": {
+    "purpose": "Development-only equality oracle; hashes only, no target game payload copied",
+    "target_full_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+    "target_native_program_sha256": "a5fd6a00453c9f923b6c453a91be2401bfafad3ce55ee6ff741727f2346be88a",
+    "native_program_bytes": 961367
+  },
+  "task": 666,
+  "normal_adoption": false,
+  "preservation_approval": "pending"
+}

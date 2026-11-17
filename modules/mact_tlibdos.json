@@ -1,0 +1,310 @@
+{
+  "name": "mact_tlibdos",
+  "source": "src/mact/tlibdos/TLIBDOS.S",
+  "producer": "closed-gnu-elf-omf",
+  "profile": "profiles/gnu_elf_omf/profile.json",
+  "options": {
+    "assembler": [
+      "--32",
+      "-n",
+      "-L",
+      "-march=i386",
+      "--fatal-warnings",
+      "-no-pad-sections"
+    ],
+    "converter": [
+      "-fomf32",
+      "-wex"
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 329,
+    "zero_fill_bytes": 8,
+    "verified_fixups": 6
+  },
+  "native_inventory": {
+    "name": "TLIBDOS.obj",
+    "segments": [
+      [
+        ".text",
+        "CODE",
+        0,
+        41,
+        null
+      ],
+      [
+        ".data",
+        "DATA",
+        0,
+        41,
+        null
+      ],
+      [
+        ".bss",
+        "BSS",
+        0,
+        41,
+        null
+      ],
+      [
+        "_TEXT",
+        "CODE",
+        329,
+        105,
+        null
+      ],
+      [
+        "CONST",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "CONST2",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_DATA",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_BSS",
+        "BSS",
+        8,
+        105,
+        null
+      ]
+    ],
+    "publics": {
+      "_stoptics": [
+        8,
+        0
+      ],
+      "_starttics": [
+        8,
+        4
+      ],
+      "I_Time_": [
+        4,
+        0
+      ],
+      "TIMELIB_StartTiming_": [
+        4,
+        104
+      ],
+      "TIMELIB_StopTiming_": [
+        4,
+        212
+      ]
+    },
+    "local_publics": [],
+    "externals": [
+      "_dos_gettime_",
+      "_starttics",
+      "_stoptics"
+    ],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 4,
+        "offset": 8,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 112,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 201,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 220,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 309,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 317,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      }
+    ],
+    "default_libraries": [],
+    "far_call_optimization_segments": [],
+    "format": "standard-omf",
+    "comments": [],
+    "code_data_ranges": [],
+    "dosseg_directives": [],
+    "format_source": null,
+    "line_numbers": [],
+    "thread_definitions": [],
+    "source_records": [],
+    "fixup_encodings": [
+      {
+        "fixup": 0,
+        "record_kind": 157,
+        "raw_bytes": "a4085601",
+        "raw_location": 9,
+        "raw_locat": "a408",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 1,
+        "record_kind": 157,
+        "raw_bytes": "a4705601",
+        "raw_location": 9,
+        "raw_locat": "a470",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 2,
+        "record_kind": 157,
+        "raw_bytes": "e4c95602",
+        "raw_location": 9,
+        "raw_locat": "e4c9",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 3,
+        "record_kind": 157,
+        "raw_bytes": "a4dc5601",
+        "raw_location": 9,
+        "raw_locat": "a4dc",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 4,
+        "record_kind": 157,
+        "raw_bytes": "e5355602",
+        "raw_location": 9,
+        "raw_locat": "e535",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 5,
+        "record_kind": 157,
+        "raw_bytes": "e53d5603",
+        "raw_location": 9,
+        "raw_locat": "e53d",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      }
+    ]
+  },
+  "original_link_libraries": [
+    "math387r",
+    "emu387"
+  ],
+  "runtime_private_definitions": 0,
+  "humanization_backlog": "Complete readable C aid; original GA326 output remains strict lowering negative, symbolic329 source matches.",
+  "source_credit": 0
+}

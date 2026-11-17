@@ -1,0 +1,68 @@
+{
+  "scope": "Normal readable source-only IRQ NASM backend; no additional mainCODE coverage; old C reference preserved",
+  "tracked_sources_sha256": {
+    "src/audio/irq_symbolic/IRQ.ASM": "3d59ddf6dfb38191f634de40b4017bb16e13d906494df58072b74a873a32bf05",
+    "src/audio/irq_symbolic/irq.c": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994",
+    "src/audio/irq_symbolic/irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "src/audio/irq_symbolic/i86.h": "787295f6b8ff2ff0acc3746546fdfb9c96ce58e3e597b45381d21e52e024e244",
+    "src/audio/irq_symbolic/contract.py": "9b0d51f8ac68b47ceb39e955217aa3ba0a3b7ea5515c301994112debf7acc318",
+    "src/audio/irq_symbolic/source-model.json": "4e84f2d2b97990b671dc97b2e6091df21c9f8aa78ae3083315e351fb84ac00b0"
+  },
+  "notice_files_sha256": {
+    "src/audio/irq_symbolic/README.md": "93f0d01c6608ba2b93dc8dc06dd9d86b706dd8f6be5a471b8e89092cf418033e",
+    "src/audio/irq_symbolic/gpl.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_irq_symbolic.py": "0ba439029181bc49241979faf248acd669fac5e774c72699de35097cad7f0fc1",
+    "tools/probe_actors_composite.py": "447332e5181dce436ae7c33dcd6b581a3ff7a5c85b89f5742f27ce54215d4f3e",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "tools/preserve.py": "04316ed1bdec64255fee8466417ccd00f0f71588b61a3032762da3f5671332b8",
+    "tools/object_contributions.py": "1af69130c1db64c2c7f6eccbdbcf5c2d8d76e42b84489e9b5115fce159fc6324",
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/probe_premap.py": "91962353f2d8f24279fd74881b544ffb7a0de6cdced9546a664ba8fc71688dea",
+    "tools/probe_actors.py": "08e81f1e47ef890fa3e7ac1a5465512b002e23a04bc4ded40d8282d1e6cb1fd7",
+    "tools/verify_composite.py": "d3193e667975718cd9b453c7bfdc96c58e22c97191e45ffafe1e267f9fd22e7a"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/probe_audio_layout.py": "53a59da37903886eab974647a3b861c26d59de672c11389f80e75ea39cdd86c2",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/prove_logical_data_origin.py": "a87945292ae503ddf97d5f0035ee072ff772f9c8f3d54945a5e8231337ab38e7",
+    "tools/logical_data_origin_inputs.json": "4deb39724368c5db3a4c8ce65f32b2549061313fdb368123c6027a8049a3ad05",
+    "tools/logical_segment_origins.py": "1bdfede8afc17cee87bc5a8fc572fb5b2a0a81d12dede736350c3fe80628114b",
+    "evidence/audio-layout-source-reference.json": "33bca81b0bc3746df0673845f87db8ac989b7721dbd3edd3dec6f5b3a2cbf862",
+    "modules/irq.json": "a010baf245d804f8ce483a94326ecb6aaba7aef0e52a92d001468a07076431f5",
+    "src/audio/irq.c": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994"
+  },
+  "descriptor_sha256": "46bd074b3b1882aefaccad8ac0d3c67392fa079b1e22a6af28baf31f8dddf202",
+  "python_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "original_library_sha256": "47d3f7d479eea7b68cc98a3d54fec35522f35f078b4a54b0ad86e00c06dc1a9a",
+  "original_member": {
+    "offset": 267312,
+    "bytes": 3255,
+    "THEADR": "D:\\PRG\\AUDIO\\source\\irq.c",
+    "sha256": "e647d088b8263325875b5bc804a97e31e2d7eac62c5f51bf1da96df0f5384205"
+  },
+  "original_library_requirements": [
+    "math387r",
+    "emu387"
+  ],
+  "C_reference_source": "src/audio/irq.c",
+  "C_reference_source_sha256": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994",
+  "approved_private_source": {
+    "source_task": 574,
+    "source_sha256": "3d59ddf6dfb38191f634de40b4017bb16e13d906494df58072b74a873a32bf05",
+    "independent_review_task": 579,
+    "report_sha256": "39e7ce495f9e0de724f3d40e50439a96f45346b65c18d8cc866be6bfb7d3b149",
+    "review_freeze_sha256": "554c40f75125f6b7a3f6543f81c7bcca5488958b09ec1ef378ff08ddaf586bad"
+  },
+  "source_credit": 0
+}

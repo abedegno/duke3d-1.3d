@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/gamesrc-ver-recreation/build",
+  "commit": "88ffca1bdb8d93c731f6d02e62ae5119393bc73b",
+  "upstream": "MMULTI.C",
+  "upstream_sha256": "ca777a6c50c350d1a3cc785cdb0f4b96e50ac1919a3b4a4560edf9cbef6168b5",
+  "tracked": "src/network/mmulti.c",
+  "tracked_sha256": "5d69d887b8e3bdb15c6fc73bcf5a7cac1d8a617c73685ca4cce0a25493bb9b65",
+  "modifications": [
+    "Restore the empty setsocket export for the earlier selector; native compiler aliases it to the existing getoutputcirclesize return at CODE+500 without changing code bytes.",
+    "Normalize line endings/final blank lines; preserve original instructions, restoration annotations and license notices."
+  ],
+  "selector": {
+    "LIBVER_BUILDREV": 19960320,
+    "note": "Upstream reconstruction selector, not independently established original build date."
+  },
+  "license_file": "src/engine/BUILDLIC.TXT",
+  "license_file_sha256": "e4c6d9ae06107f04225c780ef2277864ae919c53fad7affd424b6c18e6297695",
+  "reference_evidence": "evidence/historical-mmulti-object-match.json",
+  "build_note": "The historical object is reverified as metadata only. Source output is compiled only from tracked C and staged public headers. No prebuilt network object bytes are copied, linked or counted.",
+  "full_executable_rebuilt": false
+}

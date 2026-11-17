@@ -1,0 +1,16 @@
+{
+  "symbol": "__timer_fragment",
+  "target_object": 1,
+  "target_offset": 464,
+  "compared_bytes": 99,
+  "verified_fixups": 10,
+  "differing_offsets": [],
+  "match": true,
+  "source": "src/game/timer.c",
+  "options": [
+    "/4r",
+    "/s",
+    "/otexan"
+  ],
+  "kind": "whole compiled text fragment, including three functions and intervening padding"
+}

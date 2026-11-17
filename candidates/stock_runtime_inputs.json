@@ -1,0 +1,1632 @@
+{
+  "kind": "unmodified supplied Watcom runtime link dependencies",
+  "source_credit": 0,
+  "selection_scope": "Exact-byte stock candidates selected reproducibly; interchangeable duplicate members do not establish historical compiler-version ownership. No game or SDK object input.",
+  "libraries": [
+    {
+      "filename": "C105.LIB",
+      "source_library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "sha256": "151fc7d895b171145466f77b1624d27952fa631971b0fc33d479e02eda3bbcc8",
+      "member_count": 544
+    },
+    {
+      "filename": "M105.LIB",
+      "source_library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "sha256": "14c1fde264b0488c4df68aa3c8ca5291857216c6ac3a08f16f505f3d746291c0",
+      "member_count": 83
+    },
+    {
+      "filename": "CGA.LIB",
+      "source_library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_count": 394
+    },
+    {
+      "filename": "MGA.LIB",
+      "source_library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "sha256": "ccc96d4aa29c2c798da9c57a085e02614e88739b46cd1c47609fd39c5c8647c9",
+      "member_count": 78
+    },
+    {
+      "filename": "EGA.LIB",
+      "source_library": "toolchains/watcom-10.0-ga/LIB386/DOS/emu387.lib",
+      "sha256": "5b150d1cdca625eb27747b7ac182e36f5a66571e4441ccc19caccc6fbf773b5c",
+      "member_count": 2
+    }
+  ],
+  "objects": [
+    {
+      "filename": "D001.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 77328,
+      "size": 276,
+      "name": "argcv386",
+      "sha256": "aa84f8f025094a8f7d1ef83297d3a3bbdae42c32b586638ba12a37c1209298aa",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D002.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 236608,
+      "size": 492,
+      "name": "istable",
+      "sha256": "7635ed9debee9469f84b65650e55177f1d479e4a0b2bfdff93c8b37e81793917",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D003.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 63056,
+      "size": 488,
+      "name": "iob",
+      "sha256": "07aa483233c42c66cfd7f98eccb87b7a0424ea04f0141c197fe4eb1b16d58eea",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D004.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 76624,
+      "size": 278,
+      "name": "_8087386",
+      "sha256": "455bd54dd10b5a28ad7a049783be0f00d7ea1972b48cdc04dceacbd6d4ca649f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D005.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 72224,
+      "size": 318,
+      "name": "stinit",
+      "sha256": "2def35b8598deac8b5c8649c3d555aeaf267814066afe312fde72038290bf0f2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D006.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 207664,
+      "size": 210,
+      "name": "umaskval",
+      "sha256": "17aab9b85b051854319f2470ca4f6ddd7fffcf4594ded66e9d90501c8ecfbdb6",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D007.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 190448,
+      "size": 242,
+      "name": "heapmod",
+      "sha256": "ca63fb181d5e35f3297904a60d29405e11b770aff1c42a7dcd3529914d7278e5",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D008.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 220176,
+      "size": 280,
+      "name": "environ",
+      "sha256": "ea2cee5bead44b02d6997bef3eff0d3c5417109f066622af1fd68feb79b77503",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D009.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 120464,
+      "size": 213,
+      "name": "hugeval",
+      "sha256": "298544ce910dd90171f47c6b73aa9d1e192e1d48137f5b13caba8108a876bef0",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D010.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 178576,
+      "size": 163,
+      "name": "chipvar",
+      "sha256": "cf6a28171db31ed871359031671ac754ef966de5d4621e38bd53dd7be41d0083",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D011.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 89232,
+      "size": 230,
+      "name": "___argc",
+      "sha256": "9fd1ae20fd9cd426688063dd27f5b63ed29fc0cb87a18042bc8b45d7e1f53e2e",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D012.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 191920,
+      "size": 218,
+      "name": "minreal",
+      "sha256": "7691831538271cf56ad856cf63fae0cb674208a5661f44ac4af7fc38d13f7d11",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D013.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 188960,
+      "size": 232,
+      "name": "amblksiz",
+      "sha256": "c71752e179126454a937e57158ecf49af2429d22c5109ada4c4a43ae300d9bbd",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D014.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 76416,
+      "size": 203,
+      "name": "8087cw",
+      "sha256": "046abd5231c554bb65d778c5cc3b214c6e621975d6b267a9973b22947f29d450",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "D015.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 15216,
+      "size": 288,
+      "name": "fpow10",
+      "sha256": "700c0aff78802def32014437a60aab1d044d7a8db844e12d05a79bc6369af92b",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "F001.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 82976,
+      "size": 255,
+      "name": "fltused",
+      "sha256": "7c2738c961a36471f34705fdd3f66b9e8261e37de82e5566bd749aadc7f8435b",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I001.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 75472,
+      "size": 578,
+      "name": "exit",
+      "sha256": "b692502e7ea2f345489488f1b7c96d31282990faa0ce5e446f3a5b2b2338350e",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I002.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 120688,
+      "size": 226,
+      "name": "labs",
+      "sha256": "9ea3ba97b4a219b6f8a31fbca1606172d44fca7891dbd0578dd8f8140635742e",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I003.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 228672,
+      "size": 355,
+      "name": "atol",
+      "sha256": "c0dc3ab3f3e3e3eed8c7bf3e1efc59fca0cd20a4b712cc36f6e6af248ae6e870",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I004.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 115920,
+      "size": 224,
+      "name": "abs",
+      "sha256": "1f0a20bb053b9c88bb7f6101b4d6930257b570454ebd3a200716a08d1a391ff7",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I005.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 200144,
+      "size": 248,
+      "name": "close",
+      "sha256": "b785d6bac0ef967ae880007b6049346af9ffd6aba874ce966ef1d9441ae59bea",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I006.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 87856,
+      "size": 262,
+      "name": "stack386",
+      "sha256": "2115bf11afe3b9b45944d92ac534bf14d1018e88b6938ca8939431cdb76048b7",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I007.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 16368,
+      "size": 282,
+      "name": "clockxib",
+      "sha256": "3d469faaec115e4d94fe9b9a5199bb7d9404be380585c60e0d37c069f1200228",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I008.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 51008,
+      "size": 276,
+      "name": "fflush",
+      "sha256": "ed68682bcf0eb2aeef1f9dbbb82c799236eeef0991a748638a95f9ac36e39f63",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I009.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/emu387.lib",
+      "offset": 16,
+      "size": 381,
+      "name": "386inite",
+      "sha256": "04b811119d49a887d7260a2051a4df8d2fe493236fdf260bf5879b54446f4cad",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I010.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 82624,
+      "size": 338,
+      "name": "errno",
+      "sha256": "8de50221585acf20a0d37cfeb83c09d83332558c31dd85ca025f9caa09e6deb1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I011.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 228304,
+      "size": 355,
+      "name": "atoi",
+      "sha256": "c29d1bf5a1082afa9271b91a71235014d32e8261e20a61984d1cad60a222fd6d",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I012.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 221216,
+      "size": 247,
+      "name": "gtpid",
+      "sha256": "a69c338bca252afde8ebaa68174747a7ea4993720157e555503a49e3665ba599",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I013.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 217152,
+      "size": 249,
+      "name": "remove",
+      "sha256": "9eb4ebf4b06804627603f2a5036cc762137a5ef1bab0594dac74a414672e8e34",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I014.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 195904,
+      "size": 232,
+      "name": "nmemneed",
+      "sha256": "8eff06e5a998000a139ba6b7083c19a89f8c649a1c65675264ffe339b2bad3d1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I015.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 88896,
+      "size": 327,
+      "name": "xmsg",
+      "sha256": "b654611006f163cc44313f31cd7440362a33b96018e6e0a3ab3382779e0a51d1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I016.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 3696,
+      "size": 351,
+      "name": "exp387",
+      "sha256": "851a8f68a25f3d5641181aca0f390f5714de1b9e0fc4c0f249b212f22f58acd2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I017.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 64400,
+      "size": 438,
+      "name": "noefgfmt",
+      "sha256": "69d6300a0eeca2ec77e5099fae863b3108c334399bc7fcd36dda7020cc8464d4",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I018.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 78768,
+      "size": 263,
+      "name": "cinit",
+      "sha256": "138ba2ce5d28a19dab0789527cd9f8a308e970c493d1724a67f8df6ffcf604ae",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I019.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 189824,
+      "size": 317,
+      "name": "heapen",
+      "sha256": "c973a0ad975f0492333caac4c86a701a0aa7a6ff2ada7ebb70cd0bbe9b6c621a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I020.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 17952,
+      "size": 620,
+      "name": "i64ts386",
+      "sha256": "95ab203950c3ac55656601e8f1f7ce2c616c514373866e64ab223da6c24d6ee8",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "I021.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 71520,
+      "size": 333,
+      "name": "setefg",
+      "sha256": "d85b305f0b17b4cff4b076f4be8f6e2b0d7f628b76d09b5508a24fd4c020fc93",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I022.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 13120,
+      "size": 1197,
+      "name": "dosinite",
+      "sha256": "74667a0f5882e086be1530785d31c2df0ec3bcd77a7ff443db004c54fb628f5a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I023.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 178032,
+      "size": 537,
+      "name": "chipbug",
+      "sha256": "806247baa3935a7b105eb5d311c988493e79301ac5399cc45c601ac94dbc22b2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "I024.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 12320,
+      "size": 272,
+      "name": "cnvs2d",
+      "sha256": "d0e3258374329fe130fb276f6fadb2104e462102dc44743a8d4738c9461697d2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R001.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 272,
+      "size": 425,
+      "name": "amodf386",
+      "sha256": "f3138971eb6cf5df56e845a11f2bde2c8488f4f5e4c4cdb9edef1b0f1004f6d4",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R002.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 1632,
+      "size": 188,
+      "name": "fdfs386",
+      "sha256": "294ab28d4742dc141b47f234e4d8342d2e271cfd72e001c4e4e25b5354e4f8b0",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R003.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 6416,
+      "size": 286,
+      "name": "__stos",
+      "sha256": "f7b5ec05fc52045837fa915da088a122f67d580d057c3d7f9b02cce834c0580f",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R004.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 10096,
+      "size": 179,
+      "name": "drive386",
+      "sha256": "a64e8f7edbfa8131cb267a6cbbbb4eb193e2bab123090fc53b7a9f5a4a3b86c6",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R005.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 9392,
+      "size": 167,
+      "name": "error386",
+      "sha256": "a4eba5d1440d15d10063de17b8caf4e4c897ee3eb6d63be975dd553a7bf1f7ef",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R006.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 9568,
+      "size": 226,
+      "name": "file386",
+      "sha256": "88761004a6f2dc31148835c166bd931515b409eda9b49cb606cc1025aa2a2ba1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R007.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 11280,
+      "size": 190,
+      "name": "gtime386",
+      "sha256": "d2c3f1687278d9e4e0932dd8fd027e60971eac742de000e35be23744885d8928",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R008.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 11808,
+      "size": 203,
+      "name": "io386",
+      "sha256": "d6dbb5c5cd5484d21fa88fd022a5110e7d7e103351ca0a192c3be372b1689da9",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R009.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 23680,
+      "size": 358,
+      "name": "bits",
+      "sha256": "fc1356fd7f85b047581bdadf6e940b1b88951ba5791bb5ae2e042fa19d253e25",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R010.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 25456,
+      "size": 273,
+      "name": "cmp386",
+      "sha256": "5a26e4030eb0870e09c9f8c38d381d5a0ab94ade7e54c5eff1f025f33103948b",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R011.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 33952,
+      "size": 258,
+      "name": "strcpy",
+      "sha256": "2a659a4271e2678d571f071a5b8e6221fd511d1eba5f55d349e8f1dda0136db2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R012.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 36048,
+      "size": 252,
+      "name": "strlen",
+      "sha256": "e448bb540846ff4eaa4c98a6454730e9d9948e133416039e1ee2e95941f07079",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R013.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 36880,
+      "size": 270,
+      "name": "strncmp",
+      "sha256": "107ea036545c80e9e17efadaf08cb245e69030fd60e4c5850446124ff41ffb1c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R014.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 37152,
+      "size": 266,
+      "name": "strncpy",
+      "sha256": "7c33f78e8a90db6b743f11a5b8fbd85143d9df912b11c282f11296ad05dc9e2a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R015.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 39920,
+      "size": 475,
+      "name": "strtok",
+      "sha256": "377a44d03d773d8ff2be363e0ab05c68ba54fbae1f658b37d68ac3ec4943e529",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R016.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 41968,
+      "size": 299,
+      "name": "chktty",
+      "sha256": "f3b2b7edc9950829cccaa93ea5e137b0cdb35a56beed95302e7e84fbc0d8bdb2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R017.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 47600,
+      "size": 342,
+      "name": "flushall",
+      "sha256": "f4ff34af354a215a0fbfe8afdaff49b1ea2507746e5be591dbbb9b3bec39a53c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R018.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 49952,
+      "size": 449,
+      "name": "fputc",
+      "sha256": "a6d2695db633080ce09f3308e47bebd92f4b186e129454a3ec88ce7e0fd1ed9f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R019.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 58256,
+      "size": 289,
+      "name": "iobaddr",
+      "sha256": "7756d44985c4a70079a3d963d98a402f32c4070b7be425341e78074d5aabdb82",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R020.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 58560,
+      "size": 557,
+      "name": "iomode",
+      "sha256": "260a1018e48573472daa6245d8631b6ddc2fb48323d3568aabae0e150c34e706",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R021.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 64816,
+      "size": 270,
+      "name": "rewind",
+      "sha256": "709150f6611a93a40951ccdb07a50ebfd2ffeec84eb8590d61263d7a30192736",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R022.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 75200,
+      "size": 440,
+      "name": "cmain386",
+      "sha256": "121ab7b4d090826c6fd95fa79b840064939e9b04fd1c92a23d44d2414d5c89a8",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R023.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 111840,
+      "size": 157,
+      "name": "set386",
+      "sha256": "82e5427401753689730d72e50e4ca4ac0bad8fd5b82ff61ac44f74eaed9662c1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R024.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 114192,
+      "size": 277,
+      "name": "div",
+      "sha256": "f1ffa6b3ab68a03fcdde53494741c1c7e88de61b113d1e2a54073eaa73724b01",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R025.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 177888,
+      "size": 144,
+      "name": "chint386",
+      "sha256": "23846f03c10c0229431fe0eaeb6abfc76bc5193fe0422ed9314f4f0b6b80baea",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R026.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 120448,
+      "size": 335,
+      "name": "enterdb",
+      "sha256": "741a5cd665c1d9f2c435f706ab44e51d52cadf2282c2e605fcc42cba23f1b11c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R027.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 121232,
+      "size": 229,
+      "name": "inp",
+      "sha256": "2b0d3ef56aa024114acec598762259b3a20a0e30bf9999f2f9792b170cea7ed3",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R028.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 121472,
+      "size": 232,
+      "name": "inpw",
+      "sha256": "4f3adce508d0c1ff1bb2e460db1d0425de3da369df91f1ad705d77b1d8adf799",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R029.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 122784,
+      "size": 1131,
+      "name": "intxa386",
+      "sha256": "e4bc3623cb445ba5d11750dd25c06f3630406234c5b94c80d641f4e081cdaad2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R030.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 125664,
+      "size": 246,
+      "name": "segread",
+      "sha256": "67b311ee1e95c9ef3a1518a01d71f017f74333a6953e60359fc858946417d8ee",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R031.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 190704,
+      "size": 569,
+      "name": "memalloc",
+      "sha256": "302835931d5ae55137f42c159c72976467d72b3e451dcb2dda65f9b8c2fd461d",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R032.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 137184,
+      "size": 250,
+      "name": "nmsize",
+      "sha256": "de51f91cff67456548f278db57214b863650089f84956a00fd1dd6b58083a13c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R033.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 141568,
+      "size": 321,
+      "name": "filelen",
+      "sha256": "cd5951f21d3863acbef8afe8b701785e06a5de48ebe6e2c4f402e1ad0507dd1f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R034.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 148112,
+      "size": 260,
+      "name": "tell",
+      "sha256": "1c5da25cf079eda4b0ebbc474dd91f00feed3ceff78eea6f03b9c793c2b2ad10",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R035.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 215792,
+      "size": 158,
+      "name": "ini87386",
+      "sha256": "ce3b9730a8586230ba08cbf1cb4a99f867de1addf5f616b4537ed8b4bd6d77d2",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R036.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 150768,
+      "size": 322,
+      "name": "accss",
+      "sha256": "a9aa6b3e3890321ea2a5e0793529f011ed10488e133ac668f097934b6c4fbd58",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R037.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 159312,
+      "size": 574,
+      "name": "setenvp",
+      "sha256": "6ef0aa62ab28bd9e43342ff5dbdb858858d81f8b0b5024f1852a780d9968d6fc",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R038.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 163504,
+      "size": 468,
+      "name": "itoa",
+      "sha256": "2c631b23ecb1b895f3e6cba7b253a3ff4cd00f62061317020aa318f0a0dc3a2b",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R039.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 166752,
+      "size": 279,
+      "name": "getch",
+      "sha256": "c83f18993b0808daf6f92c00787257f623ac04d6bbd1274c83c18a5009dca3e1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R040.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 167040,
+      "size": 280,
+      "name": "gtche",
+      "sha256": "afc4c3cdf63f867186a474b0580a08cabd6a8ae10e51e84b409a2cd6dc3fc65c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R041.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 171872,
+      "size": 258,
+      "name": "tolower",
+      "sha256": "b573d65f7d3dd0eeb1243ba2fa4572cb74fa6a05b0db9b4eb6616f81e52b8d46",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R042.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 172144,
+      "size": 258,
+      "name": "toupper",
+      "sha256": "b029b99bfc418afe78812949c633d4c1b323435433d757418bfcc5646c16187f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R043.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 9808,
+      "size": 339,
+      "name": "find386",
+      "sha256": "2d6e61701504be3ec3f863b17aa3d60559abc6195d00ca6e852e9900b5d527d8",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R044.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 34896,
+      "size": 820,
+      "name": "strerror",
+      "sha256": "1a5cf8e65811c7482a5b4ad7524bd9bede0ec8dc68bc032a41fe2abac6f58d1f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R045.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 40944,
+      "size": 332,
+      "name": "vsprintf",
+      "sha256": "27313d199a3730415155a2e48821c8c2ca252168c1c0abf31edf72984c06aa8e",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R046.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 81536,
+      "size": 415,
+      "name": "inirt386",
+      "sha256": "41e90a6ed5d2baebf8cafefb2e43ab8e9ed9f1065874c2eb88f3693e6a9861a6",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R047.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "offset": 86368,
+      "size": 440,
+      "name": "stk386",
+      "sha256": "a586861497aa565819ceb06e10d740f26190e2b6aaca24f04a1f33193925ef79",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R048.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 14720,
+      "size": 150,
+      "name": "fchop",
+      "sha256": "ba529dc6f7de18968ea9aa68551822d3c1136dc6e983c540676a1b99cd6a1427",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "R049.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "offset": 9600,
+      "size": 348,
+      "name": "frexp",
+      "sha256": "9a4c9d4c185af75177a112a2021087cb3dd4f9eb47800cf1c8800b6ab10d7385",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R050.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "offset": 16928,
+      "size": 342,
+      "name": "log387",
+      "sha256": "5bfa535f8c7feed361a15e13b9c2d6d4b4b2df184735e6cc00f25ce53412f0bb",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R051.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "offset": 17280,
+      "size": 329,
+      "name": "log87e",
+      "sha256": "5ac1a62c1b3cc59de64606c02ffeb19b4583fff257d528f7d48be236c0f0726c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R052.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "offset": 19232,
+      "size": 163,
+      "name": "modf387",
+      "sha256": "69e242d8f454a28547256bcb0f4239271181c988c386e9578498ab494e643a26",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R053.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "offset": 8768,
+      "size": 338,
+      "name": "floor",
+      "sha256": "f24a882bf1dec90932792fe947328defe5f17bb6e89d67e6dcebed14cd6f5509",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R054.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/math387r.lib",
+      "offset": 17616,
+      "size": 964,
+      "name": "math2err",
+      "sha256": "9ff1a1a08d83bc50db1f134dab38d6066a54c4ff4f521ee804fcd1b116216bfd",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R055.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 73808,
+      "size": 276,
+      "name": "vprintf",
+      "sha256": "b404698a136b3bd5b1df12df8877392b0ab156984297e26559860bf30fbbd873",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R056.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 196400,
+      "size": 518,
+      "name": "nrealloc",
+      "sha256": "aa52b33f130584f880e8d03e080bf8f1054d75ef26f03c941d448ea5b40799a9",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R057.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 7232,
+      "size": 514,
+      "name": "dosret",
+      "sha256": "511135dc29ec8d69e904e406206bea569aa72eba25d85d0d650340d54089a873",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R058.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 8704,
+      "size": 305,
+      "name": "d_getvec",
+      "sha256": "c02a9bf4165de3cd3cad7fec0d1b710bf898f15c69c03b9866408afcf7948152",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R059.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 9264,
+      "size": 300,
+      "name": "d_setvec",
+      "sha256": "fd8a63f9319832071d3babe772d78ed26d5c24f89fa50ed057904a22cbc302cb",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R060.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 11472,
+      "size": 326,
+      "name": "intd386",
+      "sha256": "3fd08d1f741ee462e6466de2fcea42901e4515dbb5e55835384a82ce57e951c1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R061.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 15856,
+      "size": 505,
+      "name": "clock",
+      "sha256": "cdc756b518273343f569664de3fd6d328ce70559a124c4d8f2621831dcd09a72",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R062.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 24400,
+      "size": 243,
+      "name": "strchr",
+      "sha256": "021d9a384dfe82224a359ec3b615f2ce13d8fa4ff923061a19f85affa74c53c3",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R063.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 33184,
+      "size": 353,
+      "name": "sprintf",
+      "sha256": "78a761a287c5cac942949869ea7880368fadee053618908c8d1ef5fa2af8957b",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R064.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 33552,
+      "size": 475,
+      "name": "sscanf",
+      "sha256": "2de0d81f96d5e38b91f74dfb0a58338966fe9d1e743a8b2852523548f99b67e1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R065.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 34032,
+      "size": 274,
+      "name": "strcat",
+      "sha256": "415da8c23c09aa0c74d122c28cf255dd7959e52703d8868ec90923c869cae558",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R066.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 36336,
+      "size": 325,
+      "name": "stricmp",
+      "sha256": "23ff1050b3582451f94614004b7f1a0b580e402d986fe6f5f189e59d59ae9b93",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R067.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 38048,
+      "size": 326,
+      "name": "strnicmp",
+      "sha256": "438a08287ec1124ce5f076cf4b9338246a022a1333ac7f6af6130a47d4c8ac13",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R068.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 38640,
+      "size": 335,
+      "name": "strpbrk",
+      "sha256": "d6370a73d2bb25993ab952d9cb9f222ffff73fd67a38c7ee343af93c6bad34d1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R069.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 40112,
+      "size": 422,
+      "name": "strstr",
+      "sha256": "0394dfb9d871452ded99a4340ab83cf9bdaf476bd30177ca829dc1fff14a4b6a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R070.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 41904,
+      "size": 701,
+      "name": "efgfmt",
+      "sha256": "734a5ce0cdad260bb644763180ac8f27076fd24fef8ec3d0421cdadd467d9e23",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R071.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 42608,
+      "size": 810,
+      "name": "fread",
+      "sha256": "2174fac7e46416bd79971aec159852adb3884af6fbcc78b2d82825763fd02ca2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R072.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 43424,
+      "size": 4292,
+      "name": "scnf",
+      "sha256": "50c6de1bf622e28bf1b04b672e7871baffdb5674427b52e14c380a3bcf1166de",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R073.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 47728,
+      "size": 681,
+      "name": "allocfp",
+      "sha256": "246dc01c34b9a99ddfd07306b6bdfb756c60819602b846701403394327658111",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R074.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 48960,
+      "size": 859,
+      "name": "fclose",
+      "sha256": "561edf82824436baea3f259eb203aba75de629f8bc726abc9027d2f32c387b5d",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R075.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 51296,
+      "size": 763,
+      "name": "fgetc",
+      "sha256": "685077049ecb51c8125d87122e6df0ffdfc4829089543a972a4e8cabb3460156",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R076.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 52608,
+      "size": 346,
+      "name": "fgets",
+      "sha256": "1e656954fa4eaa05d69b4b062974a87941c54fa6bf538a5e1a517703eee45c45",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R077.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 52960,
+      "size": 510,
+      "name": "flush",
+      "sha256": "e775f447576261a64b834a116ec0a871d927e1ce2cf2e950577edceeeb332f94",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R078.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 53824,
+      "size": 1303,
+      "name": "fopen",
+      "sha256": "d27500867631556799038fb46cf2e99e61eec593045ad1f881795d2aa24c1ea6",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R079.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 55424,
+      "size": 476,
+      "name": "fprtf",
+      "sha256": "8de73aae0a2d72ff15982c51d49839556d67024660416d4831e952a83a8cbcbf",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R080.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 56624,
+      "size": 394,
+      "name": "fputs",
+      "sha256": "abcd092a24e463c13a95e3db817f4db0959a8bb755f17b2bcc8ee00ab44c352a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R081.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 57568,
+      "size": 689,
+      "name": "fseek",
+      "sha256": "93a943ad72f4f15cd8ef2d12b0cbe416ec29435564f880fa60a6bcdfc16e474d",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R082.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 58544,
+      "size": 288,
+      "name": "ftell",
+      "sha256": "68bf4d1ad34bb5a7fed12baeb548cc43b5fbbde2fc63468c16971b1ebbf5a229",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R083.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 58832,
+      "size": 814,
+      "name": "fwrite",
+      "sha256": "519c8aa656bcb3a7140cee2de5a897ae982c7f1771bffba54bf7a6a92dd2b186",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R084.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 62112,
+      "size": 545,
+      "name": "initfile",
+      "sha256": "e9708d9ffebfa6c36b7a0b4583b3950fc3768031d30961a2efc2c6a58f62a3be",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R085.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 62672,
+      "size": 382,
+      "name": "ioalloc",
+      "sha256": "83bab5df48a30832191230f8b3b53a509a7077202b97ffc1c2dac968dc8d3242",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R086.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 65264,
+      "size": 291,
+      "name": "printf",
+      "sha256": "bcdf9d665ee7ae0cc95b5e9a53b5e4b6fbdd5c6a14be88d2914572f564789715",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R087.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 65568,
+      "size": 3721,
+      "name": "prtf",
+      "sha256": "d7beab2e5b3fdf5f30014d694232a87b83c8a4373d65ad470f1ab9d0f08fb479",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R088.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 70048,
+      "size": 312,
+      "name": "puts",
+      "sha256": "9273bff13f9f05691a8f7f7cbc991b5fa298c6a1450c1c61425efcdec1c44e4a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R089.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 74096,
+      "size": 881,
+      "name": "initargv",
+      "sha256": "ac50dc17dc56bff76e115f1fdb40d52be7ff87a80f292e47df16f0480098a2b2",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R090.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 74992,
+      "size": 480,
+      "name": "ioexit",
+      "sha256": "c31e11a6c465724828c57dd0ccaa7c47e3f76cd9cd606a62218bf8144568deb8",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R091.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 77616,
+      "size": 497,
+      "name": "atexit",
+      "sha256": "fdb6f672710e0d471f6aff693a9cd8fa95369b32c0506552114e14be61b1eb58",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R092.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 78128,
+      "size": 630,
+      "name": "chk8087",
+      "sha256": "13cdff6cc62631f322cf9d9b301785f262e86cd3b4b6c3935fb7bc18a271f132",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R093.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 83504,
+      "size": 755,
+      "name": "hook387",
+      "sha256": "6b9c2f631dc5b10bb68eae27efe56e630815860acbd5dff0523950fc2500bfd1",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R094.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 87424,
+      "size": 431,
+      "name": "seterrno",
+      "sha256": "62c116b234dfb60bbbf6d2f38c9fc1c497151bc343b631dcca429df56e1caa8f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R095.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 110720,
+      "size": 266,
+      "name": "fmemcpy",
+      "sha256": "dddcdfc0a1a637705c2618ad2e184ea8211aa3c68a07dcbf2fb07b5f7e0b1313",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R096.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 112672,
+      "size": 260,
+      "name": "memcpy",
+      "sha256": "e49af20323f27d5e22d716c248fb2e212652fc454bb46a17f4fe1efdfc80ccf0",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R097.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 121168,
+      "size": 225,
+      "name": "min",
+      "sha256": "863e1a972ae902a9a4d53b7c939b0ef41e89701230aa5db1ff4aa1e5913c134c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R098.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 180656,
+      "size": 288,
+      "name": "int386",
+      "sha256": "1d661e481979813975e039e7a2a520067dffbeaec11a14eae4de6a3a58a173c6",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R099.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 181168,
+      "size": 274,
+      "name": "intx386",
+      "sha256": "ce405d96370b4d430c3bdfe6d3487006a27fa4e5105e17778418d14067ea158e",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R100.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 182592,
+      "size": 229,
+      "name": "outp",
+      "sha256": "616629482a17338e7fa2985682db70fc6687318ae562dae2cd3553a1d50f755a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R101.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 182832,
+      "size": 232,
+      "name": "outpw",
+      "sha256": "94eff95031b147d4860791d8e20d9bec797f78f03a60ffa455db7f2c4b7ca49c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R102.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 185104,
+      "size": 550,
+      "name": "nfree",
+      "sha256": "5a157da60c052ccbabc7fd8f877389794914485a76da15258ad396f30b580a30",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R103.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 186464,
+      "size": 2493,
+      "name": "grownear",
+      "sha256": "c83a661b085f5e29e7c41aa4b6ea0ba50b0b1238f12721729bd1b645c6813458",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R104.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 192448,
+      "size": 1047,
+      "name": "nexpand",
+      "sha256": "f92aef0d5a1f98ace8af1f4230aa59dd2c607062d407ff94b3cd1c845a0f5dbf",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R105.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 195136,
+      "size": 764,
+      "name": "nmalloc",
+      "sha256": "3f8f44f4ec2b46596598b395db7a188733f8da950f3b4a67bdffba27965bcd1c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R106.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 196928,
+      "size": 818,
+      "name": "sbrk386",
+      "sha256": "826eef26b26bda5ca03389596d0400f337938d0b67d9136d03b5a7e01a2d5edd",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R107.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 198192,
+      "size": 1075,
+      "name": "open",
+      "sha256": "fd77825ecf485d6fde49981551b912fc582ba1250c7d33ba84a6938ddb910468",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R108.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 200400,
+      "size": 320,
+      "name": "_clse",
+      "sha256": "3a67718f8fc66c3c7284e73a844a95bd292e2f99ddec6e8f0adb9b57c85d898d",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R109.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 204032,
+      "size": 331,
+      "name": "lseek",
+      "sha256": "b09334a6f8531dffc9ce78025fbda1c1c164bc522a9b332408a5d5ab388fdf93",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R110.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 205376,
+      "size": 284,
+      "name": "qread",
+      "sha256": "fce482afeedbb52ae471c4ffd912dce258c77b55d449722b63c4a6d22ea77453",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R111.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 205664,
+      "size": 403,
+      "name": "qwrit",
+      "sha256": "421cb71da7518caf798618aff17bede876b9aa766b6b0533edc18b8694742bbc",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R112.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 206080,
+      "size": 562,
+      "name": "read",
+      "sha256": "958e864073d0e29e6796ed46283bd5a12cd2881eabdc899d09d2e7d3823e80b5",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R113.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 208208,
+      "size": 285,
+      "name": "unlnk",
+      "sha256": "57bf9b59b069c21c1cfffb3934350ea052155064f7071643247b0a65820625aa",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R114.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 208496,
+      "size": 832,
+      "name": "write",
+      "sha256": "dd088ae629f3cf32863cd38f1815bc2607b707851b77f1876b4368e6348be510",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R115.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 209328,
+      "size": 2742,
+      "name": "chipd32",
+      "sha256": "cc968d0a9251cc1e6af0971e3d23738315986cbfb28fa037385cac39f02267e9",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R116.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 220464,
+      "size": 357,
+      "name": "getenv",
+      "sha256": "a7ed7299069d6a33c6033e4e6c279923537dc20f0dc842aa3e034056f09413a4",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R117.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 221472,
+      "size": 261,
+      "name": "isatt",
+      "sha256": "6f71f8c7f9d84b5212c2c901637c42378abd6772b82703b152672b2e0be9c9ff",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R118.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 225600,
+      "size": 284,
+      "name": "chdir",
+      "sha256": "182263ffd0bc19dc33051714a432786a9bc4f17be3c53e2a1116c7ea786f7c90",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R119.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 229504,
+      "size": 466,
+      "name": "ltoa",
+      "sha256": "006164df981449ea488186a2410e2932f45b2048d40b6ccc12e2ced25c5bb95c",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R120.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 229984,
+      "size": 1078,
+      "name": "strtol",
+      "sha256": "2b1f34ae946b70ac31c97c7a8222322c059cf8f7b9100ed26bcaeb00e8b4276a",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R121.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 16,
+      "size": 330,
+      "name": "leadzero",
+      "sha256": "cde72ff594d6d38fd1e739c86ca77106dc422dde0b3ec93caff01568539ec156",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R122.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 2240,
+      "size": 824,
+      "name": "cvt",
+      "sha256": "d38a0be87216e05a2dc6af4a988aa1b3b91feb071fc77254470fa42c7cde3b49",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R123.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 5728,
+      "size": 566,
+      "name": "pow387",
+      "sha256": "b646de444c805a9fa3326da929bb764cad2436794df29fc271a9d06776cd9e79",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R124.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 6592,
+      "size": 838,
+      "name": "strtod",
+      "sha256": "6e0b19e8a61eee8ce765e7d92998d769ea0d69c60aeadca83c60ddd89fc19e04",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R125.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 15856,
+      "size": 1559,
+      "name": "ftos",
+      "sha256": "4461ffb27de689f8dda846506f09097ca8570c22c6d7e16c337afa18a48dda16",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R126.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 23952,
+      "size": 390,
+      "name": "math87e",
+      "sha256": "84bd1a4aec9297a4868a60c4887977576b69ea583f4f0d250eb3f642cc875839",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R127.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 24592,
+      "size": 404,
+      "name": "nan_inf",
+      "sha256": "2131097bd9745cb299264497971973c602bc2466e4ef3bbb35ebdbab7a07289f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R128.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 25008,
+      "size": 402,
+      "name": "pow87e",
+      "sha256": "c3e1e8a0b47f15311feb030799a9aff0a9ac79b0e13dca490c51c6d225acba69",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R129.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 26528,
+      "size": 829,
+      "name": "scale",
+      "sha256": "5e6e5299e74adcfa75b80a0e609c8dec2e7331ac1ed72bab54b854b035975c5f",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R130.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 31472,
+      "size": 859,
+      "name": "_matherr",
+      "sha256": "0e7fa19a1405c1dfe027549c81c4e165a14748d4fd6f78c8cbb1f6c0c59b75da",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R131.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 10480,
+      "size": 143,
+      "name": "__mtherr",
+      "sha256": "42b8029dd3cdc788abfd3af0544ee24fc320df9d047a91e4692feaa9c15379aa",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R132.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/math387r.lib",
+      "offset": 24352,
+      "size": 228,
+      "name": "matherr",
+      "sha256": "551ff5570d811bc3ed0d15a6cc30947131f67f8eba1a9d74ed41b19d47f44592",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R133.OBJ",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/emu387.lib",
+      "offset": 400,
+      "size": 20259,
+      "name": "emu387",
+      "sha256": "532511cba5bca8b9ec8602ab60ed05917b5ba6266393b5c9fcab4b9a060c5b58",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R134.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 80464,
+      "size": 1867,
+      "name": "cstrt386",
+      "sha256": "9ca09fa62ddd3ecaa4975e24bd529020f970ed84312692061c95edc9afec4ffb",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R135.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 79936,
+      "size": 522,
+      "name": "crwd386",
+      "sha256": "1383f0ab7f88081b15b08076359ece2f5851eda5afd7d767a5c679b54dbbb828",
+      "equivalent_stock_candidates": 1
+    },
+    {
+      "filename": "R136.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 87296,
+      "size": 116,
+      "name": "seg386",
+      "sha256": "0a183c8eec2ab03238d56b6eb5f9e2a0e2878a55e564c65ad52aab3b7aba3819",
+      "equivalent_stock_candidates": 2
+    },
+    {
+      "filename": "S001.OBJ",
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "offset": 184208,
+      "size": 295,
+      "name": "save8087",
+      "sha256": "3c2fc4539c6392263287c42146beb1860c8a77a853c097da2a3199b4104a8869",
+      "equivalent_stock_candidates": 1
+    }
+  ]
+}

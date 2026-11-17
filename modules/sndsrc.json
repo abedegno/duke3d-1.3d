@@ -1,0 +1,6873 @@
+{
+  "name": "SNDSRC",
+  "source": "src/audio/sndsrc.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 476688,
+  "code_bytes": 1870,
+  "code_publics": 17,
+  "symbol_anchors": {
+    "TS_ScheduleTask_": [
+      1,
+      475972
+    ],
+    "TS_Dispatch_": [
+      1,
+      476348
+    ],
+    "TS_Terminate_": [
+      1,
+      476236
+    ]
+  },
+  "anchor_evidence": "evidence/task_man-module.json",
+  "expected": {
+    "initialized_bytes": 2062,
+    "zero_fill_bytes": 28,
+    "verified_fixups": 201
+  },
+  "native_segments": [
+    {
+      "name": "_TEXT",
+      "class": "CODE",
+      "size": 1870,
+      "attributes": 105,
+      "access": null
+    },
+    {
+      "name": "CONST",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169,
+      "access": null
+    },
+    {
+      "name": "CONST2",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169,
+      "access": null
+    },
+    {
+      "name": "_DATA",
+      "class": "DATA",
+      "size": 36,
+      "attributes": 169,
+      "access": null
+    },
+    {
+      "name": "_BSS",
+      "class": "BSS",
+      "size": 28,
+      "attributes": 169,
+      "access": null
+    },
+    {
+      "name": "CONST",
+      "class": "DATA",
+      "size": 156,
+      "attributes": 169,
+      "access": null
+    }
+  ],
+  "expected_publics": {
+    "_ss_private_state": [
+      5,
+      0
+    ],
+    "_SS_CallBack": [
+      5,
+      8
+    ],
+    "_SS_SoundPtr": [
+      5,
+      12
+    ],
+    "_SS_SoundPlaying": [
+      5,
+      16
+    ],
+    "_SS_Installed": [
+      4,
+      0
+    ],
+    "_SS_Port": [
+      4,
+      4
+    ],
+    "_SS_OffCommand": [
+      4,
+      8
+    ],
+    "_SS_BufferNum": [
+      4,
+      12
+    ],
+    "_SS_NumBuffers": [
+      4,
+      16
+    ],
+    "_SS_TotalBufferSize": [
+      4,
+      20
+    ],
+    "_SS_TransferLength": [
+      4,
+      24
+    ],
+    "_SS_CurrentLength": [
+      4,
+      28
+    ],
+    "SS_ErrorString_": [
+      1,
+      20
+    ],
+    "SS_ServiceInterrupt_": [
+      1,
+      100
+    ],
+    "SS_StopPlayback_": [
+      1,
+      296
+    ],
+    "SS_GetCurrentPos_": [
+      1,
+      372
+    ],
+    "SS_LockEnd_": [
+      1,
+      412
+    ],
+    "SS_BeginBufferedPlayback_": [
+      1,
+      416
+    ],
+    "SS_GetPlaybackRate_": [
+      1,
+      548
+    ],
+    "SS_SetMixMode_": [
+      1,
+      556
+    ],
+    "SS_SetPort_": [
+      1,
+      560
+    ],
+    "SS_SetCallBack_": [
+      1,
+      640
+    ],
+    "SS_TestTimer_": [
+      1,
+      648
+    ],
+    "SS_TestSoundSource_": [
+      1,
+      656
+    ],
+    "SS_DetectSoundSource_": [
+      1,
+      800
+    ],
+    "SS_Init_": [
+      1,
+      1012
+    ],
+    "SS_Shutdown_": [
+      1,
+      1232
+    ],
+    "SS_UnlockMemory_": [
+      1,
+      1288
+    ],
+    "SS_LockMemory_": [
+      1,
+      1548
+    ],
+    "_SS_ErrorCode": [
+      4,
+      32
+    ],
+    "_SS_BufferStart": [
+      5,
+      20
+    ],
+    "_SS_BufferEnd": [
+      5,
+      24
+    ],
+    "_ss_messages": [
+      6,
+      0
+    ]
+  },
+  "expected_local_publics": [
+    "SS_LockEnd_",
+    "SS_ServiceInterrupt_",
+    "_SS_BufferEnd",
+    "_SS_BufferNum",
+    "_SS_BufferStart",
+    "_SS_CurrentLength",
+    "_SS_Installed",
+    "_SS_NumBuffers",
+    "_SS_OffCommand",
+    "_SS_Port",
+    "_SS_SoundPtr",
+    "_SS_TotalBufferSize",
+    "_SS_TransferLength",
+    "_ss_messages",
+    "_ss_private_state"
+  ],
+  "expected_externals": [
+    "_SS_ErrorCode",
+    "_ss_messages",
+    "_SS_BufferNum",
+    "_SS_Port",
+    "_SS_SoundPtr",
+    "_SS_OffCommand",
+    "_SS_CurrentLength",
+    "_SS_TransferLength",
+    "_ss_private_state",
+    "_SS_NumBuffers",
+    "_SS_BufferStart",
+    "_SS_CallBack",
+    "_SS_SoundPlaying",
+    "TS_Terminate_",
+    "SS_StopPlayback_",
+    "_SS_TotalBufferSize",
+    "_SS_BufferEnd",
+    "SS_ServiceInterrupt_",
+    "TS_ScheduleTask_",
+    "TS_Dispatch_",
+    "_SS_Installed",
+    "SS_UnlockMemory_",
+    "SS_TestTimer_",
+    "USER_CheckParameter_",
+    "SS_TestSoundSource_",
+    "SS_DetectSoundSource_",
+    "SS_LockMemory_",
+    "SS_LockEnd_",
+    "DPMI_UnlockMemoryRegion_",
+    "DPMI_UnlockMemory_",
+    "DPMI_LockMemoryRegion_",
+    "DPMI_LockMemory_"
+  ],
+  "expected_local_externals": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    16,
+    17,
+    18,
+    21,
+    28
+  ],
+  "expected_fixups": [
+    {
+      "segment": 1,
+      "offset": 0,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 4,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 8,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 12,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 16,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 23,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 37,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 53,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 0,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 58,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 65,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 72,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 79,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 86,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 92,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 108,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 114,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 140,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 149,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 159,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 171,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 7,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 178,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 7,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 185,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 8,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 191,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 197,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 206,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 212,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 10,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 219,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 226,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 231,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 8,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 236,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 7,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 241,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 246,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 251,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 257,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 267,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 283,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 300,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 308,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 313,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 14,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 321,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 328,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 333,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 343,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 357,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 363,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 375,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 394,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 401,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 407,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 422,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 430,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 15,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 436,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 442,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 448,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 454,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 16,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 469,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 477,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 10,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 483,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 489,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 17,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 494,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 8,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 499,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 7,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 509,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 523,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 18,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 528,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 19,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 533,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 538,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 20,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 567,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 575,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 15,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 581,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 586,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 598,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 606,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 616,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 22,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 622,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 628,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 641,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 679,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 23,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 684,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 19,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 691,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 20,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 724,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 14,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 749,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 780,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 803,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 808,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 813,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 24,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 837,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 842,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 24,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 862,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 869,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 874,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 24,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 894,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 906,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 25,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 926,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 938,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 25,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 958,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 970,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 25,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 990,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 998,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1004,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1021,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1029,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 15,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1035,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1040,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1052,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1060,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1070,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 22,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1076,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1086,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 2,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1091,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 24,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1101,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1113,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1122,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 26,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1142,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1149,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 27,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1160,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 22,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1174,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1188,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1199,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1205,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1211,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1219,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1234,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 15,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1240,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1245,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1257,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1263,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1269,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1274,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 22,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1280,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1290,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 28,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1295,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 18,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1300,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 29,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1310,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1315,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1325,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1330,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1340,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1345,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1355,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1360,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1370,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 17,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1375,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1385,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1390,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1400,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1405,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1415,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 10,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1420,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1430,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 16,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1435,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1445,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 8,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1450,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1460,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 7,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1465,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1475,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1480,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1490,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1495,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1505,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1510,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1520,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1525,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1535,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1540,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 30,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1551,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 28,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1556,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 18,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1561,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 31,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1573,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 21,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1578,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1590,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 4,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1595,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1607,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 6,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1612,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1624,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 11,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1629,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1641,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 17,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1646,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1658,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1663,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1675,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 3,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1680,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1692,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 10,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1697,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1709,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 16,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1714,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1726,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 8,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1731,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1743,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 7,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1748,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1760,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 5,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1765,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1777,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 13,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1782,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1794,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 9,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1799,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1811,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 12,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1816,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1828,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1833,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 32,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1842,
+      "width": 4,
+      "location": 9,
+      "relative": true,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 22,
+      "displacement": 0
+    },
+    {
+      "segment": 1,
+      "offset": 1858,
+      "width": 4,
+      "location": 9,
+      "relative": false,
+      "frame_method": 1,
+      "frame": 2,
+      "target_method": 2,
+      "target": 1,
+      "displacement": 0
+    }
+  ],
+  "expected_groups": [
+    [
+      "DGROUP",
+      [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    [
+      "FLAT",
+      []
+    ]
+  ],
+  "expected_default_libraries": [
+    "math387r",
+    "emu387"
+  ],
+  "audio_native_metadata": {
+    "name": "C:\\SOURCE.C",
+    "far_call_optimization_segments": [
+      1
+    ],
+    "dosseg_directives": [],
+    "code_data_ranges": [],
+    "line_numbers": [],
+    "format": "standard-omf",
+    "format_source": null,
+    "fixup_encodings": [
+      {
+        "fixup": 0,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e400140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e400"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 1,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e404140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e404"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 2,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e408140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e408"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 3,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e40c140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e40c"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 4,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e410140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e410"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 5,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e417160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e417"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 6,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e425140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e425"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 7,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e435140201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e435"
+        },
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 8,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43a160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 9,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e441160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e441"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 10,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e448160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e448"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 11,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44f160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 12,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e456160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e456"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 13,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45c160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e45c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 14,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46c160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 15,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e472160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e472"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 16,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e48c160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e48c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 17,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e495160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e495"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 18,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e49f160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e49f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 19,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4ab160207"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4ab"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 20,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e403160207"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e403"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 21,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e40a160208"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e40a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 22,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e410160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e410"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 23,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e416160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e416"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 24,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41f160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e41f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 25,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42516020a"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e425"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 26,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42c16020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e42c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 27,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e433160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e433"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 28,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e438160208"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e438"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 29,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43d160207"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 30,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e442160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e442"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 31,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e447160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e447"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 32,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44c16020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 33,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e452160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e452"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 34,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45c16020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e45c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 35,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46c160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 36,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e47d16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e47d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 37,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e485160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e485"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 38,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a48a16020e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a48a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 39,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e492160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e492"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 40,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e499160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e499"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 41,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e49e160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e49e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 42,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a8160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a8"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 43,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e40a16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e40a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 44,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41016020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e410"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 45,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41c16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e41c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 46,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42f160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e42f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 47,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e436160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e436"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 48,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43c160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 49,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44b16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 50,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a45316020f"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a453"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 51,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45916020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e459"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 52,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45f160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e45f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 53,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e465160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e465"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 54,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46b160210"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 55,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e47a16020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e47a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 56,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e48216020a"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e482"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 57,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e488160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e488"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 58,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e48e160211"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e48e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 59,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e493160208"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e493"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 60,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e498160207"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e498"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 61,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a216020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a2"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 62,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e403160212"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e403"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 63,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a408160213"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a408"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 64,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e40d160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e40d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 65,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a412160214"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a412"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 66,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42f160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e42f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 67,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a43716020f"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a437"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 68,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43d160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 69,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e442160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e442"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 70,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44e16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 71,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45616020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e456"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 72,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a460160216"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a460"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 73,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e466160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e466"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 74,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46c160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 75,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e47916020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e479"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 76,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e49f160217"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e49f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 77,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a4a4160213"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a4a4"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 78,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a4ab160214"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a4ab"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 79,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a41d16020e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a41d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 80,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e436160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e436"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 81,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e455160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e455"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 82,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46c160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 83,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e471160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e471"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 84,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a476160218"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a476"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 85,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e48e160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e48e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 86,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a493160218"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a493"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 87,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a7160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a7"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 88,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e402160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e402"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 89,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a407160218"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a407"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 90,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41b160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e41b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 91,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a427160219"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a427"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 92,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43b160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 93,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a447160219"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a447"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 94,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45b160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e45b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 95,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a467160219"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a467"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 96,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e47b160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e47b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 97,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e483160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e483"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 98,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e489160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e489"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 99,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e49a160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e49a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 100,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a4a216020f"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a4a2"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 101,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a8160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a8"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 102,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e401160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e401"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 103,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e40d16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e40d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 104,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41516020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e415"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 105,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a41f160216"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a41f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 106,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e425160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e425"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 107,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42f160202"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e42f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 108,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a434160218"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a434"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 109,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43e160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 110,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44a160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 111,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a45316021a"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a453"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 112,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e467160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e467"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 113,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a46e16021b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a46e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 114,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a479160216"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a479"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 115,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e487160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e487"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 116,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e49516020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e495"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 117,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a016020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a0"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 118,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a616020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a6"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 119,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4ac160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4ac"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 120,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e404160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e404"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 121,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a41316020f"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a413"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 122,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e419160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e419"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 123,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41e160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e41e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 124,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42a16020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e42a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 125,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43016020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e430"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 126,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43616020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e436"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 127,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a43b160216"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a43b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 128,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e441160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e441"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 129,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44b16021c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 130,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e450160212"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e450"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 131,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a45516021d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a455"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 132,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45f160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e45f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 133,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a46416021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a464"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 134,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46e160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 135,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a47316021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a473"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 136,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e47d160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e47d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 137,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a48216021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a482"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 138,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e48c16020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e48c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 139,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a49116021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a491"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 140,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e49b160211"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e49b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 141,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a4a016021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a4a0"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 142,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4aa160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4aa"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 143,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a40116021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a401"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 144,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e40b160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e40b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 145,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a41016021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a410"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 146,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e41a16020a"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e41a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 147,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a41f16021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a41f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 148,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e429160210"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e429"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 149,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a42e16021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a42e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 150,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e438160208"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e438"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 151,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a43d16021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a43d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 152,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e447160207"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e447"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 153,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a44c16021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a44c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 154,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e456160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e456"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 155,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a45b16021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a45b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 156,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46516020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e465"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 157,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a46a16021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a46a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 158,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e474160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e474"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 159,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a47916021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a479"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 160,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e48316020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e483"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 161,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a48816021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a488"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 162,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e492160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e492"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 163,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a49716021e"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a497"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 164,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a216021c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a2"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 165,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a7160212"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a7"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 166,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a4ac16021f"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a4ac"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 167,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e408160215"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e408"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 168,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a40d160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a40d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 169,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e419160204"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e419"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 170,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a41e160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a41e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 171,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42a160206"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e42a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 172,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a42f160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a42f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 173,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e43b16020b"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e43b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 174,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a440160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a440"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 175,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44c160211"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e44c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 176,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a451160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a451"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 177,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e45d160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e45d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 178,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a462160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a462"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 179,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e46e160203"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e46e"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 180,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a473160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a473"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 181,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e47f16020a"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e47f"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 182,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a484160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a484"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 183,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e490160210"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e490"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 184,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a495160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a495"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 185,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e4a1160208"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e4a1"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 186,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a4a6160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a4a6"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 187,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e403160207"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e403"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 188,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a408160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a408"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 189,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e414160205"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e414"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 190,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a419160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a419"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 191,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e42516020d"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e425"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 192,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a42a160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a42a"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 193,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e436160209"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e436"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 194,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a43b160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a43b"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 195,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e44716020c"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e447"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 196,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a44c160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a44c"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 197,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e458160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e458"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 198,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a45d160220"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a45d"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 199,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "a466160216"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a466"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 200,
+        "record_kind": 157,
+        "raw_bytes": {
+          "hex": "e476160201"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "e476"
+        },
+        "raw_fixdat": 22,
+        "raw_frame_field": 1,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      }
+    ],
+    "thread_definitions": [],
+    "source_records": [],
+    "comments": [
+      [
+        170,
+        {
+          "hex": "4f53323230"
+        }
+      ],
+      [
+        155,
+        {
+          "hex": "33664f70"
+        }
+      ],
+      [
+        254,
+        {
+          "hex": "44010043"
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "C:\\SOURCE.C",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "D:\\H\\stdlib.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "D:\\H\\dos.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "D:\\H\\i86.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "D:\\H\\conio.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "C:\\INC0\\dpmi.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "C:\\INC0\\task_man.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "C:\\INC0\\sndcards.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "C:\\INC0\\user.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "E9_path": "C:\\INC0\\sndsrc.h",
+          "variable_timestamp_bytes": 4
+        }
+      ],
+      [
+        233,
+        {
+          "hex": ""
+        }
+      ],
+      [
+        254,
+        {
+          "hex": "4f01"
+        }
+      ],
+      [
+        159,
+        {
+          "hex": "6d61746833383772"
+        }
+      ],
+      [
+        159,
+        {
+          "hex": "656d75333837"
+        }
+      ]
+    ]
+  },
+  "private_member_correspondence": {
+    "_SS_Timer": {
+      "owner": "_ss_private_state",
+      "offset": 0
+    },
+    "_SS_CurrentBuffer": {
+      "owner": "_ss_private_state",
+      "offset": 4
+    }
+  }
+}

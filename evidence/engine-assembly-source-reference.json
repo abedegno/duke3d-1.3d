@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/gamesrc-ver-recreation/build",
+  "commit": "88ffca1bdb8d93c731f6d02e62ae5119393bc73b",
+  "upstream": "A_MASM/A.ASM",
+  "upstream_sha256": "367b3713b0d4acf15306a01e421a279e45d9003e9598d8e88b80cc4ef0dc2b8c",
+  "tracked": "src/engine/a.asm",
+  "tracked_sha256": "179bf4b45364cee27489c79c334dcdad9d0f9080a83f71609f009b8d83c44751",
+  "modifications": [
+    "Normalize CRLF and final blank lines only; preserve original instructions, restoration annotations and license notices."
+  ],
+  "license_file": "src/engine/BUILDLIC.TXT",
+  "license_file_sha256": "e4c6d9ae06107f04225c780ef2277864ae919c53fad7affd424b6c18e6297695",
+  "selector": {
+    "LIBVER_BUILDREV": 19960320,
+    "note": "Upstream reconstruction selector, not independently verified original build date."
+  },
+  "producer": "Microsoft MASM 5.10",
+  "case_note": "/MX preserves PUBLIC/EXTRN symbol spelling to bind directly to the independently verified C engine. This changes object symbol metadata, not instruction encoding.",
+  "frame_reference": "https://openwatcom.org/ftp/devel/docs/omf.pdf",
+  "frame_note": "Native F0/T0 and F2/T2 with identical indices specify the same frame as F5. The verifier accepts only this equality and checks every resulting byte and LE target fixup; no fixups are rewritten or masked.",
+  "build_note": "No prebuilt engine objects or instruction-byte dumps enter reconstructed output.",
+  "full_executable_rebuilt": false
+}

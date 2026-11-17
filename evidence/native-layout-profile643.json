@@ -1,0 +1,64 @@
+{
+  "kind": "Root643 normal opt-in source-built CODE record metadata profile; independent packaging review pending",
+  "owned_files_sha256": {
+    "profiles/gnu_elf_omf_layouts/apply_fork.py": "4554418d49fd4e841f151368efa7a3e53a8a19d44d29631a6cc62e96dd2bff29",
+    "profiles/gnu_elf_omf_layouts/README.md": "7bc4651c28f5c0de8d0e8140211922fce43b33bff5a17bb5e6a6c07dac81899e",
+    "profiles/gnu_elf_omf_layouts/setup.py": "a10c3d3e4a5b3b9f0ba6dc27dc3d91374ad5e9c2942107ee58f644604246fbf3",
+    "profiles/gnu_elf_omf_layouts/combined-writer.patch": "35934a375647048e57a5198b9f13bd8ec547374634ed30c77b2c9bc2188e6322",
+    "profiles/gnu_elf_omf_layouts/identity.py": "1cbe1498ed570d96f80d374b62399d68cee85f03893c4183303c931e021abcd1",
+    "profiles/gnu_elf_omf_layouts/profile.json": "113e0be4d509f4bd755663d0181947e88726048f5958a62f5a2a984ac574c7c3",
+    "tests/test_native_layout_profile.py": "a99cff74d20e9fa1388ee0f2266208ac0bd16fca22fce6dd489b480bbf7a6b46",
+    "tests/test_native_layout_writer.py": "f3451c35be280419aefdff8b2d284aecfc654a228507a17314a8d270caa1a648"
+  },
+  "vendor_cpp_patch_identity": "Exact reviewed606 cumulative5-file source fork; no new C++ policy changes",
+  "converter_sha256": "e4270752ffee1649a78840e017ab0af86e85dbb925e89560d4edfb41005e05af",
+  "source_archives": "Pinned public archives in toolchains/archives; all42 original/derived vendor sources and notices preserved",
+  "source_graph_tests_normal": {
+    "methods": 2,
+    "seconds": 0.028,
+    "result": "PASS"
+  },
+  "source_graph_tests_optimized": {
+    "methods": 2,
+    "seconds": 0.027,
+    "result": "PASS"
+  },
+  "writer_tests_normal": {
+    "methods": 2,
+    "seconds": 0.044,
+    "result": "PASS"
+  },
+  "writer_tests_optimized": {
+    "methods": 2,
+    "seconds": 0.046,
+    "result": "PASS"
+  },
+  "controls": "Actual source native fixture with same-basename default output byte-identical priorwriter, plannedfullsegments/PUB/EXT/groups/fields equal; overflow, signed, gap, crossing and oldOMF input reject beforeobject. Original vendor-source mutation rejected.",
+  "real_GAME": {
+    "kind": "Root643 normal source-built writer direct source-ELF GAME compatibility; descriptor still private prerequisite",
+    "converter_sha256": "e4270752ffee1649a78840e017ab0af86e85dbb925e89560d4edfb41005e05af",
+    "native_sha256": "710e288919a6385c34328ba7a8d1e39d94475453cfd167440f3530c144966687",
+    "all_native_runtime_semantics_scope_bytes_and5018_fields_literal": true,
+    "only_difference_from_default_source_object": "fixup_encodings LOCAT packet-relative metadata",
+    "matches_reviewed619_source_packet_object": true,
+    "original_or_target_object_payload_read_by_conversion": false,
+    "source_credit_added": 0,
+    "full_executable_identical": false,
+    "inputs_sha256": {
+      "/Users/jonw/duke3d/build/task635-game-publication/source-only/game-symbolic-dfzd4qcf/GAME.ELF": "b746139a26b1b830946f45e3c399410ea2c0674a218322534cfce633067a8de1",
+      "/Users/jonw/duke3d/build/task635-game-publication/source-only/game-symbolic-dfzd4qcf/source-only/src/game/symbolic/groups.plan": "8f2536d10ea67341e86194c1004be4d97631defcd2310d7eb2cebbb1c3a8cafc",
+      "/Users/jonw/duke3d/.worktrees/emitter606/build/task619-candidate/GAME-reconstructed-layout.plan": "26111a4ac1ececd089111fe58a2aad71445488b470e1bd31a80effaba28b71c4",
+      "/Users/jonw/duke3d/toolchains/gnu-elf-omf-layouts/bin/objconv": "e4270752ffee1649a78840e017ab0af86e85dbb925e89560d4edfb41005e05af"
+    }
+  },
+  "normal_applications_not_yet_switched": true,
+  "source_credit_added": 0,
+  "full_executable_identical": false,
+  "evidence_sha256": {
+    "build/task643-normal-layout-profile/setup.json": "abe3ca994f80a93597147d10f5d8f1e82b79782405f93169229aaf05d1bbf1f4",
+    "build/task643-normal-layout-profile/setup.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "build/task643-normal-layout-profile/check_game.py": "bb792717c65ff5a48de3fc357db6120dd59b46de8ff3dfff232fb52065fed62a",
+    "build/task643-normal-layout-profile/GAME-compatibility.json": "70ffda9a1c907d3362e58892c8f42267adf9007b3e3e73c53343c01504c1570c"
+  },
+  "independent_review": "pending"
+}

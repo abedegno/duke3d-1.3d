@@ -1,0 +1,23 @@
+{
+  "task": 671,
+  "verdict": "APPROVED optional complete-build preparation only",
+  "commit": "1f430d6e8b5b0aea03da44c28d5698c6acac0f82",
+  "reviewed_files_sha256": {
+    "Makefile": "dabc0c8b173e5e118d8984315303880ffe7a08272a9c1533c08547dd915b0ae4",
+    "docs/complete-source-build.md": "b5a3c95ade8f41a4fd28452c7493aeb1dc2bf6f8ea1a9a94ef586fe5a5d28839",
+    "tests/test_complete_game_preparation.py": "119712b87a082579830ca2c63bd0b405834370fdace3bb3c95fac47ef1330725",
+    "tools/build_complete.py": "e09a983e9578989bcfa7da5c2efc3cf85f424ffcc428f8be3c2a0f1d01fc15fc"
+  },
+  "author_artifacts_verified": 3087,
+  "author_manifest_sha256": "701a76d44fd46cda74d1207adf7db5d80bd3fc0c63e2ec86e641d6e97207118b",
+  "author_freeze_sha256": "58d8a7549eca87dea5196036b7d42464c9cca322750da4dee9b08559a7ec33d6",
+  "review_scope": "Explicit preparation flag requires native layout before input reads; recipe and actual GAME API agree; native a5fd expected; defaults remain literal; adoption false; complete existing hash/publication boundaries retained.",
+  "tests": {
+    "normal": "19 tests pass in1.808s",
+    "optimized": "5 new route tests pass in0.284s"
+  },
+  "independent_cold_result": "evidence/exact-cold670.json;121freshinputs/171.299s/1179131bytes/zero differences/a197",
+  "normal_adoption": false,
+  "preservation_permission": "pending",
+  "review_sha256": "554c755925ed6788b15c2fe0dc55bbfd94b15c1007baf6edae9bebb9c2d00084"
+}

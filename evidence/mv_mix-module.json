@@ -1,0 +1,563 @@
+{
+  "kind": "complete MV_MIX object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/mv_mix.asm",
+  "source_sha256": "e571b2f5a2717267485671cb46f15c9157367f659dab768274db295b555ec202",
+  "headers_sha256": {},
+  "descriptor": "modules/mv_mix.json",
+  "descriptor_sha256": "a5de4264e2942ea3a03863ed197c822453ee8ce53767fa6139a200f538d0758f",
+  "assembler_sha256": "80534cd6a1e2c2b4376ae3f21954c6dbfa77a6998d5e0bf8b8bee6153f3174ea",
+  "options": [
+    "/t",
+    "/p",
+    "/mx",
+    "/w2",
+    "/dLIBVER_ASSREV=19960116"
+  ],
+  "placements": {
+    "1": [
+      1,
+      493376
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 7,
+      "symbol": "_MV_SampleSize",
+      "value": [
+        3,
+        59812
+      ]
+    },
+    {
+      "source_offset": 34,
+      "symbol": "_MV_LeftVolume",
+      "value": [
+        3,
+        1780300
+      ]
+    },
+    {
+      "source_offset": 54,
+      "symbol": "_MV_HarshClipTable",
+      "value": [
+        3,
+        1780296
+      ]
+    },
+    {
+      "source_offset": 94,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 212,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 218,
+      "symbol": "_MV_MixPosition",
+      "value": [
+        3,
+        1780388
+      ]
+    },
+    {
+      "source_offset": 231,
+      "symbol": "_MV_SampleSize",
+      "value": [
+        3,
+        59812
+      ]
+    },
+    {
+      "source_offset": 244,
+      "symbol": "_MV_RightChannelOffset",
+      "value": [
+        3,
+        1780284
+      ]
+    },
+    {
+      "source_offset": 264,
+      "symbol": "_MV_LeftVolume",
+      "value": [
+        3,
+        1780300
+      ]
+    },
+    {
+      "source_offset": 277,
+      "symbol": "_MV_RightVolume",
+      "value": [
+        3,
+        1780392
+      ]
+    },
+    {
+      "source_offset": 297,
+      "symbol": "_MV_HarshClipTable",
+      "value": [
+        3,
+        1780296
+      ]
+    },
+    {
+      "source_offset": 323,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 12,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 19,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 26,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 39,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 46,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 65,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 72,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 79,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 86,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 236,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 249,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 256,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 269,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 282,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 289,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 308,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 315,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 441,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 448,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 455,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 470,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 477,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 484,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 491,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 686,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 699,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 706,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 719,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 732,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 739,
+      "segment": 1,
+      "value": [
+        1,
+        493376
+      ]
+    },
+    {
+      "source_offset": 417,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 423,
+      "symbol": "_MV_MixPosition",
+      "value": [
+        3,
+        1780388
+      ]
+    },
+    {
+      "source_offset": 436,
+      "symbol": "_MV_SampleSize",
+      "value": [
+        3,
+        59812
+      ]
+    },
+    {
+      "source_offset": 465,
+      "symbol": "_MV_LeftVolume",
+      "value": [
+        3,
+        1780300
+      ]
+    },
+    {
+      "source_offset": 499,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 662,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 668,
+      "symbol": "_MV_MixPosition",
+      "value": [
+        3,
+        1780388
+      ]
+    },
+    {
+      "source_offset": 681,
+      "symbol": "_MV_SampleSize",
+      "value": [
+        3,
+        59812
+      ]
+    },
+    {
+      "source_offset": 694,
+      "symbol": "_MV_RightChannelOffset",
+      "value": [
+        3,
+        1780284
+      ]
+    },
+    {
+      "source_offset": 714,
+      "symbol": "_MV_LeftVolume",
+      "value": [
+        3,
+        1780300
+      ]
+    },
+    {
+      "source_offset": 727,
+      "symbol": "_MV_RightVolume",
+      "value": [
+        3,
+        1780392
+      ]
+    },
+    {
+      "source_offset": 747,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 889,
+      "symbol": "_MV_MixDestination",
+      "value": [
+        3,
+        1780280
+      ]
+    },
+    {
+      "source_offset": 895,
+      "symbol": "_MV_MixPosition",
+      "value": [
+        3,
+        1780388
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 901,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 56,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 493376,
+        "compared_bytes": 901,
+        "verified_fixups": 56,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "MV_Mix8BitMono_": [
+        1,
+        493376
+      ],
+      "MV_Mix8BitStereo_": [
+        1,
+        493600
+      ],
+      "MV_Mix16BitMono_": [
+        1,
+        493805
+      ],
+      "MV_Mix16BitStereo_": [
+        1,
+        494050
+      ],
+      "_MV_SampleSize": [
+        3,
+        59812
+      ],
+      "_MV_LeftVolume": [
+        3,
+        1780300
+      ],
+      "_MV_HarshClipTable": [
+        3,
+        1780296
+      ],
+      "_MV_MixDestination": [
+        3,
+        1780280
+      ],
+      "_MV_MixPosition": [
+        3,
+        1780388
+      ],
+      "_MV_RightChannelOffset": [
+        3,
+        1780284
+      ],
+      "_MV_RightVolume": [
+        3,
+        1780392
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "MV_Mix8BitMono_": [
+      1,
+      493376
+    ],
+    "MV_Mix8BitStereo_": [
+      1,
+      493600
+    ],
+    "MV_Mix16BitMono_": [
+      1,
+      493805
+    ],
+    "MV_Mix16BitStereo_": [
+      1,
+      494050
+    ]
+  },
+  "anchor_evidence": "evidence/multivoc-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

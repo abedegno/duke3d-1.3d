@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "name": "gnu-objconv-digital-finite-extension",
+  "base_tool_profile_sha256": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+  "decoder_manifest_sha256": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+  "contract": "src/gf1/digital-source/contract.py",
+  "assembler_options": [
+    "-n",
+    "-march=i386",
+    "--fatal-warnings",
+    "-no-pad-sections"
+  ],
+  "converter_options": [
+    "-fomf32",
+    "-wex"
+  ],
+  "CODE_alignment": "BYTE, xr0 and actualSEGDEF41",
+  "BSS_alignment": "DWORD, actualSEGDEF169",
+  "original_alignment": "PARA retained in separate complete original gate",
+  "scope": "Only complete reviewed DIGITAL source and five exact source sections; no shared guard extension",
+  "source_credit": 0,
+  "general_coff_support": false
+}

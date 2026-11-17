@@ -1,0 +1,425 @@
+{
+  "name": "mact_mipmap",
+  "source": "src/mact/mipmap/MIPMAP.S",
+  "producer": "gnu-elf-imports-omf-mipmap",
+  "options": {
+    "assembler": [
+      "--32",
+      "-n",
+      "-L",
+      "-march=i386",
+      "--fatal-warnings",
+      "-no-pad-sections"
+    ],
+    "converter": [
+      "-fomf32",
+      "-wex"
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 1141,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 10
+  },
+  "native_inventory": {
+    "name": "MIPMAP.obj",
+    "segments": [
+      [
+        ".text",
+        "CODE",
+        0,
+        41,
+        null
+      ],
+      [
+        ".data",
+        "DATA",
+        0,
+        41,
+        null
+      ],
+      [
+        ".bss",
+        "BSS",
+        0,
+        41,
+        null
+      ],
+      [
+        "_TEXT",
+        "CODE",
+        1133,
+        105,
+        null
+      ],
+      [
+        "CONST",
+        "DATA",
+        8,
+        169,
+        null
+      ],
+      [
+        "CONST2",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_DATA",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_BSS",
+        "BSS",
+        0,
+        105,
+        null
+      ]
+    ],
+    "publics": {
+      "FoldPixel_": [
+        4,
+        0
+      ],
+      "CreateMipMap_": [
+        4,
+        208
+      ]
+    },
+    "local_publics": [],
+    "externals": [
+      "_fltused_",
+      "__init_387_emulator",
+      "__8087",
+      "SafeMalloc_",
+      "memset_",
+      "CMAP_BestColor_",
+      "SafeFree_",
+      "FoldPixel_"
+    ],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 4,
+        "offset": 262,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 300,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 317,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 330,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 416,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 608,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 899,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 942,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1100,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1113,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      }
+    ],
+    "default_libraries": [],
+    "far_call_optimization_segments": [],
+    "format": "standard-omf",
+    "comments": [],
+    "code_data_ranges": [],
+    "dosseg_directives": [],
+    "format_source": null,
+    "line_numbers": [],
+    "thread_definitions": [],
+    "source_records": [],
+    "fixup_encodings": [
+      {
+        "fixup": 0,
+        "record_kind": 157,
+        "raw_bytes": "a5065604",
+        "raw_location": 9,
+        "raw_locat": "a506",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 1,
+        "record_kind": 157,
+        "raw_bytes": "a52c5604",
+        "raw_location": 9,
+        "raw_locat": "a52c",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 2,
+        "record_kind": 157,
+        "raw_bytes": "a53d5605",
+        "raw_location": 9,
+        "raw_locat": "a53d",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 3,
+        "record_kind": 157,
+        "raw_bytes": "a54a5605",
+        "raw_location": 9,
+        "raw_locat": "a54a",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 4,
+        "record_kind": 157,
+        "raw_bytes": "e5a0140105",
+        "raw_location": 9,
+        "raw_locat": "e5a0",
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 5,
+        "record_kind": 157,
+        "raw_bytes": "a6605608",
+        "raw_location": 9,
+        "raw_locat": "a660",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 6,
+        "record_kind": 157,
+        "raw_bytes": "a7835606",
+        "raw_location": 9,
+        "raw_locat": "a783",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 7,
+        "record_kind": 157,
+        "raw_bytes": "e7ae140105",
+        "raw_location": 9,
+        "raw_locat": "e7ae",
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 8,
+        "record_kind": 157,
+        "raw_bytes": "a44c5607",
+        "raw_location": 9,
+        "raw_locat": "a44c",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 9,
+        "record_kind": 157,
+        "raw_bytes": "a4595607",
+        "raw_location": 9,
+        "raw_locat": "a459",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      }
+    ]
+  },
+  "original_default_library_requirements": [
+    "math387r",
+    "emu387"
+  ],
+  "unused_FPU_imports": [
+    "_fltused_",
+    "__init_387_emulator",
+    "__8087"
+  ],
+  "extra_converter_observation_options": [
+    "-fcoff32",
+    "-wex"
+  ],
+  "palette_bounds": [
+    0,
+    256
+  ],
+  "source_credit": 0
+}

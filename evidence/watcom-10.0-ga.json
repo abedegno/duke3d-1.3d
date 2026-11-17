@@ -1,0 +1,27 @@
+{
+  "version": "10.0-ga",
+  "archive_sha256": "8e5869e78cda5c42b1fd5aa0675abe52ed03217b4f835bfe4a9dc133d26158aa",
+  "home": "toolchains/watcom-10.0-ga",
+  "source": {
+    "url": "https://archive.org/download/watcom-c-cpp-compilers-collection/watcom-10.0/discmaster/Sybase%20-%20Watcom%20C%2B%2B%2010.0.zip",
+    "sha256": "8e5869e78cda5c42b1fd5aa0675abe52ed03217b4f835bfe4a9dc133d26158aa"
+  },
+  "tools": {
+    "BINB/wcc386.exe": {
+      "size": 536624,
+      "sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65"
+    },
+    "BINB/wasm.exe": {
+      "size": 181568,
+      "sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2"
+    },
+    "BIN/wlink.exe": {
+      "size": 406182,
+      "sha256": "da13f94f022b639fbee9aa9bcd554baec2fe8b5b13dd8769b22c969465a47cba"
+    },
+    "BIN/dos4gw.exe": {
+      "size": 254556,
+      "sha256": "580f164bd05b438262267a7e03984529b56e3096ee158d5d2b0e6f159520d4c3"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "kind": "MACT mnemonic assembly reconstruction provenance",
+  "reference_repository": "reference/duke3d-reconstructions",
+  "reference_commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "reference_library": "reference/duke3d-reconstructions/MACT386.LIB",
+  "reference_library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+  "reference_library_size": 138752,
+  "source_ancestry": "No original assembly text is supplied in the pinned reconstruction tree. Private symbolic seeds are newly reconstructed mnemonic sources, independently checked against original member geometry and the pinned executable.",
+  "seed_manifest_sha256": "2004b262c7aac38c8a435c60264ba4964245ff8b6297a6800ef5feb330b60b46",
+  "assembler": "toolchains/watcom-10.0-ga/BINB/wasm.exe",
+  "assembler_sha256": "a4419d0acab40f841d6fd00540f1813f6128d9630fbb150fc4618646c358f7f2",
+  "producer_scope": "Native Watcom GA WASM with real RDTSC (.586) and x87 (.387) mnemonics is a verified new production path, not a claim that the original object used this assembler.",
+  "copyright_license_scope": "Original MACT binary authorship/copyright and assembly-source license remain unresolved. Reconstructed files preserve that uncertainty, are not relabelled GPL, and are retained privately; no external publication is authorized.",
+  "modules": [
+    {
+      "name": "pent",
+      "source": "src/mact/pent.asm",
+      "source_sha256": "34f2f96c8f1bdfc66f3dc5e647ce38d4fbb24374595308384e476dac5d65d50c",
+      "seed_sha256": "e3a4ad304f883a1ed2f6e714901a4256e5af37782d21ddcb87b5a95c0af156dc",
+      "reference_member": {
+        "offset": 5120,
+        "size": 282,
+        "name": "pent.asm",
+        "sha256": "24fd4545aa51b8a88882287773b92b9f9172f02939432fe075577a5629d01361"
+      },
+      "derivation": "Ordinary x86/x87 mnemonic reconstruction of the observed original member operations, operand widths, variable roles, public offsets and segment attributes. No original object payload emitted as source.",
+      "private_names_inferred": [
+        "previous_high",
+        "previous_low"
+      ],
+      "data_declarations": "Meaningful zero-initialized timing halves, x87 control word, or joystick axis counters/mask only.",
+      "instruction_bytes": 56,
+      "initialized_scalar_bytes": 16,
+      "fixups": 6
+    },
+    {
+      "name": "precise",
+      "source": "src/mact/precise.asm",
+      "source_sha256": "6ba7bce8baeb474f6554c3df24845157ffe369916dc6751f7ae63d561f1e462b",
+      "seed_sha256": "ae0995a1d82cb0449090afd1075f325fb25d7c8a2bbeb7401a4a9e083befb988",
+      "reference_member": {
+        "offset": 14336,
+        "size": 276,
+        "name": "precise.asm",
+        "sha256": "ea4bf6d0214c0c8720e138723c3324a15bc6c3a0021db3a96e478691e1613077"
+      },
+      "derivation": "Ordinary x86/x87 mnemonic reconstruction of the observed original member operations, operand widths, variable roles, public offsets and segment attributes. No original object payload emitted as source.",
+      "private_names_inferred": [
+        "control_word"
+      ],
+      "data_declarations": "Meaningful zero-initialized timing halves, x87 control word, or joystick axis counters/mask only.",
+      "instruction_bytes": 61,
+      "initialized_scalar_bytes": 2,
+      "fixups": 7
+    },
+    {
+      "name": "joystick",
+      "source": "src/mact/joystick.asm",
+      "source_sha256": "f2c4a237043e3369499b00078fda6d4c5828e0050817663ad63c763d21eb4363",
+      "seed_sha256": "ac6b13108bfe9fc7cbcc2f6619cc043fafb6089d21982ce45f50e08958917da9",
+      "reference_member": {
+        "offset": 14848,
+        "size": 334,
+        "name": "joystick.asm",
+        "sha256": "9761006539692927b7d17bb9c13570895bdf4e1252aae103df55e7fcc1e3d071"
+      },
+      "derivation": "Ordinary x86/x87 mnemonic reconstruction of the observed original member operations, operand widths, variable roles, public offsets and segment attributes. No original object payload emitted as source.",
+      "private_names_inferred": [],
+      "data_declarations": "Meaningful zero-initialized timing halves, x87 control word, or joystick axis counters/mask only.",
+      "instruction_bytes": 93,
+      "initialized_scalar_bytes": 17,
+      "fixups": 5
+    }
+  ],
+  "full_executable_rebuilt": false,
+  "reference_repository_readme_sha256": "ff8739186a89afc7c75f188273bd830bbe61870485e9d25966738f7b1d4cdba8",
+  "reference_repository_readme_scope": "The pinned README explicitly states that MACT sources are absent; the supplied library is a binary reference, not an assembly source license grant."
+}

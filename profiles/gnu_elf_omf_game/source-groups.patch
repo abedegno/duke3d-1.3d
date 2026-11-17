@@ -1,0 +1,170 @@
+--- a/converters.h
++++ b/converters.h
+@@ -234,6 +234,12 @@
+    void MakeSegmentList();                        // Make temporary segment conversion list
+    void MakeSymbolList();                         // Make temporary symbol conversion list
+    void MakeRelocationsList();                    // Make temporary list of relocations (fixups) and sort it
++   void ReadSourceGroups();                      // Resolve opt-in source groups before emitting records
++   uint32_t SourceGroupForSegment(uint32_t segment);
++   uint32_t FlatGroupIndex;
++   uint32_t SourceGroupNameIndex;
++   uint32_t SourceGroupCount;
++   uint32_t SourceGroupSegments[127];
+    void MakeLNAMES();                             // Make THEADR and LNAMES records
+    void MakeSEGDEF();                             // Make SEGDEF and GRPDEF records
+    void MakeEXTDEF();                             // Make EXTDEF records
+--- a/cmdline.h
++++ b/cmdline.h
+@@ -129,6 +129,7 @@
+    SSymbolChange const * GetMemberToAdd();   // Get names of object files to add to library
+    void CheckExtractSuccess();               // Check if library members to extract were found
+    void CheckSymbolModifySuccess();          // Check if symbols to modify were found
++   char * OMFGroupPlan;                     // Opt-in source DGROUP membership metadata
+    char * InputFile;                         // Input file name
+    char * OutputFile;                        // Output file name
+    int    InputType;                         // Input file type (detected from file)
+--- a/cmdline.cpp
++++ b/cmdline.cpp
+@@ -98,6 +98,9 @@
+         Help();  ShowHelp = 1;
+         return;
+     }
++    if (OMFGroupPlan && OutputType != CMDL_OUTPUT_OMF) {
++        fprintf(stderr, "OMF group plan requires explicit OMF output\n"); exit(1);
++    }
+     // Check file options
+     FileOptions = CMDL_FILE_INPUT;
+     if (LibraryOptions == CMDL_LIBRARY_ADDMEMBER) {
+@@ -267,6 +270,13 @@
+             InterpretDumpOption(string+2);  break;
+         }
+         InterpretOutputTypeOption(string+1);  break;
++
++    case 'g':
++        if (strncmp(string, "group-plan=", 11) != 0 || !string[11] || OMFGroupPlan) {
++            fprintf(stderr, "OMF group plan: invalid or duplicate option\n"); exit(1);
++        }
++        OMFGroupPlan = string + 11;
++        break;
+ 
+     case 'v': case 'V':   // verbose/silent
+         InterpretVerboseOption(string+1);  break;
+--- a/cof2omf.cpp
++++ b/cof2omf.cpp
+@@ -10,6 +10,8 @@
+ * Copyright 2007-2008 GNU General Public License http://www.gnu.org/licenses
+ *****************************************************************************/
+ #include "stdafx.h"
++#include <string>
++#include <sstream>
+ 
+ CCOF2OMF::CCOF2OMF () {
+    // Constructor
+@@ -36,6 +38,7 @@
+    MakeSegmentList();                            // Make temporary segment conversion list
+    MakeSymbolList();                             // Make temporary symbol conversion list
+    MakeRelocationsList();                        // Make temporary list of relocations (fixups) and sort it
++   ReadSourceGroups();                          // Validate source-owned group policy before object emission
+    MakeLNAMES();                                 // Make THEADR and LNAMES records
+    MakeSEGDEF();                                 // Make SEGDEF and GRPDEF records
+    MakeEXTDEF();                                 // Make EXTDEF records
+@@ -382,6 +385,57 @@
+ }
+ 
+ 
++
++// Task598: finite opt-in source metadata. No runtime bytes/symbols are supplied.
++void CCOF2OMF::ReadSourceGroups() {
++   FlatGroupIndex = 1;
++   if (!cmd.OMFGroupPlan) return;
++   auto fail = [](const char * message) {
++      fprintf(stderr, "OMF group plan: %s\n", message); exit(1);
++   };
++   FILE * file = fopen(cmd.OMFGroupPlan, "rb");
++   if (!file) fail("cannot open source metadata");
++   char line[4096];
++   auto readLine = [&]() -> std::string {
++      if (!fgets(line, sizeof(line), file) || !strchr(line, '\n')) fail("missing/truncated/NUL metadata line");
++      return std::string(line);
++   };
++   if (readLine() != "OMF_GROUPS_V1\n") fail("bad header");
++   std::istringstream members(readLine());
++   std::string token;
++   if (!(members >> token) || token != "group" || !(members >> token) || token != "DGROUP") fail("one DGROUP definition required");
++   while (members >> token) {
++      if (token.empty() || token.size()>255 || SourceGroupCount==127) fail("invalid/excessive member name");
++      for (size_t c=0;c<token.size();c++) {
++         unsigned char ch=token[c];
++         if (!((ch>='A'&&ch<='Z')||(ch>='a'&&ch<='z')||(ch>='0'&&ch<='9')||ch=='_'||ch=='.'||ch=='$')) fail("invalid member spelling");
++      }
++      uint32_t found=0;
++      for (int sec=1;sec<SectionBufferNum;sec++) {
++         if (!SectionBuffer[sec].NewNameI) continue;
++         const char * name=(char*)NameBuffer.Buf()+SectionBuffer[sec].NewName;
++         if (token==name) {
++            if (found) fail("ambiguous source section");
++            if (SectionBuffer[sec].Class!=OMF_LNAME_DATA && SectionBuffer[sec].Class!=OMF_LNAME_BSS && SectionBuffer[sec].Class!=OMF_LNAME_CONST) fail("DGROUP member must be a genuine DATA/CONST/BSS section");
++            found=SectionBuffer[sec].NewNumber;
++         }
++      }
++      if (!found) fail("undefined source section");
++      for (uint32_t i=0;i<SourceGroupCount;i++) if (SourceGroupSegments[i]==found) fail("duplicate member");
++      SourceGroupSegments[SourceGroupCount++]=found;
++   }
++   if (!SourceGroupCount) fail("empty DGROUP");
++   if (readLine()!="flat FLAT\n" || readLine()!="end\n" || fgetc(file)!=EOF || ferror(file)) fail("duplicate/unknown group or trailing input");
++   fclose(file);
++   FlatGroupIndex=2; // DGROUP is emitted before FLAT, never confuse LNAMES with GRPDEF index.
++   SourceGroupNameIndex=OMF_LNAME_LAST+NumSegments+1;
++}
++uint32_t CCOF2OMF::SourceGroupForSegment(uint32_t segment) {
++   if (!segment) return 0;
++   for (uint32_t i=0;i<SourceGroupCount;i++) if (SourceGroupSegments[i]==segment) return 1;
++   return FlatGroupIndex;
++}
++
+ void CCOF2OMF::MakeLNAMES() {
+    // Make THEADR and LNAMES records
+    int Sec;                                      // Loop counter
+@@ -420,6 +474,7 @@
+          NameI++;                                // Ready for next name
+       }
+    }
++   if (SourceGroupCount) ToFile.PutString("DGROUP"); // New name after all genuine segment names
+    // End LNAMES record
+    ToFile.EndRecord();
+ }
+@@ -491,6 +546,15 @@
+       }
+    }
+ 
++   if (SourceGroupCount) {
++      ToFile.StartRecord(OMF_GRPDEF);
++      ToFile.PutIndex(SourceGroupNameIndex);
++      for (uint32_t i=0;i<SourceGroupCount;i++) {
++         ToFile.PutByte(0xFF); // TIS GRPDEF segment component
++         ToFile.PutIndex(SourceGroupSegments[i]);
++      }
++      ToFile.EndRecord();
++   }
+    // Make GRPDEF record for the FLAT group
+    ToFile.StartRecord(OMF_GRPDEF);               // Strart GRPDEF record
+    ToFile.PutIndex(OMF_LNAME_FLAT);              // Index of name "FLAT"
+@@ -549,7 +613,7 @@
+          ToFile.StartRecord(OMF_PUBDEF + 1);     // Start new PUBDEF record, 32 bit
+ 
+          // Group index
+-         uint32_t Group = SymbolBuffer[j].Segment ? OMF_LNAME_FLAT : 0; // Group = FLAT, except for absolute symbols
++         uint32_t Group = SourceGroupForSegment(SymbolBuffer[j].Segment); // Group = FLAT, except for absolute symbols
+          ToFile.PutIndex(Group);                 // Group name index
+ 
+          // Segment index
+@@ -756,7 +820,7 @@
+                            // Local target
+                            FixData.s.Target = 0;      // Target method T0 or T4: Target = segment
+                            FixData.s.Frame = 1;       // Frame method F1: specified by a group index (FLAT)
+-                           FrameDatum = OMF_LNAME_FLAT; // Target frame = FLAT group
++                           FrameDatum = FlatGroupIndex; // Target frame = FLAT group
+                            TargetDatum = RelocationBuffer[Rel].TargetSegment; // Fixup target = segment
+                            TargetDisplacement = RelocationBuffer[Rel].TargetOffset; // Displacement or addend (?)
+                         }

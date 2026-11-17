@@ -1,0 +1,3624 @@
+{
+  "kind": "complete AL_MIDI object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/al_midi.c",
+  "source_sha256": "9c2e42f1f5fcc23ebad86d31ec52adabb872d519fcfbab18a9d6dea1c6d17285",
+  "headers_sha256": {
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "descriptor": "modules/al_midi.json",
+  "descriptor_sha256": "6d78cecbe879323255b57a7da9b508fccff5783f1dd64169aaeeeab995e8a448",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/zu"
+  ],
+  "placements": {
+    "1": [
+      1,
+      538560
+    ],
+    "4": [
+      3,
+      62700
+    ],
+    "5": [
+      3,
+      1796560
+    ],
+    "2": [
+      3,
+      20020
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 68,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 76,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 83,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 88,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 99,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 108,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 116,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 125,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 164,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 175,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 204,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 231,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 243,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 262,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 270,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 301,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 315,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 363,
+      "symbol": "_VoiceLevel",
+      "value": [
+        3,
+        1798128
+      ]
+    },
+    {
+      "source_offset": 383,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 399,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 417,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 442,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 460,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 475,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 492,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 513,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 531,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 540,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 548,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 576,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 581,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 599,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 607,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 637,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 656,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 671,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 704,
+      "symbol": "_VoiceLevel",
+      "value": [
+        3,
+        1798128
+      ]
+    },
+    {
+      "source_offset": 727,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 737,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 760,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 775,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 790,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 805,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 823,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 866,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 879,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 892,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 908,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 953,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 977,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1003,
+      "symbol": "_VoiceLevel",
+      "value": [
+        3,
+        1798128
+      ]
+    },
+    {
+      "source_offset": 1036,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1041,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 1056,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 1072,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 1082,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 1110,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 1128,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1139,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 1151,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 1163,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 1177,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1212,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 1225,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 1230,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 1238,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 1264,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1304,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 1317,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 1322,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 1330,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 1376,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1391,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1401,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 1429,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 1437,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 1442,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 1450,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 1476,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1519,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 1525,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 1530,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 1540,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 1562,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 1588,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 1600,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 1605,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1610,
+      "symbol": "LL_RemoveNode_",
+      "value": [
+        1,
+        515224
+      ]
+    },
+    {
+      "source_offset": 1648,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1706,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1747,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1761,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1783,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 1807,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1823,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 1829,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1858,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1903,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 1910,
+      "symbol": "_NoteDiv12",
+      "value": [
+        3,
+        1796560
+      ]
+    },
+    {
+      "source_offset": 1930,
+      "symbol": "_NoteMod12",
+      "value": [
+        3,
+        1797744
+      ]
+    },
+    {
+      "source_offset": 1939,
+      "symbol": "_OctavePitch",
+      "value": [
+        3,
+        62700
+      ]
+    },
+    {
+      "source_offset": 1949,
+      "symbol": "_NotePitch",
+      "value": [
+        3,
+        62732
+      ]
+    },
+    {
+      "source_offset": 1973,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1980,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 1996,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 2016,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 2036,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 2046,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 2057,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2065,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 2076,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2105,
+      "symbol": "_NoteMod12",
+      "value": [
+        3,
+        1797744
+      ]
+    },
+    {
+      "source_offset": 2115,
+      "symbol": "_NoteDiv12",
+      "value": [
+        3,
+        1796560
+      ]
+    },
+    {
+      "source_offset": 2141,
+      "symbol": "_NotePitch",
+      "value": [
+        3,
+        62732
+      ]
+    },
+    {
+      "source_offset": 2163,
+      "symbol": "_OctavePitch",
+      "value": [
+        3,
+        62700
+      ]
+    },
+    {
+      "source_offset": 2180,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2187,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2194,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 2201,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2206,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 2222,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2272,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2279,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2291,
+      "symbol": "AL_SetVoiceVolume_",
+      "value": [
+        1,
+        539396
+      ]
+    },
+    {
+      "source_offset": 2327,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2354,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2380,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 2386,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 2392,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 2405,
+      "symbol": "_AL_Stereo",
+      "value": [
+        3,
+        64440
+      ]
+    },
+    {
+      "source_offset": 2433,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2445,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 2458,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2464,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2470,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2481,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2489,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2513,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2518,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 2524,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 2529,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 2536,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 2589,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2595,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2601,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2607,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2613,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2619,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2625,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2631,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2637,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2644,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2651,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2658,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 2704,
+      "symbol": "_NoteMod12",
+      "value": [
+        3,
+        1797744
+      ]
+    },
+    {
+      "source_offset": 2723,
+      "symbol": "_NoteDiv12",
+      "value": [
+        3,
+        1796560
+      ]
+    },
+    {
+      "source_offset": 2782,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 2806,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 2814,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 2821,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 2828,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 2833,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2845,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2860,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2875,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2890,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2905,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2923,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2941,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2956,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 2971,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3034,
+      "symbol": "_AL_Stereo",
+      "value": [
+        3,
+        64440
+      ]
+    },
+    {
+      "source_offset": 3043,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 3057,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 3063,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 3077,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 3087,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 3105,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 3110,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3126,
+      "symbol": "_AL_Stereo",
+      "value": [
+        3,
+        64440
+      ]
+    },
+    {
+      "source_offset": 3135,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 3146,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 3152,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 3164,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 3177,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 3184,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3214,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3231,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3248,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3253,
+      "symbol": "AL_StereoOn_",
+      "value": [
+        1,
+        541588
+      ]
+    },
+    {
+      "source_offset": 3259,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 3268,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 3276,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 3281,
+      "symbol": "AL_FlushCard_",
+      "value": [
+        1,
+        541300
+      ]
+    },
+    {
+      "source_offset": 3286,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 3298,
+      "symbol": "AL_FlushCard_",
+      "value": [
+        1,
+        541300
+      ]
+    },
+    {
+      "source_offset": 3337,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 3381,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3393,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3401,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3406,
+      "symbol": "AL_NoteOff_",
+      "value": [
+        1,
+        542152
+      ]
+    },
+    {
+      "source_offset": 3427,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 3435,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 3444,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 3454,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3459,
+      "symbol": "LL_RemoveNode_",
+      "value": [
+        1,
+        515224
+      ]
+    },
+    {
+      "source_offset": 3508,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 3551,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 3558,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 3566,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 3571,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3576,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 3605,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 3628,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 3687,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3694,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3735,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 3757,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3762,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 3767,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3780,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3785,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 3790,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 3809,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3817,
+      "symbol": "AL_SendOutput_",
+      "value": [
+        1,
+        538620
+      ]
+    },
+    {
+      "source_offset": 3836,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 3862,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 3879,
+      "symbol": "LL_RemoveNode_",
+      "value": [
+        1,
+        515224
+      ]
+    },
+    {
+      "source_offset": 3891,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 3896,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 3903,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 3934,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 3952,
+      "symbol": "AL_NoteOff_",
+      "value": [
+        1,
+        542152
+      ]
+    },
+    {
+      "source_offset": 3962,
+      "symbol": "AL_AllocVoice_",
+      "value": [
+        1,
+        540116
+      ]
+    },
+    {
+      "source_offset": 3975,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 3994,
+      "symbol": "AL_NoteOff_",
+      "value": [
+        1,
+        542152
+      ]
+    },
+    {
+      "source_offset": 3999,
+      "symbol": "AL_AllocVoice_",
+      "value": [
+        1,
+        540116
+      ]
+    },
+    {
+      "source_offset": 4036,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 4044,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 4056,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4064,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 4080,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 4095,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 4107,
+      "symbol": "LL_AddNode_",
+      "value": [
+        1,
+        515184
+      ]
+    },
+    {
+      "source_offset": 4114,
+      "symbol": "AL_SetVoiceTimbre_",
+      "value": [
+        1,
+        538692
+      ]
+    },
+    {
+      "source_offset": 4121,
+      "symbol": "AL_SetVoiceVolume_",
+      "value": [
+        1,
+        539396
+      ]
+    },
+    {
+      "source_offset": 4128,
+      "symbol": "AL_SetVoicePitch_",
+      "value": [
+        1,
+        540240
+      ]
+    },
+    {
+      "source_offset": 4165,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4174,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4186,
+      "symbol": "AL_NoteOff_",
+      "value": [
+        1,
+        542152
+      ]
+    },
+    {
+      "source_offset": 4192,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4215,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 4356,
+      "symbol": "AL_SetChannelVolume_",
+      "value": [
+        1,
+        540796
+      ]
+    },
+    {
+      "source_offset": 4375,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4385,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4395,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4411,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4423,
+      "symbol": "AL_NoteOff_",
+      "value": [
+        1,
+        542152
+      ]
+    },
+    {
+      "source_offset": 4429,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4441,
+      "symbol": "AL_ResetVoices_",
+      "value": [
+        1,
+        540920
+      ]
+    },
+    {
+      "source_offset": 4453,
+      "symbol": "AL_SetChannelVolume_",
+      "value": [
+        1,
+        540796
+      ]
+    },
+    {
+      "source_offset": 4464,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4491,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4501,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4520,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4530,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4546,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4556,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4569,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4576,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4586,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4596,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4603,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4611,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4620,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4633,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 4654,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4664,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 4695,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4709,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4727,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4736,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4742,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4751,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4759,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4765,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 4777,
+      "symbol": "AL_SetVoicePitch_",
+      "value": [
+        1,
+        540240
+      ]
+    },
+    {
+      "source_offset": 4802,
+      "segment": 2,
+      "value": [
+        3,
+        20020
+      ]
+    },
+    {
+      "source_offset": 4807,
+      "symbol": "USER_CheckParameter_",
+      "value": [
+        1,
+        475120
+      ]
+    },
+    {
+      "source_offset": 4835,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 4855,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 4886,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 4911,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 4956,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 4976,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 5024,
+      "symbol": "AL_StereoOff_",
+      "value": [
+        1,
+        541680
+      ]
+    },
+    {
+      "source_offset": 5030,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 5035,
+      "symbol": "AL_ResetVoices_",
+      "value": [
+        1,
+        540920
+      ]
+    },
+    {
+      "source_offset": 5040,
+      "symbol": "AL_Reset_",
+      "value": [
+        1,
+        541756
+      ]
+    },
+    {
+      "source_offset": 5045,
+      "symbol": "AL_LockEnd_",
+      "value": [
+        1,
+        543576
+      ]
+    },
+    {
+      "source_offset": 5050,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 5055,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 5065,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 5070,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5080,
+      "symbol": "_VoiceLevel",
+      "value": [
+        3,
+        1798128
+      ]
+    },
+    {
+      "source_offset": 5085,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5095,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 5100,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5110,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 5115,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5125,
+      "symbol": "_NotePitch",
+      "value": [
+        3,
+        62732
+      ]
+    },
+    {
+      "source_offset": 5130,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5140,
+      "symbol": "_OctavePitch",
+      "value": [
+        3,
+        62700
+      ]
+    },
+    {
+      "source_offset": 5145,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5155,
+      "symbol": "_NoteMod12",
+      "value": [
+        3,
+        1797744
+      ]
+    },
+    {
+      "source_offset": 5160,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5170,
+      "symbol": "_NoteDiv12",
+      "value": [
+        3,
+        1796560
+      ]
+    },
+    {
+      "source_offset": 5175,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5185,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 5190,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5200,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 5205,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5215,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 5220,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5230,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 5235,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5245,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 5250,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5260,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 5265,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5275,
+      "symbol": "_AL_Stereo",
+      "value": [
+        3,
+        64440
+      ]
+    },
+    {
+      "source_offset": 5280,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5290,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 5295,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5305,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 5310,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5320,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 5325,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 5334,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 5353,
+      "symbol": "AL_LockEnd_",
+      "value": [
+        1,
+        543576
+      ]
+    },
+    {
+      "source_offset": 5358,
+      "symbol": "AL_SendOutputToPort_",
+      "value": [
+        1,
+        538560
+      ]
+    },
+    {
+      "source_offset": 5363,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 5375,
+      "symbol": "_slotVoice",
+      "value": [
+        3,
+        64268
+      ]
+    },
+    {
+      "source_offset": 5380,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5392,
+      "symbol": "_VoiceLevel",
+      "value": [
+        3,
+        1798128
+      ]
+    },
+    {
+      "source_offset": 5397,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5409,
+      "symbol": "_VoiceKsl",
+      "value": [
+        3,
+        1799104
+      ]
+    },
+    {
+      "source_offset": 5414,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5426,
+      "symbol": "_offsetSlot",
+      "value": [
+        3,
+        64340
+      ]
+    },
+    {
+      "source_offset": 5431,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5443,
+      "symbol": "_NotePitch",
+      "value": [
+        3,
+        62732
+      ]
+    },
+    {
+      "source_offset": 5448,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5460,
+      "symbol": "_OctavePitch",
+      "value": [
+        3,
+        62700
+      ]
+    },
+    {
+      "source_offset": 5465,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5477,
+      "symbol": "_NoteMod12",
+      "value": [
+        3,
+        1797744
+      ]
+    },
+    {
+      "source_offset": 5482,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5494,
+      "symbol": "_NoteDiv12",
+      "value": [
+        3,
+        1796560
+      ]
+    },
+    {
+      "source_offset": 5499,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5511,
+      "symbol": "_VoiceReserved",
+      "value": [
+        3,
+        64360
+      ]
+    },
+    {
+      "source_offset": 5516,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5528,
+      "symbol": "_Voice",
+      "value": [
+        3,
+        1796952
+      ]
+    },
+    {
+      "source_offset": 5533,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5545,
+      "symbol": "_Voice_Pool",
+      "value": [
+        3,
+        1796944
+      ]
+    },
+    {
+      "source_offset": 5550,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5562,
+      "symbol": "_Channel",
+      "value": [
+        3,
+        1798272
+      ]
+    },
+    {
+      "source_offset": 5567,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5579,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 5584,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5596,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 5601,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5613,
+      "symbol": "_AL_Stereo",
+      "value": [
+        3,
+        64440
+      ]
+    },
+    {
+      "source_offset": 5618,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5630,
+      "symbol": "_AL_SendStereo",
+      "value": [
+        3,
+        64444
+      ]
+    },
+    {
+      "source_offset": 5635,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5647,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 5652,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5664,
+      "symbol": "_AL_MaxMidiChannel",
+      "value": [
+        3,
+        64452
+      ]
+    },
+    {
+      "source_offset": 5669,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 5694,
+      "symbol": "_AL_Stereo",
+      "value": [
+        3,
+        64440
+      ]
+    },
+    {
+      "source_offset": 5700,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 5706,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 5712,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 5736,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 5742,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 5752,
+      "symbol": "BLASTER_GetCardSettings_",
+      "value": [
+        1,
+        533824
+      ]
+    },
+    {
+      "source_offset": 5764,
+      "symbol": "BLASTER_GetEnv_",
+      "value": [
+        1,
+        533308
+      ]
+    },
+    {
+      "source_offset": 5789,
+      "symbol": "_AL_OPL3",
+      "value": [
+        3,
+        64448
+      ]
+    },
+    {
+      "source_offset": 5801,
+      "symbol": "_AL_LeftPort",
+      "value": [
+        3,
+        64432
+      ]
+    },
+    {
+      "source_offset": 5809,
+      "symbol": "_AL_RightPort",
+      "value": [
+        3,
+        64436
+      ]
+    },
+    {
+      "source_offset": 5833,
+      "symbol": "_NoteMod12",
+      "value": [
+        3,
+        1797744
+      ]
+    },
+    {
+      "source_offset": 5852,
+      "symbol": "_NoteDiv12",
+      "value": [
+        3,
+        1796560
+      ]
+    },
+    {
+      "source_offset": 5862,
+      "symbol": "AL_Reset_",
+      "value": [
+        1,
+        541756
+      ]
+    },
+    {
+      "source_offset": 5867,
+      "symbol": "AL_ResetVoices_",
+      "value": [
+        1,
+        540920
+      ]
+    },
+    {
+      "source_offset": 5893,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5902,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5911,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5920,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5929,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5938,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5947,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5956,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5965,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5974,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5983,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 5992,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    },
+    {
+      "source_offset": 6004,
+      "symbol": "_ADLIB_TimbreBank",
+      "value": [
+        3,
+        64456
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 7780,
+    "zero_fill_bytes": 2688,
+    "verified_fixups": 406,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 538560,
+        "compared_bytes": 6019,
+        "verified_fixups": 406,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 20020,
+        "compared_bytes": 5,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 62700,
+        "compared_bytes": 1756,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1796560,
+        "compared_bytes": 2688,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "DPMI_LockMemoryRegion_": [
+        1,
+        527060
+      ],
+      "DPMI_UnlockMemoryRegion_": [
+        1,
+        527152
+      ],
+      "AL_SendOutputToPort_": [
+        1,
+        538560
+      ],
+      "AL_SendOutput_": [
+        1,
+        538620
+      ],
+      "AL_SetVoiceTimbre_": [
+        1,
+        538692
+      ],
+      "AL_SetVoiceVolume_": [
+        1,
+        539396
+      ],
+      "AL_AllocVoice_": [
+        1,
+        540116
+      ],
+      "AL_GetVoice_": [
+        1,
+        540192
+      ],
+      "AL_SetVoicePitch_": [
+        1,
+        540240
+      ],
+      "AL_SetChannelVolume_": [
+        1,
+        540796
+      ],
+      "AL_SetChannelPan_": [
+        1,
+        540864
+      ],
+      "AL_SetChannelDetune_": [
+        1,
+        540896
+      ],
+      "AL_ResetVoices_": [
+        1,
+        540920
+      ],
+      "AL_CalcPitchInfo_": [
+        1,
+        541240
+      ],
+      "AL_FlushCard_": [
+        1,
+        541300
+      ],
+      "AL_StereoOn_": [
+        1,
+        541588
+      ],
+      "AL_StereoOff_": [
+        1,
+        541680
+      ],
+      "AL_Reset_": [
+        1,
+        541756
+      ],
+      "AL_ReserveVoice_": [
+        1,
+        541868
+      ],
+      "AL_ReleaseVoice_": [
+        1,
+        542036
+      ],
+      "AL_NoteOff_": [
+        1,
+        542152
+      ],
+      "AL_NoteOn_": [
+        1,
+        542476
+      ],
+      "AL_AllNotesOff_": [
+        1,
+        542700
+      ],
+      "AL_ControlChange_": [
+        1,
+        542764
+      ],
+      "AL_ProgramChange_": [
+        1,
+        543188
+      ],
+      "AL_SetPitchBend_": [
+        1,
+        543220
+      ],
+      "AL_DetectFM_": [
+        1,
+        543352
+      ],
+      "AL_LockEnd_": [
+        1,
+        543576
+      ],
+      "AL_Shutdown_": [
+        1,
+        543580
+      ],
+      "AL_SetMaxMidiChannel_": [
+        1,
+        543892
+      ],
+      "AL_Init_": [
+        1,
+        543900
+      ],
+      "AL_RegisterTimbreBank_": [
+        1,
+        544444
+      ],
+      "_AL_SendStereo": [
+        3,
+        64444
+      ],
+      "_AL_LeftPort": [
+        3,
+        64432
+      ],
+      "_AL_RightPort": [
+        3,
+        64436
+      ],
+      "_Voice": [
+        3,
+        1796952
+      ],
+      "_Channel": [
+        3,
+        1798272
+      ],
+      "_ADLIB_TimbreBank": [
+        3,
+        64456
+      ],
+      "_slotVoice": [
+        3,
+        64268
+      ],
+      "_offsetSlot": [
+        3,
+        64340
+      ],
+      "_VoiceLevel": [
+        3,
+        1798128
+      ],
+      "_VoiceKsl": [
+        3,
+        1799104
+      ],
+      "_AL_OPL3": [
+        3,
+        64448
+      ],
+      "_Voice_Pool": [
+        3,
+        1796944
+      ],
+      "LL_RemoveNode_": [
+        1,
+        515224
+      ],
+      "_NoteDiv12": [
+        3,
+        1796560
+      ],
+      "_NoteMod12": [
+        3,
+        1797744
+      ],
+      "_OctavePitch": [
+        3,
+        62700
+      ],
+      "_NotePitch": [
+        3,
+        62732
+      ],
+      "_AL_Stereo": [
+        3,
+        64440
+      ],
+      "_VoiceReserved": [
+        3,
+        64360
+      ],
+      "LL_AddNode_": [
+        1,
+        515184
+      ],
+      "_AL_MaxMidiChannel": [
+        3,
+        64452
+      ],
+      "USER_CheckParameter_": [
+        1,
+        475120
+      ],
+      "DPMI_UnlockMemory_": [
+        1,
+        527156
+      ],
+      "DPMI_LockMemory_": [
+        1,
+        527064
+      ],
+      "BLASTER_GetCardSettings_": [
+        1,
+        533824
+      ],
+      "BLASTER_GetEnv_": [
+        1,
+        533308
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "DPMI_LockMemoryRegion_": [
+      1,
+      527060
+    ],
+    "DPMI_UnlockMemoryRegion_": [
+      1,
+      527152
+    ]
+  },
+  "anchor_evidence": "evidence/dpmi-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

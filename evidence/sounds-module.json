@@ -1,0 +1,2820 @@
+{
+  "kind": "complete SOUNDS object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/game/sounds.c",
+  "source_sha256": "f8b55bab53a6113ff8db102bdff3c066b1ecdeb739a891b28f1c2645ec2c321f",
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "ad960aaa84439d11ae8a217217afdbdb6071151f4c247ee95c07b292597d018b",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07"
+  },
+  "descriptor": "modules/sounds.json",
+  "descriptor_sha256": "3f812574410cfefa5dfe5da52c0b1e71351fd5588ee46d3a3c93f0c3f1b3c1d3",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/zu",
+    "/dAPPVER_EXEDEF=DN3D13G"
+  ],
+  "placements": {
+    "1": [
+      1,
+      281600
+    ],
+    "4": [
+      3,
+      31256
+    ],
+    "2": [
+      3,
+      10880
+    ],
+    "5": [
+      3,
+      587584
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 61,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 110,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 119,
+      "symbol": "FX_SetupSoundBlaster_",
+      "value": [
+        1,
+        525040
+      ]
+    },
+    {
+      "source_offset": 139,
+      "symbol": "_eightytwofifty",
+      "value": [
+        3,
+        29568
+      ]
+    },
+    {
+      "source_offset": 149,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 168,
+      "symbol": "_NumVoices",
+      "value": [
+        3,
+        587712
+      ]
+    },
+    {
+      "source_offset": 195,
+      "symbol": "_MixRate",
+      "value": [
+        3,
+        587692
+      ]
+    },
+    {
+      "source_offset": 201,
+      "symbol": "_NumBits",
+      "value": [
+        3,
+        587720
+      ]
+    },
+    {
+      "source_offset": 207,
+      "symbol": "_NumChannels",
+      "value": [
+        3,
+        587716
+      ]
+    },
+    {
+      "source_offset": 214,
+      "symbol": "_NumVoices",
+      "value": [
+        3,
+        587712
+      ]
+    },
+    {
+      "source_offset": 219,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 224,
+      "symbol": "FX_Init_",
+      "value": [
+        1,
+        525248
+      ]
+    },
+    {
+      "source_offset": 235,
+      "symbol": "_FXVolume",
+      "value": [
+        3,
+        587680
+      ]
+    },
+    {
+      "source_offset": 240,
+      "symbol": "FX_SetVolume_",
+      "value": [
+        1,
+        525752
+      ]
+    },
+    {
+      "source_offset": 246,
+      "symbol": "_ReverseStereo",
+      "value": [
+        3,
+        587724
+      ]
+    },
+    {
+      "source_offset": 254,
+      "symbol": "FX_GetReverseStereo_",
+      "value": [
+        1,
+        525948
+      ]
+    },
+    {
+      "source_offset": 269,
+      "symbol": "FX_SetReverseStereo_",
+      "value": [
+        1,
+        525940
+      ]
+    },
+    {
+      "source_offset": 283,
+      "symbol": "FX_ErrorString_",
+      "value": [
+        1,
+        524260
+      ]
+    },
+    {
+      "source_offset": 289,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 297,
+      "symbol": "TestCallBack_",
+      "value": [
+        1,
+        285856
+      ]
+    },
+    {
+      "source_offset": 302,
+      "symbol": "FX_SetCallBack_",
+      "value": [
+        1,
+        525648
+      ]
+    },
+    {
+      "source_offset": 316,
+      "symbol": "FX_ErrorString_",
+      "value": [
+        1,
+        524260
+      ]
+    },
+    {
+      "source_offset": 322,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 354,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 362,
+      "symbol": "FX_Shutdown_",
+      "value": [
+        1,
+        525496
+      ]
+    },
+    {
+      "source_offset": 376,
+      "symbol": "FX_ErrorString_",
+      "value": [
+        1,
+        524260
+      ]
+    },
+    {
+      "source_offset": 382,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 413,
+      "symbol": "_MusicDevice",
+      "value": [
+        3,
+        587732
+      ]
+    },
+    {
+      "source_offset": 426,
+      "symbol": "_eightytwofifty",
+      "value": [
+        3,
+        29568
+      ]
+    },
+    {
+      "source_offset": 436,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 448,
+      "symbol": "_MidiPort",
+      "value": [
+        3,
+        587704
+      ]
+    },
+    {
+      "source_offset": 454,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 459,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 499,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 508,
+      "symbol": "FX_SetupSoundBlaster_",
+      "value": [
+        1,
+        525040
+      ]
+    },
+    {
+      "source_offset": 514,
+      "symbol": "_MidiPort",
+      "value": [
+        3,
+        587704
+      ]
+    },
+    {
+      "source_offset": 519,
+      "symbol": "_MusicDevice",
+      "value": [
+        3,
+        587732
+      ]
+    },
+    {
+      "source_offset": 524,
+      "symbol": "MUSIC_Init_",
+      "value": [
+        1,
+        490648
+      ]
+    },
+    {
+      "source_offset": 533,
+      "symbol": "_MusicVolume",
+      "value": [
+        3,
+        587684
+      ]
+    },
+    {
+      "source_offset": 538,
+      "symbol": "MUSIC_SetVolume_",
+      "value": [
+        1,
+        491023
+      ]
+    },
+    {
+      "source_offset": 545,
+      "symbol": "_MUSIC_ErrorCode",
+      "value": [
+        3,
+        59716
+      ]
+    },
+    {
+      "source_offset": 550,
+      "symbol": "MUSIC_ErrorString_",
+      "value": [
+        1,
+        490486
+      ]
+    },
+    {
+      "source_offset": 556,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 578,
+      "symbol": "_MusicDevice",
+      "value": [
+        3,
+        587732
+      ]
+    },
+    {
+      "source_offset": 587,
+      "symbol": "_eightytwofifty",
+      "value": [
+        3,
+        29568
+      ]
+    },
+    {
+      "source_offset": 597,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 605,
+      "symbol": "MUSIC_Shutdown_",
+      "value": [
+        1,
+        490894
+      ]
+    },
+    {
+      "source_offset": 614,
+      "symbol": "_MUSIC_ErrorCode",
+      "value": [
+        3,
+        59716
+      ]
+    },
+    {
+      "source_offset": 619,
+      "symbol": "MUSIC_ErrorString_",
+      "value": [
+        1,
+        490486
+      ]
+    },
+    {
+      "source_offset": 625,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 646,
+      "symbol": "malloc_",
+      "value": [
+        1,
+        587632
+      ]
+    },
+    {
+      "source_offset": 673,
+      "symbol": "free_",
+      "value": [
+        1,
+        587859
+      ]
+    },
+    {
+      "source_offset": 712,
+      "segment": 1,
+      "value": [
+        1,
+        281600
+      ]
+    },
+    {
+      "source_offset": 725,
+      "symbol": "_menunum",
+      "value": [
+        3,
+        31256
+      ]
+    },
+    {
+      "source_offset": 734,
+      "symbol": "_menunum",
+      "value": [
+        3,
+        31256
+      ]
+    },
+    {
+      "source_offset": 746,
+      "symbol": "sound_",
+      "value": [
+        1,
+        284224
+      ]
+    },
+    {
+      "source_offset": 752,
+      "symbol": "_menunum",
+      "value": [
+        3,
+        31256
+      ]
+    },
+    {
+      "source_offset": 770,
+      "symbol": "_menunum",
+      "value": [
+        3,
+        31256
+      ]
+    },
+    {
+      "source_offset": 789,
+      "symbol": "_MusicToggle",
+      "value": [
+        3,
+        587636
+      ]
+    },
+    {
+      "source_offset": 798,
+      "symbol": "_MusicDevice",
+      "value": [
+        3,
+        587732
+      ]
+    },
+    {
+      "source_offset": 807,
+      "symbol": "_eightytwofifty",
+      "value": [
+        3,
+        29568
+      ]
+    },
+    {
+      "source_offset": 817,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 827,
+      "symbol": "kopen4load_",
+      "value": [
+        1,
+        419813
+      ]
+    },
+    {
+      "source_offset": 842,
+      "symbol": "kfilelength_",
+      "value": [
+        1,
+        420387
+      ]
+    },
+    {
+      "source_offset": 856,
+      "symbol": "kclose_",
+      "value": [
+        1,
+        420443
+      ]
+    },
+    {
+      "source_offset": 865,
+      "symbol": "_MusicPtr",
+      "value": [
+        3,
+        416016
+      ]
+    },
+    {
+      "source_offset": 874,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 886,
+      "symbol": "kclose_",
+      "value": [
+        1,
+        420443
+      ]
+    },
+    {
+      "source_offset": 891,
+      "symbol": "_MusicPtr",
+      "value": [
+        3,
+        416016
+      ]
+    },
+    {
+      "source_offset": 896,
+      "symbol": "MUSIC_PlaySong_",
+      "value": [
+        1,
+        491148
+      ]
+    },
+    {
+      "source_offset": 925,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 941,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 971,
+      "symbol": "_sounds",
+      "value": [
+        3,
+        282520
+      ]
+    },
+    {
+      "source_offset": 983,
+      "symbol": "_loadfromgrouponly",
+      "value": [
+        3,
+        582928
+      ]
+    },
+    {
+      "source_offset": 990,
+      "symbol": "kopen4load_",
+      "value": [
+        1,
+        419813
+      ]
+    },
+    {
+      "source_offset": 1004,
+      "segment": 2,
+      "value": [
+        3,
+        10880
+      ]
+    },
+    {
+      "source_offset": 1009,
+      "symbol": "_fta_quotes",
+      "value": [
+        3,
+        397904
+      ]
+    },
+    {
+      "source_offset": 1014,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1021,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 1041,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1046,
+      "symbol": "FTA_",
+      "value": [
+        1,
+        22704
+      ]
+    },
+    {
+      "source_offset": 1062,
+      "symbol": "kfilelength_",
+      "value": [
+        1,
+        420387
+      ]
+    },
+    {
+      "source_offset": 1071,
+      "symbol": "_soundsiz",
+      "value": [
+        3,
+        117424
+      ]
+    },
+    {
+      "source_offset": 1077,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 1083,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 1095,
+      "symbol": "allocache_",
+      "value": [
+        1,
+        418317
+      ]
+    },
+    {
+      "source_offset": 1105,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 1110,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 1117,
+      "symbol": "kclose_",
+      "value": [
+        1,
+        420443
+      ]
+    },
+    {
+      "source_offset": 1167,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 1176,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 1189,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 1198,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 1208,
+      "symbol": "FX_VoiceAvailable_",
+      "value": [
+        1,
+        525996
+      ]
+    },
+    {
+      "source_offset": 1219,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 1232,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1250,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 1262,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1284,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 1293,
+      "symbol": "_VoiceToggle",
+      "value": [
+        3,
+        587644
+      ]
+    },
+    {
+      "source_offset": 1330,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 1353,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 1375,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 1384,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 1407,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 1419,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1428,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1437,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1450,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1463,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1470,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1501,
+      "symbol": "FindDistance3D_",
+      "value": [
+        1,
+        566268
+      ]
+    },
+    {
+      "source_offset": 1522,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 1538,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1548,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1559,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1582,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 1597,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1623,
+      "symbol": "_soundps",
+      "value": [
+        3,
+        116728
+      ]
+    },
+    {
+      "source_offset": 1631,
+      "symbol": "_soundpe",
+      "value": [
+        3,
+        116032
+      ]
+    },
+    {
+      "source_offset": 1669,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 1685,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 1716,
+      "symbol": "_soundvo",
+      "value": [
+        3,
+        118816
+      ]
+    },
+    {
+      "source_offset": 1734,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1744,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1751,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1764,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1775,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 1796,
+      "symbol": "cansee_",
+      "value": [
+        1,
+        354154
+      ]
+    },
+    {
+      "source_offset": 1849,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 1862,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1879,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 1898,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 1911,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1928,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 1940,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 1972,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2000,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2017,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2037,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 2049,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2057,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2064,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 2076,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2086,
+      "symbol": "stopsound_",
+      "value": [
+        1,
+        284832
+      ]
+    },
+    {
+      "source_offset": 2100,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2111,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 2118,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2156,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 2176,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2189,
+      "symbol": "loadsound_",
+      "value": [
+        1,
+        282512
+      ]
+    },
+    {
+      "source_offset": 2209,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2218,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2227,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2233,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2242,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 2274,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 2292,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2321,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2344,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 2373,
+      "symbol": "_soundsiz",
+      "value": [
+        3,
+        117424
+      ]
+    },
+    {
+      "source_offset": 2382,
+      "symbol": "FX_PlayLoopedVOC_",
+      "value": [
+        1,
+        526152
+      ]
+    },
+    {
+      "source_offset": 2396,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 2425,
+      "symbol": "_soundsiz",
+      "value": [
+        3,
+        117424
+      ]
+    },
+    {
+      "source_offset": 2434,
+      "symbol": "FX_PlayLoopedWAV_",
+      "value": [
+        1,
+        526268
+      ]
+    },
+    {
+      "source_offset": 2442,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2461,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 2481,
+      "symbol": "FX_PlayVOC3D_",
+      "value": [
+        1,
+        526332
+      ]
+    },
+    {
+      "source_offset": 2492,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 2512,
+      "symbol": "FX_PlayWAV3D_",
+      "value": [
+        1,
+        526380
+      ]
+    },
+    {
+      "source_offset": 2530,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2555,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2568,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 2574,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2582,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 2596,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2602,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2639,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 2652,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 2665,
+      "symbol": "_VoiceToggle",
+      "value": [
+        3,
+        587644
+      ]
+    },
+    {
+      "source_offset": 2675,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 2691,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 2700,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2718,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 2723,
+      "symbol": "FX_VoiceAvailable_",
+      "value": [
+        1,
+        525996
+      ]
+    },
+    {
+      "source_offset": 2745,
+      "symbol": "_soundps",
+      "value": [
+        3,
+        116728
+      ]
+    },
+    {
+      "source_offset": 2752,
+      "symbol": "_soundpe",
+      "value": [
+        3,
+        116032
+      ]
+    },
+    {
+      "source_offset": 2789,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 2808,
+      "symbol": "rand_",
+      "value": [
+        1,
+        583797
+      ]
+    },
+    {
+      "source_offset": 2834,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2847,
+      "symbol": "loadsound_",
+      "value": [
+        1,
+        282512
+      ]
+    },
+    {
+      "source_offset": 2863,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2872,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2881,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2887,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2899,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 2919,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 2936,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 2972,
+      "symbol": "_soundsiz",
+      "value": [
+        3,
+        117424
+      ]
+    },
+    {
+      "source_offset": 2986,
+      "symbol": "FX_PlayLoopedVOC_",
+      "value": [
+        1,
+        526152
+      ]
+    },
+    {
+      "source_offset": 3000,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 3036,
+      "symbol": "_soundsiz",
+      "value": [
+        3,
+        117424
+      ]
+    },
+    {
+      "source_offset": 3050,
+      "symbol": "FX_PlayLoopedWAV_",
+      "value": [
+        1,
+        526268
+      ]
+    },
+    {
+      "source_offset": 3058,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 3072,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 3095,
+      "symbol": "FX_PlayVOC3D_",
+      "value": [
+        1,
+        526332
+      ]
+    },
+    {
+      "source_offset": 3106,
+      "symbol": "_soundpr",
+      "value": [
+        3,
+        574360
+      ]
+    },
+    {
+      "source_offset": 3129,
+      "symbol": "FX_PlayWAV3D_",
+      "value": [
+        1,
+        526380
+      ]
+    },
+    {
+      "source_offset": 3145,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 3151,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 3196,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3203,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3209,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3221,
+      "symbol": "xyzsound_",
+      "value": [
+        1,
+        282736
+      ]
+    },
+    {
+      "source_offset": 3243,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 3275,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 3280,
+      "symbol": "FX_StopSound_",
+      "value": [
+        1,
+        526616
+      ]
+    },
+    {
+      "source_offset": 3287,
+      "symbol": "testcallback_",
+      "value": [
+        1,
+        285856
+      ]
+    },
+    {
+      "source_offset": 3316,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 3326,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 3375,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 3383,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 3388,
+      "symbol": "FX_StopSound_",
+      "value": [
+        1,
+        526616
+      ]
+    },
+    {
+      "source_offset": 3440,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3446,
+      "symbol": "_numenvsnds",
+      "value": [
+        3,
+        587588
+      ]
+    },
+    {
+      "source_offset": 3458,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 3470,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3479,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3488,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3498,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3505,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3515,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 3531,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3540,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3549,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3559,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3566,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3633,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 3646,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3655,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3664,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3671,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3688,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 3695,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3741,
+      "symbol": "getangle_",
+      "value": [
+        1,
+        331976
+      ]
+    },
+    {
+      "source_offset": 3776,
+      "symbol": "FindDistance3D_",
+      "value": [
+        1,
+        566268
+      ]
+    },
+    {
+      "source_offset": 3797,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 3813,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3823,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3834,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3857,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 3872,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3898,
+      "symbol": "_soundvo",
+      "value": [
+        3,
+        118816
+      ]
+    },
+    {
+      "source_offset": 3916,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3926,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3968,
+      "symbol": "cansee_",
+      "value": [
+        1,
+        354154
+      ]
+    },
+    {
+      "source_offset": 3993,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4003,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4013,
+      "symbol": "_numenvsnds",
+      "value": [
+        3,
+        587588
+      ]
+    },
+    {
+      "source_offset": 4072,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4083,
+      "symbol": "stopsound_",
+      "value": [
+        1,
+        284832
+      ]
+    },
+    {
+      "source_offset": 4100,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4113,
+      "symbol": "loadsound_",
+      "value": [
+        1,
+        282512
+      ]
+    },
+    {
+      "source_offset": 4126,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 4195,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 4200,
+      "symbol": "FX_Pan3D_",
+      "value": [
+        1,
+        526568
+      ]
+    },
+    {
+      "source_offset": 4219,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4275,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 4309,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4323,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4335,
+      "symbol": "_soundm",
+      "value": [
+        3,
+        573880
+      ]
+    },
+    {
+      "source_offset": 4397,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 4411,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4425,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4442,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4452,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4488,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 4519,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 4525,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 4532,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 4539,
+      "symbol": "_SoundOwner",
+      "value": [
+        3,
+        367504
+      ]
+    },
+    {
+      "source_offset": 4562,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4572,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4578,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4617,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4626,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 4653,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 4662,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 4703,
+    "zero_fill_bytes": 12,
+    "verified_fixups": 288,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 281600,
+        "compared_bytes": 4676,
+        "verified_fixups": 288,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 10880,
+        "compared_bytes": 26,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 31256,
+        "compared_bytes": 1,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587584,
+        "compared_bytes": 12,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "USRHOOKS_GetMem_": [
+        1,
+        282240
+      ],
+      "USRHOOKS_FreeMem_": [
+        1,
+        282272
+      ],
+      "SoundStartup_": [
+        1,
+        281648
+      ],
+      "SoundShutdown_": [
+        1,
+        281952
+      ],
+      "MusicStartup_": [
+        1,
+        282000
+      ],
+      "MusicShutdown_": [
+        1,
+        282176
+      ],
+      "intomenusounds_": [
+        1,
+        282288
+      ],
+      "playmusic_": [
+        1,
+        282384
+      ],
+      "loadsound_": [
+        1,
+        282512
+      ],
+      "xyzsound_": [
+        1,
+        282736
+      ],
+      "sound_": [
+        1,
+        284224
+      ],
+      "spritesound_": [
+        1,
+        284768
+      ],
+      "stopsound_": [
+        1,
+        284832
+      ],
+      "stopenvsound_": [
+        1,
+        284896
+      ],
+      "pan3dsound_": [
+        1,
+        285024
+      ],
+      "TestCallBack_": [
+        1,
+        285856
+      ],
+      "clearsoundlocks_": [
+        1,
+        286192
+      ],
+      "_FXDevice": [
+        3,
+        587736
+      ],
+      "_BlasterConfig": [
+        3,
+        587652
+      ],
+      "FX_SetupSoundBlaster_": [
+        1,
+        525040
+      ],
+      "_eightytwofifty": [
+        3,
+        29568
+      ],
+      "_numplayers": [
+        3,
+        1733240
+      ],
+      "_NumVoices": [
+        3,
+        587712
+      ],
+      "_MixRate": [
+        3,
+        587692
+      ],
+      "_NumBits": [
+        3,
+        587720
+      ],
+      "_NumChannels": [
+        3,
+        587716
+      ],
+      "FX_Init_": [
+        1,
+        525248
+      ],
+      "_FXVolume": [
+        3,
+        587680
+      ],
+      "FX_SetVolume_": [
+        1,
+        525752
+      ],
+      "_ReverseStereo": [
+        3,
+        587724
+      ],
+      "FX_GetReverseStereo_": [
+        1,
+        525948
+      ],
+      "FX_SetReverseStereo_": [
+        1,
+        525940
+      ],
+      "FX_ErrorString_": [
+        1,
+        524260
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "FX_SetCallBack_": [
+        1,
+        525648
+      ],
+      "FX_Shutdown_": [
+        1,
+        525496
+      ],
+      "_MusicDevice": [
+        3,
+        587732
+      ],
+      "_MidiPort": [
+        3,
+        587704
+      ],
+      "MUSIC_Init_": [
+        1,
+        490648
+      ],
+      "_MusicVolume": [
+        3,
+        587684
+      ],
+      "MUSIC_SetVolume_": [
+        1,
+        491023
+      ],
+      "_MUSIC_ErrorCode": [
+        3,
+        59716
+      ],
+      "MUSIC_ErrorString_": [
+        1,
+        490486
+      ],
+      "MUSIC_Shutdown_": [
+        1,
+        490894
+      ],
+      "malloc_": [
+        1,
+        587632
+      ],
+      "free_": [
+        1,
+        587859
+      ],
+      "_menunum": [
+        3,
+        31256
+      ],
+      "_MusicToggle": [
+        3,
+        587636
+      ],
+      "kopen4load_": [
+        1,
+        419813
+      ],
+      "kfilelength_": [
+        1,
+        420387
+      ],
+      "kclose_": [
+        1,
+        420443
+      ],
+      "_MusicPtr": [
+        3,
+        416016
+      ],
+      "kread_": [
+        1,
+        420053
+      ],
+      "MUSIC_PlaySong_": [
+        1,
+        491148
+      ],
+      "_SoundToggle": [
+        3,
+        587640
+      ],
+      "_sounds": [
+        3,
+        282520
+      ],
+      "_loadfromgrouponly": [
+        3,
+        582928
+      ],
+      "_fta_quotes": [
+        3,
+        397904
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "_myconnectindex": [
+        3,
+        1733242
+      ],
+      "_ps": [
+        3,
+        376112
+      ],
+      "FTA_": [
+        1,
+        22704
+      ],
+      "_soundsiz": [
+        3,
+        117424
+      ],
+      "_Sound": [
+        3,
+        574936
+      ],
+      "allocache_": [
+        1,
+        418317
+      ],
+      "_soundpr": [
+        3,
+        574360
+      ],
+      "FX_VoiceAvailable_": [
+        1,
+        525996
+      ],
+      "_soundm": [
+        3,
+        573880
+      ],
+      "_VoiceToggle": [
+        3,
+        587644
+      ],
+      "_ud": [
+        3,
+        579668
+      ],
+      "_screenpeek": [
+        3,
+        581290
+      ],
+      "FindDistance3D_": [
+        1,
+        566268
+      ],
+      "_sprite": [
+        3,
+        1104832
+      ],
+      "_sector": [
+        3,
+        1597120
+      ],
+      "_soundps": [
+        3,
+        116728
+      ],
+      "_soundpe": [
+        3,
+        116032
+      ],
+      "rand_": [
+        1,
+        583797
+      ],
+      "_soundvo": [
+        3,
+        118816
+      ],
+      "cansee_": [
+        1,
+        354154
+      ],
+      "_SoundOwner": [
+        3,
+        367504
+      ],
+      "badguy_": [
+        1,
+        10560
+      ],
+      "getangle_": [
+        1,
+        331976
+      ],
+      "FX_PlayLoopedVOC_": [
+        1,
+        526152
+      ],
+      "FX_PlayLoopedWAV_": [
+        1,
+        526268
+      ],
+      "FX_PlayVOC3D_": [
+        1,
+        526332
+      ],
+      "FX_PlayWAV3D_": [
+        1,
+        526380
+      ],
+      "FX_StopSound_": [
+        1,
+        526616
+      ],
+      "testcallback_": [
+        1,
+        285856
+      ],
+      "_numenvsnds": [
+        3,
+        587588
+      ],
+      "FX_Pan3D_": [
+        1,
+        526568
+      ],
+      "_lumplockbyte": [
+        3,
+        587616
+      ],
+      "_hittype": [
+        3,
+        120728
+      ],
+      "_backflag": [
+        3,
+        587584
+      ],
+      "_dmval": [
+        3,
+        587592
+      ]
+    },
+    "local_symbols": {
+      "_dmval": [
+        3,
+        587592
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "USRHOOKS_GetMem_": [
+      1,
+      282240
+    ],
+    "USRHOOKS_FreeMem_": [
+      1,
+      282272
+    ]
+  },
+  "anchor_evidence": "evidence/midi-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

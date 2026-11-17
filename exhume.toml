@@ -1,0 +1,24 @@
+# Foundation only. Use the project's make targets; upstream generic
+# match/verify/gate dispatch does not yet support this Watcom profile.
+[project]
+name = "Duke Nukem 3D registered v1.3D"
+root = "."
+src = "src"
+build = "build"
+map = "evidence"
+
+[binary]
+exe = "reference/DUKE3D.EXE"
+
+[toolchain]
+profile = "watcom"
+home = "toolchains/watcom-10.0-ga"
+c_opts = "/4r /s /otexan"
+dos = "dosbox-x"
+
+[watcom]
+experimental = true
+generic_dispatch = false
+functions = "evidence/functions.json"
+bindings = "evidence/bindings.json"
+reference_sha256 = "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4"

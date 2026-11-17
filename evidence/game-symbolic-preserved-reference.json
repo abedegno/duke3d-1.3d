@@ -1,0 +1,43 @@
+{
+  "scope": "Prepared optional seven post-NUL unidentified GAME CONST bytes; permission unanswered; no default adoption or source credit",
+  "source_credit": 0,
+  "full_target_match": false,
+  "sources_sha256": {
+    "src/game/symbolic_preserved/GAME.S": "da1216001bdfbca2a19bc3ae03c707b4019bfeed95d15fdddf7730a4a245e5cc",
+    "src/game/symbolic/game-C-counterpart.c.txt": "2f0b6cf26288d93d6f34112e152dcf1669c04aa4f67f52bbda7983823871f835",
+    "src/game/symbolic/groups.plan": "8f2536d10ea67341e86194c1004be4d97631defcd2310d7eb2cebbb1c3a8cafc",
+    "src/game/symbolic_preserved/contract-model.json": "833e29fd844363fa361fddf6efc9a76c34a9971bc228a77f5402bb63afe7e75e",
+    "src/game/game_tail.asm": "ca1ad3024d620fac400e1a6cf0a1fa3f2cea4218c4285df55bb3a34c11518850"
+  },
+  "notices_sha256": {
+    "src/game/symbolic_preserved/README.md": "7b23c7190f609fd98c464390a9673484310dabcf64638a3d8a63e3a067e3a337",
+    "src/game/symbolic/README.md": "df11415e393ece12bcf0449191bb0eb186832c828ca751e1ee69797c1faeb369",
+    "src/game/symbolic/GPL-2.0-or-later.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+    "profiles/gnu_elf_omf_game/README.md": "51ff60886d7461dd72d5272488ff89a387123c33f7f473a8d020c9ea2a105c58",
+    "profiles/capstone/README.md": "b251955848c4bf47762a4e4651c495a37c7125c0102b7441379f9d4b89f51409"
+  },
+  "producer_tools_sha256": {
+    "tools/build_game_symbolic_preserved.py": "547ec073aca023c4820d51b20e9638dd3e499f8c33f0edf82d5e9fc159acf938",
+    "src/game/symbolic_preserved/contract.py": "4994bade2a014f03fe124d0ec9a8c8a4c13a37daabcc835774d50aed2c65b563",
+    "src/game/symbolic/coff_contract.py": "545e1640284b3f47e7258079ed040447d96140c27c5704f4bc9fbce863100b47",
+    "profiles/gnu_elf_omf_game/identity.py": "7f337584fa6a8cdc99561a1c13bddb5a437633c11275655f6e44de20c3dd376d",
+    "profiles/gnu_elf_omf_game/profile.json": "239d10c6a10169ceddb368a2885442f223f7b47bb9000a476cade3d16d3d3532",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/capstone/identity.py": "e340cf55a62aaa0b9250ea7029ecf6099a21869b8ef137e754d48afd806bfb5d",
+    "profiles/capstone/files.json": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "profiles/watcom/game-compound-tools.json": "0803da3ae6363bc7972f84f554d70227660ca32db06c311c6b6b7b5a4398ae41"
+  },
+  "descriptor_sha256": "de8e8346e7a6eb3df09bc77428b6b97d72d9196286701467c45b233a362aacab",
+  "python_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "emulator_sha256": "e1a2c458b0e717403b4bb639e430c0abe69a939bcc96bf4e63114fdc7504e1d7",
+  "observer_tools_sha256": {
+    "tools/observe_game_symbolic_preserved.py": "f5e9fd55f8ab63cb5fd24e14fd2546325f9a2444e1128d69e65a7460a503e212",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "task": 670,
+  "kind": "Independent cold complete-source preparation comparison",
+  "result_path": "/Users/jonw/duke3d/.worktrees/game-prepare668/build/task668/cold/complete-source-garundmv/result.json",
+  "result_sha256": "79bc2f0ace6b4a443421399fe261d320da5ef2935b3fccdbd75553477ac4f682",
+  "bound_program": "/Users/jonw/duke3d/.worktrees/game-prepare668/build/task668/cold/complete-source-garundmv/DUKE3D.EXE",
+  "bytes": 1179131,
+  "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "native_sha256": "a5fd6a00453c9f923b6c453a91be2401bfafad3ce55ee6ff741727f2346be88a",
+  "different_bytes": 0,
+  "owned_source_objects": 121,
+  "source_only_before_vendor_binding": true,
+  "target_or_research_production_input": false,
+  "elapsed_seconds": 171.29947487497702,
+  "preparation_only": true,
+  "adoption_approved": false,
+  "normal_adoption": false,
+  "package_review": "pending",
+  "665_independent_review": {
+    "verdict": "APPROVED as isolated proposal only",
+    "root_verified_artifacts": 203,
+    "report_sha256": "52773b5b235f7e5536bcc653cd61ba8e09c3ff3ad55eb7a3c644aab16b307005",
+    "freeze_sha256": "18645f9028efe9c021027cad6d31a11adbc02d0d45ce3ec5e86e499622cd332b",
+    "adoption_or_permission_granted": false
+  }
+}

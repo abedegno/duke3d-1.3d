@@ -1,0 +1,279 @@
+{
+  "kind": "Candidate source ownership for remaining relocation-order pages",
+  "spans": 97,
+  "uncertain": [
+    {
+      "file": "O066.OBJ",
+      "segment": 1,
+      "votes": []
+    },
+    {
+      "file": "O085.OBJ",
+      "segment": 1,
+      "votes": []
+    },
+    {
+      "file": "O070.OBJ",
+      "segment": 1,
+      "votes": [
+        583791,
+        583827
+      ]
+    }
+  ],
+  "outside_GAME_pages": [
+    {
+      "page_index": 31,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "actors_c",
+        "actors_asm"
+      ]
+    },
+    {
+      "page_index": 32,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "actors_asm"
+      ]
+    },
+    {
+      "page_index": 33,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "actors_asm"
+      ]
+    },
+    {
+      "page_index": 34,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "actors_asm"
+      ]
+    },
+    {
+      "page_index": 35,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "actors_asm",
+        "gamedef"
+      ]
+    },
+    {
+      "page_index": 104,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "animlib",
+        "pawe_nrpn",
+        "pawe_sbkload"
+      ]
+    },
+    {
+      "page_index": 105,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "pawe_sbkload",
+        "pawe_hardware"
+      ]
+    },
+    {
+      "page_index": 106,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "pawe_hardware",
+        "pawe_midieng"
+      ]
+    },
+    {
+      "page_index": 107,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "pawe_midieng"
+      ]
+    },
+    {
+      "page_index": 108,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "pawe_midieng",
+        "gf1_os",
+        "gf1_sound_normal468"
+      ]
+    },
+    {
+      "page_index": 109,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "gf1_sound_normal468",
+        "gf1_mixer",
+        "gf1_rec",
+        "gf1_uart",
+        "gf1_midi",
+        "gf1_error",
+        "gf1_timer",
+        "gf1_candidate_gf1note1",
+        "gf1_note_normal468"
+      ]
+    },
+    {
+      "page_index": 110,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "gf1_note_normal468"
+      ]
+    },
+    {
+      "page_index": 111,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "gf1_note_normal468",
+        "gf1_digpos"
+      ]
+    },
+    {
+      "page_index": 112,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "gf1_digpos",
+        "gf1_digpause",
+        "gf1_digital_normal468"
+      ]
+    },
+    {
+      "page_index": 113,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "gf1_digital_normal468",
+        "gf1_wave",
+        "gf1_pat1",
+        "gf1_candidate_gf1patch",
+        "gf1_addr",
+        "gf1_dma1",
+        "gf1_candidate_gf1dma"
+      ]
+    },
+    {
+      "page_index": 114,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "gf1_candidate_gf1dma",
+        "gf1_candidate_gf1voice",
+        "gf1_utils",
+        "gf1_dram",
+        "gf1_candidate_gf1mem",
+        "gf1_detct",
+        "gf1_candidate_gf1isr"
+      ]
+    },
+    {
+      "page_index": 125,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "midi",
+        "ll_man",
+        "irq"
+      ]
+    },
+    {
+      "page_index": 126,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "irq",
+        "guswave"
+      ]
+    },
+    {
+      "page_index": 133,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_debug_normal446",
+        "mact_penttime_private482",
+        "mact_rox_normal487",
+        "mact_tlibdos_private472",
+        "mact_zone_normal468"
+      ]
+    },
+    {
+      "page_index": 134,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_zone_normal468",
+        "mact_wad_private477"
+      ]
+    },
+    {
+      "page_index": 135,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_wad_private477",
+        "mact_vidmsdos",
+        "mact_vector_normal468",
+        "mact_util",
+        "mact_time_normal446",
+        "mact_taskman_private475"
+      ]
+    },
+    {
+      "page_index": 138,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_mipmap_private488",
+        "mact_mathutil",
+        "mact_lbmlib_private490",
+        "mact_keyboard",
+        "mact_file"
+      ]
+    },
+    {
+      "page_index": 139,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_file",
+        "mact_crc",
+        "mact_control_candidate"
+      ]
+    },
+    {
+      "page_index": 140,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_control_candidate",
+        "mact_clrmap_private494"
+      ]
+    },
+    {
+      "page_index": 141,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_clrmap_private494"
+      ]
+    },
+    {
+      "page_index": 142,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "mact_clrmap_private494"
+      ]
+    },
+    {
+      "page_index": 152,
+      "non_CODE": false,
+      "candidate_source_owners": [
+        "engine_asm"
+      ]
+    },
+    {
+      "page_index": 173,
+      "non_CODE": true,
+      "candidate_source_owners": []
+    }
+  ],
+  "limitations": "Only aliases of owned source objects are included; runtime stock and non-CODE ownership are excluded. MAP/public constraints nominate candidate intervals only, not historical packet boundaries or unselected duplicate-definition placement authority.",
+  "source_credit_added": 0,
+  "native_outputs_modified": false,
+  "artifact_sha256": {
+    "build/task612-serialization-owners/owners.py": "3b82987723e3e6318e2ed87466ec49d97f12c684ce4181dbf5ed094dc55a1ae0",
+    "build/task612-serialization-owners/result.json": "7ec7204ba6954b46fafe16383caf3a3cbaaa24d4708f8d8da7d91a6e7f891723",
+    "build/task609-target-game-native/link/OUT.MAP": "0832ac64753766a692856952cf9c6ee2551eb010f4602df25ef33d8258c773f3"
+  }
+}

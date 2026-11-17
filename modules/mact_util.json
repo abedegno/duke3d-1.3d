@@ -1,0 +1,250 @@
+{
+  "name": "MACT_UTIL",
+  "source": "src/mact/util_lib.c",
+  "reference_headers": [],
+  "overlay_headers": null,
+  "source_reference_evidence": "evidence/mact-util-source-reference.json",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 555328,
+  "code_bytes": 961,
+  "code_publics": 15,
+  "expected": {
+    "initialized_bytes": 1107,
+    "zero_fill_bytes": 28,
+    "verified_fixups": 61
+  },
+  "geometry": {
+    "publics": {
+      "RegisterShutdownFunction_": [
+        1,
+        4
+      ],
+      "Error_": [
+        1,
+        12
+      ],
+      "CheckParm_": [
+        1,
+        112
+      ],
+      "ParseHex_": [
+        1,
+        252
+      ],
+      "ParseNum_": [
+        1,
+        396
+      ],
+      "MotoShort_": [
+        1,
+        440
+      ],
+      "IntelShort_": [
+        1,
+        464
+      ],
+      "MotoLong_": [
+        1,
+        468
+      ],
+      "IntelLong_": [
+        1,
+        544
+      ],
+      "HeapSort_": [
+        1,
+        548
+      ],
+      "newsift_down_": [
+        1,
+        752
+      ],
+      "SafeMalloc_": [
+        1,
+        852
+      ],
+      "SafeMallocSize_": [
+        1,
+        888
+      ],
+      "SafeRealloc_": [
+        1,
+        896
+      ],
+      "SafeFree_": [
+        1,
+        932
+      ],
+      "_ShutDown": [
+        4,
+        0
+      ],
+      "_Base": [
+        5,
+        0
+      ],
+      "_Comp": [
+        5,
+        4
+      ],
+      "_Width": [
+        5,
+        8
+      ],
+      "_Switch": [
+        5,
+        12
+      ]
+    },
+    "local_publics": [
+      "_Base",
+      "_Comp",
+      "_ShutDown",
+      "_Switch",
+      "_Width",
+      "newsift_down_"
+    ],
+    "externals": [
+      "_ShutDown",
+      "vprintf_",
+      "printf_",
+      "exit_",
+      "__argv",
+      "strtok_",
+      "stricmp_",
+      "__argc",
+      "Error_",
+      "ParseHex_",
+      "atol_",
+      "_Switch",
+      "_Base",
+      "_Width",
+      "_Comp",
+      "newsift_down_",
+      "malloc_",
+      "_msize_",
+      "realloc_",
+      "free_"
+    ],
+    "local_externals": [
+      1,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "code_data_ranges": [
+      [
+        1,
+        0,
+        4
+      ]
+    ],
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 961,
+        "attributes": 105
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 138,
+        "attributes": 169
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 8,
+        "attributes": 169
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 28,
+        "attributes": 105
+      }
+    ]
+  },
+  "placements": {
+    "1": [
+      1,
+      555328
+    ],
+    "2": [
+      3,
+      23016
+    ],
+    "4": [
+      3,
+      68264
+    ],
+    "5": [
+      3,
+      1863808
+    ]
+  },
+  "symbol_anchors": {
+    "vprintf_": [
+      1,
+      591233
+    ],
+    "printf_": [
+      1,
+      583204
+    ],
+    "exit_": [
+      1,
+      583687
+    ],
+    "strtok_": [
+      1,
+      589392
+    ],
+    "stricmp_": [
+      1,
+      588168
+    ],
+    "atol_": [
+      1,
+      583945
+    ],
+    "malloc_": [
+      1,
+      587632
+    ],
+    "_msize_": [
+      1,
+      591250
+    ],
+    "realloc_": [
+      1,
+      591259
+    ],
+    "free_": [
+      1,
+      587859
+    ],
+    "__argc": [
+      3,
+      71844
+    ],
+    "__argv": [
+      3,
+      71848
+    ]
+  }
+}

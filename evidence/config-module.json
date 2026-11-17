@@ -1,0 +1,5175 @@
+{
+  "kind": "complete CONFIG object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/game/config.c",
+  "source_sha256": "1791fb759b339136bac540664f4481312df7b05324fffc32d27d2cf21731299d",
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "ad960aaa84439d11ae8a217217afdbdb6071151f4c247ee95c07b292597d018b",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07"
+  },
+  "descriptor": "modules/config.json",
+  "descriptor_sha256": "e73f27171c50069c85fe300c5c196e186c828e15c3d2b5434e7d3e2bae61ea27",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G"
+  ],
+  "placements": {
+    "1": [
+      1,
+      287168
+    ],
+    "4": [
+      3,
+      31264
+    ],
+    "6": [
+      3,
+      11192
+    ],
+    "5": [
+      3,
+      587632
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 28,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 33,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 38,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 48,
+      "symbol": "strlen_",
+      "value": [
+        1,
+        583305
+      ]
+    },
+    {
+      "source_offset": 53,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 74,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 93,
+      "symbol": "_dos_findfirst_",
+      "value": [
+        1,
+        587502
+      ]
+    },
+    {
+      "source_offset": 112,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 121,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 135,
+      "symbol": "_dos_findnext_",
+      "value": [
+        1,
+        587531
+      ]
+    },
+    {
+      "source_offset": 144,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 151,
+      "symbol": "CheckParm_",
+      "value": [
+        1,
+        555440
+      ]
+    },
+    {
+      "source_offset": 162,
+      "symbol": "__argv",
+      "value": [
+        3,
+        71848
+      ]
+    },
+    {
+      "source_offset": 171,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 178,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 192,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 197,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 205,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 218,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 223,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 231,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 238,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 255,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 263,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 284,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 301,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 306,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 319,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 324,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 332,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 337,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 342,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 355,
+      "symbol": "KB_FlushKeyboardQueue_",
+      "value": [
+        1,
+        568860
+      ]
+    },
+    {
+      "source_offset": 360,
+      "symbol": "KB_ClearKeysDown_",
+      "value": [
+        1,
+        568880
+      ]
+    },
+    {
+      "source_offset": 365,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 372,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 383,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 392,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 402,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 407,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 415,
+      "symbol": "___iob",
+      "value": [
+        3,
+        71864
+      ]
+    },
+    {
+      "source_offset": 421,
+      "symbol": "fflush_",
+      "value": [
+        1,
+        588245
+      ]
+    },
+    {
+      "source_offset": 426,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 434,
+      "symbol": "KB_KeyWaiting_",
+      "value": [
+        1,
+        568700
+      ]
+    },
+    {
+      "source_offset": 445,
+      "symbol": "KB_Getch_",
+      "value": [
+        1,
+        568720
+      ]
+    },
+    {
+      "source_offset": 463,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 471,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 476,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 481,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 497,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 502,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 507,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 512,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 517,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 525,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 533,
+      "symbol": "clock_",
+      "value": [
+        1,
+        588240
+      ]
+    },
+    {
+      "source_offset": 563,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 618,
+      "symbol": "_gamefunctions",
+      "value": [
+        3,
+        31264
+      ]
+    },
+    {
+      "source_offset": 623,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 664,
+      "symbol": "_gamefunctions",
+      "value": [
+        3,
+        31264
+      ]
+    },
+    {
+      "source_offset": 677,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 682,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 691,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 698,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 715,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 722,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 739,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 746,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 807,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 815,
+      "symbol": "_MusicToggle",
+      "value": [
+        3,
+        587636
+      ]
+    },
+    {
+      "source_offset": 821,
+      "symbol": "_VoiceToggle",
+      "value": [
+        3,
+        587644
+      ]
+    },
+    {
+      "source_offset": 827,
+      "symbol": "_AmbienceToggle",
+      "value": [
+        3,
+        587648
+      ]
+    },
+    {
+      "source_offset": 833,
+      "symbol": "_FXVolume",
+      "value": [
+        3,
+        587680
+      ]
+    },
+    {
+      "source_offset": 839,
+      "symbol": "_MusicVolume",
+      "value": [
+        3,
+        587684
+      ]
+    },
+    {
+      "source_offset": 844,
+      "symbol": "_ReverseStereo",
+      "value": [
+        3,
+        587724
+      ]
+    },
+    {
+      "source_offset": 849,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 860,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 866,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 872,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 878,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 888,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 894,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 900,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 925,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 930,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 935,
+      "symbol": "SCRIPT_NumberEntries_",
+      "value": [
+        1,
+        562440
+      ]
+    },
+    {
+      "source_offset": 954,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 959,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 966,
+      "symbol": "SCRIPT_Entry_",
+      "value": [
+        1,
+        562516
+      ]
+    },
+    {
+      "source_offset": 971,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 998,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1012,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1019,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1027,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 1036,
+      "symbol": "SCRIPT_Entry_",
+      "value": [
+        1,
+        562516
+      ]
+    },
+    {
+      "source_offset": 1041,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1047,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 1056,
+      "symbol": "SCRIPT_GetDoubleString_",
+      "value": [
+        1,
+        562888
+      ]
+    },
+    {
+      "source_offset": 1077,
+      "symbol": "KB_StringToScanCode_",
+      "value": [
+        1,
+        568932
+      ]
+    },
+    {
+      "source_offset": 1092,
+      "symbol": "KB_StringToScanCode_",
+      "value": [
+        1,
+        568932
+      ]
+    },
+    {
+      "source_offset": 1111,
+      "symbol": "CONTROL_MapKey_",
+      "value": [
+        1,
+        573580
+      ]
+    },
+    {
+      "source_offset": 1181,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1198,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1214,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1221,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1228,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1237,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 1258,
+      "symbol": "CONTROL_MapButton_",
+      "value": [
+        1,
+        573808
+      ]
+    },
+    {
+      "source_offset": 1264,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1281,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1297,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1304,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1311,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1320,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 1344,
+      "symbol": "CONTROL_MapButton_",
+      "value": [
+        1,
+        573808
+      ]
+    },
+    {
+      "source_offset": 1367,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1384,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1400,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1407,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1414,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1423,
+      "symbol": "CONFIG_AnalogNameToNum_",
+      "value": [
+        1,
+        287840
+      ]
+    },
+    {
+      "source_offset": 1444,
+      "symbol": "CONTROL_MapAnalogAxis_",
+      "value": [
+        1,
+        573876
+      ]
+    },
+    {
+      "source_offset": 1450,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1467,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1483,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1490,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1497,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1506,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 1529,
+      "symbol": "CONTROL_MapDigitalAxis_",
+      "value": [
+        1,
+        573980
+      ]
+    },
+    {
+      "source_offset": 1535,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1552,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1568,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1575,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1582,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1591,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 1617,
+      "symbol": "CONTROL_MapDigitalAxis_",
+      "value": [
+        1,
+        573980
+      ]
+    },
+    {
+      "source_offset": 1623,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1644,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1652,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1659,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 1673,
+      "symbol": "CONTROL_SetAnalogAxisScale_",
+      "value": [
+        1,
+        573940
+      ]
+    },
+    {
+      "source_offset": 1695,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1700,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1707,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 1719,
+      "symbol": "CONTROL_SetMouseSensitivity_",
+      "value": [
+        1,
+        571084
+      ]
+    },
+    {
+      "source_offset": 1773,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1790,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1806,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1813,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1820,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1829,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 1850,
+      "symbol": "CONTROL_MapButton_",
+      "value": [
+        1,
+        573808
+      ]
+    },
+    {
+      "source_offset": 1856,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1873,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1889,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1896,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1903,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 1912,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 1936,
+      "symbol": "CONTROL_MapButton_",
+      "value": [
+        1,
+        573808
+      ]
+    },
+    {
+      "source_offset": 1959,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 1976,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1992,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1999,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2006,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2015,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 2038,
+      "symbol": "CONTROL_MapDigitalAxis_",
+      "value": [
+        1,
+        573980
+      ]
+    },
+    {
+      "source_offset": 2044,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2061,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2077,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2084,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2091,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2100,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 2126,
+      "symbol": "CONTROL_MapDigitalAxis_",
+      "value": [
+        1,
+        573980
+      ]
+    },
+    {
+      "source_offset": 2148,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2153,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2160,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 2172,
+      "symbol": "_CONTROL_JoystickPort",
+      "value": [
+        3,
+        71712
+      ]
+    },
+    {
+      "source_offset": 2221,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2238,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2250,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2259,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2266,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2273,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 2294,
+      "symbol": "CONTROL_MapButton_",
+      "value": [
+        1,
+        573808
+      ]
+    },
+    {
+      "source_offset": 2300,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2317,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2329,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2338,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2345,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2352,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 2376,
+      "symbol": "CONTROL_MapButton_",
+      "value": [
+        1,
+        573808
+      ]
+    },
+    {
+      "source_offset": 2399,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2416,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2428,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2437,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2444,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2451,
+      "symbol": "CONFIG_AnalogNameToNum_",
+      "value": [
+        1,
+        287840
+      ]
+    },
+    {
+      "source_offset": 2472,
+      "symbol": "CONTROL_MapAnalogAxis_",
+      "value": [
+        1,
+        573876
+      ]
+    },
+    {
+      "source_offset": 2478,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2495,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2507,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2516,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2523,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2530,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 2553,
+      "symbol": "CONTROL_MapDigitalAxis_",
+      "value": [
+        1,
+        573980
+      ]
+    },
+    {
+      "source_offset": 2559,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2576,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2588,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2597,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2604,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 2611,
+      "symbol": "CONFIG_FunctionNameToNum_",
+      "value": [
+        1,
+        287760
+      ]
+    },
+    {
+      "source_offset": 2637,
+      "symbol": "CONTROL_MapDigitalAxis_",
+      "value": [
+        1,
+        573980
+      ]
+    },
+    {
+      "source_offset": 2643,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2664,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 2672,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2679,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 2693,
+      "symbol": "CONTROL_SetAnalogAxisScale_",
+      "value": [
+        1,
+        573940
+      ]
+    },
+    {
+      "source_offset": 2715,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2720,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2727,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 2739,
+      "symbol": "_CONTROL_RudderEnabled",
+      "value": [
+        3,
+        71696
+      ]
+    },
+    {
+      "source_offset": 2744,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2749,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2754,
+      "symbol": "_CONTROL_JoystickPort",
+      "value": [
+        3,
+        71712
+      ]
+    },
+    {
+      "source_offset": 2761,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 2795,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2813,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2823,
+      "symbol": "fopen_",
+      "value": [
+        1,
+        584545
+      ]
+    },
+    {
+      "source_offset": 2848,
+      "symbol": "dfread_",
+      "value": [
+        1,
+        421027
+      ]
+    },
+    {
+      "source_offset": 2879,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2884,
+      "symbol": "dfread_",
+      "value": [
+        1,
+        421027
+      ]
+    },
+    {
+      "source_offset": 2891,
+      "symbol": "fclose_",
+      "value": [
+        1,
+        583330
+      ]
+    },
+    {
+      "source_offset": 2920,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2924,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2928,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2932,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2936,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2940,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2955,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 2960,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 2971,
+      "symbol": "SafeFileExists_",
+      "value": [
+        1,
+        569580
+      ]
+    },
+    {
+      "source_offset": 2980,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 2985,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 2990,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2998,
+      "symbol": "CONFIG_SetDefaults_",
+      "value": [
+        1,
+        287952
+      ]
+    },
+    {
+      "source_offset": 3003,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 3008,
+      "symbol": "SCRIPT_Load_",
+      "value": [
+        1,
+        560604
+      ]
+    },
+    {
+      "source_offset": 3015,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3043,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3050,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3066,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3071,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 3089,
+      "symbol": "_myname",
+      "value": [
+        3,
+        582865
+      ]
+    },
+    {
+      "source_offset": 3094,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3099,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3104,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3109,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 3114,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3119,
+      "symbol": "CheckParm_",
+      "value": [
+        1,
+        555440
+      ]
+    },
+    {
+      "source_offset": 3136,
+      "symbol": "__argv",
+      "value": [
+        3,
+        71848
+      ]
+    },
+    {
+      "source_offset": 3145,
+      "symbol": "_myname",
+      "value": [
+        3,
+        582865
+      ]
+    },
+    {
+      "source_offset": 3150,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 3155,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3160,
+      "symbol": "CheckParm_",
+      "value": [
+        1,
+        555440
+      ]
+    },
+    {
+      "source_offset": 3178,
+      "symbol": "__argv",
+      "value": [
+        3,
+        71848
+      ]
+    },
+    {
+      "source_offset": 3187,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 3192,
+      "symbol": "strcpy_",
+      "value": [
+        1,
+        583173
+      ]
+    },
+    {
+      "source_offset": 3202,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 3207,
+      "symbol": "strchr_",
+      "value": [
+        1,
+        588261
+      ]
+    },
+    {
+      "source_offset": 3216,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3221,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 3226,
+      "symbol": "strcat_",
+      "value": [
+        1,
+        583733
+      ]
+    },
+    {
+      "source_offset": 3231,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 3236,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3241,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 3254,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 3259,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3264,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3269,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3274,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3279,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 3284,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3289,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3294,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3299,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3304,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3309,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3314,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3319,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3324,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3329,
+      "symbol": "SCRIPT_GetString_",
+      "value": [
+        1,
+        562736
+      ]
+    },
+    {
+      "source_offset": 3334,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3339,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3344,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3349,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3354,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3359,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3364,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3369,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3374,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3379,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3384,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3389,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3394,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3399,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3404,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3409,
+      "symbol": "_ScreenWidth",
+      "value": [
+        3,
+        587728
+      ]
+    },
+    {
+      "source_offset": 3414,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3419,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3424,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3429,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3434,
+      "symbol": "_ScreenHeight",
+      "value": [
+        3,
+        587688
+      ]
+    },
+    {
+      "source_offset": 3439,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3444,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3449,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3454,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3459,
+      "symbol": "_ScreenMode",
+      "value": [
+        3,
+        587700
+      ]
+    },
+    {
+      "source_offset": 3464,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3469,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3474,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3479,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3484,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3489,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3494,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3499,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3504,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3509,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3514,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3519,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3524,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3529,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3534,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3539,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3544,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3549,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3554,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3559,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3564,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3569,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3574,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3579,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3584,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3589,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3595,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3600,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3606,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3612,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3617,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3622,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3627,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3632,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3637,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3642,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3647,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 3652,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3657,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3662,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3667,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3672,
+      "symbol": "_MusicDevice",
+      "value": [
+        3,
+        587732
+      ]
+    },
+    {
+      "source_offset": 3677,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3682,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3687,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3692,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3697,
+      "symbol": "_FXVolume",
+      "value": [
+        3,
+        587680
+      ]
+    },
+    {
+      "source_offset": 3702,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3707,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3712,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3717,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3722,
+      "symbol": "_MusicVolume",
+      "value": [
+        3,
+        587684
+      ]
+    },
+    {
+      "source_offset": 3727,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3732,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3737,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3742,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3747,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 3752,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3757,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3762,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3767,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3772,
+      "symbol": "_MusicToggle",
+      "value": [
+        3,
+        587636
+      ]
+    },
+    {
+      "source_offset": 3777,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3782,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3787,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3792,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3797,
+      "symbol": "_VoiceToggle",
+      "value": [
+        3,
+        587644
+      ]
+    },
+    {
+      "source_offset": 3802,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3807,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3812,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3817,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3822,
+      "symbol": "_AmbienceToggle",
+      "value": [
+        3,
+        587648
+      ]
+    },
+    {
+      "source_offset": 3827,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3832,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3837,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3842,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3847,
+      "symbol": "_NumVoices",
+      "value": [
+        3,
+        587712
+      ]
+    },
+    {
+      "source_offset": 3852,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3857,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3862,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3867,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3872,
+      "symbol": "_NumChannels",
+      "value": [
+        3,
+        587716
+      ]
+    },
+    {
+      "source_offset": 3877,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3882,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3887,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3892,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3897,
+      "symbol": "_NumBits",
+      "value": [
+        3,
+        587720
+      ]
+    },
+    {
+      "source_offset": 3902,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3907,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3912,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3917,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3922,
+      "symbol": "_MixRate",
+      "value": [
+        3,
+        587692
+      ]
+    },
+    {
+      "source_offset": 3927,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3932,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3937,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3942,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3947,
+      "symbol": "_MidiPort",
+      "value": [
+        3,
+        587704
+      ]
+    },
+    {
+      "source_offset": 3952,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3957,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3962,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3967,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 3976,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3981,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 3986,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 3991,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4004,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4009,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4014,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 4019,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4024,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4037,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4042,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4047,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 4052,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4057,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4070,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4075,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4080,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 4085,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4090,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4103,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4108,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4113,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 4118,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4123,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4136,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4141,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4146,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 4151,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4156,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4169,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4174,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4179,
+      "symbol": "_BlasterConfig",
+      "value": [
+        3,
+        587652
+      ]
+    },
+    {
+      "source_offset": 4184,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4189,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4198,
+      "symbol": "_ControllerType",
+      "value": [
+        3,
+        587708
+      ]
+    },
+    {
+      "source_offset": 4203,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4208,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4213,
+      "symbol": "_ReverseStereo",
+      "value": [
+        3,
+        587724
+      ]
+    },
+    {
+      "source_offset": 4218,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4223,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4228,
+      "symbol": "_MouseAiming",
+      "value": [
+        3,
+        587696
+      ]
+    },
+    {
+      "source_offset": 4233,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4238,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4243,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4248,
+      "symbol": "SCRIPT_GetNumber_",
+      "value": [
+        1,
+        563176
+      ]
+    },
+    {
+      "source_offset": 4253,
+      "symbol": "CONTROL_ClearAssignments_",
+      "value": [
+        1,
+        574080
+      ]
+    },
+    {
+      "source_offset": 4258,
+      "symbol": "CONFIG_ReadKeys_",
+      "value": [
+        1,
+        288080
+      ]
+    },
+    {
+      "source_offset": 4263,
+      "symbol": "_ControllerType",
+      "value": [
+        3,
+        587708
+      ]
+    },
+    {
+      "source_offset": 4277,
+      "segment": 1,
+      "value": [
+        1,
+        287168
+      ]
+    },
+    {
+      "source_offset": 4282,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4287,
+      "symbol": "CONFIG_SetupMouse_",
+      "value": [
+        1,
+        288320
+      ]
+    },
+    {
+      "source_offset": 4294,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4299,
+      "symbol": "CONFIG_SetupJoystick_",
+      "value": [
+        1,
+        289360
+      ]
+    },
+    {
+      "source_offset": 4306,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4311,
+      "symbol": "CONFIG_SetupGamePad_",
+      "value": [
+        1,
+        288912
+      ]
+    },
+    {
+      "source_offset": 4317,
+      "symbol": "_setupread",
+      "value": [
+        3,
+        31600
+      ]
+    },
+    {
+      "source_offset": 4342,
+      "symbol": "_setupread",
+      "value": [
+        3,
+        31600
+      ]
+    },
+    {
+      "source_offset": 4356,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4361,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4369,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4374,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4379,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4384,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4389,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4394,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4399,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4404,
+      "symbol": "SCRIPT_PutString_",
+      "value": [
+        1,
+        563712
+      ]
+    },
+    {
+      "source_offset": 4411,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4416,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4424,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4429,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4434,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4441,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4446,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4454,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4459,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4464,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4471,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4476,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4484,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4489,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4494,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4501,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4506,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4514,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4519,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4524,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4531,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4536,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4544,
+      "symbol": "_FXVolume",
+      "value": [
+        3,
+        587680
+      ]
+    },
+    {
+      "source_offset": 4549,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4554,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4561,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4566,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4574,
+      "symbol": "_MusicVolume",
+      "value": [
+        3,
+        587684
+      ]
+    },
+    {
+      "source_offset": 4579,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4584,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4591,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4596,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4604,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 4609,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4614,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4621,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4626,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4634,
+      "symbol": "_VoiceToggle",
+      "value": [
+        3,
+        587644
+      ]
+    },
+    {
+      "source_offset": 4639,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4644,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4651,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4656,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4664,
+      "symbol": "_AmbienceToggle",
+      "value": [
+        3,
+        587648
+      ]
+    },
+    {
+      "source_offset": 4669,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4674,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4681,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4686,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4694,
+      "symbol": "_MusicToggle",
+      "value": [
+        3,
+        587636
+      ]
+    },
+    {
+      "source_offset": 4699,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4704,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4711,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4716,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4724,
+      "symbol": "_ReverseStereo",
+      "value": [
+        3,
+        587724
+      ]
+    },
+    {
+      "source_offset": 4729,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4734,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4741,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4746,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4754,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4759,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4764,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4771,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4776,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4784,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4789,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4794,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4801,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4806,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4814,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4819,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4824,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4831,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4836,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4844,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4849,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4854,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4861,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4866,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4874,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4879,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4884,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4889,
+      "symbol": "_ControllerType",
+      "value": [
+        3,
+        587708
+      ]
+    },
+    {
+      "source_offset": 4899,
+      "symbol": "CONTROL_GetMouseSensitivity_",
+      "value": [
+        1,
+        571072
+      ]
+    },
+    {
+      "source_offset": 4906,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4911,
+      "symbol": "_config_text",
+      "value": [
+        3,
+        11192
+      ]
+    },
+    {
+      "source_offset": 4917,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4928,
+      "symbol": "SCRIPT_PutNumber_",
+      "value": [
+        1,
+        563812
+      ]
+    },
+    {
+      "source_offset": 4933,
+      "symbol": "_setupfilename",
+      "value": [
+        3,
+        31472
+      ]
+    },
+    {
+      "source_offset": 4938,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4943,
+      "symbol": "SCRIPT_Save_",
+      "value": [
+        1,
+        560700
+      ]
+    },
+    {
+      "source_offset": 4948,
+      "symbol": "_scripthandle",
+      "value": [
+        3,
+        587632
+      ]
+    },
+    {
+      "source_offset": 4953,
+      "symbol": "SCRIPT_Free_",
+      "value": [
+        1,
+        560292
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 7394,
+    "zero_fill_bytes": 112,
+    "verified_fixups": 629,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 287168,
+        "compared_bytes": 4962,
+        "verified_fixups": 577,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 31264,
+        "compared_bytes": 340,
+        "verified_fixups": 52,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587632,
+        "compared_bytes": 112,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 11192,
+        "compared_bytes": 2092,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_FXDevice": [
+        3,
+        587736
+      ],
+      "_BlasterConfig": [
+        3,
+        587652
+      ],
+      "_NumVoices": [
+        3,
+        587712
+      ],
+      "_MixRate": [
+        3,
+        587692
+      ],
+      "_NumBits": [
+        3,
+        587720
+      ],
+      "_NumChannels": [
+        3,
+        587716
+      ],
+      "_FXVolume": [
+        3,
+        587680
+      ],
+      "_ReverseStereo": [
+        3,
+        587724
+      ],
+      "_MusicDevice": [
+        3,
+        587732
+      ],
+      "_MidiPort": [
+        3,
+        587704
+      ],
+      "_MusicVolume": [
+        3,
+        587684
+      ],
+      "_MusicToggle": [
+        3,
+        587636
+      ],
+      "_SoundToggle": [
+        3,
+        587640
+      ],
+      "_VoiceToggle": [
+        3,
+        587644
+      ],
+      "CONFIG_GetSetupFilename_": [
+        1,
+        287184
+      ],
+      "CONFIG_FunctionNameToNum_": [
+        1,
+        287760
+      ],
+      "CONFIG_FunctionNumToName_": [
+        1,
+        287824
+      ],
+      "CONFIG_AnalogNameToNum_": [
+        1,
+        287840
+      ],
+      "CONFIG_SetDefaults_": [
+        1,
+        287952
+      ],
+      "CONFIG_ReadKeys_": [
+        1,
+        288080
+      ],
+      "CONFIG_SetupMouse_": [
+        1,
+        288320
+      ],
+      "CONFIG_SetupGamePad_": [
+        1,
+        288912
+      ],
+      "CONFIG_SetupJoystick_": [
+        1,
+        289360
+      ],
+      "readsavenames_": [
+        1,
+        289952
+      ],
+      "CONFIG_ReadSetup_": [
+        1,
+        290112
+      ],
+      "CONFIG_WriteSetup_": [
+        1,
+        291504
+      ],
+      "_setupfilename": [
+        3,
+        31472
+      ],
+      "_config_text": [
+        3,
+        11192
+      ],
+      "strlen_": [
+        1,
+        583305
+      ],
+      "strcpy_": [
+        1,
+        583173
+      ],
+      "_dos_findfirst_": [
+        1,
+        587502
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "_dos_findnext_": [
+        1,
+        587531
+      ],
+      "CheckParm_": [
+        1,
+        555440
+      ],
+      "__argv": [
+        3,
+        71848
+      ],
+      "printf_": [
+        1,
+        583204
+      ],
+      "strcmpi_": [
+        1,
+        588168
+      ],
+      "KB_FlushKeyboardQueue_": [
+        1,
+        568860
+      ],
+      "KB_ClearKeysDown_": [
+        1,
+        568880
+      ],
+      "clock_": [
+        1,
+        588240
+      ],
+      "___iob": [
+        3,
+        71864
+      ],
+      "fflush_": [
+        1,
+        588245
+      ],
+      "KB_KeyWaiting_": [
+        1,
+        568700
+      ],
+      "KB_Getch_": [
+        1,
+        568720
+      ],
+      "SafeFree_": [
+        1,
+        556260
+      ],
+      "_gamefunctions": [
+        3,
+        31264
+      ],
+      "stricmp_": [
+        1,
+        588168
+      ],
+      "_AmbienceToggle": [
+        3,
+        587648
+      ],
+      "_ud": [
+        3,
+        579668
+      ],
+      "_scripthandle": [
+        3,
+        587632
+      ],
+      "SCRIPT_NumberEntries_": [
+        1,
+        562440
+      ],
+      "SCRIPT_Entry_": [
+        1,
+        562516
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "SCRIPT_GetDoubleString_": [
+        1,
+        562888
+      ],
+      "KB_StringToScanCode_": [
+        1,
+        568932
+      ],
+      "CONTROL_MapKey_": [
+        1,
+        573580
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "SCRIPT_GetString_": [
+        1,
+        562736
+      ],
+      "CONTROL_MapButton_": [
+        1,
+        573808
+      ],
+      "CONTROL_MapAnalogAxis_": [
+        1,
+        573876
+      ],
+      "CONTROL_MapDigitalAxis_": [
+        1,
+        573980
+      ],
+      "SCRIPT_GetNumber_": [
+        1,
+        563176
+      ],
+      "CONTROL_SetAnalogAxisScale_": [
+        1,
+        573940
+      ],
+      "CONTROL_SetMouseSensitivity_": [
+        1,
+        571084
+      ],
+      "_CONTROL_JoystickPort": [
+        3,
+        71712
+      ],
+      "_CONTROL_RudderEnabled": [
+        3,
+        71696
+      ],
+      "fopen_": [
+        1,
+        584545
+      ],
+      "dfread_": [
+        1,
+        421027
+      ],
+      "fclose_": [
+        1,
+        583330
+      ],
+      "SafeFileExists_": [
+        1,
+        569580
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "SCRIPT_Load_": [
+        1,
+        560604
+      ],
+      "_myname": [
+        3,
+        582865
+      ],
+      "_boardfilename": [
+        3,
+        29836
+      ],
+      "strchr_": [
+        1,
+        588261
+      ],
+      "strcat_": [
+        1,
+        583733
+      ],
+      "_ScreenWidth": [
+        3,
+        587728
+      ],
+      "_ScreenHeight": [
+        3,
+        587688
+      ],
+      "_ScreenMode": [
+        3,
+        587700
+      ],
+      "_ControllerType": [
+        3,
+        587708
+      ],
+      "_MouseAiming": [
+        3,
+        587696
+      ],
+      "CONTROL_ClearAssignments_": [
+        1,
+        574080
+      ],
+      "_setupread": [
+        3,
+        31600
+      ],
+      "SCRIPT_PutNumber_": [
+        1,
+        563812
+      ],
+      "SCRIPT_PutString_": [
+        1,
+        563712
+      ],
+      "CONTROL_GetMouseSensitivity_": [
+        1,
+        571072
+      ],
+      "SCRIPT_Save_": [
+        1,
+        560700
+      ],
+      "SCRIPT_Free_": [
+        1,
+        560292
+      ],
+      "_dmval": [
+        3,
+        587740
+      ]
+    },
+    "local_symbols": {
+      "_config_text": [
+        3,
+        11192
+      ],
+      "_dmval": [
+        3,
+        587740
+      ],
+      "_scripthandle": [
+        3,
+        587632
+      ],
+      "_setupfilename": [
+        3,
+        31472
+      ],
+      "_setupread": [
+        3,
+        31600
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "_FXDevice": [
+      3,
+      587736
+    ],
+    "_BlasterConfig": [
+      3,
+      587652
+    ],
+    "_NumVoices": [
+      3,
+      587712
+    ],
+    "_MixRate": [
+      3,
+      587692
+    ],
+    "_NumBits": [
+      3,
+      587720
+    ],
+    "_NumChannels": [
+      3,
+      587716
+    ],
+    "_FXVolume": [
+      3,
+      587680
+    ],
+    "_ReverseStereo": [
+      3,
+      587724
+    ],
+    "_MusicDevice": [
+      3,
+      587732
+    ],
+    "_MidiPort": [
+      3,
+      587704
+    ],
+    "_MusicVolume": [
+      3,
+      587684
+    ],
+    "_MusicToggle": [
+      3,
+      587636
+    ],
+    "_SoundToggle": [
+      3,
+      587640
+    ],
+    "_VoiceToggle": [
+      3,
+      587644
+    ]
+  },
+  "anchor_evidence": "evidence/sounds-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

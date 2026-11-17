@@ -1,0 +1,113 @@
+{
+  "kind": "Complete Duke v1.3D SECTOR native contribution; complete executable unlinked",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "SECTOR.C",
+  "upstream_sha256": "21deb87be73eb07ce55cf510483aca946e4eca7fc5642a54708c5dc080f71f39",
+  "gpl_repository": "https://github.com/videogamepreservation/dukenukem3d",
+  "gpl_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "gpl_upstream": "source/SECTOR.C",
+  "gpl_upstream_sha256": "07af3110542dd644571b146b693e11ab570b356985d46a7ceb7697276788e08c",
+  "license": "GPL-2.0-or-later; original-author credit and released GPL notice retained",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "source": "src/game/sector.c",
+  "tracked_sha256": "66fb5619844fca364ffa913448ecb853cb851bfd0439f3642c82edf3949e9709",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "headers": {
+    "reference": [
+      "reference/duke3d-reconstructions",
+      "reference/duke3d-reconstructions/MACT"
+    ],
+    "overlays": [
+      "src/include",
+      "src/game/include",
+      "src/engine/include"
+    ]
+  },
+  "modifications": [
+    "Preserve pinned SECTOR ancestry and released original-author/GPL notices. Normalize line endings and trailing whitespace; restore earlier behavior from target instructions, with native matching as authority.",
+    "Restore ldist direct FindDistance2D return rather than the later +1.",
+    "Remove the later DOORTILE23 case and under-operator case22. Verify the complete isadoorwall interval including the following twelve-entry switch table.",
+    "Restore callsound return of its sector argument sn. Its shared five-byte BSS contribution is proven through the sound-halt reference; dmval is module-local header scratch storage, not a global cross-module anchor.",
+    "Restore explicit activator-motion conditions without caching a sprite pointer: types11/30 test temp_data[4]; types20/31/36/32 test temp_data[0]. Later type18 and later switch formulation are absent.",
+    "Remove screenbreak14 through19 from animatewalls. Verify the camera interval including the following thirteen-entry wall switch table.",
+    "Restore sector door case20 open flag from equal ceiling/floor or destination/ceiling heights rather than toggling it. This also reproduces the warp-elevator interval and its twenty-three-entry next-function switch prefix, plus the shared-return jump in operaterespawns.",
+    "Restore activator locked-sector XOR, omit later hitag1/2 filters and type18 activation, and omit the later nonnegative-sprite guard in operateforcefields.",
+    "Restore switch positional-sound height from screenpeek for ALIEN_SWITCH1 and SWITCH_ON. Retain the acting player height for the warning/custom-hit sound paths as the target requires.",
+    "Restore activatebysector return after the first matching activator rather than operating every activator.",
+    "Remove the later standalone breakwall helper. Restore inline vending and original tech-wall1 through4 handling, their distinct breaking sounds, earlier fan debris, no light-break random sound selection, and no later screenbreak/tech-wall cases in checkhitwall.",
+    "The fan-debris owner argument in checkhitwall uses the retained short i before a C assignment, reproducing the target incoming-register behavior. Its original intent is unknown; no cleanup changes this matched code.",
+    "Restore checkhitsprite CLOCK/BROKENCLOCK behavior and fixed-position debris, omit later GENERICPOLE2/PANNEL3/JURYGUY/TRIPODCAMERA cases and TANK/BOSS4 knockback exceptions, remove later decorative immunity/actortype/palette-six checks, clear sleep state to zero, and restore earlier freezer-owner and unconditional knockback-angle rules.",
+    "Reconstruct the complete earlier cheatkeys without inventing later player fields. Existing provisional level_reset_flag is used as the observed earlier aim byte at offset1332; bit23 changes and the return-to-center store at1361 have exact target checks. The controller approved this observed-role alias; original field spelling remains unproved.",
+    "Restore cheatkeys quick kick without the later knee/kickback exclusion, omit the later interface bit17 guard and weapon-fire queue, remove grow/subweapon handling, restore ten-weapon cycling and constant shrinker selection, move nightvision after holoduke with the earlier cheat-phase gate, and restore inclusive medkit-amount comparison. Disabled WW2-only ancestry is removed from this recovered body.",
+    "Restore checksectors sector-sound tags without the later upper bound, ignore the hitawall return distance for the mirror path, and omit later FEM10/TOUGHGAL filtering. Retain all four observed neartag scans.",
+    "Use the complete terminal checksectors extent3585 ending at RET, not the following fifteen zero alignment bytes or SOUNDS prefix. Source CODE ends281585; independent complete SOUNDS begins281600.",
+    "Use exported/reference-only complete ENGINE/GAMEDEF/SOUNDS/MMULTI/CONFIG/FX_MAN/MUSIC anchor reports, plus verified ACTORS/PREMAP function identities, with hashes recorded by the fresh probe. Preserve module-local symbol scope."
+  ],
+  "matched_publics": [
+    "checkcursectnums_",
+    "checkhitceiling_",
+    "checkplayerhurt_",
+    "dist_",
+    "doanimations_",
+    "findotherplayer_",
+    "findplayer_",
+    "getanimationgoal_",
+    "isanearoperator_",
+    "operatemasterswitches_",
+    "setanimation_",
+    "ldist_",
+    "isadoorwall_",
+    "isanunderoperator_",
+    "callsound_",
+    "check_activator_motion_",
+    "operateforcefields_",
+    "animatecamsprite_",
+    "animatewalls_",
+    "activatewarpelevators_",
+    "operatesectors_",
+    "operaterespawns_",
+    "operateactivators_",
+    "checkhitswitch_",
+    "activatebysector_",
+    "checkhitwall_",
+    "checkhitsprite_",
+    "allignwarpelevators_",
+    "cheatkeys_",
+    "checksectors_"
+  ],
+  "omitted_code_publics": [],
+  "unverified_code_publics": [],
+  "unverified_storage": [],
+  "full_module_gate": {
+    "verified": true,
+    "initialized_bytes": 27953,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 1382,
+    "code_placement": [
+      1,
+      253632
+    ],
+    "bss_placement": [
+      3,
+      587568
+    ]
+  },
+  "remaining_obligations": [
+    "Controller review and integration, including shared descriptor-driver registration.",
+    "Linker/binder reproduction, other modules and complete executable identity remain project obligations."
+  ],
+  "scope": "Complete source/native SECTOR contribution:30 public intervals,27953 CODE bytes including every embedded table,5 BSS bytes,1382 fixups,one consistent placement. No missing bodies or unverified owned storage. Linking, alignment reproduction and complete executable remain unproved.",
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false,
+  "removed_later_code_publics": [
+    "breakwall_"
+  ]
+}

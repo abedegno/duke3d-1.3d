@@ -1,0 +1,44 @@
+{
+  "kind": "Root pin verification of independent IRQ private-source approval",
+  "summary": {
+    "verdict": "APPROVED private source/layout capsule; no normal admission/credit",
+    "all937author_artifacts_exact": true,
+    "all12_source_original_role_proofs_literal": [
+      "bindings",
+      "verification",
+      "original_verification",
+      "default_absolute_alignment_negative",
+      "all103_original_C_roles",
+      "actual_native_fixups",
+      "resolved_private_relative_calls",
+      "private_source_labels_from_actual_listing",
+      "actual_private_physical_correspondence",
+      "all64_DATA_and54_BSS_literal_original",
+      "original_global_import_anchors_exact"
+    ],
+    "fresh_native_raw_difference_only_THEADR_path": true,
+    "own_actual_RET8to4_control_normal_and_O": true,
+    "original13private_names_to_genuine_source_qualified_owners_not_raw_scope_identity": true,
+    "default_library_difference": {
+      "original": [
+        "math387r",
+        "emu387"
+      ],
+      "NASM": [],
+      "future_normal_link_requirement": "preserve explicit inherited requirements; no record fabrication"
+    },
+    "logical_origin_replayed_actual_same_process": true,
+    "no_full_link_rerun_claim": true,
+    "source_credit": 0
+  },
+  "root_reviewed_artifacts": 144,
+  "root_changed_artifacts": [],
+  "artifact_sha256": {
+    "build/task579-irq-review/artifact-manifest.json": "d55bde4412412ca385308e6a459cbec2f7cd11f44caea6aa179691f090a3f590",
+    "build/task579-irq-review/review-freeze.json": "554c40f75125f6b7a3f6543f81c7bcca5488958b09ec1ef378ff08ddaf586bad",
+    "build/task579-irq-review/review-summary.json": "23dbe02ffeef303e7daadd4b1dbd37b74d557f837e39eb8d53e1185cc826a70b",
+    ".superpowers/sdd/2026-11-14-parallel-game-recovery/task-579-irq-symbolic-independent-review.md": "39e7ce495f9e0de724f3d40e50439a96f45346b65c18d8cc866be6bfb7d3b149"
+  },
+  "normal_adoption": false,
+  "source_credit_added": 0
+}

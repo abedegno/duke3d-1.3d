@@ -1,0 +1,84 @@
+{
+  "status": "complete native source candidate awaiting independent review; no accepted coverage added here",
+  "historical_source_identity": false,
+  "full_executable_rebuilt": false,
+  "original_member_used_by_producer": false,
+  "source_credit": 0,
+  "source": {
+    "path": "src/mact/scriplib.c",
+    "sha256": "208af8d84c2e9ad52737a7a9e15e1ed37f6c58ad674a7f876fa99d9482cdecf0",
+    "basis": "2026 readable native-behavior reconstruction using unchanged released 2003 MACT headers and related 2005 interpolation; not original MACT source"
+  },
+  "tracked_headers_sha256": {
+    "src/mact/scriplib/_scrplib.h": "4c2742538cef1803fc898fd5d1f5b90dbf32f2e0669555d7f2b548cac1bfad6d",
+    "src/mact/scriplib/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/scriplib/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "src/mact/scriplib/linklist.h": "486e1511568358df8b8606908b2466bbf82e352c7e16272ab62c5194f45e5e80",
+    "src/mact/scriplib/scriplib.h": "c1a9a12e5812e4a7a0927007d9c6b2bce9decb0b4af25867bef77170fe12202b",
+    "src/mact/scriplib/tokenlib.h": "703a2696f9169ddaa75bcb2a5adc96eee17aa354845d38e0ce3b1423b60a147c",
+    "src/mact/scriplib/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/scriplib/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd"
+  },
+  "released_headers": {
+    "origin": "dukenukem3d/extras",
+    "unchanged": true,
+    "notice": "Copyright (C) 1996, 2003 3D Realms Entertainment; GPL v2 or later; educational release notice retained"
+  },
+  "related_source": {
+    "repository": "https://github.com/jonof/jfmact",
+    "revision": "a356c4aa660c5dfbe5ad940ee8a75f3ab7fcd10f",
+    "date": "2005-11-29T12:32:42Z",
+    "author": "Jonathon Fowler",
+    "path": "scriplib.c",
+    "sha256": "e1fae469d375c994134691c0090c6e66698d5e51e07d76d67fd060930fc7ec5b",
+    "archive_sha256": "03afce9ac81f45d3e30b12622ef8d5bdaf86876f8b89d3d3f4c3b137c507264e",
+    "limit": "Fowler describes creative interpolation, not original MACT; its Parse stub and alternate allocation algorithm do not establish native behavior."
+  },
+  "original_reference": {
+    "library": "reference/duke3d-reconstructions/MACT386.LIB",
+    "offset": 56832,
+    "end": 68808,
+    "size": 11976,
+    "sha256": "55cf0768718bffa02835be0a71ba271cb6f9bc9c21ad6a4983335a0c18627bb3",
+    "role": "analysis/verifier reference only, never compiler or linker producer input"
+  },
+  "code_anchor": {
+    "symbol": "SCRIPT_Load_",
+    "location": [
+      1,
+      560604
+    ],
+    "caller": "CONFIG",
+    "caller_source": "src/game/config.c",
+    "caller_source_sha256": "1791fb759b339136bac540664f4481312df7b05324fffc32d27d2cf21731299d",
+    "caller_native_code_base": 287168,
+    "caller_relative_field_offset": 3008,
+    "native_object": 1,
+    "native_relative_field": 290176,
+    "method": "accepted complete source CONFIG typed call; replay raw E8 rel32 projection from unchanged target, independent of SCRIPLIB infer_bindings",
+    "accepted_caller_descriptor_sha256": "e73f27171c50069c85fe300c5c196e186c828e15c3d2b5434e7d3e2bae61ea27",
+    "accepted_caller_receipt_sha256": "2c9898ac4dcbc378e7b8f37c701757004f9fe208bcaf044f4c6e773c1e011bfb",
+    "witness_limit": "Immutable accepted source receipt at this checkpoint, not a recursive dependency on current mutable caller evidence; raw fixed call projection is replayed."
+  },
+  "import_role_limit": "All19 imports are fixed named roles from original native metadata and complete typed-fixup projection. This is not independent whole-source proof of missing TOKEN/other callees, library selection, or final link ABI. Retained unused float imports/default libraries are not pruned.",
+  "native_metadata_difference": [
+    "THEADR SOURCE.C versus original P:\\LIBMACT\\scriplib.c",
+    "original line-number records absent",
+    "source dependency comments/timestamps differ"
+  ],
+  "native_runtime_metadata": "all segment attributes/extents/access, groups, public offsets/local scopes, EXTDEF order/local indices,225 typed fixups, default libraries, far-call and CODE/DATA markers equal original",
+  "folded_exports": "Real ordinary C wrappers naturally coalesce with their implementing bodies under original GA, independently characterized with own C; no alias directives or fabricated compatibility functions.",
+  "CONST_rule": "Each real NUL-terminated logical string includes only required unused NUL suffixes to reproduce observed DWORD zero gaps. No sizeof/raw literal-length consumer; final %f remains three bytes. Entire1411 bytes including gaps and tail verified. No padding object/blob.",
+  "causal_recovery": {
+    "SectionExists_NumberSections": "FOR init/latch separates next-pointer loads from table loads; explicit EQ break gives original block/return order, measured with unchanged original GA IR before/after Schedule. No compiler memory/state patch.",
+    "Entry_NumberEntries": "Counter initialized after handle validation and before SectionExists call, preserving native live ECX across call.",
+    "GetDoubleString": "Use raw-start at each real copy and terminator; first scan pointer stays live while final scan pointer may become copy-end. No redundant named final copy count/store.",
+    "Save": "Three mutually exclusive real case-local writes preserve call-use liveness; original GA naturally tail-merges them. Unknown types produce no write."
+  },
+  "remaining_obligations": [
+    "independent complete-module review before accepted source credit",
+    "missing TOKEN and other source implementations and final WLINK/library selection",
+    "full executable byte identity",
+    "historical local naming/source identity and humanization are unproved"
+  ]
+}

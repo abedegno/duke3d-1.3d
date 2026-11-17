@@ -1,0 +1,20 @@
+{
+  "task": 599,
+  "base": "cafc9772fe9553a154b01f2205fe4cfa8490bfa7",
+  "finding": "597 Important: ambient NASMENV admitted untracked preinclude inputs",
+  "correction": "reject nonempty NASMENV explicitly at producer, observer and receipt-validation entry",
+  "source_or_ABI_changes": false,
+  "generic_profile_or_dispatch_changes": false,
+  "new_CODE_credit": 0,
+  "manifest_sha256": "4ba820cc3186451dcb3e63bd5134266f377429db956e0ae4a5cd81ba4c2e2ad9",
+  "artifact_count": 215,
+  "owned_pins": {
+    "tools/probe_irq_symbolic.py": "0ba439029181bc49241979faf248acd669fac5e774c72699de35097cad7f0fc1",
+    "evidence/irq-symbolic-source-reference.json": "03cdba93bd082b9b1b4ae0bde89ce1335e54eb9ca1ef9e5088d81590737585b0",
+    "evidence/irq-module.json": "77a31426c6ec1aca6af18c51b9b6aa3ad0cef08b22bae78ee9e8bf3a7796def2",
+    "tests/test_irq_environment.py": "f643c66c35ff4a6428b76a8600f1a7aec57eb321755026706772803330118d4b",
+    ".superpowers/sdd/2026-11-14-parallel-game-recovery/task-599-irq-environment-guard.md": "183ecd5f1f7091bb5744fa6cfa3d829ac5e72a9a673ca2cdc2a16eaacf9d5762"
+  },
+  "audit_sha256": "c917b6e23987f3e5de893e51745135d349470da188bf9cf7dcffbd5b2105f1c0",
+  "independent_review": "pending597"
+}

@@ -1,0 +1,5836 @@
+[
+  {
+    "line": 97,
+    "operand": 0,
+    "owner": "MOUSE_GetDelta_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 108,
+    "operand": 0,
+    "owner": "control_branch_80",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 115,
+    "operand": 0,
+    "owner": "control_branch_81",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 131,
+    "operand": 1,
+    "owner": "_CONTROL_MouseSensitivity",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 144,
+    "operand": 1,
+    "owner": "_CONTROL_MouseSensitivity",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 152,
+    "operand": 0,
+    "owner": "_CONTROL_MouseSensitivity",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 158,
+    "operand": 0,
+    "owner": "MOUSE_GetButtons_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 164,
+    "operand": 0,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 165,
+    "operand": 0,
+    "owner": "MOUSE_Init_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 177,
+    "operand": 0,
+    "owner": "control_branch_84",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 178,
+    "operand": 0,
+    "owner": "_Joy_mask",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 179,
+    "operand": 0,
+    "owner": "JoyStick_Vals_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 180,
+    "operand": 1,
+    "owner": "_Joy_x2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 181,
+    "operand": 0,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 182,
+    "operand": 1,
+    "owner": "_Joy_y2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 183,
+    "operand": 0,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 184,
+    "operand": 0,
+    "owner": "control_branch_85",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 186,
+    "operand": 1,
+    "owner": "_CONTROL_RudderEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 189,
+    "operand": 0,
+    "owner": "_Joy_mask",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 190,
+    "operand": 1,
+    "owner": "_CONTROL_ThrottleEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 191,
+    "operand": 1,
+    "owner": "_CONTROL_HatEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 192,
+    "operand": 1,
+    "owner": "_Joy_mask",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 195,
+    "operand": 0,
+    "owner": "_Joy_mask",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 196,
+    "operand": 0,
+    "owner": "JoyStick_Vals_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 197,
+    "operand": 1,
+    "owner": "_Joy_x1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 198,
+    "operand": 0,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 199,
+    "operand": 1,
+    "owner": "_Joy_y1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 200,
+    "operand": 0,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 201,
+    "operand": 1,
+    "owner": "_Joy_x2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 202,
+    "operand": 0,
+    "owner": "_CONTROL_JoyXAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 203,
+    "operand": 1,
+    "owner": "_Joy_y2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 204,
+    "operand": 0,
+    "owner": "_CONTROL_JoyYAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 226,
+    "operand": 1,
+    "owner": "_JoyDefs",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 231,
+    "operand": 0,
+    "owner": "control_branch_86",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 234,
+    "operand": 0,
+    "owner": "control_branch_87",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 244,
+    "operand": 0,
+    "owner": "control_branch_88",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 247,
+    "operand": 0,
+    "owner": "control_branch_89",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 250,
+    "operand": 0,
+    "owner": "control_branch_90",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 258,
+    "operand": 0,
+    "owner": "control_branch_88",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 263,
+    "operand": 0,
+    "owner": "control_branch_91",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 266,
+    "operand": 0,
+    "owner": "control_branch_92",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 283,
+    "operand": 0,
+    "owner": "control_branch_93",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 286,
+    "operand": 0,
+    "owner": "control_branch_94",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 314,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 315,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 317,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 320,
+    "operand": 0,
+    "owner": "CONTROL_FilterJoyDelta_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 322,
+    "operand": 0,
+    "owner": "control_branch_95",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 323,
+    "operand": 0,
+    "owner": "_CONTROL_RudderEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 324,
+    "operand": 0,
+    "owner": "control_branch_96",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 325,
+    "operand": 0,
+    "owner": "_CONTROL_ThrottleEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 326,
+    "operand": 0,
+    "owner": "control_branch_95",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 328,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 331,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 335,
+    "operand": 0,
+    "owner": "CONTROL_FilterJoyDelta_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 343,
+    "operand": 0,
+    "owner": "control_case_50",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 343,
+    "operand": 1,
+    "owner": "control_case_51",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 343,
+    "operand": 2,
+    "owner": "control_case_52",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 343,
+    "operand": 3,
+    "owner": "control_case_53",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 355,
+    "operand": 0,
+    "owner": "control_branch_97",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 358,
+    "operand": 0,
+    "owner": "control_branch_98",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 364,
+    "operand": 0,
+    "owner": "control_branch_99",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 366,
+    "operand": 0,
+    "owner": "control_branch_100",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 371,
+    "operand": 1,
+    "owner": "_CONTROL_FlightStickMode",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 374,
+    "operand": 0,
+    "owner": "control_branch_101",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 376,
+    "operand": 0,
+    "owner": "control_branch_102",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 377,
+    "operand": 0,
+    "owner": "control_branch_103",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 379,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 380,
+    "operand": 0,
+    "owner": "control_branch_105",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 382,
+    "operand": 0,
+    "owner": "control_branch_106",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 383,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 386,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 388,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 391,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 394,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 397,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 399,
+    "operand": 0,
+    "owner": "_CONTROL_HatEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 400,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 401,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 407,
+    "operand": 0,
+    "owner": "control_branch_104",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 408,
+    "operand": 0,
+    "owner": "control_hat_button_table",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 4
+    }
+  },
+  {
+    "line": 451,
+    "operand": 1,
+    "owner": "_JoyDefs",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 458,
+    "operand": 0,
+    "owner": "control_branch_107",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 469,
+    "operand": 0,
+    "owner": "control_branch_108",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 480,
+    "operand": 0,
+    "owner": "control_branch_109",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 490,
+    "operand": 0,
+    "owner": "control_branch_110",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 514,
+    "operand": 1,
+    "owner": "_JoyDefs",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 526,
+    "operand": 0,
+    "owner": "control_branch_111",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 545,
+    "operand": 0,
+    "owner": "control_branch_112",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 555,
+    "operand": 0,
+    "owner": "CONTROL_SetJoyScale_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 577,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 579,
+    "operand": 0,
+    "owner": "control_center_sample_center",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 582,
+    "operand": 0,
+    "owner": "control_center_sample_center",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 584,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 586,
+    "operand": 0,
+    "owner": "control_center_wait_center",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 590,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 592,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 594,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 595,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 596,
+    "operand": 0,
+    "owner": "CONTROL_ClearUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 599,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 601,
+    "operand": 0,
+    "owner": "control_center_sample_upper",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 604,
+    "operand": 0,
+    "owner": "control_center_sample_upper",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 606,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 608,
+    "operand": 0,
+    "owner": "control_center_wait_upper",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 611,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 613,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 614,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 618,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 619,
+    "operand": 0,
+    "owner": "CONTROL_ClearUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 622,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 624,
+    "operand": 0,
+    "owner": "control_center_sample_lower",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 627,
+    "operand": 0,
+    "owner": "control_center_sample_lower",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 629,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 631,
+    "operand": 0,
+    "owner": "control_center_wait_lower",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 634,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 635,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 636,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 639,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 640,
+    "operand": 0,
+    "owner": "CONTROL_ClearUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 655,
+    "operand": 0,
+    "owner": "control_center_x_range_valid",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 672,
+    "operand": 0,
+    "owner": "control_center_y_range_valid",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 678,
+    "operand": 0,
+    "owner": "_CONTROL_ThrottleEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 679,
+    "operand": 0,
+    "owner": "control_center_test_rudder",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 684,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 686,
+    "operand": 0,
+    "owner": "control_center_sample_throttle",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 689,
+    "operand": 0,
+    "owner": "control_center_sample_throttle",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 691,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 693,
+    "operand": 0,
+    "owner": "control_center_wait_throttle",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 696,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 697,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 698,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 701,
+    "operand": 0,
+    "owner": "CONTROL_ClearUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 703,
+    "operand": 0,
+    "owner": "_CONTROL_RudderEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 704,
+    "operand": 0,
+    "owner": "control_center_setup_primary",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 709,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 711,
+    "operand": 0,
+    "owner": "control_center_sample_rudder",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 714,
+    "operand": 0,
+    "owner": "control_center_sample_rudder",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 716,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 718,
+    "operand": 0,
+    "owner": "control_center_wait_rudder",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 721,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 722,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 723,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 726,
+    "operand": 0,
+    "owner": "CONTROL_ClearUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 733,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 740,
+    "operand": 0,
+    "owner": "CONTROL_SetupJoy_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 742,
+    "operand": 1,
+    "owner": "_CONTROL_RudderEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 747,
+    "operand": 0,
+    "owner": "control_center_setup_aux",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 748,
+    "operand": 0,
+    "owner": "_CONTROL_FlightStickMode",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 749,
+    "operand": 0,
+    "owner": "control_center_done",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 759,
+    "operand": 0,
+    "owner": "CONTROL_SetupJoy_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 775,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyAbs_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 776,
+    "operand": 1,
+    "owner": "_CONTROL_JoyXAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 777,
+    "operand": 1,
+    "owner": "_CONTROL_JoyYAxis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 779,
+    "operand": 0,
+    "owner": "control_branch_129",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 781,
+    "operand": 0,
+    "owner": "control_branch_130",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 791,
+    "operand": 0,
+    "owner": "control_branch_131",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 793,
+    "operand": 0,
+    "owner": "control_branch_132",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 810,
+    "operand": 0,
+    "owner": "CONTROL_SetupJoy_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 813,
+    "operand": 0,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 825,
+    "operand": 0,
+    "owner": "_CONTROL_JoysPresent",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 4
+    }
+  },
+  {
+    "line": 833,
+    "operand": 0,
+    "owner": "_CONTROL_ExternalEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 834,
+    "operand": 0,
+    "owner": "control_branch_133",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 835,
+    "operand": 1,
+    "owner": "arg_control",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 836,
+    "operand": 0,
+    "owner": "CheckParm_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 838,
+    "operand": 0,
+    "owner": "control_branch_134",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 839,
+    "operand": 0,
+    "owner": "arg_control",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 840,
+    "operand": 0,
+    "owner": "err_missing_control",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 841,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 847,
+    "operand": 1,
+    "owner": "__argv",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 850,
+    "operand": 0,
+    "owner": "atol_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 852,
+    "operand": 0,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 854,
+    "operand": 0,
+    "owner": "control_branch_135",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 858,
+    "operand": 0,
+    "owner": "err_external_api",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 859,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 868,
+    "operand": 0,
+    "owner": "msg_external",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 870,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 872,
+    "operand": 0,
+    "owner": "_CONTROL_ExternalEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 888,
+    "operand": 0,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 890,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 894,
+    "operand": 0,
+    "owner": "control_branch_136",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 897,
+    "operand": 0,
+    "owner": "CONTROL_MapButton_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 899,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 903,
+    "operand": 0,
+    "owner": "control_branch_137",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 906,
+    "operand": 0,
+    "owner": "CONTROL_MapButton_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 908,
+    "operand": 1,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 912,
+    "operand": 0,
+    "owner": "control_branch_138",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 913,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 916,
+    "operand": 0,
+    "owner": "control_branch_139",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 919,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 923,
+    "operand": 0,
+    "owner": "control_branch_140",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 925,
+    "operand": 0,
+    "owner": "CONTROL_MapAnalogAxis_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 927,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 931,
+    "operand": 0,
+    "owner": "control_branch_141",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 934,
+    "operand": 0,
+    "owner": "CONTROL_MapDigitalAxis_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 936,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 940,
+    "operand": 0,
+    "owner": "control_branch_142",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 943,
+    "operand": 0,
+    "owner": "CONTROL_MapDigitalAxis_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 945,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 949,
+    "operand": 0,
+    "owner": "control_branch_143",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 965,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 966,
+    "operand": 0,
+    "owner": "_CONTROL_ExternalEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 967,
+    "operand": 0,
+    "owner": "control_branch_144",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 973,
+    "operand": 0,
+    "owner": "int386_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 974,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 975,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 977,
+    "operand": 0,
+    "owner": "control_branch_144",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 986,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": -8,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 988,
+    "operand": 0,
+    "owner": "control_branch_145",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 990,
+    "operand": 0,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1002,
+    "operand": 1,
+    "owner": "control_clock_ticks",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1004,
+    "operand": 0,
+    "owner": "control_clock_ticks",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1012,
+    "operand": 0,
+    "owner": "control_branch_146",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1014,
+    "operand": 0,
+    "owner": "control_branch_147",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1018,
+    "operand": 0,
+    "owner": "err_range",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1019,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1030,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1032,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 2,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1033,
+    "operand": 0,
+    "owner": "control_branch_148",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1034,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1040,
+    "operand": 0,
+    "owner": "control_branch_149",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1041,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 3,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1042,
+    "operand": 0,
+    "owner": "control_branch_150",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1043,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1047,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 3,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1048,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1054,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 3,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1065,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1066,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 8
+    }
+  },
+  {
+    "line": 1069,
+    "operand": 0,
+    "owner": "control_branch_151",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1070,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 2
+    }
+  },
+  {
+    "line": 1072,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 1
+    }
+  },
+  {
+    "line": 1075,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 2
+    }
+  },
+  {
+    "line": 1077,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1094,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1095,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 8
+    }
+  },
+  {
+    "line": 1096,
+    "operand": 0,
+    "owner": "control_branch_152",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1098,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 2
+    }
+  },
+  {
+    "line": 1100,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1102,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 2
+    }
+  },
+  {
+    "line": 1103,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1116,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1118,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 2,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1120,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1121,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1122,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 3,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1125,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1126,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1127,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "ebx": 8
+    }
+  },
+  {
+    "line": 1129,
+    "operand": 0,
+    "owner": "control_branch_153",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1131,
+    "operand": 0,
+    "owner": "err_define",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1132,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1144,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1145,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 8
+    }
+  },
+  {
+    "line": 1155,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1156,
+    "operand": 0,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ecx": 2
+    }
+  },
+  {
+    "line": 1157,
+    "operand": 0,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "ecx": 2
+    }
+  },
+  {
+    "line": 1169,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1172,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1175,
+    "operand": 0,
+    "owner": "msg_keymap",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1177,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1181,
+    "operand": 0,
+    "owner": "control_branch_154",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1192,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1195,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 3,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1198,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 2,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1201,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1203,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1207,
+    "operand": 0,
+    "owner": "msg_flag",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1208,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1218,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1220,
+    "operand": 0,
+    "owner": "msg_numaxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1222,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1227,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 2,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1230,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1233,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1236,
+    "operand": 0,
+    "owner": "msg_axis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1238,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1242,
+    "operand": 0,
+    "owner": "control_branch_155",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1253,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1255,
+    "operand": 0,
+    "owner": "control_branch_156",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1256,
+    "operand": 1,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1257,
+    "operand": 0,
+    "owner": "control_branch_157",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1259,
+    "operand": 1,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1262,
+    "operand": 0,
+    "owner": "err_button",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1263,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1268,
+    "operand": 0,
+    "owner": "control_branch_158",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1269,
+    "operand": 0,
+    "owner": "_CONTROL_DeviceButtonMapping",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1274,
+    "operand": 0,
+    "owner": "_CONTROL_DeviceButtonMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1285,
+    "operand": 0,
+    "owner": "control_branch_159",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1287,
+    "operand": 0,
+    "owner": "control_branch_160",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1291,
+    "operand": 0,
+    "owner": "err_analog_axis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1292,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1296,
+    "operand": 0,
+    "owner": "control_branch_161",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1298,
+    "operand": 0,
+    "owner": "control_branch_162",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1302,
+    "operand": 0,
+    "owner": "err_analog_function",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1303,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1306,
+    "operand": 0,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 4
+    }
+  },
+  {
+    "line": 1316,
+    "operand": 0,
+    "owner": "control_branch_163",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1318,
+    "operand": 0,
+    "owner": "control_branch_164",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1322,
+    "operand": 0,
+    "owner": "err_axis_scale",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1323,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1326,
+    "operand": 0,
+    "owner": "_CONTROL_AxesScale",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 4
+    }
+  },
+  {
+    "line": 1336,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1338,
+    "operand": 0,
+    "owner": "control_branch_165",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1340,
+    "operand": 0,
+    "owner": "control_branch_166",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1344,
+    "operand": 0,
+    "owner": "err_digital_axis",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1345,
+    "operand": 0,
+    "owner": "Error_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1349,
+    "operand": 0,
+    "owner": "control_branch_167",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1351,
+    "operand": 0,
+    "owner": "control_branch_168",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1353,
+    "operand": 0,
+    "owner": "control_branch_169",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1358,
+    "operand": 0,
+    "owner": "control_branch_170",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1360,
+    "operand": 0,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 2,
+    "register_terms": {
+      "ecx": 4
+    }
+  },
+  {
+    "line": 1364,
+    "operand": 0,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "ecx": 4
+    }
+  },
+  {
+    "line": 1377,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": -7,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1379,
+    "operand": 0,
+    "owner": "control_branch_171",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1390,
+    "operand": 1,
+    "owner": "_CONTROL_DeviceButtonMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1391,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1394,
+    "operand": 1,
+    "owner": "_CONTROL_KeyMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1395,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1397,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1399,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1404,
+    "operand": 0,
+    "owner": "_CONTROL_AxesScale",
+    "coefficient": 1,
+    "addend": -4,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1406,
+    "operand": 0,
+    "owner": "control_branch_172",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1408,
+    "operand": 1,
+    "owner": "_CONTROL_LastAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1410,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1413,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1414,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1428,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1429,
+    "operand": 1,
+    "owner": "_CONTROL_MouseEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1433,
+    "operand": 0,
+    "owner": "control_buttons_test_joystick",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1434,
+    "operand": 0,
+    "owner": "MOUSE_GetButtons_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1437,
+    "operand": 0,
+    "owner": "_CONTROL_JoystickEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1438,
+    "operand": 0,
+    "owner": "control_buttons_test_external",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1440,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1441,
+    "operand": 0,
+    "owner": "CONTROL_JoyButtons_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1444,
+    "operand": 0,
+    "owner": "_CONTROL_ExternalEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1445,
+    "operand": 0,
+    "owner": "control_buttons_begin",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1446,
+    "operand": 1,
+    "owner": "_CONTROL_External",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1449,
+    "operand": 1,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1452,
+    "operand": 0,
+    "owner": "control_buttons_done",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1453,
+    "operand": 1,
+    "owner": "_CONTROL_DoubleClickSpeed",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1462,
+    "operand": 0,
+    "owner": "_CONTROL_DeviceButtonState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1463,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1465,
+    "operand": 0,
+    "owner": "control_buttons_released",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1466,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClicked",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1467,
+    "operand": 0,
+    "owner": "control_buttons_held",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1469,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonClickedCount",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1470,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClicked",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1472,
+    "operand": 0,
+    "owner": "control_buttons_first",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1473,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonClickedTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1474,
+    "operand": 0,
+    "owner": "control_buttons_double",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1477,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1478,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedCount",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1479,
+    "operand": 0,
+    "owner": "control_buttons_next",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1482,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1484,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1485,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedCount",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1486,
+    "operand": 0,
+    "owner": "control_buttons_next",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1488,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedCount",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1489,
+    "operand": 0,
+    "owner": "control_buttons_next",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1490,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1491,
+    "operand": 0,
+    "owner": "control_buttons_next",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1493,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedCount",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1494,
+    "operand": 0,
+    "owner": "control_buttons_clear_clicked",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1496,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClickedCount",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1499,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonClicked",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1501,
+    "operand": 1,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1505,
+    "operand": 0,
+    "owner": "control_buttons_each",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1523,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1526,
+    "operand": 1,
+    "owner": "_CONTROL_LastAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1528,
+    "operand": 0,
+    "owner": "control_branch_184",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1530,
+    "operand": 0,
+    "owner": "control_branch_185",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1539,
+    "operand": 0,
+    "owner": "control_branch_186",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1542,
+    "operand": 0,
+    "owner": "control_branch_186",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1551,
+    "operand": 0,
+    "owner": "control_branch_187",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1560,
+    "operand": 0,
+    "owner": "control_branch_186",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1563,
+    "operand": 0,
+    "owner": "control_branch_186",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1580,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1582,
+    "operand": 1,
+    "owner": "_CONTROL_AxesScale",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 4
+    }
+  },
+  {
+    "line": 1595,
+    "operand": 0,
+    "owner": "control_case_55",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1595,
+    "operand": 1,
+    "owner": "control_case_56",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1595,
+    "operand": 2,
+    "owner": "control_case_57",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1595,
+    "operand": 3,
+    "owner": "control_case_58",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1595,
+    "operand": 4,
+    "owner": "control_case_59",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1595,
+    "operand": 5,
+    "owner": "control_case_60",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1600,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 4
+    }
+  },
+  {
+    "line": 1602,
+    "operand": 0,
+    "owner": "control_branch_188",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1604,
+    "operand": 0,
+    "owner": "control_apply_analog_table",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 4
+    }
+  },
+  {
+    "line": 1606,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1611,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1616,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1621,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1626,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1631,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 8
+    }
+  },
+  {
+    "line": 1649,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1650,
+    "operand": 1,
+    "owner": "_CONTROL_LastAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1662,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1663,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1667,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1668,
+    "operand": 0,
+    "owner": "_CONTROL_MouseEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1669,
+    "operand": 0,
+    "owner": "control_branch_189",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1670,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 8,
+    "register_terms": {}
+  },
+  {
+    "line": 1671,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1672,
+    "operand": 0,
+    "owner": "CONTROL_GetMouseDelta_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1673,
+    "operand": 0,
+    "owner": "control_branch_190",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1675,
+    "operand": 0,
+    "owner": "_CONTROL_JoystickEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1676,
+    "operand": 0,
+    "owner": "control_branch_191",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1677,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 24,
+    "register_terms": {}
+  },
+  {
+    "line": 1678,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 16,
+    "register_terms": {}
+  },
+  {
+    "line": 1679,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 8,
+    "register_terms": {}
+  },
+  {
+    "line": 1681,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1682,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1683,
+    "operand": 0,
+    "owner": "CONTROL_GetJoyDelta_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1684,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1689,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1690,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 16,
+    "register_terms": {}
+  },
+  {
+    "line": 1695,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 16,
+    "register_terms": {}
+  },
+  {
+    "line": 1696,
+    "operand": 0,
+    "owner": "control_branch_190",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1698,
+    "operand": 0,
+    "owner": "_CONTROL_ExternalEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1699,
+    "operand": 0,
+    "owner": "control_branch_190",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1700,
+    "operand": 0,
+    "owner": "CONTROL_PollExternalControl_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1702,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1705,
+    "operand": 0,
+    "owner": "control_branch_192",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1706,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1711,
+    "operand": 0,
+    "owner": "CONTROL_DigitizeAxis_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1715,
+    "operand": 1,
+    "owner": "_CONTROL_AxesScale",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1719,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edi": 1
+    }
+  },
+  {
+    "line": 1720,
+    "operand": 0,
+    "owner": "control_branch_193",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1721,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edi": 1
+    }
+  },
+  {
+    "line": 1723,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edi": 1
+    }
+  },
+  {
+    "line": 1724,
+    "operand": 0,
+    "owner": "control_branch_194",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1725,
+    "operand": 0,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edi": 1
+    }
+  },
+  {
+    "line": 1729,
+    "operand": 0,
+    "owner": "CONTROL_ApplyAxis_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1733,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1738,
+    "operand": 0,
+    "owner": "control_branch_195",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1740,
+    "operand": 0,
+    "owner": "CONTROL_GetDeviceButtons_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1758,
+    "operand": 1,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1762,
+    "operand": 0,
+    "owner": "control_branch_196",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1766,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {
+      "edx": 1
+    }
+  },
+  {
+    "line": 1768,
+    "operand": 0,
+    "owner": "control_branch_197",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1769,
+    "operand": 0,
+    "owner": "control_branch_198",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1771,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1773,
+    "operand": 0,
+    "owner": "control_branch_197",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1774,
+    "operand": 0,
+    "owner": "control_branch_199",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1777,
+    "operand": 1,
+    "owner": "_CONTROL_AxesMap",
+    "coefficient": 1,
+    "addend": 2,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1779,
+    "operand": 0,
+    "owner": "control_branch_197",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1787,
+    "operand": 0,
+    "owner": "control_branch_200",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1789,
+    "operand": 0,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1805,
+    "operand": 1,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1809,
+    "operand": 0,
+    "owner": "control_branch_201",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1813,
+    "operand": 1,
+    "owner": "_CONTROL_DeviceButtonMapping",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1815,
+    "operand": 0,
+    "owner": "control_branch_202",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1816,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonClickedState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1820,
+    "operand": 1,
+    "owner": "_CONTROL_DeviceButtonMapping",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1822,
+    "operand": 0,
+    "owner": "control_branch_203",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1823,
+    "operand": 1,
+    "owner": "_CONTROL_DeviceButtonState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 1829,
+    "operand": 0,
+    "owner": "control_branch_204",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1831,
+    "operand": 0,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1850,
+    "operand": 0,
+    "owner": "CONTROL_PollDevices_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1851,
+    "operand": 1,
+    "owner": "_ticrate",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1863,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1865,
+    "operand": 1,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1866,
+    "operand": 0,
+    "owner": "control_branch_205",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1867,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1869,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1870,
+    "operand": 1,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1871,
+    "operand": 0,
+    "owner": "control_branch_206",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1872,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 12,
+    "register_terms": {}
+  },
+  {
+    "line": 1874,
+    "operand": 0,
+    "owner": "control_branch_207",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1876,
+    "operand": 0,
+    "owner": "control_branch_206",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1879,
+    "operand": 0,
+    "owner": "control_branch_208",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1881,
+    "operand": 0,
+    "owner": "control_branch_206",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1883,
+    "operand": 1,
+    "owner": "_CONTROL_Axes",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {}
+  },
+  {
+    "line": 1885,
+    "operand": 0,
+    "owner": "control_branch_209",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1887,
+    "operand": 0,
+    "owner": "control_branch_206",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1890,
+    "operand": 0,
+    "owner": "control_branch_206",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1893,
+    "operand": 1,
+    "owner": "_CONTROL_DeviceButtonState",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1895,
+    "operand": 1,
+    "owner": "_CONTROL_DeviceButtonState",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {}
+  },
+  {
+    "line": 1897,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 90,
+    "register_terms": {}
+  },
+  {
+    "line": 1898,
+    "operand": 0,
+    "owner": "control_branch_210",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1899,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 72,
+    "register_terms": {}
+  },
+  {
+    "line": 1900,
+    "operand": 0,
+    "owner": "control_branch_211",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1903,
+    "operand": 0,
+    "owner": "control_branch_212",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1905,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 106,
+    "register_terms": {}
+  },
+  {
+    "line": 1906,
+    "operand": 0,
+    "owner": "control_branch_213",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1907,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 80,
+    "register_terms": {}
+  },
+  {
+    "line": 1908,
+    "operand": 0,
+    "owner": "control_branch_214",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1911,
+    "operand": 0,
+    "owner": "control_branch_212",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1913,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 107,
+    "register_terms": {}
+  },
+  {
+    "line": 1914,
+    "operand": 0,
+    "owner": "control_branch_215",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1915,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 75,
+    "register_terms": {}
+  },
+  {
+    "line": 1916,
+    "operand": 0,
+    "owner": "control_branch_216",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1919,
+    "operand": 0,
+    "owner": "control_branch_212",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1921,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 108,
+    "register_terms": {}
+  },
+  {
+    "line": 1922,
+    "operand": 0,
+    "owner": "control_branch_217",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1923,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 77,
+    "register_terms": {}
+  },
+  {
+    "line": 1924,
+    "operand": 0,
+    "owner": "control_branch_212",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1928,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 57,
+    "register_terms": {}
+  },
+  {
+    "line": 1929,
+    "operand": 0,
+    "owner": "control_branch_218",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1930,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 28,
+    "register_terms": {}
+  },
+  {
+    "line": 1931,
+    "operand": 0,
+    "owner": "control_branch_218",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1932,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 104,
+    "register_terms": {}
+  },
+  {
+    "line": 1933,
+    "operand": 0,
+    "owner": "control_branch_219",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1937,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 1,
+    "register_terms": {}
+  },
+  {
+    "line": 1938,
+    "operand": 0,
+    "owner": "control_branch_220",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1941,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {}
+  },
+  {
+    "line": 1942,
+    "operand": 0,
+    "owner": "control_branch_221",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1945,
+    "operand": 0,
+    "owner": "control_branch_222",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1946,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {}
+  },
+  {
+    "line": 1947,
+    "operand": 0,
+    "owner": "control_branch_221",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1951,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 8,
+    "register_terms": {}
+  },
+  {
+    "line": 1952,
+    "operand": 0,
+    "owner": "control_branch_223",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1955,
+    "operand": 0,
+    "owner": "control_branch_224",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1956,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 8,
+    "register_terms": {}
+  },
+  {
+    "line": 1957,
+    "operand": 0,
+    "owner": "control_branch_223",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 0,
+    "owner": "control_case_62",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 1,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 2,
+    "owner": "control_case_64",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 3,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 4,
+    "owner": "control_case_65",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 5,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1971,
+    "operand": 6,
+    "owner": "control_case_66",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1981,
+    "operand": 0,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1983,
+    "operand": 0,
+    "owner": "control_clear_direction_table",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 4
+    }
+  },
+  {
+    "line": 1985,
+    "operand": 1,
+    "owner": "_ticrate",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1995,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1997,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 1999,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2001,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 90,
+    "register_terms": {}
+  },
+  {
+    "line": 2002,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 72,
+    "register_terms": {}
+  },
+  {
+    "line": 2003,
+    "operand": 0,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2005,
+    "operand": 1,
+    "owner": "_ticrate",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2011,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2018,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2020,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2022,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 106,
+    "register_terms": {}
+  },
+  {
+    "line": 2023,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 80,
+    "register_terms": {}
+  },
+  {
+    "line": 2024,
+    "operand": 0,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2026,
+    "operand": 1,
+    "owner": "_ticrate",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2036,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2038,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2041,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2042,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 107,
+    "register_terms": {}
+  },
+  {
+    "line": 2043,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 75,
+    "register_terms": {}
+  },
+  {
+    "line": 2044,
+    "operand": 0,
+    "owner": "control_case_63",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2046,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2047,
+    "operand": 1,
+    "owner": "_ticrate",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2058,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2060,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputDelay",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2062,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 108,
+    "register_terms": {}
+  },
+  {
+    "line": 2063,
+    "operand": 0,
+    "owner": "_KB_KeyDown",
+    "coefficient": 1,
+    "addend": 77,
+    "register_terms": {}
+  },
+  {
+    "line": 2066,
+    "operand": 0,
+    "owner": "control_branch_225",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2067,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {}
+  },
+  {
+    "line": 2070,
+    "operand": 0,
+    "owner": "control_branch_226",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2071,
+    "operand": 0,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 8,
+    "register_terms": {}
+  },
+  {
+    "line": 2086,
+    "operand": 0,
+    "owner": "CONTROL_CheckRange_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2088,
+    "operand": 0,
+    "owner": "control_branch_227",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2093,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2096,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2097,
+    "operand": 0,
+    "owner": "control_branch_228",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2103,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2106,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2108,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {
+      "edx": 8
+    }
+  },
+  {
+    "line": 2126,
+    "operand": 0,
+    "owner": "ServiceEvents_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2130,
+    "operand": 0,
+    "owner": "CONTROL_PollDevices_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2135,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2138,
+    "operand": 0,
+    "owner": "CONTROL_ButtonFunctionState_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2141,
+    "operand": 0,
+    "owner": "CONTROL_AxisFunctionState_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2142,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2144,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonHeldState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2145,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2146,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2147,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonHeldState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2148,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2151,
+    "operand": 0,
+    "owner": "CONTROL_KeyboardFunctionPressed_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2155,
+    "operand": 0,
+    "owner": "CONTROL_SetFlag_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2156,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {
+      "esi": 1
+    }
+  },
+  {
+    "line": 2158,
+    "operand": 0,
+    "owner": "control_branch_229",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2159,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "esi": 1
+    }
+  },
+  {
+    "line": 2160,
+    "operand": 0,
+    "owner": "control_branch_230",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2162,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 4,
+    "register_terms": {
+      "esi": 1
+    }
+  },
+  {
+    "line": 2163,
+    "operand": 0,
+    "owner": "control_branch_230",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2166,
+    "operand": 0,
+    "owner": "control_branch_231",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2168,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "esi": 1
+    }
+  },
+  {
+    "line": 2170,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2171,
+    "operand": 0,
+    "owner": "control_branch_230",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2174,
+    "operand": 1,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "esi": 1
+    }
+  },
+  {
+    "line": 2175,
+    "operand": 1,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2178,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2187,
+    "operand": 0,
+    "owner": "control_branch_232",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2203,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2205,
+    "operand": 0,
+    "owner": "control_branch_233",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2207,
+    "operand": 0,
+    "owner": "control_branch_233",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2209,
+    "operand": 0,
+    "owner": "control_branch_233",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2223,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2227,
+    "operand": 0,
+    "owner": "CONTROL_GetUserInput_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2230,
+    "operand": 0,
+    "owner": "control_branch_234",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2235,
+    "operand": 0,
+    "owner": "control_branch_235",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2240,
+    "operand": 0,
+    "owner": "control_branch_236",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2242,
+    "operand": 0,
+    "owner": "control_branch_236",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2244,
+    "operand": 0,
+    "owner": "control_branch_237",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2251,
+    "operand": 0,
+    "owner": "control_branch_238",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2253,
+    "operand": 0,
+    "owner": "control_branch_238",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2255,
+    "operand": 0,
+    "owner": "control_branch_239",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2260,
+    "operand": 0,
+    "owner": "control_branch_240",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2262,
+    "operand": 0,
+    "owner": "control_branch_241",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2275,
+    "operand": 0,
+    "owner": "control_case_68",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2275,
+    "operand": 1,
+    "owner": "control_case_71",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2275,
+    "operand": 2,
+    "owner": "control_case_70",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2275,
+    "operand": 3,
+    "owner": "control_case_69",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2275,
+    "operand": 4,
+    "owner": "control_case_72",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2275,
+    "operand": 5,
+    "owner": "control_case_73",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2278,
+    "operand": 0,
+    "owner": "control_case_75",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2278,
+    "operand": 1,
+    "owner": "control_case_76",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2278,
+    "operand": 2,
+    "owner": "control_case_77",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2278,
+    "operand": 3,
+    "owner": "control_case_78",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2278,
+    "operand": 4,
+    "owner": "control_case_79",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2288,
+    "operand": 0,
+    "owner": "_CONTROL_Started",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2289,
+    "operand": 0,
+    "owner": "control_branch_242",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2291,
+    "operand": 0,
+    "owner": "control_branch_243",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2292,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2293,
+    "operand": 0,
+    "owner": "control_branch_244",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2295,
+    "operand": 0,
+    "owner": "_GetTime",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2295,
+    "operand": 1,
+    "owner": "CONTROL_GetTime_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2297,
+    "operand": 0,
+    "owner": "_ticrate",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2306,
+    "operand": 0,
+    "owner": "_CONTROL_DoubleClickSpeed",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2308,
+    "operand": 0,
+    "owner": "control_branch_245",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2309,
+    "operand": 0,
+    "owner": "_CONTROL_DoubleClickSpeed",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2311,
+    "operand": 1,
+    "owner": "_CONTROL_JoystickPort",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2316,
+    "operand": 0,
+    "owner": "control_branch_246",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2319,
+    "operand": 0,
+    "owner": "control_branch_246",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2321,
+    "operand": 0,
+    "owner": "control_branch_246",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2327,
+    "operand": 0,
+    "owner": "control_branch_247",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2329,
+    "operand": 0,
+    "owner": "control_start_device_table",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "edx": 4
+    }
+  },
+  {
+    "line": 2333,
+    "operand": 0,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2334,
+    "operand": 0,
+    "owner": "control_branch_247",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2340,
+    "operand": 0,
+    "owner": "_CONTROL_FlightStickMode",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2341,
+    "operand": 0,
+    "owner": "_CONTROL_HatEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2342,
+    "operand": 0,
+    "owner": "control_branch_248",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2348,
+    "operand": 0,
+    "owner": "_CONTROL_FlightStickMode",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2349,
+    "operand": 0,
+    "owner": "_CONTROL_HatEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2350,
+    "operand": 0,
+    "owner": "_CONTROL_ThrottleEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2351,
+    "operand": 0,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2352,
+    "operand": 0,
+    "owner": "control_branch_247",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2356,
+    "operand": 0,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2357,
+    "operand": 0,
+    "owner": "control_branch_247",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2362,
+    "operand": 0,
+    "owner": "_CONTROL_FlightStickMode",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2363,
+    "operand": 0,
+    "owner": "_CONTROL_HatEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2364,
+    "operand": 0,
+    "owner": "_CONTROL_ThrottleEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2365,
+    "operand": 0,
+    "owner": "control_branch_249",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2370,
+    "operand": 0,
+    "owner": "_CONTROL_FlightStickMode",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2371,
+    "operand": 0,
+    "owner": "_CONTROL_HatEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2373,
+    "operand": 0,
+    "owner": "_CONTROL_ThrottleEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2375,
+    "operand": 0,
+    "owner": "_CONTROL_NumAxes",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2378,
+    "operand": 0,
+    "owner": "_CONTROL_MousePresent",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2380,
+    "operand": 0,
+    "owner": "control_branch_250",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2381,
+    "operand": 0,
+    "owner": "_CONTROL_NumButtons",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2382,
+    "operand": 0,
+    "owner": "MOUSE_Init_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2383,
+    "operand": 0,
+    "owner": "_CONTROL_MousePresent",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2385,
+    "operand": 1,
+    "owner": "_CONTROL_MousePresent",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2387,
+    "operand": 0,
+    "owner": "control_branch_251",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2388,
+    "operand": 0,
+    "owner": "_CONTROL_MouseEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2389,
+    "operand": 0,
+    "owner": "control_branch_252",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2391,
+    "operand": 0,
+    "owner": "msg_mouse",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2393,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2395,
+    "operand": 0,
+    "owner": "_CONTROL_MouseEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2401,
+    "operand": 0,
+    "owner": "_CONTROL_JoysPresent",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 1
+    }
+  },
+  {
+    "line": 2403,
+    "operand": 0,
+    "owner": "control_branch_253",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2405,
+    "operand": 0,
+    "owner": "CONTROL_StartJoy_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2406,
+    "operand": 0,
+    "owner": "_CONTROL_JoysPresent",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "ebx": 1
+    }
+  },
+  {
+    "line": 2408,
+    "operand": 0,
+    "owner": "control_branch_253",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2409,
+    "operand": 0,
+    "owner": "_CONTROL_JoystickEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2414,
+    "operand": 0,
+    "owner": "control_branch_254",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2415,
+    "operand": 0,
+    "owner": "_CONTROL_JoystickEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2416,
+    "operand": 0,
+    "owner": "control_case_76",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2420,
+    "operand": 0,
+    "owner": "control_case_76",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2422,
+    "operand": 0,
+    "owner": "control_start_message_table",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {
+      "eax": 4
+    }
+  },
+  {
+    "line": 2424,
+    "operand": 0,
+    "owner": "msg_gamepad",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2425,
+    "operand": 0,
+    "owner": "control_branch_255",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2427,
+    "operand": 0,
+    "owner": "msg_joystick",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2428,
+    "operand": 0,
+    "owner": "control_branch_255",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2430,
+    "operand": 0,
+    "owner": "msg_flightstick",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2431,
+    "operand": 0,
+    "owner": "control_branch_255",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2433,
+    "operand": 0,
+    "owner": "msg_thrustmaster",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2435,
+    "operand": 0,
+    "owner": "printf_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2439,
+    "operand": 0,
+    "owner": "control_branch_256",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2440,
+    "operand": 0,
+    "owner": "CONTROL_ExternalStartup_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2443,
+    "operand": 1,
+    "owner": "_CONTROL_UserInputCleared",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2446,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2447,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2448,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonHeldState1",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2449,
+    "operand": 0,
+    "owner": "_CONTROL_ButtonHeldState2",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2450,
+    "operand": 0,
+    "owner": "memset_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2455,
+    "operand": 0,
+    "owner": "_CONTROL_Flags",
+    "coefficient": 1,
+    "addend": -7,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 2457,
+    "operand": 0,
+    "owner": "control_branch_257",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2458,
+    "operand": 0,
+    "owner": "_CONTROL_ExternalEnabled",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2459,
+    "operand": 0,
+    "owner": "control_branch_258",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2460,
+    "operand": 0,
+    "owner": "CONTROL_ExternalSetup_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2462,
+    "operand": 0,
+    "owner": "_CONTROL_Started",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2475,
+    "operand": 0,
+    "owner": "_CONTROL_Started",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2476,
+    "operand": 0,
+    "owner": "control_branch_259",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2481,
+    "operand": 0,
+    "owner": "_CONTROL_JoysPresent",
+    "coefficient": 1,
+    "addend": -4,
+    "register_terms": {
+      "eax": 1
+    }
+  },
+  {
+    "line": 2483,
+    "operand": 0,
+    "owner": "control_branch_260",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2484,
+    "operand": 0,
+    "owner": "MOUSE_Shutdown_",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  },
+  {
+    "line": 2485,
+    "operand": 0,
+    "owner": "_CONTROL_Started",
+    "coefficient": 1,
+    "addend": 0,
+    "register_terms": {}
+  }
+]

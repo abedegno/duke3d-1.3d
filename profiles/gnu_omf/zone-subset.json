@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "base_tool_profile_sha256": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+  "decoder_manifest_sha256": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+  "general_coff_support": false,
+  "source_credit": 0,
+  "name": "gnu-objconv-zone-finite-extension",
+  "scope": "Complete authored ZONE only; source-private correspondence, no common guard/profile relaxation",
+  "contract": "src/mact/zone/contract.py",
+  "scope_correspondence": "src/mact/zone/scope_roles.py",
+  "descriptor": "modules/mact_zone.json",
+  "assembler_additional_options": [
+    "-L",
+    "-no-pad-sections"
+  ],
+  "sections": [
+    ".text",
+    ".data",
+    ".bss",
+    "_TEXT",
+    "CONST",
+    "CONST2",
+    "_DATA",
+    "_BSS"
+  ],
+  "native_custom_section_alignment": "BYTE xr0/dw0/b0, exact odd CODE2367/CONST1427; actual final target alignment16/4/4/16 remains mandatory",
+  "source_private_identities": 127,
+  "source_absolute_constants": 17,
+  "public_definitions": 22,
+  "imports": 8,
+  "native_fixups": 78,
+  "original_roles": 114,
+  "resolved_same_TU_CALL_roles": 36,
+  "original_named_privates": 7
+}

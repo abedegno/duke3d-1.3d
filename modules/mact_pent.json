@@ -1,0 +1,83 @@
+{
+  "name": "MACT_PENT",
+  "source": "src/mact/pent.asm",
+  "producer": "native-wasm",
+  "options": [
+    "-fo=OUT.OBJ"
+  ],
+  "source_reference_evidence": "evidence/mact-asm-source-reference.json",
+  "placements": {
+    "2": [
+      3,
+      67936
+    ],
+    "3": [
+      2,
+      0
+    ]
+  },
+  "segments": [
+    [
+      "_TEXT",
+      "CODE",
+      0,
+      73
+    ],
+    [
+      "_DATA",
+      "DATA",
+      16,
+      73
+    ],
+    [
+      "TEXT",
+      "",
+      56,
+      97
+    ]
+  ],
+  "publics": {
+    "_PENT_timeh": [
+      2,
+      8
+    ],
+    "_PENT_timel": [
+      2,
+      12
+    ],
+    "PENT_Start_": [
+      3,
+      0
+    ],
+    "PENT_Stop_": [
+      3,
+      22
+    ]
+  },
+  "symbol_anchors": {
+    "_PENT_timeh": [
+      3,
+      67944
+    ],
+    "_PENT_timel": [
+      3,
+      67948
+    ],
+    "PENT_Start_": [
+      2,
+      0
+    ],
+    "PENT_Stop_": [
+      2,
+      22
+    ]
+  },
+  "instruction_object": 2,
+  "instruction_bytes": 56,
+  "object1_code_bytes": 0,
+  "expected": {
+    "initialized_bytes": 72,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 6
+  }
+}

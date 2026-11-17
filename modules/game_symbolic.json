@@ -1,0 +1,129 @@
+{
+  "name": "game_symbolic_candidate",
+  "source": "src/game/symbolic/GAME.S",
+  "companion": "src/game/game_tail.asm",
+  "source_credit": 0,
+  "whole_target_match": false,
+  "native_initialized": 89280,
+  "native_BSS": 4160,
+  "native_fixups": 5018,
+  "original_scope_private_source_names": [
+    "_dmval",
+    "_framecnt",
+    "_frameval",
+    "_inferred_copyright_alignment",
+    "_inferred_inputloc_alignment",
+    "_inferred_serial_alignment",
+    "_oyrepeat",
+    "_todd"
+  ],
+  "known_negative_CONST_offsets": [
+    47,
+    93,
+    94,
+    98,
+    99,
+    134,
+    135
+  ],
+  "known_negative_CONST_source_values": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "tail_source_sha256": "ca1ad3024d620fac400e1a6cf0a1fa3f2cea4218c4285df55bb3a34c11518850",
+  "tail_native_inventory": {
+    "fixup_encodings_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "source_records": [],
+    "name": "GMTAIL.ASM",
+    "segments": [
+      [
+        "_TEXT",
+        "CODE",
+        0,
+        169,
+        null
+      ],
+      [
+        "_DATA",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_BSS",
+        "BSS",
+        15,
+        41,
+        null
+      ]
+    ],
+    "publics": {
+      "_cheatbuf": [
+        3,
+        0
+      ],
+      "_everyothertime": [
+        3,
+        10
+      ],
+      "_cheatbuflen": [
+        3,
+        11
+      ],
+      "_playerswhenstarted": [
+        3,
+        12
+      ],
+      "_restorepalette": [
+        3,
+        13
+      ],
+      "_screencapt": [
+        3,
+        14
+      ]
+    },
+    "local_publics": [],
+    "externals": [],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ],
+      [
+        "DGROUP",
+        [
+          3
+        ]
+      ]
+    ],
+    "fixups": [],
+    "default_libraries": [],
+    "far_call_optimization_segments": [],
+    "comments": [
+      [
+        162,
+        "01"
+      ]
+    ],
+    "dosseg_directives": [],
+    "code_data_ranges": [],
+    "line_numbers": [],
+    "format": "standard-omf",
+    "format_source": null,
+    "thread_definitions": []
+  },
+  "link_order": "main GAME.OBJ then six-public-owner GMTAIL.OBJ",
+  "required_link_libraries": [
+    "clib3r",
+    "math387r",
+    "emu387"
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "name": "actors_native_source",
+  "source_credit": 0,
+  "producer": "tools/build_actors_native.py",
+  "profile": "profiles/gnu_elf_omf_layouts/profile.json",
+  "expected": {
+    "initialized_bytes": 61741,
+    "zero_fill_bytes": 6,
+    "verified_fixups": 2812
+  },
+  "segments": [
+    [
+      "_TEXT",
+      "CODE",
+      61674,
+      105
+    ],
+    [
+      "CONST",
+      "DATA",
+      67,
+      169
+    ],
+    [
+      "CONST2",
+      "DATA",
+      0,
+      169
+    ],
+    [
+      "_DATA",
+      "DATA",
+      0,
+      169
+    ],
+    [
+      "_BSS",
+      "BSS",
+      6,
+      105
+    ]
+  ],
+  "global_definitions": {
+    "updateinterpolations_": [
+      "_TEXT",
+      32
+    ],
+    "setinterpolation_": [
+      "_TEXT",
+      80
+    ],
+    "stopinterpolation_": [
+      "_TEXT",
+      160
+    ],
+    "dointerpolations_": [
+      "_TEXT",
+      272
+    ],
+    "restoreinterpolations_": [
+      "_TEXT",
+      384
+    ],
+    "ceilingspace_": [
+      "_TEXT",
+      432
+    ],
+    "floorspace_": [
+      "_TEXT",
+      512
+    ],
+    "addammo_": [
+      "_TEXT",
+      592
+    ],
+    "addweapon_": [
+      "_TEXT",
+      704
+    ],
+    "checkavailinven_": [
+      "_TEXT",
+      880
+    ],
+    "checkavailweapon_": [
+      "_TEXT",
+      1136
+    ],
+    "ifsquished_": [
+      "_TEXT",
+      1680
+    ],
+    "hitradius_": [
+      "_TEXT",
+      1968
+    ],
+    "movesprite_": [
+      "_TEXT",
+      4128
+    ],
+    "ssp_": [
+      "_TEXT",
+      5312
+    ],
+    "insertspriteq_": [
+      "_TEXT",
+      5408
+    ],
+    "lotsofmoney_": [
+      "_TEXT",
+      5488
+    ],
+    "guts_": [
+      "_TEXT",
+      5616
+    ],
+    "gutsdir_": [
+      "_TEXT",
+      5856
+    ],
+    "setsectinterpolate_": [
+      "_TEXT",
+      6096
+    ],
+    "clearsectinterpolate_": [
+      "_TEXT",
+      6256
+    ],
+    "ms_": [
+      "_TEXT",
+      6400
+    ],
+    "movefta_": [
+      "_TEXT",
+      6656
+    ],
+    "ifhitsectors_": [
+      "_TEXT",
+      7504
+    ],
+    "ifhitbyweapon_": [
+      "_TEXT",
+      7568
+    ],
+    "movecyclers_": [
+      "_TEXT",
+      8432
+    ],
+    "movedummyplayers_": [
+      "_TEXT",
+      8704
+    ],
+    "moveplayers_": [
+      "_TEXT",
+      9200
+    ],
+    "movefx_": [
+      "_TEXT",
+      10160
+    ],
+    "movefallers_": [
+      "_TEXT",
+      11328
+    ],
+    "movestandables_": [
+      "_TEXT",
+      12144
+    ],
+    "bounce_": [
+      "_TEXT",
+      19904
+    ],
+    "moveweapons_": [
+      "_TEXT",
+      20416
+    ],
+    "movetransports_": [
+      "_TEXT",
+      23840
+    ],
+    "moveactors_": [
+      "_TEXT",
+      27216
+    ],
+    "moveexplosions_": [
+      "_TEXT",
+      38752
+    ],
+    "_otherp": [
+      "_BSS",
+      4
+    ],
+    "moveeffectors_": [
+      "_TEXT",
+      42896
+    ]
+  },
+  "private_definitions": {
+    "_dmval": [
+      "_BSS",
+      0
+    ],
+    "_radius_status_record": [
+      "_TEXT",
+      0
+    ]
+  },
+  "genuine_imports": [
+    "EGS_",
+    "FTA_",
+    "FX_SetReverbDelay_",
+    "FX_SetReverb_",
+    "FX_StopAllSounds_",
+    "FX_VoiceAvailable_",
+    "FindDistance2D_",
+    "LocateTheLocator_",
+    "_AmbienceToggle",
+    "_NumVoices",
+    "_Sound",
+    "_SoundToggle",
+    "_actor_tog",
+    "_bakipos",
+    "_bouncemineblastradius",
+    "_camerashitable",
+    "_camsprite",
+    "_connecthead",
+    "_connectpoint2",
+    "_curipos",
+    "_cyclers",
+    "_earthquaketime",
+    "_fricxv",
+    "_fricyv",
+    "_global_random",
+    "_headspritesect",
+    "_headspritestat",
+    "_hittype",
+    "_impact_damage",
+    "_max_ammo_amount",
+    "_max_player_health",
+    "_morterblastradius",
+    "_msx",
+    "_msy",
+    "_myconnectindex",
+    "_nextspritesect",
+    "_nextspritestat",
+    "_numcyclers",
+    "_numenvsnds",
+    "_numinterpolations",
+    "_numplayers",
+    "_oldipos",
+    "_pipebombblastradius",
+    "_po",
+    "_ps",
+    "_respawnitemtime",
+    "_rpgblastradius",
+    "_screenpeek",
+    "_sector",
+    "_seenineblastradius",
+    "_shrinkerblastradius",
+    "_sintable",
+    "_soundm",
+    "_soundpr",
+    "_sprite",
+    "_spriteq",
+    "_spriteqloc",
+    "_startofdynamicinterpolations",
+    "_sync",
+    "_tempbuf",
+    "_tilesizy",
+    "_tripbombblastradius",
+    "_ud",
+    "_wall",
+    "_xdim",
+    "_ydim",
+    "activatebysector_",
+    "activatewarpelevators_",
+    "alignflorslope_",
+    "badguy_",
+    "callsound_",
+    "cansee_",
+    "changespritesect_",
+    "changespritestat_",
+    "check_activator_motion_",
+    "check_fta_sounds_",
+    "checkcursectnums_",
+    "checkhitceiling_",
+    "checkhitsprite_",
+    "checkhitwall_",
+    "clearsoundlocks_",
+    "clipinsidebox_",
+    "clipmove_",
+    "deletesprite_",
+    "dist_",
+    "dragpoint_",
+    "execute_",
+    "findotherplayer_",
+    "findplayer_",
+    "gameexit_",
+    "getangle_",
+    "getanimationgoal_",
+    "getceilzofslope_",
+    "getflorzofslope_",
+    "getglobalz_",
+    "getincangle_",
+    "hitasprite_",
+    "krand_",
+    "ksqrt_",
+    "ldist_",
+    "loadtile_",
+    "makeitfall_",
+    "operateactivators_",
+    "operateforcefields_",
+    "operatemasterswitches_",
+    "operatesectors_",
+    "quickkill_",
+    "rotatepoint_",
+    "setpal_",
+    "setsprite_",
+    "shoot_",
+    "sound_",
+    "spawn_",
+    "sprintf_",
+    "spritesound_",
+    "stopenvsound_",
+    "stopsound_",
+    "updatesector_"
+  ],
+  "qualified_private_source_labels": 1347,
+  "ELF_COFF_identities": 1881,
+  "instruction_count": 15470,
+  "CODE_record_spans": 356,
+  "link_handoff": {
+    "replace": "O001.OBJ",
+    "remove_FILE": "O002.OBJ"
+  },
+  "historical_identity": false,
+  "source_only_no_target_inputs": true
+}

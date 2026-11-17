@@ -1,0 +1,404 @@
+{
+  "kind": "complete source-built MACT RNG contributions, not original OMF identity or a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/random.c",
+  "source_sha256": "b76ec31bada8f23845bb378c813013e74bd24d5cda6c72f4e0cd312d8a0c6769",
+  "headers_sha256": {
+    "_rt_rand.h": "2c148310adb7d153d70aa9162f63538ccacb5d5e4e870e6cb963101670711c41"
+  },
+  "descriptor": "modules/mact_random.json",
+  "descriptor_sha256": "5fe4d7659cb12f76e0d973646650e2b72a4eb580faf2e2986c6763d0ddcd26e9",
+  "source_reference_evidence": "evidence/mact-random-source-reference.json",
+  "source_reference_sha256": "32f8b9128343f333839a57b315f84dc6316dab78533a803805e95c40f8b9ba17",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "source_producer_sha256": "f337288343012b8640f309421e98fe219c12279f5663d3bbbe5ff3cb0dc25445",
+  "proof_tools_sha256": {
+    "profiles/watcom/tools/omf32.py": "2bf7e6ad2402b6777908d10e63a404c90c0006bbef80cdff26e905dc161f98f2",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "profiles/watcom/tools/runner.py": "2cfd511d662523d29984576888cbbe03ed2cf8adf92447b8d64f19e36526a272",
+    "tools/infer_bindings.py": "8cc27466d70bb8a2eb0aae73bba4ae2486cc8e76821bca381666c226c5f80c3d",
+    "tools/verify_module.py": "24f358d506d43cfa39e2edf8adb4bdea5f2327f1fa7ec09888c073f4c80a70d0",
+    "tools/match_function.py": "77611e030faecc3c30b8c15a178615f9ed3523454edc0652b3f62a3c1fe499c0"
+  },
+  "compiler_headers_sha256": {
+    "dos.h": "ba2f96187f557305d52f260b6f1e50d60ce87c32e8742e68a959427aa0275ee0",
+    "i86.h": "14f0a3daed5226486cb9f35febd5823aee9bc5c6b53794afee8486400decb2bc"
+  },
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "source_geometry": {
+    "publics": {
+      "_RandomTable": [
+        4,
+        0
+      ],
+      "GetRandomNumberSeed_": [
+        1,
+        0
+      ],
+      "InitializeRandomNumberGenerator_": [
+        1,
+        56
+      ],
+      "SetRandomNumberIndex_": [
+        1,
+        164
+      ],
+      "GetRandomNumberIndex_": [
+        1,
+        172
+      ],
+      "GameRandom_": [
+        1,
+        180
+      ],
+      "Random_": [
+        1,
+        204
+      ],
+      "_sndindex": [
+        4,
+        2048
+      ],
+      "_rndindex": [
+        5,
+        0
+      ]
+    },
+    "local_publics": [
+      "_rndindex",
+      "_sndindex"
+    ],
+    "externals": [
+      "_dos_gettime_",
+      "_rndindex",
+      "_sndindex",
+      "_RandomTable"
+    ],
+    "local_externals": [
+      2,
+      3
+    ],
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 227,
+        "attributes": 105
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 2052,
+        "attributes": 169
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 4,
+        "attributes": 169
+      }
+    ]
+  },
+  "reference_geometry": {
+    "bss_attributes": 105,
+    "source_bss_attributes": 169,
+    "original_OMF_identity_proved": false,
+    "preceding_RGB_BSS": {
+      "object": 3,
+      "start": 1864256,
+      "size": 265232,
+      "exclusive_end": 2129488
+    },
+    "preceding_RGB_DATA": {
+      "object": 3,
+      "start": 68304,
+      "size": 52,
+      "exclusive_end": 68356
+    },
+    "measured_RNG_BSS_start": 2129488,
+    "align_up_4": 2129488,
+    "align_up_16": 2129488,
+    "scope": "Original reference RGB/RNG boundary independently verified in Task39 review; no RGB source credit, original extraction order or whole-link order proof."
+  },
+  "symbol_anchors": {
+    "_dos_gettime_": [
+      1,
+      591195
+    ]
+  },
+  "anchor_evidence": "evidence/mact-random-source-reference.json",
+  "placements": {
+    "1": [
+      1,
+      564800
+    ],
+    "5": [
+      3,
+      2129488
+    ],
+    "4": [
+      3,
+      68356
+    ]
+  },
+  "symbols": {
+    "_dos_gettime_": [
+      1,
+      591195
+    ],
+    "GetRandomNumberSeed_": [
+      1,
+      564800
+    ],
+    "InitializeRandomNumberGenerator_": [
+      1,
+      564856
+    ],
+    "SetRandomNumberIndex_": [
+      1,
+      564964
+    ],
+    "GetRandomNumberIndex_": [
+      1,
+      564972
+    ],
+    "GameRandom_": [
+      1,
+      564980
+    ],
+    "Random_": [
+      1,
+      565004
+    ],
+    "_rndindex": [
+      3,
+      2129488
+    ],
+    "_sndindex": [
+      3,
+      70404
+    ],
+    "_RandomTable": [
+      3,
+      68356
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 8,
+      "symbol": "_dos_gettime_",
+      "value": [
+        1,
+        591195
+      ]
+    },
+    {
+      "source_offset": 64,
+      "symbol": "_dos_gettime_",
+      "value": [
+        1,
+        591195
+      ]
+    },
+    {
+      "source_offset": 110,
+      "symbol": "_rndindex",
+      "value": [
+        3,
+        2129488
+      ]
+    },
+    {
+      "source_offset": 115,
+      "symbol": "_dos_gettime_",
+      "value": [
+        1,
+        591195
+      ]
+    },
+    {
+      "source_offset": 152,
+      "symbol": "_sndindex",
+      "value": [
+        3,
+        70404
+      ]
+    },
+    {
+      "source_offset": 165,
+      "symbol": "_rndindex",
+      "value": [
+        3,
+        2129488
+      ]
+    },
+    {
+      "source_offset": 173,
+      "symbol": "_rndindex",
+      "value": [
+        3,
+        2129488
+      ]
+    },
+    {
+      "source_offset": 181,
+      "symbol": "_rndindex",
+      "value": [
+        3,
+        2129488
+      ]
+    },
+    {
+      "source_offset": 192,
+      "symbol": "_rndindex",
+      "value": [
+        3,
+        2129488
+      ]
+    },
+    {
+      "source_offset": 198,
+      "symbol": "_RandomTable",
+      "value": [
+        3,
+        68356
+      ]
+    },
+    {
+      "source_offset": 205,
+      "symbol": "_sndindex",
+      "value": [
+        3,
+        70404
+      ]
+    },
+    {
+      "source_offset": 216,
+      "symbol": "_sndindex",
+      "value": [
+        3,
+        70404
+      ]
+    },
+    {
+      "source_offset": 222,
+      "symbol": "_RandomTable",
+      "value": [
+        3,
+        68356
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 2279,
+    "zero_fill_bytes": 4,
+    "verified_fixups": 13,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 564800,
+        "compared_bytes": 227,
+        "verified_fixups": 13,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 68356,
+        "compared_bytes": 2052,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 2129488,
+        "compared_bytes": 4,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_dos_gettime_": [
+        1,
+        591195
+      ],
+      "GetRandomNumberSeed_": [
+        1,
+        564800
+      ],
+      "InitializeRandomNumberGenerator_": [
+        1,
+        564856
+      ],
+      "SetRandomNumberIndex_": [
+        1,
+        564964
+      ],
+      "GetRandomNumberIndex_": [
+        1,
+        564972
+      ],
+      "GameRandom_": [
+        1,
+        564980
+      ],
+      "Random_": [
+        1,
+        565004
+      ],
+      "_rndindex": [
+        3,
+        2129488
+      ],
+      "_sndindex": [
+        3,
+        70404
+      ],
+      "_RandomTable": [
+        3,
+        68356
+      ]
+    },
+    "local_symbols": {
+      "_rndindex": [
+        3,
+        2129488
+      ],
+      "_sndindex": [
+        3,
+        70404
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "full_executable_rebuilt": false,
+  "standard_driver_replay": {
+    "report": "build/mact-random40-integrated/standard.json",
+    "report_sha256": "0a0331899f24adf47e7318d58acda0c74ae7bb6fd7f4517758385fbfc57fb566",
+    "driver_sha256": "12c3117e9b00fa5b0f2d0ee5d0d97dc51d5c6298425c630faeb54a129fe97c1a",
+    "verification_identical": true,
+    "custom_contract_retained": true
+  }
+}

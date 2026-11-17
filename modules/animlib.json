@@ -1,0 +1,12 @@
+{
+  "name": "ANIMLIB",
+  "source": "src/animlib/animlib.c",
+  "options": ["/4r", "/s", "/otr"],
+  "code_object": 1,
+  "code_offset": 425264,
+  "code_bytes": 1045,
+  "code_publics": 11,
+  "symbol_anchors": {"Error_": [1, 555340]},
+  "anchor_evidence": "evidence/rts-module.json",
+  "expected": {"initialized_bytes": 1180, "zero_fill_bytes": 0, "verified_fixups": 53}
+}

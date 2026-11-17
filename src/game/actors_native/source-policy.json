@@ -1,0 +1,16 @@
+{
+  "source_files_sha256": {
+    "source-model.json": "51084f915238ec2b8d47f6d16771045983cf77f526e6cb6660efd4ee5efecfa7",
+    "ACTORS.S": "8fbca8a8b9bd4e4582aa61fc15f0f7a8c5c246ac31bf9706a1ca58dd637c086d",
+    "moveeffectors-NASM-counterpart.asm.txt": "891765b2497cc3d784a3198cc9c647c65a478da9dd328996c62cb620ad9f181f",
+    "actors-C-counterpart.c.txt": "086e47a4d6b3e11abe7c589614ea009b6fb096cd3a0bc0d2b4a25e8a8776e864"
+  },
+  "genuine_instructions": 15470,
+  "genuine_fields": 2812,
+  "global_definitions": 38,
+  "C_private_definitions": 2,
+  "CODE": 61674,
+  "CONST": 67,
+  "BSS": 6,
+  "all_source_semantics_before_target": true
+}

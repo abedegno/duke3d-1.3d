@@ -1,0 +1,109 @@
+{
+  "kind": "Root635 corrective normal GAME source publication closure; independent delta review pending",
+  "original_candidate_commit": "481cfe3",
+  "supersedes": "614 candidate only for source/descriptor snapshot pins, tail validation snapshot and receipt publication",
+  "owned_files_sha256": {
+    "tools/build_game_symbolic.py": "b8f607ee97840f65a087b692bcaa2f77dd0b883c38c0699f14ef6808db69903f",
+    "evidence/game-symbolic-source-reference.json": "96624ebc5a1173682bfe52c47b096d4a8db72316660262ab8670c72bcd813d4e",
+    "tests/test_game_symbolic_publication.py": "5f36b218942386549c5af79234cdd91b8d89cae3c955dd15847265f546b88f8a"
+  },
+  "counterexamples": "All3 new regression methods RED on imported614: declared-source validation window; parsedtail changed beforelatepin; main changed at receiptwrite.",
+  "fix": "Reference and descriptor parsed from raw byte snapshots; expected declared source/notice/helper pins retained through stage/native/publication. Tail parsed from raw bytes whose hash is retained as expected output. Receipt uses pinned native hashes, freshness checked before/after publication; own new receipt removed on failure.",
+  "new_tests_normal": {
+    "methods": 3,
+    "result": "PASS",
+    "seconds": 12.298
+  },
+  "new_tests_optimized": {
+    "methods": 3,
+    "result": "PASS",
+    "seconds": 13.229
+  },
+  "original_tests_normal": {
+    "methods": 13,
+    "result": "PASS",
+    "seconds": 18.044
+  },
+  "original_tests_optimized": {
+    "methods": 13,
+    "result": "PASS",
+    "seconds": 16.799
+  },
+  "fresh_normal_MAIN_sha256": "050676f7b3d07d0317d339848ed310766878bfc16caf79d729cc2ef9f1719f95",
+  "fresh_normal_tail_sha256": "9f565d79c0c6f192d75a8ae0f53e0563699a28c8804490e99ca821d530923684",
+  "normal_whole_target_observer": {
+    "CODE": {
+      "symbol": "complete GAME CODE/all actual fields",
+      "target_object": 1,
+      "target_offset": 16,
+      "compared_bytes": 84142,
+      "verified_fixups": 5018,
+      "differing_offsets": [],
+      "match": true
+    },
+    "functions": 81,
+    "DATA": {
+      "symbol": "complete _DATA",
+      "target_object": 3,
+      "target_offset": 29560,
+      "compared_bytes": 864,
+      "verified_fixups": 0,
+      "differing_offsets": [],
+      "match": true
+    },
+    "BSS": {
+      "symbol": "complete _BSS",
+      "target_object": 3,
+      "target_offset": 73568,
+      "compared_bytes": 4160,
+      "verified_fixups": 0,
+      "differing_offsets": [],
+      "match": true
+    },
+    "CONST_negative": {
+      "symbol": "complete CONST",
+      "target_object": 3,
+      "target_offset": 4,
+      "compared_bytes": 4274,
+      "verified_fixups": 0,
+      "differing_offsets": [
+        47,
+        93,
+        94,
+        98,
+        99,
+        134,
+        135
+      ],
+      "match": false
+    },
+    "tail_zero_fill": 15,
+    "true_providers": {
+      "KB_Shutdown_": [
+        1,
+        569064
+      ],
+      "CONTROL_Shutdown_": [
+        1,
+        577248
+      ]
+    }
+  },
+  "profile_source_built_canonically": {
+    "home": "toolchains/gnu-elf-omf-game",
+    "setup_output_sha256": "e1fb33ce270ead545c7031e4a35944a5121c962560b57843411a6a253e506103",
+    "archives": "Pinned public archives cached under toolchains/archives; no research or game object build input"
+  },
+  "scope": "No GAME.S/Caid/tail/model/contract/options/profile/runtime/source ABI changes; refresh only actual producer helper SHA in source reference. Full GAME target and executable identity remain false pending sevenCONST and serialization.",
+  "source_credit_added": 0,
+  "independent_review": "pending",
+  "evidence_sha256": {
+    "build/task635-game-publication/RED.log": "9f6587d275594b6e414c8484726ccaeda0066787b926543f28b2a88ac460823a",
+    "build/task635-game-publication/normal.log": "b949a3e8cd78045897408b34cd6b2ea4d435e1af23e9b003b7984a1ae650a68a",
+    "build/task635-game-publication/optimized.log": "afb11cc277ceddeaa3b2ff94a585014be582131968b85bd3310a9d2da374747d",
+    "build/task635-game-publication/original-normal.log": "7079d2bc29c8850cbf930044b6430ef55b9cf417993b10c5a239ef67d0a96b4b",
+    "build/task635-game-publication/original-optimized.log": "d9726383b60ce77f56cfd49ee89359eb2db1de485b597d79f9cc320fa3b9f8b0",
+    "build/task635-game-publication/source-build.json": "76b7781e73615341e91543b19552b05be51c97fc26c3378f337deb68d76a038f",
+    "build/task635-game-publication/whole-target.json": "8df9f3094eb465de9bb85ad18c2c7607f8071902606bd1b03fb31a1c8c2e5a92"
+  }
+}

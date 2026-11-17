@@ -1,0 +1,34 @@
+{
+  "name": "AWE32",
+  "source": "src/audio/awe32.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 536080,
+  "code_bytes": 2475,
+  "code_publics": 14,
+  "symbol_anchors": {
+    "BLASTER_ErrorString_": [
+      1,
+      529244
+    ],
+    "BLASTER_GetEnv_": [
+      1,
+      533308
+    ],
+    "BLASTER_GetCardSettings_": [
+      1,
+      533824
+    ]
+  },
+  "anchor_evidence": "evidence/blaster-module.json",
+  "expected": {
+    "initialized_bytes": 2933,
+    "zero_fill_bytes": 262,
+    "verified_fixups": 179
+  }
+}

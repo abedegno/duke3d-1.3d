@@ -1,0 +1,1831 @@
+{
+  "kind": "complete AWE32 object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/audio/awe32.c",
+  "source_sha256": "6226635929a276bf4e69e5c0f510e567993f125c067572ea20250e29c0b91f57",
+  "headers_sha256": {
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "descriptor": "modules/awe32.json",
+  "descriptor_sha256": "100d6ea4bb9af302612e47a89b15cbb0e215481de78b4123248bd7feeaed8240",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "placements": {
+    "1": [
+      1,
+      536080
+    ],
+    "4": [
+      3,
+      62396
+    ],
+    "6": [
+      3,
+      19864
+    ],
+    "5": [
+      3,
+      1796296
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 0,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 4,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 8,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 12,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 16,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 20,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 24,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 28,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 44,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 49,
+      "symbol": "_AWE32_ErrorCode",
+      "value": [
+        3,
+        62696
+      ]
+    },
+    {
+      "source_offset": 65,
+      "segment": 1,
+      "value": [
+        1,
+        536080
+      ]
+    },
+    {
+      "source_offset": 70,
+      "symbol": "_AWE32_messages",
+      "value": [
+        3,
+        19864
+      ]
+    },
+    {
+      "source_offset": 81,
+      "symbol": "BLASTER_ErrorString_",
+      "value": [
+        1,
+        529244
+      ]
+    },
+    {
+      "source_offset": 86,
+      "symbol": "_AWE32_messages",
+      "value": [
+        3,
+        19864
+      ]
+    },
+    {
+      "source_offset": 92,
+      "symbol": "_AWE32_messages",
+      "value": [
+        3,
+        19864
+      ]
+    },
+    {
+      "source_offset": 98,
+      "symbol": "_AWE32_messages",
+      "value": [
+        3,
+        19864
+      ]
+    },
+    {
+      "source_offset": 104,
+      "symbol": "_AWE32_messages",
+      "value": [
+        3,
+        19864
+      ]
+    },
+    {
+      "source_offset": 157,
+      "symbol": "AWE32NOTEOFF",
+      "value": [
+        1,
+        440472
+      ]
+    },
+    {
+      "source_offset": 177,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 189,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 245,
+      "symbol": "AWE32NOTEON",
+      "value": [
+        1,
+        440760
+      ]
+    },
+    {
+      "source_offset": 265,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 277,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 331,
+      "symbol": "AWE32POLYKEYPRESSURE",
+      "value": [
+        1,
+        443240
+      ]
+    },
+    {
+      "source_offset": 376,
+      "symbol": "AWE32CHANNELPRESSURE",
+      "value": [
+        1,
+        443248
+      ]
+    },
+    {
+      "source_offset": 444,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 469,
+      "symbol": "AWE32NOTEOFF",
+      "value": [
+        1,
+        440472
+      ]
+    },
+    {
+      "source_offset": 479,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 518,
+      "symbol": "AWE32CONTROLLER",
+      "value": [
+        1,
+        442000
+      ]
+    },
+    {
+      "source_offset": 568,
+      "symbol": "AWE32PROGRAMCHANGE",
+      "value": [
+        1,
+        442800
+      ]
+    },
+    {
+      "source_offset": 623,
+      "symbol": "AWE32PITCHBEND",
+      "value": [
+        1,
+        443320
+      ]
+    },
+    {
+      "source_offset": 696,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 722,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 777,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 803,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 857,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 883,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 938,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 964,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1018,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1044,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1099,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1138,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1172,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1187,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1202,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1277,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1303,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1345,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1399,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1425,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1467,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1496,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 1501,
+      "symbol": "_awe32SPad2Obj",
+      "value": [
+        3,
+        39872
+      ]
+    },
+    {
+      "source_offset": 1506,
+      "symbol": "_awe32SPad3Obj",
+      "value": [
+        3,
+        40236
+      ]
+    },
+    {
+      "source_offset": 1513,
+      "symbol": "_awe32SPad4Obj",
+      "value": [
+        3,
+        41632
+      ]
+    },
+    {
+      "source_offset": 1520,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 1527,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 1534,
+      "symbol": "_lBankSizes",
+      "value": [
+        3,
+        62440
+      ]
+    },
+    {
+      "source_offset": 1540,
+      "symbol": "_lBankSizes",
+      "value": [
+        3,
+        62440
+      ]
+    },
+    {
+      "source_offset": 1546,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 1551,
+      "symbol": "AWE32DEFINEBANKSIZES",
+      "value": [
+        1,
+        429148
+      ]
+    },
+    {
+      "source_offset": 1556,
+      "symbol": "_awe32SPad1Obj",
+      "value": [
+        3,
+        39352
+      ]
+    },
+    {
+      "source_offset": 1561,
+      "symbol": "_awe32SPad5Obj",
+      "value": [
+        3,
+        41992
+      ]
+    },
+    {
+      "source_offset": 1566,
+      "symbol": "_awe32SPad6Obj",
+      "value": [
+        3,
+        43476
+      ]
+    },
+    {
+      "source_offset": 1571,
+      "symbol": "_awe32SPad7Obj",
+      "value": [
+        3,
+        54356
+      ]
+    },
+    {
+      "source_offset": 1577,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1583,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1589,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1595,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1600,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1606,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1612,
+      "symbol": "_awe32SoundPad",
+      "value": [
+        3,
+        37892
+      ]
+    },
+    {
+      "source_offset": 1652,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1659,
+      "symbol": "_wEMUBaseAddx",
+      "value": [
+        3,
+        1796556
+      ]
+    },
+    {
+      "source_offset": 1666,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1671,
+      "symbol": "BLASTER_GetCardSettings_",
+      "value": [
+        1,
+        533824
+      ]
+    },
+    {
+      "source_offset": 1682,
+      "symbol": "BLASTER_GetEnv_",
+      "value": [
+        1,
+        533308
+      ]
+    },
+    {
+      "source_offset": 1702,
+      "symbol": "_AWE32_ErrorCode",
+      "value": [
+        3,
+        62696
+      ]
+    },
+    {
+      "source_offset": 1716,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1734,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1746,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1765,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1777,
+      "symbol": "_wEMUBaseAddx",
+      "value": [
+        3,
+        1796556
+      ]
+    },
+    {
+      "source_offset": 1788,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1797,
+      "symbol": "_wEMUBaseAddx",
+      "value": [
+        3,
+        1796556
+      ]
+    },
+    {
+      "source_offset": 1805,
+      "symbol": "_wEMUBaseAddx",
+      "value": [
+        3,
+        1796556
+      ]
+    },
+    {
+      "source_offset": 1811,
+      "symbol": "AWE32DETECT",
+      "value": [
+        1,
+        434012
+      ]
+    },
+    {
+      "source_offset": 1834,
+      "symbol": "_AWE32_ErrorCode",
+      "value": [
+        3,
+        62696
+      ]
+    },
+    {
+      "source_offset": 1848,
+      "symbol": "AWE32INITHARDWARE",
+      "value": [
+        1,
+        436220
+      ]
+    },
+    {
+      "source_offset": 1871,
+      "symbol": "_AWE32_ErrorCode",
+      "value": [
+        3,
+        62696
+      ]
+    },
+    {
+      "source_offset": 1885,
+      "symbol": "AWE32INITMIDI",
+      "value": [
+        1,
+        436672
+      ]
+    },
+    {
+      "source_offset": 1897,
+      "symbol": "AWE32_Shutdown_",
+      "value": [
+        1,
+        538324
+      ]
+    },
+    {
+      "source_offset": 1913,
+      "symbol": "_AWE32_ErrorCode",
+      "value": [
+        3,
+        62696
+      ]
+    },
+    {
+      "source_offset": 1927,
+      "symbol": "AWE32_LockEnd_",
+      "value": [
+        1,
+        536716
+      ]
+    },
+    {
+      "source_offset": 1932,
+      "symbol": "AWE32_NoteOff_",
+      "value": [
+        1,
+        536192
+      ]
+    },
+    {
+      "source_offset": 1937,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 1947,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 1952,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 1962,
+      "symbol": "_wEMUBaseAddx",
+      "value": [
+        3,
+        1796556
+      ]
+    },
+    {
+      "source_offset": 1967,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 1977,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 1982,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 1992,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 1997,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2007,
+      "symbol": "_lBankSizes",
+      "value": [
+        3,
+        62440
+      ]
+    },
+    {
+      "source_offset": 2012,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2022,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 2027,
+      "symbol": "DPMI_LockMemory_",
+      "value": [
+        1,
+        527064
+      ]
+    },
+    {
+      "source_offset": 2032,
+      "symbol": "___midieng_ecode",
+      "value": [
+        1,
+        443940
+      ]
+    },
+    {
+      "source_offset": 2037,
+      "symbol": "___midieng_code",
+      "value": [
+        1,
+        436664
+      ]
+    },
+    {
+      "source_offset": 2042,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2047,
+      "symbol": "___midieng_ecode",
+      "value": [
+        1,
+        443940
+      ]
+    },
+    {
+      "source_offset": 2054,
+      "symbol": "___midieng_code",
+      "value": [
+        1,
+        436664
+      ]
+    },
+    {
+      "source_offset": 2059,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2064,
+      "symbol": "___nrpn_ecode",
+      "value": [
+        1,
+        429112
+      ]
+    },
+    {
+      "source_offset": 2069,
+      "symbol": "___nrpn_code",
+      "value": [
+        1,
+        426312
+      ]
+    },
+    {
+      "source_offset": 2074,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2079,
+      "symbol": "___nrpn_ecode",
+      "value": [
+        1,
+        429112
+      ]
+    },
+    {
+      "source_offset": 2086,
+      "symbol": "___nrpn_code",
+      "value": [
+        1,
+        426312
+      ]
+    },
+    {
+      "source_offset": 2091,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2096,
+      "symbol": "___midivar_edata",
+      "value": [
+        3,
+        37920
+      ]
+    },
+    {
+      "source_offset": 2101,
+      "symbol": "___midivar_data",
+      "value": [
+        3,
+        35528
+      ]
+    },
+    {
+      "source_offset": 2106,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2111,
+      "symbol": "___nrpnvar_edata",
+      "value": [
+        3,
+        33904
+      ]
+    },
+    {
+      "source_offset": 2116,
+      "symbol": "___nrpnvar_data",
+      "value": [
+        3,
+        32364
+      ]
+    },
+    {
+      "source_offset": 2121,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2126,
+      "symbol": "___embed_edata",
+      "value": [
+        3,
+        56788
+      ]
+    },
+    {
+      "source_offset": 2131,
+      "symbol": "___embed_data",
+      "value": [
+        3,
+        39348
+      ]
+    },
+    {
+      "source_offset": 2136,
+      "symbol": "DPMI_LockMemoryRegion_",
+      "value": [
+        1,
+        527060
+      ]
+    },
+    {
+      "source_offset": 2145,
+      "symbol": "ShutdownMPU_",
+      "value": [
+        1,
+        537304
+      ]
+    },
+    {
+      "source_offset": 2150,
+      "symbol": "AWE32TERMINATE",
+      "value": [
+        1,
+        436548
+      ]
+    },
+    {
+      "source_offset": 2166,
+      "symbol": "_AWE32_ErrorCode",
+      "value": [
+        3,
+        62696
+      ]
+    },
+    {
+      "source_offset": 2185,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 2192,
+      "symbol": "_awe32NumG",
+      "value": [
+        3,
+        35532
+      ]
+    },
+    {
+      "source_offset": 2197,
+      "symbol": "AWE32TOTALPATCHRAM",
+      "value": [
+        1,
+        429128
+      ]
+    },
+    {
+      "source_offset": 2202,
+      "symbol": "LoadSBK_",
+      "value": [
+        1,
+        537564
+      ]
+    },
+    {
+      "source_offset": 2207,
+      "symbol": "AWE32INITMIDI",
+      "value": [
+        1,
+        436672
+      ]
+    },
+    {
+      "source_offset": 2212,
+      "symbol": "AWE32INITNRPN",
+      "value": [
+        1,
+        426320
+      ]
+    },
+    {
+      "source_offset": 2222,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 2229,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2248,
+      "symbol": "ShutdownMPU_",
+      "value": [
+        1,
+        537304
+      ]
+    },
+    {
+      "source_offset": 2253,
+      "symbol": "AWE32TERMINATE",
+      "value": [
+        1,
+        436548
+      ]
+    },
+    {
+      "source_offset": 2258,
+      "symbol": "AWE32_LockEnd_",
+      "value": [
+        1,
+        536716
+      ]
+    },
+    {
+      "source_offset": 2263,
+      "symbol": "AWE32_NoteOff_",
+      "value": [
+        1,
+        536192
+      ]
+    },
+    {
+      "source_offset": 2268,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2278,
+      "symbol": "_wSBCBaseAddx",
+      "value": [
+        3,
+        1796554
+      ]
+    },
+    {
+      "source_offset": 2283,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2293,
+      "symbol": "_wEMUBaseAddx",
+      "value": [
+        3,
+        1796556
+      ]
+    },
+    {
+      "source_offset": 2298,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2308,
+      "symbol": "_wMpuBaseAddx",
+      "value": [
+        3,
+        1796552
+      ]
+    },
+    {
+      "source_offset": 2313,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2323,
+      "symbol": "_AWE32_packet_storage",
+      "value": [
+        3,
+        62396
+      ]
+    },
+    {
+      "source_offset": 2328,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2338,
+      "symbol": "_lBankSizes",
+      "value": [
+        3,
+        62440
+      ]
+    },
+    {
+      "source_offset": 2343,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2353,
+      "symbol": "_NoteFlags",
+      "value": [
+        3,
+        1796296
+      ]
+    },
+    {
+      "source_offset": 2358,
+      "symbol": "DPMI_UnlockMemory_",
+      "value": [
+        1,
+        527156
+      ]
+    },
+    {
+      "source_offset": 2363,
+      "symbol": "___midieng_ecode",
+      "value": [
+        1,
+        443940
+      ]
+    },
+    {
+      "source_offset": 2368,
+      "symbol": "___midieng_code",
+      "value": [
+        1,
+        436664
+      ]
+    },
+    {
+      "source_offset": 2373,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2378,
+      "symbol": "___midieng_ecode",
+      "value": [
+        1,
+        443940
+      ]
+    },
+    {
+      "source_offset": 2385,
+      "symbol": "___midieng_code",
+      "value": [
+        1,
+        436664
+      ]
+    },
+    {
+      "source_offset": 2390,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2395,
+      "symbol": "___nrpn_ecode",
+      "value": [
+        1,
+        429112
+      ]
+    },
+    {
+      "source_offset": 2400,
+      "symbol": "___nrpn_code",
+      "value": [
+        1,
+        426312
+      ]
+    },
+    {
+      "source_offset": 2405,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2410,
+      "symbol": "___nrpn_ecode",
+      "value": [
+        1,
+        429112
+      ]
+    },
+    {
+      "source_offset": 2417,
+      "symbol": "___nrpn_code",
+      "value": [
+        1,
+        426312
+      ]
+    },
+    {
+      "source_offset": 2422,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2427,
+      "symbol": "___midivar_edata",
+      "value": [
+        3,
+        37920
+      ]
+    },
+    {
+      "source_offset": 2432,
+      "symbol": "___midivar_data",
+      "value": [
+        3,
+        35528
+      ]
+    },
+    {
+      "source_offset": 2437,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2442,
+      "symbol": "___nrpnvar_edata",
+      "value": [
+        3,
+        33904
+      ]
+    },
+    {
+      "source_offset": 2447,
+      "symbol": "___nrpnvar_data",
+      "value": [
+        3,
+        32364
+      ]
+    },
+    {
+      "source_offset": 2452,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    },
+    {
+      "source_offset": 2457,
+      "symbol": "___embed_edata",
+      "value": [
+        3,
+        56788
+      ]
+    },
+    {
+      "source_offset": 2462,
+      "symbol": "___embed_data",
+      "value": [
+        3,
+        39348
+      ]
+    },
+    {
+      "source_offset": 2467,
+      "symbol": "DPMI_UnlockMemoryRegion_",
+      "value": [
+        1,
+        527152
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 2933,
+    "zero_fill_bytes": 262,
+    "verified_fixups": 179,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 536080,
+        "compared_bytes": 2475,
+        "verified_fixups": 179,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 62396,
+        "compared_bytes": 304,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1796296,
+        "compared_bytes": 262,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 19864,
+        "compared_bytes": 154,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "BLASTER_ErrorString_": [
+        1,
+        529244
+      ],
+      "BLASTER_GetEnv_": [
+        1,
+        533308
+      ],
+      "BLASTER_GetCardSettings_": [
+        1,
+        533824
+      ],
+      "AWE32_ErrorString_": [
+        1,
+        536112
+      ],
+      "AWE32_NoteOff_": [
+        1,
+        536192
+      ],
+      "AWE32_NoteOn_": [
+        1,
+        536280
+      ],
+      "AWE32_PolyAftertouch_": [
+        1,
+        536368
+      ],
+      "AWE32_ChannelAftertouch_": [
+        1,
+        536424
+      ],
+      "AWE32_ControlChange_": [
+        1,
+        536468
+      ],
+      "AWE32_ProgramChange_": [
+        1,
+        536616
+      ],
+      "AWE32_PitchBend_": [
+        1,
+        536660
+      ],
+      "AWE32_LockEnd_": [
+        1,
+        536716
+      ],
+      "InitMPU_": [
+        1,
+        536720
+      ],
+      "ShutdownMPU_": [
+        1,
+        537304
+      ],
+      "LoadSBK_": [
+        1,
+        537564
+      ],
+      "AWE32_Init_": [
+        1,
+        537704
+      ],
+      "AWE32_Shutdown_": [
+        1,
+        538324
+      ],
+      "_AWE32_ErrorCode": [
+        3,
+        62696
+      ],
+      "_AWE32_messages": [
+        3,
+        19864
+      ],
+      "AWE32NOTEOFF": [
+        1,
+        440472
+      ],
+      "_NoteFlags": [
+        3,
+        1796296
+      ],
+      "AWE32NOTEON": [
+        1,
+        440760
+      ],
+      "AWE32POLYKEYPRESSURE": [
+        1,
+        443240
+      ],
+      "AWE32CHANNELPRESSURE": [
+        1,
+        443248
+      ],
+      "AWE32CONTROLLER": [
+        1,
+        442000
+      ],
+      "AWE32PROGRAMCHANGE": [
+        1,
+        442800
+      ],
+      "AWE32PITCHBEND": [
+        1,
+        443320
+      ],
+      "_wMpuBaseAddx": [
+        3,
+        1796552
+      ],
+      "_wSBCBaseAddx": [
+        3,
+        1796554
+      ],
+      "_AWE32_packet_storage": [
+        3,
+        62396
+      ],
+      "_awe32SPad2Obj": [
+        3,
+        39872
+      ],
+      "_awe32SPad3Obj": [
+        3,
+        40236
+      ],
+      "_awe32SPad4Obj": [
+        3,
+        41632
+      ],
+      "_lBankSizes": [
+        3,
+        62440
+      ],
+      "AWE32DEFINEBANKSIZES": [
+        1,
+        429148
+      ],
+      "_awe32SPad1Obj": [
+        3,
+        39352
+      ],
+      "_awe32SPad5Obj": [
+        3,
+        41992
+      ],
+      "_awe32SPad6Obj": [
+        3,
+        43476
+      ],
+      "_awe32SPad7Obj": [
+        3,
+        54356
+      ],
+      "_awe32SoundPad": [
+        3,
+        37892
+      ],
+      "_wEMUBaseAddx": [
+        3,
+        1796556
+      ],
+      "AWE32DETECT": [
+        1,
+        434012
+      ],
+      "AWE32INITHARDWARE": [
+        1,
+        436220
+      ],
+      "AWE32INITMIDI": [
+        1,
+        436672
+      ],
+      "DPMI_LockMemoryRegion_": [
+        1,
+        527060
+      ],
+      "DPMI_LockMemory_": [
+        1,
+        527064
+      ],
+      "___midieng_ecode": [
+        1,
+        443940
+      ],
+      "___midieng_code": [
+        1,
+        436664
+      ],
+      "___nrpn_ecode": [
+        1,
+        429112
+      ],
+      "___nrpn_code": [
+        1,
+        426312
+      ],
+      "___midivar_edata": [
+        3,
+        37920
+      ],
+      "___midivar_data": [
+        3,
+        35528
+      ],
+      "___nrpnvar_edata": [
+        3,
+        33904
+      ],
+      "___nrpnvar_data": [
+        3,
+        32364
+      ],
+      "___embed_edata": [
+        3,
+        56788
+      ],
+      "___embed_data": [
+        3,
+        39348
+      ],
+      "AWE32TERMINATE": [
+        1,
+        436548
+      ],
+      "_awe32NumG": [
+        3,
+        35532
+      ],
+      "AWE32TOTALPATCHRAM": [
+        1,
+        429128
+      ],
+      "AWE32INITNRPN": [
+        1,
+        426320
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "DPMI_UnlockMemoryRegion_": [
+        1,
+        527152
+      ],
+      "DPMI_UnlockMemory_": [
+        1,
+        527156
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "BLASTER_ErrorString_": [
+      1,
+      529244
+    ],
+    "BLASTER_GetEnv_": [
+      1,
+      533308
+    ],
+    "BLASTER_GetCardSettings_": [
+      1,
+      533824
+    ]
+  },
+  "anchor_evidence": "evidence/blaster-module.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

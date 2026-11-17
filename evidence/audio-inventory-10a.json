@@ -1,0 +1,489 @@
+{
+  "kind": "diagnostic source-assisted audio inventory; not coverage proof",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "reference_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "headers_sha256": {
+    "ADLIBFX.H": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "AL_MIDI.H": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "ASSERT.H": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "AWE32.H": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "BLASTER.H": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "CTAWEAPI.H": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "DEBUGIO.H": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "DMA.H": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "DPMI.H": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "FX_MAN.H": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "GUSMIDI.H": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "GUSMIDI2.H": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "GUSWAVE.H": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "INTERRUP.H": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "IRQ.H": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "LINKLIST.H": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "LL_MAN.H": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "MEMCHECK.H": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "MIDI.H": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "MPU401.H": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "MULTIVOC.H": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "MUSIC.H": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "MYPRINT.H": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "NEWGF1.H": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "PAS16.H": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "PCFX.H": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "PITCH.H": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "SNDCARDS.H": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "SNDSCAPE.H": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "SNDSRC.H": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "STANDARD.H": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "TASK_MAN.H": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "USER.H": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "USRHOOKS.H": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0",
+    "_AL_MIDI.H": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "_BLASTER.H": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "_GUSWAVE.H": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "_MIDI.H": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "_MULTIVC.H": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "_PAS16.H": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_SNDSCAP.H": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393"
+  },
+  "modules": [
+    {
+      "name": "ADLIBFX",
+      "source_sha256": "0183094d4f6a157761c769476b2a45670a03323536013b56f270bbff08c44546",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "fc74d6b367a3485aedc0eabb741e870d950550940fad61f6f287159ffdf10fc2",
+      "candidate_counts": {
+        "not_found": 11,
+        "insufficient_anchor": 3
+      },
+      "bases": []
+    },
+    {
+      "name": "AL_MIDI",
+      "source_sha256": "9c2e42f1f5fcc23ebad86d31ec52adabb872d519fcfbab18a9d6dea1c6d17285",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "object_sha256": "1e870fbd3093ec52abf07b24e4db32e66c1ab67a6777e507a528513608abe7f1",
+      "candidate_counts": {
+        "candidate": 27,
+        "insufficient_anchor": 3
+      },
+      "bases": [
+        {
+          "offset": 538560,
+          "candidate_count": 27,
+          "fully_compared_initialized_bytes": 7780,
+          "fully_compared_zero_fill_bytes": 2688,
+          "fully_compared_fixups": 406
+        }
+      ]
+    },
+    {
+      "name": "AWE32",
+      "source_sha256": "a22634e03ff411712e0509aabd999ce0ee5fe24b48c9491cb2c620e3a34b813b",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "89ff99eee3eeb978ee56744849901c68e8322106a1678da30f6d87dd17fb81ed",
+      "candidate_counts": {
+        "ambiguous": 2,
+        "candidate": 9,
+        "insufficient_anchor": 2
+      },
+      "bases": [
+        {
+          "offset": 536080,
+          "candidate_count": 6,
+          "failure": "missing/unsupported loader fixup at 0x830c5"
+        },
+        {
+          "offset": 536664,
+          "candidate_count": 3,
+          "failure": "missing/unsupported loader fixup at 0x83058"
+        }
+      ]
+    },
+    {
+      "name": "BLASTER",
+      "source_sha256": "902c9212e6a5f7cf000327c963fdff4f475e4042064fbdadfe20dbed16777dd0",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "dde71a9c8f2c4381b74429c4520c6b2f77d845ba00bf1cccf88d52547991f816",
+      "candidate_counts": {
+        "candidate": 40,
+        "insufficient_anchor": 6,
+        "ambiguous": 6
+      },
+      "bases": [
+        {
+          "offset": 528960,
+          "candidate_count": 40,
+          "failure": "CONST: differing bytes at [18, 19, 59, 91, 133, 134]"
+        }
+      ]
+    },
+    {
+      "name": "DMA",
+      "source_sha256": "9c6a4832bf753d03a8b9244cb6acc8ec19f258d3a789ecc84555fec7677e573e",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "a0084afae41d80ca459be85b7d5695b266de90af6832ecf3a6a527f59c32fe67",
+      "candidate_counts": {
+        "candidate": 7
+      },
+      "bases": [
+        {
+          "offset": 527248,
+          "candidate_count": 7,
+          "failure": "CONST: differing bytes at [73, 74]"
+        }
+      ]
+    },
+    {
+      "name": "FX_MAN",
+      "source_sha256": "48f0cad7e261bdc727a679f833ad83c05383d1122bc4a0b85704ff890544492a",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "7caa238bbf3ef2bb475ec1e231e7147cf998f477d036fe78b1cbc4c73bb4dbc9",
+      "candidate_counts": {
+        "not_found": 1,
+        "candidate": 13,
+        "insufficient_anchor": 11,
+        "ambiguous": 12
+      },
+      "bases": [
+        {
+          "offset": 524176,
+          "candidate_count": 9,
+          "failure": "conflicting placement/binding for 2: (3, 18992) != (3, 18972)"
+        },
+        {
+          "offset": 524144,
+          "candidate_count": 4,
+          "failure": "missing/unsupported loader fixup at 0x7ff70"
+        }
+      ]
+    },
+    {
+      "name": "GUS",
+      "source_sha256": "1dcb99c72efafa49d564d7d297106256c92b093eb0be589d31c019f51f06f7a5",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "f050e5cc2c5df0bbeb1cdf3c178d279676a2a1667431c1ad53fe037cca4634a5",
+      "candidate_counts": {
+        "not_found": 5
+      },
+      "bases": []
+    },
+    {
+      "name": "GUSMIDI",
+      "source_sha256": "b488b5a45528530a8923ae97f83a17332a269e58b846ed84c03c0ba322f0a415",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "7140cd28712cdb6d1832af9a452a696a23ebaa50567bc85e5b6aeade9243fb73",
+      "candidate_counts": {
+        "insufficient_anchor": 3,
+        "not_found": 10
+      },
+      "bases": []
+    },
+    {
+      "name": "GUSWAVE",
+      "source_sha256": "fc9f86b32fdcf9071ae67297e7092603353706664754804af5beb14a7cc63b01",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "aaddbac1c63a3fc3e0716af19474e0fc5e78d59f3d35f289924e24c5f195b8ad",
+      "candidate_counts": {
+        "candidate": 24,
+        "insufficient_anchor": 3
+      },
+      "bases": [
+        {
+          "offset": 516336,
+          "candidate_count": 24,
+          "failure": "CONST: differing bytes at [35, 73, 74, 75, 222, 261, 262, 407]"
+        }
+      ]
+    },
+    {
+      "name": "IRQ",
+      "source_sha256": "44b43beb5d78a68cf6e49e3556d5a98d847ecfdca040e94f01c3c0c2e5124988",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "68e483347bb1980e7d780c12c42d3b1905ce31c5b93d0a24643fff4a9da0510d",
+      "candidate_counts": {
+        "candidate": 4,
+        "not_found": 1
+      },
+      "bases": [
+        {
+          "offset": 515376,
+          "candidate_count": 2,
+          "failure": "missing/unsupported loader fixup at 0x7dde0"
+        },
+        {
+          "offset": 515372,
+          "candidate_count": 2,
+          "failure": "missing/unsupported loader fixup at 0x7dd37"
+        }
+      ]
+    },
+    {
+      "name": "MIDI",
+      "source_sha256": "6e5b11319b1ce9263a64d6c24886f7d4703ce9c28e668fd436bc3f7754f3011a",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "object_sha256": "82e800dc2f1bd5c625462edf814a0a380ec93a4de2983757f566534346bd6aac",
+      "candidate_counts": {
+        "candidate": 32,
+        "insufficient_anchor": 9
+      },
+      "bases": [
+        {
+          "offset": 506240,
+          "candidate_count": 32,
+          "fully_compared_initialized_bytes": 9115,
+          "fully_compared_zero_fill_bytes": 252,
+          "fully_compared_fixups": 650
+        }
+      ]
+    },
+    {
+      "name": "MPU401",
+      "source_sha256": "ffa23d1853764ed230467d90bb9dedb7c84002427b0d94e4be1df5fe95f93c50",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "25fa10f1a05d5675bdeb62a43dd91dbc6ffca94b4b0aded88f7a146977803919",
+      "candidate_counts": {
+        "insufficient_anchor": 9,
+        "candidate": 6
+      },
+      "bases": [
+        {
+          "offset": 505632,
+          "candidate_count": 6,
+          "fully_compared_initialized_bytes": 622,
+          "fully_compared_zero_fill_bytes": 0,
+          "fully_compared_fixups": 51
+        }
+      ]
+    },
+    {
+      "name": "MULTIVOC",
+      "source_sha256": "4fa68f75bba44154021c885caac4b31dce09b73778ea8750d2fa3d2c218f87fb",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "object_sha256": "7499d643de6f18215933dd59731813529ccd635f29e8775a96f8e188f64647c0",
+      "candidate_counts": {
+        "not_found": 50,
+        "insufficient_anchor": 8,
+        "candidate": 3
+      },
+      "bases": [
+        {
+          "offset": 493683,
+          "candidate_count": 1,
+          "failure": "missing/unsupported loader fixup at 0x78873"
+        },
+        {
+          "offset": 494256,
+          "candidate_count": 1,
+          "failure": "missing/unsupported loader fixup at 0x78ab0"
+        },
+        {
+          "offset": 493835,
+          "candidate_count": 1,
+          "failure": "missing/unsupported loader fixup at 0x7890b"
+        }
+      ]
+    },
+    {
+      "name": "MUSIC",
+      "source_sha256": "8d1fd6a6834f13516c541a1a5490706cf4a7cf57384997aa30871a79d974ac01",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "object_sha256": "a04d4a4ae2e132b86950cd233b97a922294a8a1f52ed7768b6f8716a663b0fe2",
+      "candidate_counts": {
+        "insufficient_anchor": 17,
+        "not_found": 11,
+        "candidate": 3
+      },
+      "bases": [
+        {
+          "offset": 490200,
+          "candidate_count": 2,
+          "failure": "missing/unsupported loader fixup at 0x77ad8"
+        },
+        {
+          "offset": 490206,
+          "candidate_count": 1,
+          "failure": "missing/unsupported loader fixup at 0x77ade"
+        }
+      ]
+    },
+    {
+      "name": "PAS16",
+      "source_sha256": "e0bad6f9b42a4cd02378026549afae81b9599096e13aa31a7e2ca9891ab6a562",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "df3f156b2f3623a77e0bdf59cb9f70bc7fccfd67c743ccdcaacfd6286a622d23",
+      "candidate_counts": {
+        "candidate": 35,
+        "insufficient_anchor": 4,
+        "ambiguous": 3
+      },
+      "bases": [
+        {
+          "offset": 484112,
+          "candidate_count": 35,
+          "failure": "conflicting placement/binding for 5: (3, 1743184) != (3, 1743188)"
+        }
+      ]
+    },
+    {
+      "name": "PCFX",
+      "source_sha256": "3f62b46138a1e4b540c5cec593233882fe30810131a2a069a0bf4c74c8c1c117",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "c395e3fad9eff933c09d0aed166275594f7635b34b6fca1c144e9921082dd07a",
+      "candidate_counts": {
+        "not_found": 10,
+        "insufficient_anchor": 5
+      },
+      "bases": []
+    },
+    {
+      "name": "PITCH",
+      "source_sha256": "17852aca9a44707b22ad98242de27bef5c02472a9948f4edb8e820ae7cdf5c50",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "603220e88a91686b882170e99b70f1e94f54677c34ddc26f1ba1e317405b630d",
+      "candidate_counts": {
+        "candidate": 2,
+        "insufficient_anchor": 2
+      },
+      "bases": [
+        {
+          "offset": 483824,
+          "candidate_count": 2,
+          "fully_compared_initialized_bytes": 1488,
+          "fully_compared_zero_fill_bytes": 0,
+          "fully_compared_fixups": 17
+        }
+      ]
+    },
+    {
+      "name": "SNDSCAPE",
+      "source_sha256": "e944524dbf77e8eab43e5e419fcd6a7676429937cee214bab9fd254a8da8beca",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "e6d15c33dae3b4978b43eb53fced2fde4a0e17a3b4d0b5af2f44c92937bdc088",
+      "candidate_counts": {
+        "candidate": 21,
+        "insufficient_anchor": 7,
+        "ambiguous": 5
+      },
+      "bases": [
+        {
+          "offset": 478560,
+          "candidate_count": 21,
+          "failure": "CONST: differing bytes at [15, 142, 143]"
+        }
+      ]
+    },
+    {
+      "name": "SNDSRC",
+      "source_sha256": "e256f3dc9125aba06b33a26587d6a8d501e4a42d8866fd846ed3dfa26faf78e5",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "95416456804cebc70767bc12abd8cccf5b20a18a7ff209a240846692c6e81522",
+      "candidate_counts": {
+        "candidate": 12,
+        "insufficient_anchor": 4,
+        "ambiguous": 1
+      },
+      "bases": [
+        {
+          "offset": 476688,
+          "candidate_count": 12,
+          "failure": "conflicting placement/binding for 5: (3, 1743056) != (3, 1743036)"
+        }
+      ]
+    },
+    {
+      "name": "USRHOOKS",
+      "source_sha256": "78797d10f8b81d62241fb04045ee8c00ebb0a9cc7ef93c58f2beee8d8075fcc6",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "object_sha256": "1113b59fed1f97e6dff91d0ad95df7cb3855cb75fdeb0938e257d8904b5844dd",
+      "candidate_counts": {
+        "not_found": 2
+      },
+      "bases": []
+    }
+  ]
+}

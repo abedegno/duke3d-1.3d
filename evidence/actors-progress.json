@@ -1,0 +1,2572 @@
+{
+  "kind": "partial ACTORS public interval checks, not a complete contribution",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/game/actors.c",
+  "source_sha256": "086e47a4d6b3e11abe7c589614ea009b6fb096cd3a0bc0d2b4a25e8a8776e864",
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+  },
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "anchor_evidence_sha256": {
+    "evidence/engine-function-matches.json": "22ae2f5dc73b50aea3c2141ced565e3ff85e29e116c59466731153dc5598e7d0",
+    "evidence/gamedef-module.json": "6ea0e2d3101303d623c00d8438d85aebe3c2c75247827f77c90bb2b1b4a32727",
+    "evidence/sounds-module.json": "22c14bdacdf6260858046973c919b3bbdc490df582cbca732f8f82e764cbd55a",
+    "evidence/mmulti-module.json": "598b11ba5ff941f79c070599836af5caa72b5072ffa5b4861423dba97fe6b90f",
+    "evidence/premap-progress.json": "d3201a11bee024539ced12ab9b8f13f262378dab821588bd24f16dd125172312"
+  },
+  "functions": [
+    {
+      "symbol": "addammo_",
+      "source_offset": 592,
+      "target_offset": 84752,
+      "size": 112,
+      "comparison": {
+        "symbol": "addammo_",
+        "target_object": 1,
+        "target_offset": 84752,
+        "compared_bytes": 112,
+        "verified_fixups": 13,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_max_ammo_amount": [
+          3,
+          579488
+        ],
+        "addammo_": [
+          1,
+          84752
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "hitradius_",
+      "source_offset": 1968,
+      "target_offset": 86128,
+      "size": 2160,
+      "comparison": {
+        "symbol": "hitradius_",
+        "target_object": 1,
+        "target_offset": 86128,
+        "compared_bytes": 2160,
+        "verified_fixups": 76,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_radius_status_record": [
+          1,
+          84160
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "cansee_": [
+          1,
+          354154
+        ],
+        "checkhitceiling_": [
+          1,
+          268608
+        ],
+        "checkhitsprite_": [
+          1,
+          269328
+        ],
+        "checkhitwall_": [
+          1,
+          265936
+        ],
+        "dist_": [
+          1,
+          254816
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "hitradius_": [
+          1,
+          86128
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "setpal_": [
+          1,
+          204096
+        ],
+        "updatesector_": [
+          1,
+          369184
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "ifhitbyweapon_",
+      "source_offset": 7568,
+      "target_offset": 91728,
+      "size": 864,
+      "comparison": {
+        "symbol": "ifhitbyweapon_",
+        "target_object": 1,
+        "target_offset": 91728,
+        "compared_bytes": 864,
+        "verified_fixups": 42,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "ifhitbyweapon_": [
+          1,
+          91728
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "moveactors_",
+      "source_offset": 27216,
+      "target_offset": 111376,
+      "size": 11536,
+      "comparison": {
+        "symbol": "moveactors_",
+        "target_object": 1,
+        "target_offset": 111376,
+        "compared_bytes": 11536,
+        "verified_fixups": 472,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "LocateTheLocator_": [
+          1,
+          30592
+        ],
+        "_Sound": [
+          3,
+          574936
+        ],
+        "_actor_tog": [
+          3,
+          29965
+        ],
+        "_bouncemineblastradius": [
+          3,
+          573796
+        ],
+        "_camerashitable": [
+          3,
+          582921
+        ],
+        "_earthquaketime": [
+          3,
+          582927
+        ],
+        "_global_random": [
+          3,
+          581298
+        ],
+        "_headspritesect": [
+          3,
+          1647034
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_impact_damage": [
+          3,
+          579544
+        ],
+        "_max_ammo_amount": [
+          3,
+          579488
+        ],
+        "_morterblastradius": [
+          3,
+          573832
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_nextspritesect": [
+          3,
+          1080256
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_pipebombblastradius": [
+          3,
+          573820
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_respawnitemtime": [
+          3,
+          31144
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_sync": [
+          3,
+          573632
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "addammo_": [
+          1,
+          84752
+        ],
+        "addweapon_": [
+          1,
+          84864
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "cansee_": [
+          1,
+          354154
+        ],
+        "checkhitsprite_": [
+          1,
+          269328
+        ],
+        "checkhitwall_": [
+          1,
+          265936
+        ],
+        "clipmove_": [
+          1,
+          361524
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "dist_": [
+          1,
+          254816
+        ],
+        "execute_": [
+          1,
+          172384
+        ],
+        "findplayer_": [
+          1,
+          254864
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getglobalz_": [
+          1,
+          146032
+        ],
+        "getincangle_": [
+          1,
+          145840
+        ],
+        "guts_": [
+          1,
+          89776
+        ],
+        "hitradius_": [
+          1,
+          86128
+        ],
+        "ifhitbyweapon_": [
+          1,
+          91728
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "ldist_": [
+          1,
+          254768
+        ],
+        "makeitfall_": [
+          1,
+          146544
+        ],
+        "moveactors_": [
+          1,
+          111376
+        ],
+        "movesprite_": [
+          1,
+          88288
+        ],
+        "setpal_": [
+          1,
+          204096
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ],
+        "shoot_": [
+          1,
+          206624
+        ],
+        "sound_": [
+          1,
+          284224
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "ssp_": [
+          1,
+          89472
+        ],
+        "updatesector_": [
+          1,
+          369184
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "addweapon_",
+      "source_offset": 704,
+      "target_offset": 84864,
+      "size": 176,
+      "comparison": {
+        "symbol": "addweapon_",
+        "target_object": 1,
+        "target_offset": 84864,
+        "compared_bytes": 176,
+        "verified_fixups": 2,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "addweapon_": [
+          1,
+          84864
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "bounce_",
+      "source_offset": 19904,
+      "target_offset": 104064,
+      "size": 512,
+      "comparison": {
+        "symbol": "bounce_",
+        "target_object": 1,
+        "target_offset": 104064,
+        "compared_bytes": 512,
+        "verified_fixups": 18,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "bounce_": [
+          1,
+          104064
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "ksqrt_": [
+          1,
+          332211
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "ceilingspace_",
+      "source_offset": 432,
+      "target_offset": 84592,
+      "size": 80,
+      "comparison": {
+        "symbol": "ceilingspace_",
+        "target_object": 1,
+        "target_offset": 84592,
+        "compared_bytes": 80,
+        "verified_fixups": 3,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sector": [
+          3,
+          1597120
+        ],
+        "ceilingspace_": [
+          1,
+          84592
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "checkavailinven_",
+      "source_offset": 880,
+      "target_offset": 85040,
+      "size": 256,
+      "comparison": {
+        "symbol": "checkavailinven_",
+        "target_object": 1,
+        "target_offset": 85040,
+        "compared_bytes": 256,
+        "verified_fixups": 29,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "checkavailinven_": [
+          1,
+          85040
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "checkavailweapon_",
+      "source_offset": 1136,
+      "target_offset": 85296,
+      "size": 544,
+      "comparison": {
+        "symbol": "checkavailweapon_",
+        "target_object": 1,
+        "target_offset": 85296,
+        "compared_bytes": 544,
+        "verified_fixups": 4,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "addweapon_": [
+          1,
+          84864
+        ],
+        "checkavailweapon_": [
+          1,
+          85296
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "clearsectinterpolate_",
+      "source_offset": 6256,
+      "target_offset": 90416,
+      "size": 144,
+      "comparison": {
+        "symbol": "clearsectinterpolate_",
+        "target_object": 1,
+        "target_offset": 90416,
+        "compared_bytes": 144,
+        "verified_fixups": 12,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "clearsectinterpolate_": [
+          1,
+          90416
+        ],
+        "stopinterpolation_": [
+          1,
+          84320
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "dointerpolations_",
+      "source_offset": 272,
+      "target_offset": 84432,
+      "size": 112,
+      "comparison": {
+        "symbol": "dointerpolations_",
+        "target_object": 1,
+        "target_offset": 84432,
+        "compared_bytes": 112,
+        "verified_fixups": 6,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_bakipos": [
+          3,
+          77808
+        ],
+        "_curipos": [
+          3,
+          98416
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "_oldipos": [
+          3,
+          90096
+        ],
+        "dointerpolations_": [
+          1,
+          84432
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "floorspace_",
+      "source_offset": 512,
+      "target_offset": 84672,
+      "size": 80,
+      "comparison": {
+        "symbol": "floorspace_",
+        "target_object": 1,
+        "target_offset": 84672,
+        "compared_bytes": 80,
+        "verified_fixups": 3,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sector": [
+          3,
+          1597120
+        ],
+        "floorspace_": [
+          1,
+          84672
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "gutsdir_",
+      "source_offset": 5856,
+      "target_offset": 90016,
+      "size": 240,
+      "comparison": {
+        "symbol": "gutsdir_",
+        "target_object": 1,
+        "target_offset": 90016,
+        "compared_bytes": 240,
+        "verified_fixups": 7,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "getflorzofslope_": [
+          1,
+          410144
+        ],
+        "gutsdir_": [
+          1,
+          90016
+        ],
+        "krand_": [
+          1,
+          377409
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "ifhitsectors_",
+      "source_offset": 7504,
+      "target_offset": 91664,
+      "size": 64,
+      "comparison": {
+        "symbol": "ifhitsectors_",
+        "target_object": 1,
+        "target_offset": 91664,
+        "compared_bytes": 64,
+        "verified_fixups": 4,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "ifhitsectors_": [
+          1,
+          91664
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "lotsofmoney_",
+      "source_offset": 5488,
+      "target_offset": 89648,
+      "size": 128,
+      "comparison": {
+        "symbol": "lotsofmoney_",
+        "target_object": 1,
+        "target_offset": 89648,
+        "compared_bytes": 128,
+        "verified_fixups": 5,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "lotsofmoney_": [
+          1,
+          89648
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movecyclers_",
+      "source_offset": 8432,
+      "target_offset": 92592,
+      "size": 272,
+      "comparison": {
+        "symbol": "movecyclers_",
+        "target_object": 1,
+        "target_offset": 92592,
+        "compared_bytes": 272,
+        "verified_fixups": 10,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_cyclers": [
+          3,
+          410896
+        ],
+        "_numcyclers": [
+          3,
+          581302
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "movecyclers_": [
+          1,
+          92592
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movefx_",
+      "source_offset": 10160,
+      "target_offset": 94320,
+      "size": 1168,
+      "comparison": {
+        "symbol": "movefx_",
+        "target_object": 1,
+        "target_offset": 94320,
+        "compared_bytes": 1168,
+        "verified_fixups": 66,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "FX_SetReverbDelay_": [
+          1,
+          525988
+        ],
+        "FX_SetReverb_": [
+          1,
+          525956
+        ],
+        "FX_VoiceAvailable_": [
+          1,
+          525996
+        ],
+        "_AmbienceToggle": [
+          3,
+          587648
+        ],
+        "_NumVoices": [
+          3,
+          587712
+        ],
+        "_SoundToggle": [
+          3,
+          587640
+        ],
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_global_random": [
+          3,
+          581298
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_numenvsnds": [
+          3,
+          587588
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_screenpeek": [
+          3,
+          581290
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_soundm": [
+          3,
+          573880
+        ],
+        "_soundpr": [
+          3,
+          574360
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "dist_": [
+          1,
+          254816
+        ],
+        "ldist_": [
+          1,
+          254768
+        ],
+        "movefx_": [
+          1,
+          94320
+        ],
+        "sound_": [
+          1,
+          284224
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "stopenvsound_": [
+          1,
+          284896
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "ms_",
+      "source_offset": 6400,
+      "target_offset": 90560,
+      "size": 256,
+      "comparison": {
+        "symbol": "ms_",
+        "target_object": 1,
+        "target_offset": 90560,
+        "compared_bytes": 256,
+        "verified_fixups": 11,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_msx": [
+          3,
+          496208
+        ],
+        "_msy": [
+          3,
+          488016
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "dragpoint_": [
+          1,
+          361271
+        ],
+        "ms_": [
+          1,
+          90560
+        ],
+        "rotatepoint_": [
+          1,
+          369368
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "restoreinterpolations_",
+      "source_offset": 384,
+      "target_offset": 84544,
+      "size": 48,
+      "comparison": {
+        "symbol": "restoreinterpolations_",
+        "target_object": 1,
+        "target_offset": 84544,
+        "compared_bytes": 48,
+        "verified_fixups": 3,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_bakipos": [
+          3,
+          77808
+        ],
+        "_curipos": [
+          3,
+          98416
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "restoreinterpolations_": [
+          1,
+          84544
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "setinterpolation_",
+      "source_offset": 80,
+      "target_offset": 84240,
+      "size": 80,
+      "comparison": {
+        "symbol": "setinterpolation_",
+        "target_object": 1,
+        "target_offset": 84240,
+        "compared_bytes": 80,
+        "verified_fixups": 6,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_curipos": [
+          3,
+          98416
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "_oldipos": [
+          3,
+          90096
+        ],
+        "setinterpolation_": [
+          1,
+          84240
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "setsectinterpolate_",
+      "source_offset": 6096,
+      "target_offset": 90256,
+      "size": 160,
+      "comparison": {
+        "symbol": "setsectinterpolate_",
+        "target_object": 1,
+        "target_offset": 90256,
+        "compared_bytes": 160,
+        "verified_fixups": 14,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "setinterpolation_": [
+          1,
+          84240
+        ],
+        "setsectinterpolate_": [
+          1,
+          90256
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "ssp_",
+      "source_offset": 5312,
+      "target_offset": 89472,
+      "size": 96,
+      "comparison": {
+        "symbol": "ssp_",
+        "target_object": 1,
+        "target_offset": 89472,
+        "compared_bytes": 96,
+        "verified_fixups": 4,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "movesprite_": [
+          1,
+          88288
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "stopinterpolation_",
+      "source_offset": 160,
+      "target_offset": 84320,
+      "size": 112,
+      "comparison": {
+        "symbol": "stopinterpolation_",
+        "target_object": 1,
+        "target_offset": 84320,
+        "compared_bytes": 112,
+        "verified_fixups": 12,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_bakipos": [
+          3,
+          77808
+        ],
+        "_curipos": [
+          3,
+          98416
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "_oldipos": [
+          3,
+          90096
+        ],
+        "_startofdynamicinterpolations": [
+          3,
+          31200
+        ],
+        "stopinterpolation_": [
+          1,
+          84320
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "updateinterpolations_",
+      "source_offset": 32,
+      "target_offset": 84192,
+      "size": 48,
+      "comparison": {
+        "symbol": "updateinterpolations_",
+        "target_object": 1,
+        "target_offset": 84192,
+        "compared_bytes": 48,
+        "verified_fixups": 3,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_curipos": [
+          3,
+          98416
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "_oldipos": [
+          3,
+          90096
+        ],
+        "updateinterpolations_": [
+          1,
+          84192
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "ifsquished_",
+      "source_offset": 1680,
+      "target_offset": 85840,
+      "size": 288,
+      "comparison": {
+        "symbol": "ifsquished_",
+        "target_object": 1,
+        "target_offset": 85840,
+        "compared_bytes": 288,
+        "verified_fixups": 13,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "FTA_": [
+          1,
+          22704
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "ifsquished_": [
+          1,
+          85840
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "insertspriteq_",
+      "source_offset": 5408,
+      "target_offset": 89568,
+      "size": 80,
+      "comparison": {
+        "symbol": "insertspriteq_",
+        "target_object": 1,
+        "target_offset": 89568,
+        "compared_bytes": 80,
+        "verified_fixups": 7,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_spriteq": [
+          3,
+          410192
+        ],
+        "_spriteqloc": [
+          3,
+          581304
+        ],
+        "insertspriteq_": [
+          1,
+          89568
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "guts_",
+      "source_offset": 5616,
+      "target_offset": 89776,
+      "size": 240,
+      "comparison": {
+        "symbol": "guts_",
+        "target_object": 1,
+        "target_offset": 89776,
+        "compared_bytes": 240,
+        "verified_fixups": 7,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "getflorzofslope_": [
+          1,
+          410144
+        ],
+        "guts_": [
+          1,
+          89776
+        ],
+        "krand_": [
+          1,
+          377409
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movefta_",
+      "source_offset": 6656,
+      "target_offset": 90816,
+      "size": 848,
+      "comparison": {
+        "symbol": "movefta_",
+        "target_object": 1,
+        "target_offset": 90816,
+        "compared_bytes": 848,
+        "verified_fixups": 41,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "cansee_": [
+          1,
+          354154
+        ],
+        "changespritestat_": [
+          1,
+          353883
+        ],
+        "check_fta_sounds_": [
+          1,
+          9936
+        ],
+        "findplayer_": [
+          1,
+          254864
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "movefta_": [
+          1,
+          90816
+        ],
+        "updatesector_": [
+          1,
+          369184
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movesprite_",
+      "source_offset": 4128,
+      "target_offset": 88288,
+      "size": 1184,
+      "comparison": {
+        "symbol": "movesprite_",
+        "target_object": 1,
+        "target_offset": 88288,
+        "compared_bytes": 1184,
+        "verified_fixups": 54,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_tilesizy": [
+          3,
+          1056576
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "changespritesect_": [
+          1,
+          353812
+        ],
+        "clipmove_": [
+          1,
+          361524
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "movesprite_": [
+          1,
+          88288
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movedummyplayers_",
+      "source_offset": 8704,
+      "target_offset": 92864,
+      "size": 496,
+      "comparison": {
+        "symbol": "movedummyplayers_",
+        "target_object": 1,
+        "target_offset": 92864,
+        "compared_bytes": 496,
+        "verified_fixups": 38,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "movedummyplayers_": [
+          1,
+          92864
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "moveplayers_",
+      "source_offset": 9200,
+      "target_offset": 93360,
+      "size": 960,
+      "comparison": {
+        "symbol": "moveplayers_",
+        "target_object": 1,
+        "target_offset": 93360,
+        "compared_bytes": 960,
+        "verified_fixups": 39,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_max_player_health": [
+          3,
+          579532
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_otherp": [
+          3,
+          77748
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "ceilingspace_": [
+          1,
+          84592
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "execute_": [
+          1,
+          172384
+        ],
+        "findotherplayer_": [
+          1,
+          255152
+        ],
+        "floorspace_": [
+          1,
+          84672
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getincangle_": [
+          1,
+          145840
+        ],
+        "makeitfall_": [
+          1,
+          146544
+        ],
+        "moveplayers_": [
+          1,
+          93360
+        ],
+        "quickkill_": [
+          1,
+          204464
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ],
+        "5": [
+          3,
+          77744
+        ]
+      }
+    },
+    {
+      "symbol": "movefallers_",
+      "source_offset": 11328,
+      "target_offset": 95488,
+      "size": 816,
+      "comparison": {
+        "symbol": "movefallers_",
+        "target_object": 1,
+        "target_offset": 95488,
+        "compared_bytes": 816,
+        "verified_fixups": 31,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "ceilingspace_": [
+          1,
+          84592
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "floorspace_": [
+          1,
+          84672
+        ],
+        "ifhitbyweapon_": [
+          1,
+          91728
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "movefallers_": [
+          1,
+          95488
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movestandables_",
+      "source_offset": 12144,
+      "target_offset": 96304,
+      "size": 7760,
+      "comparison": {
+        "symbol": "movestandables_",
+        "target_object": 1,
+        "target_offset": 96304,
+        "compared_bytes": 7760,
+        "verified_fixups": 324,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "_camsprite": [
+          3,
+          581294
+        ],
+        "_earthquaketime": [
+          3,
+          582927
+        ],
+        "_global_random": [
+          3,
+          581298
+        ],
+        "_headspritesect": [
+          3,
+          1647034
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_msx": [
+          3,
+          496208
+        ],
+        "_msy": [
+          3,
+          488016
+        ],
+        "_nextspritesect": [
+          3,
+          1080256
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_pipebombblastradius": [
+          3,
+          573820
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_seenineblastradius": [
+          3,
+          573824
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_tripbombblastradius": [
+          3,
+          573816
+        ],
+        "check_activator_motion_": [
+          1,
+          254112
+        ],
+        "checkcursectnums_": [
+          1,
+          254688
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "dist_": [
+          1,
+          254816
+        ],
+        "execute_": [
+          1,
+          172384
+        ],
+        "findplayer_": [
+          1,
+          254864
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getglobalz_": [
+          1,
+          146032
+        ],
+        "hitasprite_": [
+          1,
+          205232
+        ],
+        "hitradius_": [
+          1,
+          86128
+        ],
+        "ifhitbyweapon_": [
+          1,
+          91728
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "loadtile_": [
+          1,
+          328028
+        ],
+        "makeitfall_": [
+          1,
+          146544
+        ],
+        "movestandables_": [
+          1,
+          96304
+        ],
+        "operateactivators_": [
+          1,
+          261472
+        ],
+        "operatemasterswitches_": [
+          1,
+          262112
+        ],
+        "operatesectors_": [
+          1,
+          257504
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "moveweapons_",
+      "source_offset": 20416,
+      "target_offset": 104576,
+      "size": 3424,
+      "comparison": {
+        "symbol": "moveweapons_",
+        "target_object": 1,
+        "target_offset": 104576,
+        "compared_bytes": 3424,
+        "verified_fixups": 147,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "FindDistance2D_": [
+          1,
+          566176
+        ],
+        "_Sound": [
+          3,
+          574936
+        ],
+        "_global_random": [
+          3,
+          581298
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_rpgblastradius": [
+          3,
+          573808
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_shrinkerblastradius": [
+          3,
+          573792
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "_xdim": [
+          3,
+          1644980
+        ],
+        "_ydim": [
+          3,
+          1644976
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "bounce_": [
+          1,
+          104064
+        ],
+        "checkhitceiling_": [
+          1,
+          268608
+        ],
+        "checkhitsprite_": [
+          1,
+          269328
+        ],
+        "checkhitwall_": [
+          1,
+          265936
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "execute_": [
+          1,
+          172384
+        ],
+        "findplayer_": [
+          1,
+          254864
+        ],
+        "getangle_": [
+          1,
+          331976
+        ],
+        "getglobalz_": [
+          1,
+          146032
+        ],
+        "hitradius_": [
+          1,
+          86128
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "movesprite_": [
+          1,
+          88288
+        ],
+        "moveweapons_": [
+          1,
+          104576
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "moveexplosions_",
+      "source_offset": 38752,
+      "target_offset": 122912,
+      "size": 4144,
+      "comparison": {
+        "symbol": "moveexplosions_",
+        "target_object": 1,
+        "target_offset": 122912,
+        "compared_bytes": 4144,
+        "verified_fixups": 119,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_Sound": [
+          3,
+          574936
+        ],
+        "_global_random": [
+          3,
+          581298
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sintable": [
+          3,
+          1285056
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "execute_": [
+          1,
+          172384
+        ],
+        "findplayer_": [
+          1,
+          254864
+        ],
+        "getceilzofslope_": [
+          1,
+          409894
+        ],
+        "getflorzofslope_": [
+          1,
+          410144
+        ],
+        "getglobalz_": [
+          1,
+          146032
+        ],
+        "insertspriteq_": [
+          1,
+          89568
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "ldist_": [
+          1,
+          254768
+        ],
+        "makeitfall_": [
+          1,
+          146544
+        ],
+        "moveexplosions_": [
+          1,
+          122912
+        ],
+        "setsprite_": [
+          1,
+          352579
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    },
+    {
+      "symbol": "movetransports_",
+      "source_offset": 23840,
+      "target_offset": 108000,
+      "size": 3376,
+      "comparison": {
+        "symbol": "movetransports_",
+        "target_object": 1,
+        "target_offset": 108000,
+        "compared_bytes": 3376,
+        "verified_fixups": 244,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "FX_StopAllSounds_": [
+          1,
+          526644
+        ],
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_headspritesect": [
+          3,
+          1647034
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_nextspritesect": [
+          3,
+          1080256
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_screenpeek": [
+          3,
+          581290
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_sync": [
+          3,
+          573632
+        ],
+        "changespritesect_": [
+          1,
+          353812
+        ],
+        "checkcursectnums_": [
+          1,
+          254688
+        ],
+        "clearsoundlocks_": [
+          1,
+          286192
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "movetransports_": [
+          1,
+          108000
+        ],
+        "setpal_": [
+          1,
+          204096
+        ],
+        "spawn_": [
+          1,
+          31536
+        ],
+        "spritesound_": [
+          1,
+          284768
+        ],
+        "ssp_": [
+          1,
+          89472
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          84160
+        ]
+      }
+    }
+  ],
+  "matched_function_bytes": 42864,
+  "matched_function_fixups": 1889,
+  "source_code_bytes": 61666,
+  "unverified_code_publics": [
+    "moveeffectors_"
+  ],
+  "full_module_gate": {
+    "verified": false,
+    "error": "missing/unsupported loader fixup at 0x21ca8"
+  },
+  "leading_code_prefix": {
+    "symbol": "ACTORS leading CODE data/alignment",
+    "target_object": 1,
+    "target_offset": 84160,
+    "compared_bytes": 32,
+    "verified_fixups": 0,
+    "differing_offsets": [],
+    "match": true,
+    "source_segment": 1,
+    "source_offset": 0,
+    "recognized_data_bytes": 24,
+    "native_alignment_bytes": 8,
+    "status_values_bytes": 7,
+    "residue_offset": 7,
+    "slime_frames_offset": 8,
+    "slime_frames_bytes": 16,
+    "complete_prefix_verified": true
+  },
+  "noncode_storage": {
+    "verified": true,
+    "initialized_bytes": 67,
+    "zero_fill_bytes": 6,
+    "verified_fixups": 0,
+    "segments": [
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 4280,
+        "compared_bytes": 67,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 77744,
+        "compared_bytes": 6,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_otherp": [
+        3,
+        77748
+      ],
+      "_dmval": [
+        3,
+        77744
+      ]
+    },
+    "local_symbols": {
+      "_dmval": [
+        3,
+        77744
+      ]
+    },
+    "full_executable_rebuilt": false,
+    "scope": "Complete non-CODE storage only; not a complete ACTORS contribution. CODE and its embedded tables are omitted.",
+    "source_segments": [
+      2,
+      5
+    ]
+  },
+  "noncode_storage_verified": true,
+  "scope": "All bytes and fixups in the listed public intervals are checked. All listed public intervals agree on CODE base84160, logical names and non-CODE placements; their union omits the unverified effector body. A public interval can contain a following function switch-table prefix. All non-CODE initialized storage and BSS are checked separately. The complete32-byte leading CODE data/alignment prefix is checked at the same CODE base as every listed public. The remaining effector body, complete initialized-data gate, full module placement, linking and the executable remain unverified.",
+  "leading_code_prefix_verified": true,
+  "initialized_data_verified": false,
+  "bss_verified": true,
+  "new_complete_contributions": 0,
+  "full_executable_rebuilt": false
+}

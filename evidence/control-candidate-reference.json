@@ -1,0 +1,77 @@
+{
+  "kind": "Uncredited authored CONTROL source/link candidate; not original source identity",
+  "source_sha256": "ae8712bec98014db5d12875f274e46e0e7fa55a1be8f08ceda76d0eb2e02f9d3",
+  "headers_sha256": {
+    "_control.h": "ff27f8aa20aecd9c3d797cc901b9a522a680b634d9d34d7a1da912941c1034c2",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "watcom.h": "ceb437488b72845f42d6204bf866824aaecc235e002d6f4cf090764342cf488a"
+  },
+  "notice_and_lineage_sha256": {
+    "src/mact/control/README.md": "ddbcb67df56400caf78a7ce68ec4469add023ca0333d0bda1091ab48c4d6d994"
+  },
+  "producer_tools_sha256": {
+    "tools/build_control_candidate.py": "4c75698bdea02c9f7df0c9ca3fde7fecccbd15031c6a2d8dccebe3580c1076ef",
+    "tools/build_gf1_init_candidate.py": "b5d06bb7cea82c7640ed78a4d77ce0b3c4a4c335e5c2b0b70f953546e7024ecf",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "historical_source_lineage": {
+    "Task122": "Fowler2005 initial interpolation; inspected2004 predecessor; ROTT input algorithms and native-assisted DOS/API reconstruction",
+    "Tasks128_130_132_136_138": "Causal behavior corrections and preserved negatives; no assertion of unique original source text",
+    "Task144": "Pre-recorded genuine declaration context predicts all25 BSS positions; frozen baseline used unchanged"
+  },
+  "source_leads": [
+    {
+      "url": "https://github.com/jonof/jfmact/commit/a356c4aa660c5dfbe5ad940ee8a75f3ab7fcd10f",
+      "scope": "2005 disassembly-derived interpolation, not original MACT C",
+      "source_sha256": "124be02f1d66750a106850ca85bbaae393ee9b4f8e871cec4baaaa2c845653fb"
+    },
+    {
+      "url": "https://github.com/jonof/jfduke3d/tree/fbc06d28ef634de37ca9dba006337191a576bf48/source/jmact",
+      "scope": "2004 portable predecessor inspected; not native DOS original"
+    },
+    {
+      "scope": "Published ROTT RT_IN.C/_RT_IN.H/WATCOM.H related algorithms/types/primitive ancestry; existing header notices retained"
+    }
+  ],
+  "original_reference": {
+    "offset": 95744,
+    "extent": 19697,
+    "sha256": "2c046c087b2c6825fa77f5b8a5c0643fea7a2fc2148cf8c231d0f4dc90a5e129"
+  },
+  "fixed_profile": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "source_credit": 0,
+  "complete_module": false,
+  "fixed_target_layout_verified": false,
+  "full_executable_rebuilt": false,
+  "known_remaining": [
+    "12 raw CODE bodies differ; original6329/470 vs source6189/467",
+    "DATA17..19 actual native output residue retained; no normalized bytes",
+    "Complete source behavior/layout and source-built EXE remain open"
+  ],
+  "producer_inputs": "Only tracked source/seven headers/recipe/notice/tools and authenticated compiler headers/emulator. Original/reference enters optional observer only after output exists.",
+  "startup_reader_identity_refresh": {
+    "prior_checkpoint": "154b691",
+    "scope": "Reviewed opt-in startup decoder; default Module/Fixup schemas and old proof semantics unchanged. Historical source/output maps below remain historical; active parser/closed-issuer identities explicitly rebound. No source/header/ABI/storage/coverage change.",
+    "prior_active_tools": {
+      "tools/build_control_candidate.py": "4c75698bdea02c9f7df0c9ca3fde7fecccbd15031c6a2d8dccebe3580c1076ef",
+      "tools/build_gf1_init_candidate.py": "b5d06bb7cea82c7640ed78a4d77ce0b3c4a4c335e5c2b0b70f953546e7024ecf",
+      "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+      "profiles/watcom/tools/omf32.py": "f7797f61f49153c4f09bb28890c0677754de59d11541f5c0731dd7f478e4ab3c"
+    },
+    "changed_tools": {
+      "profiles/watcom/tools/omf32.py": {
+        "prior": "f7797f61f49153c4f09bb28890c0677754de59d11541f5c0731dd7f478e4ab3c",
+        "current": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+      }
+    }
+  }
+}

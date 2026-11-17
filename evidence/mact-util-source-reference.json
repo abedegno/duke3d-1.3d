@@ -1,0 +1,157 @@
+{
+  "kind": "ordinary C reconstruction with preserved ROTT GPL ancestry; not historical source identity",
+  "source": {
+    "path": "src/mact/util_lib.c",
+    "sha256": "cbc67db41e6412f5fc5ec010a4bf4645461088572025e2b05130cc4cbdc191e8"
+  },
+  "compiler": {
+    "path": "toolchains/watcom-10.0-ga/BINB/wcc386.exe",
+    "sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "options": [
+      "/omaxnet",
+      "/zp4",
+      "/5r"
+    ]
+  },
+  "primary_rott": {
+    "path": "build/mact-source-research/rott/rott/RT_UTIL.C",
+    "sha256": "4a550d8e3a1ecd034bc9294e42fc0b6403f1c10c09ddbbd91c2dcdd669b4569b",
+    "manifest": "build/mact-source-research/rott-source-manifest.json"
+  },
+  "primary_archive": {
+    "url": "https://ftpmirror.infania.net/pub/3drealms/source/rottsource.zip",
+    "sha256": "45eafa693c3085c56b6ccd072f5a1fb5ba1986877a21e4506d4741b1bdd44729",
+    "license": "GPL version 2 or later; copyright 1994-1995 Apogee Software"
+  },
+  "related_jfmact": {
+    "path": "build/mact-source-research/source/jfmact-a356c4aa660c5dfbe5ad940ee8a75f3ab7fcd10f/util_lib.c",
+    "sha256": "c64cf2c2468d6fe14b321bfa97eff356a95c4ddae55cab376362728d918cb097",
+    "manifest": "build/mact-source-research/source-manifest.json"
+  },
+  "jfmact_scope": "Creative interpolation per its own header, not original MACT source identity; no bodies copied",
+  "original_reference": {
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "member": {
+      "name": "P:\\LIBMACT\\util_lib.c",
+      "offset": 39936,
+      "size": 3659,
+      "sha256": "a21a1600b6dfd1c0e88a16a29c220c2fb943d5992cf300e362d921c2b047929d"
+    },
+    "reference_only": true,
+    "source_payload_emitted": false
+  },
+  "source_roles": {
+    "ROTT": "ParseHex/ParseNum/MotoShort/IntelShort/MotoLong/IntelLong bodies retained, except explicit measured trailing NUL in ParseHex message literal; hsort renamed HeapSort, newsift_down and static heap state retained",
+    "reconstructed": "Shutdown callback, reentrant Error guard, argv stack-copy/tokenization, direct CRT memory wrappers recovered from native widths/calls/strings. Local identifiers inerror/delimiters/buffer/p and historical typedef spelling inferred."
+  },
+  "const_storage": {
+    "message_offsets": [
+      0,
+      4,
+      24,
+      60,
+      96
+    ],
+    "zero_residue_offsets": [
+      2,
+      3,
+      23,
+      57,
+      58,
+      59,
+      94,
+      95
+    ],
+    "treatment": "Explicit extra NUL terminators in actual message literals; preserve first NUL and native addresses. Native compiler otherwise writes source-buffer residue. Historical source intent/spelling unresolved; no instruction data or masks."
+  },
+  "native_storage": {
+    "code_prefix": "4 bytes local delimiters initializer copied to CheckParm stack, marked data by native compiler",
+    "data": "ShutDown pointer at0; function-local inerror initialized0 at4",
+    "bss": "Base0 Comp4 Width8 Switch12; function-local static stop16 n20 i24; all28 bytes verified unbacked"
+  },
+  "independent_anchors": {
+    "evidence": "evidence/mact-util-crt-anchors.json",
+    "sha256": "ceebe0aa4f3e404f99cc85ebd15c6698b3e391de3bdf377b17311f9fcf6b75b1",
+    "members": [
+      "strtok",
+      "cmain386",
+      "nmsize",
+      "vprintf",
+      "nrealloc"
+    ],
+    "symbols": {
+      "printf_": [
+        1,
+        583204
+      ],
+      "exit_": [
+        1,
+        583687
+      ],
+      "strtok_": [
+        1,
+        589392
+      ],
+      "stricmp_": [
+        1,
+        588168
+      ],
+      "atol_": [
+        1,
+        583945
+      ],
+      "malloc_": [
+        1,
+        587632
+      ],
+      "_msize_": [
+        1,
+        591250
+      ],
+      "free_": [
+        1,
+        587859
+      ],
+      "__argc": [
+        3,
+        71844
+      ],
+      "__argv": [
+        3,
+        71848
+      ],
+      "vprintf_": [
+        1,
+        591233
+      ],
+      "realloc_": [
+        1,
+        591259
+      ]
+    },
+    "method": "Fresh complete original stock CRT member replay (three GA, two 10.5) plus accepted peer proofs; global definitions/alias scope retained, no SDK output",
+    "witness_scope": "Fixed native-only witness avoids a dependency cycle through changing source-coverage diagnostics; each original member is fully reverified before compiling source.",
+    "runtime_version_scope": "The two 10.5 member byte streams are identical in supplied 10.6. 10.5 is the pinned replay dependency, not a unique historical compiler/linker claim."
+  },
+  "native_profile": "Fixed GA /omaxnet /zp4 /5r from research; no type/name/flag grid",
+  "full_executable_rebuilt": false,
+  "verified_peer_anchors": [
+    {
+      "path": "evidence/engine-function-matches.json",
+      "field": "module_verification",
+      "sha256": "22ae2f5dc73b50aea3c2141ced565e3ff85e29e116c59466731153dc5598e7d0"
+    },
+    {
+      "path": "evidence/mmulti-module.json",
+      "field": "verification",
+      "sha256": "598b11ba5ff941f79c070599836af5caa72b5072ffa5b4861423dba97fe6b90f"
+    },
+    {
+      "path": "evidence/gamedef-module.json",
+      "field": "verification",
+      "sha256": "6ea0e2d3101303d623c00d8438d85aebe3c2c75247827f77c90bb2b1b4a32727"
+    }
+  ],
+  "selected_member_call_nominations": {},
+  "anchor_limit": "All twelve source imports are independently constrained by fresh complete stock CRT member verification or accepted peer proofs. No unique historical runtime/compiler selection, final member order, or whole executable identity is established."
+}

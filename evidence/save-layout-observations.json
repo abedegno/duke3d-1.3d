@@ -1,0 +1,1740 @@
+{
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "kind": "target instruction observations, not recovered source",
+  "range": {
+    "object": 1,
+    "start": 176429,
+    "end": 178294
+  },
+  "dfwrite_anchor": {
+    "evidence": "evidence/cache1d-module.json",
+    "sha256": "b2b929585d167f228add9bf588efb8d660016aca75717e7c8f79956ff74e6bb2",
+    "object": 1,
+    "offset": 421552
+  },
+  "write_calls": 56,
+  "constant_pointer_records": [
+    {
+      "call_offset": 176504,
+      "packet_offset": 176487,
+      "pointer_operand": 176498,
+      "object": 3,
+      "address": 581254,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "84b2c4a47a349819514d6e7826e93d452f37b66e60900c500649cb9e2facefd9"
+    },
+    {
+      "call_offset": 176526,
+      "packet_offset": 176509,
+      "pointer_operand": 176520,
+      "object": 3,
+      "address": 581250,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "bf439966a8cad87c9d41f36ecae7d67b9d1acc0b218e17c71dd521a2a931bcbd"
+    },
+    {
+      "call_offset": 176548,
+      "packet_offset": 176531,
+      "pointer_operand": 176542,
+      "object": 3,
+      "address": 581246,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "cf799dad0a082c23628234158f3ba6b34c639dfca2e07111a394c2ae9d944ea8"
+    },
+    {
+      "call_offset": 176592,
+      "packet_offset": 176575,
+      "pointer_operand": 176586,
+      "object": 3,
+      "address": 1649142,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "4fb3a116f0db535c78791dbf54965f929f9bae1f4e6255d431d567ed2601cf73"
+    },
+    {
+      "call_offset": 176614,
+      "packet_offset": 176597,
+      "pointer_operand": 176608,
+      "object": 3,
+      "address": 1289152,
+      "item_size": 32,
+      "count": 8192,
+      "span_bytes": 262144,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "79e88954f4ae103c0632271074020a13ecd9f06279ffdd52d0ef28c7af8e19ab"
+    },
+    {
+      "call_offset": 176636,
+      "packet_offset": 176619,
+      "pointer_operand": 176630,
+      "object": 3,
+      "address": 1649144,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "2a0a58a9f1e095fac8b2cacb50961ed12c0ecf52a979ebd55e42ea183d1733cd"
+    },
+    {
+      "call_offset": 176658,
+      "packet_offset": 176641,
+      "pointer_operand": 176652,
+      "object": 3,
+      "address": 1597120,
+      "item_size": 40,
+      "count": 1024,
+      "span_bytes": 40960,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "0b2f488d9a796e0c225947b0bee2a13df58dc5bc66a8827ee9e4d5e985e6242f"
+    },
+    {
+      "call_offset": 176680,
+      "packet_offset": 176663,
+      "pointer_operand": 176674,
+      "object": 3,
+      "address": 1104832,
+      "item_size": 44,
+      "count": 4096,
+      "span_bytes": 180224,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "39f9ad663c4141603f9e5e24400cab1627bde0d52b241668739c74ab17b13aca"
+    },
+    {
+      "call_offset": 176702,
+      "packet_offset": 176685,
+      "pointer_operand": 176696,
+      "object": 3,
+      "address": 1647034,
+      "item_size": 2,
+      "count": 1025,
+      "span_bytes": 2050,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "fc89014657cd46fe866bc221231fb27b586d91a12812ef34264a3f2918c78ab6"
+    },
+    {
+      "call_offset": 176724,
+      "packet_offset": 176707,
+      "pointer_operand": 176718,
+      "object": 3,
+      "address": 1064768,
+      "item_size": 2,
+      "count": 4096,
+      "span_bytes": 8192,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "d306842ed92bb278b4e0323a8cba7f142cea4938b648a5562d644637902c8b0d"
+    },
+    {
+      "call_offset": 176746,
+      "packet_offset": 176729,
+      "pointer_operand": 176740,
+      "object": 3,
+      "address": 1080256,
+      "item_size": 2,
+      "count": 4096,
+      "span_bytes": 8192,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "2be5c70a534924bd2e03d3ddf6ec55a87573bfe28640fcbb219a889bea047f15"
+    },
+    {
+      "call_offset": 176768,
+      "packet_offset": 176751,
+      "pointer_operand": 176762,
+      "object": 3,
+      "address": 1644984,
+      "item_size": 2,
+      "count": 1025,
+      "span_bytes": 2050,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "7beeb2d7ac9edd98000154e393d7cea61f3ca6319fe5468191ce32334bbd0821"
+    },
+    {
+      "call_offset": 176790,
+      "packet_offset": 176773,
+      "pointer_operand": 176784,
+      "object": 3,
+      "address": 1096640,
+      "item_size": 2,
+      "count": 4096,
+      "span_bytes": 8192,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "721dfd9fe76b6ffbbca0c5012ea08ea1c875864ea11bc8d27d813f6e3be9b58b"
+    },
+    {
+      "call_offset": 176812,
+      "packet_offset": 176795,
+      "pointer_operand": 176806,
+      "object": 3,
+      "address": 1088448,
+      "item_size": 2,
+      "count": 4096,
+      "span_bytes": 8192,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "1752573187f18c51ac6753c5ec83affd95965f707b3fbdfde5370efe3e259f22"
+    },
+    {
+      "call_offset": 176834,
+      "packet_offset": 176817,
+      "pointer_operand": 176828,
+      "object": 3,
+      "address": 581302,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "a3df5cb68c5e7d7b5744509d4a242a8615f646bb37a430408acf71932b28882c"
+    },
+    {
+      "call_offset": 176856,
+      "packet_offset": 176839,
+      "pointer_operand": 176850,
+      "object": 3,
+      "address": 410896,
+      "item_size": 12,
+      "count": 256,
+      "span_bytes": 3072,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "3c4b180ebbfddb739847f883bc7be7854d4358caec260224b43a41dedb2c0854"
+    },
+    {
+      "call_offset": 176878,
+      "packet_offset": 176861,
+      "pointer_operand": 176872,
+      "object": 3,
+      "address": 376112,
+      "item_size": 1362,
+      "count": 16,
+      "span_bytes": 21792,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "cd6b086d1037d87ad77f03051a2d202edb743dd069036d2920a44adbd14e647f"
+    },
+    {
+      "call_offset": 176897,
+      "packet_offset": 176883,
+      "pointer_operand": 176889,
+      "object": 3,
+      "address": 375856,
+      "item_size": 16,
+      "count": 16,
+      "span_bytes": 256,
+      "instructions": [
+        "mov ebx,count_and_item_size",
+        "mov eax,address",
+        "mov ecx,file",
+        "mov edx,ebx"
+      ],
+      "packet_sha256": "2fa97ac6305ad056044a9456189eb11b54ceec16299246e60519cea53f0ea686"
+    },
+    {
+      "call_offset": 176919,
+      "packet_offset": 176902,
+      "pointer_operand": 176913,
+      "object": 3,
+      "address": 581306,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "084e5b1e4649df45c774b6f03bd1176afc0107223642782920e48aaa1005c81d"
+    },
+    {
+      "call_offset": 176941,
+      "packet_offset": 176924,
+      "pointer_operand": 176935,
+      "object": 3,
+      "address": 529600,
+      "item_size": 3072,
+      "count": 1,
+      "span_bytes": 3072,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "b53bff649691f4d9c153b59f9574c534b3021a205fa4697c65ede1e2668ac262"
+    },
+    {
+      "call_offset": 176963,
+      "packet_offset": 176946,
+      "pointer_operand": 176957,
+      "object": 3,
+      "address": 496208,
+      "item_size": 4,
+      "count": 2048,
+      "span_bytes": 8192,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "ee1124d0f913b92475fd0487183046a7901d4268fae1f09925db8b069d0b2ae3"
+    },
+    {
+      "call_offset": 176985,
+      "packet_offset": 176968,
+      "pointer_operand": 176979,
+      "object": 3,
+      "address": 488016,
+      "item_size": 4,
+      "count": 2048,
+      "span_bytes": 8192,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "d46dd4c0865447e29db87199303fc78ed17300b1cb4c91e18192954bca72b765"
+    },
+    {
+      "call_offset": 177007,
+      "packet_offset": 176990,
+      "pointer_operand": 177001,
+      "object": 3,
+      "address": 581304,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "2bfad6250e691eb239adb5869c31ab7b6bcb17fcb06befbf7979589c52b0cdb3"
+    },
+    {
+      "call_offset": 177029,
+      "packet_offset": 177012,
+      "pointer_operand": 177023,
+      "object": 3,
+      "address": 410192,
+      "item_size": 2,
+      "count": 64,
+      "span_bytes": 128,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "aee8f7973716a819ab509eca6cb6aa0bd3bc8ae2452672ab84d2d14c1e3f99bd"
+    },
+    {
+      "call_offset": 177051,
+      "packet_offset": 177034,
+      "pointer_operand": 177045,
+      "object": 3,
+      "address": 581284,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "3cff55b183131666ce458eadce1f694b494340e2594565f5cb04adf3e753fdda"
+    },
+    {
+      "call_offset": 177073,
+      "packet_offset": 177056,
+      "pointer_operand": 177067,
+      "object": 3,
+      "address": 119640,
+      "item_size": 2,
+      "count": 64,
+      "span_bytes": 128,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "a01e82ecba23d3d1048dac29f59518365c47e2f3382edefd6d3b91055faa1740"
+    },
+    {
+      "call_offset": 177095,
+      "packet_offset": 177078,
+      "pointer_operand": 177089,
+      "object": 3,
+      "address": 119512,
+      "item_size": 2,
+      "count": 64,
+      "span_bytes": 128,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "f7899c96de5c0726c75471362bd7cc7a14c795b5ec551e2556301c0aae935a73"
+    },
+    {
+      "call_offset": 177117,
+      "packet_offset": 177100,
+      "pointer_operand": 177111,
+      "object": 3,
+      "address": 1008064,
+      "item_size": 1,
+      "count": 128,
+      "span_bytes": 128,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "ff5d8b44d2dd7f70f3aac33220af50c6fea7acbea17235e545f36a258541f137"
+    },
+    {
+      "call_offset": 177224,
+      "packet_offset": 177207,
+      "pointer_operand": 177218,
+      "object": 3,
+      "address": 287488,
+      "item_size": 4,
+      "count": 20000,
+      "span_bytes": 80000,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "c6be6112de0e0ab198e122c7c2bc0530f446bbc92c5a8322e1e6143101442144"
+    },
+    {
+      "call_offset": 177336,
+      "packet_offset": 177319,
+      "pointer_operand": 177330,
+      "object": 3,
+      "address": 266136,
+      "item_size": 4,
+      "count": 4096,
+      "span_bytes": 16384,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "66de860d0563353def00b17d6a01b6d4faf4a9862a24d81ae90bf381f4f670e4"
+    },
+    {
+      "call_offset": 177660,
+      "packet_offset": 177643,
+      "pointer_operand": 177654,
+      "object": 3,
+      "address": 120728,
+      "item_size": 71,
+      "count": 2048,
+      "span_bytes": 145408,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "f851f1c97fb7c1617fb8e1384fa8e5da0978253a18b03fe63211f18ae7cc99bc"
+    },
+    {
+      "call_offset": 177814,
+      "packet_offset": 177797,
+      "pointer_operand": 177808,
+      "object": 3,
+      "address": 574884,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "bb9344505a5847fd571469343380a073c04f3329774924e72355356d49a2534a"
+    },
+    {
+      "call_offset": 177836,
+      "packet_offset": 177819,
+      "pointer_operand": 177830,
+      "object": 3,
+      "address": 1649138,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "b863bcb2d9147c2b81f600d7c9c02e3baffc4e9c87b336997b711182c7c19e45"
+    },
+    {
+      "call_offset": 177858,
+      "packet_offset": 177841,
+      "pointer_operand": 177852,
+      "object": 3,
+      "address": 1043648,
+      "item_size": 2,
+      "count": 256,
+      "span_bytes": 512,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "735388e988069e05477db36f166b411a156fff816112adb239736775b749cde7"
+    },
+    {
+      "call_offset": 177880,
+      "packet_offset": 177863,
+      "pointer_operand": 177874,
+      "object": 3,
+      "address": 574876,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "39f2f3b7a655421e2d9967eb3033557e570f15eb58423f7c2ec9d6b8c5139377"
+    },
+    {
+      "call_offset": 177902,
+      "packet_offset": 177885,
+      "pointer_operand": 177896,
+      "object": 3,
+      "address": 119768,
+      "item_size": 2,
+      "count": 64,
+      "span_bytes": 128,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "c278c792164a956621e44e7fe98764c7d3458ca06a81746c11da3f046c82be61"
+    },
+    {
+      "call_offset": 177957,
+      "packet_offset": 177940,
+      "pointer_operand": 177951,
+      "object": 3,
+      "address": 119896,
+      "item_size": 4,
+      "count": 64,
+      "span_bytes": 256,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "2be60cee4db1bb1bcb79d01ab61be985be2100a9156a5796a95adf171cdb5afa"
+    },
+    {
+      "call_offset": 178012,
+      "packet_offset": 177995,
+      "pointer_operand": 178006,
+      "object": 3,
+      "address": 120472,
+      "item_size": 4,
+      "count": 64,
+      "span_bytes": 256,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "8012fb7bb2891c1fe00bc2906091ec52110ea2219392bc5a6ce1d83a83b92aae"
+    },
+    {
+      "call_offset": 178034,
+      "packet_offset": 178017,
+      "pointer_operand": 178028,
+      "object": 3,
+      "address": 120216,
+      "item_size": 4,
+      "count": 64,
+      "span_bytes": 256,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "8fb9d47fcad35bfa3e7d535bfd8f68326c21be335481d390a6949c745fe8dd2f"
+    },
+    {
+      "call_offset": 178053,
+      "packet_offset": 178039,
+      "pointer_operand": 178045,
+      "object": 3,
+      "address": 582927,
+      "item_size": 1,
+      "count": 1,
+      "span_bytes": 1,
+      "instructions": [
+        "mov ebx,count_and_item_size",
+        "mov eax,address",
+        "mov ecx,file",
+        "mov edx,ebx"
+      ],
+      "packet_sha256": "504668e710b1c60c909dd9b976a9547ac64c28e94e43ec604222512f4cc954af"
+    },
+    {
+      "call_offset": 178075,
+      "packet_offset": 178058,
+      "pointer_operand": 178069,
+      "object": 3,
+      "address": 581086,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "81aa367faebc71b89ae17961b4e6fd6c9396d6384953e5d2329e6fa845f9c63b"
+    },
+    {
+      "call_offset": 178097,
+      "packet_offset": 178080,
+      "pointer_operand": 178091,
+      "object": 3,
+      "address": 581096,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "2be2fc7ed6a492d335cc8458bff43dcb62585433a2dffe7f76eb74308ff3a76a"
+    },
+    {
+      "call_offset": 178119,
+      "packet_offset": 178102,
+      "pointer_operand": 178113,
+      "object": 3,
+      "address": 581186,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "7a978a227304a18f0583b9d8eda701a800ad1d3908fbe5c9b914998d2794b574"
+    },
+    {
+      "call_offset": 178141,
+      "packet_offset": 178124,
+      "pointer_operand": 178135,
+      "object": 3,
+      "address": 581190,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "448daac14463bc74a6d078349900db98aeac6d3536b6017cef513b92a6af327b"
+    },
+    {
+      "call_offset": 178163,
+      "packet_offset": 178146,
+      "pointer_operand": 178157,
+      "object": 3,
+      "address": 581194,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "9ebec9376d1ed252ecea63e9c42d45f1613db079b7205aac39184658d591e67b"
+    },
+    {
+      "call_offset": 178182,
+      "packet_offset": 178168,
+      "pointer_operand": 178174,
+      "object": 3,
+      "address": 579668,
+      "item_size": 1,
+      "count": 1,
+      "span_bytes": 1,
+      "instructions": [
+        "mov ebx,count_and_item_size",
+        "mov eax,address",
+        "mov ecx,file",
+        "mov edx,ebx"
+      ],
+      "packet_sha256": "784c517fe464104bb679b48e2d88d9207ea500ab19c414d9242b6e898dc65ec3"
+    },
+    {
+      "call_offset": 178204,
+      "packet_offset": 178187,
+      "pointer_operand": 178198,
+      "object": 3,
+      "address": 581154,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "ef7b301c9c98e69be497c6a3f9b5ffbc7752cc6244b2effb1e9ad9db2b773749"
+    },
+    {
+      "call_offset": 178226,
+      "packet_offset": 178209,
+      "pointer_operand": 178220,
+      "object": 3,
+      "address": 581182,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "80cca9e4408b76feb3f372bee86b3e0d7096fba76b8c6bb2bba81608aa86269a"
+    },
+    {
+      "call_offset": 178248,
+      "packet_offset": 178231,
+      "pointer_operand": 178242,
+      "object": 3,
+      "address": 581202,
+      "item_size": 4,
+      "count": 1,
+      "span_bytes": 4,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "a96992ae6d82f75fca460590fd51d56cafc7876298bb84ccc543184ce361e193"
+    },
+    {
+      "call_offset": 178270,
+      "packet_offset": 178253,
+      "pointer_operand": 178264,
+      "object": 3,
+      "address": 581094,
+      "item_size": 2,
+      "count": 1,
+      "span_bytes": 2,
+      "instructions": [
+        "mov ebx,count",
+        "mov edx,item_size",
+        "mov eax,address",
+        "mov ecx,file"
+      ],
+      "packet_sha256": "c21cb7c60407b745868894bac08144f36c7148af34e6af8108d5985f53da1979"
+    },
+    {
+      "call_offset": 178289,
+      "packet_offset": 178275,
+      "pointer_operand": 178281,
+      "object": 3,
+      "address": 579671,
+      "item_size": 1,
+      "count": 1,
+      "span_bytes": 1,
+      "instructions": [
+        "mov ebx,count_and_item_size",
+        "mov eax,address",
+        "mov ecx,file",
+        "mov edx,ebx"
+      ],
+      "packet_sha256": "dde33582f995b653c36f2b7337cef675745645850e95a2b5cb926165743364de"
+    }
+  ],
+  "reader": {
+    "range": {
+      "object": 1,
+      "start": 173650,
+      "end": 175650
+    },
+    "kdfread_offset": 420486,
+    "read_calls": 62,
+    "constant_pointer_records": [
+      {
+        "call_offset": 173745,
+        "packet_offset": 173728,
+        "pointer_operand": 173739,
+        "object": 3,
+        "address": 413968,
+        "item_size": 19,
+        "count": 1,
+        "span_bytes": 19,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "d71d7271af12f082245dab81db35160d86277dd5cbd8b668003bf3ad74474ae2"
+      },
+      {
+        "call_offset": 174101,
+        "packet_offset": 174084,
+        "pointer_operand": 174095,
+        "object": 3,
+        "address": 581254,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "134078e29d6abf16b49a11aebb1ed254790603e4913b02ab2de06fc1ba11cb59"
+      },
+      {
+        "call_offset": 174123,
+        "packet_offset": 174106,
+        "pointer_operand": 174117,
+        "object": 3,
+        "address": 581250,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "d160fd84a474773392804849dbc0d1186ca796d48a34209471f5acb015a00b49"
+      },
+      {
+        "call_offset": 174145,
+        "packet_offset": 174128,
+        "pointer_operand": 174139,
+        "object": 3,
+        "address": 581246,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "e9bf1fa7bde49a09de75b07e9ce82d69f3bca27ffc97361881022bbbb3345bbf"
+      },
+      {
+        "call_offset": 174345,
+        "packet_offset": 174328,
+        "pointer_operand": 174339,
+        "object": 3,
+        "address": 1289152,
+        "item_size": 32,
+        "count": 8192,
+        "span_bytes": 262144,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "f07a78f4d6f5225fa7d6a0de6938c15156856849dc284f45e913c33316baf0e7"
+      },
+      {
+        "call_offset": 174367,
+        "packet_offset": 174350,
+        "pointer_operand": 174361,
+        "object": 3,
+        "address": 1649144,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "32d2c5d0efee912f690d185dc42958b3e0583d58d6f454e3cf954e8157ae11d7"
+      },
+      {
+        "call_offset": 174389,
+        "packet_offset": 174372,
+        "pointer_operand": 174383,
+        "object": 3,
+        "address": 1597120,
+        "item_size": 40,
+        "count": 1024,
+        "span_bytes": 40960,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "2846de3ce68c0eb454529e5bf3bbd9fb0d9c0d1996b5c9f8b1e5ba482f60007c"
+      },
+      {
+        "call_offset": 174411,
+        "packet_offset": 174394,
+        "pointer_operand": 174405,
+        "object": 3,
+        "address": 1104832,
+        "item_size": 44,
+        "count": 4096,
+        "span_bytes": 180224,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "6296ef43e2d42681fa0c6af9a37714c80597fdc2dd42dcf9ed1aff9e6b7a8c4b"
+      },
+      {
+        "call_offset": 174433,
+        "packet_offset": 174416,
+        "pointer_operand": 174427,
+        "object": 3,
+        "address": 1647034,
+        "item_size": 2,
+        "count": 1025,
+        "span_bytes": 2050,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "164b1ca6fb9cb90b6c0afb06196c6e53150d7a7bf8df365dae90467bb0e9fe83"
+      },
+      {
+        "call_offset": 174455,
+        "packet_offset": 174438,
+        "pointer_operand": 174449,
+        "object": 3,
+        "address": 1064768,
+        "item_size": 2,
+        "count": 4096,
+        "span_bytes": 8192,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "076a29d6f5a6cef7775cdd989935b196292d994c5112e7b4e066c4333229333e"
+      },
+      {
+        "call_offset": 174477,
+        "packet_offset": 174460,
+        "pointer_operand": 174471,
+        "object": 3,
+        "address": 1080256,
+        "item_size": 2,
+        "count": 4096,
+        "span_bytes": 8192,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "b28ad9da48a1ebf3ab73d016e6a778b9982601c6564437a3109eaa4a9d0ee01a"
+      },
+      {
+        "call_offset": 174499,
+        "packet_offset": 174482,
+        "pointer_operand": 174493,
+        "object": 3,
+        "address": 1644984,
+        "item_size": 2,
+        "count": 1025,
+        "span_bytes": 2050,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "5c06e1133bc9e0bcb72dc3a768a7058933b6f05c7fefa5d1694e91c21b304961"
+      },
+      {
+        "call_offset": 174521,
+        "packet_offset": 174504,
+        "pointer_operand": 174515,
+        "object": 3,
+        "address": 1096640,
+        "item_size": 2,
+        "count": 4096,
+        "span_bytes": 8192,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "10e45504d9073cea144c3786ef2439cc577b80b1d359d527260c9f1f052d05f6"
+      },
+      {
+        "call_offset": 174543,
+        "packet_offset": 174526,
+        "pointer_operand": 174537,
+        "object": 3,
+        "address": 1088448,
+        "item_size": 2,
+        "count": 4096,
+        "span_bytes": 8192,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "1d1c0ca87b6856623a95fd9c285505b172e7e0b9964cc53224099463b65b2dee"
+      },
+      {
+        "call_offset": 174565,
+        "packet_offset": 174548,
+        "pointer_operand": 174559,
+        "object": 3,
+        "address": 581302,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "d24bde4bea41b45a3c445b112dc9f259ee98d59b516fbbf2d9e19279a9d5e01b"
+      },
+      {
+        "call_offset": 174587,
+        "packet_offset": 174570,
+        "pointer_operand": 174581,
+        "object": 3,
+        "address": 410896,
+        "item_size": 12,
+        "count": 256,
+        "span_bytes": 3072,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "8489dd085291070ce2d7c8abab75e7524f4feba8c32461493587e1f34aec3668"
+      },
+      {
+        "call_offset": 174609,
+        "packet_offset": 174592,
+        "pointer_operand": 174603,
+        "object": 3,
+        "address": 376112,
+        "item_size": 1362,
+        "count": 16,
+        "span_bytes": 21792,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "b82b8ae4d25c3b380adbad0947904db3b85251e192ca978012500b71be73e434"
+      },
+      {
+        "call_offset": 174628,
+        "packet_offset": 174614,
+        "pointer_operand": 174620,
+        "object": 3,
+        "address": 375856,
+        "item_size": 16,
+        "count": 16,
+        "span_bytes": 256,
+        "instructions": [
+          "mov ebx,count_and_item_size",
+          "mov eax,address",
+          "mov ecx,file",
+          "mov edx,ebx"
+        ],
+        "packet_sha256": "9b293fd3a1ab90fa7859a48cd645f69b24adeb1080d8fa20a5ca9b4efa67ee21"
+      },
+      {
+        "call_offset": 174650,
+        "packet_offset": 174633,
+        "pointer_operand": 174644,
+        "object": 3,
+        "address": 581306,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "1268abfc901024fc74e3cdd8c844d861b82505fff7e77fcaa34448201ba5ca28"
+      },
+      {
+        "call_offset": 174672,
+        "packet_offset": 174655,
+        "pointer_operand": 174666,
+        "object": 3,
+        "address": 529600,
+        "item_size": 3072,
+        "count": 1,
+        "span_bytes": 3072,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "71968dfcdfeaa0ef52d57cbb77051c68ed62f4e7ca3f17a2c09dd11ced157e61"
+      },
+      {
+        "call_offset": 174694,
+        "packet_offset": 174677,
+        "pointer_operand": 174688,
+        "object": 3,
+        "address": 496208,
+        "item_size": 4,
+        "count": 2048,
+        "span_bytes": 8192,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "8c2054b786aac5c14d8e1d6ba1dc5f2630c0bc8263a5bd99b7df667645f77cae"
+      },
+      {
+        "call_offset": 174716,
+        "packet_offset": 174699,
+        "pointer_operand": 174710,
+        "object": 3,
+        "address": 488016,
+        "item_size": 4,
+        "count": 2048,
+        "span_bytes": 8192,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "b48ee95a381ec9fb3a70a6a60a5345fe07c4730c6d284aa667e67eff16e5d306"
+      },
+      {
+        "call_offset": 174738,
+        "packet_offset": 174721,
+        "pointer_operand": 174732,
+        "object": 3,
+        "address": 581304,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "910622af679d1d1dbee03238183b172e0093f3930b97ba88774cbfd1b1dbac71"
+      },
+      {
+        "call_offset": 174760,
+        "packet_offset": 174743,
+        "pointer_operand": 174754,
+        "object": 3,
+        "address": 410192,
+        "item_size": 2,
+        "count": 64,
+        "span_bytes": 128,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "1f8cd13583d93c46c72e368814f4cf8f069881dac4f6b0cb9da5501ffa9d3349"
+      },
+      {
+        "call_offset": 174782,
+        "packet_offset": 174765,
+        "pointer_operand": 174776,
+        "object": 3,
+        "address": 581284,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "178d92f8ebd2302ccdb1bbc5f1fd39d4d0b9cdd02530011325508178ff22525f"
+      },
+      {
+        "call_offset": 174804,
+        "packet_offset": 174787,
+        "pointer_operand": 174798,
+        "object": 3,
+        "address": 119640,
+        "item_size": 2,
+        "count": 64,
+        "span_bytes": 128,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "d7736b209dcedc8fdb92f2c65a79ff9c024d22cfe584cf2b7c3096c2bce96ea4"
+      },
+      {
+        "call_offset": 174826,
+        "packet_offset": 174809,
+        "pointer_operand": 174820,
+        "object": 3,
+        "address": 119512,
+        "item_size": 2,
+        "count": 64,
+        "span_bytes": 128,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "142f64b07135cec24785d59200b1832530b0eab09fa739efc8f7656197b4f0e5"
+      },
+      {
+        "call_offset": 174848,
+        "packet_offset": 174831,
+        "pointer_operand": 174842,
+        "object": 3,
+        "address": 1008064,
+        "item_size": 1,
+        "count": 128,
+        "span_bytes": 128,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "b685dacc824bd2aa17f503ef1f1cbbe0f887d0e0ebffa3b0db0bbf8cbc1885aa"
+      },
+      {
+        "call_offset": 174889,
+        "packet_offset": 174872,
+        "pointer_operand": 174883,
+        "object": 3,
+        "address": 287488,
+        "item_size": 4,
+        "count": 20000,
+        "span_bytes": 80000,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "f2b9a98b0cd9cfc7dfc936b171b356269f630cf608f9b15b726b983da8cb7e27"
+      },
+      {
+        "call_offset": 174950,
+        "packet_offset": 174933,
+        "pointer_operand": 174944,
+        "object": 3,
+        "address": 266136,
+        "item_size": 4,
+        "count": 4096,
+        "span_bytes": 16384,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "e73a8bf03c4428cdcaf06a124e5d1c939e73acad37e780b4b2c375361228740a"
+      },
+      {
+        "call_offset": 175035,
+        "packet_offset": 175018,
+        "pointer_operand": 175029,
+        "object": 3,
+        "address": 120728,
+        "item_size": 71,
+        "count": 2048,
+        "span_bytes": 145408,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "044fa3be779b3911b1dcf0412b9e4f00de2f10041cc30af9db3f92edc09af106"
+      },
+      {
+        "call_offset": 175165,
+        "packet_offset": 175148,
+        "pointer_operand": 175159,
+        "object": 3,
+        "address": 574884,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "8d22b697adde7d1064ccbe025331350bde78e49c15f362d7ecf4bf25502f8f1c"
+      },
+      {
+        "call_offset": 175187,
+        "packet_offset": 175170,
+        "pointer_operand": 175181,
+        "object": 3,
+        "address": 1649138,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "7dbea1df9aadd6ce22c56d8134d141f675450d75bc6be74061b62e80221144f3"
+      },
+      {
+        "call_offset": 175209,
+        "packet_offset": 175192,
+        "pointer_operand": 175203,
+        "object": 3,
+        "address": 1043648,
+        "item_size": 2,
+        "count": 256,
+        "span_bytes": 512,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "e9895e58fc402a9eea583b890d5d58678cffb40bae74d3d1ed4f26806d22c553"
+      },
+      {
+        "call_offset": 175231,
+        "packet_offset": 175214,
+        "pointer_operand": 175225,
+        "object": 3,
+        "address": 574876,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "20593d9c89ebc2c2ced7d1131053f77f68f56fce829e26235a565d046888a06b"
+      },
+      {
+        "call_offset": 175253,
+        "packet_offset": 175236,
+        "pointer_operand": 175247,
+        "object": 3,
+        "address": 119768,
+        "item_size": 2,
+        "count": 64,
+        "span_bytes": 128,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "c962371cb225e997e418da6509e290d24662f595573cc9370cfa7ee26be3f6dd"
+      },
+      {
+        "call_offset": 175275,
+        "packet_offset": 175258,
+        "pointer_operand": 175269,
+        "object": 3,
+        "address": 119896,
+        "item_size": 4,
+        "count": 64,
+        "span_bytes": 256,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "fd8fd8d3d14cec9336bcdf0f8c1e037a04eeb7b768560287660aec82d90e7d33"
+      },
+      {
+        "call_offset": 175331,
+        "packet_offset": 175314,
+        "pointer_operand": 175325,
+        "object": 3,
+        "address": 120472,
+        "item_size": 4,
+        "count": 64,
+        "span_bytes": 256,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "51c722aa9bf5a6b544f5291f6b5cb8c80bc201669de653327977066ce9dc6e5f"
+      },
+      {
+        "call_offset": 175353,
+        "packet_offset": 175336,
+        "pointer_operand": 175347,
+        "object": 3,
+        "address": 120216,
+        "item_size": 4,
+        "count": 64,
+        "span_bytes": 256,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "6de10547b7ffea806bd764790eeb21fb7d1d12a48415d12c0c043d7cf688449b"
+      },
+      {
+        "call_offset": 175372,
+        "packet_offset": 175358,
+        "pointer_operand": 175364,
+        "object": 3,
+        "address": 582927,
+        "item_size": 1,
+        "count": 1,
+        "span_bytes": 1,
+        "instructions": [
+          "mov ebx,count_and_item_size",
+          "mov eax,address",
+          "mov ecx,file",
+          "mov edx,ebx"
+        ],
+        "packet_sha256": "f1ae680a4f37d7c98fee0520bf7420b9b85364a3094d0f652c809fc5000befe0"
+      },
+      {
+        "call_offset": 175394,
+        "packet_offset": 175377,
+        "pointer_operand": 175388,
+        "object": 3,
+        "address": 581086,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "da0406c28c7a6f3b9363db91ac2bcfc084efda51c9f7cb9894e0cbf4e0473d38"
+      },
+      {
+        "call_offset": 175416,
+        "packet_offset": 175399,
+        "pointer_operand": 175410,
+        "object": 3,
+        "address": 581096,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "15cacc177cb90d7682a6c7d079bed2aa7c18fc0cb74359d98ec00d0cfcc5450d"
+      },
+      {
+        "call_offset": 175438,
+        "packet_offset": 175421,
+        "pointer_operand": 175432,
+        "object": 3,
+        "address": 581186,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "249c11cdb7a120d3d119dc930656f77fc3043d073ba75852cc94aefc005ead3c"
+      },
+      {
+        "call_offset": 175553,
+        "packet_offset": 175536,
+        "pointer_operand": 175547,
+        "object": 3,
+        "address": 581154,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "4485e7d4f98db3f4b5c39754e1ddbad12dc98a509d537305e37a3df6bbd051a9"
+      },
+      {
+        "call_offset": 175575,
+        "packet_offset": 175558,
+        "pointer_operand": 175569,
+        "object": 3,
+        "address": 581182,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "a42c0880ba6b25a5e002a0cae2cbf5e099d1c7b588d88224663466d41067a2bc"
+      },
+      {
+        "call_offset": 175597,
+        "packet_offset": 175580,
+        "pointer_operand": 175591,
+        "object": 3,
+        "address": 581202,
+        "item_size": 4,
+        "count": 1,
+        "span_bytes": 4,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "35041612f9be184be5482b94c108fcdf639f4899456ce1812f2b4501cded9c45"
+      },
+      {
+        "call_offset": 175619,
+        "packet_offset": 175602,
+        "pointer_operand": 175613,
+        "object": 3,
+        "address": 581094,
+        "item_size": 2,
+        "count": 1,
+        "span_bytes": 2,
+        "instructions": [
+          "mov ebx,count",
+          "mov edx,item_size",
+          "mov eax,address",
+          "mov ecx,file"
+        ],
+        "packet_sha256": "949d713abb64a8e4bd4d9d495e3765138802a45974416c2d67e00ecbf9731058"
+      },
+      {
+        "call_offset": 175638,
+        "packet_offset": 175624,
+        "pointer_operand": 175630,
+        "object": 3,
+        "address": 579671,
+        "item_size": 1,
+        "count": 1,
+        "span_bytes": 1,
+        "instructions": [
+          "mov ebx,count_and_item_size",
+          "mov eax,address",
+          "mov ecx,file",
+          "mov edx,ebx"
+        ],
+        "packet_sha256": "a8ae00ee1d5fed04e7dbcf6457150b5df95b8e0af1394856201273ee887c4872"
+      }
+    ],
+    "unsupported_argument_packets": [
+      173670,
+      173766,
+      173787,
+      173806,
+      173881,
+      173973,
+      174079,
+      174259,
+      174323,
+      174867,
+      175013,
+      175470,
+      175502,
+      175531
+    ]
+  },
+  "matching_reader_writer_records": 47,
+  "unsupported_argument_packets": [
+    176448,
+    176482,
+    176570,
+    177202,
+    177638
+  ],
+  "scope": "Only the two listed, complete MOV/call packets are interpreted. Each address has an exact LE pointer fixup. Stack/dynamic/other packets remain uninterpreted. These are explicit writer arguments, not proof of original C types, symbol names, maximum live indices, runtime execution, allocation ownership, or the complete save function.",
+  "new_recovered_contributions": 0,
+  "full_module_verified": false,
+  "full_executable_rebuilt": false
+}

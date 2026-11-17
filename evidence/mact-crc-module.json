@@ -1,0 +1,468 @@
+{
+  "kind": "complete source-built MACT CRC contribution, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/crc.c",
+  "source_sha256": "fde64b711886506bf0898d073ee1b0caaf99942df71f155e21f1a85736274903",
+  "headers_sha256": {
+    "crctable.h": "52c4ccecef493631f3dea98b55de83355149d38a6637bbe3b128ee0d038b8a45"
+  },
+  "generator": "tools/probe_mact_crc.py",
+  "generator_sha256": "5c3062eb481f7ed2c30422f951e14fb96bc118ad3bf30a5606eb08853babf6b1",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/5r",
+    "/s",
+    "/ort",
+    "/ol"
+  ],
+  "descriptor": "modules/mact_crc.json",
+  "descriptor_sha256": "f4a24631e2204c6aad7caf573a962ad485f54b09ca954dee848dcc4826d964bd",
+  "native_object_sha256": "2ad39be8d1ad8f4ec4ac1e1e16ac6a8da7246e2a6697ff17e3757520e84ac173",
+  "native_log_sha256": "7e8025adb74a0e94b8df87635186b090c05a39717e5393b24b205923dee0d7ca",
+  "placements": {
+    "1": [
+      1,
+      570880
+    ],
+    "4": [
+      3,
+      71184
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 11,
+      "symbol": "_crc16tab",
+      "value": [
+        3,
+        71184
+      ]
+    },
+    {
+      "source_offset": 58,
+      "symbol": "_crc16tab",
+      "value": [
+        3,
+        71184
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 592,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 2,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 570880,
+        "compared_bytes": 80,
+        "verified_fixups": 2,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 71184,
+        "compared_bytes": 512,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "UpdateCRC_": [
+        1,
+        570880
+      ],
+      "CalculateCRC_": [
+        1,
+        570904
+      ],
+      "_crc16tab": [
+        3,
+        71184
+      ]
+    },
+    "local_symbols": {
+      "_crc16tab": [
+        3,
+        71184
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "table_derivation": {
+    "polynomial": 40961,
+    "direction": "reflected LSB-first",
+    "steps_per_entry": 8,
+    "entries": 256,
+    "entry_bytes": 2,
+    "seed": 0,
+    "final_xor": 0
+  },
+  "original_reference": {
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "member": {
+      "offset": 94208,
+      "end": 95364,
+      "size": 1156,
+      "name": "P:\\libMACT\\CRC.c",
+      "sha256": "982c4ebb06a712c14620890e13651e12b3a49c3ecea3766f19add32f2acaef93",
+      "padding_bytes": 380,
+      "records": [
+        {
+          "offset": 94208,
+          "end": 94229,
+          "size": 21,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "1d5a7da6cc5e168abe2b2d319763cedb333b290e153252006789d17c44920775"
+        },
+        {
+          "offset": 94229,
+          "end": 94240,
+          "size": 11,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "119cc65871fc749c5c06b7953275c57139df8a6f3e386548d18a11caaeb142dc"
+        },
+        {
+          "offset": 94240,
+          "end": 94250,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "c1e1e34a4a49f951b9a5a251dc068c9c0501f71cd0737cb41624d015c58778e2"
+        },
+        {
+          "offset": 94250,
+          "end": 94260,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 94260,
+          "end": 94287,
+          "size": 27,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "7e8284a62e29e855cddd4bb09e45b8168dacea8e5f582bbecd6df190817d1152"
+        },
+        {
+          "offset": 94287,
+          "end": 94316,
+          "size": 29,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e4ce9ca2b07e36546b92adc65f9884dbf54762b3c32cda3f45695802e1efd3ca"
+        },
+        {
+          "offset": 94316,
+          "end": 94347,
+          "size": 31,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "5743ba4d884be5cb36666551d5a0340f9f2045f9f41125d46a822bd609ad739d"
+        },
+        {
+          "offset": 94347,
+          "end": 94374,
+          "size": 27,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "2416e4bf9f6148e884411db0ee1906d906927270965963d4d49491b947ec6660"
+        },
+        {
+          "offset": 94374,
+          "end": 94380,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 94380,
+          "end": 94417,
+          "size": 37,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "2b15dddcd77ab89a1304fbf9bc498c8f8c3399452ebdd308c58f462c8d3f6eef"
+        },
+        {
+          "offset": 94417,
+          "end": 94429,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "3935e1422bec905358a62e6a045265c5a89d45a99e45bc0d3be19a6a66731d35"
+        },
+        {
+          "offset": 94429,
+          "end": 94437,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 94437,
+          "end": 94447,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 94447,
+          "end": 94459,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "bfaf7d6300c7f8722be8a974f63e712711c4c76b4842d443edd2f4f35fbcf49f"
+        },
+        {
+          "offset": 94459,
+          "end": 94470,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 94470,
+          "end": 94482,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "cb47d4a16b3ef9238b955b23b2a40d452de7d02df893f916552a6512cebcdd97"
+        },
+        {
+          "offset": 94482,
+          "end": 94492,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 94492,
+          "end": 94504,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "36adaff294779961d1ea973a709d74cf3a6666ecbd6455ad1cb3040fd50dc6e2"
+        },
+        {
+          "offset": 94504,
+          "end": 94513,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 94513,
+          "end": 94525,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "611b94d95299d8b0c128b0928a04c446583e55a899865c02ee1192f6f3c5e60b"
+        },
+        {
+          "offset": 94525,
+          "end": 94538,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "8c2dfe6f504e6b9eb76529e221fa8c74cc34c8264c93de74c20c24e2175855f9"
+        },
+        {
+          "offset": 94538,
+          "end": 94543,
+          "size": 5,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "6ceabd38add75bc1bab6121cb117fa577c29421963463adf4153f35eea32bb69"
+        },
+        {
+          "offset": 94543,
+          "end": 94724,
+          "size": 181,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "1ad3d58729ab396f2cf9451c9e22d0868c6ddfb4ed1a035117dba8b61d971ecc"
+        },
+        {
+          "offset": 94724,
+          "end": 94905,
+          "size": 181,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "c14e3b1d64507b735ed6b70a2fb5e86cf22ebd8c22c703845dea43faaffb47f7"
+        },
+        {
+          "offset": 94905,
+          "end": 94920,
+          "size": 15,
+          "kind": 180,
+          "checksum": "valid",
+          "sha256": "f11419d8ae4f325c59ea9c9840f9ab2c90bcf982944d7ce7e3de2a7c6c5c93f9"
+        },
+        {
+          "offset": 94920,
+          "end": 95009,
+          "size": 89,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "5182286a71b092cedfa85541b589130a4c6358aaaa370a93f638ea447bb9bdec"
+        },
+        {
+          "offset": 95009,
+          "end": 95023,
+          "size": 14,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "da58fef04b21d65b4e339ca4fc913f9e96065ab4f8792bacfab1a57867baf282"
+        },
+        {
+          "offset": 95023,
+          "end": 95064,
+          "size": 41,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "7528f666184dabebfcfb06bc948d0d5af1da198f5aa2e277b69c1a26f9455014"
+        },
+        {
+          "offset": 95064,
+          "end": 95124,
+          "size": 60,
+          "kind": 149,
+          "checksum": "valid",
+          "sha256": "fb30b99f6f15289a9d99acf7598147ae9ad136a214650689421c143bda6d4155"
+        },
+        {
+          "offset": 95124,
+          "end": 95301,
+          "size": 177,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "81d86177aafc521de3b45d4719ebadc9c7f91fe712d4aa79128bb65688e94712"
+        },
+        {
+          "offset": 95301,
+          "end": 95322,
+          "size": 21,
+          "kind": 183,
+          "checksum": "valid",
+          "sha256": "f156fd9ebf86a14ff2bddf408f1991fb9fd3ac84a9fc92de677181dea0c8eab0"
+        },
+        {
+          "offset": 95322,
+          "end": 95336,
+          "size": 14,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "12482da7e5c9fe35d25832841c051eddf4fa6f84729707dedc13296ac2b97591"
+        },
+        {
+          "offset": 95336,
+          "end": 95348,
+          "size": 12,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "f060cb7e28b8a2f840d4b305069e2e89b45f5d2207bae9c561bd3c9f38921948"
+        },
+        {
+          "offset": 95348,
+          "end": 95359,
+          "size": 11,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "42d9ae4eb04ecc78756117bc6fc7e8cdbfcee754fe52a18b1fca3b8009816613"
+        },
+        {
+          "offset": 95359,
+          "end": 95364,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ]
+    },
+    "placements": {
+      "1": [
+        1,
+        570880
+      ],
+      "4": [
+        3,
+        71184
+      ]
+    },
+    "verification": {
+      "verified": true,
+      "initialized_bytes": 592,
+      "zero_fill_bytes": 0,
+      "verified_fixups": 2,
+      "segments": [
+        {
+          "symbol": "_TEXT",
+          "target_object": 1,
+          "target_offset": 570880,
+          "compared_bytes": 80,
+          "verified_fixups": 2,
+          "differing_offsets": [],
+          "match": true
+        },
+        {
+          "symbol": "_DATA",
+          "target_object": 3,
+          "target_offset": 71184,
+          "compared_bytes": 512,
+          "verified_fixups": 0,
+          "differing_offsets": [],
+          "match": true
+        }
+      ],
+      "publics": {
+        "UpdateCRC_": [
+          1,
+          570880
+        ],
+        "CalculateCRC_": [
+          1,
+          570904
+        ],
+        "_crc16tab": [
+          3,
+          71184
+        ]
+      },
+      "local_symbols": {
+        "_crc16tab": [
+          3,
+          71184
+        ]
+      },
+      "full_executable_rebuilt": false
+    },
+    "reference_only": true,
+    "scope": "Original full member reference only; zero rebuilt-source contribution credit"
+  },
+  "source_code_bytes": 80,
+  "initialized_table_bytes": 512,
+  "new_complete_contributions": 1,
+  "scope": "Both native public CODE bodies including CalculateCRC tail, all mathematical table DATA, two fixups, and private table scope verify together. Empty BSS has no contribution.",
+  "full_executable_rebuilt": false,
+  "standard_driver_replay": {
+    "report": "build/mact-crc-integrated.json",
+    "report_sha256": "b98c1ab041fb02f25334dcbfe4a4cee5776c3f4bd31096c25bb4a80fe16a8728",
+    "verification_identical": true
+  }
+}

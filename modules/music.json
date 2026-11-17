@@ -1,0 +1,35 @@
+{
+  "name": "MUSIC",
+  "source": "src/audio/music.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxne",
+    "/zp4",
+    "/5r",
+    "/zu"
+  ],
+  "code_object": 1,
+  "code_offset": 490402,
+  "code_bytes": 1850,
+  "code_publics": 31,
+  "symbol_anchors": {
+    "MIDI_SetVolume_": [
+      1,
+      509560
+    ],
+    "MIDI_GetVolume_": [
+      1,
+      509688
+    ],
+    "MIDI_StopSong_": [
+      1,
+      509828
+    ]
+  },
+  "anchor_evidence": "evidence/midi-module.json",
+  "expected": {
+    "initialized_bytes": 2147,
+    "zero_fill_bytes": 64,
+    "verified_fixups": 204
+  }
+}

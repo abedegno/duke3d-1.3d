@@ -1,0 +1,165 @@
+{
+  "kind": "clean source checkout contribution replay; not a complete executable rebuild",
+  "commit": "ea405c5",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "dependencies": "Four pinned public submodules initialized from local Git caches; private compilers and target/reference-only ENGINE.OBJ supplied separately. No private probe source used.",
+  "command": "make proof-modules engine-probe proof with WATCOM_HOME, WATCOM_100A_HOME, WATCOM_100B_HOME, WATCOM_105_HOME, TASM_HOME and MASM_HOME pointing to the pinned tool homes.",
+  "complete_contributions": 30,
+  "reports": [
+    {
+      "path": "evidence/al_midi-module.json",
+      "json_equal": true,
+      "sha256": "7c569407d13d2f2047c75dcba1c832bdd08e14174b01b3c6c6a8aab63a5eda64"
+    },
+    {
+      "path": "evidence/animlib-module.json",
+      "json_equal": true,
+      "sha256": "9909d3da183ac3c9ef53a5e6b8c8c6ee9c375d62c90cb8824b9d9026011f95c9"
+    },
+    {
+      "path": "evidence/awe32-module.json",
+      "json_equal": true,
+      "sha256": "0ff8a467a0924c5e8b6f09ba4f554e04febd2d1ef147c70a9a597d986d9f8e18"
+    },
+    {
+      "path": "evidence/blaster-module.json",
+      "json_equal": true,
+      "sha256": "4e7e89cf0f2930b814fe518da824272b404151e5d512fd62dcf8b3a409b77175"
+    },
+    {
+      "path": "evidence/cache1d-module.json",
+      "json_equal": true,
+      "sha256": "b2b929585d167f228add9bf588efb8d660016aca75717e7c8f79956ff74e6bb2"
+    },
+    {
+      "path": "evidence/dma-module.json",
+      "json_equal": true,
+      "sha256": "c71b062f4f5673a777ed4ffab3cb8867dde04ab333cee0523856a90f2bdabb39"
+    },
+    {
+      "path": "evidence/dpmi-module.json",
+      "json_equal": true,
+      "sha256": "8effdd2262002f52594cefd5fc6f38fa61b1d3d1b3c2ba4ab018308b40ef4d11"
+    },
+    {
+      "path": "evidence/engine_asm-module.json",
+      "json_equal": true,
+      "sha256": "39f8ecf8c3d65531ccfaba4a73d97be9001dd819a0c81fbf4ef922e61f70f28a"
+    },
+    {
+      "path": "evidence/fx_man-module.json",
+      "json_equal": true,
+      "sha256": "4d04490cef8a745728c4ab18e27e601cd0221f8ac3797000afe9c448e166ed69"
+    },
+    {
+      "path": "evidence/gmtimbre-module.json",
+      "json_equal": true,
+      "sha256": "fdde560569ee19adc276438be8fccba03782c6480da2131494e08a51342dc365"
+    },
+    {
+      "path": "evidence/gus-module.json",
+      "json_equal": true,
+      "sha256": "65bc422588662b2b4d6d550c67294fefe00cbb979f48e8537f7e7a39e80f40ae"
+    },
+    {
+      "path": "evidence/gusmidi-module.json",
+      "json_equal": true,
+      "sha256": "0d0420cf814656d42191058e68829c4fad136acd75e119297c9ed9f05c5edd9a"
+    },
+    {
+      "path": "evidence/guswave-module.json",
+      "json_equal": true,
+      "sha256": "c52c47ac443df9f5f55a8bbe91fbe6b54baf4ebbd52544aecfa0e50c2435bf9a"
+    },
+    {
+      "path": "evidence/irq-module.json",
+      "json_equal": true,
+      "sha256": "23372f5867aa595421f11b0e474a44f6c657c01d3e1919d58be09f1ba94f2a26"
+    },
+    {
+      "path": "evidence/ll_man-module.json",
+      "json_equal": true,
+      "sha256": "6697c7441a8ffbda872c12d60287c837826acb5de886682d600d052961b45390"
+    },
+    {
+      "path": "evidence/midi-module.json",
+      "json_equal": true,
+      "sha256": "b934fb41d54d45f1763ef14fa5a7c0f310983add3be92ab5a1f68a46ff4bf07d"
+    },
+    {
+      "path": "evidence/mpu401-module.json",
+      "json_equal": true,
+      "sha256": "18e7fddc2ebec78a84c57ea4396e3b8efc9ea5a74abffddee0e6b5cad0935b09"
+    },
+    {
+      "path": "evidence/multivoc-module.json",
+      "json_equal": true,
+      "sha256": "5f29b9a0af1f6773392010b8fdd4638227064198ad325b755e0de58d4e3eb9a4"
+    },
+    {
+      "path": "evidence/music-module.json",
+      "json_equal": true,
+      "sha256": "30e2c43b4482cc89290f99a6b369aaee715dc35148739940607e2127097ada61"
+    },
+    {
+      "path": "evidence/mv_mix-module.json",
+      "json_equal": true,
+      "sha256": "2effd0fb45e1c234cd86b6c7eff9d71e475319b5bf6984a9d193f5d007f73166"
+    },
+    {
+      "path": "evidence/mv_mix16-module.json",
+      "json_equal": true,
+      "sha256": "7cbc39f8103a770f9a5796da5e4490e43df1c6386bf1cdac258d796e44a303d6"
+    },
+    {
+      "path": "evidence/mvreverb-module.json",
+      "json_equal": true,
+      "sha256": "3d7d8983b1b58971c98483eed9ce2024bcb96e24d6709d846e86b9372c7d35fe"
+    },
+    {
+      "path": "evidence/pas16-module.json",
+      "json_equal": true,
+      "sha256": "86144e5fe59dc52dc314b0f6b3480549b701df83baed7ec8ad39841486c42c1c"
+    },
+    {
+      "path": "evidence/pitch-module.json",
+      "json_equal": true,
+      "sha256": "a3c4308a5819ef79bea464e5a724ca2902c5a81e756eececb14cd0258193f7b4"
+    },
+    {
+      "path": "evidence/rts-module.json",
+      "json_equal": true,
+      "sha256": "8fcee3744f541738d60e7a21bce8a9d1c9aa11aa35cd50f039b4cc3ddbc6d0d2"
+    },
+    {
+      "path": "evidence/sndscape-module.json",
+      "json_equal": true,
+      "sha256": "adf2fb3da6bb022fda1a09015456214eff4121d6adb67567c35361eba6a1de57"
+    },
+    {
+      "path": "evidence/sndsrc-module.json",
+      "json_equal": true,
+      "sha256": "939ec1d6a2d6bf3e7eafd3ea53c6db26e9dce507236f87e4f0492eec3c1eb51c"
+    },
+    {
+      "path": "evidence/task_man-module.json",
+      "json_equal": true,
+      "sha256": "549a02169ab1dd705ea93f80e12d7c1f42cc5220f4163cb1e42d4fe31b5ef079"
+    },
+    {
+      "path": "evidence/user-module.json",
+      "json_equal": true,
+      "sha256": "ac90d9c3af2b5c326bfcddcb496eba3b9d9c12375b0053ccc21919327d2f98cd"
+    }
+  ],
+  "engine": {
+    "matched_functions": 135,
+    "module_verified": true,
+    "differing_report_fields": [
+      "object_sha256"
+    ],
+    "note": "The compiled C engine object hash may differ due to dependency timestamps; every loadable byte, relocation, named state layout and source/header hash is equal."
+  },
+  "isolated_proofs": 8,
+  "full_executable_rebuilt": false
+}

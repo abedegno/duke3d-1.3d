@@ -1,0 +1,3219 @@
+{
+  "kind": "released-source compiler objects for mapping only",
+  "reference_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "modules": [
+    {
+      "source": "dukenukem3d/source/GAME.C",
+      "source_sha256": "9a900f7bb4bbea4cfb18633c280c93d87511b26e7b924a4e4a23b60e99c19dbe",
+      "object_sha256": "a0cb3545b1d777122e357545b56d2e857d1b8cb6d1eeb0e2053027036f34f935",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_tempsectorz": [
+          5,
+          0
+        ],
+        "_tempsectorpicnum": [
+          5,
+          4096
+        ],
+        "_frameval": [
+          5,
+          8192
+        ],
+        "_user_quote": [
+          5,
+          8256
+        ],
+        "_user_quote_time": [
+          5,
+          8768
+        ],
+        "_recbuf": [
+          5,
+          8776
+        ],
+        "_titlepal": [
+          5,
+          8856
+        ],
+        "_waterpal": [
+          5,
+          9624
+        ],
+        "_drealms": [
+          5,
+          10392
+        ],
+        "_endingpal": [
+          5,
+          11160
+        ],
+        "_slimepal": [
+          5,
+          11928
+        ],
+        "_nonsharedtimer": [
+          5,
+          12696
+        ],
+        "_quotebotgoal": [
+          5,
+          12700
+        ],
+        "_quotebot": [
+          5,
+          12704
+        ],
+        "_recfilep": [
+          5,
+          12708
+        ],
+        "_rtsptr": [
+          5,
+          12712
+        ],
+        "_totalreccnt": [
+          5,
+          12716
+        ],
+        "_tempwallptr": [
+          5,
+          12720
+        ],
+        "_dmval": [
+          5,
+          12724
+        ],
+        "_timeroffs1mhz": [
+          5,
+          12728
+        ],
+        "_cameradist": [
+          4,
+          0
+        ],
+        "_cameraclock": [
+          4,
+          4
+        ],
+        "_eightytwofifty": [
+          4,
+          8
+        ],
+        "_CommandSoundToggleOff": [
+          4,
+          12
+        ],
+        "_CommandMusicToggleOff": [
+          4,
+          16
+        ],
+        "_confilename": [
+          4,
+          20
+        ],
+        "_boardfilename": [
+          4,
+          148
+        ],
+        "_firstdemofile": [
+          4,
+          276
+        ],
+        "_debug_on": [
+          4,
+          356
+        ],
+        "_actor_tog": [
+          4,
+          357
+        ],
+        "_memorycheckoveride": [
+          4,
+          358
+        ],
+        "_frecfilep": [
+          4,
+          360
+        ],
+        "_sendmessagecommand": [
+          4,
+          364
+        ],
+        "_TimerPtr": [
+          4,
+          368
+        ],
+        "_framecnt": [
+          4,
+          372
+        ],
+        "_inputloc": [
+          4,
+          376
+        ],
+        "_oyrepeat": [
+          4,
+          380
+        ],
+        "_cheatquotes": [
+          4,
+          384
+        ],
+        "_todd": [
+          4,
+          748
+        ],
+        "_trees": [
+          4,
+          829
+        ],
+        "_sixteen": [
+          4,
+          862
+        ],
+        "timerhandler_": [
+          1,
+          448
+        ],
+        "inittimer_": [
+          1,
+          464
+        ],
+        "uninittimer_": [
+          1,
+          512
+        ],
+        "gametext_": [
+          1,
+          560
+        ],
+        "gametextpal_": [
+          1,
+          832
+        ],
+        "gametextpart_": [
+          1,
+          1104
+        ],
+        "minitext_": [
+          1,
+          1456
+        ],
+        "minitextshade_": [
+          1,
+          1600
+        ],
+        "gamenumber_": [
+          1,
+          1744
+        ],
+        "allowtimetocorrecterrorswhenquitting_": [
+          1,
+          1808
+        ],
+        "adduserquote_": [
+          1,
+          1952
+        ],
+        "getpackets_": [
+          1,
+          2112
+        ],
+        "faketimerhandler_": [
+          1,
+          6192
+        ],
+        "caches_": [
+          1,
+          10032
+        ],
+        "checksync_": [
+          1,
+          10240
+        ],
+        "check_fta_sounds_": [
+          1,
+          10592
+        ],
+        "inventory_": [
+          1,
+          11216
+        ],
+        "badguy_": [
+          1,
+          11280
+        ],
+        "badguypic_": [
+          1,
+          11648
+        ],
+        "myos_": [
+          1,
+          12016
+        ],
+        "myospal_": [
+          1,
+          12176
+        ],
+        "invennum_": [
+          1,
+          12288
+        ],
+        "weaponnum_": [
+          1,
+          12784
+        ],
+        "weaponnum999_": [
+          1,
+          13472
+        ],
+        "weapon_amounts_": [
+          1,
+          14480
+        ],
+        "digitalnumber_": [
+          1,
+          16480
+        ],
+        "displayinventory_": [
+          1,
+          16736
+        ],
+        "displayfragbar_": [
+          1,
+          17712
+        ],
+        "coolgaugetext_": [
+          1,
+          18320
+        ],
+        "tics_": [
+          1,
+          22416
+        ],
+        "coords_": [
+          1,
+          22560
+        ],
+        "operatefta_": [
+          1,
+          23280
+        ],
+        "FTA_": [
+          1,
+          23824
+        ],
+        "showtwoscreens_": [
+          1,
+          23936
+        ],
+        "binscreen_": [
+          1,
+          23952
+        ],
+        "gameexit_": [
+          1,
+          24016
+        ],
+        "strget_": [
+          1,
+          24288
+        ],
+        "typemode_": [
+          1,
+          24768
+        ],
+        "moveclouds_": [
+          1,
+          26016
+        ],
+        "displayrest_": [
+          1,
+          26272
+        ],
+        "updatesectorz_": [
+          1,
+          28288
+        ],
+        "view_": [
+          1,
+          28640
+        ],
+        "drawbackground_": [
+          1,
+          29408
+        ],
+        "SE40_Draw_": [
+          1,
+          30528
+        ],
+        "se40code_": [
+          1,
+          31408
+        ],
+        "displayrooms_": [
+          1,
+          31552
+        ],
+        "LocateTheLocator_": [
+          1,
+          34368
+        ],
+        "EGS_": [
+          1,
+          34448
+        ],
+        "wallswitchcheck_": [
+          1,
+          35008
+        ],
+        "spawn_": [
+          1,
+          35328
+        ],
+        "animatesprites_": [
+          1,
+          52912
+        ],
+        "cheats_": [
+          1,
+          59776
+        ],
+        "nonsharedkeys_": [
+          1,
+          64288
+        ],
+        "comlinehelp_": [
+          1,
+          69200
+        ],
+        "checkcommandline_": [
+          1,
+          69760
+        ],
+        "printstr_": [
+          1,
+          71584
+        ],
+        "Logo_": [
+          1,
+          71664
+        ],
+        "loadtmb_": [
+          1,
+          73216
+        ],
+        "ShutDown_": [
+          1,
+          73296
+        ],
+        "compilecons_": [
+          1,
+          73376
+        ],
+        "Startup_": [
+          1,
+          73472
+        ],
+        "sendscore_": [
+          1,
+          73792
+        ],
+        "getnames_": [
+          1,
+          73856
+        ],
+        "writestring_": [
+          1,
+          74368
+        ],
+        "testcd_": [
+          1,
+          74448
+        ],
+        "copyprotect_": [
+          1,
+          74736
+        ],
+        "main_": [
+          1,
+          74752
+        ],
+        "opendemoread_": [
+          1,
+          76448
+        ],
+        "opendemowrite_": [
+          1,
+          77120
+        ],
+        "record_": [
+          1,
+          77664
+        ],
+        "closedemowrite_": [
+          1,
+          77904
+        ],
+        "playback_": [
+          1,
+          78048
+        ],
+        "moveloop_": [
+          1,
+          79312
+        ],
+        "fakedomovethingscorrect_": [
+          1,
+          79504
+        ],
+        "fakedomovethings_": [
+          1,
+          79968
+        ],
+        "domovethings_": [
+          1,
+          84384
+        ],
+        "doorders_": [
+          1,
+          86096
+        ],
+        "dobonus_": [
+          1,
+          86784
+        ],
+        "cameratext_": [
+          1,
+          92976
+        ],
+        "vglass_": [
+          1,
+          93472
+        ],
+        "lotsofglass_": [
+          1,
+          93712
+        ],
+        "spriteglass_": [
+          1,
+          94288
+        ],
+        "ceilingglass_": [
+          1,
+          94496
+        ],
+        "lotsofcolourglass_": [
+          1,
+          94784
+        ],
+        "SetupGameButtons_": [
+          1,
+          95360
+        ],
+        "GetTime_": [
+          1,
+          95984
+        ],
+        "CenterCenter_": [
+          1,
+          96000
+        ],
+        "UpperLeft_": [
+          1,
+          96016
+        ],
+        "LowerRight_": [
+          1,
+          96032
+        ],
+        "CenterThrottle_": [
+          1,
+          96048
+        ],
+        "CenterRudder_": [
+          1,
+          96064
+        ],
+        "_which_demo": [
+          4,
+          880
+        ],
+        "_in_menu": [
+          4,
+          881
+        ],
+        "_cheatbuf": [
+          5,
+          12732
+        ],
+        "_cheatbuflen": [
+          5,
+          12742
+        ],
+        "_nomorelogohack": [
+          5,
+          12743
+        ],
+        "_cp": [
+          5,
+          12744
+        ],
+        "_qe": [
+          5,
+          12745
+        ],
+        "_playerswhenstarted": [
+          5,
+          12746
+        ],
+        "_restorepalette": [
+          5,
+          12747
+        ],
+        "_screencapt": [
+          5,
+          12748
+        ]
+      },
+      "external_count": 461,
+      "fixup_count": 5630,
+      "code_data_ranges": [
+        [
+          1,
+          0,
+          440
+        ]
+      ],
+      "default_libraries": [
+        "clib3r",
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 96078
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 4774
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 882
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 12749
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/ACTORS.C",
+      "source_sha256": "d34d21d0f6f41df9af9964428108712e813118ee2f1b6b30160e26e6282b596a",
+      "object_sha256": "017ad000be0d4911359ac35b55d5d4d3b93a4f0e174cc5c929110603bb402c57",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_dmval": [
+          5,
+          0
+        ],
+        "_timeroffs1mhz": [
+          5,
+          4
+        ],
+        "updateinterpolations_": [
+          1,
+          32
+        ],
+        "setinterpolation_": [
+          1,
+          80
+        ],
+        "stopinterpolation_": [
+          1,
+          160
+        ],
+        "dointerpolations_": [
+          1,
+          288
+        ],
+        "restoreinterpolations_": [
+          1,
+          400
+        ],
+        "ceilingspace_": [
+          1,
+          448
+        ],
+        "floorspace_": [
+          1,
+          528
+        ],
+        "addammo_": [
+          1,
+          608
+        ],
+        "addweapon_": [
+          1,
+          720
+        ],
+        "checkavailinven_": [
+          1,
+          912
+        ],
+        "checkavailweapon_": [
+          1,
+          1056
+        ],
+        "ifsquished_": [
+          1,
+          1344
+        ],
+        "hitradius_": [
+          1,
+          1648
+        ],
+        "movesprite_": [
+          1,
+          3792
+        ],
+        "ssp_": [
+          1,
+          5024
+        ],
+        "insertspriteq_": [
+          1,
+          5120
+        ],
+        "lotsofmoney_": [
+          1,
+          5232
+        ],
+        "lotsofmail_": [
+          1,
+          5360
+        ],
+        "lotsofpaper_": [
+          1,
+          5488
+        ],
+        "guts_": [
+          1,
+          5616
+        ],
+        "gutsdir_": [
+          1,
+          6000
+        ],
+        "setsectinterpolate_": [
+          1,
+          6240
+        ],
+        "clearsectinterpolate_": [
+          1,
+          6416
+        ],
+        "ms_": [
+          1,
+          6560
+        ],
+        "movefta_": [
+          1,
+          6848
+        ],
+        "ifhitsectors_": [
+          1,
+          7616
+        ],
+        "ifhitbyweapon_": [
+          1,
+          7680
+        ],
+        "movecyclers_": [
+          1,
+          8704
+        ],
+        "movedummyplayers_": [
+          1,
+          8944
+        ],
+        "moveplayers_": [
+          1,
+          9392
+        ],
+        "movefx_": [
+          1,
+          10288
+        ],
+        "movefallers_": [
+          1,
+          11280
+        ],
+        "movestandables_": [
+          1,
+          12080
+        ],
+        "bounce_": [
+          1,
+          19488
+        ],
+        "moveweapons_": [
+          1,
+          20000
+        ],
+        "movetransports_": [
+          1,
+          23488
+        ],
+        "moveactors_": [
+          1,
+          27280
+        ],
+        "moveexplosions_": [
+          1,
+          38896
+        ],
+        "moveeffectors_": [
+          1,
+          43088
+        ],
+        "_otherp": [
+          5,
+          8
+        ]
+      },
+      "external_count": 139,
+      "fixup_count": 3072,
+      "code_data_ranges": [
+        [
+          1,
+          0,
+          24
+        ]
+      ],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 63107
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 67
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/GAMEDEF.C",
+      "source_sha256": "f7afaf2d30cd3706295ee2e332df88de77e14799abd15a2f0b9723828c54e125",
+      "object_sha256": "1e5a476f7a69fe55b24e1b1c60ae9196a35bf401d9160b7103d1bfc4d9b86052",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_last_used_text": [
+          5,
+          0
+        ],
+        "_g_t": [
+          5,
+          4
+        ],
+        "_g_sp": [
+          5,
+          8
+        ],
+        "_g_x": [
+          5,
+          12
+        ],
+        "_last_used_size": [
+          5,
+          16
+        ],
+        "_dmval": [
+          5,
+          20
+        ],
+        "_timeroffs1mhz": [
+          5,
+          24
+        ],
+        "_g_i": [
+          5,
+          28
+        ],
+        "_g_p": [
+          5,
+          30
+        ],
+        "_num_squigilly_brackets": [
+          5,
+          32
+        ],
+        "_total_lines": [
+          5,
+          34
+        ],
+        "_line_number": [
+          5,
+          36
+        ],
+        "getincangle_": [
+          1,
+          0
+        ],
+        "ispecial_": [
+          1,
+          80
+        ],
+        "isaltok_": [
+          1,
+          128
+        ],
+        "getglobalz_": [
+          1,
+          192
+        ],
+        "makeitfall_": [
+          1,
+          736
+        ],
+        "getlabel_": [
+          1,
+          1200
+        ],
+        "keyword_": [
+          1,
+          1360
+        ],
+        "transword_": [
+          1,
+          1488
+        ],
+        "transnum_": [
+          1,
+          2016
+        ],
+        "parsecommand_": [
+          1,
+          3072
+        ],
+        "passone_": [
+          1,
+          9520
+        ],
+        "copydefaultcons_": [
+          1,
+          9568
+        ],
+        "loadefs_": [
+          1,
+          9744
+        ],
+        "dodge_": [
+          1,
+          10544
+        ],
+        "furthestangle_": [
+          1,
+          10880
+        ],
+        "furthestcanseepoint_": [
+          1,
+          11152
+        ],
+        "alterang_": [
+          1,
+          11584
+        ],
+        "move_": [
+          1,
+          12272
+        ],
+        "parseifelse_": [
+          1,
+          14704
+        ],
+        "parse_": [
+          1,
+          15296
+        ],
+        "execute_": [
+          1,
+          34176
+        ],
+        "_keyw": [
+          4,
+          0
+        ],
+        "_defaultcons": [
+          4,
+          448
+        ],
+        "_parsing_state": [
+          5,
+          38
+        ],
+        "_checking_ifelse": [
+          5,
+          39
+        ]
+      },
+      "external_count": 176,
+      "fixup_count": 2761,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 34925
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 3981
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 460
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 40
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/GLOBAL.C",
+      "source_sha256": "dd1a8a662c2488c977175d9c06258ce80e77905c25836fc4d4df13676a3e8bce",
+      "object_sha256": "8619d1ff456073c1e146a75cc34412d12d2f6ba0999a97cc520f1212d1500f44",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_bakipos": [
+          5,
+          0
+        ],
+        "_clouds": [
+          5,
+          8192
+        ],
+        "_cloudy": [
+          5,
+          8448
+        ],
+        "_cloudx": [
+          5,
+          8704
+        ],
+        "_oldipos": [
+          5,
+          8960
+        ],
+        "_curipos": [
+          5,
+          17152
+        ],
+        "_syncval": [
+          5,
+          25344
+        ],
+        "_myminlag": [
+          5,
+          29440
+        ],
+        "_syncvalhead": [
+          5,
+          29504
+        ],
+        "_myzbak": [
+          5,
+          29568
+        ],
+        "_myxbak": [
+          5,
+          30592
+        ],
+        "_myybak": [
+          5,
+          31616
+        ],
+        "_myangbak": [
+          5,
+          32640
+        ],
+        "_myhorizbak": [
+          5,
+          33152
+        ],
+        "_frags": [
+          5,
+          34176
+        ],
+        "_betaname": [
+          5,
+          34688
+        ],
+        "_designertime": [
+          5,
+          34768
+        ],
+        "_level_file_names": [
+          5,
+          34944
+        ],
+        "_soundsiz": [
+          5,
+          40576
+        ],
+        "_partime": [
+          5,
+          42376
+        ],
+        "_animatesect": [
+          5,
+          42552
+        ],
+        "_mirrorsector": [
+          5,
+          42680
+        ],
+        "_animateptr": [
+          5,
+          42808
+        ],
+        "_movefifoend": [
+          5,
+          43064
+        ],
+        "_animatevel": [
+          5,
+          43128
+        ],
+        "_animategoal": [
+          5,
+          43384
+        ],
+        "_mirrorwall": [
+          5,
+          43640
+        ],
+        "_hittype": [
+          5,
+          43768
+        ],
+        "_actortype": [
+          5,
+          334584
+        ],
+        "_actorscrptr": [
+          5,
+          340728
+        ],
+        "_buf": [
+          5,
+          365304
+        ],
+        "_playerquitflag": [
+          5,
+          365384
+        ],
+        "_script": [
+          5,
+          365400
+        ],
+        "_playerreadyflag": [
+          5,
+          447240
+        ],
+        "_SoundOwner": [
+          5,
+          447256
+        ],
+        "_fta_quotes": [
+          5,
+          458056
+        ],
+        "_spriteq": [
+          5,
+          470344
+        ],
+        "_packbuf": [
+          5,
+          472392
+        ],
+        "_cyclers": [
+          5,
+          472968
+        ],
+        "_tempbuf": [
+          5,
+          476040
+        ],
+        "_myname": [
+          5,
+          478088
+        ],
+        "_max_ammo_amount": [
+          5,
+          478120
+        ],
+        "_po": [
+          5,
+          478168
+        ],
+        "_ps": [
+          5,
+          478424
+        ],
+        "_msy": [
+          5,
+          493000
+        ],
+        "_msx": [
+          5,
+          501192
+        ],
+        "_recsync": [
+          5,
+          509384
+        ],
+        "_animwall": [
+          5,
+          534584
+        ],
+        "_inputfifo": [
+          5,
+          537656
+        ],
+        "_MusicPtr": [
+          5,
+          578616
+        ],
+        "_sync": [
+          5,
+          650616
+        ],
+        "_mymaxlag": [
+          5,
+          650776
+        ],
+        "_otherminlag": [
+          5,
+          650780
+        ],
+        "_shrinkerblastradius": [
+          5,
+          650784
+        ],
+        "_bouncemineblastradius": [
+          5,
+          650788
+        ],
+        "_syncvaltail": [
+          5,
+          650792
+        ],
+        "_rpgblastradius": [
+          5,
+          650796
+        ],
+        "_tripbombblastradius": [
+          5,
+          650800
+        ],
+        "_pipebombblastradius": [
+          5,
+          650804
+        ],
+        "_seenineblastradius": [
+          5,
+          650808
+        ],
+        "_syncvaltottail": [
+          5,
+          650812
+        ],
+        "_morterblastradius": [
+          5,
+          650816
+        ],
+        "_show_shareware": [
+          5,
+          650820
+        ],
+        "_fakemovefifoplc": [
+          5,
+          650824
+        ],
+        "_myzvel": [
+          5,
+          650828
+        ],
+        "_myyvel": [
+          5,
+          650832
+        ],
+        "_myxvel": [
+          5,
+          650836
+        ],
+        "_myz": [
+          5,
+          650840
+        ],
+        "_myy": [
+          5,
+          650844
+        ],
+        "_myx": [
+          5,
+          650848
+        ],
+        "_omyz": [
+          5,
+          650852
+        ],
+        "_omyx": [
+          5,
+          650856
+        ],
+        "_omyy": [
+          5,
+          650860
+        ],
+        "_checksume": [
+          5,
+          650864
+        ],
+        "_soundpe": [
+          5,
+          650868
+        ],
+        "_soundps": [
+          5,
+          651768
+        ],
+        "_volume_names": [
+          5,
+          652668
+        ],
+        "_level_names": [
+          5,
+          652800
+        ],
+        "_soundvo": [
+          5,
+          654252
+        ],
+        "_neartaghitdist": [
+          5,
+          655152
+        ],
+        "_ototalclock": [
+          5,
+          655156
+        ],
+        "_svel": [
+          5,
+          655160
+        ],
+        "_vel": [
+          5,
+          655164
+        ],
+        "_horiz": [
+          5,
+          655168
+        ],
+        "_groupfile": [
+          5,
+          655172
+        ],
+        "_angvel": [
+          5,
+          655176
+        ],
+        "_animatecnt": [
+          5,
+          655180
+        ],
+        "_movefifoplc": [
+          5,
+          655184
+        ],
+        "_lockclock": [
+          5,
+          655188
+        ],
+        "_avgbits": [
+          5,
+          655192
+        ],
+        "_current_menu": [
+          5,
+          655196
+        ],
+        "_music_pointer": [
+          5,
+          655200
+        ],
+        "_music_fn": [
+          5,
+          655204
+        ],
+        "_avgsvel": [
+          5,
+          655776
+        ],
+        "_avgfvel": [
+          5,
+          655780
+        ],
+        "_avgavel": [
+          5,
+          655784
+        ],
+        "_avghorz": [
+          5,
+          655788
+        ],
+        "_env_music_fn": [
+          5,
+          655792
+        ],
+        "_parsing_actor": [
+          5,
+          655844
+        ],
+        "_insptr": [
+          5,
+          655848
+        ],
+        "_labelcode": [
+          5,
+          655852
+        ],
+        "_sounds": [
+          5,
+          655856
+        ],
+        "_labelcnt": [
+          5,
+          662156
+        ],
+        "_label": [
+          5,
+          662160
+        ],
+        "_scriptptr": [
+          5,
+          662164
+        ],
+        "_textptr": [
+          5,
+          662168
+        ],
+        "_device": [
+          5,
+          662172
+        ],
+        "_max_armour_amount": [
+          5,
+          662184
+        ],
+        "_gc": [
+          5,
+          662188
+        ],
+        "_max_player_health": [
+          5,
+          662192
+        ],
+        "_fricyv": [
+          5,
+          662196
+        ],
+        "_fricxv": [
+          5,
+          662200
+        ],
+        "_impact_damage": [
+          5,
+          662204
+        ],
+        "_mymembuf": [
+          5,
+          662208
+        ],
+        "_movefifosendplc": [
+          5,
+          662212
+        ],
+        "_dmval": [
+          5,
+          662216
+        ],
+        "_timeroffs1mhz": [
+          5,
+          662220
+        ],
+        "_soundm": [
+          5,
+          662224
+        ],
+        "_soundpr": [
+          5,
+          662674
+        ],
+        "_loc": [
+          5,
+          663124
+        ],
+        "_Sound": [
+          5,
+          663136
+        ],
+        "_title_zoom": [
+          5,
+          668986
+        ],
+        "_numclouds": [
+          5,
+          668988
+        ],
+        "_mycursectnum": [
+          5,
+          668990
+        ],
+        "_myjumpingcounter": [
+          5,
+          668992
+        ],
+        "_omyang": [
+          5,
+          668994
+        ],
+        "_myhoriz": [
+          5,
+          668996
+        ],
+        "_omyhoriz": [
+          5,
+          668998
+        ],
+        "_myhorizoff": [
+          5,
+          669000
+        ],
+        "_myang": [
+          5,
+          669002
+        ],
+        "_omyhorizoff": [
+          5,
+          669004
+        ],
+        "_mirrorcnt": [
+          5,
+          669006
+        ],
+        "_neartagsector": [
+          5,
+          669008
+        ],
+        "_neartagsprite": [
+          5,
+          669010
+        ],
+        "_neartagwall": [
+          5,
+          669012
+        ],
+        "_camsprite": [
+          5,
+          669014
+        ],
+        "_screenpeek": [
+          5,
+          669016
+        ],
+        "_global_random": [
+          5,
+          669018
+        ],
+        "_moustat": [
+          5,
+          669020
+        ],
+        "_numcyclers": [
+          5,
+          669022
+        ],
+        "_spriteqloc": [
+          5,
+          669024
+        ],
+        "_numanimwalls": [
+          5,
+          669026
+        ],
+        "_sbar": [
+          5,
+          669028
+        ],
+        "_skill_names": [
+          5,
+          669129
+        ],
+        "_ud": [
+          5,
+          669296
+        ],
+        "_typebuf": [
+          5,
+          671663
+        ],
+        "_multiwho": [
+          5,
+          671704
+        ],
+        "_lasermode": [
+          5,
+          671705
+        ],
+        "_multiflag": [
+          5,
+          671706
+        ],
+        "_syncstat": [
+          5,
+          671707
+        ],
+        "_camerashitable": [
+          5,
+          671708
+        ],
+        "_everyothertime": [
+          5,
+          671709
+        ],
+        "_multiwhat": [
+          5,
+          671710
+        ],
+        "_multipos": [
+          5,
+          671711
+        ],
+        "_myreturntocenter": [
+          5,
+          671712
+        ],
+        "_pub": [
+          5,
+          671713
+        ],
+        "_myhardlanding": [
+          5,
+          671714
+        ],
+        "_pus": [
+          5,
+          671715
+        ],
+        "_myjumpingtoggle": [
+          5,
+          671716
+        ],
+        "_myonground": [
+          5,
+          671717
+        ],
+        "_earthquaketime": [
+          5,
+          671718
+        ],
+        "_loadfromgrouponly": [
+          5,
+          671719
+        ],
+        "_rtsplaying": [
+          5,
+          671720
+        ],
+        "_display_mirror": [
+          5,
+          671721
+        ],
+        "_spriteqamount": [
+          4,
+          0
+        ],
+        "_respawnactortime": [
+          4,
+          4
+        ],
+        "_respawnitemtime": [
+          4,
+          8
+        ],
+        "_weaponsandammosprites": [
+          4,
+          12
+        ],
+        "_dukefriction": [
+          4,
+          44
+        ],
+        "_freezerhurtowner": [
+          4,
+          48
+        ],
+        "_networkmode": [
+          4,
+          49
+        ],
+        "_movesperpacket": [
+          4,
+          50
+        ],
+        "_gamequit": [
+          4,
+          51
+        ],
+        "_numfreezebounces": [
+          4,
+          52
+        ],
+        "_bufferjitter": [
+          4,
+          56
+        ],
+        "_cloudtotalclock": [
+          4,
+          60
+        ],
+        "_totalmemory": [
+          4,
+          64
+        ],
+        "_numinterpolations": [
+          4,
+          68
+        ],
+        "_startofdynamicinterpolations": [
+          4,
+          72
+        ],
+        "_music_select": [
+          5,
+          671722
+        ],
+        "_killit_flag": [
+          5,
+          671723
+        ],
+        "_warning": [
+          5,
+          671724
+        ],
+        "_error": [
+          5,
+          671725
+        ],
+        "_ready2send": [
+          5,
+          671726
+        ],
+        "_numplayersprites": [
+          5,
+          671727
+        ],
+        "_typebuflen": [
+          5,
+          671728
+        ]
+      },
+      "external_count": 0,
+      "fixup_count": 0,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 0
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 76
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 671729
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/MENUES.C",
+      "source_sha256": "0add87f4e0f0efc70524c8a10bb5fc3b0f2baf60cd9a7f840b6ecabe4267caa1",
+      "object_sha256": "8f413addfa0f8355a716ea3a598d87128d576313042d00e6788dca6b85f61f36",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_minfo": [
+          5,
+          0
+        ],
+        "_curpath": [
+          5,
+          24
+        ],
+        "_menupath": [
+          5,
+          104
+        ],
+        "_menuname": [
+          5,
+          184
+        ],
+        "_numplr": [
+          5,
+          4536
+        ],
+        "_levnum": [
+          5,
+          4540
+        ],
+        "_volnum": [
+          5,
+          4544
+        ],
+        "_plrskl": [
+          5,
+          4548
+        ],
+        "_mi": [
+          5,
+          4552
+        ],
+        "_dmval": [
+          5,
+          4556
+        ],
+        "_timeroffs1mhz": [
+          5,
+          4560
+        ],
+        "_deletespot": [
+          5,
+          4564
+        ],
+        "_sh": [
+          5,
+          4566
+        ],
+        "_last_zero": [
+          5,
+          4568
+        ],
+        "_onbar": [
+          5,
+          4570
+        ],
+        "_last_fifty": [
+          5,
+          4572
+        ],
+        "_last_menu": [
+          5,
+          4574
+        ],
+        "_buttonstat": [
+          5,
+          4576
+        ],
+        "_probey": [
+          4,
+          0
+        ],
+        "_lastprobey": [
+          4,
+          2
+        ],
+        "_globalskillsound": [
+          4,
+          4
+        ],
+        "_last_threehundred": [
+          4,
+          6
+        ],
+        "_fileselect": [
+          4,
+          8
+        ],
+        "dummymess_": [
+          1,
+          0
+        ],
+        "dummyfunc_": [
+          1,
+          0
+        ],
+        "cmenu_": [
+          1,
+          16
+        ],
+        "savetemp_": [
+          1,
+          144
+        ],
+        "getangplayers_": [
+          1,
+          192
+        ],
+        "loadpheader_": [
+          1,
+          480
+        ],
+        "loadplayer_": [
+          1,
+          832
+        ],
+        "saveplayer_": [
+          1,
+          4432
+        ],
+        "probe_": [
+          1,
+          7024
+        ],
+        "menutext_": [
+          1,
+          7936
+        ],
+        "menutextc_": [
+          1,
+          8736
+        ],
+        "bar_": [
+          1,
+          9296
+        ],
+        "dispnames_": [
+          1,
+          9872
+        ],
+        "getfilenames_": [
+          1,
+          10416
+        ],
+        "sortfilenames_": [
+          1,
+          10640
+        ],
+        "menus_": [
+          1,
+          11136
+        ],
+        "palto_": [
+          1,
+          27760
+        ],
+        "drawoverheadmap_": [
+          1,
+          28064
+        ],
+        "endanimsounds_": [
+          1,
+          32272
+        ],
+        "logoanimsounds_": [
+          1,
+          32624
+        ],
+        "intro4animsounds_": [
+          1,
+          32672
+        ],
+        "first4animsounds_": [
+          1,
+          32736
+        ],
+        "intro42animsounds_": [
+          1,
+          32816
+        ],
+        "endanimvol41_": [
+          1,
+          32832
+        ],
+        "endanimvol42_": [
+          1,
+          32880
+        ],
+        "endanimvol43_": [
+          1,
+          32944
+        ],
+        "playanm_": [
+          1,
+          33008
+        ],
+        "_lastsavedpos": [
+          4,
+          10
+        ],
+        "_quittimer": [
+          4,
+          12
+        ],
+        "_lastanimhack": [
+          4,
+          16
+        ],
+        "_menunamecnt": [
+          5,
+          4578
+        ]
+      },
+      "external_count": 228,
+      "fixup_count": 2405,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 34148
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 1747
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 20
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 4579
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/PLAYER.C",
+      "source_sha256": "ea96be91f14a0cab8cc1213151ffc3993558cc21ff433101a3e72d6f6a21abf0",
+      "object_sha256": "b9aa439c9f3986eefe0934fa7213664af18b98109b7203bab3185dcae4969761",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_dashow2dsector": [
+          5,
+          0
+        ],
+        "_goalsect": [
+          5,
+          128
+        ],
+        "_goalplayer": [
+          5,
+          192
+        ],
+        "_searchparent": [
+          5,
+          256
+        ],
+        "_goalsprite": [
+          5,
+          2304
+        ],
+        "_clipmovecount": [
+          5,
+          2368
+        ],
+        "_searchsect": [
+          5,
+          2432
+        ],
+        "_goalwall": [
+          5,
+          4480
+        ],
+        "_goaly": [
+          5,
+          4544
+        ],
+        "_goalx": [
+          5,
+          4608
+        ],
+        "_goalz": [
+          5,
+          4672
+        ],
+        "_lastvisinc": [
+          5,
+          4736
+        ],
+        "_lastcontroltime": [
+          5,
+          4740
+        ],
+        "_turnheldtime": [
+          5,
+          4744
+        ],
+        "_dmval": [
+          5,
+          4748
+        ],
+        "_timeroffs1mhz": [
+          5,
+          4752
+        ],
+        "_myaimmode": [
+          4,
+          0
+        ],
+        "_myaimstat": [
+          4,
+          4
+        ],
+        "_omyaimstat": [
+          4,
+          8
+        ],
+        "_weapon_sprites": [
+          4,
+          12
+        ],
+        "setpal_": [
+          1,
+          208
+        ],
+        "incur_damage_": [
+          1,
+          368
+        ],
+        "quickkill_": [
+          1,
+          576
+        ],
+        "forceplayerangle_": [
+          1,
+          704
+        ],
+        "tracers_": [
+          1,
+          768
+        ],
+        "hits_": [
+          1,
+          1104
+        ],
+        "hitasprite_": [
+          1,
+          1312
+        ],
+        "hitawall_": [
+          1,
+          1584
+        ],
+        "aim_": [
+          1,
+          1744
+        ],
+        "shoot_": [
+          1,
+          2784
+        ],
+        "displayloogie_": [
+          1,
+          12272
+        ],
+        "animatefist_": [
+          1,
+          12592
+        ],
+        "animateknee_": [
+          1,
+          12992
+        ],
+        "animateknuckles_": [
+          1,
+          13360
+        ],
+        "displaymasks_": [
+          1,
+          13712
+        ],
+        "animatetip_": [
+          1,
+          14160
+        ],
+        "animateaccess_": [
+          1,
+          14512
+        ],
+        "displayweapon_": [
+          1,
+          15200
+        ],
+        "getinput_": [
+          1,
+          21920
+        ],
+        "doincrements_": [
+          1,
+          24144
+        ],
+        "checkweapons_": [
+          1,
+          25440
+        ],
+        "processinput_": [
+          1,
+          25632
+        ],
+        "getspritescore_": [
+          1,
+          39744
+        ],
+        "computergetinput_": [
+          1,
+          41008
+        ],
+        "_fdmatrix": [
+          4,
+          36
+        ],
+        "_fistsign": [
+          5,
+          4756
+        ]
+      },
+      "external_count": 155,
+      "fixup_count": 1772,
+      "code_data_ranges": [
+        [
+          1,
+          0,
+          193
+        ]
+      ],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 48646
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 91
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 612
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 4758
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/PREMAP.C",
+      "source_sha256": "631bcb10718e05a7ff73a980b1655247fc7ee966ceaaa045d20c4f512a3f528d",
+      "object_sha256": "1de9397b333b7e5033af4320fb2a13dcab9625f256ffc1f589e3a8585224d903",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "tloadtile_": [
+          1,
+          0
+        ],
+        "cachespritenum_": [
+          1,
+          32
+        ],
+        "cachegoodsprites_": [
+          1,
+          1616
+        ],
+        "getsound_": [
+          1,
+          2416
+        ],
+        "precachenecessarysounds_": [
+          1,
+          2672
+        ],
+        "cacheit_": [
+          1,
+          2752
+        ],
+        "docacheit_": [
+          1,
+          3248
+        ],
+        "xyzmirror_": [
+          1,
+          3424
+        ],
+        "vscrn_": [
+          1,
+          3600
+        ],
+        "pickrandomspot_": [
+          1,
+          3888
+        ],
+        "resetplayerstats_": [
+          1,
+          4080
+        ],
+        "resetweapons_": [
+          1,
+          4896
+        ],
+        "resetinventory_": [
+          1,
+          5104
+        ],
+        "resetprestat_": [
+          1,
+          5264
+        ],
+        "setupbackdrop_": [
+          1,
+          5808
+        ],
+        "prelevel_": [
+          1,
+          6096
+        ],
+        "newgame_": [
+          1,
+          8832
+        ],
+        "resetpspritevars_": [
+          1,
+          9424
+        ],
+        "clearfrags_": [
+          1,
+          10752
+        ],
+        "resettimevars_": [
+          1,
+          10880
+        ],
+        "genspriteremaps_": [
+          1,
+          10944
+        ],
+        "waitforeverybody_": [
+          1,
+          11232
+        ],
+        "dofrontscreens_": [
+          1,
+          11392
+        ],
+        "clearfifo_": [
+          1,
+          11904
+        ],
+        "resetmys_": [
+          1,
+          12336
+        ],
+        "enterlevel_": [
+          1,
+          12592
+        ],
+        "_which_palookup": [
+          4,
+          0
+        ],
+        "_dmval": [
+          5,
+          0
+        ],
+        "_timeroffs1mhz": [
+          5,
+          4
+        ]
+      },
+      "external_count": 206,
+      "fixup_count": 848,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 13816
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 310
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 2
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 8
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/SECTOR.C",
+      "source_sha256": "07af3110542dd644571b146b693e11ab570b356985d46a7ceb7697276788e08c",
+      "object_sha256": "8efc585906f94f4a1f496b6282f66bc5b39ceffd58d5a1bbefb7faa64ddbd8cb",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_dmval": [
+          5,
+          0
+        ],
+        "_timeroffs1mhz": [
+          5,
+          4
+        ],
+        "callsound_": [
+          1,
+          0
+        ],
+        "check_activator_motion_": [
+          1,
+          480
+        ],
+        "isadoorwall_": [
+          1,
+          784
+        ],
+        "isanunderoperator_": [
+          1,
+          960
+        ],
+        "isanearoperator_": [
+          1,
+          992
+        ],
+        "checkcursectnums_": [
+          1,
+          1040
+        ],
+        "ldist_": [
+          1,
+          1120
+        ],
+        "dist_": [
+          1,
+          1168
+        ],
+        "findplayer_": [
+          1,
+          1216
+        ],
+        "findotherplayer_": [
+          1,
+          1568
+        ],
+        "doanimations_": [
+          1,
+          1776
+        ],
+        "getanimationgoal_": [
+          1,
+          2480
+        ],
+        "setanimation_": [
+          1,
+          2544
+        ],
+        "animatecamsprite_": [
+          1,
+          2704
+        ],
+        "animatewalls_": [
+          1,
+          2912
+        ],
+        "activatewarpelevators_": [
+          1,
+          3472
+        ],
+        "operatesectors_": [
+          1,
+          3888
+        ],
+        "operaterespawns_": [
+          1,
+          7680
+        ],
+        "operateactivators_": [
+          1,
+          7824
+        ],
+        "operatemasterswitches_": [
+          1,
+          8544
+        ],
+        "operateforcefields_": [
+          1,
+          8624
+        ],
+        "checkhitswitch_": [
+          1,
+          8832
+        ],
+        "activatebysector_": [
+          1,
+          12560
+        ],
+        "breakwall_": [
+          1,
+          12672
+        ],
+        "checkhitwall_": [
+          1,
+          12736
+        ],
+        "checkplayerhurt_": [
+          1,
+          15408
+        ],
+        "checkhitceiling_": [
+          1,
+          16000
+        ],
+        "checkhitsprite_": [
+          1,
+          16704
+        ],
+        "allignwarpelevators_": [
+          1,
+          22688
+        ],
+        "cheatkeys_": [
+          1,
+          23024
+        ],
+        "checksectors_": [
+          1,
+          26224
+        ],
+        "_haltsoundhack": [
+          5,
+          8
+        ]
+      },
+      "external_count": 101,
+      "fixup_count": 1436,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 29913
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 9
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/SOUNDS.C",
+      "source_sha256": "606d6534c5fb601533165039964348adea58d28da321bb9fca08c5342f2d5e49",
+      "object_sha256": "3047c4d534844c817ba48038b84e4cee485cb11e0b557650aea5970409682d66",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan",
+        "/zu"
+      ],
+      "publics": {
+        "_backflag": [
+          5,
+          0
+        ],
+        "_numenvsnds": [
+          5,
+          4
+        ],
+        "SoundStartup_": [
+          1,
+          48
+        ],
+        "SoundShutdown_": [
+          1,
+          352
+        ],
+        "MusicStartup_": [
+          1,
+          400
+        ],
+        "MusicShutdown_": [
+          1,
+          656
+        ],
+        "USRHOOKS_GetMem_": [
+          1,
+          720
+        ],
+        "USRHOOKS_FreeMem_": [
+          1,
+          752
+        ],
+        "intomenusounds_": [
+          1,
+          768
+        ],
+        "playmusic_": [
+          1,
+          880
+        ],
+        "loadsound_": [
+          1,
+          1008
+        ],
+        "xyzsound_": [
+          1,
+          1248
+        ],
+        "sound_": [
+          1,
+          2928
+        ],
+        "spritesound_": [
+          1,
+          3488
+        ],
+        "stopsound_": [
+          1,
+          3552
+        ],
+        "stopenvsound_": [
+          1,
+          3616
+        ],
+        "pan3dsound_": [
+          1,
+          3728
+        ],
+        "TestCallBack_": [
+          1,
+          4528
+        ],
+        "clearsoundlocks_": [
+          1,
+          4896
+        ],
+        "_menunum": [
+          4,
+          0
+        ],
+        "_dmval": [
+          5,
+          8
+        ],
+        "_timeroffs1mhz": [
+          5,
+          12
+        ]
+      },
+      "external_count": 89,
+      "fixup_count": 309,
+      "code_data_ranges": [
+        [
+          1,
+          0,
+          34
+        ]
+      ],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 4969
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 106
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 1
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 16
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/RTS.C",
+      "source_sha256": "3a4a1f92f6daea339259d00ec2c0acc71b12658c5da637ea2c55645b1aab50cd",
+      "object_sha256": "1d7bbc4c05fa150d21f2a517a996fce4d592820b7b609bebbf3162cbddf8997b",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_lumpcache": [
+          5,
+          0
+        ],
+        "_lumpinfo": [
+          5,
+          4
+        ],
+        "_numlumps": [
+          5,
+          8
+        ],
+        "_dmval": [
+          5,
+          12
+        ],
+        "_timeroffs1mhz": [
+          5,
+          16
+        ],
+        "RTS_AddFile_": [
+          1,
+          0
+        ],
+        "RTS_Init_": [
+          1,
+          368
+        ],
+        "RTS_NumSounds_": [
+          1,
+          480
+        ],
+        "RTS_SoundLength_": [
+          1,
+          496
+        ],
+        "RTS_GetSoundName_": [
+          1,
+          560
+        ],
+        "RTS_ReadLump_": [
+          1,
+          624
+        ],
+        "RTS_GetSound_": [
+          1,
+          736
+        ],
+        "_RTS_Started": [
+          4,
+          0
+        ],
+        "_lumplockbyte": [
+          5,
+          20
+        ]
+      },
+      "external_count": 22,
+      "fixup_count": 71,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 901
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 284
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 4
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 31
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/CONFIG.C",
+      "source_sha256": "d3a00b0cb33833cf8cfc50a3ca9adced8ac2116da5ce71fda93517a7dce5e4bb",
+      "object_sha256": "4d61bcabff92a1d65aac02fe55e315447b87c125e51803edccdae552cd7a8b10",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_scripthandle": [
+          5,
+          0
+        ],
+        "_MusicToggle": [
+          5,
+          4
+        ],
+        "_SoundToggle": [
+          5,
+          8
+        ],
+        "_VoiceToggle": [
+          5,
+          12
+        ],
+        "_AmbienceToggle": [
+          5,
+          16
+        ],
+        "_BlasterConfig": [
+          5,
+          20
+        ],
+        "_FXVolume": [
+          5,
+          48
+        ],
+        "_MusicVolume": [
+          5,
+          52
+        ],
+        "_ScreenHeight": [
+          5,
+          56
+        ],
+        "_MixRate": [
+          5,
+          60
+        ],
+        "_MouseAiming": [
+          5,
+          64
+        ],
+        "_ScreenMode": [
+          5,
+          68
+        ],
+        "_MidiPort": [
+          5,
+          72
+        ],
+        "_ControllerType": [
+          5,
+          76
+        ],
+        "_NumVoices": [
+          5,
+          80
+        ],
+        "_NumChannels": [
+          5,
+          84
+        ],
+        "_NumBits": [
+          5,
+          88
+        ],
+        "_ReverseStereo": [
+          5,
+          92
+        ],
+        "_ScreenWidth": [
+          5,
+          96
+        ],
+        "_MusicDevice": [
+          5,
+          100
+        ],
+        "_FXDevice": [
+          5,
+          104
+        ],
+        "_gamefunctions": [
+          4,
+          0
+        ],
+        "CONFIG_GetSetupFilename_": [
+          1,
+          16
+        ],
+        "CONFIG_FunctionNameToNum_": [
+          1,
+          720
+        ],
+        "CONFIG_FunctionNumToName_": [
+          1,
+          784
+        ],
+        "CONFIG_AnalogNameToNum_": [
+          1,
+          800
+        ],
+        "CONFIG_SetDefaults_": [
+          1,
+          912
+        ],
+        "CONFIG_ReadKeys_": [
+          1,
+          1056
+        ],
+        "CONFIG_SetupMouse_": [
+          1,
+          1296
+        ],
+        "CONFIG_SetupGamePad_": [
+          1,
+          1872
+        ],
+        "CONFIG_SetupJoystick_": [
+          1,
+          2320
+        ],
+        "readsavenames_": [
+          1,
+          2896
+        ],
+        "CONFIG_ReadSetup_": [
+          1,
+          3088
+        ],
+        "CONFIG_WriteSetup_": [
+          1,
+          4992
+        ],
+        "_setupfilename": [
+          4,
+          208
+        ],
+        "_setupread": [
+          4,
+          336
+        ],
+        "_dmval": [
+          5,
+          108
+        ],
+        "_timeroffs1mhz": [
+          5,
+          112
+        ]
+      },
+      "external_count": 81,
+      "fixup_count": 701,
+      "code_data_ranges": [
+        [
+          1,
+          0,
+          15
+        ]
+      ],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 5856
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 2155
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 340
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 116
+        }
+      ]
+    },
+    {
+      "source": "dukenukem3d/source/ANIMLIB.C",
+      "source_sha256": "5844896899311b7d3db2492c6a6ad004fba2fdbf0a1043ae8a783cb274b0c1d0",
+      "object_sha256": "b80e3de3eae43f5bc7aeeee547fef0c9406ff37484267f6af81f054130e773da",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "publics": {
+        "_anim": [
+          4,
+          0
+        ],
+        "CheckAnimStarted_": [
+          1,
+          0
+        ],
+        "findpage_": [
+          1,
+          32
+        ],
+        "loadpage_": [
+          1,
+          128
+        ],
+        "CPlayRunSkipDump_": [
+          1,
+          288
+        ],
+        "renderframe_": [
+          1,
+          416
+        ],
+        "drawframe_": [
+          1,
+          576
+        ],
+        "ANIM_LoadAnim_": [
+          1,
+          656
+        ],
+        "ANIM_FreeAnim_": [
+          1,
+          880
+        ],
+        "ANIM_NumFrames_": [
+          1,
+          912
+        ],
+        "ANIM_DrawFrame_": [
+          1,
+          944
+        ],
+        "ANIM_GetPalette_": [
+          1,
+          1056
+        ],
+        "_Anim_Started": [
+          4,
+          4
+        ]
+      },
+      "external_count": 9,
+      "fixup_count": 44,
+      "code_data_ranges": [],
+      "default_libraries": [
+        "math387r",
+        "emu387"
+      ],
+      "segments": [
+        {
+          "name": "_TEXT",
+          "class": "CODE",
+          "size": 1077
+        },
+        {
+          "name": "CONST",
+          "class": "DATA",
+          "size": 127
+        },
+        {
+          "name": "CONST2",
+          "class": "DATA",
+          "size": 0
+        },
+        {
+          "name": "_DATA",
+          "class": "DATA",
+          "size": 8
+        },
+        {
+          "name": "_BSS",
+          "class": "BSS",
+          "size": 0
+        }
+      ]
+    }
+  ]
+}

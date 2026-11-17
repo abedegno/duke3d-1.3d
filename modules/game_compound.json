@@ -1,0 +1,228 @@
+{
+  "name": "game_partial_compound",
+  "source": "src/game/game.c",
+  "companion": "src/game/game_tail.asm",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "asm_options": [
+    "/zq"
+  ],
+  "header_recipe": {
+    "references": [
+      "reference/duke3d-reconstructions",
+      "reference/duke3d-reconstructions/MACT"
+    ],
+    "overlays": [
+      "src/include",
+      "src/game/include",
+      "src/engine/include",
+      "src/game/compound/include"
+    ]
+  },
+  "C_stable_native_inventory_sha256": "22169a27b8ea0d08e4869fa10869539ff92d8fb42fb9d51f5e16b981d47be083",
+  "C_E9_ordered_paths": [
+    "C:\\SOURCE.C",
+    "C:\\INC0\\types.h",
+    "C:\\INC0\\develop.h",
+    "C:\\INC0\\scriplib.h",
+    "C:\\INC0\\file_lib.h",
+    "C:\\INC0\\gamedefs.h",
+    "C:\\INC0\\keyboard.h",
+    "C:\\INC0\\util_lib.h",
+    "C:\\INC0\\function.h",
+    "C:\\INC0\\gamever.h",
+    "C:\\INC0\\control.h",
+    "C:\\INC0\\fx_man.h",
+    "C:\\INC0\\sndcards.h",
+    "C:\\INC0\\sounds.h",
+    "C:\\INC0\\config.h",
+    "C:\\INC0\\duke3d.h",
+    "D:\\H\\stdio.h",
+    "D:\\H\\string.h",
+    "D:\\H\\stdlib.h",
+    "D:\\H\\malloc.h",
+    "D:\\H\\dos.h",
+    "D:\\H\\i86.h",
+    "D:\\H\\bios.h",
+    "D:\\H\\io.h",
+    "D:\\H\\sys\\stat.h",
+    "D:\\H\\sys\\types.h",
+    "D:\\H\\fcntl.H",
+    "D:\\H\\time.h",
+    "D:\\H\\ctype.h",
+    "C:\\INC0\\pragmas.h",
+    "C:\\INC0\\build.h",
+    "C:\\INC0\\_rts.h",
+    "C:\\INC0\\rts.h",
+    "C:\\INC0\\soundefs.h",
+    "C:\\INC0\\task_man.h",
+    "C:\\INC0\\music.h",
+    "C:\\INC0\\names.h",
+    "C:\\INC0\\funct.h",
+    "C:\\INC0\\soundabi.h",
+    "D:\\H\\stddef.h",
+    "C:\\INC0\\userdef.h",
+    "C:\\INC0\\playdef.h",
+    null
+  ],
+  "tail_native_inventory": {
+    "name": "GMTAIL.ASM",
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 0,
+        "attributes": 169,
+        "access": null,
+        "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null,
+        "data_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 15,
+        "attributes": 41,
+        "access": null,
+        "data_sha256": "5322fecfc92a5e3248a297a3df3eddfb9bd9049504272e4f572b87fa36d4b3bd"
+      }
+    ],
+    "publics": {
+      "_cheatbuf": [
+        3,
+        0
+      ],
+      "_everyothertime": [
+        3,
+        10
+      ],
+      "_cheatbuflen": [
+        3,
+        11
+      ],
+      "_playerswhenstarted": [
+        3,
+        12
+      ],
+      "_restorepalette": [
+        3,
+        13
+      ],
+      "_screencapt": [
+        3,
+        14
+      ]
+    },
+    "externals": [],
+    "local_publics": [],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ],
+      [
+        "DGROUP",
+        [
+          3
+        ]
+      ]
+    ],
+    "fixups": [],
+    "default_libraries": [],
+    "far_call_optimization_segments": [],
+    "comments": [
+      [
+        162,
+        {
+          "hex": "01"
+        }
+      ]
+    ],
+    "dosseg_directives": [],
+    "code_data_ranges": [],
+    "line_numbers": [],
+    "format": "standard-omf",
+    "format_source": null,
+    "fixup_encodings": [],
+    "thread_definitions": [],
+    "source_records": []
+  },
+  "C_physical_prefix": {
+    "_frameval": 0,
+    "_recbuf": 256,
+    "_endingpal": 296,
+    "_titlepal": 1064,
+    "_waterpal": 1832,
+    "_drealms": 2600,
+    "_slimepal": 3368,
+    "_nonsharedtimer": 4136,
+    "_recfilep": 4140,
+    "_rtsptr": 4144,
+    "_totalreccnt": 4148,
+    "_tempwallptr": 4152,
+    "_dmval": 4156
+  },
+  "C_prefix_zero_fill_bytes": 4160,
+  "tail_public_offsets": {
+    "_cheatbuf": 0,
+    "_everyothertime": 10,
+    "_cheatbuflen": 11,
+    "_playerswhenstarted": 12,
+    "_restorepalette": 13,
+    "_screencapt": 14
+  },
+  "tail_zero_fill_bytes": 15,
+  "combined_BSS_bytes": 4175,
+  "unproved_prefix_role_names": [
+    "_tempwallptr",
+    "_dmval"
+  ],
+  "native_source_segments": [
+    [
+      "_TEXT",
+      84142,
+      105
+    ],
+    [
+      "CONST",
+      4274,
+      169
+    ],
+    [
+      "CONST2",
+      0,
+      169
+    ],
+    [
+      "_DATA",
+      864,
+      169
+    ],
+    [
+      "_BSS",
+      4160,
+      105
+    ]
+  ],
+  "matched_intervals": 78,
+  "matched_CODE_bytes": 66094,
+  "matched_typed_fields": 4314,
+  "leading_prefix_bytes": 448,
+  "DATA_bytes": 864,
+  "source_credit": 0,
+  "new_complete_contributions": 0,
+  "full_module_verified": false,
+  "full_executable_rebuilt": false
+}

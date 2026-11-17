@@ -1,0 +1,13 @@
+[
+ {"name":"rox_error_create_section","text":"ROX_CreateSection: ROX not started\n"},
+ {"name":"rox_error_create_entry","text":"ROX_CreateEntry: ROX not started\n"},
+ {"name":"rox_error_free_entry","text":"ROX_FreeEntry: ROX not started\n"},
+ {"name":"rox_error_free_section","text":"ROX_FreeSection: ROX not started\n"},
+ {"name":"rox_main_name","text":"roxmain"},
+ {"name":"rox_error_add_subsection","text":"ROX_AddSubSection: ROX not started\n"},
+ {"name":"rox_error_find_subsection","text":"ROX_FindSubSection: ROX not started\n"},
+ {"name":"rox_error_add_entry","text":"ROX_AddSubSection: ROX not started\n"},
+ {"name":"rox_error_find_entry","text":"ROX_FindEntry: ROX not started\n"},
+ {"name":"rox_error_get","text":"ROX_Get: ROX not started\n"},
+ {"name":"rox_error_get_length","text":"ROX_Get: %s too long\n"}
+]

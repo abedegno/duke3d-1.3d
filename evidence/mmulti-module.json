@@ -1,0 +1,1780 @@
+{
+  "kind": "complete MMULTI object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/network/mmulti.c",
+  "source_sha256": "5d69d887b8e3bdb15c6fc73bcf5a7cac1d8a617c73685ca4cce0a25493bb9b65",
+  "headers_sha256": {
+    "build.h": "d2ff662f49881eaf1691deb1121f04ff2854240478be28ec0c697a5430d64d0f",
+    "names.h": "dd9f1eaa7ecdddc02e4466410c9ccecf2934e0bec778f098f1b31ec223d19560",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "ves2.h": "474574a6a1e65a84e507e80e05b2cb0cbcceec093ba4450cd26408085cba013b"
+  },
+  "descriptor": "modules/mmulti.json",
+  "descriptor_sha256": "00fd57c45ba5ae56fdca32e73301b718af2a88d3ee30308eb8791e53d7945052",
+  "compiler_sha256": "1b97a68f7b8a3efd89b05f64ce99836b1e533f398699305f96dc423254939d6a",
+  "options": [
+    "/4r",
+    "/s",
+    "/or",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "placements": {
+    "1": [
+      1,
+      423022
+    ],
+    "5": [
+      3,
+      1698736
+    ],
+    "2": [
+      3,
+      14280
+    ],
+    "4": [
+      3,
+      32348
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 16,
+      "segment": 1,
+      "value": [
+        1,
+        423022
+      ]
+    },
+    {
+      "source_offset": 26,
+      "symbol": "initcrc_",
+      "value": [
+        1,
+        423287
+      ]
+    },
+    {
+      "source_offset": 36,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 42,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 48,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 61,
+      "symbol": "_bakpacketlen",
+      "value": [
+        3,
+        1698736
+      ]
+    },
+    {
+      "source_offset": 72,
+      "symbol": "__argc",
+      "value": [
+        3,
+        71844
+      ]
+    },
+    {
+      "source_offset": 80,
+      "symbol": "__argv",
+      "value": [
+        3,
+        71848
+      ]
+    },
+    {
+      "source_offset": 92,
+      "symbol": "strtok_",
+      "value": [
+        1,
+        589392
+      ]
+    },
+    {
+      "source_offset": 103,
+      "segment": 2,
+      "value": [
+        3,
+        14280
+      ]
+    },
+    {
+      "source_offset": 108,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 142,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 149,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 156,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 162,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 169,
+      "symbol": "__argv",
+      "value": [
+        3,
+        71848
+      ]
+    },
+    {
+      "source_offset": 178,
+      "symbol": "atol_",
+      "value": [
+        1,
+        583945
+      ]
+    },
+    {
+      "source_offset": 183,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 194,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 208,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 214,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 223,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 237,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 252,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 337,
+      "symbol": "_crctable",
+      "value": [
+        3,
+        1731504
+      ]
+    },
+    {
+      "source_offset": 404,
+      "symbol": "_crctable",
+      "value": [
+        3,
+        1731504
+      ]
+    },
+    {
+      "source_offset": 437,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 444,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 457,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 475,
+      "symbol": "sendpacket_",
+      "value": [
+        1,
+        423523
+      ]
+    },
+    {
+      "source_offset": 483,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 510,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 531,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 540,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 550,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 572,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 601,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 612,
+      "symbol": "getcrc_",
+      "value": [
+        1,
+        423376
+      ]
+    },
+    {
+      "source_offset": 618,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 635,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 651,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 661,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 673,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 684,
+      "symbol": "_regs",
+      "value": [
+        3,
+        1733200
+      ]
+    },
+    {
+      "source_offset": 689,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 699,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 716,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 746,
+      "symbol": "_bakpacketlen",
+      "value": [
+        3,
+        1698736
+      ]
+    },
+    {
+      "source_offset": 762,
+      "symbol": "_bakpacketptr",
+      "value": [
+        3,
+        1706928
+      ]
+    },
+    {
+      "source_offset": 782,
+      "symbol": "_bakpacketbuf",
+      "value": [
+        3,
+        1715120
+      ]
+    },
+    {
+      "source_offset": 801,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 818,
+      "symbol": "_bakpacketlen",
+      "value": [
+        3,
+        1698736
+      ]
+    },
+    {
+      "source_offset": 829,
+      "symbol": "_bakpacketptr",
+      "value": [
+        3,
+        1706928
+      ]
+    },
+    {
+      "source_offset": 837,
+      "symbol": "_bakpacketplc",
+      "value": [
+        3,
+        32349
+      ]
+    },
+    {
+      "source_offset": 847,
+      "symbol": "_bakpacketptr",
+      "value": [
+        3,
+        1706928
+      ]
+    },
+    {
+      "source_offset": 857,
+      "symbol": "_bakpacketplc",
+      "value": [
+        3,
+        32349
+      ]
+    },
+    {
+      "source_offset": 875,
+      "symbol": "_bakpacketbuf",
+      "value": [
+        3,
+        1715120
+      ]
+    },
+    {
+      "source_offset": 884,
+      "symbol": "_bakpacketplc",
+      "value": [
+        3,
+        32349
+      ]
+    },
+    {
+      "source_offset": 896,
+      "symbol": "_bakpacketplc",
+      "value": [
+        3,
+        32349
+      ]
+    },
+    {
+      "source_offset": 906,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 911,
+      "symbol": "dosendpackets_",
+      "value": [
+        1,
+        423945
+      ]
+    },
+    {
+      "source_offset": 936,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 942,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 956,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 975,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 991,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 997,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1005,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1011,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 1020,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1029,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1040,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1051,
+      "symbol": "_bakpacketptr",
+      "value": [
+        3,
+        1706928
+      ]
+    },
+    {
+      "source_offset": 1058,
+      "symbol": "_bakpacketlen",
+      "value": [
+        3,
+        1698736
+      ]
+    },
+    {
+      "source_offset": 1076,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1096,
+      "symbol": "_bakpacketbuf",
+      "value": [
+        3,
+        1715120
+      ]
+    },
+    {
+      "source_offset": 1115,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1121,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1129,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1135,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 1147,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1156,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1167,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1178,
+      "symbol": "_bakpacketptr",
+      "value": [
+        3,
+        1706928
+      ]
+    },
+    {
+      "source_offset": 1185,
+      "symbol": "_bakpacketlen",
+      "value": [
+        3,
+        1698736
+      ]
+    },
+    {
+      "source_offset": 1193,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1215,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1236,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1256,
+      "symbol": "_bakpacketbuf",
+      "value": [
+        3,
+        1715120
+      ]
+    },
+    {
+      "source_offset": 1271,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1283,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1296,
+      "symbol": "_bakpacketptr",
+      "value": [
+        3,
+        1706928
+      ]
+    },
+    {
+      "source_offset": 1304,
+      "symbol": "_bakpacketlen",
+      "value": [
+        3,
+        1698736
+      ]
+    },
+    {
+      "source_offset": 1317,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1337,
+      "symbol": "_bakpacketbuf",
+      "value": [
+        3,
+        1715120
+      ]
+    },
+    {
+      "source_offset": 1352,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1357,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1368,
+      "symbol": "getcrc_",
+      "value": [
+        1,
+        423376
+      ]
+    },
+    {
+      "source_offset": 1389,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1413,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1428,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1438,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1448,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1459,
+      "symbol": "_regs",
+      "value": [
+        3,
+        1733200
+      ]
+    },
+    {
+      "source_offset": 1464,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1474,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 1482,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 1510,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 1526,
+      "symbol": "_inlastpacket",
+      "value": [
+        3,
+        32348
+      ]
+    },
+    {
+      "source_offset": 1536,
+      "symbol": "_inlastpacket",
+      "value": [
+        3,
+        32348
+      ]
+    },
+    {
+      "source_offset": 1542,
+      "symbol": "_lastpacketfrom",
+      "value": [
+        3,
+        1733244
+      ]
+    },
+    {
+      "source_offset": 1550,
+      "symbol": "_lastpacket",
+      "value": [
+        3,
+        1732528
+      ]
+    },
+    {
+      "source_offset": 1557,
+      "symbol": "_lastpacketleng",
+      "value": [
+        3,
+        1733238
+      ]
+    },
+    {
+      "source_offset": 1564,
+      "symbol": "memcpy_",
+      "value": [
+        1,
+        583849
+      ]
+    },
+    {
+      "source_offset": 1570,
+      "symbol": "_lastpacketleng",
+      "value": [
+        3,
+        1733238
+      ]
+    },
+    {
+      "source_offset": 1580,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1591,
+      "symbol": "_regs",
+      "value": [
+        3,
+        1733200
+      ]
+    },
+    {
+      "source_offset": 1596,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1606,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 1611,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1632,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1675,
+      "symbol": "getcrc_",
+      "value": [
+        1,
+        423376
+      ]
+    },
+    {
+      "source_offset": 1693,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 1704,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1722,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 1727,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1764,
+      "symbol": "memcpy_",
+      "value": [
+        1,
+        583849
+      ]
+    },
+    {
+      "source_offset": 1776,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1788,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1803,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1832,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 1846,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 1871,
+      "symbol": "memcpy_",
+      "value": [
+        1,
+        583849
+      ]
+    },
+    {
+      "source_offset": 1880,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1890,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1922,
+      "symbol": "_lastpacketleng",
+      "value": [
+        3,
+        1733238
+      ]
+    },
+    {
+      "source_offset": 1928,
+      "symbol": "_inlastpacket",
+      "value": [
+        3,
+        32348
+      ]
+    },
+    {
+      "source_offset": 1939,
+      "symbol": "_lastpacketfrom",
+      "value": [
+        3,
+        1733244
+      ]
+    },
+    {
+      "source_offset": 1951,
+      "symbol": "memcpy_",
+      "value": [
+        1,
+        583849
+      ]
+    },
+    {
+      "source_offset": 1956,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 1969,
+      "symbol": "_lastpacketleng",
+      "value": [
+        3,
+        1733238
+      ]
+    },
+    {
+      "source_offset": 1976,
+      "symbol": "_lastpacket",
+      "value": [
+        3,
+        1732528
+      ]
+    },
+    {
+      "source_offset": 1981,
+      "symbol": "memcpy_",
+      "value": [
+        1,
+        583849
+      ]
+    },
+    {
+      "source_offset": 1990,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 1999,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 2018,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 2026,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2037,
+      "symbol": "_regs",
+      "value": [
+        3,
+        1733200
+      ]
+    },
+    {
+      "source_offset": 2042,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2052,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    },
+    {
+      "source_offset": 2057,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2071,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 2081,
+      "symbol": "_incnt",
+      "value": [
+        3,
+        1733136
+      ]
+    },
+    {
+      "source_offset": 2087,
+      "symbol": "_outcntplc",
+      "value": [
+        3,
+        1733168
+      ]
+    },
+    {
+      "source_offset": 2093,
+      "symbol": "_outcntend",
+      "value": [
+        3,
+        1733184
+      ]
+    },
+    {
+      "source_offset": 2099,
+      "symbol": "_errorstate",
+      "value": [
+        3,
+        1733152
+      ]
+    },
+    {
+      "source_offset": 2107,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 2124,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 2132,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2157,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2167,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2192,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2202,
+      "symbol": "_regs",
+      "value": [
+        3,
+        1733200
+      ]
+    },
+    {
+      "source_offset": 2207,
+      "symbol": "_gcom",
+      "value": [
+        3,
+        1733228
+      ]
+    },
+    {
+      "source_offset": 2217,
+      "symbol": "int386_",
+      "value": [
+        1,
+        588346
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 2237,
+    "zero_fill_bytes": 34510,
+    "verified_fixups": 165,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 423022,
+        "compared_bytes": 2227,
+        "verified_fixups": 165,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 14280,
+        "compared_bytes": 4,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 32348,
+        "compared_bytes": 6,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1698736,
+        "compared_bytes": 34510,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_bakpacketlen": [
+        3,
+        1698736
+      ],
+      "_bakpacketptr": [
+        3,
+        1706928
+      ],
+      "_bakpacketbuf": [
+        3,
+        1715120
+      ],
+      "_crctable": [
+        3,
+        1731504
+      ],
+      "_lastpacket": [
+        3,
+        1732528
+      ],
+      "_connectpoint2": [
+        3,
+        1733104
+      ],
+      "_incnt": [
+        3,
+        1733136
+      ],
+      "_errorstate": [
+        3,
+        1733152
+      ],
+      "_outcntplc": [
+        3,
+        1733168
+      ],
+      "_outcntend": [
+        3,
+        1733184
+      ],
+      "_regs": [
+        3,
+        1733200
+      ],
+      "_gcom": [
+        3,
+        1733228
+      ],
+      "_dmval": [
+        3,
+        1733232
+      ],
+      "_connecthead": [
+        3,
+        1733236
+      ],
+      "_lastpacketleng": [
+        3,
+        1733238
+      ],
+      "_numplayers": [
+        3,
+        1733240
+      ],
+      "_myconnectindex": [
+        3,
+        1733242
+      ],
+      "_inlastpacket": [
+        3,
+        32348
+      ],
+      "_bakpacketplc": [
+        3,
+        32349
+      ],
+      "initmultiplayers_": [
+        1,
+        423026
+      ],
+      "initcrc_": [
+        1,
+        423287
+      ],
+      "getcrc_": [
+        1,
+        423376
+      ],
+      "sendlogon_": [
+        1,
+        423447
+      ],
+      "uninitmultiplayers_": [
+        1,
+        423447
+      ],
+      "sendlogoff_": [
+        1,
+        423448
+      ],
+      "getoutputcirclesize_": [
+        1,
+        423520
+      ],
+      "setsocket_": [
+        1,
+        423522
+      ],
+      "sendpacket_": [
+        1,
+        423523
+      ],
+      "dosendpackets_": [
+        1,
+        423945
+      ],
+      "getpacket_": [
+        1,
+        424518
+      ],
+      "flushpackets_": [
+        1,
+        425035
+      ],
+      "genericmultifunction_": [
+        1,
+        425140
+      ],
+      "_syncstate": [
+        3,
+        32353
+      ],
+      "_lastpacketfrom": [
+        3,
+        1733244
+      ],
+      "__argc": [
+        3,
+        71844
+      ],
+      "__argv": [
+        3,
+        71848
+      ],
+      "strtok_": [
+        1,
+        589392
+      ],
+      "stricmp_": [
+        1,
+        588168
+      ],
+      "atol_": [
+        1,
+        583945
+      ],
+      "int386_": [
+        1,
+        588346
+      ],
+      "memcpy_": [
+        1,
+        583849
+      ]
+    },
+    "local_symbols": {
+      "_bakpacketbuf": [
+        3,
+        1715120
+      ],
+      "_bakpacketlen": [
+        3,
+        1698736
+      ],
+      "_bakpacketplc": [
+        3,
+        32349
+      ],
+      "_bakpacketptr": [
+        3,
+        1706928
+      ],
+      "_dmval": [
+        3,
+        1733232
+      ],
+      "_errorstate": [
+        3,
+        1733152
+      ],
+      "_gcom": [
+        3,
+        1733228
+      ],
+      "_incnt": [
+        3,
+        1733136
+      ],
+      "_inlastpacket": [
+        3,
+        32348
+      ],
+      "_lastpacket": [
+        3,
+        1732528
+      ],
+      "_lastpacketfrom": [
+        3,
+        1733244
+      ],
+      "_lastpacketleng": [
+        3,
+        1733238
+      ],
+      "_outcntend": [
+        3,
+        1733184
+      ],
+      "_outcntplc": [
+        3,
+        1733168
+      ],
+      "_regs": [
+        3,
+        1733200
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "_bakpacketlen": [
+      3,
+      1698736
+    ],
+    "_bakpacketptr": [
+      3,
+      1706928
+    ],
+    "_bakpacketbuf": [
+      3,
+      1715120
+    ],
+    "_crctable": [
+      3,
+      1731504
+    ],
+    "_lastpacket": [
+      3,
+      1732528
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_incnt": [
+      3,
+      1733136
+    ],
+    "_errorstate": [
+      3,
+      1733152
+    ],
+    "_outcntplc": [
+      3,
+      1733168
+    ],
+    "_outcntend": [
+      3,
+      1733184
+    ],
+    "_regs": [
+      3,
+      1733200
+    ],
+    "_gcom": [
+      3,
+      1733228
+    ],
+    "_dmval": [
+      3,
+      1733232
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_lastpacketleng": [
+      3,
+      1733238
+    ],
+    "_numplayers": [
+      3,
+      1733240
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_inlastpacket": [
+      3,
+      32348
+    ],
+    "_bakpacketplc": [
+      3,
+      32349
+    ],
+    "initmultiplayers_": [
+      1,
+      423026
+    ],
+    "initcrc_": [
+      1,
+      423287
+    ],
+    "getcrc_": [
+      1,
+      423376
+    ],
+    "sendlogon_": [
+      1,
+      423447
+    ],
+    "uninitmultiplayers_": [
+      1,
+      423447
+    ],
+    "sendlogoff_": [
+      1,
+      423448
+    ],
+    "getoutputcirclesize_": [
+      1,
+      423520
+    ],
+    "setsocket_": [
+      1,
+      423522
+    ],
+    "sendpacket_": [
+      1,
+      423523
+    ],
+    "dosendpackets_": [
+      1,
+      423945
+    ],
+    "getpacket_": [
+      1,
+      424518
+    ],
+    "flushpackets_": [
+      1,
+      425035
+    ],
+    "genericmultifunction_": [
+      1,
+      425140
+    ],
+    "_syncstate": [
+      3,
+      32353
+    ],
+    "_lastpacketfrom": [
+      3,
+      1733244
+    ]
+  },
+  "anchor_evidence": "evidence/historical-mmulti-object-match.json",
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

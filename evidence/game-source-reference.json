@@ -1,0 +1,703 @@
+{
+  "kind": "partial v1.3D GAME source provenance, not complete recovery",
+  "tracked": "src/game/game.c",
+  "source_sha256": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d",
+  "upstream": "gamesrc-ver-recreation/duke3d",
+  "upstream_commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream_source": "reference/duke3d-reconstructions/GAME.C",
+  "upstream_sha256": "0f0bc4a665173c784d3bca8ed8bde5f6c119868a47febcd63aaccaec35c1c9b1",
+  "released_source": "dukenukem3d/source/GAME.C",
+  "released_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "license": "GPL-2.0-or-later; original attribution retained; src/game/gpl.txt",
+  "modifications": [
+    "Compile the pinned period reconstruction with current restored game/engine headers and GA /4r /s /ort selectors; no shared declarations are changed.",
+    "Earlier recovery explicitly omitted ancestral bodies rather than adding compatibility fields or stubs. Subsequent entries restore native-required bodies; the current remaining candidates and excluded later helpers are recorded separately below. Earlier caches, weapon_amounts and getnames now occupy their native order. Later standalone typemode/moveclouds are absent from the raw target display-rest interval; later calls in unverified source remain an explicit link/source obligation.",
+    "Restore gametext four register arguments and constant rendering flags26. Isolate the later five-argument header prototype locally, remove the fifth argument at36 source definition/call sites, and omit later gametextpal/minitextshade bodies. The entire272-byte gametext interval including9 alignment bytes passes, independently corroborating MENUES raw-call observations.",
+    "Express the recognized older archive-name buffer as inferred char groupfilename[128] initialized to DUKE3D.GRP between existing confile/boardfile arrays. Original spelling/allocation ownership is unproved; this is identified noninstruction data, not target code. Complete GAMEDEF anchors cameradist29560/cameraclock29564 and CONFIG anchors boardfilename29836 constrain common DATA placement; the omitted128-byte interval contains the archive filename at29708. The complete native initialized contents are subsequently proved by the DATA projection; historical identifier spelling remains inferred.",
+    "Normalize CRLF/trailing whitespace/EOF and replace one CP437 degree character in a comment with the word degree. Preserve original source indentation, copyright, GNU notice and remaining candidate bodies.",
+    "Replay complete TASK_MAN privately for fresh symbol-scope metadata rather than importing legacy unscoped reports. Import only complete exported/reference bindings and accepted partial function identities; local names stay scoped.",
+    "Restore EGS direct use of the inserted sprite index by removing the later negative-index/gameexit guard. The entire544-byte native interval and all36 fixups match target30672; all earlier28 intervals remain strict. This preserves the earlier unchecked behavior and adds no source helper, storage, compiler option or verifier exception.",
+    "Restore earlier recognition/classifier switch cases from raw target comparisons: exclude LIZTROOPJUSTSIT (1742), later BOSS4/BOSS4STAYPUT recognition, BOSS4 classification and GREENSLIME+1..+7 classification; retain LIZTROOPONTOILET (1741). Remove later actortype fallback from both classifiers. Whole check_fta_sounds560/18fixups, badguy320/0 and badguypic336/0 now match at9936/10560/10880 with all earlier intervals preserved. No other sprite-rendering switch or shared header is changed.",
+    "Restore target shutdown order: KB_Shutdown, CONTROL_Shutdown, SoundShutdown, MusicShutdown, uninittimer, uninitengine, CONFIG_WriteSetup. Entire48-byte public/all7fixups passes; the earlier masked candidate with different call order was correctly rejected.",
+    "Verify the entire448-byte native leading prefix at target16: 240bytes emitted for three automatic80-byte initialized buffers, 200bytes for symbolic breathe/bossmove tables and8bytes native alignment. OMF marks440bytes as CODE data. Source remains ordinary existing C initializers; target0..16 stays unidentified/unassigned. The sourceCODE base16 now informs the still-failing full candidate gate instead of the earlier diagnostic0 base.",
+    "Recover complete faketimerhandler3968bytes/all281fixups at5616: omit the later quick-exit hotkey block and restore clearbufbyte of synthetic-player input instead of later optional ud.playerai/computergetinput logic. The ordinary input compression/lag/sync/master/slave C logic is retained from the pinned ancestor. No unsupported playerai field or replacement stub is added. Receiver recovery is recorded in the subsequent checkpoint.",
+    "Restore complete getpackets4128/233: no later quick-exit/125/126/weapon-preference or friendly-fire paths; version103; earlier single-message pointer/time stores, RTS guards, board-name length, move-counter reset and readiness-byte echo. Use existing logical recbuf40 bounded by receiver73824 and complete PREMAP endingpal73864; later qe/cp and quotebot/quotebotgoal remain extern-only for unverified bodies, with no new storage. Names received_quote/time are inferred; addresses579460/581296 are checked consumers, not GLOBAL allocation proof. Recompile complete RTS privately for scope-safe callee anchors.",
+    "Restoring the earlier receiver and excluding later adduserquote/caches makes the native common CODE base16 agree with the initializer prefix and all three full numeric helper publics: invennum480/17, weaponnum688/26, weaponnum9991008/39. All earlier34 intervals and prefix448 remain strict; no body-only/helper trim or inline binary payload. Whole GAME BSS and inherited later state arrays/palette ordering remain unverified, and no BSS bytes are credited.",
+    "Restore AVERAGEFRAMES64, target FPS numerator7680/mask63; complete tics144/12fixups at21536. Frameval73568 is a consumer-constrained BSS observation, not complete allocation proof.",
+    "Restore earlier caches224/14fixups at21680 after tics, using lockptr/cacleng arrays and the ancestral two-loop/extra k+=6 shape. Keep unused cactype/cac declarations under the unused-source ruling. lockptr1665920 and cacleng1682304 are native consumer references corroborated by complete CACHE1D projection, now also corroborated by independently verified CACHE1D exports and a separately compiled native WLINK consumer; the complete GAME link remains unverified. No local symbols are imported through external_anchor_bindings.",
+    "Restore coords464/44 at21904: short y, raw X274 positions, seven lines ending TH transporter_hold, without later coop/ammo/weapon/sector/seed displays. Restore operatefta336/21 at22368: short i/j/k, earlier received_quote/time overlay, direct final quote drawing and target priority115/116 positions. Logical received_quote/time names remain inferred consumers.",
+    "Restore FTA112/3 at22704: priority115/116, no later q26 refresh, pub/pus stores before ftq. Ordinary empty showtwoscreens compiles to complete16-byte RET/alignment public at22816, allowing natural cross-public return sharing. Restore binscreen64/5 at22832 with loadfromgrouponly parameter. No opaque payload, padding, fake ABI or helper exceptions.",
+    "Retain firstdemofile, later sendmessagecommand and user_quote/time arrays extern-only. Copyright1990 before TimerPtr and frecfilep408/TimerPtr496/framecnt500 are now included in complete864-byte native DATA proof. BSS frameval73568/recbuf73824 remain consumer-constrained observations; palette order and full BSS ownership are unverified.",
+    "Restored ordinary-C gameexit remains unverified: the compiler-resolved intra-TU ShutDown displacement differs because whole CODE layout is incomplete. It is excluded from FUNCTIONS and never rewritten or normalized. Round2 raw attribution corrects the provisional typemode label: target23584..25776 is displayrest with inline typing. Its genuine source restoration and weapon_amounts now pass full intervals, without negative later CODE bases.",
+    "Restore weapon_amounts1920/63 at13664 using the earlier ordinary statusbar/ammo C without the later GROW alternate path. Every prior45 native interval/prefix/common binding remains strict.",
+    "Restore displayinventory1008/38 at15824 with player-row y160/156/152/180 and mini xoff+56; restore displayfragbar608/53 at16832 with palette9+(i&7). Accepted coolgaugetext calls independently constrain both target public starts. The full frag public includes112 bytes/28 native switch-table fixups for the following ordinary gauge switches plus native alignment, with no table payload copied to source.",
+    "Restore displayrest2192/177 at23584 with inline direct received_quote/time160 broadcast semantics, strget y141/171, unconditional menus call, MODE_TYPE-only clearing and earlier monitor walock[MAXTILES-3]. Remove later typemode/moveclouds helpers and cloud callback/camera-reset branches from this interval. Use ordinary short ch=0,hitstate; the ch initializer is overwritten before use and emits no extra instructions, but selects the exact native allocator result. This follows the user allowance for dead stores/unused source. Full bytes/fixups match with the original angle expression; no verifier normalization or filler.",
+    "Restore complete native DATA864 at object3:29560..30424: NUMCHEATCODES25 instead of a later26th empty row, RESERVED cheat row5 instead of time, and later trees/sixteen extern-only. These logical source corrections remove14+51 excess bytes. The end is independently constrained by complete GAMEDEF DATA starting30424.",
+    "Model only three proven noninstruction DATA alignment gaps with explicitly inferred static unsigned-char initializers under the user/controller padding authorization: serial9..12, copyright493..496 after its real NUL, and inputloc506..508. Their8 generated bytes include six nonzero residues; each lies between identified object extents at native alignment, has no source/target fixup reference and remains OMF-local/excluded from exported anchors. All864 bytes and all target fixup obligations pass unchanged verify_module; ordinary zero alignment407 remains native. Other CONST/BSS and whole module are not included.",
+    "Restore displayrooms2752/131 at27840 from raw target: the screencapt/MODE_MENU/current_menu-div100 guard is active without the later commented 1000..2999 clause; capture uses MAXTILES-3; mirror drawrooms uses mirrorsector[i] directly without the later MAXSECTORS addition. All ordinary C conditionals, interpolation, tilting and mirror logic remain; these three genuine behavior corrections naturally give the complete native bytes/fixups including alignment and common CODE placement16. No local initialization/steering experiment is promoted.",
+    "Restore vglass240/9 at81472: EGS receives z directly instead of the later z-(TRAND&8191), leaving exactly three krand calls. Native interval, callees, globals and complete tail pass with every prior49 interval/prefix448/DATA864 unchanged. Later CODE remains interval-local and the next whole gate fails at printstr63888 versus60416.",
+    "Restore full cheats3664bytes/all315fixups at54624 from pinned ancestor and raw target:25case selector, separate ammo and gotweapon loops in cases21/1, no later GROW ammo slot initialization or friendly-fire byte,10-byte network message, maximum volume2, and endgame state5. All complete prior51 intervals/prefix448/DATA864 remain unchanged. Native source mutation controls reject representative wrong constants, field role, buffer layout, message width, stores and player mode.",
+    "Native clip cheat table54520 index20 targets55501 and toggles user offset8 at object3:579676, then draws FTA112+value. Keep the existing byte8 header spelling over_shoulder_on in the owned consumer with an explicit role comment while the controller performs a shared identity-preserving rename. Byte5 role remains unproved; no over-shoulder role is inferred there. Existing PLAYER collision/no-clip consumers also use this byte8 spelling.",
+    "Retain the partial source candidate cheatbuf[11] at77728 and cheatbuflen77739 under common BSSbase73568; the11-byte address difference does not prove original native11-byte allocation. Round13 complete domovethings adds extern-only everyothertime77738, overlapping candidate buffer byte10. GAME-defined candidate playerswhenstarted77740, restorepalette77741 and screencapt77742 stay fixed. Whole BSS allocation, native ownership and disjointness remain unproved. The later nomorelogohack declaration is now unused by restored main/Logo, with no active consumer or storage claim. No unique historical buffer declaration is claimed.",
+    "Retain raw-target-informed but unproved spawn/animatesprites candidate edits: omit later default actor fallback/tile groups and effector18/23/28/subway sound setup; earlier capture/laser/blood/ooze/bomb/statue/pickup/FIRE behavior, including measured FIRE setsprite y-valued z argument; inferred frame tile3999/shuttle487 aliases; earlier render lockout groups, WOODENHORSE animation, no GROW weapon/spark, earlier rotation3/4 arithmetic and frame-effect tile. Whole native publics/table tails do not pass and receive no credit. No experimental dead initializers, self-assignments, empty-condition steering or branch casts are promoted; ordinary ancestral RECON duplicate branches remain pending exact recovery.",
+    "Normalize imported ancestral cheat trailing whitespace only; fresh unchanged native replay preserves all52 complete intervals/prefix/DATA.",
+    "Restore additional raw-target-supported spawn semantics: ACTIVATOR OR32768 and locked-sector XOR16384 using sect; BLOODPOOL without later pal6 exclusion; BLIMP3400 clipdist255 comparison; randomized WATERBUBBLE repeats1..8; nonzero actor palette doubles health, common nonboss clipdist80 and SHARK repeats24; omit later ROTATEGUN zvel reset; pickup cstat OR(TRAND&12) after palette reset. No shell-height store is removed. These genuine corrections produce the target spawn extent16208, but spawn still fails strict full-function binding and remains uncredited. The complete interval includes the following animation switch table and native alignment; correct extent alone is not recovery.",
+    "Promote complete animatesprites6880/all239fixups at47744 with common CODE base16 after the spawn source corrections naturally restore preceding native extent. The round4 ordinary animation C now passes unchanged, including all native instructions, the following cheats-generated 25-entry100-byte switch table at54520 and final alignment. No table bytes are copied to source, no ranges are trimmed or masked, and code_data_ranges still marks only the leading440-byte initializer data. New raw table-entry and compiled source mutation controls reject wrong tile, divisor/modulus, shading, inferred frame tile and cheat selector changes. All prior52 intervals/prefix448/DATA864 remain strict; the full candidate gate still fails printstr63888 versus62704.",
+    "Restore complete nonsharedkeys4096/all426fixups at58288 from raw target: coop view accepts nonzero recstat, music cycle33, shift-message directly uses received_quote with180 ticks, no later SoundToggle/MusicDevice gates, active single-player F2/F3 wrapper without movesperpacket guards, F3 setview, capture MAXTILES-3, earlier F6/F9 multiplayer gates, unconditional F6 cmenu350 followed by cmenu360+slot instead of current_menu/probey stores, and F2 screenpeek outside the recstat guard. Full native bytes/fixups/14-byte alignment pass unchanged helpers with canonical common fields and all prior53 intervals/prefix448/DATA864 unchanged. New compiled mutations reject representative wrong branches/constants/fields/calls/capture slots and recording-guard placement. CONTROL button-state consumers2132660/2132664 and own nonsharedtimer77704 are consumer constraints only; no producer visibility/BSS allocation proof is added. No spawn initializer-order experiment is promoted; spawn/wallswitch remain unproved. Raw next comlinehelp62384/command parser table62584..62816/checkcommandline62816..63888 attribution explains the remaining unproved printstr placement gap, without crediting omitted bodies or table bytes. Remove the obsolete unreferenced FAKE_F2 label after deleting its later jump path; fresh native replay must retain every accepted byte/fixup without suppressing warnings.",
+    "Restore full comlinehelp432/all96fixups at62384: earlier printf and18 puts strings, followed by the complete58-entry232-byte native table generated for checkcommandline. Every native byte/fixup including RET/NOP and table passes unchanged strict helpers. Identified literal text is checked separately without crediting full CONST. All prior54/prefix448/DATA864 invariants remain; no table payload, trim, mask or verifier exception.",
+    "Restore raw-supported but unproved ordinary ancestral checkcommandline1072/all95fixups at62816: earlier initialization without later default skill2; help/errors exit0; group argument copies groupfilename; remove default-routed a/u/w/z/numeric cases and later packet timeout/respawn/weapon-order/level guards; coop digits0..2; q modulo16 without later respawn/marker stores; l forces skill1; v uses (atol&3)-1; s has no later skill4 respawn override; older messages and literal /j version1.3D. Move d/D before t/T in native body order. The raw d/D selector at63434 writes1 to user byte5 via existing provisional clipping member, with explicit logical-role uncertainty; no byte5 role or header swap is inferred. Whole unmasked parser still differs at offsets74/85 only, where native intra-TU branches reach the unchanged spawn epilogue one byte earlier. It remains absent from FUNCTIONS and receives no source byte/fixup credit.",
+    "Restore raw-informed but unproved Logo ordinary C to1072 extent so accepted later helpers keep legal placement: no later ready2send reset, nomorelogohack guard, pre-animation/loop getpackets, packet-pumping publisher wait, PLUTOPAK flyby or large multiplayer splash/wait block; use playmusic, busy publisher wait, and native numplayers>1 palto/menutext WAITING FOR PLAYERS... tail. All extent changes follow raw calls/branches. Logo still fails fixed canonical BSS because five palette arrays have wrong producer order; no palette aliases, aggregate, filler, allocation claim or public rename is introduced. Failed ordinary palette declaration-order probe was reverted. Existing nomorelogohack main setter remains extern-only/unproved. Whole-interval negatives retain both unproved bodies; complete module gate now fails sendscore65584 vs65568.",
+    "Restore raw-target getnames192/all20fixups at65632 from the ancestral uppercase name-copy/broadcast body: packet type6/version103 stores precede the loop; terminate name, length+3, Searching for other players., waitforeverybody, one connected-player name send and getpackets. Omit later weapon-choice/aim/125/copyprotect branches. This is a consumer proof, not ownership of myname/buf/user_name storage.",
+    "Restore previously compiled unverified compilecons112/all16fixups at65168: canonical GAMEDEF label574928 receives hittype120728, labelcode574900 receives sector1597120 and mymembuf579480 receives sprite1104832. Restore the earlier Compiling confile in archive printf with confilename/groupfilename. These ordinary source pointer/value and real message corrections fix the genuine16-byte placement deficit without aliases or a verifier change.",
+    "Restore previously compiled unverified Startup304/all42fixups at65280: no later Hold Esc prompt or playerreadyflag clearing loop; networkmode255 becomes1 only for numplayers>1 and<=4, otherwise0. The initial mathematically equivalent <5 spelling emitted cmp5/JGE and was corrected to raw cmp4/JG from instruction evidence. Full Startup bytes/fields/callees/alignment pass; unused ancestral i is retained, not a new steering declaration.",
+    "Reclassify gametextpal/minitextshade as excluded later helper candidates rather than required native omissions. Proven complete neighbors gametext576..848/gametextpart848..1168 and minitext1168..1312/gamenumber1312..1360 are adjacent. Active GAME native external/public inventory has neither later helper; the remaining minitextshade ORDER call is VOLUMEONE-excluded. No absent helper earns byte coverage or global uniqueness/historical-source proof.",
+    "Private opendemowrite draft has native336 geometry from PREMAP-anchored target67600, but was not promoted: the current later source before it places the public past its target, and strict negative CODE placement is retained. Later writestring/testcd/copyprotect and main source require genuine target recovery; none is omitted merely to fit this checkpoint. Closed spawn/wallswitch/parser/Logo blockers remain source-unchanged.",
+    "Restore main1488/all192fixups at65824 from actual call/branch/literal roles and ancestor C: no later copyprotect/sixteen/trees/copyright banner, direct X24 version1.3D header, heap2800000, one newline, inline13 TEN puts/getch, selected archive open/error-return/Using output, older UART wait without music-device/packet pump, fatal VESA sprintf+gameexit, restart sound clears, earlier warp/newgame paths, discarded moveloop return and demo-mode check before displayrest. No autorun/save-game/nomorelogo paths are retained; all58 prior proofs remain exact.",
+    "Restore opendemoread288/all39fixups and opendemowrite336/all37fixups at67312/67600. Both use count4 then volume/level/skill/coop bytes, multiplayer/monsters shorts and three respawn longs, with no version/friendly-fire/AI/name/autorun/map/aim-mode records. Reader keeps mutable demo selector and newgame; no later firstdemofile path or state reset block. Writer retains ordinary dummy count and FILE open guard-1. Full intervals including every alignment byte pass unchanged helpers.",
+    "Preserve raw writer kclose argument from existing FILE-storage frecfilep29968 via explicit32-bit pointer-to-long conversion, rather than ancestral integer recfilep77708. Complete ENGINE independently binds kclose420443; complete GAME DATA864 pins frecfilep and its initial-1 value; raw writer LE fixup67628 names29968, while the complete reader stores77708. This preserves observed cross-API behavior without correcting it, claiming unique historical type/intent, changing headers or aliasing fields.",
+    "Use existing inferred module-local extern char wait_abort for native main byte587556, independently constrained by complete PREMAP waitforeverybody250512/416 via source offsets9570/9674/9908. Pin actual PREMAP module report/hash and fixed consumer binding in this module probe. Main CMP is byte-wide. PREMAP owns only local BSS587552..587556; this external byte at587556 lies outside that range. No GAME/PREMAP allocation, zero-fill, neighbor-padding or producer/export credit is added.",
+    "Exclude later writestring/testcd/copyprotect bodies because complete getnames ends65824 where actual main starts, and native main has no CD/debug calls; they have no interval at their ancestral positions. This is supported native body/call geometry, not an omission to fit a negative base. They join the two excluded later text helpers without coverage. Only adduserquote/fakedomovethings remain in the conservative omitted-ancestor inventory.",
+    "Correction to round11 narrative: getnames->getpackets is an OMF named external fixup, not a CODE-segment-relative fixup; it does not itself force a common whole-module CODE base. The first draft was blocked by actual shifted/negative CONST placement. Final round11 and round12 strict proofs are unchanged. Closed spawn/wallswitch/parser/Logo hypotheses are not repeated; all complete negative intervals remain required.",
+    "Round13 restores the actual record272/15 and closedemowrite160/17; close always seeks/updates the count header and recording flags under recstat1, with only dfwrite guarded by positive pending count.",
+    "Round13 restores playback1088/91, moveloop160/17, fakecorrect448/36 and domovethings1008/104 from actual call/branch/field roles. Playback uses the earlier menu/packet/close behavior; movement results are discarded, preserving native shared epilogues. Two exact W107 missing-return diagnostics for retained ancestral char declarations are explicitly audited; every other diagnostic rejects and historical return types remain unproved.",
+    "Round13 restores complete doorders640/56 with empty native key waits and both following-bonus switch tables (6+4 DWORDs), retaining all padding. Later adduserquote is excluded because adjacent complete early functions leave no helper slot and complete domovethings stores received_quote/160 directly.",
+    "Round13 emits an unproved ordinary ancestral prediction candidate with real canonical fields, physical ud byte8 clipping and existing provisional player byte1332 aiming state. Native-supported release-jump cancellation and ceiling velocity reset differences are restored, but source4016 versus native4032/frame64 versus72 still rejects. No filler, new struct/alias or source interval credit follows.",
+    "Round13 restores ordinary bonus C from three-episode native branches, empty waits, end-team animation, draw coordinates, fades, music order and gfx low-bit expression. Its native5216 extent alone earns no credit: shared CODE-prefix and palette bindings fail. Fixed current header/palette ownership is preserved, including the proven byte8 versus unknown byte5 distinction.",
+    "Round13 corrects conservative gameexit exclusion: unchanged C passes complete224/24 in both frozen61 and current objects. GA resolved the E8 at relative126 directly to source ShutDown65104; no typed OMF fixup exists at this call. Identical native displacement reaches65120 under the interval actual CODEbase16; it is verified as raw bytes and does not independently force a placement.",
+    "Task62: restore only prediction gravity gc+80 to literal256 and both corresponding enemy-contact shifts4 to6, from actual target instructions. Full ordinary C prediction now matches4032 bytes/all289 typed fixups, including15 compiler-alignment bytes. No shared declarations, runtime calls, ABI, storage or compiler options changed. The actual72-byte frame follows these semantic corrections; no unused-local or allocation steering.",
+    "Restore the native loadtmb archive-scope argument from literal0 to the existing loadfromgrouponly byte, independently constrained at object3:582928. This is the sole C change. Register its full80 bytes/7fixups and all five unchanged16/16/16/16/14-byte joystick callback intervals/10fixups, all bound independently by Startup/main. Full prior70 dictionaries/prefix448/DATA864 remain unchanged. No complete GAME/CONST/BSS/link credit.",
+    "Normal compound465 uses exact reviewed456/460 C plus six real public BSS objects in the attached source-only ASM. Restore published cheatbuf[10], keep everyothertime as a genuine separate byte, and make five former C tail allocations external. No code/constant/body/header variant. Source private frameval/dmval remain C-owned; prefix4160 zero-fill/range and tail15 role proof are distinct. Seven prefix historical role addresses and five principal bodies remain unproved. Live tracked header/tool/emulator/Python closure replaces the research snapshot; no complete GAME/EXE credit or root context-policy migration."
+  ],
+  "proved_intervals": [
+    "timerhandler_",
+    "inittimer_",
+    "uninittimer_",
+    "gametext_",
+    "gametextpart_",
+    "minitext_",
+    "gamenumber_",
+    "allowtimetocorrecterrorswhenquitting_",
+    "getpackets_",
+    "faketimerhandler_",
+    "checksync_",
+    "check_fta_sounds_",
+    "inventory_",
+    "badguy_",
+    "badguypic_",
+    "myos_",
+    "myospal_",
+    "invennum_",
+    "weaponnum_",
+    "weaponnum999_",
+    "weapon_amounts_",
+    "digitalnumber_",
+    "displayinventory_",
+    "displayfragbar_",
+    "coolgaugetext_",
+    "tics_",
+    "caches_",
+    "coords_",
+    "operatefta_",
+    "FTA_",
+    "showtwoscreens_",
+    "binscreen_",
+    "gameexit_",
+    "strget_",
+    "displayrest_",
+    "updatesectorz_",
+    "view_",
+    "drawbackground_",
+    "displayrooms_",
+    "LocateTheLocator_",
+    "EGS_",
+    "animatesprites_",
+    "cheats_",
+    "nonsharedkeys_",
+    "comlinehelp_",
+    "printstr_",
+    "Logo_",
+    "ShutDown_",
+    "compilecons_",
+    "Startup_",
+    "sendscore_",
+    "getnames_",
+    "main_",
+    "opendemoread_",
+    "opendemowrite_",
+    "record_",
+    "closedemowrite_",
+    "playback_",
+    "moveloop_",
+    "fakedomovethingscorrect_",
+    "fakedomovethings_",
+    "domovethings_",
+    "doorders_",
+    "dobonus_",
+    "cameratext_",
+    "vglass_",
+    "lotsofglass_",
+    "spriteglass_",
+    "ceilingglass_",
+    "lotsofcolourglass_",
+    "SetupGameButtons_",
+    "GetTime_",
+    "loadtmb_",
+    "CenterCenter_",
+    "UpperLeft_",
+    "LowerRight_",
+    "CenterThrottle_",
+    "CenterRudder_"
+  ],
+  "omitted_code_bodies": [],
+  "evidence": "evidence/game-progress.json",
+  "scope": "78 complete public intervals/66094 CODE bytes/4314 typed fixups plus unchanged448-byte prefix and864-byte DATA. All prior76 full dictionaries and every native CODE/CONST/DATA byte are preserved. GAME-only redundant endingpal extern removal restores real public palette allocation; Logo/bonus now pass full owned-segment gates at common base73568. Only wallswitchcheck, spawn and checkcommandline remain unverified. CONST residue, tempwallptr/dmval target names, whole module/layout/link/binder/EXE and humanization remain incomplete.",
+  "compiler_identity_note": "GA is the canonical replay profile, not proof of unique original compiler/linker identity.",
+  "selector_note": "DN3D13G and LIBVER_BUILDREV are reconstruction selectors, not independent original build-date evidence.",
+  "new_complete_contributions": 0,
+  "full_executable_rebuilt": false,
+  "released_source_sha256": "9a900f7bb4bbea4cfb18633c280c93d87511b26e7b924a4e4a23b60e99c19dbe",
+  "license_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "consumer_reference_roles": {
+    "_lockptr": {
+      "target": [
+        3,
+        1665920
+      ],
+      "role": "caches consumer reference only",
+      "scope_link_model_verified": false
+    },
+    "_cacleng": {
+      "target": [
+        3,
+        1682304
+      ],
+      "role": "caches consumer reference only",
+      "scope_link_model_verified": false
+    }
+  },
+  "seed_provenance": {
+    "producer": "controller private build/game-round5/early-layout-no-weapon",
+    "handoff_source_sha256": "695b3da4dc3db48199d0cee914cdb7af9841fa0c1db0b7fe3c0a13ec96c91f69",
+    "handoff_common45_sha256": "807bdde44488ee56737fcfd28795064eb88094e6d57589e9b4d2a01847ddc231",
+    "promotion_delta": "Correct stale omitted-caches comment only; source remains ordinary C."
+  },
+  "consumer_reference_corroboration": {
+    "evidence": "evidence/cache1d-module.json",
+    "evidence_sha256": "08287a5d3f243859e5c4904d0f2aa132b2994c9cb6e5ccef8f10c3f87ce6523d",
+    "source": "src/cache/cache1d.c",
+    "source_sha256": "b3b0c1f7ef316822aac7210311c511abff51da33ae61e5130f5057e7e93f6778",
+    "scope": "Complete native CACHE1D exports include cacnum/lockptr/cacleng at their measured physical addresses; independently compiled consumers link with original WLINK. All remaining local symbols stay excluded. The 72-object source-only link resolves cacnum but still lacks other definitions; whole GAME linking and executable identity remain unverified."
+  },
+  "storage_layout_observations": {
+    "common_data_target": [
+      3,
+      29560
+    ],
+    "frecfilep_relative_offset": 408,
+    "TimerPtr_relative_offset": 496,
+    "framecnt_relative_offset": 500,
+    "frameval_target": [
+      3,
+      73568
+    ],
+    "recbuf_target": [
+      3,
+      73824
+    ],
+    "previous_receiver_bss_segment_base": [
+      3,
+      73240
+    ],
+    "current_receiver_bss_segment_base": [
+      3,
+      73568
+    ],
+    "note": "Complete864-byte native DATA contents/allocation projection now passes. Whole-module allocation ownership remains false: BSS frameval/recbuf references and current segment origin remain observations; palette order/full BSS ownership are open.",
+    "data_segment_verified": true,
+    "bss_ownership_verified": false,
+    "whole_module_allocation_ownership_verified": false,
+    "cheatbuf_target": [
+      3,
+      77728
+    ],
+    "cheatbuf_source_size": 11,
+    "cheatbuflen_target": [
+      3,
+      77739
+    ],
+    "nomorelogohack_storage_owned": false,
+    "round13_consumer_overlap": {
+      "external_symbol": "_everyothertime",
+      "target_object": 3,
+      "target_offset": 77738,
+      "complete_consumer": "domovethings_",
+      "candidate_cheatbuf_range_exclusive": [
+        77728,
+        77739
+      ],
+      "relative_byte": 10,
+      "neighbor_cheatbuflen": 77739,
+      "neighbor_playerswhenstarted": 77740,
+      "allocation_disjointness_proved": false,
+      "source_alias_introduced": false,
+      "scope": "The full native consumer fixes the byte address. The existing source cheatbuf11 extent and whole BSS allocation remain a partial candidate; no original buffer/global producer ownership or disjointness is inferred.",
+      "read_write_width": 1,
+      "source_GAME_definitions": {
+        "_cheatbuf": {
+          "segment": 5,
+          "offset": 4160,
+          "candidate_size": 11
+        },
+        "_cheatbuflen": {
+          "segment": 5,
+          "offset": 4171,
+          "candidate_size": 1
+        },
+        "_playerswhenstarted": {
+          "segment": 5,
+          "offset": 4172,
+          "candidate_size": 1
+        },
+        "_restorepalette": {
+          "segment": 5,
+          "offset": 4173,
+          "candidate_size": 1
+        },
+        "_screencapt": {
+          "segment": 5,
+          "offset": 4174,
+          "candidate_size": 1
+        }
+      },
+      "source_import_only": {
+        "symbol": "_everyothertime",
+        "declaration": "extern char",
+        "OMF_public": false,
+        "observed_byte_width": 1
+      },
+      "future_uncompiled_owner_hypothesis": "Only after this freeze, consider actual cheatbuf10 + real everyothertime byte + cheatbuflen, requiring independent PREMAP/native-width corroboration, coherent source-public BSS geometry/ownership and all CODE proofs. Do not alias the counter into a fake array, force emission order/name or infer palette placement.",
+      "retained_source_comment_scope": "The retained passing source comment/declaration describes the partial candidate address difference; any reading as proof of original11-byte allocation is superseded by this explicit correction. ROOT requested no further C/test mutation after final69 PASS."
+    }
+  },
+  "initialized_data_projection": {
+    "evidence": "evidence/game-progress.json",
+    "field": "initialized_data_projection",
+    "target_object": 3,
+    "target_offset": 29560,
+    "initialized_bytes": 864,
+    "verified_fixups": 0,
+    "zero_fill_bytes": 0,
+    "other_initialized_storage_verified": false,
+    "scope": "Complete native _DATA only; CONST/BSS/whole GAME remain unverified."
+  },
+  "inferred_data_alignment": [
+    {
+      "symbol": "_inferred_serial_alignment",
+      "offset": 9,
+      "size": 3,
+      "initializer": [
+        "-",
+        7,
+        0
+      ],
+      "left": "eightytwofifty8/size1",
+      "right": "CommandSoundToggleOff12"
+    },
+    {
+      "symbol": "_inferred_copyright_alignment",
+      "offset": 493,
+      "size": 3,
+      "initializer": [
+        "h",
+        10,
+        3
+      ],
+      "left": "todd412/size81 including NUL",
+      "right": "TimerPtr496"
+    },
+    {
+      "symbol": "_inferred_inputloc_alignment",
+      "offset": 506,
+      "size": 2,
+      "initializer": [
+        0,
+        "`"
+      ],
+      "left": "inputloc504/size2",
+      "right": "oyrepeat508"
+    }
+  ],
+  "round2_provenance": {
+    "base": "fcbec99eac16a54088ad966c00a4a8097e95581d",
+    "private_candidate_sha256": "7356ff56a59289682b8ab140ecf8b0d389b2043459d267aa0f1a7804ae66cef5",
+    "header_roles": "Controller corrected clipping5/show_help6/scrollmode7 and verified unchanged complete contributor bytes/fixups; worker changes no shared header.",
+    "remaining_link_note": "CACHE1D exports now permit an independent native consumer link; whole GAME linkage and later unresolved typemode references remain open."
+  },
+  "round3_provenance": {
+    "base": "b0e0bad5a492a674741e0f8c939330820cc3c3c2",
+    "private_candidate_sha256": "0d6a73416ca63c7c47451790ab77b05eede6c8b3bf3892ecfb98d72a63181627",
+    "private_proof": "build/task12-round3/combined51/proof.json",
+    "recovery_note": "Logical source expressions are inferred from native behavior and pinned ancestor, not proof of historical spelling. No compiler steering, new storage, header change, raw code payload or verifier modification."
+  },
+  "round4_provenance": {
+    "base": "f30be5f57c233346fcd4a037ceed6dc8f6329073",
+    "private_candidate_sha256": "ede398d994680cbc0c5d47fd8ba328220ed74ea6af1dce5381ca10c53cd33448",
+    "private_proof": "build/task12-round4/canonical52-clean/combined-proof.json",
+    "new_proved_public": {
+      "symbol": "cheats_",
+      "target_offset": 54624,
+      "size": 3664,
+      "fixups": 315
+    },
+    "siblings_unverified": [
+      "spawn_",
+      "wallswitchcheck_",
+      "animatesprites_"
+    ],
+    "header_role_note": "Complete cheats proves user byte8 clipping; shared names remain frozen for controller correction, byte5 unproved.",
+    "bss_note": "The source buffer11/length candidate matches code-consumer addresses at common base73568, not native11-byte allocation. Round13 explicitly records extern-only everyothertime77738 overlapping candidate buffer byte10. Whole BSS remains uncredited; later nomorelogohack is now inactive, with no producer/link claim."
+  },
+  "excluded_later_code_bodies": [
+    "gametextpal",
+    "minitextshade",
+    "writestring",
+    "testcd",
+    "copyprotect",
+    "adduserquote"
+  ],
+  "additional_ancestral_source": {
+    "path": "reference/duke3d-reconstructions/MENUES.C",
+    "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+    "sha256": "1dfa05b4c4a19ff7c13eb613f3f8c19e835dff7abbe9cea72d5f81b30cb12b48",
+    "scope": "Ordinary inline TEN paragraphs in earlier main, under the existing GPL notices; later TENtext BIOS timer/key loop is replaced by measured earlier getch call."
+  },
+  "round13_provenance": {
+    "base": "df72fba0e38ce7c7361320efeb72a2d644210afc",
+    "raw_research_report": "task-12-round13-research.md",
+    "raw_research_sha256": "379b8decf5667bc3e854fbf0769bfbef1a397265b04eaaf7a2aed7b61db2a0af",
+    "private_complete_proof": "build/task12-round13/candidate10/combined-proof.json",
+    "new_complete_intervals": 8,
+    "new_complete_bytes": 4000,
+    "new_typed_fixups": 360,
+    "compiler_diagnostics": {
+      "accepted_warning_functions": [
+        "moveloop",
+        "domovethings"
+      ],
+      "warning_count": 2,
+      "error_count": 0,
+      "log_sha256": "93e10d7282d848d87f25c283fafa2d3fe68c18001b781771ded4674f6d6ce94d",
+      "historical_return_types_proved": false,
+      "policy": "Only exact W107 missing-return diagnostics for moveloop/domovethings; every native caller discards the result. Canonical void/type humanization remains unproved."
+    },
+    "physical_player_byte1332": {
+      "temporary_field": "level_reset_flag",
+      "observed_role": "earlier aiming state",
+      "fake_native_cmp_instructions": [
+        70514,
+        73747
+      ],
+      "accepted_PLAYER_evidence": "evidence/player-module.json",
+      "accepted_PLAYER_evidence_sha256": "35067989150f75ee24dc59ff3f2debd2981cb65710b8e799bd252a5ef3e809df",
+      "accepted_PLAYER_processinput_target": 227168,
+      "accepted_PLAYER_source_consumers": [
+        2868,
+        4038
+      ],
+      "historical_field_name_proved": false,
+      "accepted_PLAYER_native_read_instructions": [
+        227612,
+        236341
+      ]
+    },
+    "unproved_prediction": {
+      "native_offset": 70064,
+      "native_size": 4032,
+      "source_size": 4016,
+      "native_RET_relative": 4016,
+      "source_RET_relative": 4015,
+      "native_stack_bytes": 72,
+      "source_stack_bytes": 64
+    },
+    "unproved_bonus": {
+      "native_offset": 75744,
+      "native_size": 5216,
+      "source_size": 5216,
+      "fixed_BSS_base": 73568,
+      "source_endingpal_relative": 2600,
+      "actual_native_endingpal_operand": 73864,
+      "whole_interval_proved": false
+    },
+    "unregistered_gameexit_correction": {
+      "native_offset": 22896,
+      "whole_size": 224,
+      "typed_fixups": 24,
+      "frozen61_also_matches": true,
+      "source_body_changed": false,
+      "source_call_offset": 23006,
+      "call_relative_offset": 126,
+      "raw_call_hex": "e86da40000",
+      "OMF_fixup_at_call": false,
+      "source_ShutDown": 65104,
+      "native_call_offset": 23022,
+      "native_ShutDown": 65120,
+      "interval_CODE_base": 16,
+      "call_independently_forces_CODE_base": false
+    },
+    "registered_complete_proof": "build/task12-round13/production69"
+  },
+  "task62_provenance": {
+    "base": "190ac8494197bfbaa76d706a8262995d161675dd",
+    "baseline_own_C_ASM_certificate": "build/task12-symbolic62/roundtrip-certificate.json",
+    "baseline_own_C_ASM_scope": "Own frozen C4016 bytes/all291 canonical semantic fixups roundtrip only; unanchored gc uses source-producer fixture coordinate, never target ownership. No target opcode stream was emitted as ASM. Mnemonic stack-name humanization was not completed because actual source-version behavior corrections made full C exact.",
+    "gravity_only_private_proof": "build/task12-symbolic62/gravity-correction/proof.json",
+    "gravity_only_result": "4032 bytes/289 fixups/frame72; negative at only contact shift immediates1056/1059.",
+    "coherent_private_proof": "build/task12-symbolic62/contact-correction/proof.json",
+    "new_complete_public": {
+      "symbol": "fakedomovethings_",
+      "target_offset": 70064,
+      "size": 4032,
+      "fixups": 289,
+      "ret_relative_offset": 4016,
+      "alignment_bytes": 15
+    },
+    "native_gravity_instructions": [
+      72141,
+      72146,
+      72151
+    ],
+    "native_contact_shift_immediates": [
+      71120,
+      71123
+    ],
+    "GLOBAL_gc_historical_role_proved": false,
+    "source_BSS_allocation_proved": false,
+    "ASM_companion_required": false,
+    "unverified_code_publics": [
+      "CenterCenter_",
+      "CenterRudder_",
+      "CenterThrottle_",
+      "Logo_",
+      "LowerRight_",
+      "UpperLeft_",
+      "checkcommandline_",
+      "dobonus_",
+      "loadtmb_",
+      "spawn_",
+      "wallswitchcheck_"
+    ],
+    "scope": "Independent review required before accepted credit. This is a bounded ordinary C checkpoint, not whole GAME/EXE identity."
+  },
+  "abort_owner_corroboration": {
+    "evidence": "evidence/premap-module.json",
+    "evidence_sha256": "01babf7ebc97572e867b8fd84faf84917332e9ec6cee62bfc459b2d5233bfadc",
+    "source": "src/game/premap.c",
+    "source_sha256": "feb002b3b41343b8b45fd0ab0fb4d58d27e10e251df792c6036c3c98e5fc52be",
+    "symbol": "_wait_abort",
+    "target": [
+      3,
+      587556
+    ],
+    "native_BSS_range_exclusive": [
+      587552,
+      587557
+    ],
+    "scope": "Real global char owned by PREMAP; complete ordinary native inference/verification proves the five-byte BSS block. GAME remains a byte consumer and receives no BSS ownership credit."
+  },
+  "task312_provenance": {
+    "prior_checkpoint": "daddf92",
+    "prior_source_sha256": "dbdc16c99190c3daf6b02e8e872c18615b7ce92142b009e993276dacadec9209",
+    "source_sha256": "a3dd14d4918cfd7b2d4112af2d0bc8bcd61cb16c0412b93d1859536e3ae892ca",
+    "sole_C_delta": "kopen4load(\"d3dtimbr.tmb\",0) -> kopen4load(\"d3dtimbr.tmb\",loadfromgrouponly)",
+    "flag_binding": [
+      3,
+      582928
+    ],
+    "independent_callers": {
+      "loadtmb_": "Startup_",
+      "joystick_callbacks": "main_"
+    },
+    "new_complete_intervals": [
+      {
+        "symbol": "loadtmb_",
+        "target_offset": 65040,
+        "size": 80,
+        "comparison": {
+          "symbol": "loadtmb_",
+          "target_object": 1,
+          "target_offset": 65040,
+          "compared_bytes": 80,
+          "verified_fixups": 7,
+          "differing_offsets": [],
+          "match": true
+        }
+      },
+      {
+        "symbol": "CenterCenter_",
+        "target_offset": 84080,
+        "size": 16,
+        "comparison": {
+          "symbol": "CenterCenter_",
+          "target_object": 1,
+          "target_offset": 84080,
+          "compared_bytes": 16,
+          "verified_fixups": 2,
+          "differing_offsets": [],
+          "match": true
+        }
+      },
+      {
+        "symbol": "UpperLeft_",
+        "target_offset": 84096,
+        "size": 16,
+        "comparison": {
+          "symbol": "UpperLeft_",
+          "target_object": 1,
+          "target_offset": 84096,
+          "compared_bytes": 16,
+          "verified_fixups": 2,
+          "differing_offsets": [],
+          "match": true
+        }
+      },
+      {
+        "symbol": "LowerRight_",
+        "target_offset": 84112,
+        "size": 16,
+        "comparison": {
+          "symbol": "LowerRight_",
+          "target_object": 1,
+          "target_offset": 84112,
+          "compared_bytes": 16,
+          "verified_fixups": 2,
+          "differing_offsets": [],
+          "match": true
+        }
+      },
+      {
+        "symbol": "CenterThrottle_",
+        "target_offset": 84128,
+        "size": 16,
+        "comparison": {
+          "symbol": "CenterThrottle_",
+          "target_object": 1,
+          "target_offset": 84128,
+          "compared_bytes": 16,
+          "verified_fixups": 2,
+          "differing_offsets": [],
+          "match": true
+        }
+      },
+      {
+        "symbol": "CenterRudder_",
+        "target_offset": 84144,
+        "size": 14,
+        "comparison": {
+          "symbol": "CenterRudder_",
+          "target_object": 1,
+          "target_offset": 84144,
+          "compared_bytes": 14,
+          "verified_fixups": 2,
+          "differing_offsets": [],
+          "match": true
+        }
+      }
+    ],
+    "prior70_entire_function_dictionaries_unchanged": true,
+    "prior_prefix_DATA_and_strict_whole_failure_unchanged": true,
+    "new_complete_module_credit": 0,
+    "humanization": "Ordinary ancestral C; no ASM companion, new state, private symbol or unused code introduced."
+  },
+  "normal_compound_producer": {
+    "producer": "tools/build_game_compound.py",
+    "contract": "evidence/game-compound-source-reference.json",
+    "companion": "src/game/game_tail.asm",
+    "current_C_source": "exact reviewed456/460, no body/constant/instruction changes",
+    "header_authority": "closed live header graph plus tracked GAME-only exact endingpal-declaration overlay; other translation units use unchanged shared header",
+    "private_scope": "all13 C prefix definitions retained; frameval LPUB+LEXT, dmval LPUB-only",
+    "tail_scope": "six real public BSS objects buffer10/counter/length/players/restore/capture, total15; C references extern",
+    "storage_proof_limit": "Cprefix4160 is zero-fill/range at base73568. Nine actual source roles have GAME CODE anchors and all five public palette definitions agree with complete PREMAP/PLAYER consumers. tempwallptr/dmval target names and whole BSS/module layout remain unproved; six real public tail roles have complete15byte proof.",
+    "historical_entries_retained": true,
+    "source_credit": 0,
+    "full_GAME_verified": false,
+    "full_executable_rebuilt": false,
+    "palette_header": "src/game/compound/include/duke3d.h"
+  },
+  "palette_context_recovery": {
+    "source_body_unchanged": true,
+    "shared_header": "src/game/include/duke3d.h",
+    "GAME_only_header": "src/game/compound/include/duke3d.h",
+    "sole_difference": "remove redundant endingpal extern; genuine public768-byte definition remains in game.c",
+    "source_owner_scope_capacity_unchanged": true,
+    "allocation_mechanism": "same size bucket, descending calibrated25symbol page, ascending PJW hash; ending first declaration moves later than otherfour",
+    "historical_source_spelling_claim": false,
+    "actual_palette_BSS_offsets": {
+      "_endingpal": 296,
+      "_titlepal": 1064,
+      "_waterpal": 1832,
+      "_drealms": 2600,
+      "_slimepal": 3368
+    },
+    "independent_public_consumers": [
+      "evidence/premap-module.json",
+      "evidence/player-module.json"
+    ],
+    "new_intervals": {
+      "Logo_": [
+        63968,
+        1072,
+        88
+      ],
+      "dobonus_": [
+        75744,
+        5216,
+        402
+      ]
+    },
+    "source_credit": 0
+  },
+  "task552_approved_GAME_context": {
+    "approved_commit": "16d548ab3672ad5e1a79fc85b89b1aeb9bba64b8",
+    "independent_review": "task-544-game-palette-independent-review.md",
+    "preserved_prior_checkpoint": "ac3486d",
+    "semantic_keys_merged": [
+      "normal_compound_producer",
+      "palette_context_recovery",
+      "proved_intervals",
+      "scope"
+    ],
+    "scope": "Only exact approved GAME header context and added two partial intervals. Current closed pin maps retained then explicitly refreshed for actual changed inputs."
+  },
+  "shutdown_provider_correction611": {
+    "prior_source_sha256": "4cf0eccd150b49a422280db7686e7c441873dec109f948e5ae4e11fa011d689f",
+    "prior_report_sha256": "54a5ff19ac887968248a0a1d3e1f5ace3ecf412e721436429717effea48adc52",
+    "prior_ShutDown48_7_status": "INVALID historical proof: cached names CONTROL_Shutdown569064 and KB_Shutdown577248 are reversed relative to genuine provider exports",
+    "actual_providers": {
+      "KB_Shutdown_": {
+        "target": [
+          1,
+          569064
+        ],
+        "evidence": "evidence/mact_keyboard-module.json",
+        "evidence_sha256": "1c5caec2765f7c8a36929a50df74972a1eb65827faaa409989bcd8f2a5e9b673"
+      },
+      "CONTROL_Shutdown_": {
+        "target": [
+          1,
+          577248
+        ],
+        "evidence": "evidence/mact_control-module.json",
+        "evidence_sha256": "e166afdef658255b36484cc7f12157649bd8005c80ade1d6745cadebffdd0b10"
+      }
+    },
+    "real_C_change": "CONTROL_Shutdown before KB_Shutdown; two actual calls reordered, no alias/ABI/storage change",
+    "target_interval": [
+      65120,
+      48
+    ],
+    "typed_fields": 7,
+    "prior_inference_cannot_prove_callee_names": true,
+    "disputed_CODE_bytes_pending_adoption": 48,
+    "new_CODE_credit": 0
+  }
+}

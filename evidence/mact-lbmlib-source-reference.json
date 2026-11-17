@@ -1,0 +1,125 @@
+{
+  "kind": "Complete authored LBMLIB symbolic source; not historical source or final EXE identity",
+  "lineage": {
+    "repository": "https://github.com/videogamepreservation/dukenukem3d",
+    "commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+    "primary_headers": "Unmodified released extras TYPES.H/LBMLIB.H/_LBMLIB.H/UTIL_LIB.H and full GPL notices; no exact implementation found in bounded490 search",
+    "authored_source": "Exact independently reviewed490/497 ASM and complete ordinary C aid; no original instruction/segment arrays",
+    "related_source_not_copied": "ValveSoftware/halflife utils/common/lbmlib.c uses different file APIs and incomplete planar helpers; body not copied",
+    "C_negative": "One unchanged10.5 /omaxnet /zp4 /5r baseline1787CODE versus1797, only Align8 whole-byte match; retained C-humanization backlog",
+    "native_quirks": "Munge ORs whole plane bytes; Save MotoShort on byte fields/truncation, raw PBM final chunk padding versus Load per-row padding; no modern behavior fix",
+    "original_member": {
+      "offset": 79360,
+      "size": 4004,
+      "sha256": "4986297e3ae2a4b1e2e13222f6355215b975c3244cedd4393426d3948db60c80",
+      "observer_only": true
+    },
+    "scope": "Private bitplanes[9][128] real BSS/2references; all44private11ABS retained, three public-self fields remain actual imports",
+    "reviewed_assembly_sha256": "d27db64a5737e94dd1cb6d222f9d4a89f0408a82d144046facbc0b32add63c11",
+    "tools": "Unchanged accepted import-preserving profile matches reviewed490/497 tools; LBMLIB itself has only four actual referenced providers, no FPU declarations fabricated",
+    "structural_symbol_erratum": "Task490 narrative said three section auxiliaries; actual ELF/COFF has two SECTION symbols(CONST/BSS), plus one FILE auxiliary. All68ELF/67COFF identities were audited in the original receipts; current finite schema uses actual70 COFF records including3aux."
+  },
+  "source_credit": 0,
+  "tracked_sources_sha256": {
+    "src/mact/lbmlib/LBMLIB.S": "d27db64a5737e94dd1cb6d222f9d4a89f0408a82d144046facbc0b32add63c11",
+    "src/mact/lbmlib/lbmlib.c": "57bf022a5c8591fcdd208d57ae62d5e7b71e77faabbc53784a267a20deed309a",
+    "src/mact/lbmlib/include/TYPES.H": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/lbmlib/include/LBMLIB.H": "4cbc7102a326a9c3fe5552fd3e843926db2477b7aeb58787fd4bf5d944dae00f",
+    "src/mact/lbmlib/include/_LBMLIB.H": "22562eab64758c823be2c8a17661d05423daf0115c337373640fefc63b8e2f29",
+    "src/mact/lbmlib/include/UTIL_LIB.H": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "src/mact/lbmlib/contract.py": "8a4141962e2440a8d342e840312b095ec26cd3886e9a9c1a720e28ddadc09bd6"
+  },
+  "notice_files_sha256": {
+    "src/mact/lbmlib/README.md": "4d6ae9c6992504ac724ee31751e9aa69c5525f26fd4b216918eb9f88dc343834",
+    "src/mact/lbmlib/NOTICES.md": "adcb58dfbf2476cbc844806489bfc27c1baddc943369f391f76646f03361d2e3",
+    "src/mact/lbmlib/SEMANTICS.md": "b29964a56daac56dd46ed3465ed3c7933184ba02a4f5678cd03517735a894d28",
+    "src/mact/lbmlib/GPL.TXT": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "profiles/gnu_elf_omf_imports/README.md": "276f1f12748e2388b5d4ed6d2b2d17434b6666bc05ff724b487678724b912927"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_lbmlib.py": "7ff9c992473b89476f713af198a945ac7e8d7beb31cc75b5240a7bf6ebd9a343",
+    "profiles/gnu_elf_omf_imports/identity.py": "506c2b25324b9449585ae48e8989bd69c781ef8adaacf04a0d369cf781b21b80",
+    "profiles/gnu_elf_omf_imports/profile.json": "41e175ed0d63e5ebc360a17505413b9fc7055dec100bab6ef04d775ec1618e77",
+    "profiles/gnu_elf_omf_imports/apply_fork.py": "e35766dc9ad8397bc60dccb250c5f2e17e1efad405ddaf175a3fa5b0fa566cdd",
+    "profiles/gnu_elf_omf_imports/setup.py": "c7319cd912fb1b701af2a32ea98ca62a4a8fa23d928d2f22e3c04d0b9c7572ba",
+    "profiles/gnu_elf_omf_imports/defined-global.patch": "92a8e263b694d39908393742313cea625798721e9dd1bba443d30f4e3993c530",
+    "profiles/gnu_elf_omf_imports/unused-imports.patch": "230379a2bed7525f43b59041a02087d75cafdeb55cb8aeace555742c61ef0906",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  },
+  "descriptor_sha256": "7fb0e0dfd379dc4d96c062290bbc2e035daa0ba1c63ca757a3a6ee9f175dc172",
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "873d33e6814a85ecd4f3cc8f1f89c0aed19f48086bad6b6c3636e6789ff763cc",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

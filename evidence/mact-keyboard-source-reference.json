@@ -1,0 +1,849 @@
+{
+  "kind": "Ordinary readable C reconstruction with preserved ROTT GPL ancestry; not historical MACT source identity",
+  "source": {
+    "path": "src/mact/keyboard.c",
+    "sha256": "d09424b66b9b1687426efe62c20d55d1545e56a40de031566d81deaf46ea72e7"
+  },
+  "headers": {
+    "src/mact/keyboard/keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "src/mact/keyboard/types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc"
+  },
+  "compiler": {
+    "path": "toolchains/watcom-10.0-ga/BINB/wcc386.exe",
+    "sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "options": [
+      "/omaxnet",
+      "/zp4",
+      "/5r"
+    ],
+    "limit": "Measured matching GA profile, not unique historical producer identity"
+  },
+  "primary_archive": {
+    "url": "https://ftpmirror.infania.net/pub/3drealms/source/rottsource.zip",
+    "sha256": "45eafa693c3085c56b6ccd072f5a1fb5ba1986877a21e4506d4741b1bdd44729",
+    "license": "GPL-2.0-or-later; Copyright(C)1994-1995 Apogee Software, Ltd.; full original notice preserved in source"
+  },
+  "primary_ascii": {
+    "path": "build/mact-source-research/rott/rott/ISR.C",
+    "sha256": "ccf3b21864a06a64ffeb629a46d03776861e1ae5d9b89a19602e813f6c1ad65a",
+    "role": "Related ASCIINames/ShiftNames logical character values. Native differences: decimal DEL to period, translated keypad slash/enter at0x67/0x68. No original instruction or packed data initializer copied."
+  },
+  "primary_interfaces": {
+    "reference/duke3d-reconstructions/KEYBOARD.H": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "reference/duke3d-reconstructions/MACT/TYPES.H": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc"
+  },
+  "jfmact_limit": "Modern portable keyboard glue explicitly says original MACT source was unavailable; API corroboration only, no bodies copied",
+  "original_reference": {
+    "library": "reference/duke3d-reconstructions/MACT386.LIB",
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "member": {
+      "offset": 83456,
+      "end": 88128,
+      "size": 4672,
+      "name": "P:\\LIBMACT\\keyboard.c",
+      "sha256": "f8039e940e3dc2288c9b1bff1d526a4fbfa3ad16fdabd965dd606cb3ec66f681",
+      "padding_bytes": 448,
+      "records": [
+        {
+          "offset": 83456,
+          "end": 83482,
+          "size": 26,
+          "kind": 128,
+          "checksum": "valid",
+          "sha256": "e41fe8d0a26686b358b882f1277495014172a640b6203eb7c235f6dca72376e4"
+        },
+        {
+          "offset": 83482,
+          "end": 83493,
+          "size": 11,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "119cc65871fc749c5c06b7953275c57139df8a6f3e386548d18a11caaeb142dc"
+        },
+        {
+          "offset": 83493,
+          "end": 83503,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "c1e1e34a4a49f951b9a5a251dc068c9c0501f71cd0737cb41624d015c58778e2"
+        },
+        {
+          "offset": 83503,
+          "end": 83513,
+          "size": 10,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "d3b53299a627f49156a97f8c4f6c43564b57d5db9ad56ad6966141f6737b25aa"
+        },
+        {
+          "offset": 83513,
+          "end": 83545,
+          "size": 32,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "53b7f682bf732a4ad325e32846db0d171efae9311cb0ba4be85a391e4d25bebb"
+        },
+        {
+          "offset": 83545,
+          "end": 83583,
+          "size": 38,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "b3649cc5d320fe8c59924687d28aea2dbc9b6af9e3f903cee3fda49e8ae2a77b"
+        },
+        {
+          "offset": 83583,
+          "end": 83620,
+          "size": 37,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "8dac4080083da50ddc52938a0c5ce33ea61063de28327093c59d7bfba525b34b"
+        },
+        {
+          "offset": 83620,
+          "end": 83658,
+          "size": 38,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "7dfe3f81edc2bc0ec45523cba4b54bb6e8794a943de9e432aca15454bd6910b1"
+        },
+        {
+          "offset": 83658,
+          "end": 83687,
+          "size": 29,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "0d0a02e8792a0b6209507f5c8db068c2018059bc4a08991a1d96745f95e6eea7"
+        },
+        {
+          "offset": 83687,
+          "end": 83718,
+          "size": 31,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "b6cc89f7b5b6b0918ed575e7cdc017cf7b200eb8c96b3d43d70b01faaab225b3"
+        },
+        {
+          "offset": 83718,
+          "end": 83750,
+          "size": 32,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "add43c61fcb1091cf71f367c0d7bbb6239954b776fb29d9e9409dd798025fc7e"
+        },
+        {
+          "offset": 83750,
+          "end": 83782,
+          "size": 32,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "7f9e2de2fff3ab87fbe58f8d84647d1aa41eadf98c11d0843341dbbd11211ac7"
+        },
+        {
+          "offset": 83782,
+          "end": 83809,
+          "size": 27,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "8ccc4dc38dbfce194166f486ec0eda579d82efb68530a21dccf4ab3d5c65c392"
+        },
+        {
+          "offset": 83809,
+          "end": 83815,
+          "size": 6,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "572cbfee8f3baa293b9a2526403d357b6ae8256679cc077d7be019f095895b6d"
+        },
+        {
+          "offset": 83815,
+          "end": 83852,
+          "size": 37,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "2b15dddcd77ab89a1304fbf9bc498c8f8c3399452ebdd308c58f462c8d3f6eef"
+        },
+        {
+          "offset": 83852,
+          "end": 83864,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "d45abc158ca9504197feb5712a081e69abf95c736a92f36c98259a1ef3bc32ca"
+        },
+        {
+          "offset": 83864,
+          "end": 83872,
+          "size": 8,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "e604dbaeb46cb23cb3ad981efa38dfe04a0825b6dde53f317ea3cc7c1b4d2ac3"
+        },
+        {
+          "offset": 83872,
+          "end": 83882,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "4ce9d62fb7890b4acd1e7fb05f52b35607776ca6198d006c741fda176ec399c6"
+        },
+        {
+          "offset": 83882,
+          "end": 83894,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "c6ab217035227ca017d88f16c3b7745af4c9f7f51e6e91f33d6b084ee896a8ad"
+        },
+        {
+          "offset": 83894,
+          "end": 83905,
+          "size": 11,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "76a06f6ab6f66532cf9f0f0f863c21a87b70a7bd7634ce9b5b49f104081a0b3f"
+        },
+        {
+          "offset": 83905,
+          "end": 83917,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "cb47d4a16b3ef9238b955b23b2a40d452de7d02df893f916552a6512cebcdd97"
+        },
+        {
+          "offset": 83917,
+          "end": 83927,
+          "size": 10,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "bb0a989033e00e58595c4215780b901652958ead8632a93084e718a96e1572e5"
+        },
+        {
+          "offset": 83927,
+          "end": 83939,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "5f8553789cb0f2e12d81a33be1a762bfb38e3e1110d435c23fc14280265f0368"
+        },
+        {
+          "offset": 83939,
+          "end": 83948,
+          "size": 9,
+          "kind": 150,
+          "checksum": "valid",
+          "sha256": "b5659dd9a742dba69336ffa3296104280fbdd97f22b7f02d5e4d2f901dfa92b6"
+        },
+        {
+          "offset": 83948,
+          "end": 83960,
+          "size": 12,
+          "kind": 153,
+          "checksum": "valid",
+          "sha256": "b8220d115f8f94566c78093534e0125aeca147827d3105f479cb9e2e888422a0"
+        },
+        {
+          "offset": 83960,
+          "end": 83973,
+          "size": 13,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "8c2dfe6f504e6b9eb76529e221fa8c74cc34c8264c93de74c20c24e2175855f9"
+        },
+        {
+          "offset": 83973,
+          "end": 83978,
+          "size": 5,
+          "kind": 154,
+          "checksum": "valid",
+          "sha256": "6ceabd38add75bc1bab6121cb117fa577c29421963463adf4153f35eea32bb69"
+        },
+        {
+          "offset": 83978,
+          "end": 84004,
+          "size": 26,
+          "kind": 183,
+          "checksum": "valid",
+          "sha256": "efd0f592fcadfd8a513256a9befd13cad1cf86a09e30007a902a736e4d3b6298"
+        },
+        {
+          "offset": 84004,
+          "end": 84027,
+          "size": 23,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "e79a4219da23ffc0c1b1d0f87f239e084f008bea7f7de1fedb2978ecda41134b"
+        },
+        {
+          "offset": 84027,
+          "end": 84080,
+          "size": 53,
+          "kind": 183,
+          "checksum": "valid",
+          "sha256": "c6cdd26c0d1fa59cfb0154eb167b0843be5c1dd8757f1832ff32979de959f2c4"
+        },
+        {
+          "offset": 84080,
+          "end": 84261,
+          "size": 181,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "93dd0b8ba92b42bf98536add0139684d30106b7108715b0810d5724a037c2821"
+        },
+        {
+          "offset": 84261,
+          "end": 84442,
+          "size": 181,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "1156cd2be2d887af89f592d31c6e5e219d06928dbaaec6437441b8c4991adfb7"
+        },
+        {
+          "offset": 84442,
+          "end": 84551,
+          "size": 109,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "99cfffd7a4f790bb0543e49d065f4ae601c066fa48d462f64f2fc6cc884a95e4"
+        },
+        {
+          "offset": 84551,
+          "end": 84732,
+          "size": 181,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "af1b23e863c13b607a7b7361a4c18b0ada1275f17e6955a016a483d3d4ab3af8"
+        },
+        {
+          "offset": 84732,
+          "end": 84897,
+          "size": 165,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "f85d19259d0f2b505e17366156abc29425896b1efdde29b0b8d6743488331b1f"
+        },
+        {
+          "offset": 84897,
+          "end": 85096,
+          "size": 199,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "72fce2749ca7dda951c07b3d568a7919d1b3ddcedc4163eb1b63cc1430c4efaf"
+        },
+        {
+          "offset": 85096,
+          "end": 85279,
+          "size": 183,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "1a83311afe3a7cd630f7b128bd03f2043f909c3314544ef5ee31bcb8cb19fc60"
+        },
+        {
+          "offset": 85279,
+          "end": 85444,
+          "size": 165,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "c3fad5e27489a55f963e4a06ac22c267c99488b85465419107c11e30c3882dc8"
+        },
+        {
+          "offset": 85444,
+          "end": 85643,
+          "size": 199,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "72fce2749ca7dda951c07b3d568a7919d1b3ddcedc4163eb1b63cc1430c4efaf"
+        },
+        {
+          "offset": 85643,
+          "end": 85828,
+          "size": 185,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "392cf95c4ebad3535cd9a9b35ddbc3c97b669fa9c492ccb187d88c7bb3f36266"
+        },
+        {
+          "offset": 85828,
+          "end": 85859,
+          "size": 31,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "442ec1cc9a9e1abf20b24f1e19dd45d61781f3b9a1c5d92de2373e112a469bc2"
+        },
+        {
+          "offset": 85859,
+          "end": 85940,
+          "size": 81,
+          "kind": 180,
+          "checksum": "valid",
+          "sha256": "cfa9365383ec3e735748e795b68cd21cc52d339dc6ccce6da624779af515ea7f"
+        },
+        {
+          "offset": 85940,
+          "end": 86125,
+          "size": 185,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "2d21972389c339698de3fd702d897dc1dca71b9c52c23093eeb2210d8eb091ae"
+        },
+        {
+          "offset": 86125,
+          "end": 86214,
+          "size": 89,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "d7298f78920fc4c0d9148237be3bfb9b3fdd95a6ff418d3775b7d36b10e98639"
+        },
+        {
+          "offset": 86214,
+          "end": 86412,
+          "size": 198,
+          "kind": 149,
+          "checksum": "valid",
+          "sha256": "d195c68fbf384f78a546567c1a56495851a4e94575e528a5ce4a2ea4a272f94d"
+        },
+        {
+          "offset": 86412,
+          "end": 86432,
+          "size": 20,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "e65d357f6fbcdd337a42e26bfe4d73112d6e5aa36f90fdffcb011fb8a2a5ebde"
+        },
+        {
+          "offset": 86432,
+          "end": 86613,
+          "size": 181,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "c9f82b2a54c8f165ab43564881291ce736215d08985534bd2684ed31376b89eb"
+        },
+        {
+          "offset": 86613,
+          "end": 86707,
+          "size": 94,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "2fb184be9cb856dc3dcd83bffe56a68648bb0c338ffeebd5efb38d7898c2ae74"
+        },
+        {
+          "offset": 86707,
+          "end": 86720,
+          "size": 13,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "e218b41db93a1c8217e37dba41733a9be0dd0ea2ac13af6ebd990694c77df9ef"
+        },
+        {
+          "offset": 86720,
+          "end": 86938,
+          "size": 218,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "7259277b278f9a2ba2a50ea5fbad56c9013487f00dd9f83824b442edc681d2d0"
+        },
+        {
+          "offset": 86938,
+          "end": 86956,
+          "size": 18,
+          "kind": 180,
+          "checksum": "valid",
+          "sha256": "37108c16f81d5b038c016193cdfe58dae9b764ea31ff97cbc5d1e8ef8f891446"
+        },
+        {
+          "offset": 86956,
+          "end": 86970,
+          "size": 14,
+          "kind": 140,
+          "checksum": "omitted",
+          "sha256": "b029c0e79cb1b701e9e68b449468c43488891dfa255478a7ac33658e7d52c718"
+        },
+        {
+          "offset": 86970,
+          "end": 86992,
+          "size": 22,
+          "kind": 180,
+          "checksum": "valid",
+          "sha256": "fd4fbd1d1a0466527c4bae6906baa6ca9bfc101438f903d744bed64a57ad20f2"
+        },
+        {
+          "offset": 86992,
+          "end": 87174,
+          "size": 182,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "8a724fcbe5d6d5df4c72b6a10109cf7367e84fae7fc664e99029803422b35e9b"
+        },
+        {
+          "offset": 87174,
+          "end": 87248,
+          "size": 74,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "aaa35fd84f70b2f08b1f1db0947c9e6ad197324d766b2d60bf60caef942ba8de"
+        },
+        {
+          "offset": 87248,
+          "end": 87446,
+          "size": 198,
+          "kind": 149,
+          "checksum": "valid",
+          "sha256": "5cb90f6f071f2a5c286b3988fe2a2331a2a34cceb985dc6855f3c72e2274d781"
+        },
+        {
+          "offset": 87446,
+          "end": 87498,
+          "size": 52,
+          "kind": 140,
+          "checksum": "valid",
+          "sha256": "1ea59e98a64f74799d2cad6ceb8af0f5db9f3ba193c6ad86a1da20f098e4bfe9"
+        },
+        {
+          "offset": 87498,
+          "end": 87602,
+          "size": 104,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "2c6db0ffdb70532aafb6ba8deac8291fb43531b69d1b5283579d86921c313b89"
+        },
+        {
+          "offset": 87602,
+          "end": 87671,
+          "size": 69,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "7971e2ad3ceaced9694ff7b8914ee18e5f588aca11ddbe154b25e985a98decdd"
+        },
+        {
+          "offset": 87671,
+          "end": 87738,
+          "size": 67,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "2b9d9dc9b6882cbecdecc666cb2f5b6e11b3c8452c4dda1d67e2532149d398f1"
+        },
+        {
+          "offset": 87738,
+          "end": 87798,
+          "size": 60,
+          "kind": 149,
+          "checksum": "valid",
+          "sha256": "9c95e571e5a50956ca99981184943612285432a89778dc8778c325b4e59d30e6"
+        },
+        {
+          "offset": 87798,
+          "end": 87879,
+          "size": 81,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "c476636ff662b38214eaaaf8ad41e1528704134a4a2059641cee28399c06f36f"
+        },
+        {
+          "offset": 87879,
+          "end": 87928,
+          "size": 49,
+          "kind": 161,
+          "checksum": "valid",
+          "sha256": "0110d73a7de025fce330462b384f4113350b4895fb178fba5ceafa1394d6b2df"
+        },
+        {
+          "offset": 87928,
+          "end": 87982,
+          "size": 54,
+          "kind": 157,
+          "checksum": "valid",
+          "sha256": "7c0c605c9cda251defdf0366ecbe40d0221af2ed8d421ba86a06495be2da260d"
+        },
+        {
+          "offset": 87982,
+          "end": 88062,
+          "size": 80,
+          "kind": 183,
+          "checksum": "valid",
+          "sha256": "92868e5d791461c84aa2824aace115d9c4c13535490485e224152f0608494c7f"
+        },
+        {
+          "offset": 88062,
+          "end": 88086,
+          "size": 24,
+          "kind": 145,
+          "checksum": "valid",
+          "sha256": "c2f3773804bcfacaf98e876fcbaf88a86a5bf09a78973486c72cc53a1a1b8157"
+        },
+        {
+          "offset": 88086,
+          "end": 88100,
+          "size": 14,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "12482da7e5c9fe35d25832841c051eddf4fa6f84729707dedc13296ac2b97591"
+        },
+        {
+          "offset": 88100,
+          "end": 88112,
+          "size": 12,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "f060cb7e28b8a2f840d4b305069e2e89b45f5d2207bae9c561bd3c9f38921948"
+        },
+        {
+          "offset": 88112,
+          "end": 88123,
+          "size": 11,
+          "kind": 136,
+          "checksum": "valid",
+          "sha256": "1824afaccf5f1ba88725e6f105fb476fceeafedc172fa4d99e52d333dc2d3454"
+        },
+        {
+          "offset": 88123,
+          "end": 88128,
+          "size": 5,
+          "kind": 138,
+          "checksum": "valid",
+          "sha256": "36c7e786d25ac4862f79226785f24c6d890c79bf60687a797fc17b57747f99cd"
+        }
+      ]
+    },
+    "reference_only": true,
+    "used_by_source_producer": false
+  },
+  "native_provenance": {
+    "behavior": "Native complete control flow supplies0/scancode two-byte queue form for untranslated keys,256-byte ring dropping full writes, shifted maps, event service while empty and lifecycle order.",
+    "storage": "Real queue256, KeyDown128, tail/pad/head DWORDs and LastScan BYTE; started DWORD, two128-byte character maps,109 real label pointers. Every native offset and scope is retained.",
+    "strings": "Logical key label spellings/case and startup message recovered individually from native CONST strings; ordinary pointer-array initializer, no packed target payload.",
+    "nul_padding": {
+      "offsets": [
+        11,
+        14,
+        15,
+        18,
+        19,
+        22,
+        23,
+        26,
+        27,
+        30,
+        31,
+        34,
+        35,
+        38,
+        39,
+        42,
+        43,
+        46,
+        47,
+        50,
+        51,
+        54,
+        55,
+        58,
+        59,
+        67,
+        74,
+        75,
+        78,
+        79,
+        82,
+        83,
+        86,
+        87,
+        90,
+        91,
+        94,
+        95,
+        98,
+        99,
+        102,
+        103,
+        106,
+        107,
+        110,
+        111,
+        114,
+        115,
+        118,
+        119,
+        126,
+        127,
+        134,
+        135,
+        138,
+        139,
+        142,
+        143,
+        146,
+        147,
+        150,
+        151,
+        154,
+        155,
+        158,
+        159,
+        162,
+        163,
+        166,
+        167,
+        170,
+        171,
+        174,
+        175,
+        178,
+        179,
+        182,
+        183,
+        191,
+        194,
+        195,
+        198,
+        199,
+        202,
+        203,
+        206,
+        207,
+        210,
+        211,
+        214,
+        215,
+        218,
+        219,
+        222,
+        223,
+        226,
+        227,
+        230,
+        231,
+        234,
+        235,
+        243,
+        250,
+        251,
+        257,
+        258,
+        259,
+        266,
+        267,
+        275,
+        279,
+        283,
+        287,
+        291,
+        295,
+        299,
+        303,
+        307,
+        311,
+        323,
+        331,
+        338,
+        339,
+        346,
+        347,
+        354,
+        355,
+        362,
+        363,
+        370,
+        371,
+        378,
+        379,
+        386,
+        387,
+        394,
+        395,
+        402,
+        403,
+        410,
+        411,
+        418,
+        419,
+        426,
+        427,
+        434,
+        435,
+        450,
+        451,
+        455,
+        463,
+        471,
+        477,
+        478,
+        479,
+        489,
+        490,
+        491,
+        497,
+        498,
+        499,
+        505,
+        506,
+        507,
+        514,
+        515,
+        522,
+        523,
+        531,
+        539,
+        545,
+        546,
+        547,
+        553,
+        554,
+        555,
+        562,
+        563
+      ],
+      "bytes": 178,
+      "first_negative_nonzero_differences": 159,
+      "treatment": "Extra NULs inside each real label literal preserve first NUL and measured zero alignment;19padding bytes already happened to match. Native GA compiler otherwise emits source-buffer residue. No independent filler object/mask; original spelling unproved."
+    },
+    "boundary": "Native109-pointer table covers0..108, while native/public lookup bound110 retains a historicalone-past condition. No invented110th entry or silent bound correction.",
+    "scope": "Eight measured private symbols remain local; two state globals and13function APIs remain external.",
+    "qualifier_limit": "KeyPadActive volatile is inferred from sharedISR/event role and measured native ordering, not historical spelling.",
+    "accessor": "Using existing KB_KeypadActive API in KeyEvent retains compiler returned-value MOV/TEST inlining. Direct private state compare has different native geometry."
+  },
+  "bounded_prototype_history": [
+    {
+      "path": "build/task107-keyboard/prototype-oglbz5ir",
+      "source_sha256": "f9c2dd5ae10792c54129effc03bde241e0eea0bc86383f76dc890f593a493e90",
+      "object_sha256": "454b2c33fd3f9878794e68f06cafc019fdc2c73809a6e3affb45d3e8376fa163",
+      "code": 628,
+      "fixups": 174,
+      "result": "negative: chained volatile reset reread adds3fixups, memoryCMP and159nonzero literalpadding residue differences"
+    },
+    {
+      "path": "build/task107-keyboard/causal-correction-9jr_c_o0",
+      "source_sha256": "923b08e2c08b1bc211049cbe3bb75040217e28e45f8fa893ee6265ecb959be8d",
+      "object_sha256": "28f8f2710c45bfd07e7053388df401023a16cf360f537cb3bc260af64f503a0d",
+      "code": 612,
+      "fixups": 171,
+      "result": "negative: completeCONST/DATA/BSS and12functions exact; KeyEvent onebyte shorter and lacks3alignment bytes"
+    },
+    {
+      "path": "build/task107-keyboard/accessor-tcplvlqb",
+      "source_sha256": "1563b7c286ac15d6a07058bafc1cd85941c8425b450b2d0f301eee8fd652e6de",
+      "object_sha256": "07c514ccbb3784e01ebcedb1aae3b9ce34d7f44a18a2a5a72c4c2b4a3f28257d",
+      "code": 616,
+      "fixups": 171,
+      "result": "positive: existing keypad accessor yields full single-placement proof"
+    }
+  ],
+  "callee_identity_limit": "Complete proof resolves imports from actual operands/loader records; selected original-member names nominate APIs. This module does not recover ServiceEvents/KEYBOARD_Startup/KEYBOARD_Shutdown implementations or original whole-link selection.",
+  "native_expected": {
+    "initialized_bytes": 1906,
+    "zero_fill_bytes": 397,
+    "verified_fixups": 171
+  },
+  "source_instruction_payload": false,
+  "original_member_used_by_producer": false,
+  "full_executable_rebuilt": false,
+  "review_status": "Candidate awaiting independent review; no accepted source-credit update in this change",
+  "native_ast_equality": {
+    "segments": "All segment names/classes/sizes/attributes/access fields and complete raw payload bytes equal original reference module",
+    "fixups": "All171 canonical Fixup dataclass values exactly equal, not just count",
+    "scopes": "All23publics, eight local publics,16externals and eight local external indices exactly equal",
+    "groups": "All parsed groups and CODE data ranges equal",
+    "limit": "Module header/path/compiler-comment/container metadata is not claimed to be original file identity; original object is reference only"
+  }
+}

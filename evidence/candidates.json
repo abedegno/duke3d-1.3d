@@ -1,0 +1,3468 @@
+{
+  "status": "diagnostic candidates only; no relocated byte proof",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "modules": [
+    {
+      "module": "actors",
+      "object_sha256": "017ad000be0d4911359ac35b55d5d4d3b93a4f0e174cc5c929110603bb402c57",
+      "functions": [
+        {
+          "symbol": "addammo_",
+          "segment": 1,
+          "source_offset": 608,
+          "size": 112,
+          "unmasked_bytes": 60,
+          "anchor_size": 43,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "addweapon_",
+          "segment": 1,
+          "source_offset": 720,
+          "size": 192,
+          "unmasked_bytes": 184,
+          "anchor_size": 137,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "bounce_",
+          "segment": 1,
+          "source_offset": 19488,
+          "size": 512,
+          "unmasked_bytes": 440,
+          "anchor_size": 179,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ceilingspace_",
+          "segment": 1,
+          "source_offset": 448,
+          "size": 80,
+          "unmasked_bytes": 68,
+          "anchor_size": 35,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 84592
+            },
+            {
+              "object": 1,
+              "offset": 84672
+            }
+          ],
+          "status": "ambiguous"
+        },
+        {
+          "symbol": "checkavailinven_",
+          "segment": 1,
+          "source_offset": 912,
+          "size": 144,
+          "unmasked_bytes": 144,
+          "anchor_size": 144,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkavailweapon_",
+          "segment": 1,
+          "source_offset": 1056,
+          "size": 288,
+          "unmasked_bytes": 276,
+          "anchor_size": 140,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "clearsectinterpolate_",
+          "segment": 1,
+          "source_offset": 6416,
+          "size": 144,
+          "unmasked_bytes": 96,
+          "anchor_size": 19,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dointerpolations_",
+          "segment": 1,
+          "source_offset": 288,
+          "size": 112,
+          "unmasked_bytes": 88,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "floorspace_",
+          "segment": 1,
+          "source_offset": 528,
+          "size": 80,
+          "unmasked_bytes": 68,
+          "anchor_size": 35,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 84592
+            },
+            {
+              "object": 1,
+              "offset": 84672
+            }
+          ],
+          "status": "ambiguous"
+        },
+        {
+          "symbol": "guts_",
+          "segment": 1,
+          "source_offset": 5616,
+          "size": 384,
+          "unmasked_bytes": 324,
+          "anchor_size": 46,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "gutsdir_",
+          "segment": 1,
+          "source_offset": 6000,
+          "size": 240,
+          "unmasked_bytes": 212,
+          "anchor_size": 46,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "hitradius_",
+          "segment": 1,
+          "source_offset": 1648,
+          "size": 2144,
+          "unmasked_bytes": 1868,
+          "anchor_size": 222,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ifhitbyweapon_",
+          "segment": 1,
+          "source_offset": 7680,
+          "size": 1024,
+          "unmasked_bytes": 840,
+          "anchor_size": 119,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ifhitsectors_",
+          "segment": 1,
+          "source_offset": 7616,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 14,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ifsquished_",
+          "segment": 1,
+          "source_offset": 1344,
+          "size": 304,
+          "unmasked_bytes": 252,
+          "anchor_size": 75,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "insertspriteq_",
+          "segment": 1,
+          "source_offset": 5120,
+          "size": 112,
+          "unmasked_bytes": 72,
+          "anchor_size": 15,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "lotsofmail_",
+          "segment": 1,
+          "source_offset": 5360,
+          "size": 128,
+          "unmasked_bytes": 108,
+          "anchor_size": 27,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "lotsofmoney_",
+          "segment": 1,
+          "source_offset": 5232,
+          "size": 128,
+          "unmasked_bytes": 108,
+          "anchor_size": 27,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "lotsofpaper_",
+          "segment": 1,
+          "source_offset": 5488,
+          "size": 128,
+          "unmasked_bytes": 108,
+          "anchor_size": 27,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveactors_",
+          "segment": 1,
+          "source_offset": 27280,
+          "size": 11616,
+          "unmasked_bytes": 9580,
+          "anchor_size": 204,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movecyclers_",
+          "segment": 1,
+          "source_offset": 8704,
+          "size": 240,
+          "unmasked_bytes": 200,
+          "anchor_size": 47,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movedummyplayers_",
+          "segment": 1,
+          "source_offset": 8944,
+          "size": 448,
+          "unmasked_bytes": 292,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveeffectors_",
+          "segment": 1,
+          "source_offset": 43088,
+          "size": 20019,
+          "unmasked_bytes": 15767,
+          "anchor_size": 375,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveexplosions_",
+          "segment": 1,
+          "source_offset": 38896,
+          "size": 4192,
+          "unmasked_bytes": 3660,
+          "anchor_size": 586,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movefallers_",
+          "segment": 1,
+          "source_offset": 11280,
+          "size": 800,
+          "unmasked_bytes": 652,
+          "anchor_size": 70,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movefta_",
+          "segment": 1,
+          "source_offset": 6848,
+          "size": 768,
+          "unmasked_bytes": 604,
+          "anchor_size": 138,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movefx_",
+          "segment": 1,
+          "source_offset": 10288,
+          "size": 992,
+          "unmasked_bytes": 728,
+          "anchor_size": 41,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveplayers_",
+          "segment": 1,
+          "source_offset": 9392,
+          "size": 896,
+          "unmasked_bytes": 736,
+          "anchor_size": 66,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movesprite_",
+          "segment": 1,
+          "source_offset": 3792,
+          "size": 1232,
+          "unmasked_bytes": 1000,
+          "anchor_size": 75,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movestandables_",
+          "segment": 1,
+          "source_offset": 12080,
+          "size": 7408,
+          "unmasked_bytes": 6088,
+          "anchor_size": 378,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "movetransports_",
+          "segment": 1,
+          "source_offset": 23488,
+          "size": 3792,
+          "unmasked_bytes": 2596,
+          "anchor_size": 144,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveweapons_",
+          "segment": 1,
+          "source_offset": 20000,
+          "size": 3488,
+          "unmasked_bytes": 2864,
+          "anchor_size": 145,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ms_",
+          "segment": 1,
+          "source_offset": 6560,
+          "size": 288,
+          "unmasked_bytes": 244,
+          "anchor_size": 43,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "restoreinterpolations_",
+          "segment": 1,
+          "source_offset": 400,
+          "size": 48,
+          "unmasked_bytes": 36,
+          "anchor_size": 15,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "setinterpolation_",
+          "segment": 1,
+          "source_offset": 80,
+          "size": 80,
+          "unmasked_bytes": 60,
+          "anchor_size": 26,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "setsectinterpolate_",
+          "segment": 1,
+          "source_offset": 6240,
+          "size": 176,
+          "unmasked_bytes": 116,
+          "anchor_size": 21,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ssp_",
+          "segment": 1,
+          "source_offset": 5024,
+          "size": 96,
+          "unmasked_bytes": 80,
+          "anchor_size": 29,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 89472
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "stopinterpolation_",
+          "segment": 1,
+          "source_offset": 160,
+          "size": 128,
+          "unmasked_bytes": 84,
+          "anchor_size": 23,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "updateinterpolations_",
+          "segment": 1,
+          "source_offset": 32,
+          "size": 48,
+          "unmasked_bytes": 36,
+          "anchor_size": 14,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "animlib",
+      "object_sha256": "b80e3de3eae43f5bc7aeeee547fef0c9406ff37484267f6af81f054130e773da",
+      "functions": [
+        {
+          "symbol": "ANIM_DrawFrame_",
+          "segment": 1,
+          "source_offset": 944,
+          "size": 112,
+          "unmasked_bytes": 88,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ANIM_FreeAnim_",
+          "segment": 1,
+          "source_offset": 880,
+          "size": 32,
+          "unmasked_bytes": 24,
+          "anchor_size": 14,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 426112
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "ANIM_GetPalette_",
+          "segment": 1,
+          "source_offset": 1056,
+          "size": 21,
+          "unmasked_bytes": 9,
+          "anchor_size": 6,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "ANIM_LoadAnim_",
+          "segment": 1,
+          "source_offset": 656,
+          "size": 224,
+          "unmasked_bytes": 196,
+          "anchor_size": 79,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ANIM_NumFrames_",
+          "segment": 1,
+          "source_offset": 912,
+          "size": 32,
+          "unmasked_bytes": 20,
+          "anchor_size": 17,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 426144
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "CPlayRunSkipDump_",
+          "segment": 1,
+          "source_offset": 288,
+          "size": 128,
+          "unmasked_bytes": 128,
+          "anchor_size": 128,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CheckAnimStarted_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 32,
+          "unmasked_bytes": 20,
+          "anchor_size": 12,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 425264
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "drawframe_",
+          "segment": 1,
+          "source_offset": 576,
+          "size": 80,
+          "unmasked_bytes": 52,
+          "anchor_size": 15,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 425824
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "findpage_",
+          "segment": 1,
+          "source_offset": 32,
+          "size": 96,
+          "unmasked_bytes": 84,
+          "anchor_size": 57,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "loadpage_",
+          "segment": 1,
+          "source_offset": 128,
+          "size": 160,
+          "unmasked_bytes": 144,
+          "anchor_size": 71,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "renderframe_",
+          "segment": 1,
+          "source_offset": 416,
+          "size": 160,
+          "unmasked_bytes": 136,
+          "anchor_size": 68,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "config",
+      "object_sha256": "4d61bcabff92a1d65aac02fe55e315447b87c125e51803edccdae552cd7a8b10",
+      "functions": [
+        {
+          "symbol": "CONFIG_AnalogNameToNum_",
+          "segment": 1,
+          "source_offset": 800,
+          "size": 112,
+          "unmasked_bytes": 80,
+          "anchor_size": 34,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 287840
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "CONFIG_FunctionNameToNum_",
+          "segment": 1,
+          "source_offset": 720,
+          "size": 64,
+          "unmasked_bytes": 56,
+          "anchor_size": 41,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_FunctionNumToName_",
+          "segment": 1,
+          "source_offset": 784,
+          "size": 16,
+          "unmasked_bytes": 12,
+          "anchor_size": 8,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 287824
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "CONFIG_GetSetupFilename_",
+          "segment": 1,
+          "source_offset": 16,
+          "size": 704,
+          "unmasked_bytes": 496,
+          "anchor_size": 66,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_ReadKeys_",
+          "segment": 1,
+          "source_offset": 1056,
+          "size": 240,
+          "unmasked_bytes": 168,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_ReadSetup_",
+          "segment": 1,
+          "source_offset": 3088,
+          "size": 1904,
+          "unmasked_bytes": 772,
+          "anchor_size": 63,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_SetDefaults_",
+          "segment": 1,
+          "source_offset": 912,
+          "size": 144,
+          "unmasked_bytes": 76,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_SetupGamePad_",
+          "segment": 1,
+          "source_offset": 1872,
+          "size": 448,
+          "unmasked_bytes": 320,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_SetupJoystick_",
+          "segment": 1,
+          "source_offset": 2320,
+          "size": 576,
+          "unmasked_bytes": 396,
+          "anchor_size": 24,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_SetupMouse_",
+          "segment": 1,
+          "source_offset": 1296,
+          "size": 576,
+          "unmasked_bytes": 400,
+          "anchor_size": 22,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "CONFIG_WriteSetup_",
+          "segment": 1,
+          "source_offset": 4992,
+          "size": 864,
+          "unmasked_bytes": 336,
+          "anchor_size": 24,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "readsavenames_",
+          "segment": 1,
+          "source_offset": 2896,
+          "size": 192,
+          "unmasked_bytes": 132,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "game",
+      "object_sha256": "a0cb3545b1d777122e357545b56d2e857d1b8cb6d1eeb0e2053027036f34f935",
+      "functions": [
+        {
+          "symbol": "CenterCenter_",
+          "segment": 1,
+          "source_offset": 96000,
+          "size": 16,
+          "unmasked_bytes": 8,
+          "anchor_size": 6,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "CenterRudder_",
+          "segment": 1,
+          "source_offset": 96064,
+          "size": 14,
+          "unmasked_bytes": 6,
+          "anchor_size": 4,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "CenterThrottle_",
+          "segment": 1,
+          "source_offset": 96048,
+          "size": 16,
+          "unmasked_bytes": 8,
+          "anchor_size": 6,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "EGS_",
+          "segment": 1,
+          "source_offset": 34448,
+          "size": 560,
+          "unmasked_bytes": 408,
+          "anchor_size": 121,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "FTA_",
+          "segment": 1,
+          "source_offset": 23824,
+          "size": 112,
+          "unmasked_bytes": 100,
+          "anchor_size": 82,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "GetTime_",
+          "segment": 1,
+          "source_offset": 95984,
+          "size": 16,
+          "unmasked_bytes": 12,
+          "anchor_size": 11,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 84064
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "LocateTheLocator_",
+          "segment": 1,
+          "source_offset": 34368,
+          "size": 80,
+          "unmasked_bytes": 64,
+          "anchor_size": 22,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "Logo_",
+          "segment": 1,
+          "source_offset": 71664,
+          "size": 1552,
+          "unmasked_bytes": 1076,
+          "anchor_size": 35,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "LowerRight_",
+          "segment": 1,
+          "source_offset": 96032,
+          "size": 16,
+          "unmasked_bytes": 8,
+          "anchor_size": 6,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "SE40_Draw_",
+          "segment": 1,
+          "source_offset": 30528,
+          "size": 880,
+          "unmasked_bytes": 648,
+          "anchor_size": 55,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "SetupGameButtons_",
+          "segment": 1,
+          "source_offset": 95360,
+          "size": 624,
+          "unmasked_bytes": 416,
+          "anchor_size": 8,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 83440
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "ShutDown_",
+          "segment": 1,
+          "source_offset": 73296,
+          "size": 80,
+          "unmasked_bytes": 40,
+          "anchor_size": 18,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "Startup_",
+          "segment": 1,
+          "source_offset": 73472,
+          "size": 320,
+          "unmasked_bytes": 144,
+          "anchor_size": 25,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "UpperLeft_",
+          "segment": 1,
+          "source_offset": 96016,
+          "size": 16,
+          "unmasked_bytes": 8,
+          "anchor_size": 6,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "adduserquote_",
+          "segment": 1,
+          "source_offset": 1952,
+          "size": 160,
+          "unmasked_bytes": 132,
+          "anchor_size": 54,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "allowtimetocorrecterrorswhenquitting_",
+          "segment": 1,
+          "source_offset": 1808,
+          "size": 144,
+          "unmasked_bytes": 96,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animatesprites_",
+          "segment": 1,
+          "source_offset": 52912,
+          "size": 6864,
+          "unmasked_bytes": 5896,
+          "anchor_size": 651,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "badguy_",
+          "segment": 1,
+          "source_offset": 11280,
+          "size": 368,
+          "unmasked_bytes": 364,
+          "anchor_size": 203,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "badguypic_",
+          "segment": 1,
+          "source_offset": 11648,
+          "size": 368,
+          "unmasked_bytes": 364,
+          "anchor_size": 196,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "binscreen_",
+          "segment": 1,
+          "source_offset": 23952,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 18,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "caches_",
+          "segment": 1,
+          "source_offset": 10032,
+          "size": 208,
+          "unmasked_bytes": 152,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "cameratext_",
+          "segment": 1,
+          "source_offset": 92976,
+          "size": 496,
+          "unmasked_bytes": 364,
+          "anchor_size": 36,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "ceilingglass_",
+          "segment": 1,
+          "source_offset": 94496,
+          "size": 288,
+          "unmasked_bytes": 244,
+          "anchor_size": 48,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "cheats_",
+          "segment": 1,
+          "source_offset": 59776,
+          "size": 4512,
+          "unmasked_bytes": 3232,
+          "anchor_size": 40,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "check_fta_sounds_",
+          "segment": 1,
+          "source_offset": 10592,
+          "size": 624,
+          "unmasked_bytes": 540,
+          "anchor_size": 327,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkcommandline_",
+          "segment": 1,
+          "source_offset": 69760,
+          "size": 1824,
+          "unmasked_bytes": 1288,
+          "anchor_size": 57,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checksync_",
+          "segment": 1,
+          "source_offset": 10240,
+          "size": 352,
+          "unmasked_bytes": 244,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "closedemowrite_",
+          "segment": 1,
+          "source_offset": 77904,
+          "size": 144,
+          "unmasked_bytes": 84,
+          "anchor_size": 12,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "comlinehelp_",
+          "segment": 1,
+          "source_offset": 69200,
+          "size": 560,
+          "unmasked_bytes": 68,
+          "anchor_size": 8,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "compilecons_",
+          "segment": 1,
+          "source_offset": 73376,
+          "size": 96,
+          "unmasked_bytes": 40,
+          "anchor_size": 12,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "coolgaugetext_",
+          "segment": 1,
+          "source_offset": 18320,
+          "size": 4096,
+          "unmasked_bytes": 3468,
+          "anchor_size": 172,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "coords_",
+          "segment": 1,
+          "source_offset": 22560,
+          "size": 720,
+          "unmasked_bytes": 440,
+          "anchor_size": 36,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "copyprotect_",
+          "segment": 1,
+          "source_offset": 74736,
+          "size": 16,
+          "unmasked_bytes": 16,
+          "anchor_size": 16,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 22816
+            },
+            {
+              "object": 1,
+              "offset": 74080
+            },
+            {
+              "object": 1,
+              "offset": 81456
+            },
+            {
+              "object": 1,
+              "offset": 122896
+            },
+            {
+              "object": 1,
+              "offset": 205216
+            },
+            {
+              "object": 1,
+              "offset": 206608
+            },
+            {
+              "object": 1,
+              "offset": 251408
+            },
+            {
+              "object": 1,
+              "offset": 257024
+            },
+            {
+              "object": 1,
+              "offset": 285008
+            }
+          ],
+          "status": "ambiguous"
+        },
+        {
+          "symbol": "digitalnumber_",
+          "segment": 1,
+          "source_offset": 16480,
+          "size": 256,
+          "unmasked_bytes": 232,
+          "anchor_size": 61,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displayfragbar_",
+          "segment": 1,
+          "source_offset": 17712,
+          "size": 608,
+          "unmasked_bytes": 380,
+          "anchor_size": 38,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displayinventory_",
+          "segment": 1,
+          "source_offset": 16736,
+          "size": 976,
+          "unmasked_bytes": 828,
+          "anchor_size": 291,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displayrest_",
+          "segment": 1,
+          "source_offset": 26272,
+          "size": 2016,
+          "unmasked_bytes": 1436,
+          "anchor_size": 141,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displayrooms_",
+          "segment": 1,
+          "source_offset": 31552,
+          "size": 2816,
+          "unmasked_bytes": 2288,
+          "anchor_size": 349,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dobonus_",
+          "segment": 1,
+          "source_offset": 86784,
+          "size": 6192,
+          "unmasked_bytes": 4348,
+          "anchor_size": 89,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "domovethings_",
+          "segment": 1,
+          "source_offset": 84384,
+          "size": 1712,
+          "unmasked_bytes": 1100,
+          "anchor_size": 70,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "doorders_",
+          "segment": 1,
+          "source_offset": 86096,
+          "size": 688,
+          "unmasked_bytes": 432,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "drawbackground_",
+          "segment": 1,
+          "source_offset": 29408,
+          "size": 1120,
+          "unmasked_bytes": 980,
+          "anchor_size": 134,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "fakedomovethings_",
+          "segment": 1,
+          "source_offset": 79968,
+          "size": 4416,
+          "unmasked_bytes": 3296,
+          "anchor_size": 202,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "fakedomovethingscorrect_",
+          "segment": 1,
+          "source_offset": 79504,
+          "size": 464,
+          "unmasked_bytes": 320,
+          "anchor_size": 20,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "faketimerhandler_",
+          "segment": 1,
+          "source_offset": 6192,
+          "size": 3840,
+          "unmasked_bytes": 2708,
+          "anchor_size": 78,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "gameexit_",
+          "segment": 1,
+          "source_offset": 24016,
+          "size": 272,
+          "unmasked_bytes": 152,
+          "anchor_size": 25,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "gamenumber_",
+          "segment": 1,
+          "source_offset": 1744,
+          "size": 64,
+          "unmasked_bytes": 56,
+          "anchor_size": 20,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "gametext_",
+          "segment": 1,
+          "source_offset": 560,
+          "size": 272,
+          "unmasked_bytes": 252,
+          "anchor_size": 97,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "gametextpal_",
+          "segment": 1,
+          "source_offset": 832,
+          "size": 272,
+          "unmasked_bytes": 252,
+          "anchor_size": 97,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "gametextpart_",
+          "segment": 1,
+          "source_offset": 1104,
+          "size": 352,
+          "unmasked_bytes": 328,
+          "anchor_size": 108,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getnames_",
+          "segment": 1,
+          "source_offset": 73856,
+          "size": 512,
+          "unmasked_bytes": 308,
+          "anchor_size": 25,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getpackets_",
+          "segment": 1,
+          "source_offset": 2112,
+          "size": 4080,
+          "unmasked_bytes": 3076,
+          "anchor_size": 211,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "inittimer_",
+          "segment": 1,
+          "source_offset": 464,
+          "size": 48,
+          "unmasked_bytes": 32,
+          "anchor_size": 14,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 480
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "invennum_",
+          "segment": 1,
+          "source_offset": 12288,
+          "size": 496,
+          "unmasked_bytes": 428,
+          "anchor_size": 78,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "inventory_",
+          "segment": 1,
+          "source_offset": 11216,
+          "size": 64,
+          "unmasked_bytes": 64,
+          "anchor_size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 10496
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "loadtmb_",
+          "segment": 1,
+          "source_offset": 73216,
+          "size": 80,
+          "unmasked_bytes": 56,
+          "anchor_size": 22,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "lotsofcolourglass_",
+          "segment": 1,
+          "source_offset": 94784,
+          "size": 576,
+          "unmasked_bytes": 456,
+          "anchor_size": 61,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "lotsofglass_",
+          "segment": 1,
+          "source_offset": 93712,
+          "size": 576,
+          "unmasked_bytes": 472,
+          "anchor_size": 89,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "main_",
+          "segment": 1,
+          "source_offset": 74752,
+          "size": 1696,
+          "unmasked_bytes": 908,
+          "anchor_size": 35,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "minitext_",
+          "segment": 1,
+          "source_offset": 1456,
+          "size": 144,
+          "unmasked_bytes": 128,
+          "anchor_size": 48,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "minitextshade_",
+          "segment": 1,
+          "source_offset": 1600,
+          "size": 144,
+          "unmasked_bytes": 128,
+          "anchor_size": 53,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveclouds_",
+          "segment": 1,
+          "source_offset": 26016,
+          "size": 256,
+          "unmasked_bytes": 172,
+          "anchor_size": 20,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "moveloop_",
+          "segment": 1,
+          "source_offset": 79312,
+          "size": 192,
+          "unmasked_bytes": 108,
+          "anchor_size": 14,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "myos_",
+          "segment": 1,
+          "source_offset": 12016,
+          "size": 160,
+          "unmasked_bytes": 128,
+          "anchor_size": 43,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "myospal_",
+          "segment": 1,
+          "source_offset": 12176,
+          "size": 112,
+          "unmasked_bytes": 92,
+          "anchor_size": 39,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "nonsharedkeys_",
+          "segment": 1,
+          "source_offset": 64288,
+          "size": 4912,
+          "unmasked_bytes": 3220,
+          "anchor_size": 49,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "opendemoread_",
+          "segment": 1,
+          "source_offset": 76448,
+          "size": 672,
+          "unmasked_bytes": 344,
+          "anchor_size": 18,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "opendemowrite_",
+          "segment": 1,
+          "source_offset": 77120,
+          "size": 544,
+          "unmasked_bytes": 312,
+          "anchor_size": 23,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "operatefta_",
+          "segment": 1,
+          "source_offset": 23280,
+          "size": 544,
+          "unmasked_bytes": 428,
+          "anchor_size": 49,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "playback_",
+          "segment": 1,
+          "source_offset": 78048,
+          "size": 1264,
+          "unmasked_bytes": 824,
+          "anchor_size": 78,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "printstr_",
+          "segment": 1,
+          "source_offset": 71584,
+          "size": 80,
+          "unmasked_bytes": 80,
+          "anchor_size": 80,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 63888
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "record_",
+          "segment": 1,
+          "source_offset": 77664,
+          "size": 240,
+          "unmasked_bytes": 184,
+          "anchor_size": 65,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "se40code_",
+          "segment": 1,
+          "source_offset": 31408,
+          "size": 144,
+          "unmasked_bytes": 116,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "sendscore_",
+          "segment": 1,
+          "source_offset": 73792,
+          "size": 64,
+          "unmasked_bytes": 56,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "showtwoscreens_",
+          "segment": 1,
+          "source_offset": 23936,
+          "size": 16,
+          "unmasked_bytes": 16,
+          "anchor_size": 16,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 22816
+            },
+            {
+              "object": 1,
+              "offset": 74080
+            },
+            {
+              "object": 1,
+              "offset": 81456
+            },
+            {
+              "object": 1,
+              "offset": 122896
+            },
+            {
+              "object": 1,
+              "offset": 205216
+            },
+            {
+              "object": 1,
+              "offset": 206608
+            },
+            {
+              "object": 1,
+              "offset": 251408
+            },
+            {
+              "object": 1,
+              "offset": 257024
+            },
+            {
+              "object": 1,
+              "offset": 285008
+            }
+          ],
+          "status": "ambiguous"
+        },
+        {
+          "symbol": "spawn_",
+          "segment": 1,
+          "source_offset": 35328,
+          "size": 17584,
+          "unmasked_bytes": 15156,
+          "anchor_size": 2747,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "spriteglass_",
+          "segment": 1,
+          "source_offset": 94288,
+          "size": 208,
+          "unmasked_bytes": 160,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "strget_",
+          "segment": 1,
+          "source_offset": 24288,
+          "size": 480,
+          "unmasked_bytes": 396,
+          "anchor_size": 52,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "testcd_",
+          "segment": 1,
+          "source_offset": 74448,
+          "size": 288,
+          "unmasked_bytes": 256,
+          "anchor_size": 53,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "tics_",
+          "segment": 1,
+          "source_offset": 22416,
+          "size": 144,
+          "unmasked_bytes": 96,
+          "anchor_size": 22,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "timerhandler_",
+          "segment": 1,
+          "source_offset": 448,
+          "size": 16,
+          "unmasked_bytes": 8,
+          "anchor_size": 5,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "typemode_",
+          "segment": 1,
+          "source_offset": 24768,
+          "size": 1248,
+          "unmasked_bytes": 880,
+          "anchor_size": 47,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "uninittimer_",
+          "segment": 1,
+          "source_offset": 512,
+          "size": 48,
+          "unmasked_bytes": 32,
+          "anchor_size": 16,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 528
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "updatesectorz_",
+          "segment": 1,
+          "source_offset": 28288,
+          "size": 352,
+          "unmasked_bytes": 308,
+          "anchor_size": 48,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "vglass_",
+          "segment": 1,
+          "source_offset": 93472,
+          "size": 240,
+          "unmasked_bytes": 200,
+          "anchor_size": 34,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "view_",
+          "segment": 1,
+          "source_offset": 28640,
+          "size": 768,
+          "unmasked_bytes": 664,
+          "anchor_size": 139,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "wallswitchcheck_",
+          "segment": 1,
+          "source_offset": 35008,
+          "size": 320,
+          "unmasked_bytes": 168,
+          "anchor_size": 149,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 31216
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "weapon_amounts_",
+          "segment": 1,
+          "source_offset": 14480,
+          "size": 2000,
+          "unmasked_bytes": 1744,
+          "anchor_size": 69,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "weaponnum999_",
+          "segment": 1,
+          "source_offset": 13472,
+          "size": 1008,
+          "unmasked_bytes": 852,
+          "anchor_size": 86,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "weaponnum_",
+          "segment": 1,
+          "source_offset": 12784,
+          "size": 688,
+          "unmasked_bytes": 584,
+          "anchor_size": 89,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "writestring_",
+          "segment": 1,
+          "source_offset": 74368,
+          "size": 80,
+          "unmasked_bytes": 56,
+          "anchor_size": 21,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "gamedef",
+      "object_sha256": "1e5a476f7a69fe55b24e1b1c60ae9196a35bf401d9160b7103d1bfc4d9b86052",
+      "functions": [
+        {
+          "symbol": "alterang_",
+          "segment": 1,
+          "source_offset": 11584,
+          "size": 688,
+          "unmasked_bytes": 532,
+          "anchor_size": 86,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "copydefaultcons_",
+          "segment": 1,
+          "source_offset": 9568,
+          "size": 176,
+          "unmasked_bytes": 124,
+          "anchor_size": 39,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dodge_",
+          "segment": 1,
+          "source_offset": 10544,
+          "size": 336,
+          "unmasked_bytes": 284,
+          "anchor_size": 52,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "execute_",
+          "segment": 1,
+          "source_offset": 34176,
+          "size": 749,
+          "unmasked_bytes": 577,
+          "anchor_size": 109,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "furthestangle_",
+          "segment": 1,
+          "source_offset": 10880,
+          "size": 272,
+          "unmasked_bytes": 252,
+          "anchor_size": 94,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "furthestcanseepoint_",
+          "segment": 1,
+          "source_offset": 11152,
+          "size": 432,
+          "unmasked_bytes": 388,
+          "anchor_size": 108,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getglobalz_",
+          "segment": 1,
+          "source_offset": 192,
+          "size": 544,
+          "unmasked_bytes": 472,
+          "anchor_size": 101,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getincangle_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 80,
+          "unmasked_bytes": 80,
+          "anchor_size": 80,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 145840
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "getlabel_",
+          "segment": 1,
+          "source_offset": 1200,
+          "size": 160,
+          "unmasked_bytes": 128,
+          "anchor_size": 52,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "isaltok_",
+          "segment": 1,
+          "source_offset": 128,
+          "size": 64,
+          "unmasked_bytes": 60,
+          "anchor_size": 49,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 145968
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "ispecial_",
+          "segment": 1,
+          "source_offset": 80,
+          "size": 48,
+          "unmasked_bytes": 40,
+          "anchor_size": 26,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 145920
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "keyword_",
+          "segment": 1,
+          "source_offset": 1360,
+          "size": 128,
+          "unmasked_bytes": 96,
+          "anchor_size": 37,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "loadefs_",
+          "segment": 1,
+          "source_offset": 9744,
+          "size": 800,
+          "unmasked_bytes": 444,
+          "anchor_size": 64,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "makeitfall_",
+          "segment": 1,
+          "source_offset": 736,
+          "size": 464,
+          "unmasked_bytes": 404,
+          "anchor_size": 71,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "move_",
+          "segment": 1,
+          "source_offset": 12272,
+          "size": 2432,
+          "unmasked_bytes": 1864,
+          "anchor_size": 54,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "parse_",
+          "segment": 1,
+          "source_offset": 15296,
+          "size": 18880,
+          "unmasked_bytes": 13972,
+          "anchor_size": 132,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "parsecommand_",
+          "segment": 1,
+          "source_offset": 3072,
+          "size": 6448,
+          "unmasked_bytes": 3948,
+          "anchor_size": 97,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "parseifelse_",
+          "segment": 1,
+          "source_offset": 14704,
+          "size": 592,
+          "unmasked_bytes": 44,
+          "anchor_size": 12,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "passone_",
+          "segment": 1,
+          "source_offset": 9520,
+          "size": 48,
+          "unmasked_bytes": 28,
+          "anchor_size": 9,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "transnum_",
+          "segment": 1,
+          "source_offset": 2016,
+          "size": 1056,
+          "unmasked_bytes": 296,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "transword_",
+          "segment": 1,
+          "source_offset": 1488,
+          "size": 528,
+          "unmasked_bytes": 308,
+          "anchor_size": 35,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "global",
+      "object_sha256": "8619d1ff456073c1e146a75cc34412d12d2f6ba0999a97cc520f1212d1500f44",
+      "functions": []
+    },
+    {
+      "module": "menues",
+      "object_sha256": "8f413addfa0f8355a716ea3a598d87128d576313042d00e6788dca6b85f61f36",
+      "functions": [
+        {
+          "symbol": "bar_",
+          "segment": 1,
+          "source_offset": 9296,
+          "size": 576,
+          "unmasked_bytes": 444,
+          "anchor_size": 96,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "cmenu_",
+          "segment": 1,
+          "source_offset": 16,
+          "size": 128,
+          "unmasked_bytes": 100,
+          "anchor_size": 20,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dispnames_",
+          "segment": 1,
+          "source_offset": 9872,
+          "size": 544,
+          "unmasked_bytes": 412,
+          "anchor_size": 56,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "drawoverheadmap_",
+          "segment": 1,
+          "source_offset": 28064,
+          "size": 4208,
+          "unmasked_bytes": 3820,
+          "anchor_size": 797,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dummyfunc_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 16,
+          "unmasked_bytes": 16,
+          "anchor_size": 16,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 22816
+            },
+            {
+              "object": 1,
+              "offset": 74080
+            },
+            {
+              "object": 1,
+              "offset": 81456
+            },
+            {
+              "object": 1,
+              "offset": 122896
+            },
+            {
+              "object": 1,
+              "offset": 205216
+            },
+            {
+              "object": 1,
+              "offset": 206608
+            },
+            {
+              "object": 1,
+              "offset": 251408
+            },
+            {
+              "object": 1,
+              "offset": 257024
+            },
+            {
+              "object": 1,
+              "offset": 285008
+            }
+          ],
+          "status": "ambiguous"
+        },
+        {
+          "symbol": "dummymess_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 16,
+          "unmasked_bytes": 16,
+          "anchor_size": 16,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 22816
+            },
+            {
+              "object": 1,
+              "offset": 74080
+            },
+            {
+              "object": 1,
+              "offset": 81456
+            },
+            {
+              "object": 1,
+              "offset": 122896
+            },
+            {
+              "object": 1,
+              "offset": 205216
+            },
+            {
+              "object": 1,
+              "offset": 206608
+            },
+            {
+              "object": 1,
+              "offset": 251408
+            },
+            {
+              "object": 1,
+              "offset": 257024
+            },
+            {
+              "object": 1,
+              "offset": 285008
+            }
+          ],
+          "status": "ambiguous"
+        },
+        {
+          "symbol": "endanimsounds_",
+          "segment": 1,
+          "source_offset": 32272,
+          "size": 352,
+          "unmasked_bytes": 304,
+          "anchor_size": 167,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "endanimvol41_",
+          "segment": 1,
+          "source_offset": 32832,
+          "size": 48,
+          "unmasked_bytes": 40,
+          "anchor_size": 19,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "endanimvol42_",
+          "segment": 1,
+          "source_offset": 32880,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 19,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "endanimvol43_",
+          "segment": 1,
+          "source_offset": 32944,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 24,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "first4animsounds_",
+          "segment": 1,
+          "source_offset": 32736,
+          "size": 80,
+          "unmasked_bytes": 64,
+          "anchor_size": 31,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getangplayers_",
+          "segment": 1,
+          "source_offset": 192,
+          "size": 288,
+          "unmasked_bytes": 228,
+          "anchor_size": 42,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getfilenames_",
+          "segment": 1,
+          "source_offset": 10416,
+          "size": 224,
+          "unmasked_bytes": 180,
+          "anchor_size": 52,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "intro42animsounds_",
+          "segment": 1,
+          "source_offset": 32816,
+          "size": 16,
+          "unmasked_bytes": 12,
+          "anchor_size": 11,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "intro4animsounds_",
+          "segment": 1,
+          "source_offset": 32672,
+          "size": 64,
+          "unmasked_bytes": 52,
+          "anchor_size": 31,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "loadpheader_",
+          "segment": 1,
+          "source_offset": 480,
+          "size": 352,
+          "unmasked_bytes": 256,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "loadplayer_",
+          "segment": 1,
+          "source_offset": 832,
+          "size": 3600,
+          "unmasked_bytes": 2368,
+          "anchor_size": 110,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "logoanimsounds_",
+          "segment": 1,
+          "source_offset": 32624,
+          "size": 48,
+          "unmasked_bytes": 40,
+          "anchor_size": 19,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 203328
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "menus_",
+          "segment": 1,
+          "source_offset": 11136,
+          "size": 16624,
+          "unmasked_bytes": 11092,
+          "anchor_size": 192,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "menutext_",
+          "segment": 1,
+          "source_offset": 7936,
+          "size": 800,
+          "unmasked_bytes": 740,
+          "anchor_size": 176,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "menutextc_",
+          "segment": 1,
+          "source_offset": 8736,
+          "size": 560,
+          "unmasked_bytes": 540,
+          "anchor_size": 254,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "palto_",
+          "segment": 1,
+          "source_offset": 27760,
+          "size": 304,
+          "unmasked_bytes": 272,
+          "anchor_size": 137,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "playanm_",
+          "segment": 1,
+          "source_offset": 33008,
+          "size": 1140,
+          "unmasked_bytes": 876,
+          "anchor_size": 55,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "probe_",
+          "segment": 1,
+          "source_offset": 7024,
+          "size": 912,
+          "unmasked_bytes": 588,
+          "anchor_size": 49,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "saveplayer_",
+          "segment": 1,
+          "source_offset": 4432,
+          "size": 2592,
+          "unmasked_bytes": 1724,
+          "anchor_size": 44,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "savetemp_",
+          "segment": 1,
+          "source_offset": 144,
+          "size": 48,
+          "unmasked_bytes": 36,
+          "anchor_size": 14,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "sortfilenames_",
+          "segment": 1,
+          "source_offset": 10640,
+          "size": 496,
+          "unmasked_bytes": 228,
+          "anchor_size": 94,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "player",
+      "object_sha256": "b9aa439c9f3986eefe0934fa7213664af18b98109b7203bab3185dcae4969761",
+      "functions": [
+        {
+          "symbol": "aim_",
+          "segment": 1,
+          "source_offset": 1744,
+          "size": 1040,
+          "unmasked_bytes": 884,
+          "anchor_size": 126,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animateaccess_",
+          "segment": 1,
+          "source_offset": 14512,
+          "size": 688,
+          "unmasked_bytes": 440,
+          "anchor_size": 84,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animatefist_",
+          "segment": 1,
+          "source_offset": 12592,
+          "size": 400,
+          "unmasked_bytes": 352,
+          "anchor_size": 61,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animateknee_",
+          "segment": 1,
+          "source_offset": 12992,
+          "size": 368,
+          "unmasked_bytes": 300,
+          "anchor_size": 50,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animateknuckles_",
+          "segment": 1,
+          "source_offset": 13360,
+          "size": 352,
+          "unmasked_bytes": 288,
+          "anchor_size": 51,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animatetip_",
+          "segment": 1,
+          "source_offset": 14160,
+          "size": 352,
+          "unmasked_bytes": 296,
+          "anchor_size": 51,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkweapons_",
+          "segment": 1,
+          "source_offset": 25440,
+          "size": 192,
+          "unmasked_bytes": 84,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "computergetinput_",
+          "segment": 1,
+          "source_offset": 41008,
+          "size": 7638,
+          "unmasked_bytes": 6410,
+          "anchor_size": 260,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displayloogie_",
+          "segment": 1,
+          "source_offset": 12272,
+          "size": 320,
+          "unmasked_bytes": 272,
+          "anchor_size": 53,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displaymasks_",
+          "segment": 1,
+          "source_offset": 13712,
+          "size": 448,
+          "unmasked_bytes": 332,
+          "anchor_size": 37,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "displayweapon_",
+          "segment": 1,
+          "source_offset": 15200,
+          "size": 6720,
+          "unmasked_bytes": 6332,
+          "anchor_size": 458,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "doincrements_",
+          "segment": 1,
+          "source_offset": 24144,
+          "size": 1296,
+          "unmasked_bytes": 1144,
+          "anchor_size": 111,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "forceplayerangle_",
+          "segment": 1,
+          "source_offset": 704,
+          "size": 64,
+          "unmasked_bytes": 60,
+          "anchor_size": 55,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getinput_",
+          "segment": 1,
+          "source_offset": 21920,
+          "size": 2224,
+          "unmasked_bytes": 1492,
+          "anchor_size": 48,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getspritescore_",
+          "segment": 1,
+          "source_offset": 39744,
+          "size": 1264,
+          "unmasked_bytes": 1140,
+          "anchor_size": 384,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "hitasprite_",
+          "segment": 1,
+          "source_offset": 1312,
+          "size": 272,
+          "unmasked_bytes": 200,
+          "anchor_size": 53,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "hitawall_",
+          "segment": 1,
+          "source_offset": 1584,
+          "size": 160,
+          "unmasked_bytes": 144,
+          "anchor_size": 56,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "hits_",
+          "segment": 1,
+          "source_offset": 1104,
+          "size": 208,
+          "unmasked_bytes": 156,
+          "anchor_size": 51,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 205024
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "incur_damage_",
+          "segment": 1,
+          "source_offset": 368,
+          "size": 208,
+          "unmasked_bytes": 188,
+          "anchor_size": 87,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "processinput_",
+          "segment": 1,
+          "source_offset": 25632,
+          "size": 14112,
+          "unmasked_bytes": 12608,
+          "anchor_size": 515,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "quickkill_",
+          "segment": 1,
+          "source_offset": 576,
+          "size": 128,
+          "unmasked_bytes": 104,
+          "anchor_size": 49,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "setpal_",
+          "segment": 1,
+          "source_offset": 208,
+          "size": 160,
+          "unmasked_bytes": 124,
+          "anchor_size": 25,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "shoot_",
+          "segment": 1,
+          "source_offset": 2784,
+          "size": 9488,
+          "unmasked_bytes": 7696,
+          "anchor_size": 261,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "tracers_",
+          "segment": 1,
+          "source_offset": 768,
+          "size": 336,
+          "unmasked_bytes": 304,
+          "anchor_size": 154,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "premap",
+      "object_sha256": "1de9397b333b7e5033af4320fb2a13dcab9625f256ffc1f589e3a8585224d903",
+      "functions": [
+        {
+          "symbol": "cachegoodsprites_",
+          "segment": 1,
+          "source_offset": 1616,
+          "size": 800,
+          "unmasked_bytes": 648,
+          "anchor_size": 32,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "cacheit_",
+          "segment": 1,
+          "source_offset": 2752,
+          "size": 496,
+          "unmasked_bytes": 352,
+          "anchor_size": 29,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "cachespritenum_",
+          "segment": 1,
+          "source_offset": 32,
+          "size": 1584,
+          "unmasked_bytes": 1360,
+          "anchor_size": 145,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "clearfifo_",
+          "segment": 1,
+          "source_offset": 11904,
+          "size": 432,
+          "unmasked_bytes": 348,
+          "anchor_size": 69,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "clearfrags_",
+          "segment": 1,
+          "source_offset": 10752,
+          "size": 128,
+          "unmasked_bytes": 116,
+          "anchor_size": 70,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "docacheit_",
+          "segment": 1,
+          "source_offset": 3248,
+          "size": 176,
+          "unmasked_bytes": 156,
+          "anchor_size": 74,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dofrontscreens_",
+          "segment": 1,
+          "source_offset": 11392,
+          "size": 512,
+          "unmasked_bytes": 352,
+          "anchor_size": 35,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "enterlevel_",
+          "segment": 1,
+          "source_offset": 12592,
+          "size": 1224,
+          "unmasked_bytes": 720,
+          "anchor_size": 71,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "genspriteremaps_",
+          "segment": 1,
+          "source_offset": 10944,
+          "size": 288,
+          "unmasked_bytes": 168,
+          "anchor_size": 17,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getsound_",
+          "segment": 1,
+          "source_offset": 2416,
+          "size": 256,
+          "unmasked_bytes": 196,
+          "anchor_size": 54,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "newgame_",
+          "segment": 1,
+          "source_offset": 8832,
+          "size": 592,
+          "unmasked_bytes": 376,
+          "anchor_size": 55,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "pickrandomspot_",
+          "segment": 1,
+          "source_offset": 3888,
+          "size": 192,
+          "unmasked_bytes": 152,
+          "anchor_size": 31,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "precachenecessarysounds_",
+          "segment": 1,
+          "source_offset": 2672,
+          "size": 80,
+          "unmasked_bytes": 64,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "prelevel_",
+          "segment": 1,
+          "source_offset": 6096,
+          "size": 2736,
+          "unmasked_bytes": 2136,
+          "anchor_size": 271,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "resetinventory_",
+          "segment": 1,
+          "source_offset": 5104,
+          "size": 160,
+          "unmasked_bytes": 152,
+          "anchor_size": 94,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "resetmys_",
+          "segment": 1,
+          "source_offset": 12336,
+          "size": 256,
+          "unmasked_bytes": 120,
+          "anchor_size": 25,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "resetplayerstats_",
+          "segment": 1,
+          "source_offset": 4080,
+          "size": 816,
+          "unmasked_bytes": 772,
+          "anchor_size": 357,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "resetprestat_",
+          "segment": 1,
+          "source_offset": 5264,
+          "size": 544,
+          "unmasked_bytes": 388,
+          "anchor_size": 125,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "resetpspritevars_",
+          "segment": 1,
+          "source_offset": 9424,
+          "size": 1328,
+          "unmasked_bytes": 980,
+          "anchor_size": 62,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "resettimevars_",
+          "segment": 1,
+          "source_offset": 10880,
+          "size": 64,
+          "unmasked_bytes": 28,
+          "anchor_size": 5,
+          "locations": [],
+          "status": "insufficient_anchor"
+        },
+        {
+          "symbol": "resetweapons_",
+          "segment": 1,
+          "source_offset": 4896,
+          "size": 208,
+          "unmasked_bytes": 204,
+          "anchor_size": 169,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "setupbackdrop_",
+          "segment": 1,
+          "source_offset": 5808,
+          "size": 288,
+          "unmasked_bytes": 204,
+          "anchor_size": 43,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "tloadtile_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 32,
+          "unmasked_bytes": 28,
+          "anchor_size": 19,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "vscrn_",
+          "segment": 1,
+          "source_offset": 3600,
+          "size": 288,
+          "unmasked_bytes": 212,
+          "anchor_size": 38,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "waitforeverybody_",
+          "segment": 1,
+          "source_offset": 11232,
+          "size": 160,
+          "unmasked_bytes": 100,
+          "anchor_size": 26,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "xyzmirror_",
+          "segment": 1,
+          "source_offset": 3424,
+          "size": 176,
+          "unmasked_bytes": 92,
+          "anchor_size": 15,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 240976
+            }
+          ],
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "module": "rts",
+      "object_sha256": "1d7bbc4c05fa150d21f2a517a996fce4d592820b7b609bebbf3162cbddf8997b",
+      "functions": [
+        {
+          "symbol": "RTS_AddFile_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 368,
+          "unmasked_bytes": 264,
+          "anchor_size": 33,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "RTS_GetSoundName_",
+          "segment": 1,
+          "source_offset": 560,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 18,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "RTS_GetSound_",
+          "segment": 1,
+          "source_offset": 736,
+          "size": 165,
+          "unmasked_bytes": 101,
+          "anchor_size": 15,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 286992
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "RTS_Init_",
+          "segment": 1,
+          "source_offset": 368,
+          "size": 112,
+          "unmasked_bytes": 64,
+          "anchor_size": 21,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 286624
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "RTS_NumSounds_",
+          "segment": 1,
+          "source_offset": 480,
+          "size": 16,
+          "unmasked_bytes": 12,
+          "anchor_size": 11,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 286736
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "RTS_ReadLump_",
+          "segment": 1,
+          "source_offset": 624,
+          "size": 112,
+          "unmasked_bytes": 80,
+          "anchor_size": 18,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 286880
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "RTS_SoundLength_",
+          "segment": 1,
+          "source_offset": 496,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 19,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "sector",
+      "object_sha256": "8efc585906f94f4a1f496b6282f66bc5b39ceffd58d5a1bbefb7faa64ddbd8cb",
+      "functions": [
+        {
+          "symbol": "activatebysector_",
+          "segment": 1,
+          "source_offset": 12560,
+          "size": 112,
+          "unmasked_bytes": 88,
+          "anchor_size": 17,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "activatewarpelevators_",
+          "segment": 1,
+          "source_offset": 3472,
+          "size": 416,
+          "unmasked_bytes": 244,
+          "anchor_size": 45,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "allignwarpelevators_",
+          "segment": 1,
+          "source_offset": 22688,
+          "size": 336,
+          "unmasked_bytes": 148,
+          "anchor_size": 18,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animatecamsprite_",
+          "segment": 1,
+          "source_offset": 2704,
+          "size": 208,
+          "unmasked_bytes": 148,
+          "anchor_size": 32,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "animatewalls_",
+          "segment": 1,
+          "source_offset": 2912,
+          "size": 560,
+          "unmasked_bytes": 428,
+          "anchor_size": 91,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "breakwall_",
+          "segment": 1,
+          "source_offset": 12672,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 13,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "callsound_",
+          "segment": 1,
+          "source_offset": 0,
+          "size": 480,
+          "unmasked_bytes": 368,
+          "anchor_size": 44,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "cheatkeys_",
+          "segment": 1,
+          "source_offset": 23024,
+          "size": 3200,
+          "unmasked_bytes": 2864,
+          "anchor_size": 463,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "check_activator_motion_",
+          "segment": 1,
+          "source_offset": 480,
+          "size": 304,
+          "unmasked_bytes": 256,
+          "anchor_size": 48,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkcursectnums_",
+          "segment": 1,
+          "source_offset": 1040,
+          "size": 80,
+          "unmasked_bytes": 64,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkhitceiling_",
+          "segment": 1,
+          "source_offset": 16000,
+          "size": 704,
+          "unmasked_bytes": 556,
+          "anchor_size": 63,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkhitsprite_",
+          "segment": 1,
+          "source_offset": 16704,
+          "size": 5984,
+          "unmasked_bytes": 4676,
+          "anchor_size": 900,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkhitswitch_",
+          "segment": 1,
+          "source_offset": 8832,
+          "size": 3728,
+          "unmasked_bytes": 3300,
+          "anchor_size": 462,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkhitwall_",
+          "segment": 1,
+          "source_offset": 12736,
+          "size": 2672,
+          "unmasked_bytes": 2288,
+          "anchor_size": 372,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checkplayerhurt_",
+          "segment": 1,
+          "source_offset": 15408,
+          "size": 592,
+          "unmasked_bytes": 536,
+          "anchor_size": 77,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "checksectors_",
+          "segment": 1,
+          "source_offset": 26224,
+          "size": 3689,
+          "unmasked_bytes": 2889,
+          "anchor_size": 137,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "dist_",
+          "segment": 1,
+          "source_offset": 1168,
+          "size": 48,
+          "unmasked_bytes": 44,
+          "anchor_size": 35,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 254816
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "doanimations_",
+          "segment": 1,
+          "source_offset": 1776,
+          "size": 704,
+          "unmasked_bytes": 488,
+          "anchor_size": 46,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "findotherplayer_",
+          "segment": 1,
+          "source_offset": 1568,
+          "size": 208,
+          "unmasked_bytes": 168,
+          "anchor_size": 38,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "findplayer_",
+          "segment": 1,
+          "source_offset": 1216,
+          "size": 352,
+          "unmasked_bytes": 292,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "getanimationgoal_",
+          "segment": 1,
+          "source_offset": 2480,
+          "size": 64,
+          "unmasked_bytes": 56,
+          "anchor_size": 30,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "isadoorwall_",
+          "segment": 1,
+          "source_offset": 784,
+          "size": 176,
+          "unmasked_bytes": 128,
+          "anchor_size": 116,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "isanearoperator_",
+          "segment": 1,
+          "source_offset": 992,
+          "size": 48,
+          "unmasked_bytes": 48,
+          "anchor_size": 48,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 254640
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "isanunderoperator_",
+          "segment": 1,
+          "source_offset": 960,
+          "size": 32,
+          "unmasked_bytes": 28,
+          "anchor_size": 20,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 254608
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "ldist_",
+          "segment": 1,
+          "source_offset": 1120,
+          "size": 48,
+          "unmasked_bytes": 44,
+          "anchor_size": 26,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "operateactivators_",
+          "segment": 1,
+          "source_offset": 7824,
+          "size": 720,
+          "unmasked_bytes": 536,
+          "anchor_size": 39,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "operateforcefields_",
+          "segment": 1,
+          "source_offset": 8624,
+          "size": 208,
+          "unmasked_bytes": 164,
+          "anchor_size": 37,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "operatemasterswitches_",
+          "segment": 1,
+          "source_offset": 8544,
+          "size": 80,
+          "unmasked_bytes": 56,
+          "anchor_size": 14,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "operaterespawns_",
+          "segment": 1,
+          "source_offset": 7680,
+          "size": 144,
+          "unmasked_bytes": 104,
+          "anchor_size": 21,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "operatesectors_",
+          "segment": 1,
+          "source_offset": 3888,
+          "size": 3792,
+          "unmasked_bytes": 2988,
+          "anchor_size": 93,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "setanimation_",
+          "segment": 1,
+          "source_offset": 2544,
+          "size": 160,
+          "unmasked_bytes": 124,
+          "anchor_size": 34,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    },
+    {
+      "module": "sounds",
+      "object_sha256": "3047c4d534844c817ba48038b84e4cee485cb11e0b557650aea5970409682d66",
+      "functions": [
+        {
+          "symbol": "MusicShutdown_",
+          "segment": 1,
+          "source_offset": 656,
+          "size": 64,
+          "unmasked_bytes": 36,
+          "anchor_size": 11,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 282176
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "MusicStartup_",
+          "segment": 1,
+          "source_offset": 400,
+          "size": 256,
+          "unmasked_bytes": 144,
+          "anchor_size": 36,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "SoundShutdown_",
+          "segment": 1,
+          "source_offset": 352,
+          "size": 48,
+          "unmasked_bytes": 32,
+          "anchor_size": 14,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 281952
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "SoundStartup_",
+          "segment": 1,
+          "source_offset": 48,
+          "size": 304,
+          "unmasked_bytes": 212,
+          "anchor_size": 45,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "TestCallBack_",
+          "segment": 1,
+          "source_offset": 4528,
+          "size": 368,
+          "unmasked_bytes": 296,
+          "anchor_size": 57,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "USRHOOKS_FreeMem_",
+          "segment": 1,
+          "source_offset": 752,
+          "size": 16,
+          "unmasked_bytes": 12,
+          "anchor_size": 11,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 282272
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "USRHOOKS_GetMem_",
+          "segment": 1,
+          "source_offset": 720,
+          "size": 32,
+          "unmasked_bytes": 28,
+          "anchor_size": 22,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 282240
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "clearsoundlocks_",
+          "segment": 1,
+          "source_offset": 4896,
+          "size": 73,
+          "unmasked_bytes": 57,
+          "anchor_size": 19,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "intomenusounds_",
+          "segment": 1,
+          "source_offset": 768,
+          "size": 112,
+          "unmasked_bytes": 88,
+          "anchor_size": 24,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "loadsound_",
+          "segment": 1,
+          "source_offset": 1008,
+          "size": 240,
+          "unmasked_bytes": 164,
+          "anchor_size": 24,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "pan3dsound_",
+          "segment": 1,
+          "source_offset": 3728,
+          "size": 800,
+          "unmasked_bytes": 624,
+          "anchor_size": 55,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "playmusic_",
+          "segment": 1,
+          "source_offset": 880,
+          "size": 128,
+          "unmasked_bytes": 80,
+          "anchor_size": 12,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 282384
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "sound_",
+          "segment": 1,
+          "source_offset": 2928,
+          "size": 560,
+          "unmasked_bytes": 428,
+          "anchor_size": 32,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "spritesound_",
+          "segment": 1,
+          "source_offset": 3488,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 28,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "stopenvsound_",
+          "segment": 1,
+          "source_offset": 3616,
+          "size": 112,
+          "unmasked_bytes": 92,
+          "anchor_size": 31,
+          "locations": [],
+          "status": "not_found"
+        },
+        {
+          "symbol": "stopsound_",
+          "segment": 1,
+          "source_offset": 3552,
+          "size": 64,
+          "unmasked_bytes": 48,
+          "anchor_size": 28,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 284832
+            }
+          ],
+          "status": "candidate"
+        },
+        {
+          "symbol": "xyzsound_",
+          "segment": 1,
+          "source_offset": 1248,
+          "size": 1680,
+          "unmasked_bytes": 1296,
+          "anchor_size": 49,
+          "locations": [],
+          "status": "not_found"
+        }
+      ]
+    }
+  ]
+}

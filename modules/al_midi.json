@@ -1,0 +1,31 @@
+{
+  "name": "AL_MIDI",
+  "source": "src/audio/al_midi.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/zu"
+  ],
+  "code_object": 1,
+  "code_offset": 538560,
+  "code_bytes": 6019,
+  "code_publics": 30,
+  "symbol_anchors": {
+    "DPMI_LockMemoryRegion_": [
+      1,
+      527060
+    ],
+    "DPMI_UnlockMemoryRegion_": [
+      1,
+      527152
+    ]
+  },
+  "anchor_evidence": "evidence/dpmi-module.json",
+  "expected": {
+    "initialized_bytes": 7780,
+    "zero_fill_bytes": 2688,
+    "verified_fixups": 406
+  }
+}

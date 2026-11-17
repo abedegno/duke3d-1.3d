@@ -1,0 +1,295 @@
+{
+  "name": "SECTOR",
+  "source": "src/game/sector.c",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include",
+    "src/engine/include"
+  ],
+  "source_reference_evidence": "evidence/sector-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "code_object": 1,
+  "code_offset": 253632,
+  "code_bytes": 27953,
+  "code_publics": 30,
+  "symbol_anchors": {
+    "EGS_": [
+      1,
+      30672
+    ],
+    "FTA_": [
+      1,
+      22704
+    ],
+    "FX_StopAllSounds_": [
+      1,
+      526644
+    ],
+    "FX_StopSound_": [
+      1,
+      526616
+    ],
+    "FindDistance3D_": [
+      1,
+      566268
+    ],
+    "MUSIC_Continue_": [
+      1,
+      491091
+    ],
+    "MUSIC_Pause_": [
+      1,
+      491096
+    ],
+    "_KB_KeyDown": [
+      3,
+      2130912
+    ],
+    "_MusicToggle": [
+      3,
+      587636
+    ],
+    "_Sound": [
+      3,
+      574936
+    ],
+    "_actorscrptr": [
+      3,
+      266136
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_freezerhurtowner": [
+      3,
+      31184
+    ],
+    "_headspritesect": [
+      3,
+      1647034
+    ],
+    "_headspritestat": [
+      3,
+      1644984
+    ],
+    "_hittype": [
+      3,
+      120728
+    ],
+    "_max_player_health": [
+      3,
+      579532
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_neartaghitdist": [
+      3,
+      574860
+    ],
+    "_neartagsector": [
+      3,
+      581286
+    ],
+    "_neartagsprite": [
+      3,
+      581288
+    ],
+    "_neartagwall": [
+      3,
+      581292
+    ],
+    "_nextspritesect": [
+      3,
+      1080256
+    ],
+    "_nextspritestat": [
+      3,
+      1088448
+    ],
+    "_numwalls": [
+      3,
+      1649142
+    ],
+    "_ps": [
+      3,
+      376112
+    ],
+    "_screenpeek": [
+      3,
+      581290
+    ],
+    "_sector": [
+      3,
+      1597120
+    ],
+    "_sintable": [
+      3,
+      1285056
+    ],
+    "_soundm": [
+      3,
+      573880
+    ],
+    "_sprite": [
+      3,
+      1104832
+    ],
+    "_sync": [
+      3,
+      573632
+    ],
+    "_ud": [
+      3,
+      579668
+    ],
+    "_wall": [
+      3,
+      1289152
+    ],
+    "addweapon_": [
+      1,
+      84864
+    ],
+    "badguy_": [
+      1,
+      10560
+    ],
+    "changespritesect_": [
+      1,
+      353812
+    ],
+    "changespritestat_": [
+      1,
+      353883
+    ],
+    "checkavailinven_": [
+      1,
+      85040
+    ],
+    "clearsoundlocks_": [
+      1,
+      286192
+    ],
+    "deletesprite_": [
+      1,
+      353362
+    ],
+    "getangle_": [
+      1,
+      331976
+    ],
+    "guts_": [
+      1,
+      89776
+    ],
+    "hitasprite_": [
+      1,
+      205232
+    ],
+    "hits_": [
+      1,
+      205024
+    ],
+    "krand_": [
+      1,
+      377409
+    ],
+    "lotsofmoney_": [
+      1,
+      89648
+    ],
+    "neartag_": [
+      1,
+      359182
+    ],
+    "nextsectorneighborz_": [
+      1,
+      353954
+    ],
+    "pushmove_": [
+      1,
+      368227
+    ],
+    "setinterpolation_": [
+      1,
+      84240
+    ],
+    "setpal_": [
+      1,
+      204096
+    ],
+    "shoot_": [
+      1,
+      206624
+    ],
+    "sound_": [
+      1,
+      284224
+    ],
+    "spawn_": [
+      1,
+      31536
+    ],
+    "spritesound_": [
+      1,
+      284768
+    ],
+    "stopinterpolation_": [
+      1,
+      84320
+    ],
+    "stopsound_": [
+      1,
+      284832
+    ],
+    "testcallback_": [
+      1,
+      285856
+    ],
+    "updatesector_": [
+      1,
+      369184
+    ],
+    "xyzmirror_": [
+      1,
+      240976
+    ],
+    "xyzsound_": [
+      1,
+      282736
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 27953,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 1382
+  },
+  "anchor_evidence": [
+    "evidence/engine-function-matches.json",
+    "evidence/gamedef-module.json",
+    "evidence/sounds-module.json",
+    "evidence/mmulti-module.json",
+    "evidence/config-module.json",
+    "evidence/fx_man-module.json",
+    "evidence/music-module.json",
+    "evidence/actors-progress.json",
+    "evidence/premap-progress.json"
+  ]
+}

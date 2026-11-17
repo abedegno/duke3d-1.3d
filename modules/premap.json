@@ -1,0 +1,482 @@
+{
+  "name": "PREMAP",
+  "source": "src/game/premap.c",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include",
+    "src/engine/include"
+  ],
+  "source_reference_evidence": "evidence/premap-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "code_object": 1,
+  "code_offset": 240976,
+  "code_bytes": 12654,
+  "code_publics": 22,
+  "symbol_anchors": {
+    "EGS_": [
+      1,
+      30672
+    ],
+    "FX_SetReverb_": [
+      1,
+      525956
+    ],
+    "FX_StopAllSounds_": [
+      1,
+      526644
+    ],
+    "KB_FlushKeyboardQueue_": [
+      1,
+      568860
+    ],
+    "MUSIC_StopSong_": [
+      1,
+      491101
+    ],
+    "_FXDevice": [
+      3,
+      587736
+    ],
+    "_KB_KeyDown": [
+      3,
+      2130912
+    ],
+    "_Sound": [
+      3,
+      574936
+    ],
+    "_SoundToggle": [
+      3,
+      587640
+    ],
+    "_automapping": [
+      3,
+      1649275
+    ],
+    "_cachedebug": [
+      3,
+      32051
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_headspritesect": [
+      3,
+      1647034
+    ],
+    "_headspritestat": [
+      3,
+      1644984
+    ],
+    "_hittype": [
+      3,
+      120728
+    ],
+    "_level_file_names": [
+      3,
+      111808
+    ],
+    "_level_names": [
+      3,
+      581308
+    ],
+    "_loadfromgrouponly": [
+      3,
+      582928
+    ],
+    "_max_armour_amount": [
+      3,
+      579484
+    ],
+    "_max_player_health": [
+      3,
+      579532
+    ],
+    "_music_fn": [
+      3,
+      582397
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_nextspritesect": [
+      3,
+      1080256
+    ],
+    "_nextspritestat": [
+      3,
+      1088448
+    ],
+    "_numplayers": [
+      3,
+      1733240
+    ],
+    "_numsectors": [
+      3,
+      1649144
+    ],
+    "_numwalls": [
+      3,
+      1649142
+    ],
+    "_palette": [
+      3,
+      1596352
+    ],
+    "_parallaxtype": [
+      3,
+      1649276
+    ],
+    "_parallaxyscale": [
+      3,
+      1640116
+    ],
+    "_ps": [
+      3,
+      376112
+    ],
+    "_pskybits": [
+      3,
+      1649138
+    ],
+    "_pskyoff": [
+      3,
+      1043648
+    ],
+    "_randomseed": [
+      3,
+      1644952
+    ],
+    "_screenpeek": [
+      3,
+      581290
+    ],
+    "_sector": [
+      3,
+      1597120
+    ],
+    "_show2dsector": [
+      3,
+      1008064
+    ],
+    "_show2dsprite": [
+      3,
+      1043136
+    ],
+    "_show2dwall": [
+      3,
+      1025088
+    ],
+    "_sounds": [
+      3,
+      282520
+    ],
+    "_soundsiz": [
+      3,
+      117424
+    ],
+    "_sprite": [
+      3,
+      1104832
+    ],
+    "_sync": [
+      3,
+      573632
+    ],
+    "_tempbuf": [
+      3,
+      413968
+    ],
+    "_tilesizx": [
+      3,
+      1048384
+    ],
+    "_tilesizy": [
+      3,
+      1056576
+    ],
+    "_totalclock": [
+      3,
+      1644968
+    ],
+    "_ud": [
+      3,
+      579668
+    ],
+    "_wall": [
+      3,
+      1289152
+    ],
+    "_waloff": [
+      3,
+      1026752
+    ],
+    "_xdim": [
+      3,
+      1644980
+    ],
+    "_ydim": [
+      3,
+      1644976
+    ],
+    "allocache_": [
+      1,
+      418317
+    ],
+    "badguy_": [
+      1,
+      10560
+    ],
+    "clearsoundlocks_": [
+      1,
+      286192
+    ],
+    "clearview_": [
+      1,
+      405291
+    ],
+    "deletesprite_": [
+      1,
+      353362
+    ],
+    "drawmasks_": [
+      1,
+      332796
+    ],
+    "drawrooms_": [
+      1,
+      297360
+    ],
+    "flushpackets_": [
+      1,
+      425035
+    ],
+    "flushperms_": [
+      1,
+      381313
+    ],
+    "gameexit_": [
+      1,
+      22896
+    ],
+    "kclose_": [
+      1,
+      420443
+    ],
+    "kfilelength_": [
+      1,
+      420387
+    ],
+    "kopen4load_": [
+      1,
+      419813
+    ],
+    "krand_": [
+      1,
+      377409
+    ],
+    "kread_": [
+      1,
+      420053
+    ],
+    "loadboard_": [
+      1,
+      320819
+    ],
+    "loadtile_": [
+      1,
+      328028
+    ],
+    "makepalookup_": [
+      1,
+      390263
+    ],
+    "memcpy_": [
+      1,
+      583849
+    ],
+    "nextpage_": [
+      1,
+      326546
+    ],
+    "playmusic_": [
+      1,
+      282384
+    ],
+    "rotatesprite_": [
+      1,
+      381330
+    ],
+    "sendpacket_": [
+      1,
+      423523
+    ],
+    "setpal_": [
+      1,
+      204096
+    ],
+    "setview_": [
+      1,
+      380407
+    ],
+    "setviewback_": [
+      1,
+      407131
+    ],
+    "setviewtotile_": [
+      1,
+      406660
+    ],
+    "spawn_": [
+      1,
+      31536
+    ],
+    "sprintf_": [
+      1,
+      583257
+    ],
+    "squarerotatetile_": [
+      1,
+      407532
+    ],
+    "updatesector_": [
+      1,
+      369184
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 12932,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 815
+  },
+  "anchor_evidence": [
+    "evidence/engine-function-matches.json",
+    "evidence/sounds-module.json",
+    "evidence/mmulti-module.json",
+    "evidence/fx_man-module.json",
+    "evidence/music-module.json",
+    "evidence/gamedef-module.json"
+  ],
+  "expected_publics": {
+    "_dmval": [
+      5,
+      0
+    ],
+    "xyzmirror_": [
+      1,
+      0
+    ],
+    "vscrn_": [
+      1,
+      176
+    ],
+    "pickrandomspot_": [
+      1,
+      480
+    ],
+    "resetplayerstats_": [
+      1,
+      656
+    ],
+    "resetweapons_": [
+      1,
+      1472
+    ],
+    "resetinventory_": [
+      1,
+      1648
+    ],
+    "resetprestat_": [
+      1,
+      1792
+    ],
+    "setupbackdrop_": [
+      1,
+      2240
+    ],
+    "cachespritenum_": [
+      1,
+      2544
+    ],
+    "cachegoodsprites_": [
+      1,
+      4000
+    ],
+    "prelevel_": [
+      1,
+      4528
+    ],
+    "newgame_": [
+      1,
+      7120
+    ],
+    "resetpspritevars_": [
+      1,
+      7456
+    ],
+    "resettimevars_": [
+      1,
+      8784
+    ],
+    "genspriteremaps_": [
+      1,
+      9248
+    ],
+    "waitforeverybody_": [
+      1,
+      9536
+    ],
+    "compare_network_value_": [
+      1,
+      9952
+    ],
+    "getsound_": [
+      1,
+      10144
+    ],
+    "precachenecessarysounds_": [
+      1,
+      10384
+    ],
+    "cacheit_": [
+      1,
+      10448
+    ],
+    "dofrontscreens_": [
+      1,
+      10800
+    ],
+    "enterlevel_": [
+      1,
+      11264
+    ],
+    "_wait_abort": [
+      5,
+      4
+    ],
+    "_premap_text": [
+      6,
+      0
+    ]
+  },
+  "expected_local_publics": [
+    "_dmval",
+    "_premap_text"
+  ]
+}

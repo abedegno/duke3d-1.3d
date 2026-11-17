@@ -1,0 +1,729 @@
+{
+  "scope": "ROOT adoption of an uncredited complete source/link candidate; strict module mismatches retained.",
+  "worker_commit": "f9295241f442f101026a10855d7838a3586c10c6",
+  "root_source_commit": "d67df40",
+  "source_credit": 0,
+  "complete_module": false,
+  "fixed_target_layout_verified": false,
+  "full_executable_rebuilt": false,
+  "source": "src/mact/control.c",
+  "source_sha256": "ae8712bec98014db5d12875f274e46e0e7fa55a1be8f08ceda76d0eb2e02f9d3",
+  "object": "/Users/jonw/duke3d/build/task359-control-root/native/control-nesge3w1/mact_control.obj",
+  "object_sha256": "d92432fe5ecbc769d73d9f2902c2f4d212de1f518a8ea6c86f4f61b609e50b36",
+  "runtime": {
+    "initialized_bytes": 7312,
+    "zero_fill_bytes": 1612,
+    "fixups": 467
+  },
+  "runtime_sha256": "ac5610443ed7cf596f488e6b6ff57afc9f78a9a3fd19de3ed8c4b17c565a8d34",
+  "normal_result": {
+    "path": "/Users/jonw/duke3d/build/task359-control-root/normal-result.json",
+    "sha256": "82239475d29051a3e1888076ff43b9af285952b8848cc75dea7bdd76a92e4952"
+  },
+  "original_whole_verification": {
+    "verified": true,
+    "initialized_bytes": 7452,
+    "zero_fill_bytes": 1612,
+    "verified_fixups": 470,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 570960,
+        "compared_bytes": 6329,
+        "verified_fixups": 470,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 26628,
+        "compared_bytes": 1055,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 71696,
+        "compared_bytes": 68,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 2131056,
+        "compared_bytes": 1612,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "CONTROL_GetMouseDelta_": [
+        1,
+        570960
+      ],
+      "CONTROL_GetMouseSensitivity_": [
+        1,
+        571072
+      ],
+      "CONTROL_SetMouseSensitivity_": [
+        1,
+        571084
+      ],
+      "CONTROL_GetMouseButtons_": [
+        1,
+        571096
+      ],
+      "CONTROL_StartMouse_": [
+        1,
+        571104
+      ],
+      "CONTROL_GetJoyAbs_": [
+        1,
+        571120
+      ],
+      "CONTROL_FilterJoyDelta_": [
+        1,
+        571260
+      ],
+      "CONTROL_GetJoyDelta_": [
+        1,
+        571436
+      ],
+      "CONTROL_JoyButtons_": [
+        1,
+        571544
+      ],
+      "CONTROL_SetJoyScale_": [
+        1,
+        571720
+      ],
+      "CONTROL_SetupJoy_": [
+        1,
+        571864
+      ],
+      "CONTROL_CenterJoystick_": [
+        1,
+        572000
+      ],
+      "CONTROL_StartJoy_": [
+        1,
+        572608
+      ],
+      "CONTROL_ShutJoy_": [
+        1,
+        572712
+      ],
+      "CONTROL_ExternalStartup_": [
+        1,
+        572724
+      ],
+      "CONTROL_ExternalSetup_": [
+        1,
+        572868
+      ],
+      "CONTROL_PollExternalControl_": [
+        1,
+        573076
+      ],
+      "CONTROL_GetTime_": [
+        1,
+        573188
+      ],
+      "CONTROL_CheckRange_": [
+        1,
+        573208
+      ],
+      "CONTROL_SetFlag_": [
+        1,
+        573236
+      ],
+      "CONTROL_KeyboardFunctionPressed_": [
+        1,
+        573324
+      ],
+      "CONTROL_ClearKeyboardFunction_": [
+        1,
+        573408
+      ],
+      "CONTROL_DefineFlag_": [
+        1,
+        573464
+      ],
+      "CONTROL_FlagActive_": [
+        1,
+        573556
+      ],
+      "CONTROL_MapKey_": [
+        1,
+        573580
+      ],
+      "CONTROL_PrintKeyMap_": [
+        1,
+        573604
+      ],
+      "CONTROL_PrintControlFlag_": [
+        1,
+        573656
+      ],
+      "CONTROL_PrintAxes_": [
+        1,
+        573728
+      ],
+      "CONTROL_MapButton_": [
+        1,
+        573808
+      ],
+      "CONTROL_MapAnalogAxis_": [
+        1,
+        573876
+      ],
+      "CONTROL_SetAnalogAxisScale_": [
+        1,
+        573940
+      ],
+      "CONTROL_MapDigitalAxis_": [
+        1,
+        573980
+      ],
+      "CONTROL_ClearFlags_": [
+        1,
+        574056
+      ],
+      "CONTROL_ClearAssignments_": [
+        1,
+        574080
+      ],
+      "CONTROL_GetDeviceButtons_": [
+        1,
+        574200
+      ],
+      "CONTROL_DigitizeAxis_": [
+        1,
+        574480
+      ],
+      "CONTROL_ScaleAxis_": [
+        1,
+        574596
+      ],
+      "CONTROL_ApplyAxis_": [
+        1,
+        574664
+      ],
+      "CONTROL_PollDevices_": [
+        1,
+        574764
+      ],
+      "CONTROL_AxisFunctionState_": [
+        1,
+        575120
+      ],
+      "CONTROL_ButtonFunctionState_": [
+        1,
+        575216
+      ],
+      "CONTROL_GetUserInput_": [
+        1,
+        575304
+      ],
+      "CONTROL_ClearUserInput_": [
+        1,
+        575712
+      ],
+      "CONTROL_ClearButton_": [
+        1,
+        576088
+      ],
+      "CONTROL_GetInput_": [
+        1,
+        576180
+      ],
+      "CONTROL_WaitRelease_": [
+        1,
+        576428
+      ],
+      "CONTROL_Ack_": [
+        1,
+        576464
+      ],
+      "CONTROL_Startup_": [
+        1,
+        576624
+      ],
+      "CONTROL_Shutdown_": [
+        1,
+        577248
+      ],
+      "MOUSE_GetDelta_": [
+        1,
+        554008
+      ],
+      "_CONTROL_MouseSensitivity": [
+        3,
+        71720
+      ],
+      "MOUSE_GetButtons_": [
+        1,
+        554068
+      ],
+      "_CONTROL_NumButtons": [
+        3,
+        71752
+      ],
+      "MOUSE_Init_": [
+        1,
+        554112
+      ],
+      "_Joy_mask": [
+        3,
+        67982
+      ],
+      "JoyStick_Vals_": [
+        2,
+        128
+      ],
+      "_Joy_x2": [
+        3,
+        67974
+      ],
+      "_CONTROL_JoyXAxis": [
+        3,
+        71724
+      ],
+      "_Joy_y2": [
+        3,
+        67978
+      ],
+      "_CONTROL_JoyYAxis": [
+        3,
+        71728
+      ],
+      "_CONTROL_RudderEnabled": [
+        3,
+        71696
+      ],
+      "_CONTROL_ThrottleEnabled": [
+        3,
+        71744
+      ],
+      "_CONTROL_HatEnabled": [
+        3,
+        71740
+      ],
+      "_Joy_x1": [
+        3,
+        67966
+      ],
+      "_Joy_y1": [
+        3,
+        67970
+      ],
+      "_CONTROL_JoyXAxis2": [
+        3,
+        71732
+      ],
+      "_CONTROL_JoyYAxis2": [
+        3,
+        71736
+      ],
+      "_JoyDefs": [
+        3,
+        2132096
+      ],
+      "_CONTROL_FlightStickMode": [
+        3,
+        71748
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "_CONTROL_JoystickPort": [
+        3,
+        71712
+      ],
+      "_CONTROL_JoysPresent": [
+        3,
+        2132608
+      ],
+      "_CONTROL_ExternalEnabled": [
+        3,
+        71704
+      ],
+      "CheckParm_": [
+        1,
+        555440
+      ],
+      "printf_": [
+        1,
+        583204
+      ],
+      "__argv": [
+        3,
+        71848
+      ],
+      "atol_": [
+        1,
+        583945
+      ],
+      "_CONTROL_External": [
+        3,
+        2132628
+      ],
+      "_CONTROL_NumAxes": [
+        3,
+        71756
+      ],
+      "int386_": [
+        1,
+        588346
+      ],
+      "_CONTROL_Axes": [
+        3,
+        2131128
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "_CONTROL_Flags": [
+        3,
+        2131584
+      ],
+      "_CONTROL_KeyMapping": [
+        3,
+        2132480
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "_CONTROL_AxesMap": [
+        3,
+        2131176
+      ],
+      "_CONTROL_DeviceButtonMapping": [
+        3,
+        2131200
+      ],
+      "_CONTROL_AxesScale": [
+        3,
+        2131104
+      ],
+      "_CONTROL_LastAxes": [
+        3,
+        2131056
+      ],
+      "_GetTime": [
+        3,
+        2132632
+      ],
+      "_CONTROL_MouseEnabled": [
+        3,
+        71700
+      ],
+      "_CONTROL_JoystickEnabled": [
+        3,
+        71708
+      ],
+      "_CONTROL_DoubleClickSpeed": [
+        3,
+        2132644
+      ],
+      "_CONTROL_DeviceButtonState": [
+        3,
+        2131328
+      ],
+      "_CONTROL_ButtonClickedState": [
+        3,
+        2132192
+      ],
+      "_CONTROL_ButtonClicked": [
+        3,
+        2132320
+      ],
+      "_CONTROL_ButtonClickedCount": [
+        3,
+        2132448
+      ],
+      "_CONTROL_ButtonClickedTime": [
+        3,
+        2131456
+      ],
+      "_ticrate": [
+        3,
+        2132640
+      ],
+      "_CONTROL_UserInputDelay": [
+        3,
+        71716
+      ],
+      "_CONTROL_UserInputCleared": [
+        3,
+        2132616
+      ],
+      "_CONTROL_ButtonState2": [
+        3,
+        2132664
+      ],
+      "_CONTROL_ButtonState1": [
+        3,
+        2132660
+      ],
+      "ServiceEvents_": [
+        1,
+        553864
+      ],
+      "_CONTROL_ButtonHeldState1": [
+        3,
+        2132648
+      ],
+      "_CONTROL_ButtonHeldState2": [
+        3,
+        2132652
+      ],
+      "_CONTROL_Started": [
+        3,
+        2132636
+      ],
+      "_CONTROL_MousePresent": [
+        3,
+        2132656
+      ],
+      "MOUSE_Shutdown_": [
+        1,
+        554160
+      ]
+    },
+    "local_symbols": {
+      "_CONTROL_Axes": [
+        3,
+        2131128
+      ],
+      "_CONTROL_AxesMap": [
+        3,
+        2131176
+      ],
+      "_CONTROL_AxesScale": [
+        3,
+        2131104
+      ],
+      "_CONTROL_ButtonClicked": [
+        3,
+        2132320
+      ],
+      "_CONTROL_ButtonClickedCount": [
+        3,
+        2132448
+      ],
+      "_CONTROL_ButtonClickedState": [
+        3,
+        2132192
+      ],
+      "_CONTROL_ButtonClickedTime": [
+        3,
+        2131456
+      ],
+      "_CONTROL_DeviceButtonMapping": [
+        3,
+        2131200
+      ],
+      "_CONTROL_DeviceButtonState": [
+        3,
+        2131328
+      ],
+      "_CONTROL_DoubleClickSpeed": [
+        3,
+        2132644
+      ],
+      "_CONTROL_External": [
+        3,
+        2132628
+      ],
+      "_CONTROL_Flags": [
+        3,
+        2131584
+      ],
+      "_CONTROL_FlightStickMode": [
+        3,
+        71748
+      ],
+      "_CONTROL_HatEnabled": [
+        3,
+        71740
+      ],
+      "_CONTROL_JoyXAxis": [
+        3,
+        71724
+      ],
+      "_CONTROL_JoyXAxis2": [
+        3,
+        71732
+      ],
+      "_CONTROL_JoyYAxis": [
+        3,
+        71728
+      ],
+      "_CONTROL_JoyYAxis2": [
+        3,
+        71736
+      ],
+      "_CONTROL_KeyMapping": [
+        3,
+        2132480
+      ],
+      "_CONTROL_LastAxes": [
+        3,
+        2131056
+      ],
+      "_CONTROL_MouseSensitivity": [
+        3,
+        71720
+      ],
+      "_CONTROL_NumAxes": [
+        3,
+        71756
+      ],
+      "_CONTROL_NumButtons": [
+        3,
+        71752
+      ],
+      "_CONTROL_Started": [
+        3,
+        2132636
+      ],
+      "_CONTROL_ThrottleEnabled": [
+        3,
+        71744
+      ],
+      "_CONTROL_UserInputCleared": [
+        3,
+        2132616
+      ],
+      "_CONTROL_UserInputDelay": [
+        3,
+        71716
+      ],
+      "_GetTime": [
+        3,
+        2132632
+      ],
+      "_JoyDefs": [
+        3,
+        2132096
+      ],
+      "_ticrate": [
+        3,
+        2132640
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "source_whole_error": "conflicting binding for public CONTROL_StartJoy_",
+  "source_owned_whole_error": "_TEXT: LE fixup target mismatch at +0x455: None != (7, 3, 71712, False)",
+  "actual_DATA_differing_offsets": [
+    17,
+    18,
+    19
+  ],
+  "raw_CODE_different_functions": [
+    "CONTROL_Ack_",
+    "CONTROL_ApplyAxis_",
+    "CONTROL_CenterJoystick_",
+    "CONTROL_ClearUserInput_",
+    "CONTROL_FilterJoyDelta_",
+    "CONTROL_GetDeviceButtons_",
+    "CONTROL_GetUserInput_",
+    "CONTROL_JoyButtons_",
+    "CONTROL_KeyboardFunctionPressed_",
+    "CONTROL_PollExternalControl_",
+    "CONTROL_ScaleAxis_",
+    "CONTROL_Startup_"
+  ],
+  "all25_BSS_roles_equal": true,
+  "global_definitions": 60,
+  "external_dependencies": [
+    "MOUSE_GetDelta_",
+    "MOUSE_GetButtons_",
+    "MOUSE_Init_",
+    "_Joy_mask",
+    "JoyStick_Vals_",
+    "_Joy_x2",
+    "_Joy_y2",
+    "_Joy_x1",
+    "_Joy_y1",
+    "memset_",
+    "CheckParm_",
+    "printf_",
+    "__argv",
+    "atol_",
+    "int386_",
+    "Error_",
+    "_KB_KeyDown",
+    "ServiceEvents_",
+    "MOUSE_Shutdown_"
+  ],
+  "root_review": {
+    "tests": 7,
+    "seconds": 7.834,
+    "status": "PASS",
+    "extra_real_C_control": "MapKey stores key2 instead of key1; complete runtime guard rejects"
+  },
+  "link_diagnostic": {
+    "objects": 98,
+    "undefined_names": 33,
+    "resolved": [
+      "_control_buttonstate1",
+      "_control_buttonstate2",
+      "_control_joystickenabled",
+      "_control_joystickport",
+      "_control_mousepresent",
+      "_control_rudderenabled",
+      "control_centerjoystick_",
+      "control_clearassignments_",
+      "control_clearbutton_",
+      "control_defineflag_",
+      "control_getinput_",
+      "control_getmousesensitivity_",
+      "control_mapanalogaxis_",
+      "control_mapbutton_",
+      "control_mapdigitalaxis_",
+      "control_mapkey_",
+      "control_setanalogaxisscale_",
+      "control_setmousesensitivity_",
+      "control_shutdown_",
+      "control_startup_"
+    ],
+    "new_undefined": [],
+    "status": "FAILED",
+    "executable_present": false,
+    "all_inputs_unchanged": true,
+    "response_sha256": "cfb3079414cac088d4aad9b241ce3ba2d89fcfced6d3fa3e5d7707b5b5625e41",
+    "prior_response_sha256": "842f305081c64984d6beddcfa42281e203d68a2274a70b87e844d4956f2dd98d"
+  },
+  "graph": {
+    "objects": 98,
+    "actual_unique_global_definitions": 1799,
+    "actual_unique_global_import_names": 1677,
+    "native_undefined_exactly_matches_all_EXTDEFs": true,
+    "undefined_names": 33,
+    "duplicate_global_definitions": {},
+    "unsatisfied_local_externals": [],
+    "unreferenced_global_EXTDEF_occurrences": 64,
+    "source_credit_added": 0
+  },
+  "acceptance_scope_unchanged_sha256": {
+    "src/mact/control.c": "ae8712bec98014db5d12875f274e46e0e7fa55a1be8f08ceda76d0eb2e02f9d3",
+    "candidates/mact_control.json": "80362de28a5891e01e24de93eb0e05f3e6750362e9f3c7cfbef934bfab4f1370",
+    "tools/build_control_candidate.py": "4c75698bdea02c9f7df0c9ca3fde7fecccbd15031c6a2d8dccebe3580c1076ef",
+    "evidence/control-candidate-reference.json": "a6f38dff34660f5fa0575efb821b60a8007612fd5dd63c0cff24179cff6fc2fe",
+    "build/parallel-integrated-range-audit.json": "db9fb0c2b376d3f1964526240aad1ecc93753a7a3bbd084d8bb33c63efed59f5",
+    "evidence/watcom-runtime-components.json": "1e9a321f59e01f03067e3d7c2daf1e67223086cef9142854cd89f527cab20c52"
+  }
+}

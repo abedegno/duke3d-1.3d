@@ -1,0 +1,30 @@
+{
+  "name": "GUSWAVE",
+  "source": "src/audio/guswave.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 516336,
+  "code_bytes": 4950,
+  "code_publics": 27,
+  "symbol_anchors": {
+    "LL_AddNode_": [
+      1,
+      515184
+    ],
+    "LL_RemoveNode_": [
+      1,
+      515224
+    ]
+  },
+  "anchor_evidence": "evidence/ll_man-module.json",
+  "expected": {
+    "initialized_bytes": 7943,
+    "zero_fill_bytes": 488,
+    "verified_fixups": 295
+  }
+}

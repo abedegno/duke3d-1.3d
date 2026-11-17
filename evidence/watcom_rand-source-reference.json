@@ -1,0 +1,295 @@
+{
+  "repository": "https://github.com/open-watcom/owp4v1copy",
+  "commit": "6b9cb4438959d845a2b4dd4bf19f7908ecd608e9",
+  "inputs": [
+    {
+      "upstream": "bld/clib/math/c/rand.c",
+      "upstream_sha256": "a74aee766c51bb5999c3772e406c752e99421376ed253aefec1db2723accdd0f",
+      "tracked": "src/runtime/rand.c",
+      "tracked_sha256": "a74aee766c51bb5999c3772e406c752e99421376ed253aefec1db2723accdd0f",
+      "modifications": "Unchanged byte-for-byte."
+    },
+    {
+      "upstream": "bld/clib/math/h/randnext.h",
+      "upstream_sha256": "2470cd384271006888b89a28972926fc25840c8bb0aaab06ded7de57656a571c",
+      "tracked": "src/runtime/include/randnext.h",
+      "tracked_sha256": "2470cd384271006888b89a28972926fc25840c8bb0aaab06ded7de57656a571c",
+      "modifications": "Unchanged complete header byte-for-byte."
+    },
+    {
+      "upstream": "bld/lib_misc/h/variety.h",
+      "upstream_sha256": "c1416d4d8788d5e6449b40b737b5e7cb9167c52a716ccb9f92b8e817359f5025",
+      "tracked": "src/runtime/include/variety.h",
+      "tracked_sha256": "8e21561238003300c98822ed85057c82e15945eb695b93f145b93328d7caafbd",
+      "modifications": "Preserve original notice; replace unused general runtime interfaces with a dated, guarded RAND-only DOS 386 flat specialization. _WCRTLINK comes from _comdef.mh non-shared-runtime branch."
+    },
+    {
+      "upstream": "bld/lib_misc/h/rtdata.h",
+      "upstream_sha256": "ec5802692c057b6a581c04175d9354f42b848d3a0cd694992f0e7cdf1d915e57",
+      "tracked": "src/runtime/include/rtdata.h",
+      "tracked_sha256": "52af1ea57145c97048476d60db8a96ab7e26aa3dcabe5f051ec556c48c0ef230",
+      "modifications": "Preserve original notice and include guard; retain only variety.h inclusion and the actual _RWD_randnext alias. No replacement ABI declarations."
+    },
+    {
+      "upstream": "bld/hdr/watcom/_comdef.mh",
+      "upstream_sha256": "0b8a2a2b7cc329d2d0dd66a7a944b8aa9e962dbdc1aea48596769d51ceca894a",
+      "role": "Primary header generator template inspected for exact DOS linkage expansion, not compiled or supplied as C header."
+    }
+  ],
+  "license": "Sybase Open Watcom Public License version 1.0; original Sybase notices retained; no GPL relabeling",
+  "license_file": "src/runtime/license.txt",
+  "license_file_sha256": "b5e6676779126951c3bf84547b577ec7370b073791ca6072aa5568c62a2d7aef",
+  "license_upstream": {
+    "repository": "https://github.com/open-watcom/owp4v1copy",
+    "commit": "52a4ed130e644761f6d1427e40dda4edf099adbf",
+    "path": "license.txt",
+    "sha256": "b5e6676779126951c3bf84547b577ec7370b073791ca6072aa5568c62a2d7aef",
+    "modifications": "None."
+  },
+  "configuration": {
+    "kind": "Licensed RAND-only DOS386 flat subset of actual primary interfaces; no ABI stub or synthesized storage",
+    "reference_headers": "src/runtime/include",
+    "overlay_headers": [],
+    "staged_headers_sha256": {
+      "randnext.h": "2470cd384271006888b89a28972926fc25840c8bb0aaab06ded7de57656a571c",
+      "rtdata.h": "52af1ea57145c97048476d60db8a96ab7e26aa3dcabe5f051ec556c48c0ef230",
+      "variety.h": "8e21561238003300c98822ed85057c82e15945eb695b93f145b93328d7caafbd"
+    },
+    "full_original_headers_trial": {
+      "compiler": "Watcom C32 10.0 GA",
+      "options": [
+        "/3r",
+        "/s",
+        "/os"
+      ],
+      "result": "0 warnings, 7 errors; _comdef.h and errorno.h absent from compiler H directory, plus consequent unknown linkage/declaration syntax",
+      "private_log": "build/watcom-rand-proof/full-original.log",
+      "log_sha256": "fbd394111a357e748d8368237a4b9cde386af94b31971918f077e0fcf5fce874"
+    },
+    "line_mapping": [
+      {
+        "upstream": "bld/lib_misc/h/variety.h",
+        "first_line": 1,
+        "last_line": 32,
+        "sha256": "bebc34436517f88f9cbaf350a67319ad3da5ed034d5e77d4c1400bf51f5dbd72",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "Both specialized headers preserve their original notice, identical at these lines."
+      },
+      {
+        "upstream": "bld/lib_misc/h/variety.h",
+        "first_line": 49,
+        "last_line": 54,
+        "sha256": "20c9fdabbc1f6dbbd23fbf563bf03639384ebf50a06b7be0515f21b12bb437f4",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "DOS flat memory-model branch; unused derived model macros omitted."
+      },
+      {
+        "upstream": "bld/lib_misc/h/variety.h",
+        "first_line": 130,
+        "last_line": 145,
+        "sha256": "2b04cbed7ea929ce8d76198f6c239256a424345aeef3817f7970b11374e8fdb5",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "DOS/386 selection; unused derived OS macros omitted."
+      },
+      {
+        "upstream": "bld/lib_misc/h/variety.h",
+        "first_line": 174,
+        "last_line": 245,
+        "sha256": "8b70230a0a9a1b0407e264f00048860b55a948ffeb429e55dbbc683c5fb35d6d",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "Linkage override branch requires WARP or NT, excluded by the target guards."
+      },
+      {
+        "upstream": "bld/hdr/watcom/_comdef.mh",
+        "first_line": 111,
+        "last_line": 115,
+        "sha256": "2cb653488cb168b6c0dd9c027fcaa8769df7ebfbe32753450f52f5ae504e9f21",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "The non-__SW_BR branch defines empty _WCRTLINK when not already defined; copied into specialized variety.h lines 43-45."
+      },
+      {
+        "upstream": "bld/clib/math/h/randnext.h",
+        "first_line": 33,
+        "last_line": 59,
+        "sha256": "5f556f03c3e76fbf5d5400a764553d14cf929226e1a3430ca00d094394b6e8cc",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "Complete header retained, including empty _INITRANDNEXT(p); DOS selects real static next=1 and _RANDNEXT next at lines 56-59."
+      },
+      {
+        "upstream": "bld/lib_misc/h/rtdata.h",
+        "first_line": 33,
+        "last_line": 36,
+        "sha256": "68a57415b862284cb7574280ca265e5b680a3dfa4e2cd782176004deb09e5240",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "Original guard and variety.h inclusion retained in specialized rtdata.h lines 36-38."
+      },
+      {
+        "upstream": "bld/lib_misc/h/rtdata.h",
+        "first_line": 192,
+        "last_line": 192,
+        "sha256": "58b24518200bb5c5a100201689d5fa2a0424aa0c5e09affc5ec62df4bd94214b",
+        "hash_rule": "raw bytes, inclusive lines, original line endings retained",
+        "meaning": "Exact _RWD_randnext to _RANDNEXT alias, whitespace normalized in specialized rtdata.h line 39."
+      }
+    ],
+    "compile_time_guards": "Require __DOS__, __386__, __FLAT__; reject __SW_BM, __SW_BR, PENPOINT, NT, OS2, NETWARE, WINDOWS, WINDOWS_386, GENERIC, QNX, OSI, and MAKE_DLL_CLIB/MATHLIB/CPPLIB selectors.",
+    "omissions": "Unreferenced IO/stream/thread/exception declarations and unrelated aliases are omitted. _HUGEDATA/_WCDATA are not used or synthesized. No fake fields, replacement memory layout, BSS filler, payload bytes, or masks.",
+    "macro_expansion": "_WCRTLINK empty; _INITRANDNEXT(p) empty (argument RETURN_ARG tokens discarded); _RWD_randnext -> _RANDNEXT -> original static unsigned long int next = 1. Compiler stdio.h supplies NULL=0."
+  },
+  "native_profile": {
+    "compiler_home": "toolchains/watcom-10.0-ga",
+    "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "options": [
+      "/3r",
+      "/s",
+      "/os"
+    ],
+    "compiler_standard_headers_sha256": {
+      "H/stdio.h": "de275400f58feb96f19a1cd313f6906d7a3c849b9c2cfcba0fd7d619c341d6d1"
+    },
+    "standard_header_dependency_note": "stdio.h contains no further includes. Its declarations and NULL macro are used unchanged from pinned compiler. Compiler builtins and default DOS/386/flat configuration are constrained by tracked guards.",
+    "descriptor": "modules/watcom_rand.json",
+    "descriptor_sha256": "f9de54eb330037d89597ac1c44e6a128e0bc42168625bf920807cab5122cb054",
+    "object_sha256": "6a9a25544e7990b316970b6f6758f2b2b42b7d47144a90d2493b597924820593",
+    "compiler_log_sha256": "d396ac98c0b659c5a78be513f011723da24b27454ec3fe6ce2cac2a0fe29f1fb",
+    "evidence": "evidence/watcom_rand-module.json",
+    "warning_count": 0,
+    "error_count": 0
+  },
+  "target": {
+    "path": "reference/DUKE3D.EXE",
+    "size": 1179131,
+    "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4"
+  },
+  "historical_reference_member": {
+    "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+    "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+    "member_name": "rand",
+    "member_offset": 119472,
+    "member_extent": 390,
+    "member_end_exclusive": 119862,
+    "member_sha256": "90bc391de63cc53f2e94d507da0233c35dec3d7a09cbf39802676c8d956e6374",
+    "library_page_size": 16,
+    "next_member_offset": 119872,
+    "excluded_library_alignment_bytes": 10,
+    "next_member_name": "chint386",
+    "scope": "Reference evidence only; never linked, staged, copied, or substituted as rebuild output. Contribution credit derives entirely from fresh native source compile.",
+    "complete_reference_verification": {
+      "verified": true,
+      "initialized_bytes": 62,
+      "zero_fill_bytes": 0,
+      "verified_fixups": 3,
+      "segments": [
+        {
+          "symbol": "_TEXT",
+          "target_object": 1,
+          "target_offset": 583791,
+          "compared_bytes": 58,
+          "verified_fixups": 3,
+          "differing_offsets": [],
+          "match": true
+        },
+        {
+          "symbol": "_DATA",
+          "target_object": 3,
+          "target_offset": 71832,
+          "compared_bytes": 4,
+          "verified_fixups": 0,
+          "differing_offsets": [],
+          "match": true
+        }
+      ],
+      "publics": {
+        "initrandnext_": [
+          1,
+          583791
+        ],
+        "rand_": [
+          1,
+          583797
+        ],
+        "srand_": [
+          1,
+          583833
+        ],
+        "_next": [
+          3,
+          71832
+        ]
+      },
+      "local_symbols": {
+        "_next": [
+          3,
+          71832
+        ],
+        "initrandnext_": [
+          1,
+          583791
+        ]
+      },
+      "full_executable_rebuilt": false
+    }
+  },
+  "complete_contribution": {
+    "code_object": 1,
+    "code_offset": 583791,
+    "code_bytes": 58,
+    "code_end_exclusive": 583849,
+    "code_publics": 3,
+    "data_object": 3,
+    "data_offset": 71832,
+    "data_bytes": 4,
+    "data_end_exclusive": 71836,
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 58
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 0
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 4
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 0
+      }
+    ],
+    "private_symbols": [
+      "initrandnext_",
+      "_next"
+    ],
+    "external_symbols": [
+      "rand_",
+      "srand_"
+    ],
+    "initialized_bytes": 62,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 3,
+    "note": "Complete emitted segments only. No neighboring target bytes, archive alignment, next-member content, or padding is claimed."
+  },
+  "negative_controls": [
+    "Mutating initrandnext first instruction, rand tail at CODE 41, srand final tail at CODE 57, or DATA 0/3 is rejected by unchanged verify_module.",
+    "Changing callee fixup displacement at CODE 8 or any of four supplied public/local bindings is rejected.",
+    "Missing local_symbols metadata or inconsistent _next scope binding is rejected by external_anchor_bindings.",
+    "Shortened DATA can match its prefix but fails unchanged assert_contributions.",
+    "Real native source compilation rejects changed rand multiplier, srand seed assignment, randnext initial state, _INITRANDNEXT initializer, linkage configuration, and rtdata alias.",
+    "Removing srand with adjusted CODE extent is rejected by three-CODE-public count; false CODE extent or total contribution is rejected independently.",
+    "Native configurations /bt=nt, /bm, /d__SW_BR, /d__OS2__, /d__PENPOINT__ and source undefinitions of __DOS__/__386__/__FLAT__ are rejected by explicit configuration guard."
+  ],
+  "historical_spelling_limit": "Primary source is a later published source snapshot, not proven original 1994/1996 source spelling. Its unchanged algorithm/static state and preserved scopes emit the complete exact target contributions. Original comments, source paths, source text, and complete historical build settings remain unknown.",
+  "build_note": "No prebuilt output substitution, target payload copying, instruction bytes encoded in source, masks, filler, fake ABI, or omitted member bodies. Existing generic compile/inference/verifier/contribution gates are unchanged apart from two literal module-name registrations.",
+  "full_executable_rebuilt": false
+}

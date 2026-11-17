@@ -1,0 +1,27 @@
+{
+  "kind": "Finite standalone SOUND scope/source/physical-data subset",
+  "base_tool_profile_sha256": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+  "decoder_manifest_sha256": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+  "extra_assembler_options": [
+    "-L",
+    "-no-pad-sections"
+  ],
+  "source_private_identities": 38,
+  "ABS_constants": 58,
+  "original_private_owners": 5,
+  "original_private_references": 14,
+  "source_publics": 9,
+  "source_imports": 19,
+  "native_fixups": 111,
+  "original_roles": 118,
+  "resolved_self_CALLs": 7,
+  "DATA_model": "19 rational physical clock DWORDs, no native blob",
+  "BSS_owners": {
+    "sound_voice_status": 64,
+    "vrperiod": 4,
+    "freq_divisor": 4
+  },
+  "source_only_target_reference_caller_input": false,
+  "generic_helpers_changed": false,
+  "source_credit": 0
+}

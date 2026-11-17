@@ -1,0 +1,12 @@
+{
+  "task": 649,
+  "freeze": "build/task649-profile-snapshot/freeze.json",
+  "freeze_sha256": "62c67e36a35d30856c9a8f96c3932eb176e79c5f71acd7cb21601d59e41ec565",
+  "source_sha256": {
+    "profiles/gnu_elf_omf_layouts/identity.py": "367c88b1a804b1e178dc4facf121c98fb50ad0f86d2dff2445d5cc656996e946",
+    "profiles/gnu_elf_omf_layouts/setup.py": "64bd089f4d49d105a464f7d6110668851c16c41e0ae6a21fbbb0989c9a012a14",
+    "tests/test_native_layout_snapshot.py": "5c9640fc335fb4726c1a17b736488d6dadd0a7d8d09b9be054f2e76471e690c5"
+  },
+  "independent_review": "Combined649+653 independently approved; evidence/native-layout-receipt653.json",
+  "normal_admission": "unchanged; opt-in profile only"
+}

@@ -1,0 +1,303 @@
+; Authored readable register-ABI IRQ backend; retained C aid contains the
+; original GPL/Apogee/James Dose notices and source semantics.
+; Real PARA DATA alignment restores the original segment contract.
+BITS 32
+DPMI_GET_PROTECTED_VECTOR equ 0x0204
+STATE_REGS equ 0
+STATE_REGS_EBX equ 4
+STATE_REGS_ECX equ 8
+STATE_REGS_EDX equ 12
+STATE_REGS_ESI equ 16
+STATE_REGS_EDI equ 20
+STATE_REGS_CFLAG equ 24
+STATE_SEGREGS equ 28
+STATE_SEGREGS_DS equ 34
+STATE_PROTECTED_OFFSET equ 40
+STATE_PROTECTED_SELECTOR equ 44
+STATE_CALLBACK_OFFSET equ 46
+STATE_REAL_OFFSET equ 48
+STATE_REAL_SEGMENT equ 50
+STATE_CALLBACK_SEGMENT equ 52
+DPMI_REGISTERS equ 0
+DPMI_IP equ 42
+DPMI_CS equ 44
+DPMI_SP equ 46
+FAR_CALLBACK_SELECTOR equ 4
+extern int386_
+extern int386x_
+extern __GETDS
+segment _TEXT public align=16 use32 class=CODE
+D32DosMemAlloc_:
+    push ebx
+    push edx
+    mov edx, 0x100
+    add eax, 0xf
+    mov ebx, _irq_state + STATE_REGS
+    shr eax, 4
+    mov dword [_irq_state + STATE_REGS], edx
+    mov dword [_irq_state + STATE_REGS_EBX], eax
+    mov edx, ebx
+    mov eax, 0x31
+    call int386_
+    cmp dword [_irq_state + STATE_REGS_CFLAG], 0
+    je .Lirq_37
+    xor eax, eax
+    pop edx
+    pop ebx
+    ret
+.Lirq_37:
+    mov eax, dword [_irq_state + STATE_REGS]
+    and eax, 0xffff
+    shl eax, 4
+    pop edx
+    pop ebx
+    ret
+    nop
+global rmcallback_
+rmcallback_:
+    push edx
+    lgs eax, [esp + 8]
+    add eax, 2
+    o16
+    mov edx, dword gs:[eax - 2]
+    add eax, 2
+    mov word [_irq_registers + DPMI_IP], dx
+    o16
+    mov edx, dword gs:[eax - 2]
+    mov word [_irq_registers + DPMI_SP], ax
+    mov word [_irq_registers + DPMI_CS], dx
+    pushfd
+    call far [_IRQ_Callback]
+    pop edx
+    ret 8
+    lea eax, [byte eax+0]
+_callback_x:
+    pushad
+    push ds
+    push es
+    push fs
+    push gs
+    mov ebp, esp
+    cld
+    call __GETDS
+    mov ecx, dword [ebp + 0xc]
+    mov edx, dword [ebp + 0x14]
+    mov bx, ss
+    lar ebx, ebx
+    bt ebx, 0x16
+    jb .Lirq_a6
+    movzx esp, sp
+    mov ebp, esp
+.Lirq_a6:
+    mov gs, ecx
+    o16
+    mov eax, dword gs:[edx]
+    mov word [_irq_registers + DPMI_IP], ax
+    lea eax, [edx + 2]
+    o16
+    mov edx, dword gs:[eax]
+    add eax, 2
+    mov word [_irq_registers + DPMI_CS], dx
+    mov word [_irq_registers + DPMI_SP], ax
+    pushfd
+    call far [_IRQ_Callback]
+    pop gs
+    pop fs
+    pop es
+    pop ds
+    popad
+    iretd
+global IRQ_SetVector_
+IRQ_SetVector_:
+    push edx
+    push esi
+    push edi
+    sub esp, 4
+    mov esi, eax
+    mov dword [esp], ecx
+    mov edi, ebx
+    mov edx, DPMI_GET_PROTECTED_VECTOR
+    mov word [_IRQ_Callback + FAR_CALLBACK_SELECTOR], cx
+    mov dword [_IRQ_Callback], ebx
+    mov word [_irq_state + STATE_REGS_EBX], ax
+    mov ebx, _irq_state + STATE_REGS
+    mov eax, 0x31
+    mov word [_irq_state + STATE_REGS], dx
+    mov edx, ebx
+    mov ecx, 0x303
+    call int386_
+    mov ax, word [_irq_state + STATE_REGS_ECX]
+    mov ebx, 0x200
+    mov word [_irq_state + STATE_PROTECTED_SELECTOR], ax
+    mov word [_irq_state + STATE_REGS], bx
+    mov eax, dword [_irq_state + STATE_REGS_EDX]
+    mov ebx, _irq_state + STATE_REGS
+    mov dword [_irq_state + STATE_PROTECTED_OFFSET], eax
+    mov edx, ebx
+    mov eax, 0x31
+    mov word [_irq_state + STATE_REGS_EBX], si
+    call int386_
+    mov ax, word [_irq_state + STATE_REGS_ECX]
+    mov ebx, _irq_registers + DPMI_REGISTERS
+    mov word [_irq_state + STATE_REAL_SEGMENT], ax
+    mov ax, word [_irq_state + STATE_REGS_EDX]
+    mov edx, cs
+    mov word [_irq_state + STATE_REAL_OFFSET], ax
+    mov eax, _callback_x
+    mov word [_irq_state + STATE_REGS], cx
+    mov word [_irq_state + STATE_SEGREGS_DS], dx
+    mov edx, _callback_x
+    mov eax, _irq_registers + DPMI_REGISTERS
+    mov dword [_irq_state + STATE_REGS_ESI], edx
+    mov edx, ds
+    mov ecx, _irq_state + STATE_SEGREGS
+    mov eax, 0x31
+    mov dword [_irq_state + STATE_REGS_EDI], ebx
+    mov ebx, _irq_state + STATE_REGS
+    mov word [_irq_state + STATE_SEGREGS], dx
+    mov edx, ebx
+    call int386x_
+    mov ax, word [_irq_state + STATE_REGS_ECX]
+    mov word [_irq_state + STATE_CALLBACK_SEGMENT], ax
+    mov ax, word [_irq_state + STATE_REGS_EDX]
+    mov ecx, dword [_irq_state + STATE_REGS_CFLAG]
+    mov word [_irq_state + STATE_CALLBACK_OFFSET], ax
+    test ecx, ecx
+    je .Lirq_1e7
+    mov eax, 0xffffffff
+    jmp .Lirq_2e9
+.Lirq_1e7:
+    cmp dword [_IRQ_RealModeCode], 0
+    jne .Lirq_249
+    mov eax, 6
+    call D32DosMemAlloc_
+    mov dword [_IRQ_RealModeCode], eax
+    test eax, eax
+    jne .Lirq_249
+    mov ebx, 0x304
+    mov ecx, _irq_state + STATE_SEGREGS
+    mov ax, word [_irq_state + STATE_CALLBACK_SEGMENT]
+    mov word [_irq_state + STATE_REGS], bx
+    mov word [_irq_state + STATE_REGS_ECX], ax
+    mov ax, word [_irq_state + STATE_CALLBACK_OFFSET]
+    mov ebx, _irq_state + STATE_REGS
+    mov word [_irq_state + STATE_REGS_EDX], ax
+    mov edx, ebx
+    mov eax, 0x31
+    call int386x_
+    mov eax, 0xffffffff
+    add esp, 4
+    pop edi
+    pop esi
+    pop edx
+    ret
+.Lirq_249:
+    mov eax, dword [_IRQ_RealModeCode]
+    mov byte [eax], 0x9a
+    mov dx, word [_irq_state + STATE_CALLBACK_OFFSET]
+    mov byte [eax + 5], 0xcf
+    mov word [eax + 1], dx
+    mov dx, word [_irq_state + STATE_CALLBACK_SEGMENT]
+    mov ebx, _irq_state + STATE_REGS
+    mov word [eax + 3], dx
+    mov eax, 0x205
+    mov edx, dword [esp]
+    mov word [_irq_state + STATE_REGS], ax
+    mov eax, edi
+    mov word [_irq_state + STATE_REGS_EBX], si
+    mov eax, 0x31
+    mov word [_irq_state + STATE_REGS_ECX], dx
+    mov edx, ebx
+    mov dword [_irq_state + STATE_REGS_EDX], edi
+    call int386_
+    mov eax, dword [_IRQ_RealModeCode]
+    shr eax, 4
+    and eax, 0xffff
+    mov edx, 0x201
+    mov word [_irq_state + STATE_REGS_ECX], ax
+    mov ax, word [_IRQ_RealModeCode]
+    mov ebx, _irq_state + STATE_REGS
+    xor ah, ah
+    mov word [_irq_state + STATE_REGS], dx
+    and al, 0xf
+    mov edx, ebx
+    mov word [_irq_state + STATE_REGS_EDX], ax
+    mov eax, 0x31
+    mov word [_irq_state + STATE_REGS_EBX], si
+    call int386_
+    xor eax, eax
+.Lirq_2e9:
+    add esp, 4
+    pop edi
+    pop esi
+    pop edx
+    ret
+global IRQ_RestoreVector_
+IRQ_RestoreVector_:
+    push ebx
+    push ecx
+    push edx
+    mov ecx, eax
+    mov edx, 0x201
+    mov ebx, _irq_state + STATE_REGS
+    mov word [_irq_state + STATE_REGS_EBX], ax
+    mov ax, word [_irq_state + STATE_REAL_SEGMENT]
+    mov word [_irq_state + STATE_REGS], dx
+    mov word [_irq_state + STATE_REGS_ECX], ax
+    mov ax, word [_irq_state + STATE_REAL_OFFSET]
+    mov edx, ebx
+    mov word [_irq_state + STATE_REGS_EDX], ax
+    mov eax, 0x31
+    call int386_
+    mov ebx, 0x205
+    mov ax, word [_irq_state + STATE_PROTECTED_SELECTOR]
+    mov word [_irq_state + STATE_REGS_EBX], cx
+    mov word [_irq_state + STATE_REGS], bx
+    mov word [_irq_state + STATE_REGS_ECX], ax
+    mov eax, dword [_irq_state + STATE_PROTECTED_OFFSET]
+    mov ebx, _irq_state + STATE_REGS
+    mov dword [_irq_state + STATE_REGS_EDX], eax
+    mov edx, ebx
+    mov eax, 0x31
+    mov ecx, 0x304
+    call int386_
+    mov ebx, _irq_state + STATE_REGS
+    mov ax, word [_irq_state + STATE_CALLBACK_SEGMENT]
+    mov word [_irq_state + STATE_REGS], cx
+    mov ecx, _irq_state + STATE_SEGREGS
+    mov word [_irq_state + STATE_REGS_ECX], ax
+    mov ax, word [_irq_state + STATE_CALLBACK_OFFSET]
+    mov edx, ebx
+    mov word [_irq_state + STATE_REGS_EDX], ax
+    mov eax, 0x31
+    call int386x_
+    cmp dword [_irq_state + STATE_REGS_CFLAG], 0
+    sete al
+    and eax, 0xff
+    dec eax
+    pop edx
+    pop ecx
+    pop ebx
+    ret
+
+segment CONST public align=4 use32 class=DATA
+segment CONST2 public align=4 use32 class=DATA
+
+segment _DATA public align=16 use32 class=DATA
+_irq_registers:
+; Existing DPMI_REGS52, including its two-byte type tail.
+    times 52 db 0
+; Existing measured two-byte initialized residue.
+    db 0x09, 0x2f
+_IRQ_Callback:
+    dd 0
+    dw 0
+_IRQ_RealModeCode:
+    dd 0
+
+segment _BSS public align=16 use32 class=BSS
+_irq_state:
+; Only the existing REGS28/SREGS12/DWORD4/fiveWORD10 state.
+    resb 54
+group DGROUP CONST CONST2 _DATA _BSS
+group FLAT

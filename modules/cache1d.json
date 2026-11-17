@@ -1,0 +1,26 @@
+{
+  "name": "CACHE1D",
+  "source": "src/cache/cache1d.c",
+  "reference_headers": "src/cache/include",
+  "options": [
+    "/4r",
+    "/s",
+    "/or"
+  ],
+  "code_object": 1,
+  "code_offset": 418275,
+  "code_bytes": 4747,
+  "code_publics": 16,
+  "symbol_anchors": {
+    "_cachesize": [
+      3,
+      31681
+    ]
+  },
+  "anchor_evidence": "evidence/historical-engine-object-match.json",
+  "expected": {
+    "initialized_bytes": 5415,
+    "zero_fill_bytes": 49453,
+    "verified_fixups": 332
+  }
+}

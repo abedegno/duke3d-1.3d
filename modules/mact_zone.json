@@ -1,0 +1,2886 @@
+{
+  "name": "mact_zone",
+  "source": "src/mact/zone.asm",
+  "producer": "gnu-coff-objconv-zone",
+  "options": {
+    "assembler": [
+      "-n",
+      "-march=i386",
+      "--fatal-warnings",
+      "-L",
+      "-no-pad-sections"
+    ],
+    "converter": [
+      "-fomf32",
+      "-wex"
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 3826,
+    "zero_fill_bytes": 48,
+    "verified_fixups": 78
+  },
+  "reference_expected": {
+    "initialized_bytes": 3826,
+    "zero_fill_bytes": 48,
+    "verified_fixups": 114
+  },
+  "native_inventory": {
+    "format": "standard-omf",
+    "segments": [
+      {
+        "name": ".text",
+        "class": "CODE",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": ".data",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": ".bss",
+        "class": "BSS",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 2367,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 1427,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 32,
+        "attributes": 41,
+        "access": null
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 48,
+        "attributes": 41,
+        "access": null
+      }
+    ],
+    "publics": {
+      "Z_FreeZone_": [
+        4,
+        336
+      ],
+      "Z_Init_": [
+        4,
+        408
+      ],
+      "Z_ShutDownZone_": [
+        4,
+        440
+      ],
+      "Z_ShutDown_": [
+        4,
+        468
+      ],
+      "Z_GetSize_": [
+        4,
+        504
+      ],
+      "Z_AddFreeBlock_": [
+        4,
+        552
+      ],
+      "Z_FreeBlock_": [
+        4,
+        676
+      ],
+      "Z_Free_": [
+        4,
+        760
+      ],
+      "Z_FreeTags_": [
+        4,
+        812
+      ],
+      "Z_PurgeZone_": [
+        4,
+        904
+      ],
+      "Z_FindBlockInFreeList_": [
+        4,
+        996
+      ],
+      "Z_FindFreeBlock_": [
+        4,
+        1040
+      ],
+      "Z_Malloc_": [
+        4,
+        1140
+      ],
+      "Z_Touch_": [
+        4,
+        1396
+      ],
+      "Z_Realloc_": [
+        4,
+        1496
+      ],
+      "Z_ZoneUsed_": [
+        4,
+        1616
+      ],
+      "Z_ZoneMaxFree_": [
+        4,
+        1684
+      ],
+      "Z_ZoneSize_": [
+        4,
+        1752
+      ],
+      "Z_ChangeTag_": [
+        4,
+        1788
+      ],
+      "Z_AvailHeap_": [
+        4,
+        1836
+      ],
+      "Z_DumpHeap_": [
+        4,
+        1920
+      ],
+      "Z_CheckHeap_": [
+        4,
+        2196
+      ]
+    },
+    "local_publics": [],
+    "externals": [
+      "Error_",
+      "SafeMalloc_",
+      "malloc_",
+      "SafeFree_",
+      "free_",
+      "memset_",
+      "int386x_",
+      "DBG_DbgString_"
+    ],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 4,
+        "offset": 13,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 18,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 28,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 49,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 54,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 64,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 82,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 125,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 233,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 251,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 256,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 316,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 321,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 353,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 358,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 369,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 377,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 389,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 531,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 536,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 688,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 693,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 790,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 795,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 852,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 857,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 924,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 929,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 957,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 962,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1177,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1182,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1209,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1214,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1327,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1332,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1427,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1432,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1535,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1540,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1635,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1640,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1703,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1708,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1769,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1774,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1817,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1822,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1858,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1868,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1878,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1901,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1906,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1958,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1972,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1977,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1989,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1994,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2004,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2009,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2057,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2062,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2087,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2092,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2108,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2113,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2136,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2141,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2158,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2163,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2205,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2255,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2260,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2277,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2298,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2303,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2330,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 2335,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      }
+    ]
+  },
+  "reference_inventory": {
+    "format": "standard-omf",
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 2367,
+        "attributes": 105,
+        "access": null
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 1427,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 32,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 48,
+        "attributes": 105,
+        "access": null
+      }
+    ],
+    "publics": {
+      "Z_GetZonePtr_": [
+        1,
+        0
+      ],
+      "Z_SetZonePtr_": [
+        1,
+        36
+      ],
+      "Z_ClearZone_": [
+        1,
+        72
+      ],
+      "Z_AllocateZone_": [
+        1,
+        220
+      ],
+      "Z_GetFreeZone_": [
+        1,
+        280
+      ],
+      "Z_FreeZone_": [
+        1,
+        336
+      ],
+      "Z_Init_": [
+        1,
+        408
+      ],
+      "Z_ShutDownZone_": [
+        1,
+        440
+      ],
+      "Z_ShutDown_": [
+        1,
+        468
+      ],
+      "Z_GetSize_": [
+        1,
+        504
+      ],
+      "Z_AddFreeBlock_": [
+        1,
+        552
+      ],
+      "Z_FreeBlock_": [
+        1,
+        676
+      ],
+      "Z_Free_": [
+        1,
+        760
+      ],
+      "Z_FreeTags_": [
+        1,
+        812
+      ],
+      "Z_PurgeZone_": [
+        1,
+        904
+      ],
+      "Z_FindBlockInFreeList_": [
+        1,
+        996
+      ],
+      "Z_FindFreeBlock_": [
+        1,
+        1040
+      ],
+      "Z_Malloc_": [
+        1,
+        1140
+      ],
+      "Z_Touch_": [
+        1,
+        1396
+      ],
+      "Z_Realloc_": [
+        1,
+        1496
+      ],
+      "Z_ZoneUsed_": [
+        1,
+        1616
+      ],
+      "Z_ZoneMaxFree_": [
+        1,
+        1684
+      ],
+      "Z_ZoneSize_": [
+        1,
+        1752
+      ],
+      "Z_ChangeTag_": [
+        1,
+        1788
+      ],
+      "Z_AvailHeap_": [
+        1,
+        1836
+      ],
+      "Z_DumpHeap_": [
+        1,
+        1920
+      ],
+      "Z_CheckHeap_": [
+        1,
+        2196
+      ],
+      "_MemoryZone": [
+        4,
+        0
+      ],
+      "_MemInfo": [
+        5,
+        0
+      ]
+    },
+    "local_publics": [
+      "Z_AllocateZone_",
+      "Z_ClearZone_",
+      "Z_GetFreeZone_",
+      "Z_GetZonePtr_",
+      "Z_SetZonePtr_",
+      "_MemInfo",
+      "_MemoryZone"
+    ],
+    "externals": [
+      "Error_",
+      "_MemoryZone",
+      "SafeMalloc_",
+      "malloc_",
+      "Z_AvailHeap_",
+      "Z_ClearZone_",
+      "Z_GetZonePtr_",
+      "SafeFree_",
+      "free_",
+      "Z_SetZonePtr_",
+      "Z_GetFreeZone_",
+      "Z_AllocateZone_",
+      "Z_PurgeZone_",
+      "Z_FreeZone_",
+      "Z_AddFreeBlock_",
+      "Z_FreeBlock_",
+      "Z_FindFreeBlock_",
+      "Z_Malloc_",
+      "Z_Free_",
+      "memset_",
+      "_MemInfo",
+      "int386x_",
+      "DBG_DbgString_"
+    ],
+    "local_externals": [
+      2,
+      6,
+      7,
+      10,
+      11,
+      12,
+      21
+    ],
+    "groups": [
+      [
+        "DGROUP",
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 1,
+        "offset": 13,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 18,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 28,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 49,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 54,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 64,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 82,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 125,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 233,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 244,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 251,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 256,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 270,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 292,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 316,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 321,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 341,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 353,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 358,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 369,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 377,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 384,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 389,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 9,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 398,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 10,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 413,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 11,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 420,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 12,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 429,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 10,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 444,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 455,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 13,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 462,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 14,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 474,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 485,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 13,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 492,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 14,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 515,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 531,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 536,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 688,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 693,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 750,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 15,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 772,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 790,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 795,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 805,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 16,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 821,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 852,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 857,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 883,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 16,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 912,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 924,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 929,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 957,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 962,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 974,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 16,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1112,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 16,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1160,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1177,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1182,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1197,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 17,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1209,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1214,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1327,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1332,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1409,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1427,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1432,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1519,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1535,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1540,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1570,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 18,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1603,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 19,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1623,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1635,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1640,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1691,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1703,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1708,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1757,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1769,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1774,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1801,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1817,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1822,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1858,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 20,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1868,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 21,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1878,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 21,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1901,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 22,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1906,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 21,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1941,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1958,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1972,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1977,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1989,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1994,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2004,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2009,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2057,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2062,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2087,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2092,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2108,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2113,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2136,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2141,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2158,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2163,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2205,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2214,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2255,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2260,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2277,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2298,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2303,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2330,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2335,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      }
+    ]
+  },
+  "symbol_anchors": {
+    "Z_AvailHeap_": [
+      1,
+      549564
+    ],
+    "Z_FreeZone_": [
+      1,
+      548064
+    ],
+    "Z_Init_": [
+      1,
+      548136
+    ],
+    "Z_ShutDownZone_": [
+      1,
+      548168
+    ],
+    "Z_ShutDown_": [
+      1,
+      548196
+    ],
+    "Z_GetSize_": [
+      1,
+      548232
+    ],
+    "Z_AddFreeBlock_": [
+      1,
+      548280
+    ],
+    "Z_FreeBlock_": [
+      1,
+      548404
+    ],
+    "Z_Free_": [
+      1,
+      548488
+    ],
+    "Z_FreeTags_": [
+      1,
+      548540
+    ],
+    "Z_PurgeZone_": [
+      1,
+      548632
+    ],
+    "Z_FindBlockInFreeList_": [
+      1,
+      548724
+    ],
+    "Z_FindFreeBlock_": [
+      1,
+      548768
+    ],
+    "Z_Malloc_": [
+      1,
+      548868
+    ],
+    "Z_Touch_": [
+      1,
+      549124
+    ],
+    "Z_Realloc_": [
+      1,
+      549224
+    ],
+    "Z_ZoneUsed_": [
+      1,
+      549344
+    ],
+    "Z_ZoneMaxFree_": [
+      1,
+      549412
+    ],
+    "Z_ZoneSize_": [
+      1,
+      549480
+    ],
+    "Z_ChangeTag_": [
+      1,
+      549516
+    ],
+    "Z_DumpHeap_": [
+      1,
+      549648
+    ],
+    "Z_CheckHeap_": [
+      1,
+      549924
+    ],
+    "Error_": [
+      1,
+      555340
+    ],
+    "SafeMalloc_": [
+      1,
+      556180
+    ],
+    "malloc_": [
+      1,
+      587632
+    ],
+    "SafeFree_": [
+      1,
+      556260
+    ],
+    "free_": [
+      1,
+      587859
+    ],
+    "memset_": [
+      1,
+      588144
+    ],
+    "int386x_": [
+      1,
+      588321
+    ],
+    "DBG_DbgString_": [
+      1,
+      545200
+    ]
+  },
+  "original_logical_alignment": {
+    "_TEXT": 16,
+    "CONST": 4,
+    "_DATA": 4,
+    "_BSS": 16
+  },
+  "original_private_definitions": {
+    "Z_AllocateZone_": [
+      1,
+      220
+    ],
+    "Z_ClearZone_": [
+      1,
+      72
+    ],
+    "Z_GetFreeZone_": [
+      1,
+      280
+    ],
+    "Z_GetZonePtr_": [
+      1,
+      0
+    ],
+    "Z_SetZonePtr_": [
+      1,
+      36
+    ],
+    "_MemInfo": [
+      5,
+      0
+    ],
+    "_MemoryZone": [
+      4,
+      0
+    ]
+  },
+  "private_identity_policy": "Genuine source/C_STAT/name/coordinate/use correspondence; no manufactured local records or private external anchors",
+  "source_credit": 0,
+  "humanization_backlog": [
+    "Ordinary C Z_Malloc matching and historical local/header context",
+    "Physical ABI/alias documentation and historical producer/source identity",
+    "Actual DOS DPMI validation, other owners and full EXE"
+  ]
+}

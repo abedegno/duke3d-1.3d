@@ -1,0 +1,547 @@
+{
+  "kind": "ordinary C reconstruction with preserved ROTT GPL ancestry; not historical source identity",
+  "source": {
+    "path": "src/mact/file_lib.c",
+    "sha256": "56a0b103269a2f952980e519c64a286122a02d3f3a019654b422c45bbe8859a1"
+  },
+  "compiler": {
+    "path": "toolchains/watcom-10.0-ga/BINB/wcc386.exe",
+    "sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "options": [
+      "/omaxnet",
+      "/zp4",
+      "/5r"
+    ]
+  },
+  "primary_archive": {
+    "url": "https://ftpmirror.infania.net/pub/3drealms/source/rottsource.zip",
+    "sha256": "45eafa693c3085c56b6ccd072f5a1fb5ba1986877a21e4506d4741b1bdd44729",
+    "license": "GPL version 2 or later; copyright 1994-1995 Apogee Software"
+  },
+  "primary_rott": {
+    "path": "build/mact-source-research/rott/rott/RT_UTIL.C",
+    "sha256": "4a550d8e3a1ecd034bc9294e42fc0b6403f1c10c09ddbbd91c2dcdd669b4569b",
+    "ranges": [
+      {
+        "function": "LoadFile",
+        "first_line": 730,
+        "last_line": 741
+      },
+      {
+        "function": "SaveFile",
+        "first_line": 752,
+        "last_line": 759
+      },
+      {
+        "function": "GetPathFromEnvironment",
+        "first_line": 762,
+        "last_line": 781
+      },
+      {
+        "function": "DefaultExtension",
+        "first_line": 783,
+        "last_line": 800
+      },
+      {
+        "function": "DefaultPath",
+        "first_line": 802,
+        "last_line": 811
+      },
+      {
+        "function": "ExtractFileBase",
+        "first_line": 814,
+        "last_line": 838
+      },
+      {
+        "function": "UL_GetPath",
+        "first_line": 1283,
+        "last_line": 1309
+      },
+      {
+        "function": "UL_ChangeDirectory",
+        "first_line": 1328,
+        "last_line": 1364
+      },
+      {
+        "function": "UL_ChangeDrive",
+        "first_line": 1384,
+        "last_line": 1399
+      }
+    ],
+    "definitions": {
+      "_RT_UTIL.H": "SLASHES is backslash; MAXCHARS is 8"
+    }
+  },
+  "related_jfmact": {
+    "revision": "a356c4aa660c5dfbe5ad940ee8a75f3ab7fcd10f",
+    "sha256": "c8294f4ab8bf5874cffbb87eb4a247b5c4d71c3dc30e8037db23cac0557fed70",
+    "scope": "Later creative interpolation per its header; functional clue only, no historical source identity"
+  },
+  "original_reference": {
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "member": {
+      "name": "P:\\LIBMACT\\file_lib.c",
+      "offset": 88576,
+      "size": 5440,
+      "sha256": "97cd1542f1970af482d8d4cc6bf28f02985f82f900e1734214f27a4ce180d59b"
+    },
+    "reference_only": true,
+    "source_payload_emitted": false
+  },
+  "source_roles": {
+    "ROTT": "Environment/default path bodies retained; ExtractFileBase uses measured lowercase and spaced diagnostic; LoadFile/SaveFile binary filetype and tracked close; UL directory family renamed to measured public names.",
+    "reconstructed": "SafeOpen conditional vararg CRT open, bounded tracking including real strlen+1 allocation, close/error branches, filetype if dispatch, access and length wrappers, 0x7fff chunked I/O and backward extension scans from original native member. Header types and local names inferred."
+  },
+  "const_storage": {
+    "message_offsets": [
+      0,
+      24,
+      68,
+      112,
+      156,
+      184,
+      208,
+      260,
+      312,
+      316,
+      348,
+      404
+    ],
+    "treatment": "Explicit semantically transparent extra NULs in actual message/path literals reproduce measured noninstruction storage, preventing compiler source-buffer residue and distinguishing the two backslash literals. No instruction payload, padding object or masks. Historical spelling/intent unresolved."
+  },
+  "native_storage": {
+    "data": "static char *FileNames[20]={0}; local public and local external; complete80initialized zero bytes, not BSS or padding",
+    "bss": 0,
+    "prefix_and_tails": "Complete1731-byte CODE segment including every compiler alignment byte verified",
+    "empty_bss_metadata": "Original zero-size _BSS attribute105; fresh source zero-size _BSS attribute169. No bytes/fixups/placement obligation. All nonempty segment attributes and all scopes/groups/typed fixups agree. Descriptor records actual source geometry, not historical metadata identity."
+  },
+  "stock_crt_witnesses": [
+    {
+      "name": "drive386",
+      "offset": 9200,
+      "size": 179,
+      "sha256": "a64e8f7edbfa8131cb267a6cbbbb4eb193e2bab123090fc53b7a9f5a4a3b86c6",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          592118
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 40,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 592118,
+            "compared_bytes": 40,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_dos_getdrive_": [
+            1,
+            592118
+          ],
+          "_dos_setdrive_": [
+            1,
+            592138
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363"
+    },
+    {
+      "name": "set386",
+      "offset": 111840,
+      "size": 157,
+      "sha256": "82e5427401753689730d72e50e4ca4ac0bad8fd5b82ff61ac44f74eaed9662c1",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          588144
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 24,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 1,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 588144,
+            "compared_bytes": 24,
+            "verified_fixups": 1,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "memset_": [
+            1,
+            588144
+          ],
+          "__STOSB": [
+            1,
+            589760
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363"
+    },
+    {
+      "name": "filelen",
+      "offset": 141568,
+      "size": 321,
+      "sha256": "cd5951f21d3863acbef8afe8b701785e06a5de48ebe6e2c4f402e1ad0507dd1f",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          588856
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 61,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 3,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 588856,
+            "compared_bytes": 61,
+            "verified_fixups": 3,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "filelength_": [
+            1,
+            588856
+          ],
+          "lseek_": [
+            1,
+            588039
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363"
+    },
+    {
+      "name": "accss",
+      "offset": 150768,
+      "size": 322,
+      "sha256": "a9aa6b3e3890321ea2a5e0793529f011ed10488e133ac668f097934b6c4fbd58",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          592025
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 59,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 1,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 592025,
+            "compared_bytes": 59,
+            "verified_fixups": 1,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "access_": [
+            1,
+            592025
+          ],
+          "_access_": [
+            1,
+            592025
+          ],
+          "_dosret0_": [
+            1,
+            596114
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363"
+    },
+    {
+      "name": "tolower",
+      "offset": 171872,
+      "size": 258,
+      "sha256": "b573d65f7d3dd0eeb1243ba2fa4572cb74fa6a05b0db9b4eb6616f81e52b8d46",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          583886
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 14,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 583886,
+            "compared_bytes": 14,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "tolower_": [
+            1,
+            583886
+          ],
+          "_tolower_": [
+            1,
+            583886
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363"
+    },
+    {
+      "name": "toupper",
+      "offset": 172144,
+      "size": 258,
+      "sha256": "b029b99bfc418afe78812949c633d4c1b323435433d757418bfcc5646c16187f",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          583021
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 14,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 583021,
+            "compared_bytes": 14,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "toupper_": [
+            1,
+            583021
+          ],
+          "_toupper_": [
+            1,
+            583021
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363"
+    },
+    {
+      "name": "strerror",
+      "offset": 34896,
+      "size": 820,
+      "sha256": "1a5cf8e65811c7482a5b4ad7524bd9bede0ec8dc68bc032a41fe2abac6f58d1f",
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "placements": {
+        "1": [
+          1,
+          591021
+        ],
+        "2": [
+          3,
+          28436
+        ],
+        "4": [
+          3,
+          72560
+        ]
+      },
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 408,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 18,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591021,
+            "compared_bytes": 23,
+            "verified_fixups": 2,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "CONST",
+            "target_object": 3,
+            "target_offset": 28436,
+            "compared_bytes": 317,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 72560,
+            "compared_bytes": 68,
+            "verified_fixups": 16,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "strerror_": [
+            1,
+            591021
+          ],
+          "_sys_errlist": [
+            3,
+            72564
+          ],
+          "_sys_nerr": [
+            3,
+            72560
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false,
+        "group_frames": {
+          "1": [
+            3,
+            0
+          ]
+        }
+      },
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "group_frames": {
+        "1": [
+          3,
+          0
+        ]
+      }
+    }
+  ],
+  "stock_crt_witness_origin": "Fixed complete member records from evidence/watcom-runtime-components.json at base55a52cd, independently replayed against pinned target; mutable inventory file not required by producer. Original vendor dependency only, zero source credit.",
+  "independently_anchored_imports": {
+    "_dos_getdrive_": [
+      1,
+      592118
+    ],
+    "_dos_setdrive_": [
+      1,
+      592138
+    ],
+    "memset_": [
+      1,
+      588144
+    ],
+    "filelength_": [
+      1,
+      588856
+    ],
+    "access_": [
+      1,
+      592025
+    ],
+    "tolower_": [
+      1,
+      583886
+    ],
+    "toupper_": [
+      1,
+      583021
+    ],
+    "strerror_": [
+      1,
+      591021
+    ]
+  },
+  "selected_member_call_nominations": {
+    "open_": [
+      1,
+      586401
+    ],
+    "__get_errno_ptr_": [
+      1,
+      591221
+    ],
+    "Error_": [
+      1,
+      555340
+    ],
+    "SafeFree_": [
+      1,
+      556260
+    ],
+    "SafeMalloc_": [
+      1,
+      556180
+    ],
+    "close_": [
+      1,
+      587496
+    ],
+    "read_": [
+      1,
+      588597
+    ],
+    "write_": [
+      1,
+      587027
+    ],
+    "getenv_": [
+      1,
+      589923
+    ],
+    "chdir_": [
+      1,
+      592084
+    ]
+  },
+  "anchor_limit": "Only eight imports (access,filelength,memset,strerror,tolower,toupper,and two DOS drive functions) have fresh complete independent stock CRT replay here. Remaining imported callee locations are explicitly selected-original-member call nominations, including Error/SafeMalloc/SafeFree peer utility addresses. No independent callee identity claim for those nominations. Whole file bytes and all typed fixups still verified without masks.",
+  "native_profile": "Fixed GA /omaxnet /zp4 /5r; no name/type/flag grids",
+  "full_executable_rebuilt": false
+}

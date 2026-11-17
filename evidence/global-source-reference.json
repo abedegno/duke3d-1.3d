@@ -1,0 +1,1508 @@
+{
+  "kind": "Native logical GLOBAL DATA/BSS projection; historical allocation remains open",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "GLOBAL.C",
+  "upstream_sha256": "1c30c003edfab958293c9e6876f4e3455041aa7682522baad8b3262e620f04f9",
+  "gpl_release_repository": "https://github.com/videogamepreservation/dukenukem3d.git",
+  "gpl_release_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "gpl_release_source": "dukenukem3d/source/GLOBAL.C",
+  "gpl_release_source_sha256": "dd1a8a662c2488c977175d9c06258ce80e77905c25836fc4d4df13676a3e8bce",
+  "tracked": "src/game/global.c",
+  "tracked_sha256": "95ecf19c677b776547a86bcc3561c85ac6c876bf16e30c036892d6b3406ce2c2",
+  "license": "GPL-2.0-or-later through released source lineage; ancestor historical restrictive notice retained verbatim with release ancestry notice",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "headers": {
+    "reference": [
+      "reference/duke3d-reconstructions",
+      "reference/duke3d-reconstructions/MACT"
+    ],
+    "overlays": [
+      "src/include",
+      "src/game/include",
+      "src/engine/include"
+    ],
+    "staged_headers_modified": false
+  },
+  "declaration_isolation": {
+    "volume_names": {
+      "shared_type": "char[4][33]",
+      "definition_type": "char[3][33]"
+    },
+    "skill_names": {
+      "shared_type": "char[5][33]",
+      "definition_type": "char[5][20]"
+    }
+  },
+  "isolated_alias_payload_verified_absent": true,
+  "modifications": [
+    "Retain ancestor authorship and the historical restrictive notice verbatim, with the released GPL lineage and explicit conditional historical-allocation scope.",
+    "Preserve all previously verified288 initialized bytes and17 native DATA publics, including symbolic default rows/weapon tables and the two identified local noninstruction compiler residues.",
+    "Isolate candidate storage names from any later header declarations around the canonical unmodified header include, then define the measured earlier arrays with actual logical names/types. The exact159 isolation names, aliases and available canonical declaration lines are recorded here. Four candidate names have no canonical header extern and therefore require no actual declaration renaming. Unused aliases emit no publics, externals, data or BSS; shared headers, structures, scalar ABI and global engine maxima remain unchanged.",
+    "Use measured earlier extents hittype2048 records, script20000 longs, spriteq64 shorts, level_names/level_file_names33 rows, music_fn/env_music_fn3 episodes, partime/designertime33 longs, and myname13 chars. All other declared logical types are preserved from source lineage/current canonical ABI; unreferenced roles/extents remain conditional rather than inferred ownership from zeros.",
+    "Exclude later ancestral allocations actortype, later multiplayer/chat/cloud/laser state, cloudtotalclock/totalmemory and other unproved later declarations from this earlier candidate. Remove everyothertime: accepted PREMAP references place it at77738 before this GLOBAL BSS starts77808, so it cannot be claimed as this producer's storage.",
+    "Restore measured earlier received_sync_value volatile long instead of ancestral checksume, received_quote char pointer instead of ancestral music_pointer, and received_quote_time short instead of ancestral spriteqamount. These are named semantic-role hypotheses supported by measured consumers, not byte-size substitutions. Separate simultaneous historical existence/ownership of the replaced ancestral roles remains unproved.",
+    "Separate fixed real BSS definitions by32 unused long typedefs through GLOBAL_NATIVE_ORDER_CONTEXT. Native GA symbol-buffer controls, including32/64 separation and genuine interpolation arrays, establish stable reversed declaration traversal. This controls frontend emission order only; no arbitrary storage-name permutation, zero initializer, gap filler or opaque runtime allocation is introduced.",
+    "Use scope-filtered complete proof exports/references plus fresh native ACTORS/MENUES row replays. Re-run unchanged check_source_interval for every complete row before importing only actual external-fixup names, excluding caller locals, candidate locals and all caller publics. Conflict rejection remains mandatory; no legacy flat local-name anchors are used.",
+    "Check exact target SHA, LE records and producer opcodes for backup arrays: known scalar sources, DWORD/WORD widths, scaled-index operands and AND255 bound. Independently check earlier single-message pointer/time stores, packet/recbuf provenance, literals and bound strcpy/sound callees. These are DATA-role observations only, with zero added CODE coverage.",
+    "Run unchanged infer_data_bindings and verify_module across every produced DATA/BSS byte/public/fixup at DATA30916/BSS77808. DATA288+BSS505130/0fixups passes; all175 native publics are included. BSS has no OMF LEDATA/LIDATA records. The preceding96 initialized bytes remain unassigned, so no complete GLOBAL descriptor or contribution is created."
+  ],
+  "identified_initialized_segment": {
+    "source_segment": 4,
+    "target_object": 3,
+    "target_offset": 30916,
+    "initialized_bytes": 288,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 0,
+    "native_publics": 17,
+    "module_local_publics": 2
+  },
+  "unidentified_adjacent_initialized_range": {
+    "target_object": 3,
+    "start": 30820,
+    "end": 30916,
+    "bytes": 96,
+    "allocation_verified": false
+  },
+  "unverified_storage": [],
+  "raw_label_reference_scope": "Only exact target LE reference records/stored operands and native DATA role/layout; no added CODE coverage or call-ABI inference from PUSH operands.",
+  "private_layout_experiments": {
+    "failed_contexts": "Earlier build/global-logical-bss-trial, global-type-context-{trimmed,actortype}, global-bucket-extents and global-designer-queue-control preserve conflicting native placements and exact transformed input hashes. None is promoted as positive allocation proof.",
+    "mechanism_controls": "build/global-{order,order-large,header-order,symbol-buffer}-controls.json and global-interpolation-order-control/report.json retain compiler/native evidence for size buckets and declaration-buffer traversal.",
+    "backing_controls": "build/global-bss-backing-code-marker-controls.json records two private native-link controls. Each includes minimal one-byte RET CODE and initialized marker so the existing LE parser can inspect file backing, not production stubs or target CODE credit. Explicit-zero and plain80000-byte BSS yield identical unbacked allocation; no-entry/no-stack warnings1014/1023 expected. Earlier empty-CODE LE parser diagnostics remain unmodified. Production uses pure uninitialized BSS and emits no BSS initializer records.",
+    "whole_models": "global-full-order-model (approved private corrected headers), global-full-canonical-model (canonical unmodified headers) and global-compact-model (32typedef macro) all pass DATA288/BSS505130/0 at same physical publics. Production uses canonical headers; compact model hashes precede restoration of notices."
+  },
+  "evidence": "evidence/global-progress.json",
+  "scope": "All produced native DATA288/BSS505130 bytes/publics/fixups verify together at DATA30916/BSS77808. Complete caller exports and freshly reverified scope-safe ACTORS/MENUES/reviewed GAME rows agree; fixed raw backup/chat producer operands provide explicitly scoped data roles with no extra CODE credit. Unused typedefs control only frontend order and add no runtime memory or object payload. Historical GLOBAL allocation ownership is still open: adjacent96 initialized bytes are unassigned, and unreferenced ancestral role names remain hypotheses. No opaque filler, BSS initialized payload, zero scan or complete contribution claim.",
+  "new_complete_contributions": 0,
+  "full_executable_rebuilt": false,
+  "source_declaration_isolation": {
+    "MusicPtr": {
+      "alias": "unused_later_MusicPtr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char MusicPtr[72000];"
+      ]
+    },
+    "Sound": {
+      "alias": "unused_later_Sound_declaration",
+      "canonical_header_declaration_lines": [
+        "extern SAMPLE Sound[ NUM_SOUNDS ];",
+        "extern long *aplWeaponInitialSound[MAX_WEAPONS];\t// Sound made when initialy firing. zero for no sound",
+        "extern long *aplWeaponFireSound[MAX_WEAPONS];\t// Sound made when firing (each time for automatic)"
+      ]
+    },
+    "SoundOwner": {
+      "alias": "unused_later_SoundOwner_declaration",
+      "canonical_header_declaration_lines": [
+        "extern SOUNDOWNER SoundOwner[NUM_SOUNDS][4];"
+      ]
+    },
+    "actorscrptr": {
+      "alias": "unused_later_actorscrptr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long *actorscrptr[MAXTILES],*parsing_actor;"
+      ]
+    },
+    "angvel": {
+      "alias": "unused_later_angvel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoplc, vel,svel,angvel,horiz;"
+      ]
+    },
+    "animatecnt": {
+      "alias": "unused_later_animatecnt_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long tempwallptr,animatecnt;"
+      ]
+    },
+    "animategoal": {
+      "alias": "unused_later_animategoal_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long *animateptr[MAXANIMATES], animategoal[MAXANIMATES];"
+      ]
+    },
+    "animateptr": {
+      "alias": "unused_later_animateptr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long *animateptr[MAXANIMATES], animategoal[MAXANIMATES];"
+      ]
+    },
+    "animatesect": {
+      "alias": "unused_later_animatesect_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short animatesect[MAXANIMATES];"
+      ]
+    },
+    "animatevel": {
+      "alias": "unused_later_animatevel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long animatevel[MAXANIMATES];"
+      ]
+    },
+    "animwall": {
+      "alias": "unused_later_animwall_declaration",
+      "canonical_header_declaration_lines": [
+        "extern struct animwalltype animwall[MAXANIMWALLS];"
+      ]
+    },
+    "avgavel": {
+      "alias": "unused_later_avgavel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long avgfvel, avgsvel, avgavel, avghorz, avgbits;"
+      ]
+    },
+    "avgbits": {
+      "alias": "unused_later_avgbits_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long avgfvel, avgsvel, avgavel, avghorz, avgbits;"
+      ]
+    },
+    "avgfvel": {
+      "alias": "unused_later_avgfvel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long avgfvel, avgsvel, avgavel, avghorz, avgbits;"
+      ]
+    },
+    "avghorz": {
+      "alias": "unused_later_avghorz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long avgfvel, avgsvel, avgavel, avghorz, avgbits;"
+      ]
+    },
+    "avgsvel": {
+      "alias": "unused_later_avgsvel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long avgfvel, avgsvel, avgavel, avghorz, avgbits;"
+      ]
+    },
+    "bakipos": {
+      "alias": "unused_later_bakipos_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long bakipos[MAXINTERPOLATIONS];"
+      ]
+    },
+    "betaname": {
+      "alias": "unused_later_betaname_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char betaname[80];"
+      ]
+    },
+    "bouncemineblastradius": {
+      "alias": "unused_later_bouncemineblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "buf": {
+      "alias": "unused_later_buf_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char buf[80]; //My own generic input buffer"
+      ]
+    },
+    "camerashitable": {
+      "alias": "unused_later_camerashitable_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char pus,pub,camerashitable,freezerhurtowner,lasermode;"
+      ]
+    },
+    "camsprite": {
+      "alias": "unused_later_camsprite_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short camsprite;"
+      ]
+    },
+    "curipos": {
+      "alias": "unused_later_curipos_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long *curipos[MAXINTERPOLATIONS];"
+      ]
+    },
+    "current_menu": {
+      "alias": "unused_later_current_menu_declaration",
+      "canonical_header_declaration_lines": [
+        "extern int current_menu;"
+      ]
+    },
+    "cyclers": {
+      "alias": "unused_later_cyclers_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short cyclers[MAXCYCLERS][6],numcyclers;"
+      ]
+    },
+    "designertime": {
+      "alias": "unused_later_designertime_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long partime[44],designertime[44];"
+      ]
+    },
+    "device": {
+      "alias": "unused_later_device_declaration",
+      "canonical_header_declaration_lines": [
+        "extern fx_device device;"
+      ]
+    },
+    "display_mirror": {
+      "alias": "unused_later_display_mirror_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char display_mirror,loadfromgrouponly,rtsplaying;"
+      ]
+    },
+    "earthquaketime": {
+      "alias": "unused_later_earthquaketime_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char cachedebug,earthquaketime;"
+      ]
+    },
+    "env_music_fn": {
+      "alias": "unused_later_env_music_fn_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char env_music_fn[4][13];"
+      ]
+    },
+    "error": {
+      "alias": "unused_later_error_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char *label,*textptr,error,warning,killit_flag;"
+      ]
+    },
+    "fakemovefifoplc": {
+      "alias": "unused_later_fakemovefifoplc_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long fakemovefifoplc;"
+      ]
+    },
+    "frags": {
+      "alias": "unused_later_frags_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short frags[MAXPLAYERS][MAXPLAYERS];"
+      ]
+    },
+    "fricxv": {
+      "alias": "unused_later_fricxv_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long fricxv,fricyv;"
+      ]
+    },
+    "fricyv": {
+      "alias": "unused_later_fricyv_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long fricxv,fricyv;"
+      ]
+    },
+    "fta_quotes": {
+      "alias": "unused_later_fta_quotes_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char fta_quotes[NUMOFFIRSTTIMEACTIVE][64];"
+      ]
+    },
+    "gc": {
+      "alias": "unused_later_gc_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long gc,max_player_health,max_armour_amount,max_ammo_amount[MAX_WEAPONS];"
+      ]
+    },
+    "global_random": {
+      "alias": "unused_later_global_random_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short int global_random;"
+      ]
+    },
+    "groupfile": {
+      "alias": "unused_later_groupfile_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoend[MAXPLAYERS], groupfile;"
+      ]
+    },
+    "hittype": {
+      "alias": "unused_later_hittype_declaration",
+      "canonical_header_declaration_lines": [
+        "extern struct weaponhit hittype[MAXSPRITES];"
+      ]
+    },
+    "horiz": {
+      "alias": "unused_later_horiz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoplc, vel,svel,angvel,horiz;"
+      ]
+    },
+    "impact_damage": {
+      "alias": "unused_later_impact_damage_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long impact_damage,respawnactortime,respawnitemtime;"
+      ]
+    },
+    "inputfifo": {
+      "alias": "unused_later_inputfifo_declaration",
+      "canonical_header_declaration_lines": [
+        "extern input inputfifo[MOVEFIFOSIZ][MAXPLAYERS], sync[MAXPLAYERS];"
+      ]
+    },
+    "insptr": {
+      "alias": "unused_later_insptr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long script[MAXSCRIPTSIZE],*scriptptr,*insptr,*labelcode,labelcnt;"
+      ]
+    },
+    "killit_flag": {
+      "alias": "unused_later_killit_flag_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char *label,*textptr,error,warning,killit_flag;"
+      ]
+    },
+    "label": {
+      "alias": "unused_later_label_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char *label,*textptr,error,warning,killit_flag;"
+      ]
+    },
+    "labelcnt": {
+      "alias": "unused_later_labelcnt_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long script[MAXSCRIPTSIZE],*scriptptr,*insptr,*labelcode,labelcnt;"
+      ]
+    },
+    "labelcode": {
+      "alias": "unused_later_labelcode_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long script[MAXSCRIPTSIZE],*scriptptr,*insptr,*labelcode,labelcnt;"
+      ]
+    },
+    "level_file_names": {
+      "alias": "unused_later_level_file_names_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char level_file_names[44][128];"
+      ]
+    },
+    "level_names": {
+      "alias": "unused_later_level_names_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char level_names[44][33];"
+      ]
+    },
+    "loadfromgrouponly": {
+      "alias": "unused_later_loadfromgrouponly_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char display_mirror,loadfromgrouponly,rtsplaying;"
+      ]
+    },
+    "loc": {
+      "alias": "unused_later_loc_declaration",
+      "canonical_header_declaration_lines": [
+        "extern input loc;"
+      ]
+    },
+    "lockclock": {
+      "alias": "unused_later_lockclock_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long lockclock,frameplace;"
+      ]
+    },
+    "max_ammo_amount": {
+      "alias": "unused_later_max_ammo_amount_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long gc,max_player_health,max_armour_amount,max_ammo_amount[MAX_WEAPONS];"
+      ]
+    },
+    "max_armour_amount": {
+      "alias": "unused_later_max_armour_amount_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long gc,max_player_health,max_armour_amount,max_ammo_amount[MAX_WEAPONS];"
+      ]
+    },
+    "max_player_health": {
+      "alias": "unused_later_max_player_health_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long gc,max_player_health,max_armour_amount,max_ammo_amount[MAX_WEAPONS];"
+      ]
+    },
+    "mirrorcnt": {
+      "alias": "unused_later_mirrorcnt_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short mirrorwall[64], mirrorsector[64], mirrorcnt;"
+      ]
+    },
+    "mirrorsector": {
+      "alias": "unused_later_mirrorsector_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short mirrorwall[64], mirrorsector[64], mirrorcnt;"
+      ]
+    },
+    "mirrorwall": {
+      "alias": "unused_later_mirrorwall_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short mirrorwall[64], mirrorsector[64], mirrorcnt;"
+      ]
+    },
+    "morterblastradius": {
+      "alias": "unused_later_morterblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "moustat": {
+      "alias": "unused_later_moustat_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short int moustat;"
+      ]
+    },
+    "movefifoend": {
+      "alias": "unused_later_movefifoend_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoend[MAXPLAYERS], groupfile;"
+      ]
+    },
+    "movefifoplc": {
+      "alias": "unused_later_movefifoplc_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoplc, vel,svel,angvel,horiz;"
+      ]
+    },
+    "movefifosendplc": {
+      "alias": "unused_later_movefifosendplc_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifosendplc;"
+      ]
+    },
+    "msx": {
+      "alias": "unused_later_msx_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long msx[2048],msy[2048];"
+      ]
+    },
+    "msy": {
+      "alias": "unused_later_msy_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long msx[2048],msy[2048];"
+      ]
+    },
+    "music_fn": {
+      "alias": "unused_later_music_fn_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char music_fn[4][11][13],music_select;"
+      ]
+    },
+    "music_select": {
+      "alias": "unused_later_music_select_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char music_fn[4][11][13],music_select;"
+      ]
+    },
+    "myang": {
+      "alias": "unused_later_myang_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myang, omyang, mycursectnum, myjumpingcounter;"
+      ]
+    },
+    "myangbak": {
+      "alias": "unused_later_myangbak_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myangbak[MOVEFIFOSIZ];"
+      ]
+    },
+    "mycursectnum": {
+      "alias": "unused_later_mycursectnum_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myang, omyang, mycursectnum, myjumpingcounter;"
+      ]
+    },
+    "myhardlanding": {
+      "alias": "unused_later_myhardlanding_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char myjumpingtoggle, myonground, myhardlanding,myreturntocenter;"
+      ]
+    },
+    "myhoriz": {
+      "alias": "unused_later_myhoriz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myhoriz, omyhoriz, myhorizoff, omyhorizoff, globalskillsound;"
+      ]
+    },
+    "myhorizbak": {
+      "alias": "unused_later_myhorizbak_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myhorizbak[MOVEFIFOSIZ];"
+      ]
+    },
+    "myhorizoff": {
+      "alias": "unused_later_myhorizoff_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myhoriz, omyhoriz, myhorizoff, omyhorizoff, globalskillsound;"
+      ]
+    },
+    "myjumpingcounter": {
+      "alias": "unused_later_myjumpingcounter_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myang, omyang, mycursectnum, myjumpingcounter;"
+      ]
+    },
+    "myjumpingtoggle": {
+      "alias": "unused_later_myjumpingtoggle_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char myjumpingtoggle, myonground, myhardlanding,myreturntocenter;"
+      ]
+    },
+    "mymaxlag": {
+      "alias": "unused_later_mymaxlag_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myminlag[MAXPLAYERS], mymaxlag, otherminlag, bufferjitter;"
+      ]
+    },
+    "mymembuf": {
+      "alias": "unused_later_mymembuf_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char *mymembuf;"
+      ]
+    },
+    "myminlag": {
+      "alias": "unused_later_myminlag_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myminlag[MAXPLAYERS], mymaxlag, otherminlag, bufferjitter;"
+      ]
+    },
+    "myname": {
+      "alias": "unused_later_myname_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char myname[32];"
+      ]
+    },
+    "myonground": {
+      "alias": "unused_later_myonground_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char myjumpingtoggle, myonground, myhardlanding,myreturntocenter;"
+      ]
+    },
+    "myreturntocenter": {
+      "alias": "unused_later_myreturntocenter_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char myjumpingtoggle, myonground, myhardlanding,myreturntocenter;"
+      ]
+    },
+    "myx": {
+      "alias": "unused_later_myx_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "myxbak": {
+      "alias": "unused_later_myxbak_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myxbak[MOVEFIFOSIZ], myybak[MOVEFIFOSIZ], myzbak[MOVEFIFOSIZ];"
+      ]
+    },
+    "myxvel": {
+      "alias": "unused_later_myxvel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "myy": {
+      "alias": "unused_later_myy_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "myybak": {
+      "alias": "unused_later_myybak_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myxbak[MOVEFIFOSIZ], myybak[MOVEFIFOSIZ], myzbak[MOVEFIFOSIZ];"
+      ]
+    },
+    "myyvel": {
+      "alias": "unused_later_myyvel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "myz": {
+      "alias": "unused_later_myz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "myzbak": {
+      "alias": "unused_later_myzbak_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myxbak[MOVEFIFOSIZ], myybak[MOVEFIFOSIZ], myzbak[MOVEFIFOSIZ];"
+      ]
+    },
+    "myzvel": {
+      "alias": "unused_later_myzvel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "neartaghitdist": {
+      "alias": "unused_later_neartaghitdist_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long neartaghitdist;"
+      ]
+    },
+    "neartagsector": {
+      "alias": "unused_later_neartagsector_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short neartagsector, neartagwall, neartagsprite;"
+      ]
+    },
+    "neartagsprite": {
+      "alias": "unused_later_neartagsprite_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short neartagsector, neartagwall, neartagsprite;"
+      ]
+    },
+    "neartagwall": {
+      "alias": "unused_later_neartagwall_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short neartagsector, neartagwall, neartagsprite;"
+      ]
+    },
+    "numanimwalls": {
+      "alias": "unused_later_numanimwalls_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short numanimwalls,probey,lastprobey;"
+      ]
+    },
+    "numcyclers": {
+      "alias": "unused_later_numcyclers_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short cyclers[MAXCYCLERS][6],numcyclers;"
+      ]
+    },
+    "numplayersprites": {
+      "alias": "unused_later_numplayersprites_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char numplayersprites;"
+      ]
+    },
+    "oldipos": {
+      "alias": "unused_later_oldipos_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long oldipos[MAXINTERPOLATIONS];"
+      ]
+    },
+    "omyang": {
+      "alias": "unused_later_omyang_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myang, omyang, mycursectnum, myjumpingcounter;"
+      ]
+    },
+    "omyhoriz": {
+      "alias": "unused_later_omyhoriz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myhoriz, omyhoriz, myhorizoff, omyhorizoff, globalskillsound;"
+      ]
+    },
+    "omyhorizoff": {
+      "alias": "unused_later_omyhorizoff_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short myhoriz, omyhoriz, myhorizoff, omyhorizoff, globalskillsound;"
+      ]
+    },
+    "omyx": {
+      "alias": "unused_later_omyx_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "omyy": {
+      "alias": "unused_later_omyy_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "omyz": {
+      "alias": "unused_later_omyz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myx, omyx, myxvel, myy, omyy, myyvel, myz, omyz, myzvel;"
+      ]
+    },
+    "otherminlag": {
+      "alias": "unused_later_otherminlag_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long myminlag[MAXPLAYERS], mymaxlag, otherminlag, bufferjitter;"
+      ]
+    },
+    "ototalclock": {
+      "alias": "unused_later_ototalclock_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long ototalclock;"
+      ]
+    },
+    "packbuf": {
+      "alias": "unused_later_packbuf_declaration",
+      "canonical_header_declaration_lines": [
+        "extern unsigned char tempbuf[2048], packbuf[576];"
+      ]
+    },
+    "parsing_actor": {
+      "alias": "unused_later_parsing_actor_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long *actorscrptr[MAXTILES],*parsing_actor;"
+      ]
+    },
+    "partime": {
+      "alias": "unused_later_partime_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long partime[44],designertime[44];"
+      ]
+    },
+    "pipebombblastradius": {
+      "alias": "unused_later_pipebombblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "playerquitflag": {
+      "alias": "unused_later_playerquitflag_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char playerreadyflag[MAXPLAYERS],playerquitflag[MAXPLAYERS];"
+      ]
+    },
+    "playerreadyflag": {
+      "alias": "unused_later_playerreadyflag_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char playerreadyflag[MAXPLAYERS],playerquitflag[MAXPLAYERS];"
+      ]
+    },
+    "po": {
+      "alias": "unused_later_po_declaration",
+      "canonical_header_declaration_lines": [
+        "extern struct player_orig po[MAXPLAYERS];"
+      ]
+    },
+    "ps": {
+      "alias": "unused_later_ps_declaration",
+      "canonical_header_declaration_lines": [
+        "extern struct player_struct ps[MAXPLAYERS];"
+      ]
+    },
+    "pub": {
+      "alias": "unused_later_pub_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char pus,pub,camerashitable,freezerhurtowner,lasermode;"
+      ]
+    },
+    "pus": {
+      "alias": "unused_later_pus_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char pus,pub,camerashitable,freezerhurtowner,lasermode;"
+      ]
+    },
+    "ready2send": {
+      "alias": "unused_later_ready2send_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char scantoasc[128],ready2send;"
+      ]
+    },
+    "received_quote": {
+      "alias": "unused_later_received_quote_declaration",
+      "canonical_header_declaration_lines": []
+    },
+    "received_quote_time": {
+      "alias": "unused_later_received_quote_time_declaration",
+      "canonical_header_declaration_lines": []
+    },
+    "received_sync_value": {
+      "alias": "unused_later_received_sync_value_declaration",
+      "canonical_header_declaration_lines": []
+    },
+    "recsync": {
+      "alias": "unused_later_recsync_declaration",
+      "canonical_header_declaration_lines": [
+        "extern input recsync[RECSYNCBUFSIZ];",
+        "extern input recsync[RECSYNCBUFSIZ];"
+      ]
+    },
+    "rpgblastradius": {
+      "alias": "unused_later_rpgblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "rtsplaying": {
+      "alias": "unused_later_rtsplaying_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char display_mirror,loadfromgrouponly,rtsplaying;"
+      ]
+    },
+    "sbar": {
+      "alias": "unused_later_sbar_declaration",
+      "canonical_header_declaration_lines": [
+        "extern STATUSBARTYPE sbar;"
+      ]
+    },
+    "screenpeek": {
+      "alias": "unused_later_screenpeek_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short screenpeek;"
+      ]
+    },
+    "script": {
+      "alias": "unused_later_script_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long script[MAXSCRIPTSIZE],*scriptptr,*insptr,*labelcode,labelcnt;"
+      ]
+    },
+    "scriptptr": {
+      "alias": "unused_later_scriptptr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long script[MAXSCRIPTSIZE],*scriptptr,*insptr,*labelcode,labelcnt;"
+      ]
+    },
+    "seenineblastradius": {
+      "alias": "unused_later_seenineblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "show_shareware": {
+      "alias": "unused_later_show_shareware_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long cameradist, cameraclock, dukefriction,show_shareware;"
+      ]
+    },
+    "shrinkerblastradius": {
+      "alias": "unused_later_shrinkerblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "skill_names": {
+      "alias": "unused_later_skill_names_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char skill_names[5][33];"
+      ]
+    },
+    "soundm": {
+      "alias": "unused_later_soundm_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char soundpr[NUM_SOUNDS],soundm[NUM_SOUNDS];"
+      ]
+    },
+    "soundpe": {
+      "alias": "unused_later_soundpe_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short soundps[NUM_SOUNDS],soundpe[NUM_SOUNDS],soundvo[NUM_SOUNDS];"
+      ]
+    },
+    "soundpr": {
+      "alias": "unused_later_soundpr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char soundpr[NUM_SOUNDS],soundm[NUM_SOUNDS];"
+      ]
+    },
+    "soundps": {
+      "alias": "unused_later_soundps_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short soundps[NUM_SOUNDS],soundpe[NUM_SOUNDS],soundvo[NUM_SOUNDS];"
+      ]
+    },
+    "sounds": {
+      "alias": "unused_later_sounds_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char sounds[NUM_SOUNDS][14];"
+      ]
+    },
+    "soundsiz": {
+      "alias": "unused_later_soundsiz_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long soundsiz[NUM_SOUNDS];"
+      ]
+    },
+    "soundvo": {
+      "alias": "unused_later_soundvo_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short soundps[NUM_SOUNDS],soundpe[NUM_SOUNDS],soundvo[NUM_SOUNDS];"
+      ]
+    },
+    "spriteq": {
+      "alias": "unused_later_spriteq_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short spriteq[1024],spriteqloc,spriteqamount;"
+      ]
+    },
+    "spriteqloc": {
+      "alias": "unused_later_spriteqloc_declaration",
+      "canonical_header_declaration_lines": [
+        "extern short spriteq[1024],spriteqloc,spriteqamount;"
+      ]
+    },
+    "svel": {
+      "alias": "unused_later_svel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoplc, vel,svel,angvel,horiz;"
+      ]
+    },
+    "sync": {
+      "alias": "unused_later_sync_declaration",
+      "canonical_header_declaration_lines": [
+        "extern input inputfifo[MOVEFIFOSIZ][MAXPLAYERS], sync[MAXPLAYERS];"
+      ]
+    },
+    "syncstat": {
+      "alias": "unused_later_syncstat_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char syncstat, syncval[MAXPLAYERS][MOVEFIFOSIZ];"
+      ]
+    },
+    "syncval": {
+      "alias": "unused_later_syncval_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char syncstat, syncval[MAXPLAYERS][MOVEFIFOSIZ];"
+      ]
+    },
+    "syncvalhead": {
+      "alias": "unused_later_syncvalhead_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long syncvalhead[MAXPLAYERS], syncvaltail, syncvaltottail;"
+      ]
+    },
+    "syncvaltail": {
+      "alias": "unused_later_syncvaltail_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long syncvalhead[MAXPLAYERS], syncvaltail, syncvaltottail;"
+      ]
+    },
+    "syncvaltottail": {
+      "alias": "unused_later_syncvaltottail_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long syncvalhead[MAXPLAYERS], syncvaltail, syncvaltottail;"
+      ]
+    },
+    "tempbuf": {
+      "alias": "unused_later_tempbuf_declaration",
+      "canonical_header_declaration_lines": [
+        "extern unsigned char tempbuf[2048], packbuf[576];"
+      ]
+    },
+    "textptr": {
+      "alias": "unused_later_textptr_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char *label,*textptr,error,warning,killit_flag;"
+      ]
+    },
+    "title_zoom": {
+      "alias": "unused_later_title_zoom_declaration",
+      "canonical_header_declaration_lines": []
+    },
+    "tripbombblastradius": {
+      "alias": "unused_later_tripbombblastradius_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long numfreezebounces,rpgblastradius,pipebombblastradius,tripbombblastradius,shrinkerblastradius,morterblastradius,bouncemineblastradius,seenineblastradius;"
+      ]
+    },
+    "typebuf": {
+      "alias": "unused_later_typebuf_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char typebuflen,typebuf[41];"
+      ]
+    },
+    "typebuflen": {
+      "alias": "unused_later_typebuflen_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char typebuflen,typebuf[41];"
+      ]
+    },
+    "ud": {
+      "alias": "unused_later_ud_declaration",
+      "canonical_header_declaration_lines": [
+        "extern struct user_defs ud;"
+      ]
+    },
+    "vel": {
+      "alias": "unused_later_vel_declaration",
+      "canonical_header_declaration_lines": [
+        "extern long movefifoplc, vel,svel,angvel,horiz;"
+      ]
+    },
+    "volume_names": {
+      "alias": "unused_later_volume_names_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char volume_names[4][33];"
+      ]
+    },
+    "warning": {
+      "alias": "unused_later_warning_declaration",
+      "canonical_header_declaration_lines": [
+        "extern char *label,*textptr,error,warning,killit_flag;"
+      ]
+    }
+  },
+  "source_only_order_control": {
+    "unused_typedefs_per_definition": 32,
+    "runtime_allocations_added": 0,
+    "scope": "Fixed meaningful names/types with unused declaration-buffer separation; no BSS initializer records or emitted alias/typedef symbols."
+  },
+  "native_object_sha256": "fd4b6c95fea448768d7c43a2116bc421c59aa76d414eb3f89d20d0fb34a79780",
+  "observed_extent_changes": {
+    "hittype": {
+      "ancestral_or_shared": "weaponhit[MAXSPRITES4096]",
+      "candidate": "weaponhit[2048]",
+      "support": "Measured71-byte type and complete references to adjacent actorscrptr266136; source120728."
+    },
+    "spriteq": {
+      "ancestral_or_shared": "short[1024]",
+      "candidate": "short[64]",
+      "support": "Measured sprite queue allocation and adjacent packet storage; native physical public gate."
+    },
+    "script": {
+      "ancestral_or_shared": "long[MAXSCRIPTSIZE20460]",
+      "candidate": "long[20000]",
+      "support": "287488..367488 adjacent SoundOwner and complete consumer bounds."
+    },
+    "level_names": {
+      "ancestral_or_shared": "char[44][33]",
+      "candidate": "char[33][33]",
+      "support": "581308..582397 music_fn."
+    },
+    "level_file_names": {
+      "ancestral_or_shared": "char[44][128]",
+      "candidate": "char[33][128]",
+      "support": "111808..116032 soundpe."
+    },
+    "music_fn": {
+      "ancestral_or_shared": "char[4][11][13]",
+      "candidate": "char[3][11][13]",
+      "support": "582397..582826 env_music_fn."
+    },
+    "env_music_fn": {
+      "ancestral_or_shared": "char[4][13]",
+      "candidate": "char[3][13]",
+      "support": "Measured shared chain and native public gate."
+    },
+    "partime": {
+      "ancestral_or_shared": "long[44]",
+      "candidate": "long[33]",
+      "support": "574708..574840 received_sync_value."
+    },
+    "designertime": {
+      "ancestral_or_shared": "long[44]",
+      "candidate": "long[33]",
+      "support": "Complete GAMEDEF574228..soundpr574360."
+    },
+    "myname": {
+      "ancestral_or_shared": "char[32]",
+      "candidate": "char[13]",
+      "support": "Complete CONFIG independently binds the name buffer at582865; the13-byte candidate participates in the native all-public projection, but callers do not independently prove its historical full extent."
+    }
+  },
+  "produced_storage": {
+    "native_inventory": [
+      {
+        "source_segment": 1,
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 0,
+        "attributes": 105
+      },
+      {
+        "source_segment": 2,
+        "name": "CONST",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "source_segment": 3,
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "source_segment": 4,
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 288,
+        "attributes": 169
+      },
+      {
+        "source_segment": 5,
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 505130,
+        "attributes": 105
+      }
+    ],
+    "produced_storage_placements": {
+      "5": [
+        3,
+        77808
+      ],
+      "4": [
+        3,
+        30916
+      ]
+    },
+    "matched_initialized_data_bytes": 288,
+    "matched_bss_bytes": 505130,
+    "native_data_records": [
+      {
+        "kind": "0xa1",
+        "source_segment": 4,
+        "source_offset": 0
+      },
+      {
+        "kind": "0xa3",
+        "source_segment": 4,
+        "source_offset": 14
+      },
+      {
+        "kind": "0xa1",
+        "source_segment": 4,
+        "source_offset": 33
+      },
+      {
+        "kind": "0xa3",
+        "source_segment": 4,
+        "source_offset": 50
+      },
+      {
+        "kind": "0xa1",
+        "source_segment": 4,
+        "source_offset": 66
+      },
+      {
+        "kind": "0xa3",
+        "source_segment": 4,
+        "source_offset": 80
+      },
+      {
+        "kind": "0xa1",
+        "source_segment": 4,
+        "source_offset": 99
+      },
+      {
+        "kind": "0xa3",
+        "source_segment": 4,
+        "source_offset": 180
+      },
+      {
+        "kind": "0xa1",
+        "source_segment": 4,
+        "source_offset": 200
+      }
+    ],
+    "historical_allocation_verified": false,
+    "unreferenced_source_publics": [
+      "_device",
+      "_dmval",
+      "_gc",
+      "_moustat",
+      "_mymembuf",
+      "_recsync",
+      "_skill_names",
+      "_title_zoom",
+      "_typebuf",
+      "_typebuflen",
+      "_volume_names",
+      "_weapon_tiles_alignment",
+      "_weapons_ammo_alignment"
+    ],
+    "unreferenced_source_roles_verified": false
+  },
+  "raw_state_role_scope": "Exact target opcode/LE producer and typed-store roles only; full associated CODE bodies and historical storage ownership are not newly proved.",
+  "historical_allocation_verified": false,
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+  },
+  "private_control_sha256": {
+    "build/global-order-controls.json": "d20b655f0334ef07dfff68630a0e0c854906a317966272f7ba7da3c0ba5009de",
+    "build/global-order-large-controls.json": "7d17bbb05c9944e0d241bee8f8eab6dc07d92aec83f0b937723f934ae4782aa0",
+    "build/global-header-order-controls.json": "33f72c8149991f0443fecc3bb547026d727e7d30c6cc997a27b38a7985fd2c6f",
+    "build/global-symbol-buffer-controls.json": "c1fddf155dedd49a3e9f1a5556d168d31aceebdccf98a1f95bc806b249945703",
+    "build/global-interpolation-order-control/report.json": "24615852be0c8ca9587520190f56ef1dd6c213f5486e08a0345bfd421d8b08f1",
+    "build/global-bss-backing-code-marker-controls.json": "e0d839404517ade1288f1e25314bfe0c727f915f0dc76afe673ad6105a2d11b7",
+    "build/global-full-order-model/model-report.json": "ea53524b7d36acbdd6a0f3f82502b2e4cb95fe52ae15edf2ee786d9b5fb36894",
+    "build/global-full-canonical-model/model-report.json": "59d3e3913d2c4623f0d379958bbc95e00f99bc736f66619214d17fb7e383db0c",
+    "build/global-compact-model/model-report.json": "e00ce2cf5b90fe82738566466d5ab699e5f7a54b3cb34ac17f2498733f5c57d4",
+    "build/global-full-order-model/global.c": "96c7cc617bb74bc4cf62fdd7137c0247bdd285f0479eb762b913d2712703d53a",
+    "build/global-full-canonical-model/global.c": "fcd7ea4fbedba19d408d65498380798b79a2df1c2368a50aadd466423aae0530",
+    "build/global-compact-model/global.c": "19c2d71a40d62c66d19f80f23ed5089d60a91c2e2b75dad5fa21d8429d4cbea5",
+    "build/global-round3-prefix-investigation/report.json": "17d62948b088d78d69e9c0397f7a44bbe0e06dd3135cc00471b1257f04d8ffac",
+    "build/global_round3_prefix_investigation.py": "f44ddfbc0c8f14e39ff5375c0417a3f0150815fd215976d6c2641b52cf5c5431",
+    "build/global-round3-prefix-investigation/header_only.c": "a902a8b1a0060b1cffb0933f5bdfcdec0e717c95c925845830b50193fc6f09dd",
+    "build/global-round3-game-consumer/proof.json": "f25daca9dbb1f665394f77d15969518ee4d59a87f9cefea0222e05d1ed3a6e08",
+    "build/global_round3_game_consumer.py": "d36e4584948ab0a1c19e1738851b6cee379cecf7cf4123881363ea4e4faf07f9",
+    "build/global-round3-production/object-comment-diagnostic.json": "b4907517211a91a29f758a4b58db351726b6ddc86acbcc56f973a97337b678a5"
+  },
+  "previous_native_object_sha256": "4432c25d858efcd61ba463f31e4865534e42256c934bc390b708e5489791ddc3",
+  "round3_consumer_reference_update": {
+    "source_unchanged": true,
+    "storage_and_complete_contribution_credit_added": 0,
+    "new_scoped_reference_names": {
+      "_syncval": [
+        3,
+        86000
+      ],
+      "_sbar": [
+        3,
+        579556
+      ],
+      "_rtsplaying": [
+        3,
+        582929
+      ],
+      "_networkmode": [
+        3,
+        31185
+      ]
+    },
+    "prior_raw_roles_now_corroborated_by_reviewed_native_consumer": [
+      "received_quote",
+      "received_quote_time"
+    ],
+    "reference_evidence": {
+      "kind": "fresh reviewed immutable GAME caller-row references, not GLOBAL allocation",
+      "reviewed_commit": "a5bf8f15d8a202c0d3b1605bb80c55344338d863",
+      "reviewed_blob_sha256": {
+        "src/game/game.c": "23c1b7a45f1cac6360b578ea9c3d3ee04cdf01edeb057bc63150e7cbfe8533f5",
+        "tools/probe_game.py": "57cbadfa8a327dd0085bd99e79653a23b3569377ce404aea3bc682603957bc4a",
+        "evidence/game-progress.json": "a5a7d8bbf2879885dccc4fd606ea29facfd638593d9b56de5c021618af1fc97a"
+      },
+      "canonical_sha256": "106914603e4db0cacb44389638442e066529e89725edfd9f9758fc03848035c7",
+      "canonical_scope": [
+        "target_sha256",
+        "source",
+        "source_sha256",
+        "headers_sha256",
+        "compiler_sha256",
+        "options",
+        "functions"
+      ],
+      "native_object_sha256": "8303948ed85ade9633a5df28868cba40ca97d0cdec8f77010f5ea134954c60b0",
+      "recorded_producer_inputs": {
+        "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+        "source": "src/game/game.c",
+        "source_sha256": "23c1b7a45f1cac6360b578ea9c3d3ee04cdf01edeb057bc63150e7cbfe8533f5",
+        "headers_sha256": {
+          "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+          "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+          "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+          "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+          "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+          "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+          "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+          "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+          "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+          "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+          "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+          "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+          "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+          "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+          "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+          "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+          "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+          "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+          "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+          "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+          "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+          "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+          "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+          "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+          "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+          "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+          "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+          "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+          "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+          "userdef.h": "4ac6fe1badf9d617df2c880c6b74da6d407b7207c6fa810bd18e9208bdc5d825",
+          "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+          "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+        },
+        "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+        "options": [
+          "/4r",
+          "/s",
+          "/ort",
+          "/dAPPVER_EXEDEF=DN3D13G",
+          "/dLIBVER_BUILDREV=19960320"
+        ]
+      },
+      "verified_function_rows": 38,
+      "binding_scope": "Only actual external fixups in freshly reverified complete rows; caller local EXTDEFs, candidate locals and every caller-owned public excluded. Immutable source/probe/report blobs are pinned; mutable report backreferences are excluded from canonical identity. Zero caller CODE credit."
+    },
+    "git_object_dependency": "The exact accepted GAME source/probe/report blobs at a5bf8f15d8a202c0d3b1605bb80c55344338d863 must exist in the local Git object database. Read-only git show with fixed commit/path only; no network fetch or mutable-source/report fallback. Missing/corrupt blobs fail. Imported probe Python is never executed: only literal FUNCTIONS geometry is parsed. Source/header/compiler/options/target identities and all38 native rows are checked.",
+    "metadata_cycle_policy": "The pinned immutable report blob hash records the original reviewed artifact. Canonical replay identity hashes only physical function rows and producer input identities, excluding report anchor/backreference metadata; no mutable GAME progress is consumed.",
+    "scope": "Only actual external fixups in complete freshly verified GAME rows, excluding caller local EXTDEFs, all caller publics and GLOBAL local publics. Consumer reference/role observations only, not independent historical allocation extents or additional CODE credit."
+  },
+  "round3_unidentified_prefix_investigation": {
+    "report": "build/global-round3-prefix-investigation/report.json",
+    "sha256": "17d62948b088d78d69e9c0397f7a44bbe0e06dd3135cc00471b1257f04d8ffac",
+    "fixed_target_object": 3,
+    "start": 30820,
+    "end": 30916,
+    "bytes": 96,
+    "range_sha256": "43711bf387d68ace7f5b4bbb190d529c7668b534d798e9498a6baf704e777c6e",
+    "direct_le_target_references": 0,
+    "canonical_header_only_native_nonempty_segments": [
+      [
+        5,
+        "_BSS",
+        "BSS",
+        4,
+        105
+      ]
+    ],
+    "source_lineage_sha256": {
+      "reference/duke3d-reconstructions/GLOBAL.C": "1c30c003edfab958293c9e6876f4e3455041aa7682522baad8b3262e620f04f9",
+      "dukenukem3d/source/GLOBAL.C": "dd1a8a662c2488c977175d9c06258ce80e77905c25836fc4d4df13676a3e8bce",
+      "dukenukem3d/extras/GLOBAL.C": "f15baa0190d4c793c2f56f480a8e6ea56e8f2809821e8a285bd30a5e2a6febc7",
+      "reference/duke3d-reconstructions/MAKEFILE.LNK": "9153e8a41e59b23bcc5d9fa94ece6fb8e1062cb84107d5278d7a31dafe6eab92"
+    },
+    "observations": [
+      "No direct LE target reference enters the fixed96-byte range; no absence-of-reference ownership inference.",
+      "No matching logical initializer found in pinned reconstruction or released GLOBAL lineage. Numeric sound/tile enum matches are dense and unrelated, not type/owner evidence.",
+      "Pinned MAKEFILE.LNK places game,actors,gamedef,global,menues,player,premap,sector,sounds. Preceding complete GAMEDEF _DATA ends30820; identified GLOBAL data begins30916 and ends31204 at MENUES data start. Adjacency/order does not identify the missing allocation.",
+      "The canonical header-only native control emits no DATA or CODE; only its real local dmval BSS exists. This excludes a straightforward header-owned initialized prefix, not every possible original compiler/source context."
+    ],
+    "allocation_verified": false,
+    "logical_type_verified": false,
+    "initialized_source_payload_added": 0,
+    "scope": "Bounded negative investigation only. Neither absent target references, numeric sound/tile enum resemblance, source adjacency nor canonical header-only emission proves ownership/type. No gap bytes are assigned or counted."
+  },
+  "fresh_object_comment_difference": "Native object SHA differs from round2 only in27 COMENT0xe9 source/dependency timestamp records (and their checksums); every other raw OMF record is byte-identical. See private object-comment-diagnostic.json. This is forensic metadata, not a target comparison mask; every native produced DATA/BSS byte/public/fixup still passes the unchanged full gate.",
+  "user_byte_role_consumer_refresh": {
+    "kind": "immutable accepted GAME45 canonical header snapshot refresh; zero source or allocation credit",
+    "previous_reviewed_commit": "a5bf8f15d8a202c0d3b1605bb80c55344338d863",
+    "native_game_reference": {
+      "kind": "fresh reviewed immutable GAME caller-row references, not GLOBAL allocation",
+      "reviewed_commit": "88f6fcd83b4d075575653b8ef2a460c971c19337",
+      "reviewed_blob_sha256": {
+        "src/game/game.c": "931ea0f59cd49a34fe8e98f0c54d1fd8cf791ed8a1cd264283308479fca0dafc",
+        "tools/probe_game.py": "e34b27c4f4709f998cd62d4a2853f3aced94f30122abf6e88e2b88fda9957377",
+        "evidence/game-progress.json": "c8d7bf36479936176d00e034b68b23e5dad694d373bccd1695171a31c1ebd6c5"
+      },
+      "canonical_sha256": "f6c0f008f91c7f08996b2038fcf697fb7b568bf9cd6ba3e072c1c2a567e1cf3d",
+      "canonical_scope": [
+        "target_sha256",
+        "source",
+        "source_sha256",
+        "headers_sha256",
+        "compiler_sha256",
+        "options",
+        "functions"
+      ],
+      "native_object_sha256": "5000adb8657e7cc31c1b7f820c5b8043934adfd6dc33b26f8ff74e9fe0a1e758",
+      "recorded_producer_inputs": {
+        "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+        "source": "src/game/game.c",
+        "source_sha256": "931ea0f59cd49a34fe8e98f0c54d1fd8cf791ed8a1cd264283308479fca0dafc",
+        "headers_sha256": {
+          "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+          "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+          "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+          "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+          "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+          "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+          "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+          "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+          "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+          "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+          "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+          "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+          "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+          "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+          "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+          "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+          "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+          "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+          "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+          "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+          "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+          "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+          "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+          "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+          "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+          "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+          "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+          "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+          "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+          "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+          "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+          "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+        },
+        "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+        "options": [
+          "/4r",
+          "/s",
+          "/ort",
+          "/dAPPVER_EXEDEF=DN3D13G",
+          "/dLIBVER_BUILDREV=19960320"
+        ]
+      },
+      "verified_function_rows": 45,
+      "binding_scope": "Only actual external fixups in freshly reverified complete rows; caller local EXTDEFs, candidate locals and every caller-owned public excluded. Immutable source/probe/report blobs are pinned; mutable report backreferences are excluded from canonical identity. Zero caller CODE credit."
+    },
+    "source_definition_unchanged": true,
+    "full_produced_storage_unchanged": true,
+    "historical_allocation_verified": false,
+    "full_executable_rebuilt": false
+  },
+  "sector_metadata_dependency_refresh": {
+    "kind": "current native producer metadata after SECTOR provenance/alignment report restoration",
+    "baseline_commit": "fcbec99",
+    "historical_baseline_native_object_sha256": "a87320cd00051bf1891377cf5f622d208cfdf02fb733691abde504f6362594a2",
+    "evidence": "evidence/global-progress.json",
+    "evidence_sha256": "6408771442c2b970544be0aef65246e6afb091756d249a93b7e7d6cf7f83e65c",
+    "native_object_sha256": "fd4b6c95fea448768d7c43a2116bc421c59aa76d414eb3f89d20d0fb34a79780",
+    "complete_sector_report_sha256": "bfc2e32ffd8414e47763070a931ca3b38c09dfd82e225df7f7c3753c5df08859",
+    "native_caller_object_sha256": {
+      "actors": "bdda14744eb8720ca1c5f9d2f7ac09e70074c94686acb0e6764f06dae3e66b45",
+      "menues": "3a8316ade8a9ae8457919956e801d6491f4ebee2906e97ba80f3960553d0e13a",
+      "game": "9b43cb94b20667864f1dd543276c01b5d15c89c3c05863090d40874bd7aa5b08"
+    },
+    "reviewed_game_commit": "88f6fcd83b4d075575653b8ef2a460c971c19337",
+    "historical_metadata_entries": [
+      "previous_native_object_sha256",
+      "round3_consumer_reference_update",
+      "round3_unidentified_prefix_investigation",
+      "fresh_object_comment_difference",
+      "user_byte_role_consumer_refresh"
+    ],
+    "historical_metadata_scope": "Named existing entries retain their earlier producer/control snapshots; their object hashes and immutable report identities are historical, not the current regenerated producer report.",
+    "source_definition_unchanged": true,
+    "full_produced_storage_unchanged": true,
+    "historical_allocation_verified": false,
+    "new_complete_contributions": 0,
+    "full_executable_rebuilt": false
+  }
+}

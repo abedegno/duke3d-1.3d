@@ -1,0 +1,223 @@
+{
+  "scope": "Five independently reviewed ordinary-C audio source layouts; source generation precedes original/target observers. No new credit or final linked placement claim.",
+  "sources_sha256": {
+    "src/audio/sndscape.c": "4ff87e32b394eb4680857e78678bd2102dc6c1d97124fd7dc1283ec12fec7add",
+    "src/audio/sndsrc.c": "73484f473b3dcf9e65155a78063e540980001b4cfd4c9e40c6df1e7e3be58b2a",
+    "src/audio/pas16.c": "e62fa9a87f865111e93f3cf19c633b3af32cedb0e4a290468756f33ac3e60a3d",
+    "src/audio/irq.c": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994",
+    "src/audio/blaster.c": "b8ba3fa812941920b13c4adbc6e89f2119cadb17ce4efba793205bf61a03d190"
+  },
+  "descriptors_sha256": {
+    "modules/sndscape.json": "302a107149cbfb090dc6721372c7bbecc3dee11bc424686561d18a574c2a3d5e",
+    "modules/sndsrc.json": "10317f52791720862b470c90d2e932cf06ab1146ecf54c40a2373f7abeedc49e",
+    "modules/pas16.json": "aa670a68c0761a76d9753597d490cba73e5ef11959701672cfb2be781b3d0902",
+    "modules/irq.json": "a010baf245d804f8ce483a94326ecb6aaba7aef0e52a92d001468a07076431f5",
+    "modules/blaster.json": "ba5e2180a380cd0d42afdc83e4fa38a60da79247cc5a5aa55df5c0a51bd148d3"
+  },
+  "headers_sha256": {
+    "dukenukem3d/audiolib/SOURCE/MUSIC.H": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "dukenukem3d/audiolib/SOURCE/DMA.H": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "dukenukem3d/audiolib/SOURCE/ADLIBFX.H": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "dukenukem3d/audiolib/SOURCE/MPU401.H": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "dukenukem3d/audiolib/SOURCE/MULTIVOC.H": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "dukenukem3d/audiolib/SOURCE/MIDI.H": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "dukenukem3d/audiolib/SOURCE/PITCH.H": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "dukenukem3d/audiolib/SOURCE/FX_MAN.H": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "dukenukem3d/audiolib/SOURCE/TASK_MAN.H": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "dukenukem3d/audiolib/SOURCE/AL_MIDI.H": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "dukenukem3d/audiolib/SOURCE/_MULTIVC.H": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "dukenukem3d/audiolib/SOURCE/SNDCARDS.H": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "dukenukem3d/audiolib/SOURCE/GUSWAVE.H": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "dukenukem3d/audiolib/SOURCE/_SNDSCAP.H": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "dukenukem3d/audiolib/SOURCE/INTERRUP.H": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "dukenukem3d/audiolib/SOURCE/MYPRINT.H": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "dukenukem3d/audiolib/SOURCE/AWE32.H": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "dukenukem3d/audiolib/SOURCE/_PAS16.H": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "dukenukem3d/audiolib/SOURCE/_BLASTER.H": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "dukenukem3d/audiolib/SOURCE/BLASTER.H": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "dukenukem3d/audiolib/SOURCE/_GUSWAVE.H": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "dukenukem3d/audiolib/SOURCE/DEBUGIO.H": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "dukenukem3d/audiolib/SOURCE/GUSMIDI.H": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "dukenukem3d/audiolib/SOURCE/PAS16.H": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "dukenukem3d/audiolib/SOURCE/USER.H": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "dukenukem3d/audiolib/SOURCE/SNDSRC.H": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "dukenukem3d/audiolib/SOURCE/LL_MAN.H": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "dukenukem3d/audiolib/SOURCE/NEWGF1.H": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "dukenukem3d/audiolib/SOURCE/SNDSCAPE.H": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "dukenukem3d/audiolib/SOURCE/_AL_MIDI.H": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "dukenukem3d/audiolib/SOURCE/LINKLIST.H": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "dukenukem3d/audiolib/SOURCE/IRQ.H": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "dukenukem3d/audiolib/SOURCE/MEMCHECK.H": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "dukenukem3d/audiolib/SOURCE/STANDARD.H": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "dukenukem3d/audiolib/SOURCE/PCFX.H": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "dukenukem3d/audiolib/SOURCE/DPMI.H": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "dukenukem3d/audiolib/SOURCE/_MIDI.H": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "dukenukem3d/audiolib/SOURCE/ASSERT.H": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "dukenukem3d/audiolib/SOURCE/GUSMIDI2.H": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "dukenukem3d/audiolib/SOURCE/CTAWEAPI.H": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "dukenukem3d/audiolib/SOURCE/USRHOOKS.H": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0",
+    "src/include/pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da"
+  },
+  "prepared_headers_sha256": {
+    "music.h": "fa07259ff5d6910500f6777f6adbbb256af7490a30e0e2a86326881c54c71f6f",
+    "dma.h": "c34409d4034d8b223d0bcab6df351cd8ff96a98082d0bde49d85612dc70b56a2",
+    "adlibfx.h": "91a64ebcc2a29ae9b00f41cb794f87dfcc075d83aefd016f92929fdaa3b81407",
+    "mpu401.h": "bec501d433625f287236386aec81f3898d70aff12fe0f42f4e810a67c3a070d9",
+    "multivoc.h": "da482b5998caa016e86f5c208784223ee6ad0ba9f86e5acb4c32d9bc42141372",
+    "midi.h": "1b1c8c61ef76cd5cae4251b9a452a64831212a3e77a24f74fc7fe44aa1458b61",
+    "pitch.h": "1e4b2f117534c9913689aadbc715b45d89eb6b04f9d45ca14c2103322eba8fb6",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "fx_man.h": "d2dde90f259ea84dfb2625d43fd6b42faa18051251cbf63ceb7a2a59961141e3",
+    "task_man.h": "ecdedecf15943e0aa4f02444f333408b48fbdef988258390dd86321f3cdbb4a0",
+    "al_midi.h": "c55422be234e18be307c59aa37d8a4447b6eb3a40060850985fef179595a23c2",
+    "_multivc.h": "bbb968caab9cce2cd20a2b8cc0abf2ed77e7b0ffbde250d0cc24f08cd32e475b",
+    "sndcards.h": "c81dca957bf004af120bc8a1f7bd745f0befc6594f8b43eaa2c8300a070a9acb",
+    "guswave.h": "5d829dcd0bb29a4c278a32365c73341fcab53dbb12bd0a7a2ea51ef4c5b9066b",
+    "_sndscap.h": "45d2e2ef07f3316c61d92418cbf2d17e829b535c74d8a9d0311b648cd2d45393",
+    "interrup.h": "d50746543fe146a336135686c758ed73029e727184c6d8a3ecf237854e3129fb",
+    "myprint.h": "d1cb684a5d0b5b97e50ab8dd03f8adb51f00d44b1c0695c88fb1cec93000a93d",
+    "awe32.h": "b574ff66ac08c02feadd6b7d24d009a6ad2f1b77747a66897f1e2dcb239bc4ef",
+    "_pas16.h": "4b69d071ba6a461fc9382975f8c0abbb37b16013ca060e0eaa86cc3ba29f44c6",
+    "_blaster.h": "da4ca5579f132904bef73f0f1ae55211dada85f1e99460258a2e2deb5416b796",
+    "blaster.h": "437a9b60ad3ba7aec02a896881ec3729b3c48d472e14d39ab7edb5464c0d8f4b",
+    "_guswave.h": "e5794aca8b001855da0c50425482d506ed0ad03ddca0331bb944eb03d1682691",
+    "debugio.h": "425012430ddfdce1726a50d3105663c7755ef2ddd5668948b8ddde3282fb29c1",
+    "gusmidi.h": "d20cb8dea9ea9e35bd09beba26b0b2573ed83cf216f87cf075bba517d9496097",
+    "pas16.h": "bcdfd2bd773163e2e86336b46286d32b6fdfd8d796553c4c4f631b27375b4815",
+    "user.h": "f827b2fe4d03c5880c53c279a0dcc40575b60fead96c0fbcf5a8fe2f6bdb67fa",
+    "sndsrc.h": "9c796f33a74d87c756cabc8f3d433b097d364f285883b4dd3f3f9cd1089aa4be",
+    "ll_man.h": "11842cdcc514a07354056d2eb2122013aa9c3c04c36f933b932e749d1f9f58c0",
+    "newgf1.h": "bacc2ba493da5a0541b721ac44161befcde66bf7416ee3e1f240562d0675cf47",
+    "sndscape.h": "3821e8c77e379dee48258533715e8f23fe52d4831f82a18a825e34dfca669996",
+    "_al_midi.h": "89016a1bafdc34b3724ba2ad4326ed2b346c7e86ec70fefaa2db69d973efa649",
+    "linklist.h": "0569bb3d93e5162c599120e2fa2c008e2e35810d5bb570042c4735a0b10fbb4b",
+    "irq.h": "53a5b92e92c1ad3bb38121d1779b71c7881ab901a97514c303170c68a0046e92",
+    "memcheck.h": "a23689139f4849058d5c8263d203a9c9b1d76e0d472da1e54d34acb86e48fea0",
+    "standard.h": "9523c47bf1ab4ec0e89cacf7dc199ceb7f63201594417b5882961f298dd4ce2b",
+    "pcfx.h": "c0d9684daf8c2825a5eb16fcd89dd3470f7b7a2e2821e68b97bb0ad9964fd027",
+    "dpmi.h": "e4ea703f48f5ad056f8ecafe793f505f5cba7066cda5c030476a1a6c0098906e",
+    "_midi.h": "73ce71a48358f8da8ae9ba12ade7673c014a9703041d1d504bca1a1add646a9b",
+    "assert.h": "7c5b77a6e33421688d27037df9c9149d126654ec37226c9984eca1e01512cada",
+    "gusmidi2.h": "b10035f3a885b39ce60c892cf882ec4accf789d496aa8d535d0c9bcfbd9e0d06",
+    "ctaweapi.h": "240e310d72f0c70d66345ef81fdb2eba596386ca05fb4a32c166d6cdce4d2494",
+    "usrhooks.h": "62adf3b9ee2e094e7f05bfecca6b4ef03bd166d753e14db39c4635b601da7ab0"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_audio_layout.py": "53a59da37903886eab974647a3b861c26d59de672c11389f80e75ea39cdd86c2",
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/audio-layout-tools.json": "e1171bca0b7fb9e27cad4aa0484266d5ec56ae38d1a6802908abf86da445e513"
+  },
+  "observer_tools_sha256": {
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062"
+  },
+  "notice_files_sha256": {
+    "src/audio/layout-README.md": "9d94af091c0ed612934e4fc69b72bd72b912c8a3b9727518e6d6548133d963be",
+    "src/audio/gpl.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900"
+  },
+  "python_sha256": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634",
+  "emulator_sha256": "e1a2c458b0e717403b4bb639e430c0abe69a939bcc96bf4e63114fdc7504e1d7",
+  "original_library_sha256": "47d3f7d479eea7b68cc98a3d54fec35522f35f078b4a54b0ad86e00c06dc1a9a",
+  "original_members": {
+    "sndsrc": {
+      "offset": 149872,
+      "bytes": 6477,
+      "THEADR": "D:\\PRG\\AUDIO\\source\\sndsrc.c",
+      "sha256": "1fe138d53e13f9deb7fbff63e6e359dff87a25fc6733ddd486d65fed9399f6f8"
+    },
+    "sndscape": {
+      "offset": 156352,
+      "bytes": 16144,
+      "THEADR": "D:\\PRG\\AUDIO\\source\\sndscape.c",
+      "sha256": "8876a27a896e47114b0fb274fdb7b7b0193de1def8a54591a0c0bc1935320c98"
+    },
+    "pas16": {
+      "offset": 175152,
+      "bytes": 17555,
+      "THEADR": "D:\\PRG\\AUDIO\\source\\pas16.c",
+      "sha256": "774df85476e5c03c7cec53ac9004db1d8a06e6d296c908435993f99f805a3add"
+    },
+    "irq": {
+      "offset": 267312,
+      "bytes": 3255,
+      "THEADR": "D:\\PRG\\AUDIO\\source\\irq.c",
+      "sha256": "e647d088b8263325875b5bc804a97e31e2d7eac62c5f51bf1da96df0f5384205"
+    },
+    "blaster": {
+      "offset": 317120,
+      "bytes": 20809,
+      "THEADR": "D:\\PRG\\AUDIO\\source\\blaster.c",
+      "sha256": "7520ed5c0320b119e3bb2194724e33b83a6e8438be5c9366936e6427ca5ec3fe"
+    }
+  },
+  "lineage": {
+    "sndscape": {
+      "reviewed_source": "build/task548b-sndscape-bss/private48-prefix/sndscape.c",
+      "source_sha256": "4ff87e32b394eb4680857e78678bd2102dc6c1d97124fd7dc1283ec12fec7add",
+      "native_contract_measured_from": "build/task558-audio-layout-review/fresh-548b/sndscape.obj",
+      "scope": "Reviewed readable C exact; no private object or target bytes in normal producer."
+    },
+    "sndsrc": {
+      "reviewed_source": "build/task565-sndsrc-const/native/sndsrc.c",
+      "source_sha256": "73484f473b3dcf9e65155a78063e540980001b4cfd4c9e40c6df1e7e3be58b2a",
+      "native_contract_measured_from": "build/task558-audio-layout-review/fresh-554/sndsrc.obj",
+      "scope": "Reviewed readable C exact; no private object or target bytes in normal producer.",
+      "prior554_source_sha256": "11e32f652cbea8cb21d11888104ad8f8b592a594d36a854258b6c5f0f467544e",
+      "CONST565": "Four real released SELECT_* macro strings become named char[4] fields; original private messages owner remains private; no storage or ABI addition."
+    },
+    "pas16": {
+      "reviewed_source": "build/task555-pas16-bss/private76-late-context/pas16.c",
+      "source_sha256": "e62fa9a87f865111e93f3cf19c633b3af32cedb0e4a290468756f33ac3e60a3d",
+      "native_contract_measured_from": "build/task558-audio-layout-review/fresh-555/pas16.obj",
+      "scope": "Reviewed readable C exact; no private object or target bytes in normal producer."
+    },
+    "irq": {
+      "reviewed_source": ".worktrees/irq553/build/task553-irq-state/stub-order/irq.c",
+      "source_sha256": "180a05cb1d9ca995136f2bdceaf19a1d20d2dc74f49a374281969bfb54b54994",
+      "native_contract_measured_from": "build/task558-audio-layout-review/fresh-553/irq.obj",
+      "scope": "Reviewed readable C exact; no private object or target bytes in normal producer."
+    },
+    "blaster": {
+      "reviewed_source": "build/task559-blaster-bss/stack-with-version-context/blaster.c",
+      "source_sha256": "b8ba3fa812941920b13c4adbc6e89f2119cadb17ce4efba793205bf61a03d190",
+      "native_contract_measured_from": "build/task564-audio-integration-review/fresh559/blaster.obj",
+      "scope": "Reviewed readable C exact; no private object or target bytes in normal producer."
+    }
+  },
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "task564_copy_identity_correction": {
+    "prior_frozen_commit": "c243259c4d33ea05f615ab477ef8fd50ca99ceef",
+    "prior_producer_sha256": "1ba716daa0e8a3cbbfbd1d40eda5e9eb3438bb0a1efa369499756a89b93ad42a",
+    "current_producer_sha256": "53a59da37903886eab974647a3b861c26d59de672c11389f80e75ea39cdd86c2",
+    "scope": "Stage C/notices/headers must match pre-copy closed live pins before native execution and before observer target/archive reads. No source/profile/ABI/core change."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "producer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

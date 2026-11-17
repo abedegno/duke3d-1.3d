@@ -1,0 +1,20 @@
+{
+  "kind": "Root verification of GAME635 independent approval and DATA638 link-order evidence",
+  "checkpoints": {
+    "635": {
+      "verdict": "APPROVED corrective635 delta",
+      "artifacts_verified": 393,
+      "freeze_sha256": "e1c5aedcfe4ca19b7dd5f360d72a7f2eefdbc7c2db6476464f3414579b7a763b",
+      "report_sha256": "249d3e09eb853f54548c197fbd0f16db886686fab35e09c9171fce5d87bb9f33"
+    },
+    "638": {
+      "verdict": "POSITIVE: unchanged stock stinit FILE order closes DATA173",
+      "artifacts_verified": 323,
+      "freeze_sha256": "b8d72dd3f71242b3a33619ff337cd444ac411b37b432eaada1c40e9342cca500",
+      "report_sha256": "fe7e1e9f58c8ce2395ed463a3ee1c7f0e550ab08c27d887559583411596a2621"
+    }
+  },
+  "current_GAME635_author_files_match_review": true,
+  "source_credit_added": 0,
+  "full_executable_identical": false
+}

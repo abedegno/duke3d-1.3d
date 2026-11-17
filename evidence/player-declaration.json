@@ -1,0 +1,68 @@
+{
+  "kind": "restored external player declaration; owning module unfinished",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "DUKE3D.H",
+  "upstream_sha256": "36be6b0e36f3b5aeaaaee343d59d4b71b9f422d6ee9447b965255949626803d1",
+  "tracked": "src/game/include/playdef.h",
+  "tracked_sha256": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+  "license": "GPL-2.0-or-later; derived from pinned public 3D Realms source",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "modifications": [
+    "Remove later aim_mode, subweapon and wantweaponfire shorts/longs. Retain the ancestral short shoulder slot at728: its zero store is checked by restored enterlevel, while its original role/name remains inferred. The observed sound-used shoulder-camera byte remains in the user declaration.",
+    "Use 11 ammo and acquired-weapon slots, 256 short weapon records and a 13-byte name. Array bounds remain inferred choices fitting the stride and observed accesses, not uniquely proved original declarations.",
+    "Restore the conditionally cleared byte at 1332, with provisional name level_reset_flag, and refresh_inventory at 1344. Native PREMAP reset routines check their distinct stores.",
+    "Remove later EDuke alternative fields, normalize line endings and add scope notices."
+  ],
+  "native_declaration": {
+    "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "options": [
+      "/4r",
+      "/s",
+      "/ort"
+    ],
+    "declared_size": 1362,
+    "inferred_array_bytes": {
+      "ammo_amount": 22,
+      "gotweapon": 11,
+      "weaprecs": 512,
+      "name": 13
+    },
+    "checked_offsets": {
+      "oposx": 568,
+      "oposy": 572,
+      "oposz": 576,
+      "ang": 640,
+      "cursectnum": 646,
+      "look_ang": 648,
+      "timebeforeexit": 748,
+      "gm": 1302,
+      "palookup": 1352,
+      "holoduke_amount": 688,
+      "kickback_pic": 712,
+      "firstaid_amount": 718,
+      "inven_icon": 1322,
+      "jetpack_on": 1324,
+      "holster_weapon": 1330,
+      "level_reset_flag": 1332,
+      "refresh_inventory": 1344,
+      "palette": 1345,
+      "over_shoulder_on": 728
+    }
+  },
+  "target_reference_evidence": {
+    "save_load": "evidence/save-layout-observations.json",
+    "sha256": "63e15a7775b0b9b16bb6dbab97aaa44ca3a913aa6e980a3da525d216b2cd1024",
+    "sound": "evidence/sounds-module.json",
+    "premap": "evidence/premap-progress.json"
+  },
+  "additional_loader_operands": {
+    "palookup": 249458
+  },
+  "source_scope": "Sound-used offsets and palette lookup, serialized stride/count and the accesses in the listed PREMAP intervals have target checks. Other ancestral names and array bounds remain inferred; the provisional level_reset_flag name describes only its observed conditional clearing. GLOBAL allocation ownership and complete behavior remain unfinished.",
+  "verification_command": "python3 -m unittest tests.test_playerdef_recovery tests.test_game_sound_recovery tests.test_premap_progress",
+  "owns_external_state": false,
+  "new_recovered_contributions": 0,
+  "full_executable_rebuilt": false
+}

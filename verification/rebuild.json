@@ -1,0 +1,38 @@
+{
+  "source_repository_commit": "099a0400259bac00c18698b0b871af7df7e5f246",
+  "source_snapshot_files": 1528,
+  "submodules": [
+    {
+      "path": "dukenukem3d",
+      "commit": "ef609159bd352985a0c63734a11241d86c873fe5"
+    },
+    {
+      "path": "exhume",
+      "commit": "d566d00f70c6a162d3a35fef8d0aa8c2455f2b20"
+    },
+    {
+      "path": "reference/audiolib-reconstructions",
+      "commit": "c363124d376d373441a21b3304eb44d32c0a69f7"
+    },
+    {
+      "path": "reference/build-reconstructions",
+      "commit": "88ffca1bdb8d93c731f6d02e62ae5119393bc73b"
+    },
+    {
+      "path": "reference/duke3d-reconstructions",
+      "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7"
+    }
+  ],
+  "expected_executable": {
+    "name": "DUKE3D.EXE",
+    "bytes": 1179131,
+    "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4"
+  },
+  "tested_source_inputs": 121,
+  "compiled_vendor_components_included": false,
+  "game_assets_included": false,
+  "publication_status": "Public source release; restricted vendor-derived source is supplied through a local-only overlay",
+  "licence_scope": "Mixed original component terms; inspect LICENSE.md before public distribution.",
+  "local_dependency_manifest": "verification/local-dependencies.json",
+  "exact_source_command": "make rebuild VENDOR_PREFIX=/path/to/vendor-prefix.bin"
+}

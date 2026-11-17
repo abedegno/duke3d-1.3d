@@ -1,0 +1,271 @@
+{
+  "kind": "Complete native PLAYER contribution; complete executable unfinished",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "PLAYER.C",
+  "upstream_sha256": "fb81176351f0dea1cf6c572908c55cd04e86c155593117a4da4ef0d47e391706",
+  "released_source_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "released_notice_source": "dukenukem3d/source/PLAYER.C",
+  "tracked": "src/game/player.c",
+  "tracked_sha256": "de58bd2fc2d3b30c5c0e38ac8d7df8e2bef211e405f73bb42ef4db842b29f9ba",
+  "license": "GPL-2.0-or-later; original-author credit and GNU notice retained from pinned GPL release",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "headers": {
+    "reference": [
+      "reference/duke3d-reconstructions",
+      "reference/duke3d-reconstructions/MACT"
+    ],
+    "overlays": [
+      "src/include",
+      "src/game/include",
+      "src/engine/include"
+    ]
+  },
+  "modifications": [
+    "Retain pinned reconstructed PLAYER ancestry with recovered shared v1.3D declarations. Normalize line endings/trailing whitespace and add GPL attribution from the pinned public source release; replace the reconstructed upstream restrictive source notice with that released GNU notice.",
+    "Restore hitawall without the later FindDistance2D calculation. Its inherited long return declaration intentionally has no source return value, as required by the complete native128-byte interval; Watcom emits W107. Existing target callers do not consume a restored distance result.",
+    "Restore aim without the later cooperative-player exclusion, and allow SHARK with xrepeat at least20 to leave its shrinker switch. The complete992-byte interval and35fixups pass, including the prefix initializer reference.",
+    "Restore shoot without the later GROWSPARK case, NEWBEAST blood treatment, cooperative/friendly-fire gate, knee water splash, tripbomb range/ammo changes and freezer clip-distance distinction. Restore blood-palette ordering, early knee-hit guards, monster shot distance divisor+1, direct full-width RPG distance division and shrinker distance from findplayer. The complete7920-byte interval and392fixups pass; size or source ancestry is not acceptance.",
+    "Restore the earlier displayweapon shrinker-only case and direct player palette lookup for quick kick and knee. Its complete6512-byte body/92fixups retain the existing player short at offset728 in the camera test. Removing the later case also restores the table prefix contained in animateaccess; all four previously unverified animation helpers now pass complete intervals.",
+    "Historical field naming (superseded by user_byte_role_correction): Restore getinput without the later multiflag shortcut or mouse-flip option. The complete2096-byte interval and178fixups use user byte7 for map-following input. The inherited ud.clipping name is provisional here; byte6 remains a separately observed PREMAP reset. The probe enforces the same physical _ud base, and a byte7-to-byte6 corruption is rejected.",
+    "Restore checkweapons with a positive weapon-index check and dispatch through the independently anchored weapon_tiles, using RPG/HEAVYHBOMB tile values. Its complete112-byte interval and4fixups pass. The weapon_tiles logical name/owner remains the shared PREMAP reconstruction, not a new allocation.",
+    "Restore eleven named weapon_sprites entries, with FREEZEBLAST in slot9 rather than the later FREEZESPRITE. A separate unchanged-verifier projection proves all22initialized bytes at object3:31232; the complete gate below additionally proves all remaining DATA and BSS.",
+    "Restore complete processinput from target instructions: the invalid-sector kill/drop path, earlier player aiming byte1332, force-away shift6, exit fallthrough/return ordering, death weapon drops, frag score submission scope, fixed256 gravity, older jump/ceiling behavior and floor-damage gates. The first three floor tests skip the whole hazard block; the fourth selects a floor tile or sentinel. Preserve that distinction rather than merging equivalent-looking conditions.",
+    "Restore processinput collision controls through existing user byte8 (current provisional over_shoulder_on name), retaining byte7 as the getinput map flag. Remove later clipping guards around crushing/sector activation, pass snum rather than the sprite index to activatebysector, and retain earlier distinct field accesses without changing shared declarations.",
+    "Restore earlier empty-weapon handling with an unconditional comparison after the conditional decrement; remove later FEM10 squish handling, fire-time crack reset, grow/subweapon/queued-fire behavior and contiguous numeric weapon switch tables. Dispatch through shared weapon_tiles including DEVISTATORBLAST, consume tripbomb ammo on arming, retain earlier bomb ordering, and call checkavailweapon after a chaingun shot only when ammo reaches zero.",
+    "Replace inline format strings with a named local CONST record using original text and separate measured alignment residue fields. The five format strings have extents13/10/21/18/19 including NUL; padding groups3/2/3/2 account for10 bytes, eight nonzero. These unreferenced bytes have no source or target loader fixups and are outside every referenced string. No instruction bytes are represented in the record, and no target data is read or copied by compilation.",
+    "Remove later getspritescore/computergetinput, fdmatrix and bot search/goal arrays from the native PLAYER contribution. The exact target contribution ends with processinput RET at240969; six following target zero bytes before xyzmirror are outside this emitted module. The proof does not determine whether any later-named helper exists elsewhere in the executable.",
+    "Promote only after unchanged infer_bindings/verify_module accepted every emitted CODE/CONST/DATA/BSS byte and fixup at one placement. Add the complete descriptor and retain all prior interval/corruption tests. Hash and validate independent complete and partial anchors; exclude local-symbol collisions.",
+    "Distinguish the intentional native hitawall W107 warning from unexpected compiler diagnostics. The module probe requires exactly that warning and rejects any additional warning."
+  ],
+  "proved_intervals": [
+    "setpal_",
+    "incur_damage_",
+    "quickkill_",
+    "forceplayerangle_",
+    "tracers_",
+    "hits_",
+    "hitasprite_",
+    "displayloogie_",
+    "animatefist_",
+    "displaymasks_",
+    "doincrements_",
+    "hitawall_",
+    "aim_",
+    "shoot_",
+    "animateknee_",
+    "animateknuckles_",
+    "animatetip_",
+    "animateaccess_",
+    "displayweapon_",
+    "getinput_",
+    "checkweapons_",
+    "processinput_"
+  ],
+  "native_report": "evidence/player-progress.json",
+  "native_report_sha256": "dc404846dd3911fe6ac2831d6618d852a087a8b3e814754fd9caa752438741ef",
+  "omitted_code_bodies": [],
+  "omitted_data": [],
+  "unverified_emitted_code_publics": [],
+  "source_segment_inventory": [
+    {
+      "segment": 1,
+      "name": "_TEXT",
+      "class": "CODE",
+      "size": 37082
+    },
+    {
+      "segment": 2,
+      "name": "CONST",
+      "class": "DATA",
+      "size": 0
+    },
+    {
+      "segment": 3,
+      "name": "CONST2",
+      "class": "DATA",
+      "size": 0
+    },
+    {
+      "segment": 4,
+      "name": "_DATA",
+      "class": "DATA",
+      "size": 34
+    },
+    {
+      "segment": 5,
+      "name": "_BSS",
+      "class": "BSS",
+      "size": 18
+    },
+    {
+      "segment": 6,
+      "name": "CONST",
+      "class": "DATA",
+      "size": 91
+    }
+  ],
+  "unverified_scope": "Whole-executable linking, binder/runtime reproduction, other modules and the later humanization pass remain unfinished. No PLAYER contribution bytes/fixups or source storage remain omitted by this descriptor; this does not reconstruct original symbol spellings or prove original linker ownership beyond the fixed native contribution.",
+  "verification_command": "python3 tools/probe_player.py --build build/player-fresh --report build/player-fresh.json; python3 -m unittest tests.test_player_progress tests.test_player_module -v",
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false,
+  "verified_storage_scope": "All emitted storage:37082 CODE bytes including208-byte prefix/tables,91 CONST bytes including10 explicitly identified residue bytes,34 DATA bytes and18 BSS bytes. Full verifier reports37207 initialized bytes,18 zero-fill bytes and1322 fixups at one placement.",
+  "native_module_report": "evidence/player-module.json",
+  "descriptor": "modules/player.json",
+  "descriptor_sha256": "0d02e62b6201394bdd4209f3e0237c0dd07c12b8ac0ba0fd8755c7353e0e62b4",
+  "owned_noncode_publics": {
+    "_dmval": [
+      5,
+      12
+    ],
+    "_fistsign": [
+      5,
+      16
+    ],
+    "_lastcontroltime": [
+      5,
+      4
+    ],
+    "_lastvisinc": [
+      5,
+      0
+    ],
+    "_myaimmode": [
+      4,
+      0
+    ],
+    "_myaimstat": [
+      4,
+      4
+    ],
+    "_omyaimstat": [
+      4,
+      8
+    ],
+    "_player_text": [
+      6,
+      0
+    ],
+    "_turnheldtime": [
+      5,
+      8
+    ],
+    "_weapon_sprites": [
+      4,
+      12
+    ]
+  },
+  "constant_record": {
+    "source_public": "_player_text",
+    "source_segment": 6,
+    "target_object": 3,
+    "target_offset": 10508,
+    "bytes": 91,
+    "format_offsets": [
+      0,
+      16,
+      28,
+      52,
+      72
+    ],
+    "format_extents_with_nul": [
+      13,
+      10,
+      21,
+      18,
+      19
+    ],
+    "padding_offsets": [
+      13,
+      14,
+      15,
+      26,
+      27,
+      49,
+      50,
+      51,
+      70,
+      71
+    ],
+    "padding_values": [
+      9,
+      0,
+      44,
+      0,
+      252,
+      69,
+      82,
+      83,
+      85,
+      83
+    ],
+    "loader_fixups_in_record": 0,
+    "source_fixups_in_record": 0,
+    "historical_residue_origin": "unproved; identified noninstruction inter-string alignment contents, not normal format payload"
+  },
+  "native_complete": {
+    "code_publics": 22,
+    "initialized_bytes": 37207,
+    "zero_fill_bytes": 18,
+    "verified_fixups": 1322,
+    "placements": {
+      "1": [
+        1,
+        203888
+      ],
+      "5": [
+        3,
+        587520
+      ],
+      "4": [
+        3,
+        31220
+      ],
+      "6": [
+        3,
+        10508
+      ]
+    },
+    "compiler_warnings": [
+      "W107: Missing return value for function 'hitawall'"
+    ]
+  },
+  "excluded_later_source": {
+    "functions": [
+      "getspritescore",
+      "computergetinput"
+    ],
+    "data": [
+      "fdmatrix",
+      "goalx",
+      "goaly",
+      "goalz",
+      "goalsect",
+      "goalwall",
+      "goalsprite",
+      "goalplayer",
+      "clipmovecount",
+      "searchsect",
+      "searchparent",
+      "dashow2dsector"
+    ],
+    "scope": "Excluded from this complete native PLAYER contribution. Original names and existence elsewhere in the target executable are not established."
+  },
+  "user_byte_role_correction": {
+    "kind": "logical field-role correction with unchanged native offsets and complete contributor bytes",
+    "show_help_offset": 6,
+    "scrollmode_offset": 7,
+    "source_change": "ud.clipping -> ud.scrollmode",
+    "allocation_verified": false,
+    "native_validation": "Complete contributor byte/public/fixup proof retained; PREMAP four-byte BSS boundary condition remains unchanged."
+  }
+}

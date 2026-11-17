@@ -1,0 +1,17 @@
+{
+  "version": "Turbo Assembler 3.1",
+  "source_url": "https://winworldpc.com/download/f7396558-9ba2-11e9-ab10-fa163e9022f0",
+  "archive_sha256": "76e155a7fb7eb0590930ecd513644c977497a020466a272943776fbf683d0f27",
+  "provider_archive_sha1": "c130504ebdba28d41ba95fc70a46e99a787d6efa",
+  "method": "Extract Disk07/Disk09 FAT12 images, verify TASM.CA1/CA2, remove each five-byte package header, concatenate ZIP and extract validated executables. No installer executed.",
+  "tools": {
+    "TASM.EXE": {
+      "sha256": "80534cd6a1e2c2b4376ae3f21954c6dbfa77a6998d5e0bf8b8bee6153f3174ea",
+      "bytes": 129266
+    },
+    "TASMX.EXE": {
+      "sha256": "421decd9cde792c49cc35c096c93e092df98188e96fc43a58e00ee48a21b2724",
+      "bytes": 142990
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "name": "mact_vector",
+  "source": "src/mact/vector/vector.asm",
+  "counterpart": "src/mact/vector/vector-counterpart.c.txt",
+  "producer": "watcom-wasm-vector",
+  "options": [
+    "/zq"
+  ],
+  "expected": {
+    "initialized_bytes": 735,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 3
+  },
+  "reference_expected": {
+    "initialized_bytes": 735,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 5
+  },
+  "native_inventory": {
+    "name": "VECTOR.ASM",
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class_name": "CODE",
+        "size": 735,
+        "attributes": 105,
+        "access": null
+      },
+      {
+        "name": "_DATA",
+        "class_name": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "CONST",
+        "class_name": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "CONST2",
+        "class_name": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_BSS",
+        "class_name": "BSS",
+        "size": 0,
+        "attributes": 105,
+        "access": null
+      }
+    ],
+    "publics": {
+      "FP_VectorAdd_": [
+        1,
+        0
+      ],
+      "FP_VectorSub_": [
+        1,
+        28
+      ],
+      "FP_ScaleVector_": [
+        1,
+        56
+      ],
+      "FP_VectorLength_": [
+        1,
+        84
+      ],
+      "FP_NormalizeVector_": [
+        1,
+        124
+      ],
+      "FP_2x2Det_": [
+        1,
+        192
+      ],
+      "FP_CrossProduct_": [
+        1,
+        216
+      ],
+      "FP_TripleProduct_": [
+        1,
+        400
+      ],
+      "FP_DecomposeVector_": [
+        1,
+        444
+      ],
+      "FP_RotateVAV_": [
+        1,
+        524
+      ]
+    },
+    "externals": [
+      "__get_errno_ptr_",
+      "_fltused_",
+      "__init_387_emulator",
+      "__8087"
+    ],
+    "local_publics": [],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ],
+      [
+        "DGROUP",
+        [
+          5,
+          2,
+          4,
+          3
+        ]
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 1,
+        "offset": 111,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 155,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 475,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      }
+    ],
+    "default_libraries": [
+      "math387r",
+      "emu387"
+    ],
+    "far_call_optimization_segments": [],
+    "comments": [
+      [
+        159,
+        {
+          "hex": "6d61746833383772"
+        }
+      ],
+      [
+        159,
+        {
+          "hex": "656d75333837"
+        }
+      ],
+      [
+        162,
+        {
+          "hex": "01"
+        }
+      ]
+    ],
+    "dosseg_directives": [],
+    "code_data_ranges": [],
+    "line_numbers": [],
+    "format": "standard-omf",
+    "format_source": null,
+    "fixup_encodings": [
+      {
+        "fixup": 0,
+        "record_kind": 156,
+        "raw_bytes": {
+          "hex": "a46f5601"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a46f"
+        },
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 1,
+        "record_kind": 156,
+        "raw_bytes": {
+          "hex": "a49b5601"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a49b"
+        },
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 2,
+        "record_kind": 156,
+        "raw_bytes": {
+          "hex": "a5db5601"
+        },
+        "raw_location": 9,
+        "raw_locat": {
+          "hex": "a5db"
+        },
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      }
+    ],
+    "thread_definitions": [],
+    "source_records": []
+  },
+  "original_member": {
+    "offset": 37888,
+    "size": 1950,
+    "sha256": "4315e32dae8c515e9d8a072668f6617c6dc446467eb186a793f7831e43c5558f"
+  },
+  "nomination": "fresh source FP_RotateVAV_ complete211-byte interval; all candidates get whole source/original gate",
+  "humanization_backlog": [
+    "FP_VectorAdd_",
+    "FP_VectorSub_",
+    "FP_ScaleVector_",
+    "FP_VectorLength_",
+    "FP_NormalizeVector_",
+    "FP_2x2Det_",
+    "FP_CrossProduct_",
+    "FP_TripleProduct_",
+    "FP_DecomposeVector_",
+    "FP_RotateVAV_"
+  ],
+  "full_executable_rebuilt": false
+}

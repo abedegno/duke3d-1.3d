@@ -1,0 +1,1391 @@
+{
+  "kind": "complete source-built MACT file contribution; no full executable identity claim",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/file_lib.c",
+  "source_sha256": "56a0b103269a2f952980e519c64a286122a02d3f3a019654b422c45bbe8859a1",
+  "source_reference_sha256": "edd585a344cbde20ae2792552a4f2b79e7e35c7210bfe7e1f30c1b54368868dc",
+  "descriptor_sha256": "7c34d84fe68e39bc574923e2a1064cdebb2fefe6303d41623dfe2232788fdbb9",
+  "source_producer_sha256": "6176a4a404a98eef9ece180857d2d759af5b3e3b0811c2d3ba122b8f202d2686",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "compiler_headers_sha256": {
+    "dosfunc.h": "e0818cff823f622700d84b57ce2a163cad8b69ff59dbdba85f37939cdcd93258",
+    "time.h": "2baeafdf340f6a9bf6c4f8b2482817ab0b18a5787d680bd7441b681f72cb1d16",
+    "generic.h": "735ed532c9152801307bf31f89b27b6804808f46e7c7fac5195cc99aaba30574",
+    "env.h": "c94e73a2fb8beeffedbbf3da0f6bf30b38e3acdd70edeeeb7697b9c16e4734c5",
+    "fstream.h": "a4e6bd2939b3305a9ccf176ec672e508a1b5714ff86bff1e3f7f852adf5af543",
+    "stdlib.h": "4e14c82775dd96c4cd42255c64fc81e33ef0cd9ce8ceb2853265351a4cfafd15",
+    "bios.h": "3c4d7d2ce1e796ce18e9d8e182f94a016082f330b2fae465713df6134ee88991",
+    "malloc.h": "d269c7807424c126231a7e2196058fd067148c4505fc29b91c0308830a941a30",
+    "float.h": "9c1e7ada0eddcefbc9e6f9414374dff464c09863e9d1d818480c65125aa496a6",
+    "stdiobuf.h": "4b3519258f3897ae2d04ee29260d952f16e3bcb54ccfaf76fe02e4e0da808091",
+    "iostream.h": "955885667ae26c248402ac2c523fd440226de7d68ac621451b40aa724f9f72a7",
+    "locale.h": "ebab144384a548277d327164aa5e9b116188135b9c3175d6fcf6cf469e56a8cf",
+    "jtime.h": "124c81110eccb8a14471421a674c2bc548d16ce5720999e8c1a61174ddbbf06c",
+    "iomanip.h": "b2cc77957300e7f5f0dbaa724a96c80bc9be8277d44698a1d37056e31fd94438",
+    "limits.h": "ce4cccef410a70cb21eddb2a8aac83855ce473010c8b066f0120975dc8b0bdf7",
+    "wclibase.h": "ae370c8990868494f087ef9a727ec6a3630f2dcb23996e167581c8293ffbdfcb",
+    "wcvector.h": "0526101c7cd81ccd6540c225a8ee4350f8d3e9b578edee318b340c4dd686695c",
+    "conio.h": "f94365acafcc36c4fb1237f5ba25c9aa2723f7d1a9e9fb8214de1ec4230b7948",
+    "unistd.h": "eaae97b116bf29c9e371027e667b751f358a71d656c9768948df7a736db158c5",
+    "stddef.h": "37f11ac8b1b9ecfa30c3aa3a60eb9a8f75752f21a019d41127ed7879b8973f72",
+    "wcdefs.h": "ea0839a1814467bf4204b23cbefbea913d73bb063a49b108bd083152cf8ab949",
+    "wcskip.h": "73392654347c14aa563e373c1849990dacf789aecdc5fda9267ea2faab7e48b3",
+    "fcntl.h": "dc5ae8a746c111a332245ae7abfbcb0777adb7706dcd5a97976bb18588b9c89b",
+    "streambu.h": "5386580f2a198b099d68cf588eb50d95238b23cf3df784f4daa7cc6302a65b04",
+    "wsample.h": "5c2c9de1e05fe9bebf16e02cc0ae68b348b80f5c6ca4b2cc59d09261b41753d6",
+    "wchiter.h": "12f10c9d78a503f336dac8f5879bc844237c778572fe5c2d80ae17121935f279",
+    "i86.h": "14f0a3daed5226486cb9f35febd5823aee9bc5c6b53794afee8486400decb2bc",
+    "signal.h": "c82885ca1c80d544a05de0c654d80dfbfce24f6ceafed3a700325a801c65b3a1",
+    "new.h": "bb7f953e5b82ffc0773f14b65c9ee733974725857c99a1fe83f1c8a330c17ac7",
+    "jstring.h": "57e6d7b8aba06767587aa52c013012899a3af43416dd58f3f91fe023b9b9c85d",
+    "wcskipit.h": "0ffbe770c4dfac242dde6e8c751d70bcf19223c80b7084957c8af6a2cdd40792",
+    "wclistit.h": "f7ac6f9bd96f622c80f297f04c1b0ee8addda25ea616e7abf61bf001e3f5ce2b",
+    "setjmp.h": "d2039415d0ea2a72012b472678ea0b1e62ba5d82bd647b2ec9989b3bf9c34f3d",
+    "strstrea.h": "1f9c1b8d8f07440bb7b34ac33e205cb4e89ac4a786df6b1ba8b923e0fa116f73",
+    "graph.h": "bb631005db869fac252067901f0137b3c3ec60d53a01ae9e70a6bf0f21c022b3",
+    "wdefwin.h": "6331bec748b9b410931cb6d7960a23b8522f1cfe4a829276bd0f7cd6cc919e2a",
+    "except.h": "4c3c26c36bb22196c7d622aefce575496a657a7ac015005cf0b6fd8fa1d69c67",
+    "wcsibase.h": "b6d875e30feca0fa53a798861daf68d118b021128ff914bb70386a6dd220ce1d",
+    "wchbase.h": "dac5a292d5264b443c0cbfd29916b16e22cd2f86b0ea3a55f1b6a2fd619054a7",
+    "wcsbase.h": "a955b335b760b7ef903116b00a4ef1a2e379b94d267ea7f470d3e9a89067ca39",
+    "share.h": "cca00bdddf3d5110f240b3d4e2b18a74b319e3d7df6938699143f4754fe28983",
+    "ctype.h": "9a83ade4b66271bb4149cd1071ec0a20f536b1d9f30e0f56d56c36fe30aba2f4",
+    "io.h": "2fb1343cfce131234508c94a0837bc3fd5cc71488841ece1bc317ba4a5cc76d9",
+    "common.cnv": "82c4d0f645fc45d37a6a5a39012382f026d54a9164ad6767771b94cd3c2d6ccf",
+    "wclbase.h": "57d8067a65cb847e08b193187e7201caeb5110858550303b9bea6ccbe8c0dc62",
+    "string.hpp": "cec68fcdbc1bfd3d8b49fa5fe9f13303fa3e9b21a116b28331cc1618fb703963",
+    "jctype.h": "4dc6fe0120e9988ffc0f61918107d9e643070cff79d98942dac434afb3bb063d",
+    "bios98.h": "c6c4d1bb2326f30803484cb89fd13d007478bb254551abb283be79d06bfb76ad",
+    "process.h": "f0fc51776260ac17202da43eb4d56e9e5ffcdc4f6aca28108a30b065a0ca4c0c",
+    "varargs.h": "7ff9e6d71c3ec0209b3954d2351d2f7ac34787ad5e8b878b4f5af60a9321f5f0",
+    "wchash.h": "233db7cbb4b8694009f162c7f9f75fe91cbe8203b38a45ee605d3d1dfcf5ee77",
+    "wcqueue.h": "34749131399f0bd7763dd7f70ebafa53ba6ae81b5b6d1e8db6631d779da602bd",
+    "math.h": "e6bf91eb159f681f7b2b3d3629eb4aaa94473a13690450f45cfcdeb9001bfa2d",
+    "errno.h": "380a36f1051a81f74ff974efdd1f4a0d67504c451315024b7f761c86b434cf65",
+    "stdio.h": "de275400f58feb96f19a1cd313f6906d7a3c849b9c2cfcba0fd7d619c341d6d1",
+    "stdarg.h": "ddc782c553543ad86ac7bdca6d4270f34ccb989871cd7c6832d8bab87df817fc",
+    "mem.h": "5ca07935305d1f293897e37e399c56814c4c70175f0523d33d4b41aaec2bf82c",
+    "direct.h": "011e69cb70d9c2a8731ba8b3332bad98e0019f7b40417279d3d4e66ea3c4de32",
+    "wclist.h": "3b0be37ede60cbf953836d5d4bf9c364e49d09d7418b822aa123504c6ed28158",
+    "search.h": "6b7b9cdbb3336da91e9848aa2985a7c282a6eb26224c81b2e88b118d45b4907e",
+    "assert.h": "0e01f1eb3b301911dff3a42e3e15d1deaf0964dc326305ddd35d424e9b86eaba",
+    "graph98.h": "de02fa8c14ba453d8a8778f22fec02d615d3da62ada5805d44628dc033342cdc",
+    "wcstack.h": "6c75e1bb8f11ec71ec219a0d7f360cb776ffc0cdef23e0ff3afcb7b51744318f",
+    "dos.h": "ba2f96187f557305d52f260b6f1e50d60ce87c32e8742e68a959427aa0275ee0",
+    "wcexcept.h": "6eb6d759109c136282003a3419d3119472f4032963da1407720aa69e241d20c0",
+    "pgchart.h": "35d5ab57adf7cf07422632ee6bd71d67fe8cdd0bca4917a6e12cfda3a2d8580e",
+    "complex.h": "71b02f6b4dc588e2fffcbdd77e9a576c55a5fe96d3ef61b1bc835c2208d85e61",
+    "wcvbase.h": "3b8c00de68c28d6c3155c2c4ea419ebda775f2817b4d23ed2efa9e14f2a78e51",
+    "wclcom.h": "97c405c4266ca1ae8e4ec554377ca86032e8775716a01d47e72cbeb535c3a696",
+    "string.h": "7b5e9dfad7588bea54e19c87a72de5e72fcb3ff062b0b4b2f6d9652d40ef3eeb"
+  },
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "proof_tools_sha256": {
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19"
+  },
+  "native_object_sha256": "6e338b8af7b4169bec879070c1cea85121896a3432322cfcf174d3547ee3ebef",
+  "native_log_sha256": "c23175aebbabdead6d8f719a6e1836a55801f36b6649d9646c046d2231831df7",
+  "independent_anchor_verifications": {
+    "drive386": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "a64e8f7edbfa8131cb267a6cbbbb4eb193e2bab123090fc53b7a9f5a4a3b86c6",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 40,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 592118,
+            "compared_bytes": 40,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_dos_getdrive_": [
+            1,
+            592118
+          ],
+          "_dos_setdrive_": [
+            1,
+            592138
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "set386": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "82e5427401753689730d72e50e4ca4ac0bad8fd5b82ff61ac44f74eaed9662c1",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 24,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 1,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 588144,
+            "compared_bytes": 24,
+            "verified_fixups": 1,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "memset_": [
+            1,
+            588144
+          ],
+          "__STOSB": [
+            1,
+            589760
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "filelen": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "cd5951f21d3863acbef8afe8b701785e06a5de48ebe6e2c4f402e1ad0507dd1f",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 61,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 3,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 588856,
+            "compared_bytes": 61,
+            "verified_fixups": 3,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "filelength_": [
+            1,
+            588856
+          ],
+          "lseek_": [
+            1,
+            588039
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "accss": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "a9aa6b3e3890321ea2a5e0793529f011ed10488e133ac668f097934b6c4fbd58",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 59,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 1,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 592025,
+            "compared_bytes": 59,
+            "verified_fixups": 1,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "access_": [
+            1,
+            592025
+          ],
+          "_access_": [
+            1,
+            592025
+          ],
+          "_dosret0_": [
+            1,
+            596114
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "tolower": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "b573d65f7d3dd0eeb1243ba2fa4572cb74fa6a05b0db9b4eb6616f81e52b8d46",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 14,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 583886,
+            "compared_bytes": 14,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "tolower_": [
+            1,
+            583886
+          ],
+          "_tolower_": [
+            1,
+            583886
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "toupper": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "b029b99bfc418afe78812949c633d4c1b323435433d757418bfcc5646c16187f",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 14,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 583021,
+            "compared_bytes": 14,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "toupper_": [
+            1,
+            583021
+          ],
+          "_toupper_": [
+            1,
+            583021
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "strerror": {
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "1a5cf8e65811c7482a5b4ad7524bd9bede0ec8dc68bc032a41fe2abac6f58d1f",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 408,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 18,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591021,
+            "compared_bytes": 23,
+            "verified_fixups": 2,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "CONST",
+            "target_object": 3,
+            "target_offset": 28436,
+            "compared_bytes": 317,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 72560,
+            "compared_bytes": 68,
+            "verified_fixups": 16,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "strerror_": [
+            1,
+            591021
+          ],
+          "_sys_errlist": [
+            3,
+            72564
+          ],
+          "_sys_nerr": [
+            3,
+            72560
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false,
+        "group_frames": {
+          "1": [
+            3,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "independently_anchored_imports": {
+    "_dos_getdrive_": [
+      1,
+      592118
+    ],
+    "_dos_setdrive_": [
+      1,
+      592138
+    ],
+    "memset_": [
+      1,
+      588144
+    ],
+    "filelength_": [
+      1,
+      588856
+    ],
+    "access_": [
+      1,
+      592025
+    ],
+    "tolower_": [
+      1,
+      583886
+    ],
+    "toupper_": [
+      1,
+      583021
+    ],
+    "strerror_": [
+      1,
+      591021
+    ]
+  },
+  "selected_member_call_nominations": {
+    "open_": [
+      1,
+      586401
+    ],
+    "__get_errno_ptr_": [
+      1,
+      591221
+    ],
+    "Error_": [
+      1,
+      555340
+    ],
+    "SafeFree_": [
+      1,
+      556260
+    ],
+    "SafeMalloc_": [
+      1,
+      556180
+    ],
+    "close_": [
+      1,
+      587496
+    ],
+    "read_": [
+      1,
+      588597
+    ],
+    "write_": [
+      1,
+      587027
+    ],
+    "getenv_": [
+      1,
+      589923
+    ],
+    "chdir_": [
+      1,
+      592084
+    ]
+  },
+  "callee_identity_limit": "Only eight imports (access,filelength,memset,strerror,tolower,toupper,and two DOS drive functions) have fresh complete independent stock CRT replay here. Remaining imported callee locations are explicitly selected-original-member call nominations, including Error/SafeMalloc/SafeFree peer utility addresses. No independent callee identity claim for those nominations. Whole file bytes and all typed fixups still verified without masks.",
+  "source_geometry": {
+    "publics": {
+      "SafeOpen_": [
+        1,
+        0
+      ],
+      "SafeOpenWrite_": [
+        1,
+        160
+      ],
+      "SafeOpenRead_": [
+        1,
+        224
+      ],
+      "SafeOpenAppend_": [
+        1,
+        284
+      ],
+      "SafeClose_": [
+        1,
+        348
+      ],
+      "SafeFileExists_": [
+        1,
+        444
+      ],
+      "SafeFileLength_": [
+        1,
+        464
+      ],
+      "SafeRead_": [
+        1,
+        472
+      ],
+      "SafeWrite_": [
+        1,
+        584
+      ],
+      "LoadFile_": [
+        1,
+        696
+      ],
+      "SaveFile_": [
+        1,
+        748
+      ],
+      "GetPathFromEnvironment_": [
+        1,
+        780
+      ],
+      "DefaultExtension_": [
+        1,
+        968
+      ],
+      "DefaultPath_": [
+        1,
+        1060
+      ],
+      "ExtractFileBase_": [
+        1,
+        1184
+      ],
+      "GetExtension_": [
+        1,
+        1296
+      ],
+      "SetExtension_": [
+        1,
+        1384
+      ],
+      "GetPath_": [
+        1,
+        1468
+      ],
+      "ChangeDirectory_": [
+        1,
+        1544
+      ],
+      "ChangeDrive_": [
+        1,
+        1676
+      ],
+      "_FileNames": [
+        4,
+        0
+      ]
+    },
+    "local_publics": [
+      "_FileNames"
+    ],
+    "externals": [
+      "open_",
+      "__get_errno_ptr_",
+      "strerror_",
+      "Error_",
+      "_FileNames",
+      "SafeFree_",
+      "SafeMalloc_",
+      "SafeOpen_",
+      "close_",
+      "access_",
+      "filelength_",
+      "read_",
+      "write_",
+      "SafeOpenRead_",
+      "SafeRead_",
+      "SafeClose_",
+      "SafeOpenWrite_",
+      "SafeWrite_",
+      "getenv_",
+      "memset_",
+      "tolower_",
+      "ChangeDrive_",
+      "chdir_",
+      "GetPath_",
+      "toupper_",
+      "_dos_setdrive_",
+      "_dos_getdrive_"
+    ],
+    "local_externals": [
+      5
+    ],
+    "groups": [
+      [
+        "DGROUP",
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "dosseg_directives": [],
+    "code_data_ranges": [],
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 1731,
+        "attributes": 105
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 406,
+        "attributes": 169
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 80,
+        "attributes": 169
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 0,
+        "attributes": 169
+      }
+    ]
+  },
+  "placements": {
+    "1": [
+      1,
+      569136
+    ],
+    "2": [
+      3,
+      26220
+    ],
+    "4": [
+      3,
+      71104
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 16,
+      "symbol": "open_",
+      "value": [
+        1,
+        586401
+      ]
+    },
+    {
+      "source_offset": 28,
+      "symbol": "open_",
+      "value": [
+        1,
+        586401
+      ]
+    },
+    {
+      "source_offset": 43,
+      "symbol": "__get_errno_ptr_",
+      "value": [
+        1,
+        591221
+      ]
+    },
+    {
+      "source_offset": 50,
+      "symbol": "strerror_",
+      "value": [
+        1,
+        591021
+      ]
+    },
+    {
+      "source_offset": 57,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 62,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 83,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 94,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 114,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 123,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 176,
+      "symbol": "SafeOpen_",
+      "value": [
+        1,
+        569136
+      ]
+    },
+    {
+      "source_offset": 198,
+      "symbol": "SafeOpen_",
+      "value": [
+        1,
+        569136
+      ]
+    },
+    {
+      "source_offset": 205,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 237,
+      "symbol": "SafeOpen_",
+      "value": [
+        1,
+        569136
+      ]
+    },
+    {
+      "source_offset": 256,
+      "symbol": "SafeOpen_",
+      "value": [
+        1,
+        569136
+      ]
+    },
+    {
+      "source_offset": 263,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 268,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 300,
+      "symbol": "SafeOpen_",
+      "value": [
+        1,
+        569136
+      ]
+    },
+    {
+      "source_offset": 322,
+      "symbol": "SafeOpen_",
+      "value": [
+        1,
+        569136
+      ]
+    },
+    {
+      "source_offset": 329,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 334,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 354,
+      "symbol": "close_",
+      "value": [
+        1,
+        587496
+      ]
+    },
+    {
+      "source_offset": 376,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 382,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 387,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 399,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 404,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 422,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 429,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 435,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 448,
+      "symbol": "access_",
+      "value": [
+        1,
+        592025
+      ]
+    },
+    {
+      "source_offset": 465,
+      "symbol": "filelength_",
+      "value": [
+        1,
+        588856
+      ]
+    },
+    {
+      "source_offset": 525,
+      "symbol": "read_",
+      "value": [
+        1,
+        588597
+      ]
+    },
+    {
+      "source_offset": 538,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 545,
+      "symbol": "__get_errno_ptr_",
+      "value": [
+        1,
+        591221
+      ]
+    },
+    {
+      "source_offset": 552,
+      "symbol": "strerror_",
+      "value": [
+        1,
+        591021
+      ]
+    },
+    {
+      "source_offset": 558,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 563,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 637,
+      "symbol": "write_",
+      "value": [
+        1,
+        587027
+      ]
+    },
+    {
+      "source_offset": 650,
+      "symbol": "_FileNames",
+      "value": [
+        3,
+        71104
+      ]
+    },
+    {
+      "source_offset": 657,
+      "symbol": "__get_errno_ptr_",
+      "value": [
+        1,
+        591221
+      ]
+    },
+    {
+      "source_offset": 664,
+      "symbol": "strerror_",
+      "value": [
+        1,
+        591021
+      ]
+    },
+    {
+      "source_offset": 670,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 675,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 704,
+      "symbol": "SafeOpenRead_",
+      "value": [
+        1,
+        569360
+      ]
+    },
+    {
+      "source_offset": 711,
+      "symbol": "filelength_",
+      "value": [
+        1,
+        588856
+      ]
+    },
+    {
+      "source_offset": 718,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 731,
+      "symbol": "SafeRead_",
+      "value": [
+        1,
+        569608
+      ]
+    },
+    {
+      "source_offset": 738,
+      "symbol": "SafeClose_",
+      "value": [
+        1,
+        569484
+      ]
+    },
+    {
+      "source_offset": 755,
+      "symbol": "SafeOpenWrite_",
+      "value": [
+        1,
+        569296
+      ]
+    },
+    {
+      "source_offset": 764,
+      "symbol": "SafeWrite_",
+      "value": [
+        1,
+        569720
+      ]
+    },
+    {
+      "source_offset": 771,
+      "symbol": "SafeClose_",
+      "value": [
+        1,
+        569484
+      ]
+    },
+    {
+      "source_offset": 789,
+      "symbol": "getenv_",
+      "value": [
+        1,
+        589923
+      ]
+    },
+    {
+      "source_offset": 848,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 1233,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1258,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 1263,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 1276,
+      "symbol": "tolower_",
+      "value": [
+        1,
+        583886
+      ]
+    },
+    {
+      "source_offset": 1502,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 1507,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 1565,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 1594,
+      "symbol": "ChangeDrive_",
+      "value": [
+        1,
+        570812
+      ]
+    },
+    {
+      "source_offset": 1612,
+      "segment": 2,
+      "value": [
+        3,
+        26220
+      ]
+    },
+    {
+      "source_offset": 1617,
+      "symbol": "chdir_",
+      "value": [
+        1,
+        592084
+      ]
+    },
+    {
+      "source_offset": 1635,
+      "symbol": "GetPath_",
+      "value": [
+        1,
+        570604
+      ]
+    },
+    {
+      "source_offset": 1646,
+      "symbol": "chdir_",
+      "value": [
+        1,
+        592084
+      ]
+    },
+    {
+      "source_offset": 1689,
+      "symbol": "toupper_",
+      "value": [
+        1,
+        583021
+      ]
+    },
+    {
+      "source_offset": 1703,
+      "symbol": "_dos_setdrive_",
+      "value": [
+        1,
+        592138
+      ]
+    },
+    {
+      "source_offset": 1710,
+      "symbol": "_dos_getdrive_",
+      "value": [
+        1,
+        592118
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 2217,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 70,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 569136,
+        "compared_bytes": 1731,
+        "verified_fixups": 70,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 26220,
+        "compared_bytes": 406,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 71104,
+        "compared_bytes": 80,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "open_": [
+        1,
+        586401
+      ],
+      "__get_errno_ptr_": [
+        1,
+        591221
+      ],
+      "strerror_": [
+        1,
+        591021
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "SafeFree_": [
+        1,
+        556260
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "close_": [
+        1,
+        587496
+      ],
+      "access_": [
+        1,
+        592025
+      ],
+      "filelength_": [
+        1,
+        588856
+      ],
+      "read_": [
+        1,
+        588597
+      ],
+      "write_": [
+        1,
+        587027
+      ],
+      "getenv_": [
+        1,
+        589923
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "tolower_": [
+        1,
+        583886
+      ],
+      "chdir_": [
+        1,
+        592084
+      ],
+      "toupper_": [
+        1,
+        583021
+      ],
+      "_dos_setdrive_": [
+        1,
+        592138
+      ],
+      "_dos_getdrive_": [
+        1,
+        592118
+      ],
+      "SafeOpen_": [
+        1,
+        569136
+      ],
+      "SafeOpenWrite_": [
+        1,
+        569296
+      ],
+      "SafeOpenRead_": [
+        1,
+        569360
+      ],
+      "SafeOpenAppend_": [
+        1,
+        569420
+      ],
+      "SafeClose_": [
+        1,
+        569484
+      ],
+      "SafeFileExists_": [
+        1,
+        569580
+      ],
+      "SafeFileLength_": [
+        1,
+        569600
+      ],
+      "SafeRead_": [
+        1,
+        569608
+      ],
+      "SafeWrite_": [
+        1,
+        569720
+      ],
+      "LoadFile_": [
+        1,
+        569832
+      ],
+      "SaveFile_": [
+        1,
+        569884
+      ],
+      "GetPathFromEnvironment_": [
+        1,
+        569916
+      ],
+      "DefaultExtension_": [
+        1,
+        570104
+      ],
+      "DefaultPath_": [
+        1,
+        570196
+      ],
+      "ExtractFileBase_": [
+        1,
+        570320
+      ],
+      "GetExtension_": [
+        1,
+        570432
+      ],
+      "SetExtension_": [
+        1,
+        570520
+      ],
+      "GetPath_": [
+        1,
+        570604
+      ],
+      "ChangeDirectory_": [
+        1,
+        570680
+      ],
+      "ChangeDrive_": [
+        1,
+        570812
+      ],
+      "_FileNames": [
+        3,
+        71104
+      ]
+    },
+    "local_symbols": {
+      "_FileNames": [
+        3,
+        71104
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "original_member_used_by_producer": false,
+  "source_instruction_payload": false,
+  "full_executable_rebuilt": false
+}

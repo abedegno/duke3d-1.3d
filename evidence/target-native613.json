@@ -1,0 +1,58 @@
+{
+  "kind": "Independent target full native CODE/loader/storage proof; seven DATA residue bytes remain pending permission",
+  "native_program": "/Users/jonw/duke3d/build/task610-game-shutdown/link/GAME.EXE",
+  "native_sha256": "16778a2885510dbe1f92aacd9d0692511907aac50edba91118dcee293ab7983b",
+  "checks": {
+    "all_CODE632345_literal": true,
+    "second_object221_literal": true,
+    "only_seven_pending_CONST_bytes": true,
+    "all_objects_literal": true,
+    "all_pages_geometry_literal": true,
+    "all27384_loader_records_literal_multiset": true,
+    "fixup_page_boundaries_literal": true,
+    "entry_stack_literal": true
+  },
+  "regions": [
+    {
+      "object": 1,
+      "actual_size": 632345,
+      "target_size": 632345,
+      "different_bytes": 0,
+      "offsets": []
+    },
+    {
+      "object": 2,
+      "actual_size": 221,
+      "target_size": 221,
+      "different_bytes": 0,
+      "offsets": []
+    },
+    {
+      "object": 3,
+      "actual_size": 2184192,
+      "target_size": 2184192,
+      "different_bytes": 7,
+      "offsets": [
+        51,
+        97,
+        98,
+        102,
+        103,
+        138,
+        139
+      ]
+    }
+  ],
+  "actual_loader_records": 27384,
+  "target_loader_records": 27384,
+  "normal_GAME_admission": false,
+  "full_executable_identical": false,
+  "source_credit_added": 0,
+  "artifact_sha256": {
+    "build/task610-game-shutdown/link/GAME.EXE": "16778a2885510dbe1f92aacd9d0692511907aac50edba91118dcee293ab7983b",
+    "build/task610-game-shutdown/result.json": "ba011eab771f2dbc94632eac651504b90286276b938e769af8de703f0d3b6652",
+    "build/task610-game-shutdown/link/LINK.LNK": "8ef13590a45b3500f498bd16f31a42adecb8653c3738362b021d81ad34a85477",
+    "build/task613-target-native-root/verify.py": "31d807e67b9e6752b2a4030559482e2394d6f07b41e8fa791329cccf756cbc76",
+    "build/task613-target-native-root/result.json": "c126ddd43dda768a940bb83169add5fc93f4f805417871ed236c8d91c719e9be"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "kind": "Authored complete CONTROL symbolic source, ordinary C humanization backlog",
+  "source_credit": 0,
+  "accepted_coverage": false,
+  "historical_source_identity": false,
+  "full_executable_rebuilt": false,
+  "source": "src/mact/control_complete/CONTROL.S",
+  "descriptor_sha256": "d7dd8e123895c1e438c27d008d57af0b73dbf1590fa8e3af4e985ec2712f7b76",
+  "tracked_sources_sha256": {
+    "src/mact/control_complete/CONTROL.S": "bad402d9a60887eb01c476074505996159921f30e6a63c085d2130c6625da4b3",
+    "src/mact/control_complete/CONTROL_LITERALS.INC": "6919e83a7cfa865bc7f930119bc7f7a8b250bee64438c38572ca9b3a8dce4b4e",
+    "src/mact/control_complete/models.py": "cbf26a5dc3cd7e6967fb7b95fd93472d3d7f050dd0f3b26968933996b419fc6e",
+    "src/mact/control_complete/elf_contract.py": "886f812a57d0e360a29616f0be4bea8953ae1c42a6740185651f6ba9ee936905",
+    "src/mact/control_complete/coff_contract.py": "4c39a3af883b209ee69fef9a84c4cf7ec042b2dbb1fc7c91ae48a98e1e9b0bae",
+    "src/mact/control_complete/operand_roles.json": "a2459f193fd8dc5d9ced4c389951cadcda9fbffd7b1930637840f39424aa5435",
+    "src/mact/control_complete/C-counterpart/control-525.c.txt": "3830746118d6a2a6173d638009fbb8a2ae20d905a14215f8cc8e242206ed016c",
+    "src/mact/control_complete/C-counterpart/control-native.c.txt": "e5d34b09d4f388534d151a79342a6b41053fadb5755086043397cb5b881f1450",
+    "src/mact/control_complete/lineage/jfmact-control-primary.c.txt": "124be02f1d66750a106850ca85bbaae393ee9b4f8e871cec4baaaa2c845653fb",
+    "src/mact/control_complete/C-counterpart/include/_control.h": "ff27f8aa20aecd9c3d797cc901b9a522a680b634d9d34d7a1da912941c1034c2",
+    "src/mact/control_complete/C-counterpart/include/control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "src/mact/control_complete/C-counterpart/include/keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "src/mact/control_complete/C-counterpart/include/mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "src/mact/control_complete/C-counterpart/include/types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "src/mact/control_complete/C-counterpart/include/util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "src/mact/control_complete/C-counterpart/include/watcom.h": "ceb437488b72845f42d6204bf866824aaecc235e002d6f4cf090764342cf488a"
+  },
+  "notice_files_sha256": {
+    "src/mact/control_complete/README.md": "59a8ef8d5e215ee2ecdb2e220dcdc30ec2990b491e0c44bedfbc2356c4ec4ce9",
+    "src/mact/control_complete/GPL-2.0.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+    "src/mact/control_complete/C-counterpart/README.md": "c5a455bbfa7907832b0cdd4eaa434a77147835d373d4916cb4c1f7e2b0064c3f",
+    "profiles/gnu_elf_omf/README.md": "2fb98db1498b8705dcea39b8d0bbe7a8dbf0829771b9fc673a9f08f07a48f0a6",
+    "profiles/capstone/README.md": "b251955848c4bf47762a4e4651c495a37c7125c0102b7441379f9d4b89f51409"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_control.py": "b9766261f003696c906a81d1691295c8be0d2090725e6353c5aaf1152bb59e09",
+    "profiles/gnu_elf_omf/identity.py": "f97c9a3e849bbe786bdb3f530d9e2a866e081f6630dbab1cac108d66a157f9d8",
+    "profiles/gnu_elf_omf/profile.json": "36c67429e16ae92c1ff84a22699bc65edb5c5f441187261c54e6ceb523b23594",
+    "profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/capstone/identity.py": "e340cf55a62aaa0b9250ea7029ecf6099a21869b8ef137e754d48afd806bfb5d",
+    "profiles/capstone/files.json": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/mact_control_roles.py": "dc5e12cf94c6bd3239888c341054863a9c598ca2d0454d702c44696d3a17c381",
+    "tools/mact_control_callees.py": "4dda070c7431fec91ae7380327b7ef7619f1c612572e4fafbdd4778a54dcf67e",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19"
+  },
+  "lineage": {
+    "released_API": "Seven retained original MACT headers; Fowler2005 is later creative interpolation, not original source.",
+    "development_seed": "OWN coherent525 C105+GA/H, all own bytes/fields checked before native corrections; no object/disassembly input to normal producer.",
+    "native_semantics": "Startup actual enum2Joystick FOUR vs enum4Gamepad TWO corrected in Caid; Center/GetDevice symbolic lowering and C backlog honest.",
+    "private_scope": "30 original module-qualified private identities,228refs,25BSS owners; real LOCAL ELF/COFF, native section+V, no LPUB/LEXT/anchor exports.",
+    "alias_guard": "705 per-operand source roles; one runtime owner coefficient+1 with no canceled/repeated/competing owner terms, actual470 ELF/COFF/native fields and original roles cross-check.",
+    "metadata": "source60PUB/56EXT/noLPUBLEXT vs original90PUB incl30LPUB/30LEXT; defaultmath387r/emu387 remains recipe requirement, GNU defaultLIBs empty; no fake records.",
+    "research": "Task528 frozen research retained,541 cancellation flaw repaired in normal540; not an accepted-source ledger update."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "82b834cc07b0d298ba83c933c62753ddb0564beec84230dc13114b57e9ea4086",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  }
+}

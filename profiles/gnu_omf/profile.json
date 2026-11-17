@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "scope": "Pinned source-built native assembler/converter, finite hardware subset only",
+  "tools": {
+    "bin/as-new": {
+      "sha256": "a8f07cd378e69f378607d1907a97bbd069a9a8550285b319b3fffd55ae5046a1",
+      "version": "GNU Binutils2.44 i686-w64-mingw32"
+    },
+    "bin/objconv": {
+      "sha256": "fbac3eda35e4a4d867eab1c09ec9edf9c0aba2f9c6176d899b93f79d2bf8a895",
+      "version": "objconv2.57"
+    }
+  },
+  "source_archives": {
+    "binutils": {
+      "url": "https://sourceware.org/pub/binutils/releases/binutils-2.44.tar.xz",
+      "sha256": "ce2017e059d63e67ddb9240e9d4ec49c2893605035cd60e92ad53177f4377237"
+    },
+    "objconv": {
+      "url": "https://www.agner.org/optimize/objconv.zip",
+      "sha256": "0f604f93f97f689afd7615c86176eb15bc95001eadf8317f17ebd099c50c59e1",
+      "source_zip_sha256": "9d329506e670cd315903eaf06d5db5e82d74a1d00714af73b38c678a89d06ee7"
+    }
+  },
+  "primary_asset": {
+    "url": "https://files.mpoli.fi/software/PROGRAMM/GENERAL/AWE32PRG.ZIP",
+    "archive_sha256": "c1bdc2cf0cc41c348d757d298e83a3fbc04263020f0775d653419403c9d2372e",
+    "member": "AWE32P10.TXT",
+    "sha256": "ebf9a9e4d1d1cdeffaeb5d682412cb074eb61af6ed7d91b2740cce380e9cceba"
+  },
+  "options": {
+    "assembler": [
+      "-n",
+      "-march=i386",
+      "--fatal-warnings"
+    ],
+    "converter": [
+      "-fomf32",
+      "-wex"
+    ]
+  },
+  "native_host_runtime_dependencies": [
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++.1.dylib"
+  ],
+  "host_runtime_note": "Native OS shared-cache libraries are host dependencies, not DOS link inputs; cannot individually hash nonexistent on-disk shared-cache paths. Actual executables and every source/producer input are hash-bound."
+}

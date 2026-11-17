@@ -1,0 +1,107 @@
+--- a/converters.h
++++ b/converters.h
+@@ -231,6 +231,8 @@
+    CCOF2OMF();                                    // Constructor
+    void Convert();                                // Do the conversion
+ protected:
++   void ValidateUnusedGNUDefaults();              // Reject any substantive default before omission
++   uint32_t OmittedGNUDefaultSections[3];
+    void MakeSegmentList();                        // Make temporary segment conversion list
+    void MakeSymbolList();                         // Make temporary symbol conversion list
+    void MakeRelocationsList();                    // Make temporary list of relocations (fixups) and sort it
+--- a/cmdline.h
++++ b/cmdline.h
+@@ -129,6 +129,7 @@
+    SSymbolChange const * GetMemberToAdd();   // Get names of object files to add to library
+    void CheckExtractSuccess();               // Check if library members to extract were found
+    void CheckSymbolModifySuccess();          // Check if symbols to modify were found
++   int OmitUnusedGNUDefaults;              // Explicit C-compiland empty-default policy
+    char * OMFGroupPlan;                     // Opt-in source DGROUP membership metadata
+    char * InputFile;                         // Input file name
+    char * OutputFile;                        // Output file name
+--- a/cmdline.cpp
++++ b/cmdline.cpp
+@@ -98,7 +98,7 @@
+         Help();  ShowHelp = 1;
+         return;
+     }
+-    if (OMFGroupPlan && OutputType != CMDL_OUTPUT_OMF) {
++    if ((OMFGroupPlan || OmitUnusedGNUDefaults) && OutputType != CMDL_OUTPUT_OMF) {
+         fprintf(stderr, "OMF group plan requires explicit OMF output\n"); exit(1);
+     }
+     // Check file options
+@@ -270,6 +270,13 @@
+             InterpretDumpOption(string+2);  break;
+         }
+         InterpretOutputTypeOption(string+1);  break;
++
++    case 'o':
++        if (strcmp(string, "omit-unused-gnu-defaults") || OmitUnusedGNUDefaults) {
++            fprintf(stderr, "OMF unused GNU defaults: invalid or duplicate option\n"); exit(1);
++        }
++        OmitUnusedGNUDefaults = 1;
++        break;
+ 
+     case 'g':
+         if (strncmp(string, "group-plan=", 11) != 0 || !string[11] || OMFGroupPlan) {
+--- a/cof2omf.cpp
++++ b/cof2omf.cpp
+@@ -35,6 +35,7 @@
+ 
+    // Call the subfunctions
+    ToFile.SetFileType(FILETYPE_OMF);             // Set type of output file
++   ValidateUnusedGNUDefaults();                // Resolve conservative source omission before any native object creation
+    MakeSegmentList();                            // Make temporary segment conversion list
+    MakeSymbolList();                             // Make temporary symbol conversion list
+    MakeRelocationsList();                        // Make temporary list of relocations (fixups) and sort it
+@@ -49,6 +50,40 @@
+ }
+ 
+ 
++
++// Task600: omit only three unused automatic GNU defaults under explicit source policy.
++// This never removes an allocated byte, actual definition, relocation or alignment.
++void CCOF2OMF::ValidateUnusedGNUDefaults() {
++   if (!cmd.OmitUnusedGNUDefaults) return;
++   auto fail = [](const char * message) {
++      fprintf(stderr, "OMF unused GNU defaults: %s\n", message); exit(1);
++   };
++   const char * names[3]={".text",".data",".bss"};
++   const uint32_t flags[3]={0x60100020,0xC0100040,0xC0100080};
++   for (uint32_t sec=0; sec<(uint32_t)NSections; sec++) {
++      SCOFF_SectionHeader & h=SectionHeaders[sec];
++      const char * name=GetSectionName(h.Name);
++      for (uint32_t i=0;i<3;i++) if (!strcmp(name,names[i])) {
++         if (OmittedGNUDefaultSections[i]) fail("duplicate automatic section");
++         if (h.Flags!=flags[i] || h.VirtualSize || h.VirtualAddress || h.SizeOfRawData || h.PRawData || h.PRelocations || h.PLineNumbers || h.NRelocations || h.NLineNumbers) fail("noncanonical bytes/flags/alignment/relocation/line metadata");
++         OmittedGNUDefaultSections[i]=sec+1;
++      }
++   }
++   for (uint32_t i=0;i<3;i++) if (!OmittedGNUDefaultSections[i]) fail("exact three automatic defaults required");
++   for (uint32_t sym=0;sym<(uint32_t)NumberOfSymbols;) {
++      SCOFF_SymTableEntry & s=*(SCOFF_SymTableEntry*)((int8_t*)SymbolTable+sym*SIZE_SCOFF_SymTableEntry);
++      if (sym+s.s.NumAuxSymbols>=(uint32_t)NumberOfSymbols) fail("invalid symbol/auxiliary bounds");
++      const char * name=GetSymbolName(s.s.Name);
++      for (uint32_t i=0;i<3;i++) {
++         if (s.s.SectionNumber==(int16_t)OmittedGNUDefaultSections[i] || !strcmp(name,names[i])) fail("actual named/section/public/private/import identity in omitted default");
++      }
++      sym+=s.s.NumAuxSymbols+1;
++   }
++   // Any incoming relocation is necessarily to a real symbol above; check source
++   // fields independently as well. Group names are resolved later against only
++   // the retained real sections, so a requested omitted member fails undefined.
++}
++
+ void CCOF2OMF::MakeSegmentList() {
+    // Make temporary segment conversion list
+    const char * oldname;                         // Old name of section
+@@ -64,6 +99,9 @@
+       // Old section number
+       oldsec = j + 1;
+ 
++      if (cmd.OmitUnusedGNUDefaults && ((uint32_t)oldsec==OmittedGNUDefaultSections[0] || (uint32_t)oldsec==OmittedGNUDefaultSections[1] || (uint32_t)oldsec==OmittedGNUDefaultSections[2])) {
++         continue; // No definitions/bytes/fields/group references can reach these validated empty defaults.
++      }
+       // Get old section header
+       SCOFF_SectionHeader * pSectionHeader = &SectionHeaders[j];
+ 

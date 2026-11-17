@@ -1,0 +1,1477 @@
+{
+  "kind": "complete MIPMAP source contributions, not full executable",
+  "source": "src/mact/mipmap/MIPMAP.S",
+  "source_sha256": "bf5aa2e88188f833ef68e0e380697269aad25159ca23d9e2fa5035d2270fd6b6",
+  "source_reference_sha256": "5e62cd81fb89595b7a782cc337926aa326c3f1b75eb2a67e21a12b089f88447d",
+  "descriptor": "modules/mact_mipmap.json",
+  "descriptor_sha256": "4603725f3d67bbc9b22a53c34756374a27f81f50c9746e6e58ae3a80164b83f4",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source_only": true,
+  "original_or_target_read_during_production": false,
+  "native_build_directory": "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j",
+  "source_build": {
+    "source_only": true,
+    "original_or_target_read": false,
+    "project": "/Users/jonw/duke3d/.worktrees/irq585",
+    "home": "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports",
+    "inputs_sha256": {
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/MIPMAP.S": "bf5aa2e88188f833ef68e0e380697269aad25159ca23d9e2fa5035d2270fd6b6",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/MIPMAP.C": "9af1c52c042f813fceb781906dd45331953a3f209eb793439896e6a2f6caf6f5",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/include/mipmap.h": "f5ce65da6b66753700ced1f9a680760e536704a03e1b1f6cd1ccdb2ffb6a217d",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/include/clrmap.h": "20ff38f9a3e31d0657a75e064ad447900d7e5425bca19f7d297e82cd1600530d",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/contract.py": "9e8f3bfc0c7456cc975e63df0337ac2a2adbd025a4460256cee237d912fa1670",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/README.md": "e4e8aada86cd4fdf688e89942679f3641e8a42dbc2cf557104a38b964e575c0b",
+      "/Users/jonw/duke3d/.worktrees/irq585/src/mact/mipmap/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/README.md": "276f1f12748e2388b5d4ed6d2b2d17434b6666bc05ff724b487678724b912927",
+      "/Users/jonw/duke3d/.worktrees/irq585/tools/probe_mact_mipmap.py": "023421dbccffc9df60aa33a24e71bc010f559edcb8424b97e06f8a9d70eb4989",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/identity.py": "506c2b25324b9449585ae48e8989bd69c781ef8adaacf04a0d369cf781b21b80",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/profile.json": "41e175ed0d63e5ebc360a17505413b9fc7055dec100bab6ef04d775ec1618e77",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/apply_fork.py": "e35766dc9ad8397bc60dccb250c5f2e17e1efad405ddaf175a3fa5b0fa566cdd",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/setup.py": "c7319cd912fb1b701af2a32ea98ca62a4a8fa23d928d2f22e3c04d0b9c7572ba",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/defined-global.patch": "92a8e263b694d39908393742313cea625798721e9dd1bba443d30f4e3993c530",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf_imports/unused-imports.patch": "230379a2bed7525f43b59041a02087d75cafdeb55cb8aeace555742c61ef0906",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/gnu_elf_omf/elf32.py": "03c6fe8b9309962b7e116370ac64a3b5167623a8c81a636c4f7da4f00eebf9ef",
+      "/Users/jonw/duke3d/.worktrees/irq585/profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+      "/Users/jonw/duke3d/.worktrees/irq585/evidence/mact-mipmap-source-reference.json": "5e62cd81fb89595b7a782cc337926aa326c3f1b75eb2a67e21a12b089f88447d",
+      "/Users/jonw/duke3d/.worktrees/irq585/modules/mact_mipmap.json": "4603725f3d67bbc9b22a53c34756374a27f81f50c9746e6e58ae3a80164b83f4",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/bin/as-new": "55218742bd2ef982d53e5f46246bff3cd3a949a72c3a69fda62a021fb4e28ce6",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/bin/objconv": "36d4106f49fba444e75ce1a9a26fb9ba6585b3fa8201684e34e329636c627752",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/error.h": "b12d9dd5eee7282299ab82e3d5ea258e8edbb205788244abb7f867fb8ae41e92",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/coff.cpp": "13e1175e2f7a9f87d0dcd8fc19293a1afa8ca40eb08fe1a06b71447d2467db54",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/proposed_improvements.txt": "e9dba4076da2eed17ddef2c0f3095bd9d1e1e625d363eea4bbcd30cb5aad76fa",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/stdafx.h": "fa89a0dbeed1ace13eae3a765c40f7657ee91e46f796d2809525668ad20014d2",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/converters.h": "cbe489c224d3c86c6d9cf4672d126024a69e347ef77aff5980d52e78577134b9",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/omf2asm.cpp": "1038d0fd7790fb01fe46b16021b621cbdf12ef1789cc237ffb7de0aac0580de8",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/elf2cof.cpp": "27ee322dcbf838304a3633d53520587cd557eb9fb13b5dbb4d841dec36ae90e8",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/mac2asm.cpp": "a344cde4341ef5cebec31b29c19381d0210afd6938839f28b0603695451537e4",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/library.h": "602883c193c8c0b31976910cdb1ebf2516e722da0ba928c5f030eb791f045499",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/elf2mac.cpp": "01aa810a05f2eda3fe84d9295c5e60f0e6781ecf684c16a07dae13cf9272e8b3",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/error.cpp": "b626746c7cfe95cd79875d373936526d18cade58b133f1539fbf4e83e00af7b0",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/mac2mac.cpp": "7ea6900c950681a28f5fd1562500458fe1d1690a84f8d7210b5b520297bd3432",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/objconv.vcxproj": "2244c022dcb743e148e499092464903bf2bbe8e63b6b2db12477021ce1c516a0",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/containers.cpp": "956e2214b36fbe9fb820d93fe8b09f2edea6a23b2adf2b841b50f048bc737fda",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/objconv.sln": "40ea3880b969b8536daa21a22dd669615eeb4076de814c32e8b04636d89e5fd0",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/elf2asm.cpp": "f89d2ff955305707365f7a51cf2bcecd91a7aff6fefb8c0f71c9a4005a5f3f07",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/omf2cof.cpp": "a47f3dd175cfc303f56c052cde6ff6ebb608077bf6e897f64ccd484a3a3dbf6b",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/cmdline.h": "ebf96064c64ba57d794c51f266b6fd5745e2abfb2c24cd2c7f4a50ea5ba469a9",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/disasm1.cpp": "06d16ef7175ebecaadcf9a837ae5f1b13e4457b226924ba1fc145d5defa6fb3d",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/omfhash.cpp": "0014d5082cb6cc270bf8a18b29ae7f470724ba4cf844b8835063eb711c3ccd9d",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/maindef.h": "dcd803aaa6c744d1334d185511f3288f0d38d031bbbb97477e0739eefa57da78",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/elf.cpp": "8d4c9487075fe845761a4ac02acc01314d53c5482dde2942a7f171ac06d6b8fa",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/elf.h": "67c89696b586d9779bcb29fe6ef30a23574ce6b00db9f1a85989227c02ab37c9",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/disasm2.cpp": "82923d73f44e09118cd777559be0b8faf91a84f1943038b3bdc45a012f19bfd4",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/cof2elf.cpp": "bf53ea1623839a7df0b4b49e7f859114109cd2025f9aebed836ee2e553e2a39f",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/library.cpp": "e6731aacde8cb8cfaef8c57b78e7ad0fec22e13ca9b56b26ee82184adf485509",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/build.sh": "70ac2e8c32a450493b017b079a9ddbf166c02dddbfbc4639a591a66450ddeba1",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/omf.cpp": "60637518f95f80a7d39a50e049effbc3a16b1059d3d42ed8fa4afc9004e5e064",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/cmdline.cpp": "b66b816a8a98562dbd6ee4b4f21c00d5644a4cde88bdd8926858290c2ff4b36f",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/cof2omf.cpp": "eca8663a36d3893c710a32fe1d079eec4cbecfe34a09c9302561111d115bac12",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/omf.h": "64b3243049e318543e075d9744b0bfc7ef5d0f0929b797b14ff9e3422586c870",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/mac2elf.cpp": "2fdc68e886c7c4be2b1444523f72199c332e368f8db85b96d270b3c3d3b5d3d0",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/opcodes.cpp": "faf15f7b263af20066dd254e90eb398c565b3780f8cd8e0838f1f73f08f3e017",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/disasm.h": "713f6b442bf9ceb82a3a6ee66f871df68c7f45ded16b6866d1b505a7b93a76d9",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/cof2cof.cpp": "16ac766939bd3ecdc8c502e3dcc7b653e2c6fd2c5f10fdd7e25139990a9acfa4",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/macho.h": "5e3dbcceea2a6618fa3474840c1b9b37a2862d96f8580b7c12c4f5b9dcd7f49f",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/macho.cpp": "4e463f9f394a4937bcfba9cb3b007f335469dc102e0b576a70f2edb2b140b16e",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/containers.h": "a1486797631bdca1324ada27ffb239f7bffb87c20af6a120c32caebaa5ffe326",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/cof2asm.cpp": "27ae40008434c58dece4ea82100c6c9b7425f211ec003189f7432d9617e99485",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/coff.h": "d0153de235756345f06bcc3cef4f46a731d68270676e2bf106843031717eb7be",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/elf2elf.cpp": "573cfb1b98ff03ad77126a9e5c8f031fab73b5097a9d235616376808b4951762",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/objconv/main.cpp": "45282e0f438bd905570cb86dc478ef106c3c9d3facf9c30e6a3b8784e7d45b8a",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/notices/GNU-COPYING3": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/notices/objconv-instructions.pdf": "3ea9ff2feef7b0b0cbeca7a1d4330383a6ddb41b323c5a991922aa24386743d3",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/defined-global.patch": "92a8e263b694d39908393742313cea625798721e9dd1bba443d30f4e3993c530",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/sources/unused-imports.patch": "230379a2bed7525f43b59041a02087d75cafdeb55cb8aeace555742c61ef0906",
+      "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/setup.json": "8a3b777ebeb3405c2b69aaff209159ed373dda1cf5ba42dd5f08410bc9bc0681",
+      "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+    },
+    "staged_sha256": {
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/MIPMAP.S": "bf5aa2e88188f833ef68e0e380697269aad25159ca23d9e2fa5035d2270fd6b6",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/MIPMAP.C": "9af1c52c042f813fceb781906dd45331953a3f209eb793439896e6a2f6caf6f5",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/include/mipmap.h": "f5ce65da6b66753700ced1f9a680760e536704a03e1b1f6cd1ccdb2ffb6a217d",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/include/clrmap.h": "20ff38f9a3e31d0657a75e064ad447900d7e5425bca19f7d297e82cd1600530d",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/contract.py": "9e8f3bfc0c7456cc975e63df0337ac2a2adbd025a4460256cee237d912fa1670",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/README.md": "e4e8aada86cd4fdf688e89942679f3641e8a42dbc2cf557104a38b964e575c0b",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/gpl.txt": "3f9d5f29ecf12b61c4c20045e23e01c717182fa862bb1e97afa19a91a0ef68c4",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/profiles/gnu_elf_omf_imports/README.md": "276f1f12748e2388b5d4ed6d2b2d17434b6666bc05ff724b487678724b912927"
+    },
+    "native_outputs_sha256": {
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.ELF": "ded922ca02c424e86c466fc822fa709a2765671e023b60d86d34e4c1f6dc3ffd",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.LST": "e7239ae85ec8a696b68c6591e1270dcbfb92df1d217e2a410112b4d96be000d7",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/preflight.json": "3844a2a1d2b9ea826e6afc854bb03d91caf3e79b494387be58d6ac9f82152e94",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.COFF": "c267ec6dd7b117149e6ee8c37b0850857f571b5fc6cbcd323f40ae5c91b70290",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/coff-audit.json": "051cdc9cc3574dfa7f50378a68c957bbf0a97b86baa71de0db5f481613897856",
+      "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.OBJ": "8c822be2b14e4427e75b81ddfe51be9013382c84fd3f3724fa7af121146e0994"
+    },
+    "object": "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.OBJ",
+    "object_sha256": "8c822be2b14e4427e75b81ddfe51be9013382c84fd3f3724fa7af121146e0994",
+    "commands": [
+      [
+        "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/bin/as-new",
+        "--32",
+        "-n",
+        "-L",
+        "-march=i386",
+        "--fatal-warnings",
+        "-no-pad-sections",
+        "-al=/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.LST",
+        "-o",
+        "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.ELF",
+        "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/source-only/src/mact/mipmap/MIPMAP.S"
+      ],
+      [
+        "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/bin/objconv",
+        "-fcoff32",
+        "-wex",
+        "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.ELF",
+        "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.COFF"
+      ],
+      [
+        "/Users/jonw/duke3d/.worktrees/irq585/toolchains/gnu-elf-omf-imports/bin/objconv",
+        "-fomf32",
+        "-wex",
+        "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.ELF",
+        "/Users/jonw/duke3d/.worktrees/irq585/build/mact_mipmap-proof/mipmap-i14hh_9j/MIPMAP.OBJ"
+      ]
+    ],
+    "native_inventory": {
+      "name": "MIPMAP.obj",
+      "segments": [
+        [
+          ".text",
+          "CODE",
+          0,
+          41,
+          null
+        ],
+        [
+          ".data",
+          "DATA",
+          0,
+          41,
+          null
+        ],
+        [
+          ".bss",
+          "BSS",
+          0,
+          41,
+          null
+        ],
+        [
+          "_TEXT",
+          "CODE",
+          1133,
+          105,
+          null
+        ],
+        [
+          "CONST",
+          "DATA",
+          8,
+          169,
+          null
+        ],
+        [
+          "CONST2",
+          "DATA",
+          0,
+          169,
+          null
+        ],
+        [
+          "_DATA",
+          "DATA",
+          0,
+          169,
+          null
+        ],
+        [
+          "_BSS",
+          "BSS",
+          0,
+          105,
+          null
+        ]
+      ],
+      "publics": {
+        "FoldPixel_": [
+          4,
+          0
+        ],
+        "CreateMipMap_": [
+          4,
+          208
+        ]
+      },
+      "local_publics": [],
+      "externals": [
+        "_fltused_",
+        "__init_387_emulator",
+        "__8087",
+        "SafeMalloc_",
+        "memset_",
+        "CMAP_BestColor_",
+        "SafeFree_",
+        "FoldPixel_"
+      ],
+      "local_externals": [],
+      "groups": [
+        [
+          "FLAT",
+          []
+        ]
+      ],
+      "fixups": [
+        {
+          "segment": 4,
+          "offset": 262,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 4,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 300,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 4,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 317,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 5,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 330,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 5,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 416,
+          "width": 4,
+          "location": 9,
+          "relative": false,
+          "frame_method": 1,
+          "frame": 1,
+          "target_method": 0,
+          "target": 5,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 608,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 8,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 899,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 6,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 942,
+          "width": 4,
+          "location": 9,
+          "relative": false,
+          "frame_method": 1,
+          "frame": 1,
+          "target_method": 0,
+          "target": 5,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 1100,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 7,
+          "displacement": 0
+        },
+        {
+          "segment": 4,
+          "offset": 1113,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 7,
+          "displacement": 0
+        }
+      ],
+      "default_libraries": [],
+      "far_call_optimization_segments": [],
+      "format": "standard-omf",
+      "comments": [],
+      "code_data_ranges": [],
+      "dosseg_directives": [],
+      "format_source": null,
+      "line_numbers": [],
+      "thread_definitions": [],
+      "source_records": [],
+      "fixup_encodings": [
+        {
+          "fixup": 0,
+          "record_kind": 157,
+          "raw_bytes": "a5065604",
+          "raw_location": 9,
+          "raw_locat": "a506",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 1,
+          "record_kind": 157,
+          "raw_bytes": "a52c5604",
+          "raw_location": 9,
+          "raw_locat": "a52c",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 2,
+          "record_kind": 157,
+          "raw_bytes": "a53d5605",
+          "raw_location": 9,
+          "raw_locat": "a53d",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 3,
+          "record_kind": 157,
+          "raw_bytes": "a54a5605",
+          "raw_location": 9,
+          "raw_locat": "a54a",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 4,
+          "record_kind": 157,
+          "raw_bytes": "e5a0140105",
+          "raw_location": 9,
+          "raw_locat": "e5a0",
+          "raw_fixdat": 20,
+          "raw_frame_field": 1,
+          "raw_target_field": 0,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 5,
+          "record_kind": 157,
+          "raw_bytes": "a6605608",
+          "raw_location": 9,
+          "raw_locat": "a660",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 6,
+          "record_kind": 157,
+          "raw_bytes": "a7835606",
+          "raw_location": 9,
+          "raw_locat": "a783",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 7,
+          "record_kind": 157,
+          "raw_bytes": "e7ae140105",
+          "raw_location": 9,
+          "raw_locat": "e7ae",
+          "raw_fixdat": 20,
+          "raw_frame_field": 1,
+          "raw_target_field": 0,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 8,
+          "record_kind": 157,
+          "raw_bytes": "a44c5607",
+          "raw_location": 9,
+          "raw_locat": "a44c",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        },
+        {
+          "fixup": 9,
+          "record_kind": 157,
+          "raw_bytes": "a4595607",
+          "raw_location": 9,
+          "raw_locat": "a459",
+          "raw_fixdat": 86,
+          "raw_frame_field": 5,
+          "raw_target_field": 2,
+          "frame_thread": false,
+          "target_thread": false,
+          "frame_definition": null,
+          "target_definition": null,
+          "displacement_present": false,
+          "displacement_width": 0
+        }
+      ]
+    },
+    "source_credit": 0
+  },
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 1141,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 10,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 565040,
+        "compared_bytes": 1133,
+        "verified_fixups": 10,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 25488,
+        "compared_bytes": 8,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "FoldPixel_": [
+        1,
+        565040
+      ],
+      "CreateMipMap_": [
+        1,
+        565248
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "CMAP_BestColor_": [
+        1,
+        580016
+      ],
+      "SafeFree_": [
+        1,
+        556260
+      ]
+    },
+    "local_symbols": {},
+    "full_executable_rebuilt": false
+  },
+  "reference_verification": {
+    "verified": true,
+    "initialized_bytes": 1141,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 10,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 565040,
+        "compared_bytes": 1133,
+        "verified_fixups": 10,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 25488,
+        "compared_bytes": 8,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "FoldPixel_": [
+        1,
+        565040
+      ],
+      "CreateMipMap_": [
+        1,
+        565248
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "CMAP_BestColor_": [
+        1,
+        580016
+      ],
+      "SafeFree_": [
+        1,
+        556260
+      ]
+    },
+    "local_symbols": {},
+    "full_executable_rebuilt": false
+  },
+  "placements": {
+    "4": [
+      1,
+      565040
+    ],
+    "5": [
+      3,
+      25488
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 262,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 300,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 317,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 330,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 416,
+      "segment": 5,
+      "value": [
+        3,
+        25488
+      ]
+    },
+    {
+      "source_offset": 608,
+      "symbol": "FoldPixel_",
+      "value": [
+        1,
+        565040
+      ]
+    },
+    {
+      "source_offset": 899,
+      "symbol": "CMAP_BestColor_",
+      "value": [
+        1,
+        580016
+      ]
+    },
+    {
+      "source_offset": 942,
+      "segment": 5,
+      "value": [
+        3,
+        25488
+      ]
+    },
+    {
+      "source_offset": 1100,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 1113,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    }
+  ],
+  "all_original_roles": [
+    {
+      "name": "SafeMalloc_",
+      "original": {
+        "segment": 1,
+        "offset": 262,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 262,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "SafeMalloc_",
+      "original": {
+        "segment": 1,
+        "offset": 300,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 300,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "memset_",
+      "original": {
+        "segment": 1,
+        "offset": 317,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 317,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "memset_",
+      "original": {
+        "segment": 1,
+        "offset": 330,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 330,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "CONST",
+      "original": {
+        "segment": 1,
+        "offset": 416,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 416,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "FoldPixel_",
+      "original": {
+        "segment": 1,
+        "offset": 608,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 608,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "CMAP_BestColor_",
+      "original": {
+        "segment": 1,
+        "offset": 899,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 899,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "CONST",
+      "original": {
+        "segment": 1,
+        "offset": 942,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 942,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "SafeFree_",
+      "original": {
+        "segment": 1,
+        "offset": 1100,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 1100,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    },
+    {
+      "name": "SafeFree_",
+      "original": {
+        "segment": 1,
+        "offset": 1113,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      "native": {
+        "segment": 4,
+        "offset": 1113,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      "source_equation": "same named E+A or same CONST section+A; PC32+4 translated exactly"
+    }
+  ],
+  "original_default_libraries": [
+    "math387r",
+    "emu387"
+  ],
+  "native_default_libraries": [],
+  "runtime_private_definitions": 0,
+  "source_private_definitions": 15,
+  "private_anchor_names": [],
+  "genuine_unused_imports": [
+    "_fltused_",
+    "__init_387_emulator",
+    "__8087"
+  ],
+  "native_inventory": {
+    "name": "MIPMAP.obj",
+    "segments": [
+      [
+        ".text",
+        "CODE",
+        0,
+        41,
+        null
+      ],
+      [
+        ".data",
+        "DATA",
+        0,
+        41,
+        null
+      ],
+      [
+        ".bss",
+        "BSS",
+        0,
+        41,
+        null
+      ],
+      [
+        "_TEXT",
+        "CODE",
+        1133,
+        105,
+        null
+      ],
+      [
+        "CONST",
+        "DATA",
+        8,
+        169,
+        null
+      ],
+      [
+        "CONST2",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_DATA",
+        "DATA",
+        0,
+        169,
+        null
+      ],
+      [
+        "_BSS",
+        "BSS",
+        0,
+        105,
+        null
+      ]
+    ],
+    "publics": {
+      "FoldPixel_": [
+        4,
+        0
+      ],
+      "CreateMipMap_": [
+        4,
+        208
+      ]
+    },
+    "local_publics": [],
+    "externals": [
+      "_fltused_",
+      "__init_387_emulator",
+      "__8087",
+      "SafeMalloc_",
+      "memset_",
+      "CMAP_BestColor_",
+      "SafeFree_",
+      "FoldPixel_"
+    ],
+    "local_externals": [],
+    "groups": [
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 4,
+        "offset": 262,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 300,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 317,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 330,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 416,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 608,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 899,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 942,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 1,
+        "target_method": 0,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1100,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 4,
+        "offset": 1113,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 5,
+        "frame": null,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      }
+    ],
+    "default_libraries": [],
+    "far_call_optimization_segments": [],
+    "format": "standard-omf",
+    "comments": [],
+    "code_data_ranges": [],
+    "dosseg_directives": [],
+    "format_source": null,
+    "line_numbers": [],
+    "thread_definitions": [],
+    "source_records": [],
+    "fixup_encodings": [
+      {
+        "fixup": 0,
+        "record_kind": 157,
+        "raw_bytes": "a5065604",
+        "raw_location": 9,
+        "raw_locat": "a506",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 1,
+        "record_kind": 157,
+        "raw_bytes": "a52c5604",
+        "raw_location": 9,
+        "raw_locat": "a52c",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 2,
+        "record_kind": 157,
+        "raw_bytes": "a53d5605",
+        "raw_location": 9,
+        "raw_locat": "a53d",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 3,
+        "record_kind": 157,
+        "raw_bytes": "a54a5605",
+        "raw_location": 9,
+        "raw_locat": "a54a",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 4,
+        "record_kind": 157,
+        "raw_bytes": "e5a0140105",
+        "raw_location": 9,
+        "raw_locat": "e5a0",
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 5,
+        "record_kind": 157,
+        "raw_bytes": "a6605608",
+        "raw_location": 9,
+        "raw_locat": "a660",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 6,
+        "record_kind": 157,
+        "raw_bytes": "a7835606",
+        "raw_location": 9,
+        "raw_locat": "a783",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 7,
+        "record_kind": 157,
+        "raw_bytes": "e7ae140105",
+        "raw_location": 9,
+        "raw_locat": "e7ae",
+        "raw_fixdat": 20,
+        "raw_frame_field": 1,
+        "raw_target_field": 0,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 8,
+        "record_kind": 157,
+        "raw_bytes": "a44c5607",
+        "raw_location": 9,
+        "raw_locat": "a44c",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      },
+      {
+        "fixup": 9,
+        "record_kind": 157,
+        "raw_bytes": "a4595607",
+        "raw_location": 9,
+        "raw_locat": "a459",
+        "raw_fixdat": 86,
+        "raw_frame_field": 5,
+        "raw_target_field": 2,
+        "frame_thread": false,
+        "target_thread": false,
+        "frame_definition": null,
+        "target_definition": null,
+        "displacement_present": false,
+        "displacement_width": 0
+      }
+    ]
+  },
+  "nominations": [
+    {
+      "symbol": "CreateMipMap_",
+      "segment": 4,
+      "source_offset": 208,
+      "size": 925,
+      "unmasked_bytes": 885,
+      "anchor_size": 287,
+      "locations": [
+        {
+          "object": 1,
+          "offset": 565248
+        }
+      ],
+      "status": "candidate"
+    },
+    {
+      "symbol": "FoldPixel_",
+      "segment": 4,
+      "source_offset": 0,
+      "size": 208,
+      "unmasked_bytes": 208,
+      "anchor_size": 208,
+      "locations": [
+        {
+          "object": 1,
+          "offset": 565040
+        }
+      ],
+      "status": "candidate"
+    }
+  ],
+  "all_candidates": [
+    {
+      "placement": [
+        1,
+        565040
+      ],
+      "match": true
+    }
+  ],
+  "callee_roles": {
+    "SafeMalloc_": [
+      1,
+      556180
+    ],
+    "memset_": [
+      1,
+      588144
+    ],
+    "CMAP_BestColor_": [
+      1,
+      580016
+    ],
+    "SafeFree_": [
+      1,
+      556260
+    ]
+  },
+  "observer_inputs_sha256": {
+    "/Users/jonw/duke3d/.worktrees/irq585/tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "/Users/jonw/duke3d/.worktrees/irq585/tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "/Users/jonw/duke3d/.worktrees/irq585/tools/map_candidates.py": "a1cf2cb71fb6049d4ec22785912b3ce1f6e63a76b62c37b5b4b6d9801ed67c7b",
+    "/Users/jonw/duke3d/.worktrees/irq585/tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "/Users/jonw/duke3d/.worktrees/irq585/tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "/Users/jonw/duke3d/.worktrees/irq585/profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "/Users/jonw/duke3d/reference/duke3d-reconstructions/MACT386.LIB": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "/Users/jonw/duke3d/reference/DUKE3D.EXE": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4"
+  },
+  "source_credit": 0,
+  "full_executable_rebuilt": false
+}

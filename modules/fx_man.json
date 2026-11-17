@@ -1,0 +1,21 @@
+{
+  "name": "FX_MAN",
+  "source": "src/audio/fx_man.c",
+  "reference_headers": "dukenukem3d/audiolib/SOURCE",
+  "options": ["/omaxnet", "/zp4", "/5r"],
+  "code_object": 1,
+  "code_offset": 524176,
+  "code_bytes": 2648,
+  "code_publics": 36,
+  "symbol_anchors": {
+    "BLASTER_ErrorString_": [1, 529244],
+    "BLASTER_Init_": [1, 535208],
+    "BLASTER_GetEnv_": [1, 533308]
+  },
+  "anchor_evidence": "evidence/blaster-module.json",
+  "expected": {
+    "initialized_bytes": 2847,
+    "zero_fill_bytes": 4,
+    "verified_fixups": 228
+  }
+}

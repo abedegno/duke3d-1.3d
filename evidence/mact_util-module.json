@@ -1,0 +1,1273 @@
+{
+  "kind": "complete source-built MACT utilities contribution; no full executable identity claim",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/util_lib.c",
+  "source_sha256": "cbc67db41e6412f5fc5ec010a4bf4645461088572025e2b05130cc4cbdc191e8",
+  "source_reference_sha256": "4b72f7265c526513ec459094703aa8669586a6e393abeabcd111082a317a28f9",
+  "descriptor_sha256": "c015af00e98341a826d35c5a04b5e06ece4ea5de7a7cf3bc7a3ab33f0cdb4dd1",
+  "source_producer_sha256": "d2353b256c98d8b68b17ed79d27901359e3fb0d6e43deab5951f4534c8932380",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "compiler_headers_sha256": {
+    "dosfunc.h": "e0818cff823f622700d84b57ce2a163cad8b69ff59dbdba85f37939cdcd93258",
+    "time.h": "2baeafdf340f6a9bf6c4f8b2482817ab0b18a5787d680bd7441b681f72cb1d16",
+    "generic.h": "735ed532c9152801307bf31f89b27b6804808f46e7c7fac5195cc99aaba30574",
+    "env.h": "c94e73a2fb8beeffedbbf3da0f6bf30b38e3acdd70edeeeb7697b9c16e4734c5",
+    "fstream.h": "a4e6bd2939b3305a9ccf176ec672e508a1b5714ff86bff1e3f7f852adf5af543",
+    "stdlib.h": "4e14c82775dd96c4cd42255c64fc81e33ef0cd9ce8ceb2853265351a4cfafd15",
+    "bios.h": "3c4d7d2ce1e796ce18e9d8e182f94a016082f330b2fae465713df6134ee88991",
+    "malloc.h": "d269c7807424c126231a7e2196058fd067148c4505fc29b91c0308830a941a30",
+    "float.h": "9c1e7ada0eddcefbc9e6f9414374dff464c09863e9d1d818480c65125aa496a6",
+    "stdiobuf.h": "4b3519258f3897ae2d04ee29260d952f16e3bcb54ccfaf76fe02e4e0da808091",
+    "iostream.h": "955885667ae26c248402ac2c523fd440226de7d68ac621451b40aa724f9f72a7",
+    "locale.h": "ebab144384a548277d327164aa5e9b116188135b9c3175d6fcf6cf469e56a8cf",
+    "jtime.h": "124c81110eccb8a14471421a674c2bc548d16ce5720999e8c1a61174ddbbf06c",
+    "iomanip.h": "b2cc77957300e7f5f0dbaa724a96c80bc9be8277d44698a1d37056e31fd94438",
+    "limits.h": "ce4cccef410a70cb21eddb2a8aac83855ce473010c8b066f0120975dc8b0bdf7",
+    "wclibase.h": "ae370c8990868494f087ef9a727ec6a3630f2dcb23996e167581c8293ffbdfcb",
+    "wcvector.h": "0526101c7cd81ccd6540c225a8ee4350f8d3e9b578edee318b340c4dd686695c",
+    "conio.h": "f94365acafcc36c4fb1237f5ba25c9aa2723f7d1a9e9fb8214de1ec4230b7948",
+    "unistd.h": "eaae97b116bf29c9e371027e667b751f358a71d656c9768948df7a736db158c5",
+    "stddef.h": "37f11ac8b1b9ecfa30c3aa3a60eb9a8f75752f21a019d41127ed7879b8973f72",
+    "wcdefs.h": "ea0839a1814467bf4204b23cbefbea913d73bb063a49b108bd083152cf8ab949",
+    "wcskip.h": "73392654347c14aa563e373c1849990dacf789aecdc5fda9267ea2faab7e48b3",
+    "fcntl.h": "dc5ae8a746c111a332245ae7abfbcb0777adb7706dcd5a97976bb18588b9c89b",
+    "streambu.h": "5386580f2a198b099d68cf588eb50d95238b23cf3df784f4daa7cc6302a65b04",
+    "wsample.h": "5c2c9de1e05fe9bebf16e02cc0ae68b348b80f5c6ca4b2cc59d09261b41753d6",
+    "wchiter.h": "12f10c9d78a503f336dac8f5879bc844237c778572fe5c2d80ae17121935f279",
+    "i86.h": "14f0a3daed5226486cb9f35febd5823aee9bc5c6b53794afee8486400decb2bc",
+    "signal.h": "c82885ca1c80d544a05de0c654d80dfbfce24f6ceafed3a700325a801c65b3a1",
+    "new.h": "bb7f953e5b82ffc0773f14b65c9ee733974725857c99a1fe83f1c8a330c17ac7",
+    "jstring.h": "57e6d7b8aba06767587aa52c013012899a3af43416dd58f3f91fe023b9b9c85d",
+    "wcskipit.h": "0ffbe770c4dfac242dde6e8c751d70bcf19223c80b7084957c8af6a2cdd40792",
+    "wclistit.h": "f7ac6f9bd96f622c80f297f04c1b0ee8addda25ea616e7abf61bf001e3f5ce2b",
+    "setjmp.h": "d2039415d0ea2a72012b472678ea0b1e62ba5d82bd647b2ec9989b3bf9c34f3d",
+    "strstrea.h": "1f9c1b8d8f07440bb7b34ac33e205cb4e89ac4a786df6b1ba8b923e0fa116f73",
+    "graph.h": "bb631005db869fac252067901f0137b3c3ec60d53a01ae9e70a6bf0f21c022b3",
+    "wdefwin.h": "6331bec748b9b410931cb6d7960a23b8522f1cfe4a829276bd0f7cd6cc919e2a",
+    "except.h": "4c3c26c36bb22196c7d622aefce575496a657a7ac015005cf0b6fd8fa1d69c67",
+    "wcsibase.h": "b6d875e30feca0fa53a798861daf68d118b021128ff914bb70386a6dd220ce1d",
+    "wchbase.h": "dac5a292d5264b443c0cbfd29916b16e22cd2f86b0ea3a55f1b6a2fd619054a7",
+    "wcsbase.h": "a955b335b760b7ef903116b00a4ef1a2e379b94d267ea7f470d3e9a89067ca39",
+    "share.h": "cca00bdddf3d5110f240b3d4e2b18a74b319e3d7df6938699143f4754fe28983",
+    "ctype.h": "9a83ade4b66271bb4149cd1071ec0a20f536b1d9f30e0f56d56c36fe30aba2f4",
+    "io.h": "2fb1343cfce131234508c94a0837bc3fd5cc71488841ece1bc317ba4a5cc76d9",
+    "common.cnv": "82c4d0f645fc45d37a6a5a39012382f026d54a9164ad6767771b94cd3c2d6ccf",
+    "wclbase.h": "57d8067a65cb847e08b193187e7201caeb5110858550303b9bea6ccbe8c0dc62",
+    "string.hpp": "cec68fcdbc1bfd3d8b49fa5fe9f13303fa3e9b21a116b28331cc1618fb703963",
+    "jctype.h": "4dc6fe0120e9988ffc0f61918107d9e643070cff79d98942dac434afb3bb063d",
+    "bios98.h": "c6c4d1bb2326f30803484cb89fd13d007478bb254551abb283be79d06bfb76ad",
+    "process.h": "f0fc51776260ac17202da43eb4d56e9e5ffcdc4f6aca28108a30b065a0ca4c0c",
+    "varargs.h": "7ff9e6d71c3ec0209b3954d2351d2f7ac34787ad5e8b878b4f5af60a9321f5f0",
+    "wchash.h": "233db7cbb4b8694009f162c7f9f75fe91cbe8203b38a45ee605d3d1dfcf5ee77",
+    "wcqueue.h": "34749131399f0bd7763dd7f70ebafa53ba6ae81b5b6d1e8db6631d779da602bd",
+    "math.h": "e6bf91eb159f681f7b2b3d3629eb4aaa94473a13690450f45cfcdeb9001bfa2d",
+    "errno.h": "380a36f1051a81f74ff974efdd1f4a0d67504c451315024b7f761c86b434cf65",
+    "stdio.h": "de275400f58feb96f19a1cd313f6906d7a3c849b9c2cfcba0fd7d619c341d6d1",
+    "stdarg.h": "ddc782c553543ad86ac7bdca6d4270f34ccb989871cd7c6832d8bab87df817fc",
+    "mem.h": "5ca07935305d1f293897e37e399c56814c4c70175f0523d33d4b41aaec2bf82c",
+    "direct.h": "011e69cb70d9c2a8731ba8b3332bad98e0019f7b40417279d3d4e66ea3c4de32",
+    "wclist.h": "3b0be37ede60cbf953836d5d4bf9c364e49d09d7418b822aa123504c6ed28158",
+    "search.h": "6b7b9cdbb3336da91e9848aa2985a7c282a6eb26224c81b2e88b118d45b4907e",
+    "assert.h": "0e01f1eb3b301911dff3a42e3e15d1deaf0964dc326305ddd35d424e9b86eaba",
+    "graph98.h": "de02fa8c14ba453d8a8778f22fec02d615d3da62ada5805d44628dc033342cdc",
+    "wcstack.h": "6c75e1bb8f11ec71ec219a0d7f360cb776ffc0cdef23e0ff3afcb7b51744318f",
+    "dos.h": "ba2f96187f557305d52f260b6f1e50d60ce87c32e8742e68a959427aa0275ee0",
+    "wcexcept.h": "6eb6d759109c136282003a3419d3119472f4032963da1407720aa69e241d20c0",
+    "pgchart.h": "35d5ab57adf7cf07422632ee6bd71d67fe8cdd0bca4917a6e12cfda3a2d8580e",
+    "complex.h": "71b02f6b4dc588e2fffcbdd77e9a576c55a5fe96d3ef61b1bc835c2208d85e61",
+    "wcvbase.h": "3b8c00de68c28d6c3155c2c4ea419ebda775f2817b4d23ed2efa9e14f2a78e51",
+    "wclcom.h": "97c405c4266ca1ae8e4ec554377ca86032e8775716a01d47e72cbeb535c3a696",
+    "string.h": "7b5e9dfad7588bea54e19c87a72de5e72fcb3ff062b0b4b2f6d9652d40ef3eeb"
+  },
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "proof_tools_sha256": {
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19"
+  },
+  "native_object_sha256": "20852c0dca2b8ce62f9a836dc907b435fba8cc670b7ee8588e89d200cf3ad25d",
+  "native_log_sha256": "3154b4c9e3035eee6a2d5e62e649f3a3e880a83260deb9bac694c44a9d62059f",
+  "independent_anchor_verifications": {
+    "strtok": {
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "377a44d03d773d8ff2be363e0ab05c68ba54fbae1f658b37d68ac3ec4943e529",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 153,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 6,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 589392,
+            "compared_bytes": 149,
+            "verified_fixups": 6,
+            "differing_offsets": [],
+            "match": true
+          },
+          {
+            "symbol": "_DATA",
+            "target_object": 3,
+            "target_offset": 72396,
+            "compared_bytes": 4,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "strtok_": [
+            1,
+            589392
+          ],
+          "_nexttok": [
+            3,
+            72396
+          ],
+          "__setbits_": [
+            1,
+            601171
+          ],
+          "__Bits": [
+            3,
+            29396
+          ]
+        },
+        "local_symbols": {
+          "_nexttok": [
+            3,
+            72396
+          ]
+        },
+        "full_executable_rebuilt": false
+      }
+    },
+    "cmain386": {
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "121ab7b4d090826c6fd95fa79b840064939e9b04fd1c92a23d44d2414d5c89a8",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 79,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 9,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 596879,
+            "compared_bytes": 79,
+            "verified_fixups": 9,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "__CMain": [
+            1,
+            596879
+          ],
+          "__ASTACKSIZ": [
+            3,
+            72680
+          ],
+          "stackavail_": [
+            1,
+            588030
+          ],
+          "__ASTACKPTR": [
+            3,
+            72684
+          ],
+          "__CommonInit_": [
+            1,
+            608928
+          ],
+          "____Argv": [
+            3,
+            2132852
+          ],
+          "____Argc": [
+            3,
+            2132848
+          ],
+          "main_": [
+            1,
+            65824
+          ],
+          "exit_": [
+            1,
+            583687
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "nmsize": {
+      "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+      "library_sha256": "6f250d0e791ba05c6857d57de1ac5e65b6a5db7cb390a7e8f48035e5a4bd4363",
+      "member_sha256": "de51f91cff67456548f278db57214b863650089f84956a00fd1dd6b58083a13c",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 9,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 0,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591250,
+            "compared_bytes": 9,
+            "verified_fixups": 0,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_nmsize_": [
+            1,
+            591250
+          ],
+          "_msize_": [
+            1,
+            591250
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "vprintf": {
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "library_sha256": "151fc7d895b171145466f77b1624d27952fa631971b0fc33d479e02eda3bbcc8",
+      "member_sha256": "b404698a136b3bd5b1df12df8877392b0ab156984297e26559860bf30fbbd873",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 17,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 2,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591233,
+            "compared_bytes": 17,
+            "verified_fixups": 2,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "vprintf_": [
+            1,
+            591233
+          ],
+          "___iob": [
+            3,
+            71864
+          ],
+          "__fprtf_": [
+            1,
+            592563
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    },
+    "nrealloc": {
+      "library": "toolchains/watcom-10.5/LIB386/DOS/clib3r.lib",
+      "library_sha256": "151fc7d895b171145466f77b1624d27952fa631971b0fc33d479e02eda3bbcc8",
+      "member_sha256": "aa52b33f130584f880e8d03e080bf8f1054d75ef26f03c941d448ea5b40799a9",
+      "verification": {
+        "verified": true,
+        "initialized_bytes": 158,
+        "zero_fill_bytes": 0,
+        "verified_fixups": 9,
+        "segments": [
+          {
+            "symbol": "_TEXT",
+            "target_object": 1,
+            "target_offset": 591259,
+            "compared_bytes": 158,
+            "verified_fixups": 9,
+            "differing_offsets": [],
+            "match": true
+          }
+        ],
+        "publics": {
+          "_nrealloc_": [
+            1,
+            591259
+          ],
+          "realloc_": [
+            1,
+            591259
+          ],
+          "_nmalloc_": [
+            1,
+            587632
+          ],
+          "_nfree_": [
+            1,
+            587859
+          ],
+          "_nmsize_": [
+            1,
+            591250
+          ],
+          "_nexpand_": [
+            1,
+            605241
+          ],
+          "__Extender": [
+            3,
+            72702
+          ],
+          "__ReAllocDPMIBlock_": [
+            1,
+            598304
+          ]
+        },
+        "local_symbols": {},
+        "full_executable_rebuilt": false
+      }
+    }
+  },
+  "independently_anchored_imports": {
+    "printf_": [
+      1,
+      583204
+    ],
+    "exit_": [
+      1,
+      583687
+    ],
+    "strtok_": [
+      1,
+      589392
+    ],
+    "stricmp_": [
+      1,
+      588168
+    ],
+    "atol_": [
+      1,
+      583945
+    ],
+    "malloc_": [
+      1,
+      587632
+    ],
+    "_msize_": [
+      1,
+      591250
+    ],
+    "free_": [
+      1,
+      587859
+    ],
+    "__argc": [
+      3,
+      71844
+    ],
+    "__argv": [
+      3,
+      71848
+    ],
+    "vprintf_": [
+      1,
+      591233
+    ],
+    "realloc_": [
+      1,
+      591259
+    ]
+  },
+  "selected_member_call_nominations": {},
+  "callee_identity_limit": "All twelve source imports are independently constrained by fresh complete stock CRT member verification or accepted peer proofs. No unique historical runtime/compiler selection, final member order, or whole executable identity is established.",
+  "source_geometry": {
+    "publics": {
+      "RegisterShutdownFunction_": [
+        1,
+        4
+      ],
+      "Error_": [
+        1,
+        12
+      ],
+      "CheckParm_": [
+        1,
+        112
+      ],
+      "ParseHex_": [
+        1,
+        252
+      ],
+      "ParseNum_": [
+        1,
+        396
+      ],
+      "MotoShort_": [
+        1,
+        440
+      ],
+      "IntelShort_": [
+        1,
+        464
+      ],
+      "MotoLong_": [
+        1,
+        468
+      ],
+      "IntelLong_": [
+        1,
+        544
+      ],
+      "HeapSort_": [
+        1,
+        548
+      ],
+      "newsift_down_": [
+        1,
+        752
+      ],
+      "SafeMalloc_": [
+        1,
+        852
+      ],
+      "SafeMallocSize_": [
+        1,
+        888
+      ],
+      "SafeRealloc_": [
+        1,
+        896
+      ],
+      "SafeFree_": [
+        1,
+        932
+      ],
+      "_ShutDown": [
+        4,
+        0
+      ],
+      "_Base": [
+        5,
+        0
+      ],
+      "_Comp": [
+        5,
+        4
+      ],
+      "_Width": [
+        5,
+        8
+      ],
+      "_Switch": [
+        5,
+        12
+      ]
+    },
+    "local_publics": [
+      "_Base",
+      "_Comp",
+      "_ShutDown",
+      "_Switch",
+      "_Width",
+      "newsift_down_"
+    ],
+    "externals": [
+      "_ShutDown",
+      "vprintf_",
+      "printf_",
+      "exit_",
+      "__argv",
+      "strtok_",
+      "stricmp_",
+      "__argc",
+      "Error_",
+      "ParseHex_",
+      "atol_",
+      "_Switch",
+      "_Base",
+      "_Width",
+      "_Comp",
+      "newsift_down_",
+      "malloc_",
+      "_msize_",
+      "realloc_",
+      "free_"
+    ],
+    "local_externals": [
+      1,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "code_data_ranges": [
+      [
+        1,
+        0,
+        4
+      ]
+    ],
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 961,
+        "attributes": 105
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 138,
+        "attributes": 169
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 8,
+        "attributes": 169
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 28,
+        "attributes": 105
+      }
+    ]
+  },
+  "placements": {
+    "1": [
+      1,
+      555328
+    ],
+    "4": [
+      3,
+      68264
+    ],
+    "2": [
+      3,
+      23016
+    ],
+    "5": [
+      3,
+      1863808
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 5,
+      "symbol": "_ShutDown",
+      "value": [
+        3,
+        68264
+      ]
+    },
+    {
+      "source_offset": 21,
+      "segment": 4,
+      "value": [
+        3,
+        68264
+      ]
+    },
+    {
+      "source_offset": 35,
+      "symbol": "_ShutDown",
+      "value": [
+        3,
+        68264
+      ]
+    },
+    {
+      "source_offset": 41,
+      "segment": 4,
+      "value": [
+        3,
+        68264
+      ]
+    },
+    {
+      "source_offset": 51,
+      "symbol": "_ShutDown",
+      "value": [
+        3,
+        68264
+      ]
+    },
+    {
+      "source_offset": 71,
+      "symbol": "vprintf_",
+      "value": [
+        1,
+        591233
+      ]
+    },
+    {
+      "source_offset": 76,
+      "segment": 2,
+      "value": [
+        3,
+        23016
+      ]
+    },
+    {
+      "source_offset": 85,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 98,
+      "symbol": "exit_",
+      "value": [
+        1,
+        583687
+      ]
+    },
+    {
+      "source_offset": 126,
+      "segment": 1,
+      "value": [
+        1,
+        555328
+      ]
+    },
+    {
+      "source_offset": 149,
+      "symbol": "__argv",
+      "value": [
+        3,
+        71848
+      ]
+    },
+    {
+      "source_offset": 194,
+      "symbol": "strtok_",
+      "value": [
+        1,
+        589392
+      ]
+    },
+    {
+      "source_offset": 207,
+      "symbol": "stricmp_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 225,
+      "symbol": "__argc",
+      "value": [
+        3,
+        71844
+      ]
+    },
+    {
+      "source_offset": 369,
+      "segment": 2,
+      "value": [
+        3,
+        23016
+      ]
+    },
+    {
+      "source_offset": 374,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 406,
+      "symbol": "ParseHex_",
+      "value": [
+        1,
+        555580
+      ]
+    },
+    {
+      "source_offset": 427,
+      "symbol": "ParseHex_",
+      "value": [
+        1,
+        555580
+      ]
+    },
+    {
+      "source_offset": 434,
+      "symbol": "atol_",
+      "value": [
+        1,
+        583945
+      ]
+    },
+    {
+      "source_offset": 562,
+      "symbol": "_Switch",
+      "value": [
+        3,
+        1863820
+      ]
+    },
+    {
+      "source_offset": 571,
+      "symbol": "_Base",
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 577,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 599,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 610,
+      "symbol": "_Comp",
+      "value": [
+        3,
+        1863812
+      ]
+    },
+    {
+      "source_offset": 620,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 628,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 633,
+      "symbol": "newsift_down_",
+      "value": [
+        1,
+        556080
+      ]
+    },
+    {
+      "source_offset": 639,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 644,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 655,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 663,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 668,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 678,
+      "symbol": "_Base",
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 688,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 694,
+      "symbol": "_Switch",
+      "value": [
+        3,
+        1863820
+      ]
+    },
+    {
+      "source_offset": 700,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 705,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 715,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 720,
+      "symbol": "newsift_down_",
+      "value": [
+        1,
+        556080
+      ]
+    },
+    {
+      "source_offset": 726,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 732,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 740,
+      "segment": 5,
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 767,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 779,
+      "symbol": "_Base",
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 784,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 794,
+      "symbol": "_Comp",
+      "value": [
+        3,
+        1863812
+      ]
+    },
+    {
+      "source_offset": 804,
+      "symbol": "_Width",
+      "value": [
+        3,
+        1863816
+      ]
+    },
+    {
+      "source_offset": 809,
+      "symbol": "_Base",
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 820,
+      "symbol": "_Comp",
+      "value": [
+        3,
+        1863812
+      ]
+    },
+    {
+      "source_offset": 829,
+      "symbol": "_Base",
+      "value": [
+        3,
+        1863808
+      ]
+    },
+    {
+      "source_offset": 840,
+      "symbol": "_Switch",
+      "value": [
+        3,
+        1863820
+      ]
+    },
+    {
+      "source_offset": 857,
+      "symbol": "malloc_",
+      "value": [
+        1,
+        587632
+      ]
+    },
+    {
+      "source_offset": 869,
+      "segment": 2,
+      "value": [
+        3,
+        23016
+      ]
+    },
+    {
+      "source_offset": 874,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 889,
+      "symbol": "_msize_",
+      "value": [
+        1,
+        591250
+      ]
+    },
+    {
+      "source_offset": 905,
+      "symbol": "realloc_",
+      "value": [
+        1,
+        591259
+      ]
+    },
+    {
+      "source_offset": 917,
+      "segment": 2,
+      "value": [
+        3,
+        23016
+      ]
+    },
+    {
+      "source_offset": 922,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 940,
+      "segment": 2,
+      "value": [
+        3,
+        23016
+      ]
+    },
+    {
+      "source_offset": 945,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 955,
+      "symbol": "free_",
+      "value": [
+        1,
+        587859
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 1107,
+    "zero_fill_bytes": 28,
+    "verified_fixups": 61,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 555328,
+        "compared_bytes": 961,
+        "verified_fixups": 61,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 23016,
+        "compared_bytes": 138,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 68264,
+        "compared_bytes": 8,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1863808,
+        "compared_bytes": 28,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "vprintf_": [
+        1,
+        591233
+      ],
+      "printf_": [
+        1,
+        583204
+      ],
+      "exit_": [
+        1,
+        583687
+      ],
+      "strtok_": [
+        1,
+        589392
+      ],
+      "stricmp_": [
+        1,
+        588168
+      ],
+      "atol_": [
+        1,
+        583945
+      ],
+      "malloc_": [
+        1,
+        587632
+      ],
+      "_msize_": [
+        1,
+        591250
+      ],
+      "realloc_": [
+        1,
+        591259
+      ],
+      "free_": [
+        1,
+        587859
+      ],
+      "__argc": [
+        3,
+        71844
+      ],
+      "__argv": [
+        3,
+        71848
+      ],
+      "RegisterShutdownFunction_": [
+        1,
+        555332
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "CheckParm_": [
+        1,
+        555440
+      ],
+      "ParseHex_": [
+        1,
+        555580
+      ],
+      "ParseNum_": [
+        1,
+        555724
+      ],
+      "MotoShort_": [
+        1,
+        555768
+      ],
+      "IntelShort_": [
+        1,
+        555792
+      ],
+      "MotoLong_": [
+        1,
+        555796
+      ],
+      "IntelLong_": [
+        1,
+        555872
+      ],
+      "HeapSort_": [
+        1,
+        555876
+      ],
+      "newsift_down_": [
+        1,
+        556080
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "SafeMallocSize_": [
+        1,
+        556216
+      ],
+      "SafeRealloc_": [
+        1,
+        556224
+      ],
+      "SafeFree_": [
+        1,
+        556260
+      ],
+      "_ShutDown": [
+        3,
+        68264
+      ],
+      "_Switch": [
+        3,
+        1863820
+      ],
+      "_Base": [
+        3,
+        1863808
+      ],
+      "_Width": [
+        3,
+        1863816
+      ],
+      "_Comp": [
+        3,
+        1863812
+      ]
+    },
+    "local_symbols": {
+      "_Base": [
+        3,
+        1863808
+      ],
+      "_Comp": [
+        3,
+        1863812
+      ],
+      "_ShutDown": [
+        3,
+        68264
+      ],
+      "_Switch": [
+        3,
+        1863820
+      ],
+      "_Width": [
+        3,
+        1863816
+      ],
+      "newsift_down_": [
+        1,
+        556080
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "original_member_used_by_producer": false,
+  "source_instruction_payload": false,
+  "full_executable_rebuilt": false
+}

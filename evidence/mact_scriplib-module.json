@@ -1,0 +1,6045 @@
+{
+  "kind": "complete source-built MACT SCRIPLIB candidate; not complete executable",
+  "source": "src/mact/scriplib.c",
+  "source_sha256": "208af8d84c2e9ad52737a7a9e15e1ed37f6c58ad674a7f876fa99d9482cdecf0",
+  "descriptor_sha256": "831c3a73a6bc8e0412c7e18d5b0729baf57f3430aee45deaeb24d32a5325ee56",
+  "source_reference_sha256": "652962dc93f7d81bd3614e65bba05aa3709b7ca4fbb84ffa4222a3861fabe913",
+  "source_producer_sha256": "1c80b6f018f161cec3a1bd06e987f5a9b3727b6f4a09a29ae999afe8db19afb3",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "actual_build_directory": "/Users/jonw/duke3d/.worktrees/startup-reader376/build/task376/normal/mact_scriplib/scriplib-2ebet81q",
+  "native_object_sha256": "147da0252372ae6d6f34ea2ead4d2b0a3f51ecffe30668a66baf8a996e71cbc1",
+  "native_log_sha256": "d4290fc301c89eb02411880a86db0cf7dc93eb04fcc2010f3d68a93c694ebf4f",
+  "compiler_headers_sha256": {
+    "H/NT/afx.h": "a126f2194d6f35ea22bf24355245329a96833a91b8c1b5aa85b23fcadc05c799",
+    "H/NT/afx.inl": "cb774d3e9ebe63018999c85cfb6802c86cda2de55bfc2f49a864635b8279810c",
+    "H/NT/afxcoll.h": "26b1a67075a727eaed5d4c4543ad713e5309fa4bced35819e6225539e7d0fc0a",
+    "H/NT/afxcoll.inl": "04ed839c12e1c033723ce741b8a696c61bb32654aaa0cb87d7d42494c6835358",
+    "H/NT/afxdd_.h": "9d36e6a0622ffaebb636e1a5112defe6380d63eab0ea0d64c709ebebd93c4882",
+    "H/NT/afxdlgs.h": "dbf4405e3f802a929217b57fc9602ed4e05d97330ff18469e78130fa9256caa9",
+    "H/NT/afxdlgs.inl": "5777ca2f1356d0e2e351dc4812699153e45138bb39631e9a4c2c7e6ab2039efc",
+    "H/NT/afxext.h": "982d64bc4f1f0f3b9e6b98b9f47932b52680b09d3b4213844c76c27e9729f11b",
+    "H/NT/afxext.inl": "fbcb47a61889758654bbd59d8e278c9cf89cd60682ef079ac152a10b4f184b68",
+    "H/NT/afxhelp.hm": "89661ff0f44ad0ba065d44f29d8b7a08603eed2b47d37fa1c738195c532c78a7",
+    "H/NT/afxmsg_.h": "e629b745f9915b5896528cfe73c5262028d342ccb14ea5ef8495e63cb8b77bc8",
+    "H/NT/afxole.h": "b2054d883f65ba5a1390f4b5c604ebde4f91f094f8f1776830f04b7a23fe5d54",
+    "H/NT/afxole.inl": "1f51072b69b5d3490946753c2f6d82d0c6793f378d2d6e95a3bd1652e332be99",
+    "H/NT/afxolecl.rc": "a1fca1d15de230598751cc38732a8fdfef10783562721bd915fdfcca09c486fa",
+    "H/NT/afxolesv.rc": "675c2c7a0022af24529417715902fc75916ef788362491ff0cd6cf61470745a5",
+    "H/NT/afxprint.rc": "fac0112304ee78b3c51c9ef7b485dff675fda20688c7d1284551168ebc1a4959",
+    "H/NT/afxpriv.h": "6ef0b7b13606f5aaa0f5e39bc1f4fa500ccacedc1a55481cd5062c746408bf53",
+    "H/NT/afxres.h": "832cc990f332cc0cb7f4ef1c07401835de1b08f2a19447a43d8c73f068cf9b9f",
+    "H/NT/afxres.rc": "9298faa8e33824de12f4328a9183f1525bf3b98140b495141fefae0c8b55cd87",
+    "H/NT/afxv_cfg.h": "97c5757d190902c72214a80237d5f20271d08466751954edeac8363463d3642c",
+    "H/NT/afxv_nt.h": "0bf2e27a40168f2b38ab9c2312135b88bd7a2d2b942657d126d45aa2635f5d20",
+    "H/NT/afxver_.h": "080dfd734d2160e6696bd00b3728beb85bd1a2aa088d0baa6c81fce2a361b3f6",
+    "H/NT/afxwin.h": "81bed9735b4db44e2013995bab0b8f7abc47da8a8cef165b6f3ecb9897a36425",
+    "H/NT/afxwin1.inl": "26b1672f5877ff7191b6969fac4097199d22361b00da25ba370c9cd14d230029",
+    "H/NT/afxwin2.inl": "d255e72f60afc305f24c0a4aabfb20d81e03de52ecc50597e09745dbf578e62f",
+    "H/NT/cderr.h": "1d62a8e0c8e239d0e0e30c2071fd49b0db1777b67d770b3e147e14e8dcae7059",
+    "H/NT/color.dlg": "2618aa73e381ad2772e9d26a95fa9b597c3cd1dca0b4f2142b6de24afd95691d",
+    "H/NT/colordlg.h": "3ca6d45696e6a20f4a510bb20e4d62b3e000c548327fea1bbd1f83e37b4c5a20",
+    "H/NT/commdlg.h": "c432efe809927268ee9018f6b9b6c71fdf319224ad27ae4f9d11981fc495e34e",
+    "H/NT/cpl.h": "5297e2572d827470a211904cfc0d972cdfa4f8331c77af2de614d9bf4e321ed4",
+    "H/NT/custcntl.h": "ffd1709c19ce67ce57f6909d2d409c9cc57cd7b0b4ccb60b3c31c93dd793794d",
+    "H/NT/dde.h": "444442c5f28e9e5b97c487d5bb829ab5f08a3c08e45d95cb9fad552ab15a3b8c",
+    "H/NT/ddeml.h": "136b7947c869f3578757b2ebfe791badf6aebdc5dc8ed7e7690b0f280dcb06ad",
+    "H/NT/dlcapi.h": "fa265a4c97aaf155e18570cf695ce3a5e1ed2229c9c57f131944d47a67f2c4ba",
+    "H/NT/dlgs.h": "e41008804db023cbb8501240a575bd20ce2b89a9439fd7afe8761f275ac74519",
+    "H/NT/drivinit.h": "0d2c7be7aa884cf5573c122e433e8df33b647447fa6e0b2ec9e0ddbbd7f28b2e",
+    "H/NT/excpt.h": "4d6c19b659f59749846f216c1d572200d8e31979785e3fd8706119b911e7bb91",
+    "H/NT/fileopen.dlg": "2bb487831825e5411071889c836bec04e54acbccc86a47ab35104395fc42aed3",
+    "H/NT/findtext.dlg": "c39a8e96b3537afe19b29eb7e860ebfe1b161ddf0edc0fbc95956ae0112e24a1",
+    "H/NT/font.dlg": "f21eb664bd26125c8ad9cdb116d2724902c5e36d388f664e7ef03d062afd799b",
+    "H/NT/fpieee.h": "f1a6a93bf0da52650fd9e4bf8971104f41a85587c69942e66ca54b5553b03587",
+    "H/NT/help.cur": "be41abe6de0b646482573471decc73d1b7b13f3cdac562dbf96d55e1ff267bf9",
+    "H/NT/lm.h": "042686ffa32aa1b0fa0668c49b56865dc382cd06f6864a8f18026d142b9c23d5",
+    "H/NT/lmaccess.h": "bbbb9d6c234cf5edc9115d422611f42e4dbf9142e22bb1aeca8318a1f52c8102",
+    "H/NT/lmalert.h": "6ff9608c5cb4823741a3d2ef5e42203be42426e644b2ac8187390fddf34e1607",
+    "H/NT/lmapibuf.h": "93c382f75e19ee381ab8bf1f8f9cf1ba0c94f6d24bf284c9ff73c6b9c408fcb3",
+    "H/NT/lmat.h": "8a0ee991d78095631fcefe21b0a39f26de72feb3ed8509db7cb6fc24789a8932",
+    "H/NT/lmaudit.h": "fe520fee67ada1991b5834831eb2b9384da0773c57b26031d40a950017165c37",
+    "H/NT/lmbrowsr.h": "226cf936e74d4f2481f38faa2a9ef413a3abdc806194682b52138e5ef3c6c7f8",
+    "H/NT/lmchdev.h": "e61f7b40709005e6aeab5977260e9db737aa7dd532f374a8ba59d27c69c175f7",
+    "H/NT/lmconfig.h": "7745c5c85bcab35a3142b074fe407d259e4e1acd4353c0a35ec9f75d3334895e",
+    "H/NT/lmcons.h": "792c0baa37d18eccc38cb3eb7b899d7bde28249c0c572e5d880ae06b26773cec",
+    "H/NT/lmerr.h": "47a15edf0949208aa0631b70bf0da5e49f922bcd26e0f098a4570e86dc40b698",
+    "H/NT/lmerrlog.h": "b9a5f1bec70ad214b884dd7487a05aaf2f14ea0a8353b20b80e8d63605028fd9",
+    "H/NT/lmmsg.h": "af50014c3af669e323c424e34cd24b2b75e9d60eba9a1f5317855f520640b4ba",
+    "H/NT/lmremutl.h": "d082dc4c5b98ff63d21fce8a14daff29c975a560ed4a159fce39ee4bbb3b9d35",
+    "H/NT/lmrepl.h": "cf8a7d36865d5e80dee81f7fde29e27c5c960b2103ac194ac6ce33cdaec7dbc8",
+    "H/NT/lmserver.h": "d3dfd09b44957d90f8e4f1c8159532ced392ce5c5a006f56f1e16288c8a6e334",
+    "H/NT/lmshare.h": "296491fddf30bced465bd0a6238bd329790c36b67a4cf6a29c1f352d4a875671",
+    "H/NT/lmsname.h": "f01363d130648536c61bf20e1d9fc5643a14ad72f889aaa97ecec8a05300e530",
+    "H/NT/lmstats.h": "8b8cbd9d3d25797f87fc0160ff8646403b8fa6f4f76dfad261d7889b1701ec34",
+    "H/NT/lmsvc.h": "208b234a140e5d3468556b94a447bf08640f4d137a4f6cf856991b4faa58cf86",
+    "H/NT/lmuse.h": "cb15a9c72f18464a388bacdc1df3f302a8ed1e8e54c9b178ccb2a7b0983b0716",
+    "H/NT/lmuseflg.h": "20c1328ff51b1407841fc5021f512f5bd667dea11fadc8ca48b1198efeb5e2a9",
+    "H/NT/lmwksta.h": "4ec61ff28156e7ca5c615245217c6bd2d01bd373d6ac59dbba3bf31d28c327ef",
+    "H/NT/lzexpand.h": "a425be116f26a76708161a4ce687ab3cd3d4aa60efae9cb818f5498a60b9c452",
+    "H/NT/magnify.cur": "5824c6b0cead09e4074f2de55766ddcf738434fd822a54b8ce363cf475c9b107",
+    "H/NT/mgmtapi.h": "9d6968a33bcd8bcd91ce16c96a5aa10d60a60044e92a0b606c7201195f16f91a",
+    "H/NT/mmsystem.h": "6ce1bc8d6823758542a55f0b85ddbe6cf09317340be1b4defdecd7ad0e141d96",
+    "H/NT/nb30.h": "6df640314417de73fa966f27c2b19383b4c62446c977eef1b3e7bf557ceaebf4",
+    "H/NT/nddeapi.h": "cb5d9c587682cc013a2a61e0b2b5851823b704b0f7fef8cdc60aec2103a04cbd",
+    "H/NT/nddesec.h": "7252cb4751c87ebdb2b00df147a374a4fed353c0df5c3023ce54ef79d562e2a0",
+    "H/NT/nodrop.cur": "94398635ff14051fa74ecd81d9687f92b8046d890915e125e08b3262f3fd7cef",
+    "H/NT/ntimage.h": "4ca0fc548407e716683959f66cb1df135bb81baafe578b3dfc2954caf187ca17",
+    "H/NT/ntsdexts.h": "040b2cc609c365e53d04d32946ed49c175a5983e640bdf24e66d6ad1686e42cb",
+    "H/NT/ole.h": "d7feec5faeee0982c38b4f35176601305711a294d3a062fd6574622b213b5d30",
+    "H/NT/prnsetup.dlg": "db4e0fe58d3f4f3fe12369bb3a27ad8095ce08d1c4bac5f7df14828a7792949e",
+    "H/NT/ras.h": "e24979f400d0499b6ded43c6c67a8874fa0db959f979615c11603690a4d7c9f9",
+    "H/NT/raserror.h": "4d5a19a263ed2852a38ad4d6ec6dc16386504c8438ca77ace9a6e266b1386229",
+    "H/NT/rpc.h": "9eeb2a9c7c0ddba0a8384f3ed9d1c0fd623d2f63c7db1d091b0713681b16b945",
+    "H/NT/rpcdce.h": "ac30a6c1e46c5d08dc4dd34019d3284549dea5c97477e8f79eb91c694809aad7",
+    "H/NT/rpcdcep.h": "3726a6f809a30f623d610026a12004b223a2c12d188cd0fe1c77a7e84f2f68aa",
+    "H/NT/rpcndr.h": "483173d0147326cca80b574b2728b801b4bba688f468b8731dd4484b40682889",
+    "H/NT/rpcnsi.h": "dcc0442ddb75d2ff81b7bc34859fd8c5e2d93e45251646dde039af8f2218ffc6",
+    "H/NT/rpcnsip.h": "528bd2c55333204dbab9f0d2fd54b7b45a9c3fdf93ce9b3aeeff2e129a4644a9",
+    "H/NT/rpcnterr.h": "03c3e562967f7d2a050b79fe88833c2347e7aa9c73b5d9b563804092eccc163a",
+    "H/NT/sarrows.cur": "29ab0b2d7833c3add711187d54f8c5f888deff62f320f31f904f56b7f20ad54d",
+    "H/NT/scrnsave.h": "a94c59f916933a124a1be42bddfacde161536dd997c4b26a39333979e69639ce",
+    "H/NT/shellapi.h": "771abd9841a7752235747240a68f6643e60f23ae8ea61e68137757b5d4a9ffc0",
+    "H/NT/snmp.h": "770dac72e4f949f26ad368b039167b3b02e90fdb8f405dea497e3405168175b9",
+    "H/NT/splith.cur": "badd20b7f1055e7d12cdc3769e0853de47f7a78061cce7ac859ea2936a07bbd0",
+    "H/NT/splitv.cur": "98548d6a5a96be22b21ea39a59879a623e1876ffd35fa32a9eba6a61a05177f2",
+    "H/NT/vdmdbg.h": "262a1a69ae3dc0f14794e231427c0ad05ac82f88348801a22f00196189933aad",
+    "H/NT/wdbgexts.h": "4ae2f2a000f0c37f24c42d67d9d2a0c4872ba37cd821c52078c11fcfc7377c81",
+    "H/NT/wfext.h": "d024a218a4280e3d0e276694a85a3ebb1079f1a3e90ac1af8c9a85a6b67b9133",
+    "H/NT/winbase.h": "ffea0559ce491f5ba6707469eebc6a1ae8e563853440227a0700e8e9675dc3b8",
+    "H/NT/wincon.h": "7264c5db1e40afca1e29c61a891782be0782ce13b1bf3449f76239dcd50dc075",
+    "H/NT/windef.h": "5b4f82e37f74af1da3199477231781b455b555d474612392dc5c39600882373c",
+    "H/NT/windows.h": "cec75b7a82322fbc7805c8dd1312804585b9977f51fffcfdd352ec076576aaae",
+    "H/NT/windowsx.h": "261362fae145c81124b8ce1a5a62e2b36d6bac5a0488fa03733473d1cda6d133",
+    "H/NT/windowsx.h16": "8d81a0e38515e68859c2998e2a0adad37bd4a47d72fcf679e5c7d1855c6e9bde",
+    "H/NT/winerror.h": "de2366d30af886c818278209a5bf442ef00f5c74719c76a343f183eec13c53f5",
+    "H/NT/wingdi.h": "fe16e143fc0cb0453e5ce708e638543e7501d89b6cc46def9e9f80aab58cf3dc",
+    "H/NT/winioctl.h": "b2992d4870526f7ec31be3108517bc3f24be177030001f36d3cfc8c698bf9228",
+    "H/NT/winmm.h": "0d2064384a3ab0177b8cc1121ccec0f679ac1c4ff621e2ffdffca930e91b0ead",
+    "H/NT/winnetwk.h": "c26914b8b9b5e30b1f302a5501d7d13a8684f2abca47f830aa7830f4dfe65af7",
+    "H/NT/winnls.h": "2a3fc767d1b153022d2f30ebade53a9ced14ab6d4661824ce40c21ebd8fe4b92",
+    "H/NT/winnt.h": "4d1c4575c443d12857b135aaeedc717ab7bbfc0551d2749461515f31ec2f34ed",
+    "H/NT/winperf.h": "99dd0d4af57307c018ddfe98920ef2db497681dbed4067d4c1b76d62b54a5f6e",
+    "H/NT/winreg.h": "79e58bc98e4924cbe683b97a9b737134d06e6aee2cad8f473e34b3ae647bd871",
+    "H/NT/winres.h": "a62a33143c5158d5bc9a2871dddc78484f070f7e1594ad81da82cf6483a02ac0",
+    "H/NT/winsock.h": "518112d30a66efd8e1f5291805125e3dbeea258e538d11205e90e7a039060cef",
+    "H/NT/winspool.h": "f92639c309bd0549404d5cd32240705ff124353335299184e8bac1f754eac3fe",
+    "H/NT/winsvc.h": "b841b22d0f4d7d926e0a70d6975c337b0b7a079913830ad875f38d80f15bfa89",
+    "H/NT/winuser.h": "2221a3c59c361daa68a24070c596dad2a2f5c5163664e1632bbcbe0b8993eb79",
+    "H/NT/winver.h": "b6d2866358ce604d1373279e47b18676d0aa1cf2d496b0bb946fc591586bdd42",
+    "H/NT/wsipx.h": "977b360b2adec7aae2a3ca0f100bdc096b68f503273381dc6e171fdef2bf4a9a",
+    "H/NT/wsnwlink.h": "f00339370949db4901a26c9a15bf88a48e2f887a9a5ae05d5201ac378bd62ba4",
+    "H/OS2/bdcalls.h": "24bb9cedb835a06b68f2a5ffdc2fbd1fb60790c5f2c041af4a707dd01da55690",
+    "H/OS2/bse.h": "a8a2048a7d47833c915feaeace060a19fcf6d5ac1f767aad6bd31148bc9a5f21",
+    "H/OS2/bsedev.h": "aaeb1de053a03d085de037011069129dc5a69a56f0a9b75a8e740bea20c95497",
+    "H/OS2/bsedos.h": "2ce315a897087ac558c141c384bc9fa8e5e38f5c872474c7986ee8423691e67a",
+    "H/OS2/bseerr.h": "7269d7510b5f371bdfc95637fbd9c8ba600dd2c5470e1c36a98f20212914ac74",
+    "H/OS2/bsememf.h": "b83d905e32023c98414284996a4aaf650c7d0248eee656e9670c7efdf6b0f66a",
+    "H/OS2/bseord.h": "50538133c394256407e472db27f3e683ba4dca20e270742d593ffeffb6a0a01f",
+    "H/OS2/bsesub.h": "e8fb2bc9eea4dc05571b24a222726b7926ebc8e63fc7e99d3d9292900e7d01b7",
+    "H/OS2/bsetib.h": "89c31347a37de5e0ee422e40bc5361728010d7d30e04cb378340b78c167a08b8",
+    "H/OS2/bsexcpt.h": "c409a6df6422a09eaf7f8e225a682f6e04167b321f37724f953a979210f6ded1",
+    "H/OS2/exe.h": "de4e736bc82e9ce9cdaaa25963cd96c2e5130f91279a70506157635166f34617",
+    "H/OS2/exe386.h": "8c57cff917642dfdacf2b2e56e46ec324dde576bf51d9f9cb26c0d47058584c4",
+    "H/OS2/hmtailor.h": "4b73988ba39a52a7d290e136f8b824dee810fb33745290da79c453f3046bd9d4",
+    "H/OS2/newexe.h": "64c5361fbf01c9b0fa2c11daca8242a0be5c768598401244e5e32804ee20543d",
+    "H/OS2/os2.h": "9660b5e2caf148df27b6b15ee76890330d43c0b0477ce92340dc9a6eaa4afce8",
+    "H/OS2/os2def.h": "34148bdd9c14e6c67ed12f698ae79de0879b45dde2413e98cee53c2cbb09e174",
+    "H/OS2/os2nls.h": "7451f855fe1923ba8514329b340984fc24399687ae23dd687feff66354d01a2b",
+    "H/OS2/pm.h": "ce93e74af93128208634259a893b7434396ead5b7a025a7e479fcd595b2478e8",
+    "H/OS2/pmavio.h": "36489ca88c9cca675656d61707a99a1e7697d5044180ea53a76c42804b1a0021",
+    "H/OS2/pmbitmap.h": "47a5c1f4a35b062a1d11ffd6ec2278dc947babe4cc0bf0e321aaef5618af7073",
+    "H/OS2/pmddi.h": "0621e5cfca9acfb7f7448e39f54c0b743031de6c8fa277c5084d964a89bc7c21",
+    "H/OS2/pmddim.h": "7b124b20efcb305d1c1fe25cc451113834635b3425c84262f2bf45784b4708a4",
+    "H/OS2/pmdev.h": "8bc4426395c5d1be536d52310dd254e01a8971c886ad6d477f302318f10f868f",
+    "H/OS2/pmerr.h": "57db3cf27261f110f7b09ac4c5e3fe7dfe64fd8952ff5547dcf1382ad6d4768a",
+    "H/OS2/pmfont.h": "eac403e8f3f388b4e127144d747ec35f1e3451e7c13666a8f847ee6a0a77260c",
+    "H/OS2/pmgpi.h": "58d75c5675730d21e922aa9d69730b869d1e16428503ffcfd3f10b9ad6cad2b2",
+    "H/OS2/pmhelp.h": "a32280449fa50bde4696a39bf5482e0ab574ac63269b0708b9326795e110f913",
+    "H/OS2/pmmle.h": "2f38e2182dcf5a784a88677af5905a2e7d585286f77e710cb1be831b28d4de68",
+    "H/OS2/pmord.h": "9d58b20d70b1972441c2c4e2a1f92331a44ec6561e8e12281a179855131e5298",
+    "H/OS2/pmpic.h": "5a7acca8d4dc84f9ab1cbac1a00f511b020669f5c64021e2885154993caa7701",
+    "H/OS2/pmsei.h": "2dd435398d7a81aab3c871c579714168d7b12b10d0e3e224687d0b7eca51ce75",
+    "H/OS2/pmshl.h": "622e643738a914d179b87ba89a7e6e4460e9c86e5b8525edb64ea2100b18f95b",
+    "H/OS2/pmspl.h": "d7b782d7bad528cac0f0b03c9df484c40afb466568079de91885e93982893c3a",
+    "H/OS2/pmstddlg.h": "5ac9e302ec900d9dea20d8a4d0e2eab769f0ad5d2510fcef7b22b87f94dcac6a",
+    "H/OS2/pmtypes.h": "81861f2a73f4b1ffbc4540588601eb591a90747245d0eec10d659c0a441b591b",
+    "H/OS2/pmwin.h": "81e4062ddaa818951028db80c8b644f04ac9fe42966ad04e6c0c2c592405f060",
+    "H/OS2/pmwp.h": "4bf013b62336d6e699caf72d62649714fffbbb3195996c8c82b16d9b6f4ee263",
+    "H/OS2/rexxsaa.h": "c03595d4742b98fd46b65064e6925425627324547122674c5af8e127284c77d9",
+    "H/SYS/locking.h": "b9c2e833717bd293a3d67bbdcf41d07f99a487d30f932735515c319240286e16",
+    "H/SYS/stat.h": "1674d8dca0a27820589b1b4012a195c7f4b2a065d927b99440dd93708d57ffba",
+    "H/SYS/timeb.h": "d9db30325b47fa5009a8248105a6e92af6fa7642d4f360997122cfad1f0ab253",
+    "H/SYS/types.h": "f6036edfeba77a1057d068e7a0a0fccadadfd2c4042a96955170d8d594aac813",
+    "H/SYS/utime.h": "b1c9704a25b16455ced874355d8de84556c7f63d8839fd619193038ab762e48b",
+    "H/WIN/_win386.h": "962fd846a97ab1290e51d8fe073218636ea51167e13d411871ad283ec676e93e",
+    "H/WIN/afx.h": "4d095ad76596cb3a3f6efde56ec8d264b1cfdfcab013e02e76794b6d47850812",
+    "H/WIN/afx.inl": "093d567aebc32690b8c9ce6fe62836fa75d0a57edf09e18890aa64f42b9c2725",
+    "H/WIN/afxcoll.h": "939154d7d45eb0810157fb5de3bdfdc0c36d605c4eb14ed3d30ec3c3aa751604",
+    "H/WIN/afxcoll.inl": "1a12f5462a7175d568181fd57aabf257d3e30167900fcf02ab65aff82f8bce3f",
+    "H/WIN/afxdb.h": "1916f6a111fd1474cc983f68808f70406381ae8ca3f38f097cb3fb341d50d4c4",
+    "H/WIN/afxdb.inl": "b78af4096be9e33fbcf7233207f690f77b978a2178fcdf24792dc814f0d4ac1c",
+    "H/WIN/afxdb.rc": "9323d756cbd06f0bef6195747233746d09664c662a92aea4e6d977e3b3e61189",
+    "H/WIN/afxdd_.h": "8cee3200a42d6ddc7a242a527f62c255f6042882d9f87f88ec360314531f9652",
+    "H/WIN/afxdisp.h": "6463b802f34c10b9cde00c9a538da478bfb521caa8f0dac8515cc0daf0dc2390",
+    "H/WIN/afxdlgs.h": "77518c12c9ab075e4d3860ec082ecab3292ef8924cbb31e0f6c19d4776ad826d",
+    "H/WIN/afxdlgs.inl": "d2d922bae6a08c2ea911ebdb5dc733882ae9b2aee5ccbafc62eb110cbb5a6035",
+    "H/WIN/afxdll_.h": "f5fc4c62c3c23eec36b9d39ab46ed6ed77f84be3410b9d91d30d60b84cac2b5e",
+    "H/WIN/afxdllx.h": "b34674bfdd4862ba109c771389380f7978990ce81acce8988e42e72f5a372bee",
+    "H/WIN/afxext.h": "e9de4d4b857055d2696b324e45f8c658f05870fccebe1156eae2c9333a7a261d",
+    "H/WIN/afxext.inl": "7a0b7a35aba7866dd30c79ab07352908b86feb19e96da14aeeaeebc384517509",
+    "H/WIN/afxhelp.hm": "a73049d24048a93b1fb4650e157ab1100dad09eb90cd3fa618f2db474f7d6a4d",
+    "H/WIN/afxmsg_.h": "746ae03a4f35ff11ad17fe77ffd30bac860874ce1aa8c0886a3cfee5fcb3875c",
+    "H/WIN/afxodlgs.h": "b78068983d9bcea20a9975084c8cc68e84828fbe8c50e045140c86fea5d142a8",
+    "H/WIN/afxole.h": "d7c64a100d653e7f97d9e4de0e09bc6527a022b69d281c7892eb664adbc9e398",
+    "H/WIN/afxole.inl": "c164b6a37114a9feb021838c2c236e23938a1b9f212f0539cacc63697bfc9f54",
+    "H/WIN/afxolecl.rc": "5d282f26d6440486f61474f76007cd9cf73841c411b5120a4c03619ff869b817",
+    "H/WIN/afxolesv.rc": "7b73bf465d72f9d291126df564dba60ece6ef8f0e2a5bfded2738c2fa958b88d",
+    "H/WIN/afxpen.h": "1ceee906c51f91bcd7d2a40316804347aa5cc82139ed3acd3f5663288af1a0a3",
+    "H/WIN/afxpen.inl": "5e9189324121d65332830ab56db7eeb5e45d36050393498a4bc853f605ffb360",
+    "H/WIN/afxprint.rc": "6c7ae3025ab92c25c248f23c0a92a982d445a023ae32e579c98e7dcfdad1d5d0",
+    "H/WIN/afxpriv.h": "e6917e24b16306d49424cac1400ddbe944f9ad3428789960db32a9799134d393",
+    "H/WIN/afxres.h": "4f8cce87e75632b43a582eb4f644b3cdc9c6304e2d0c5bad7cc672de2c7b0576",
+    "H/WIN/afxres.rc": "5c4cc6ffd52efe0433950311cfe3cad3f78fa3919fc1759cf3ae1fe876b2afb1",
+    "H/WIN/afxv_dll.h": "0545fa3b2921eac6790cad32eda80a6465897e49ef2d37fa4059371bf707e38e",
+    "H/WIN/afxv_dos.h": "7752247f38e3647b22e81148230eb1d9dd47231bb33dc16a5a27a6cfdd004215",
+    "H/WIN/afxver_.h": "10216623403ca9c35cb5df46a02e23a0e244616c349e7f03087e81311013c56b",
+    "H/WIN/afxwin.h": "822d522af1db3568d47057e8fbb68bed6f1cc23764d17b35f5fbf5a418015249",
+    "H/WIN/afxwin1.inl": "96a8d08b38cc520c83d9c62fdc464c2f168fc43258a0b4a4ca20817b6dc1b8ad",
+    "H/WIN/afxwin2.inl": "b01645192921b0f754611064e11af532482c0fe6702f5131a78e4e91392533a3",
+    "H/WIN/cderr.h": "f97fefe9f8874d5babfbbf9a3aa246b93d7e3d95b72b7cdfa8f2d8a9bf00726c",
+    "H/WIN/cobjps.h": "1f1b154a20a6d7cd804402e8c6ed72a7fb2982bff2207a4198e1867786825af5",
+    "H/WIN/coguid.h": "b57a879e88c980f3819cec07ef5224818e277e6d937eaeacfa6005e45244fc69",
+    "H/WIN/colordlg.h": "0034c2dfdbc686061f35db6c2a9200b6757cb6c7156c0506435556950ba69c2f",
+    "H/WIN/commdlg.h": "6867caec8b30c98e1b8315a59f804f4d79f0ed3742b0c1049de06808e896d5ec",
+    "H/WIN/compobj.h": "0c0e615c7492aee762f650dac2751b35cb0cb81e42649c334382d50f12ff17ea",
+    "H/WIN/cpl.h": "6ffebebe23f9b185cd65c4c45cb3eabde6b24d2115bc17a1c05040358940f516",
+    "H/WIN/custcntl.h": "4117da182c7cbab239ec7c7c2ac96fef89ad11aaee5c6f10b35dc4ffcdbe1db2",
+    "H/WIN/dde.h": "196a0376e853886cc8a82dff04592a38da44e9da78c8f8e712ab99b0e89fe847",
+    "H/WIN/ddeml.h": "ed92846c897b8f3b0a8d396a505d236b6032197d681e81bb64da877dd192bd8d",
+    "H/WIN/dispatch.h": "e07153a3edb526efd808a333218a56af8f33ab9f906c4a0a6a535c9bff0b729e",
+    "H/WIN/dlgs.h": "6c831457d4a35852a80121753836abc7da14b5f022c67d9bf3291a4ca7a6a9b7",
+    "H/WIN/drivinit.h": "842b8448a3440408ca5c9006e0f9ece7e953346e8c3eac3161a71c9ccdfdb3b0",
+    "H/WIN/dvobj.h": "c89882268248029759de9e70fd8785045e3d5e324ddfa13f2fa64f21bab3c946",
+    "H/WIN/help.cur": "be41abe6de0b646482573471decc73d1b7b13f3cdac562dbf96d55e1ff267bf9",
+    "H/WIN/initguid.h": "5dcb72db3a79ac1dca3f0c3306f25621d377d5608af52101e3f442beb975539f",
+    "H/WIN/lzdos.h": "a7892617924ece22be9e87001418272eb7281beb47349a9007040f70ed46e536",
+    "H/WIN/lzexpand.h": "93ca9a8afc9cf378aa7bc487985a96c3160bbdbfff2338aebf331a0dc342f89e",
+    "H/WIN/magnify.cur": "5824c6b0cead09e4074f2de55766ddcf738434fd822a54b8ce363cf475c9b107",
+    "H/WIN/mmsystem.h": "2d73cf013b2ae41fbee24736da18ed2a27db06f8b5c82a3ef98f50f80a3cfe9b",
+    "H/WIN/moniker.h": "a41276413df41c8f3b91298cc0fb9d25d910b32d65256e7f40c86c209119d607",
+    "H/WIN/move4way.cur": "620909689fbd23cf0d0b9ba8221245a022146bddf2787902002ace486d899f3a",
+    "H/WIN/nodrop.cur": "94398635ff14051fa74ecd81d9687f92b8046d890915e125e08b3262f3fd7cef",
+    "H/WIN/ole.h": "05eb140fd65b33bcf551702da41ae6ad519201ebe5af771af9655e7d4b9835ee",
+    "H/WIN/ole1cls.h": "0671df52052229824c632185a7c502737d94133a89ada48c3c99f1f3c2f5c1c3",
+    "H/WIN/ole2.h": "4f4e917adbaf75d01b10a5d97daeaa8c8a13fc4d7624d1f41e80e4bcf87131fc",
+    "H/WIN/ole2dbg.h": "98e4982d8e7d65f1d2825d7bee83af562967c3783d52c008a47887710490d28e",
+    "H/WIN/ole2ui.h": "22a3fb1d81cd8eef82e5961103f741c96eec7ce42b61413dbc4eb63892f9b17b",
+    "H/WIN/ole2ver.h": "e817d9c9adb0b1cf40b4519143d179f4a02de4fb82d954a4b46cf6d412c465bb",
+    "H/WIN/oleguid.h": "8ab2d496e4af0abbe729d81d3e9d271c91ed8d7851408d59418ba50b64d6a702",
+    "H/WIN/olenls.h": "1ec3b1e6d5d01121338403f01d214d179471973d2590e86fa8b733cdfbabc04a",
+    "H/WIN/olestd.h": "6221e63f38df8f296ab6c397567cf68e522f59f5ea6bfd251eb5bb847aa867ab",
+    "H/WIN/penwin.h": "bd31971630fef6c69951d9c11a7a5cb708f354de753d51a8b60e776109bf1419",
+    "H/WIN/penwoem.h": "1875b98fcb0f880a67ee62338c78a68738f1806cf6f3d48b1e6d58057e77be6c",
+    "H/WIN/print.h": "85d1757dbee98efa44c4fc6613f038356b05dee86d5637f9d4982cf47338a32e",
+    "H/WIN/sarrows.cur": "29ab0b2d7833c3add711187d54f8c5f888deff62f320f31f904f56b7f20ad54d",
+    "H/WIN/scode.h": "5d35fb7b0b02ebb380e1500964f560a1c2b0ecb4e7581456cbc5c9c170af5977",
+    "H/WIN/scrnsave.h": "655ce97cf26bf64a4db15d58a321db0c6ebbbfb3908386d85b5fc6457c6058f0",
+    "H/WIN/shellapi.h": "5f6af83515d5306764c91aa46a368b6b2afce7413fd0321bede3d5a841aea9d8",
+    "H/WIN/splith.cur": "badd20b7f1055e7d12cdc3769e0853de47f7a78061cce7ac859ea2936a07bbd0",
+    "H/WIN/splitv.cur": "98548d6a5a96be22b21ea39a59879a623e1876ffd35fa32a9eba6a61a05177f2",
+    "H/WIN/sql.h": "bd9ac98b5c4f097c300e475740399dc53c732f21bdf0253e7b1b1e41d6da7677",
+    "H/WIN/sqlext.h": "9cbfbb4c9ff411117281280ae0afefce52eca37a80b24cf548e177d9369a9a3a",
+    "H/WIN/storage.h": "7bd339898f8479955ee8b8e0bfc4c20701b7cf9a464f069ea5e5a8d6decde6b3",
+    "H/WIN/stress.h": "69a4c851b15da06239bac3c8b8edaec82344ff2620ae8ddb6ab5f23238f7640f",
+    "H/WIN/toolhelp.h": "03b01c09b2777ef684fbfda95076bf1d1bc569d0d3c3084dedc26f1f5c53e374",
+    "H/WIN/trck4way.cur": "79e87baa6779f7382079a423c26e923717028b08860c673fb89501c4a9dfb34c",
+    "H/WIN/trcknesw.cur": "5358e95a316aac30c986d2bcbf22769879f12396b2f8255457428711b3759824",
+    "H/WIN/trckns.cur": "b496899a03dbe010043a4620ddca6acdca7947e1426631846175b3eb33a7e8a7",
+    "H/WIN/trcknwse.cur": "8df7095e6b5d14e8decba6c501a82cadf557d3403144a826586ade7facc0fb3c",
+    "H/WIN/trckwe.cur": "66ac9c382121c8b67917433b8d57613f1ce4ac80399208d37dc6e6a809785707",
+    "H/WIN/variant.h": "d58be1a5fad1f213fcc345e4c8dc6f8f7b8984acd6d789a56ea98f887f48efc3",
+    "H/WIN/ver.h": "520ae227c109951870c4945e7f5a5c9e725f9a4fe31f5e3b41b2bde2758f5b69",
+    "H/WIN/wfext.h": "5472e92ddfa9bd7c0ad56b702a1a6c7802404c8c7444e7992f317b62d50b2865",
+    "H/WIN/win16.h": "77f14e0df853654abc8b7d75f6c0ed71b34b81761a82bedb8a58b65f2c2e5fae",
+    "H/WIN/win386.h": "3c4c3d783bbbf87774b275185473bd935d8960ec1873a623023c904ee4770136",
+    "H/WIN/windows.h": "dfcf0e626c55d53ebc6af5b7274f8ece0e0f008fa002bee80d2565a0232c2ffd",
+    "H/WIN/windowsx.h": "fe79443bb1f27f2d5a2112b94aade9d1d4382e0a773e1ddc66559947bf01388b",
+    "H/WIN/winmem32.h": "152979940fa0e0adc16d8ca6499f0d2d5631b3ae529db39f8da6a145b7db2c66",
+    "H/WIN/winres.h": "d0024d3710181ea57b579dbda32da54eadd2f4f04b1c01949c8de630aa20458b",
+    "H/assert.h": "0e01f1eb3b301911dff3a42e3e15d1deaf0964dc326305ddd35d424e9b86eaba",
+    "H/bios.h": "3c4d7d2ce1e796ce18e9d8e182f94a016082f330b2fae465713df6134ee88991",
+    "H/bios98.h": "c6c4d1bb2326f30803484cb89fd13d007478bb254551abb283be79d06bfb76ad",
+    "H/common.cnv": "82c4d0f645fc45d37a6a5a39012382f026d54a9164ad6767771b94cd3c2d6ccf",
+    "H/complex.h": "71b02f6b4dc588e2fffcbdd77e9a576c55a5fe96d3ef61b1bc835c2208d85e61",
+    "H/conio.h": "f94365acafcc36c4fb1237f5ba25c9aa2723f7d1a9e9fb8214de1ec4230b7948",
+    "H/ctype.h": "9a83ade4b66271bb4149cd1071ec0a20f536b1d9f30e0f56d56c36fe30aba2f4",
+    "H/direct.h": "011e69cb70d9c2a8731ba8b3332bad98e0019f7b40417279d3d4e66ea3c4de32",
+    "H/dos.h": "ba2f96187f557305d52f260b6f1e50d60ce87c32e8742e68a959427aa0275ee0",
+    "H/dosfunc.h": "e0818cff823f622700d84b57ce2a163cad8b69ff59dbdba85f37939cdcd93258",
+    "H/env.h": "c94e73a2fb8beeffedbbf3da0f6bf30b38e3acdd70edeeeb7697b9c16e4734c5",
+    "H/errno.h": "380a36f1051a81f74ff974efdd1f4a0d67504c451315024b7f761c86b434cf65",
+    "H/except.h": "4c3c26c36bb22196c7d622aefce575496a657a7ac015005cf0b6fd8fa1d69c67",
+    "H/fcntl.h": "dc5ae8a746c111a332245ae7abfbcb0777adb7706dcd5a97976bb18588b9c89b",
+    "H/float.h": "9c1e7ada0eddcefbc9e6f9414374dff464c09863e9d1d818480c65125aa496a6",
+    "H/fstream.h": "a4e6bd2939b3305a9ccf176ec672e508a1b5714ff86bff1e3f7f852adf5af543",
+    "H/generic.h": "735ed532c9152801307bf31f89b27b6804808f46e7c7fac5195cc99aaba30574",
+    "H/graph.h": "bb631005db869fac252067901f0137b3c3ec60d53a01ae9e70a6bf0f21c022b3",
+    "H/graph98.h": "de02fa8c14ba453d8a8778f22fec02d615d3da62ada5805d44628dc033342cdc",
+    "H/i86.h": "14f0a3daed5226486cb9f35febd5823aee9bc5c6b53794afee8486400decb2bc",
+    "H/io.h": "2fb1343cfce131234508c94a0837bc3fd5cc71488841ece1bc317ba4a5cc76d9",
+    "H/iomanip.h": "b2cc77957300e7f5f0dbaa724a96c80bc9be8277d44698a1d37056e31fd94438",
+    "H/iostream.h": "955885667ae26c248402ac2c523fd440226de7d68ac621451b40aa724f9f72a7",
+    "H/jctype.h": "4dc6fe0120e9988ffc0f61918107d9e643070cff79d98942dac434afb3bb063d",
+    "H/jstring.h": "57e6d7b8aba06767587aa52c013012899a3af43416dd58f3f91fe023b9b9c85d",
+    "H/jtime.h": "124c81110eccb8a14471421a674c2bc548d16ce5720999e8c1a61174ddbbf06c",
+    "H/limits.h": "ce4cccef410a70cb21eddb2a8aac83855ce473010c8b066f0120975dc8b0bdf7",
+    "H/locale.h": "ebab144384a548277d327164aa5e9b116188135b9c3175d6fcf6cf469e56a8cf",
+    "H/malloc.h": "d269c7807424c126231a7e2196058fd067148c4505fc29b91c0308830a941a30",
+    "H/math.h": "e6bf91eb159f681f7b2b3d3629eb4aaa94473a13690450f45cfcdeb9001bfa2d",
+    "H/mem.h": "5ca07935305d1f293897e37e399c56814c4c70175f0523d33d4b41aaec2bf82c",
+    "H/new.h": "bb7f953e5b82ffc0773f14b65c9ee733974725857c99a1fe83f1c8a330c17ac7",
+    "H/pgchart.h": "35d5ab57adf7cf07422632ee6bd71d67fe8cdd0bca4917a6e12cfda3a2d8580e",
+    "H/process.h": "f0fc51776260ac17202da43eb4d56e9e5ffcdc4f6aca28108a30b065a0ca4c0c",
+    "H/search.h": "6b7b9cdbb3336da91e9848aa2985a7c282a6eb26224c81b2e88b118d45b4907e",
+    "H/setjmp.h": "d2039415d0ea2a72012b472678ea0b1e62ba5d82bd647b2ec9989b3bf9c34f3d",
+    "H/share.h": "cca00bdddf3d5110f240b3d4e2b18a74b319e3d7df6938699143f4754fe28983",
+    "H/signal.h": "c82885ca1c80d544a05de0c654d80dfbfce24f6ceafed3a700325a801c65b3a1",
+    "H/stdarg.h": "ddc782c553543ad86ac7bdca6d4270f34ccb989871cd7c6832d8bab87df817fc",
+    "H/stddef.h": "37f11ac8b1b9ecfa30c3aa3a60eb9a8f75752f21a019d41127ed7879b8973f72",
+    "H/stdio.h": "de275400f58feb96f19a1cd313f6906d7a3c849b9c2cfcba0fd7d619c341d6d1",
+    "H/stdiobuf.h": "4b3519258f3897ae2d04ee29260d952f16e3bcb54ccfaf76fe02e4e0da808091",
+    "H/stdlib.h": "4e14c82775dd96c4cd42255c64fc81e33ef0cd9ce8ceb2853265351a4cfafd15",
+    "H/streambu.h": "5386580f2a198b099d68cf588eb50d95238b23cf3df784f4daa7cc6302a65b04",
+    "H/string.h": "7b5e9dfad7588bea54e19c87a72de5e72fcb3ff062b0b4b2f6d9652d40ef3eeb",
+    "H/string.hpp": "cec68fcdbc1bfd3d8b49fa5fe9f13303fa3e9b21a116b28331cc1618fb703963",
+    "H/strstrea.h": "1f9c1b8d8f07440bb7b34ac33e205cb4e89ac4a786df6b1ba8b923e0fa116f73",
+    "H/time.h": "2baeafdf340f6a9bf6c4f8b2482817ab0b18a5787d680bd7441b681f72cb1d16",
+    "H/unistd.h": "eaae97b116bf29c9e371027e667b751f358a71d656c9768948df7a736db158c5",
+    "H/varargs.h": "7ff9e6d71c3ec0209b3954d2351d2f7ac34787ad5e8b878b4f5af60a9321f5f0",
+    "H/wcdefs.h": "ea0839a1814467bf4204b23cbefbea913d73bb063a49b108bd083152cf8ab949",
+    "H/wcexcept.h": "6eb6d759109c136282003a3419d3119472f4032963da1407720aa69e241d20c0",
+    "H/wchash.h": "233db7cbb4b8694009f162c7f9f75fe91cbe8203b38a45ee605d3d1dfcf5ee77",
+    "H/wchbase.h": "dac5a292d5264b443c0cbfd29916b16e22cd2f86b0ea3a55f1b6a2fd619054a7",
+    "H/wchiter.h": "12f10c9d78a503f336dac8f5879bc844237c778572fe5c2d80ae17121935f279",
+    "H/wclbase.h": "57d8067a65cb847e08b193187e7201caeb5110858550303b9bea6ccbe8c0dc62",
+    "H/wclcom.h": "97c405c4266ca1ae8e4ec554377ca86032e8775716a01d47e72cbeb535c3a696",
+    "H/wclibase.h": "ae370c8990868494f087ef9a727ec6a3630f2dcb23996e167581c8293ffbdfcb",
+    "H/wclist.h": "3b0be37ede60cbf953836d5d4bf9c364e49d09d7418b822aa123504c6ed28158",
+    "H/wclistit.h": "f7ac6f9bd96f622c80f297f04c1b0ee8addda25ea616e7abf61bf001e3f5ce2b",
+    "H/wcqueue.h": "34749131399f0bd7763dd7f70ebafa53ba6ae81b5b6d1e8db6631d779da602bd",
+    "H/wcsbase.h": "a955b335b760b7ef903116b00a4ef1a2e379b94d267ea7f470d3e9a89067ca39",
+    "H/wcsibase.h": "b6d875e30feca0fa53a798861daf68d118b021128ff914bb70386a6dd220ce1d",
+    "H/wcskip.h": "73392654347c14aa563e373c1849990dacf789aecdc5fda9267ea2faab7e48b3",
+    "H/wcskipit.h": "0ffbe770c4dfac242dde6e8c751d70bcf19223c80b7084957c8af6a2cdd40792",
+    "H/wcstack.h": "6c75e1bb8f11ec71ec219a0d7f360cb776ffc0cdef23e0ff3afcb7b51744318f",
+    "H/wcvbase.h": "3b8c00de68c28d6c3155c2c4ea419ebda775f2817b4d23ed2efa9e14f2a78e51",
+    "H/wcvector.h": "0526101c7cd81ccd6540c225a8ee4350f8d3e9b578edee318b340c4dd686695c",
+    "H/wdefwin.h": "6331bec748b9b410931cb6d7960a23b8522f1cfe4a829276bd0f7cd6cc919e2a",
+    "H/wsample.h": "5c2c9de1e05fe9bebf16e02cc0ae68b348b80f5c6ca4b2cc59d09261b41753d6"
+  },
+  "inputs_sha256": {
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/evidence/mact-scriplib-source-reference.json": "652962dc93f7d81bd3614e65bba05aa3709b7ca4fbb84ffa4222a3861fabe913",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/modules/mact_scriplib.json": "831c3a73a6bc8e0412c7e18d5b0729baf57f3430aee45deaeb24d32a5325ee56",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/reference/DUKE3D.EXE": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/_scrplib.h": "4c2742538cef1803fc898fd5d1f5b90dbf32f2e0669555d7f2b548cac1bfad6d",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/linklist.h": "486e1511568358df8b8606908b2466bbf82e352c7e16272ab62c5194f45e5e80",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/scriplib.h": "c1a9a12e5812e4a7a0927007d9c6b2bce9decb0b4af25867bef77170fe12202b",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/tokenlib.h": "703a2696f9169ddaa75bcb2a5adc96eee17aa354845d38e0ce3b1423b60a147c",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/src/mact/scriplib.c": "208af8d84c2e9ad52737a7a9e15e1ed37f6c58ad674a7f876fa99d9482cdecf0",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/tools/preserve.py": "04316ed1bdec64255fee8466417ccd00f0f71588b61a3032762da3f5671332b8",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/tools/probe_mact_scriplib.py": "1c80b6f018f161cec3a1bd06e987f5a9b3727b6f4a09a29ae999afe8db19afb3",
+    "/Users/jonw/duke3d/.worktrees/startup-reader376/tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/BIN/w32run.exe": "d9028582ce7d2d7b0990d677e1947c10e0b0deaefb32d78319fbd2cea603cfcf",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/BINB/wcc386.exe": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afx.h": "a126f2194d6f35ea22bf24355245329a96833a91b8c1b5aa85b23fcadc05c799",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afx.inl": "cb774d3e9ebe63018999c85cfb6802c86cda2de55bfc2f49a864635b8279810c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxcoll.h": "26b1a67075a727eaed5d4c4543ad713e5309fa4bced35819e6225539e7d0fc0a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxcoll.inl": "04ed839c12e1c033723ce741b8a696c61bb32654aaa0cb87d7d42494c6835358",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxdd_.h": "9d36e6a0622ffaebb636e1a5112defe6380d63eab0ea0d64c709ebebd93c4882",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxdlgs.h": "dbf4405e3f802a929217b57fc9602ed4e05d97330ff18469e78130fa9256caa9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxdlgs.inl": "5777ca2f1356d0e2e351dc4812699153e45138bb39631e9a4c2c7e6ab2039efc",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxext.h": "982d64bc4f1f0f3b9e6b98b9f47932b52680b09d3b4213844c76c27e9729f11b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxext.inl": "fbcb47a61889758654bbd59d8e278c9cf89cd60682ef079ac152a10b4f184b68",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxhelp.hm": "89661ff0f44ad0ba065d44f29d8b7a08603eed2b47d37fa1c738195c532c78a7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxmsg_.h": "e629b745f9915b5896528cfe73c5262028d342ccb14ea5ef8495e63cb8b77bc8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxole.h": "b2054d883f65ba5a1390f4b5c604ebde4f91f094f8f1776830f04b7a23fe5d54",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxole.inl": "1f51072b69b5d3490946753c2f6d82d0c6793f378d2d6e95a3bd1652e332be99",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxolecl.rc": "a1fca1d15de230598751cc38732a8fdfef10783562721bd915fdfcca09c486fa",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxolesv.rc": "675c2c7a0022af24529417715902fc75916ef788362491ff0cd6cf61470745a5",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxprint.rc": "fac0112304ee78b3c51c9ef7b485dff675fda20688c7d1284551168ebc1a4959",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxpriv.h": "6ef0b7b13606f5aaa0f5e39bc1f4fa500ccacedc1a55481cd5062c746408bf53",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxres.h": "832cc990f332cc0cb7f4ef1c07401835de1b08f2a19447a43d8c73f068cf9b9f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxres.rc": "9298faa8e33824de12f4328a9183f1525bf3b98140b495141fefae0c8b55cd87",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxv_cfg.h": "97c5757d190902c72214a80237d5f20271d08466751954edeac8363463d3642c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxv_nt.h": "0bf2e27a40168f2b38ab9c2312135b88bd7a2d2b942657d126d45aa2635f5d20",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxver_.h": "080dfd734d2160e6696bd00b3728beb85bd1a2aa088d0baa6c81fce2a361b3f6",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxwin.h": "81bed9735b4db44e2013995bab0b8f7abc47da8a8cef165b6f3ecb9897a36425",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxwin1.inl": "26b1672f5877ff7191b6969fac4097199d22361b00da25ba370c9cd14d230029",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/afxwin2.inl": "d255e72f60afc305f24c0a4aabfb20d81e03de52ecc50597e09745dbf578e62f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/cderr.h": "1d62a8e0c8e239d0e0e30c2071fd49b0db1777b67d770b3e147e14e8dcae7059",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/color.dlg": "2618aa73e381ad2772e9d26a95fa9b597c3cd1dca0b4f2142b6de24afd95691d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/colordlg.h": "3ca6d45696e6a20f4a510bb20e4d62b3e000c548327fea1bbd1f83e37b4c5a20",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/commdlg.h": "c432efe809927268ee9018f6b9b6c71fdf319224ad27ae4f9d11981fc495e34e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/cpl.h": "5297e2572d827470a211904cfc0d972cdfa4f8331c77af2de614d9bf4e321ed4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/custcntl.h": "ffd1709c19ce67ce57f6909d2d409c9cc57cd7b0b4ccb60b3c31c93dd793794d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/dde.h": "444442c5f28e9e5b97c487d5bb829ab5f08a3c08e45d95cb9fad552ab15a3b8c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/ddeml.h": "136b7947c869f3578757b2ebfe791badf6aebdc5dc8ed7e7690b0f280dcb06ad",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/dlcapi.h": "fa265a4c97aaf155e18570cf695ce3a5e1ed2229c9c57f131944d47a67f2c4ba",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/dlgs.h": "e41008804db023cbb8501240a575bd20ce2b89a9439fd7afe8761f275ac74519",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/drivinit.h": "0d2c7be7aa884cf5573c122e433e8df33b647447fa6e0b2ec9e0ddbbd7f28b2e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/excpt.h": "4d6c19b659f59749846f216c1d572200d8e31979785e3fd8706119b911e7bb91",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/fileopen.dlg": "2bb487831825e5411071889c836bec04e54acbccc86a47ab35104395fc42aed3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/findtext.dlg": "c39a8e96b3537afe19b29eb7e860ebfe1b161ddf0edc0fbc95956ae0112e24a1",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/font.dlg": "f21eb664bd26125c8ad9cdb116d2724902c5e36d388f664e7ef03d062afd799b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/fpieee.h": "f1a6a93bf0da52650fd9e4bf8971104f41a85587c69942e66ca54b5553b03587",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/help.cur": "be41abe6de0b646482573471decc73d1b7b13f3cdac562dbf96d55e1ff267bf9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lm.h": "042686ffa32aa1b0fa0668c49b56865dc382cd06f6864a8f18026d142b9c23d5",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmaccess.h": "bbbb9d6c234cf5edc9115d422611f42e4dbf9142e22bb1aeca8318a1f52c8102",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmalert.h": "6ff9608c5cb4823741a3d2ef5e42203be42426e644b2ac8187390fddf34e1607",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmapibuf.h": "93c382f75e19ee381ab8bf1f8f9cf1ba0c94f6d24bf284c9ff73c6b9c408fcb3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmat.h": "8a0ee991d78095631fcefe21b0a39f26de72feb3ed8509db7cb6fc24789a8932",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmaudit.h": "fe520fee67ada1991b5834831eb2b9384da0773c57b26031d40a950017165c37",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmbrowsr.h": "226cf936e74d4f2481f38faa2a9ef413a3abdc806194682b52138e5ef3c6c7f8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmchdev.h": "e61f7b40709005e6aeab5977260e9db737aa7dd532f374a8ba59d27c69c175f7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmconfig.h": "7745c5c85bcab35a3142b074fe407d259e4e1acd4353c0a35ec9f75d3334895e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmcons.h": "792c0baa37d18eccc38cb3eb7b899d7bde28249c0c572e5d880ae06b26773cec",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmerr.h": "47a15edf0949208aa0631b70bf0da5e49f922bcd26e0f098a4570e86dc40b698",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmerrlog.h": "b9a5f1bec70ad214b884dd7487a05aaf2f14ea0a8353b20b80e8d63605028fd9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmmsg.h": "af50014c3af669e323c424e34cd24b2b75e9d60eba9a1f5317855f520640b4ba",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmremutl.h": "d082dc4c5b98ff63d21fce8a14daff29c975a560ed4a159fce39ee4bbb3b9d35",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmrepl.h": "cf8a7d36865d5e80dee81f7fde29e27c5c960b2103ac194ac6ce33cdaec7dbc8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmserver.h": "d3dfd09b44957d90f8e4f1c8159532ced392ce5c5a006f56f1e16288c8a6e334",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmshare.h": "296491fddf30bced465bd0a6238bd329790c36b67a4cf6a29c1f352d4a875671",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmsname.h": "f01363d130648536c61bf20e1d9fc5643a14ad72f889aaa97ecec8a05300e530",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmstats.h": "8b8cbd9d3d25797f87fc0160ff8646403b8fa6f4f76dfad261d7889b1701ec34",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmsvc.h": "208b234a140e5d3468556b94a447bf08640f4d137a4f6cf856991b4faa58cf86",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmuse.h": "cb15a9c72f18464a388bacdc1df3f302a8ed1e8e54c9b178ccb2a7b0983b0716",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmuseflg.h": "20c1328ff51b1407841fc5021f512f5bd667dea11fadc8ca48b1198efeb5e2a9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lmwksta.h": "4ec61ff28156e7ca5c615245217c6bd2d01bd373d6ac59dbba3bf31d28c327ef",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/lzexpand.h": "a425be116f26a76708161a4ce687ab3cd3d4aa60efae9cb818f5498a60b9c452",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/magnify.cur": "5824c6b0cead09e4074f2de55766ddcf738434fd822a54b8ce363cf475c9b107",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/mgmtapi.h": "9d6968a33bcd8bcd91ce16c96a5aa10d60a60044e92a0b606c7201195f16f91a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/mmsystem.h": "6ce1bc8d6823758542a55f0b85ddbe6cf09317340be1b4defdecd7ad0e141d96",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/nb30.h": "6df640314417de73fa966f27c2b19383b4c62446c977eef1b3e7bf557ceaebf4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/nddeapi.h": "cb5d9c587682cc013a2a61e0b2b5851823b704b0f7fef8cdc60aec2103a04cbd",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/nddesec.h": "7252cb4751c87ebdb2b00df147a374a4fed353c0df5c3023ce54ef79d562e2a0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/nodrop.cur": "94398635ff14051fa74ecd81d9687f92b8046d890915e125e08b3262f3fd7cef",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/ntimage.h": "4ca0fc548407e716683959f66cb1df135bb81baafe578b3dfc2954caf187ca17",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/ntsdexts.h": "040b2cc609c365e53d04d32946ed49c175a5983e640bdf24e66d6ad1686e42cb",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/ole.h": "d7feec5faeee0982c38b4f35176601305711a294d3a062fd6574622b213b5d30",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/prnsetup.dlg": "db4e0fe58d3f4f3fe12369bb3a27ad8095ce08d1c4bac5f7df14828a7792949e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/ras.h": "e24979f400d0499b6ded43c6c67a8874fa0db959f979615c11603690a4d7c9f9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/raserror.h": "4d5a19a263ed2852a38ad4d6ec6dc16386504c8438ca77ace9a6e266b1386229",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpc.h": "9eeb2a9c7c0ddba0a8384f3ed9d1c0fd623d2f63c7db1d091b0713681b16b945",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpcdce.h": "ac30a6c1e46c5d08dc4dd34019d3284549dea5c97477e8f79eb91c694809aad7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpcdcep.h": "3726a6f809a30f623d610026a12004b223a2c12d188cd0fe1c77a7e84f2f68aa",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpcndr.h": "483173d0147326cca80b574b2728b801b4bba688f468b8731dd4484b40682889",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpcnsi.h": "dcc0442ddb75d2ff81b7bc34859fd8c5e2d93e45251646dde039af8f2218ffc6",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpcnsip.h": "528bd2c55333204dbab9f0d2fd54b7b45a9c3fdf93ce9b3aeeff2e129a4644a9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/rpcnterr.h": "03c3e562967f7d2a050b79fe88833c2347e7aa9c73b5d9b563804092eccc163a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/sarrows.cur": "29ab0b2d7833c3add711187d54f8c5f888deff62f320f31f904f56b7f20ad54d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/scrnsave.h": "a94c59f916933a124a1be42bddfacde161536dd997c4b26a39333979e69639ce",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/shellapi.h": "771abd9841a7752235747240a68f6643e60f23ae8ea61e68137757b5d4a9ffc0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/snmp.h": "770dac72e4f949f26ad368b039167b3b02e90fdb8f405dea497e3405168175b9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/splith.cur": "badd20b7f1055e7d12cdc3769e0853de47f7a78061cce7ac859ea2936a07bbd0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/splitv.cur": "98548d6a5a96be22b21ea39a59879a623e1876ffd35fa32a9eba6a61a05177f2",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/vdmdbg.h": "262a1a69ae3dc0f14794e231427c0ad05ac82f88348801a22f00196189933aad",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/wdbgexts.h": "4ae2f2a000f0c37f24c42d67d9d2a0c4872ba37cd821c52078c11fcfc7377c81",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/wfext.h": "d024a218a4280e3d0e276694a85a3ebb1079f1a3e90ac1af8c9a85a6b67b9133",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winbase.h": "ffea0559ce491f5ba6707469eebc6a1ae8e563853440227a0700e8e9675dc3b8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/wincon.h": "7264c5db1e40afca1e29c61a891782be0782ce13b1bf3449f76239dcd50dc075",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/windef.h": "5b4f82e37f74af1da3199477231781b455b555d474612392dc5c39600882373c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/windows.h": "cec75b7a82322fbc7805c8dd1312804585b9977f51fffcfdd352ec076576aaae",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/windowsx.h": "261362fae145c81124b8ce1a5a62e2b36d6bac5a0488fa03733473d1cda6d133",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/windowsx.h16": "8d81a0e38515e68859c2998e2a0adad37bd4a47d72fcf679e5c7d1855c6e9bde",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winerror.h": "de2366d30af886c818278209a5bf442ef00f5c74719c76a343f183eec13c53f5",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/wingdi.h": "fe16e143fc0cb0453e5ce708e638543e7501d89b6cc46def9e9f80aab58cf3dc",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winioctl.h": "b2992d4870526f7ec31be3108517bc3f24be177030001f36d3cfc8c698bf9228",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winmm.h": "0d2064384a3ab0177b8cc1121ccec0f679ac1c4ff621e2ffdffca930e91b0ead",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winnetwk.h": "c26914b8b9b5e30b1f302a5501d7d13a8684f2abca47f830aa7830f4dfe65af7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winnls.h": "2a3fc767d1b153022d2f30ebade53a9ced14ab6d4661824ce40c21ebd8fe4b92",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winnt.h": "4d1c4575c443d12857b135aaeedc717ab7bbfc0551d2749461515f31ec2f34ed",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winperf.h": "99dd0d4af57307c018ddfe98920ef2db497681dbed4067d4c1b76d62b54a5f6e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winreg.h": "79e58bc98e4924cbe683b97a9b737134d06e6aee2cad8f473e34b3ae647bd871",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winres.h": "a62a33143c5158d5bc9a2871dddc78484f070f7e1594ad81da82cf6483a02ac0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winsock.h": "518112d30a66efd8e1f5291805125e3dbeea258e538d11205e90e7a039060cef",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winspool.h": "f92639c309bd0549404d5cd32240705ff124353335299184e8bac1f754eac3fe",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winsvc.h": "b841b22d0f4d7d926e0a70d6975c337b0b7a079913830ad875f38d80f15bfa89",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winuser.h": "2221a3c59c361daa68a24070c596dad2a2f5c5163664e1632bbcbe0b8993eb79",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/winver.h": "b6d2866358ce604d1373279e47b18676d0aa1cf2d496b0bb946fc591586bdd42",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/wsipx.h": "977b360b2adec7aae2a3ca0f100bdc096b68f503273381dc6e171fdef2bf4a9a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/NT/wsnwlink.h": "f00339370949db4901a26c9a15bf88a48e2f887a9a5ae05d5201ac378bd62ba4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bdcalls.h": "24bb9cedb835a06b68f2a5ffdc2fbd1fb60790c5f2c041af4a707dd01da55690",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bse.h": "a8a2048a7d47833c915feaeace060a19fcf6d5ac1f767aad6bd31148bc9a5f21",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bsedev.h": "aaeb1de053a03d085de037011069129dc5a69a56f0a9b75a8e740bea20c95497",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bsedos.h": "2ce315a897087ac558c141c384bc9fa8e5e38f5c872474c7986ee8423691e67a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bseerr.h": "7269d7510b5f371bdfc95637fbd9c8ba600dd2c5470e1c36a98f20212914ac74",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bsememf.h": "b83d905e32023c98414284996a4aaf650c7d0248eee656e9670c7efdf6b0f66a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bseord.h": "50538133c394256407e472db27f3e683ba4dca20e270742d593ffeffb6a0a01f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bsesub.h": "e8fb2bc9eea4dc05571b24a222726b7926ebc8e63fc7e99d3d9292900e7d01b7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bsetib.h": "89c31347a37de5e0ee422e40bc5361728010d7d30e04cb378340b78c167a08b8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/bsexcpt.h": "c409a6df6422a09eaf7f8e225a682f6e04167b321f37724f953a979210f6ded1",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/exe.h": "de4e736bc82e9ce9cdaaa25963cd96c2e5130f91279a70506157635166f34617",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/exe386.h": "8c57cff917642dfdacf2b2e56e46ec324dde576bf51d9f9cb26c0d47058584c4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/hmtailor.h": "4b73988ba39a52a7d290e136f8b824dee810fb33745290da79c453f3046bd9d4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/newexe.h": "64c5361fbf01c9b0fa2c11daca8242a0be5c768598401244e5e32804ee20543d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/os2.h": "9660b5e2caf148df27b6b15ee76890330d43c0b0477ce92340dc9a6eaa4afce8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/os2def.h": "34148bdd9c14e6c67ed12f698ae79de0879b45dde2413e98cee53c2cbb09e174",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/os2nls.h": "7451f855fe1923ba8514329b340984fc24399687ae23dd687feff66354d01a2b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pm.h": "ce93e74af93128208634259a893b7434396ead5b7a025a7e479fcd595b2478e8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmavio.h": "36489ca88c9cca675656d61707a99a1e7697d5044180ea53a76c42804b1a0021",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmbitmap.h": "47a5c1f4a35b062a1d11ffd6ec2278dc947babe4cc0bf0e321aaef5618af7073",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmddi.h": "0621e5cfca9acfb7f7448e39f54c0b743031de6c8fa277c5084d964a89bc7c21",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmddim.h": "7b124b20efcb305d1c1fe25cc451113834635b3425c84262f2bf45784b4708a4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmdev.h": "8bc4426395c5d1be536d52310dd254e01a8971c886ad6d477f302318f10f868f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmerr.h": "57db3cf27261f110f7b09ac4c5e3fe7dfe64fd8952ff5547dcf1382ad6d4768a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmfont.h": "eac403e8f3f388b4e127144d747ec35f1e3451e7c13666a8f847ee6a0a77260c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmgpi.h": "58d75c5675730d21e922aa9d69730b869d1e16428503ffcfd3f10b9ad6cad2b2",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmhelp.h": "a32280449fa50bde4696a39bf5482e0ab574ac63269b0708b9326795e110f913",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmmle.h": "2f38e2182dcf5a784a88677af5905a2e7d585286f77e710cb1be831b28d4de68",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmord.h": "9d58b20d70b1972441c2c4e2a1f92331a44ec6561e8e12281a179855131e5298",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmpic.h": "5a7acca8d4dc84f9ab1cbac1a00f511b020669f5c64021e2885154993caa7701",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmsei.h": "2dd435398d7a81aab3c871c579714168d7b12b10d0e3e224687d0b7eca51ce75",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmshl.h": "622e643738a914d179b87ba89a7e6e4460e9c86e5b8525edb64ea2100b18f95b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmspl.h": "d7b782d7bad528cac0f0b03c9df484c40afb466568079de91885e93982893c3a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmstddlg.h": "5ac9e302ec900d9dea20d8a4d0e2eab769f0ad5d2510fcef7b22b87f94dcac6a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmtypes.h": "81861f2a73f4b1ffbc4540588601eb591a90747245d0eec10d659c0a441b591b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmwin.h": "81e4062ddaa818951028db80c8b644f04ac9fe42966ad04e6c0c2c592405f060",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/pmwp.h": "4bf013b62336d6e699caf72d62649714fffbbb3195996c8c82b16d9b6f4ee263",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/OS2/rexxsaa.h": "c03595d4742b98fd46b65064e6925425627324547122674c5af8e127284c77d9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/SYS/locking.h": "b9c2e833717bd293a3d67bbdcf41d07f99a487d30f932735515c319240286e16",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/SYS/stat.h": "1674d8dca0a27820589b1b4012a195c7f4b2a065d927b99440dd93708d57ffba",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/SYS/timeb.h": "d9db30325b47fa5009a8248105a6e92af6fa7642d4f360997122cfad1f0ab253",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/SYS/types.h": "f6036edfeba77a1057d068e7a0a0fccadadfd2c4042a96955170d8d594aac813",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/SYS/utime.h": "b1c9704a25b16455ced874355d8de84556c7f63d8839fd619193038ab762e48b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/_win386.h": "962fd846a97ab1290e51d8fe073218636ea51167e13d411871ad283ec676e93e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afx.h": "4d095ad76596cb3a3f6efde56ec8d264b1cfdfcab013e02e76794b6d47850812",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afx.inl": "093d567aebc32690b8c9ce6fe62836fa75d0a57edf09e18890aa64f42b9c2725",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxcoll.h": "939154d7d45eb0810157fb5de3bdfdc0c36d605c4eb14ed3d30ec3c3aa751604",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxcoll.inl": "1a12f5462a7175d568181fd57aabf257d3e30167900fcf02ab65aff82f8bce3f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdb.h": "1916f6a111fd1474cc983f68808f70406381ae8ca3f38f097cb3fb341d50d4c4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdb.inl": "b78af4096be9e33fbcf7233207f690f77b978a2178fcdf24792dc814f0d4ac1c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdb.rc": "9323d756cbd06f0bef6195747233746d09664c662a92aea4e6d977e3b3e61189",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdd_.h": "8cee3200a42d6ddc7a242a527f62c255f6042882d9f87f88ec360314531f9652",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdisp.h": "6463b802f34c10b9cde00c9a538da478bfb521caa8f0dac8515cc0daf0dc2390",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdlgs.h": "77518c12c9ab075e4d3860ec082ecab3292ef8924cbb31e0f6c19d4776ad826d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdlgs.inl": "d2d922bae6a08c2ea911ebdb5dc733882ae9b2aee5ccbafc62eb110cbb5a6035",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdll_.h": "f5fc4c62c3c23eec36b9d39ab46ed6ed77f84be3410b9d91d30d60b84cac2b5e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxdllx.h": "b34674bfdd4862ba109c771389380f7978990ce81acce8988e42e72f5a372bee",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxext.h": "e9de4d4b857055d2696b324e45f8c658f05870fccebe1156eae2c9333a7a261d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxext.inl": "7a0b7a35aba7866dd30c79ab07352908b86feb19e96da14aeeaeebc384517509",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxhelp.hm": "a73049d24048a93b1fb4650e157ab1100dad09eb90cd3fa618f2db474f7d6a4d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxmsg_.h": "746ae03a4f35ff11ad17fe77ffd30bac860874ce1aa8c0886a3cfee5fcb3875c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxodlgs.h": "b78068983d9bcea20a9975084c8cc68e84828fbe8c50e045140c86fea5d142a8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxole.h": "d7c64a100d653e7f97d9e4de0e09bc6527a022b69d281c7892eb664adbc9e398",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxole.inl": "c164b6a37114a9feb021838c2c236e23938a1b9f212f0539cacc63697bfc9f54",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxolecl.rc": "5d282f26d6440486f61474f76007cd9cf73841c411b5120a4c03619ff869b817",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxolesv.rc": "7b73bf465d72f9d291126df564dba60ece6ef8f0e2a5bfded2738c2fa958b88d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxpen.h": "1ceee906c51f91bcd7d2a40316804347aa5cc82139ed3acd3f5663288af1a0a3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxpen.inl": "5e9189324121d65332830ab56db7eeb5e45d36050393498a4bc853f605ffb360",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxprint.rc": "6c7ae3025ab92c25c248f23c0a92a982d445a023ae32e579c98e7dcfdad1d5d0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxpriv.h": "e6917e24b16306d49424cac1400ddbe944f9ad3428789960db32a9799134d393",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxres.h": "4f8cce87e75632b43a582eb4f644b3cdc9c6304e2d0c5bad7cc672de2c7b0576",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxres.rc": "5c4cc6ffd52efe0433950311cfe3cad3f78fa3919fc1759cf3ae1fe876b2afb1",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxv_dll.h": "0545fa3b2921eac6790cad32eda80a6465897e49ef2d37fa4059371bf707e38e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxv_dos.h": "7752247f38e3647b22e81148230eb1d9dd47231bb33dc16a5a27a6cfdd004215",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxver_.h": "10216623403ca9c35cb5df46a02e23a0e244616c349e7f03087e81311013c56b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxwin.h": "822d522af1db3568d47057e8fbb68bed6f1cc23764d17b35f5fbf5a418015249",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxwin1.inl": "96a8d08b38cc520c83d9c62fdc464c2f168fc43258a0b4a4ca20817b6dc1b8ad",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/afxwin2.inl": "b01645192921b0f754611064e11af532482c0fe6702f5131a78e4e91392533a3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/cderr.h": "f97fefe9f8874d5babfbbf9a3aa246b93d7e3d95b72b7cdfa8f2d8a9bf00726c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/cobjps.h": "1f1b154a20a6d7cd804402e8c6ed72a7fb2982bff2207a4198e1867786825af5",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/coguid.h": "b57a879e88c980f3819cec07ef5224818e277e6d937eaeacfa6005e45244fc69",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/colordlg.h": "0034c2dfdbc686061f35db6c2a9200b6757cb6c7156c0506435556950ba69c2f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/commdlg.h": "6867caec8b30c98e1b8315a59f804f4d79f0ed3742b0c1049de06808e896d5ec",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/compobj.h": "0c0e615c7492aee762f650dac2751b35cb0cb81e42649c334382d50f12ff17ea",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/cpl.h": "6ffebebe23f9b185cd65c4c45cb3eabde6b24d2115bc17a1c05040358940f516",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/custcntl.h": "4117da182c7cbab239ec7c7c2ac96fef89ad11aaee5c6f10b35dc4ffcdbe1db2",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/dde.h": "196a0376e853886cc8a82dff04592a38da44e9da78c8f8e712ab99b0e89fe847",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ddeml.h": "ed92846c897b8f3b0a8d396a505d236b6032197d681e81bb64da877dd192bd8d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/dispatch.h": "e07153a3edb526efd808a333218a56af8f33ab9f906c4a0a6a535c9bff0b729e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/dlgs.h": "6c831457d4a35852a80121753836abc7da14b5f022c67d9bf3291a4ca7a6a9b7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/drivinit.h": "842b8448a3440408ca5c9006e0f9ece7e953346e8c3eac3161a71c9ccdfdb3b0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/dvobj.h": "c89882268248029759de9e70fd8785045e3d5e324ddfa13f2fa64f21bab3c946",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/help.cur": "be41abe6de0b646482573471decc73d1b7b13f3cdac562dbf96d55e1ff267bf9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/initguid.h": "5dcb72db3a79ac1dca3f0c3306f25621d377d5608af52101e3f442beb975539f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/lzdos.h": "a7892617924ece22be9e87001418272eb7281beb47349a9007040f70ed46e536",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/lzexpand.h": "93ca9a8afc9cf378aa7bc487985a96c3160bbdbfff2338aebf331a0dc342f89e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/magnify.cur": "5824c6b0cead09e4074f2de55766ddcf738434fd822a54b8ce363cf475c9b107",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/mmsystem.h": "2d73cf013b2ae41fbee24736da18ed2a27db06f8b5c82a3ef98f50f80a3cfe9b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/moniker.h": "a41276413df41c8f3b91298cc0fb9d25d910b32d65256e7f40c86c209119d607",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/move4way.cur": "620909689fbd23cf0d0b9ba8221245a022146bddf2787902002ace486d899f3a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/nodrop.cur": "94398635ff14051fa74ecd81d9687f92b8046d890915e125e08b3262f3fd7cef",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ole.h": "05eb140fd65b33bcf551702da41ae6ad519201ebe5af771af9655e7d4b9835ee",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ole1cls.h": "0671df52052229824c632185a7c502737d94133a89ada48c3c99f1f3c2f5c1c3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ole2.h": "4f4e917adbaf75d01b10a5d97daeaa8c8a13fc4d7624d1f41e80e4bcf87131fc",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ole2dbg.h": "98e4982d8e7d65f1d2825d7bee83af562967c3783d52c008a47887710490d28e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ole2ui.h": "22a3fb1d81cd8eef82e5961103f741c96eec7ce42b61413dbc4eb63892f9b17b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ole2ver.h": "e817d9c9adb0b1cf40b4519143d179f4a02de4fb82d954a4b46cf6d412c465bb",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/oleguid.h": "8ab2d496e4af0abbe729d81d3e9d271c91ed8d7851408d59418ba50b64d6a702",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/olenls.h": "1ec3b1e6d5d01121338403f01d214d179471973d2590e86fa8b733cdfbabc04a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/olestd.h": "6221e63f38df8f296ab6c397567cf68e522f59f5ea6bfd251eb5bb847aa867ab",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/penwin.h": "bd31971630fef6c69951d9c11a7a5cb708f354de753d51a8b60e776109bf1419",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/penwoem.h": "1875b98fcb0f880a67ee62338c78a68738f1806cf6f3d48b1e6d58057e77be6c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/print.h": "85d1757dbee98efa44c4fc6613f038356b05dee86d5637f9d4982cf47338a32e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/sarrows.cur": "29ab0b2d7833c3add711187d54f8c5f888deff62f320f31f904f56b7f20ad54d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/scode.h": "5d35fb7b0b02ebb380e1500964f560a1c2b0ecb4e7581456cbc5c9c170af5977",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/scrnsave.h": "655ce97cf26bf64a4db15d58a321db0c6ebbbfb3908386d85b5fc6457c6058f0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/shellapi.h": "5f6af83515d5306764c91aa46a368b6b2afce7413fd0321bede3d5a841aea9d8",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/splith.cur": "badd20b7f1055e7d12cdc3769e0853de47f7a78061cce7ac859ea2936a07bbd0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/splitv.cur": "98548d6a5a96be22b21ea39a59879a623e1876ffd35fa32a9eba6a61a05177f2",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/sql.h": "bd9ac98b5c4f097c300e475740399dc53c732f21bdf0253e7b1b1e41d6da7677",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/sqlext.h": "9cbfbb4c9ff411117281280ae0afefce52eca37a80b24cf548e177d9369a9a3a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/storage.h": "7bd339898f8479955ee8b8e0bfc4c20701b7cf9a464f069ea5e5a8d6decde6b3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/stress.h": "69a4c851b15da06239bac3c8b8edaec82344ff2620ae8ddb6ab5f23238f7640f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/toolhelp.h": "03b01c09b2777ef684fbfda95076bf1d1bc569d0d3c3084dedc26f1f5c53e374",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/trck4way.cur": "79e87baa6779f7382079a423c26e923717028b08860c673fb89501c4a9dfb34c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/trcknesw.cur": "5358e95a316aac30c986d2bcbf22769879f12396b2f8255457428711b3759824",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/trckns.cur": "b496899a03dbe010043a4620ddca6acdca7947e1426631846175b3eb33a7e8a7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/trcknwse.cur": "8df7095e6b5d14e8decba6c501a82cadf557d3403144a826586ade7facc0fb3c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/trckwe.cur": "66ac9c382121c8b67917433b8d57613f1ce4ac80399208d37dc6e6a809785707",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/variant.h": "d58be1a5fad1f213fcc345e4c8dc6f8f7b8984acd6d789a56ea98f887f48efc3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/ver.h": "520ae227c109951870c4945e7f5a5c9e725f9a4fe31f5e3b41b2bde2758f5b69",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/wfext.h": "5472e92ddfa9bd7c0ad56b702a1a6c7802404c8c7444e7992f317b62d50b2865",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/win16.h": "77f14e0df853654abc8b7d75f6c0ed71b34b81761a82bedb8a58b65f2c2e5fae",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/win386.h": "3c4c3d783bbbf87774b275185473bd935d8960ec1873a623023c904ee4770136",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/windows.h": "dfcf0e626c55d53ebc6af5b7274f8ece0e0f008fa002bee80d2565a0232c2ffd",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/windowsx.h": "fe79443bb1f27f2d5a2112b94aade9d1d4382e0a773e1ddc66559947bf01388b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/winmem32.h": "152979940fa0e0adc16d8ca6499f0d2d5631b3ae529db39f8da6a145b7db2c66",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/WIN/winres.h": "d0024d3710181ea57b579dbda32da54eadd2f4f04b1c01949c8de630aa20458b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/assert.h": "0e01f1eb3b301911dff3a42e3e15d1deaf0964dc326305ddd35d424e9b86eaba",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/bios.h": "3c4d7d2ce1e796ce18e9d8e182f94a016082f330b2fae465713df6134ee88991",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/bios98.h": "c6c4d1bb2326f30803484cb89fd13d007478bb254551abb283be79d06bfb76ad",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/common.cnv": "82c4d0f645fc45d37a6a5a39012382f026d54a9164ad6767771b94cd3c2d6ccf",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/complex.h": "71b02f6b4dc588e2fffcbdd77e9a576c55a5fe96d3ef61b1bc835c2208d85e61",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/conio.h": "f94365acafcc36c4fb1237f5ba25c9aa2723f7d1a9e9fb8214de1ec4230b7948",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/ctype.h": "9a83ade4b66271bb4149cd1071ec0a20f536b1d9f30e0f56d56c36fe30aba2f4",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/direct.h": "011e69cb70d9c2a8731ba8b3332bad98e0019f7b40417279d3d4e66ea3c4de32",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/dos.h": "ba2f96187f557305d52f260b6f1e50d60ce87c32e8742e68a959427aa0275ee0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/dosfunc.h": "e0818cff823f622700d84b57ce2a163cad8b69ff59dbdba85f37939cdcd93258",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/env.h": "c94e73a2fb8beeffedbbf3da0f6bf30b38e3acdd70edeeeb7697b9c16e4734c5",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/errno.h": "380a36f1051a81f74ff974efdd1f4a0d67504c451315024b7f761c86b434cf65",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/except.h": "4c3c26c36bb22196c7d622aefce575496a657a7ac015005cf0b6fd8fa1d69c67",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/fcntl.h": "dc5ae8a746c111a332245ae7abfbcb0777adb7706dcd5a97976bb18588b9c89b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/float.h": "9c1e7ada0eddcefbc9e6f9414374dff464c09863e9d1d818480c65125aa496a6",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/fstream.h": "a4e6bd2939b3305a9ccf176ec672e508a1b5714ff86bff1e3f7f852adf5af543",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/generic.h": "735ed532c9152801307bf31f89b27b6804808f46e7c7fac5195cc99aaba30574",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/graph.h": "bb631005db869fac252067901f0137b3c3ec60d53a01ae9e70a6bf0f21c022b3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/graph98.h": "de02fa8c14ba453d8a8778f22fec02d615d3da62ada5805d44628dc033342cdc",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/i86.h": "14f0a3daed5226486cb9f35febd5823aee9bc5c6b53794afee8486400decb2bc",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/io.h": "2fb1343cfce131234508c94a0837bc3fd5cc71488841ece1bc317ba4a5cc76d9",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/iomanip.h": "b2cc77957300e7f5f0dbaa724a96c80bc9be8277d44698a1d37056e31fd94438",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/iostream.h": "955885667ae26c248402ac2c523fd440226de7d68ac621451b40aa724f9f72a7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/jctype.h": "4dc6fe0120e9988ffc0f61918107d9e643070cff79d98942dac434afb3bb063d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/jstring.h": "57e6d7b8aba06767587aa52c013012899a3af43416dd58f3f91fe023b9b9c85d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/jtime.h": "124c81110eccb8a14471421a674c2bc548d16ce5720999e8c1a61174ddbbf06c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/limits.h": "ce4cccef410a70cb21eddb2a8aac83855ce473010c8b066f0120975dc8b0bdf7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/locale.h": "ebab144384a548277d327164aa5e9b116188135b9c3175d6fcf6cf469e56a8cf",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/malloc.h": "d269c7807424c126231a7e2196058fd067148c4505fc29b91c0308830a941a30",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/math.h": "e6bf91eb159f681f7b2b3d3629eb4aaa94473a13690450f45cfcdeb9001bfa2d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/mem.h": "5ca07935305d1f293897e37e399c56814c4c70175f0523d33d4b41aaec2bf82c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/new.h": "bb7f953e5b82ffc0773f14b65c9ee733974725857c99a1fe83f1c8a330c17ac7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/pgchart.h": "35d5ab57adf7cf07422632ee6bd71d67fe8cdd0bca4917a6e12cfda3a2d8580e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/process.h": "f0fc51776260ac17202da43eb4d56e9e5ffcdc4f6aca28108a30b065a0ca4c0c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/search.h": "6b7b9cdbb3336da91e9848aa2985a7c282a6eb26224c81b2e88b118d45b4907e",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/setjmp.h": "d2039415d0ea2a72012b472678ea0b1e62ba5d82bd647b2ec9989b3bf9c34f3d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/share.h": "cca00bdddf3d5110f240b3d4e2b18a74b319e3d7df6938699143f4754fe28983",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/signal.h": "c82885ca1c80d544a05de0c654d80dfbfce24f6ceafed3a700325a801c65b3a1",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/stdarg.h": "ddc782c553543ad86ac7bdca6d4270f34ccb989871cd7c6832d8bab87df817fc",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/stddef.h": "37f11ac8b1b9ecfa30c3aa3a60eb9a8f75752f21a019d41127ed7879b8973f72",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/stdio.h": "de275400f58feb96f19a1cd313f6906d7a3c849b9c2cfcba0fd7d619c341d6d1",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/stdiobuf.h": "4b3519258f3897ae2d04ee29260d952f16e3bcb54ccfaf76fe02e4e0da808091",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/stdlib.h": "4e14c82775dd96c4cd42255c64fc81e33ef0cd9ce8ceb2853265351a4cfafd15",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/streambu.h": "5386580f2a198b099d68cf588eb50d95238b23cf3df784f4daa7cc6302a65b04",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/string.h": "7b5e9dfad7588bea54e19c87a72de5e72fcb3ff062b0b4b2f6d9652d40ef3eeb",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/string.hpp": "cec68fcdbc1bfd3d8b49fa5fe9f13303fa3e9b21a116b28331cc1618fb703963",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/strstrea.h": "1f9c1b8d8f07440bb7b34ac33e205cb4e89ac4a786df6b1ba8b923e0fa116f73",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/time.h": "2baeafdf340f6a9bf6c4f8b2482817ab0b18a5787d680bd7441b681f72cb1d16",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/unistd.h": "eaae97b116bf29c9e371027e667b751f358a71d656c9768948df7a736db158c5",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/varargs.h": "7ff9e6d71c3ec0209b3954d2351d2f7ac34787ad5e8b878b4f5af60a9321f5f0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcdefs.h": "ea0839a1814467bf4204b23cbefbea913d73bb063a49b108bd083152cf8ab949",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcexcept.h": "6eb6d759109c136282003a3419d3119472f4032963da1407720aa69e241d20c0",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wchash.h": "233db7cbb4b8694009f162c7f9f75fe91cbe8203b38a45ee605d3d1dfcf5ee77",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wchbase.h": "dac5a292d5264b443c0cbfd29916b16e22cd2f86b0ea3a55f1b6a2fd619054a7",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wchiter.h": "12f10c9d78a503f336dac8f5879bc844237c778572fe5c2d80ae17121935f279",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wclbase.h": "57d8067a65cb847e08b193187e7201caeb5110858550303b9bea6ccbe8c0dc62",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wclcom.h": "97c405c4266ca1ae8e4ec554377ca86032e8775716a01d47e72cbeb535c3a696",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wclibase.h": "ae370c8990868494f087ef9a727ec6a3630f2dcb23996e167581c8293ffbdfcb",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wclist.h": "3b0be37ede60cbf953836d5d4bf9c364e49d09d7418b822aa123504c6ed28158",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wclistit.h": "f7ac6f9bd96f622c80f297f04c1b0ee8addda25ea616e7abf61bf001e3f5ce2b",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcqueue.h": "34749131399f0bd7763dd7f70ebafa53ba6ae81b5b6d1e8db6631d779da602bd",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcsbase.h": "a955b335b760b7ef903116b00a4ef1a2e379b94d267ea7f470d3e9a89067ca39",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcsibase.h": "b6d875e30feca0fa53a798861daf68d118b021128ff914bb70386a6dd220ce1d",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcskip.h": "73392654347c14aa563e373c1849990dacf789aecdc5fda9267ea2faab7e48b3",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcskipit.h": "0ffbe770c4dfac242dde6e8c751d70bcf19223c80b7084957c8af6a2cdd40792",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcstack.h": "6c75e1bb8f11ec71ec219a0d7f360cb776ffc0cdef23e0ff3afcb7b51744318f",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcvbase.h": "3b8c00de68c28d6c3155c2c4ea419ebda775f2817b4d23ed2efa9e14f2a78e51",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wcvector.h": "0526101c7cd81ccd6540c225a8ee4350f8d3e9b578edee318b340c4dd686695c",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wdefwin.h": "6331bec748b9b410931cb6d7960a23b8522f1cfe4a829276bd0f7cd6cc919e2a",
+    "/Users/jonw/duke3d/toolchains/watcom-10.0-ga/H/wsample.h": "5c2c9de1e05fe9bebf16e02cc0ae68b348b80f5c6ca4b2cc59d09261b41753d6",
+    "/opt/homebrew/Cellar/dosbox-x/2026.10.01/bin/dosbox-x": "e1a2c458b0e717403b4bb639e430c0abe69a939bcc96bf4e63114fdc7504e1d7",
+    "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/bin/python3.14": "87d4df53fd91304be5bac391fb204643c36b7df2023c04a0953bcbc7d4fdf634"
+  },
+  "independent_CODE_anchor": {
+    "symbol": "SCRIPT_Load_",
+    "location": [
+      1,
+      560604
+    ],
+    "caller": "CONFIG",
+    "caller_source": "src/game/config.c",
+    "caller_source_sha256": "1791fb759b339136bac540664f4481312df7b05324fffc32d27d2cf21731299d",
+    "caller_native_code_base": 287168,
+    "caller_relative_field_offset": 3008,
+    "native_object": 1,
+    "native_relative_field": 290176,
+    "method": "accepted complete source CONFIG typed call; replay raw E8 rel32 projection from unchanged target, independent of SCRIPLIB infer_bindings",
+    "accepted_caller_descriptor_sha256": "e73f27171c50069c85fe300c5c196e186c828e15c3d2b5434e7d3e2bae61ea27",
+    "accepted_caller_receipt_sha256": "2c9898ac4dcbc378e7b8f37c701757004f9fe208bcaf044f4c6e773c1e011bfb",
+    "witness_limit": "Immutable accepted source receipt at this checkpoint, not a recursive dependency on current mutable caller evidence; raw fixed call projection is replayed.",
+    "verified": true
+  },
+  "import_roles": {
+    "memset_": [
+      1,
+      588144
+    ],
+    "SafeMalloc_": [
+      1,
+      556180
+    ],
+    "Error_": [
+      1,
+      555340
+    ],
+    "SafeFree_": [
+      1,
+      556260
+    ],
+    "TOKEN_Parse_": [
+      1,
+      559652
+    ],
+    "TOKEN_Reset_": [
+      1,
+      557772
+    ],
+    "TOKEN_CommentAvailable_": [
+      1,
+      558420
+    ],
+    "_token": [
+      3,
+      1864048
+    ],
+    "TOKEN_GetRaw_": [
+      1,
+      558960
+    ],
+    "TOKEN_Free_": [
+      1,
+      559588
+    ],
+    "SafeFileExists_": [
+      1,
+      569580
+    ],
+    "LoadFile_": [
+      1,
+      569832
+    ],
+    "SafeWrite_": [
+      1,
+      569720
+    ],
+    "SafeOpenWrite_": [
+      1,
+      569296
+    ],
+    "sprintf_": [
+      1,
+      583257
+    ],
+    "SafeClose_": [
+      1,
+      569484
+    ],
+    "strcmpi_": [
+      1,
+      588168
+    ],
+    "sscanf_": [
+      1,
+      590988
+    ],
+    "vsprintf_": [
+      1,
+      591063
+    ]
+  },
+  "callee_identity_limit": "All19 imports are fixed named roles from original native metadata and complete typed-fixup projection. This is not independent whole-source proof of missing TOKEN/other callees, library selection, or final link ABI. Retained unused float imports/default libraries are not pruned.",
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 5616,
+    "zero_fill_bytes": 80,
+    "verified_fixups": 225,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 559840,
+        "compared_bytes": 4201,
+        "verified_fixups": 225,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 24076,
+        "compared_bytes": 1411,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 68300,
+        "compared_bytes": 4,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 1864176,
+        "compared_bytes": 80,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "SCRIPT_Load_": [
+        1,
+        560604
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "SafeFree_": [
+        1,
+        556260
+      ],
+      "TOKEN_Parse_": [
+        1,
+        559652
+      ],
+      "TOKEN_Reset_": [
+        1,
+        557772
+      ],
+      "TOKEN_CommentAvailable_": [
+        1,
+        558420
+      ],
+      "_token": [
+        3,
+        1864048
+      ],
+      "TOKEN_GetRaw_": [
+        1,
+        558960
+      ],
+      "TOKEN_Free_": [
+        1,
+        559588
+      ],
+      "SafeFileExists_": [
+        1,
+        569580
+      ],
+      "LoadFile_": [
+        1,
+        569832
+      ],
+      "SafeWrite_": [
+        1,
+        569720
+      ],
+      "SafeOpenWrite_": [
+        1,
+        569296
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "SafeClose_": [
+        1,
+        569484
+      ],
+      "strcmpi_": [
+        1,
+        588168
+      ],
+      "sscanf_": [
+        1,
+        590988
+      ],
+      "vsprintf_": [
+        1,
+        591063
+      ],
+      "SCRIPT_HandleValid_": [
+        1,
+        559840
+      ],
+      "SCRIPT_New_": [
+        1,
+        559860
+      ],
+      "SCRIPT_Delete_": [
+        1,
+        559972
+      ],
+      "SCRIPT_Init_": [
+        1,
+        560032
+      ],
+      "SCRIPT_FreeSection_": [
+        1,
+        560192
+      ],
+      "SCRIPT_Free_": [
+        1,
+        560292
+      ],
+      "SCRIPT_Parse_": [
+        1,
+        560512
+      ],
+      "SafeWriteString_": [
+        1,
+        560668
+      ],
+      "SCRIPT_Save_": [
+        1,
+        560700
+      ],
+      "SCRIPT_AddLine_": [
+        1,
+        560952
+      ],
+      "SCRIPT_SectionExists_": [
+        1,
+        560988
+      ],
+      "SCRIPT_AddSection_": [
+        1,
+        561080
+      ],
+      "SCRIPT_PutSection_": [
+        1,
+        561080
+      ],
+      "SCRIPT_EntryExists_": [
+        1,
+        561360
+      ],
+      "SCRIPT_AddEntry_": [
+        1,
+        561412
+      ],
+      "SCRIPT_PutRaw_": [
+        1,
+        561412
+      ],
+      "SCRIPT_DecodeToken_": [
+        1,
+        561824
+      ],
+      "SCRIPT_NumberSections_": [
+        1,
+        562244
+      ],
+      "SCRIPT_Section_": [
+        1,
+        562320
+      ],
+      "SCRIPT_NumberEntries_": [
+        1,
+        562440
+      ],
+      "SCRIPT_Entry_": [
+        1,
+        562516
+      ],
+      "SCRIPT_GetRaw_": [
+        1,
+        562632
+      ],
+      "SCRIPT_GetString_": [
+        1,
+        562736
+      ],
+      "SCRIPT_GetDoubleString_": [
+        1,
+        562888
+      ],
+      "SCRIPT_GetNumber_": [
+        1,
+        563176
+      ],
+      "SCRIPT_GetBoolean_": [
+        1,
+        563280
+      ],
+      "SCRIPT_GetDouble_": [
+        1,
+        563372
+      ],
+      "SCRIPT_PutComment_": [
+        1,
+        563440
+      ],
+      "SCRIPT_PutEOL_": [
+        1,
+        563612
+      ],
+      "SCRIPT_PutMultiComment_": [
+        1,
+        563628
+      ],
+      "SCRIPT_PutString_": [
+        1,
+        563712
+      ],
+      "SCRIPT_PutDoubleString_": [
+        1,
+        563756
+      ],
+      "SCRIPT_PutNumber_": [
+        1,
+        563812
+      ],
+      "SCRIPT_PutBoolean_": [
+        1,
+        563904
+      ],
+      "SCRIPT_PutDouble_": [
+        1,
+        563956
+      ],
+      "_scriptfiles": [
+        3,
+        1864176
+      ],
+      "_scriptlibrarycalled": [
+        3,
+        68300
+      ]
+    },
+    "local_symbols": {
+      "_scriptfiles": [
+        3,
+        1864176
+      ],
+      "_scriptlibrarycalled": [
+        3,
+        68300
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "placements": {
+    "1": [
+      1,
+      559840
+    ],
+    "5": [
+      3,
+      1864176
+    ],
+    "4": [
+      3,
+      68300
+    ],
+    "2": [
+      3,
+      24076
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 3,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 24,
+      "symbol": "_scriptlibrarycalled",
+      "value": [
+        3,
+        68300
+      ]
+    },
+    {
+      "source_offset": 38,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 44,
+      "symbol": "_scriptlibrarycalled",
+      "value": [
+        3,
+        68300
+      ]
+    },
+    {
+      "source_offset": 54,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 64,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 85,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 91,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 110,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 115,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 139,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 155,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 160,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 170,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 177,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 184,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 198,
+      "symbol": "SCRIPT_New_",
+      "value": [
+        1,
+        559860
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 217,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 226,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 238,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 253,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 260,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 270,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 283,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 296,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 310,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 376,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 384,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 414,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 427,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 434,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 463,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 479,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 484,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 500,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 511,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 527,
+      "symbol": "SCRIPT_FreeSection_",
+      "value": [
+        1,
+        560192
+      ]
+    },
+    {
+      "source_offset": 555,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 576,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 599,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 632,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 641,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 647,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 654,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 661,
+      "symbol": "SCRIPT_Delete_",
+      "value": [
+        1,
+        559972
+      ]
+    },
+    {
+      "source_offset": 677,
+      "symbol": "TOKEN_Parse_",
+      "value": [
+        1,
+        559652
+      ]
+    },
+    {
+      "source_offset": 688,
+      "symbol": "SCRIPT_Init_",
+      "value": [
+        1,
+        560032
+      ]
+    },
+    {
+      "source_offset": 699,
+      "symbol": "TOKEN_Reset_",
+      "value": [
+        1,
+        557772
+      ]
+    },
+    {
+      "source_offset": 711,
+      "symbol": "TOKEN_CommentAvailable_",
+      "value": [
+        1,
+        558420
+      ]
+    },
+    {
+      "source_offset": 729,
+      "symbol": "_token",
+      "value": [
+        3,
+        1864048
+      ]
+    },
+    {
+      "source_offset": 734,
+      "symbol": "TOKEN_GetRaw_",
+      "value": [
+        1,
+        558960
+      ]
+    },
+    {
+      "source_offset": 741,
+      "symbol": "SCRIPT_DecodeToken_",
+      "value": [
+        1,
+        561824
+      ]
+    },
+    {
+      "source_offset": 752,
+      "symbol": "TOKEN_Free_",
+      "value": [
+        1,
+        559588
+      ]
+    },
+    {
+      "source_offset": 772,
+      "symbol": "SafeFileExists_",
+      "value": [
+        1,
+        569580
+      ]
+    },
+    {
+      "source_offset": 785,
+      "symbol": "LoadFile_",
+      "value": [
+        1,
+        569832
+      ]
+    },
+    {
+      "source_offset": 795,
+      "symbol": "SCRIPT_Parse_",
+      "value": [
+        1,
+        560512
+      ]
+    },
+    {
+      "source_offset": 805,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 814,
+      "symbol": "SCRIPT_Init_",
+      "value": [
+        1,
+        560032
+      ]
+    },
+    {
+      "source_offset": 851,
+      "symbol": "SafeWrite_",
+      "value": [
+        1,
+        569720
+      ]
+    },
+    {
+      "source_offset": 878,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 894,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 899,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 914,
+      "symbol": "SafeOpenWrite_",
+      "value": [
+        1,
+        569296
+      ]
+    },
+    {
+      "source_offset": 925,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 951,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 993,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 1003,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1025,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 1046,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 1056,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 1082,
+      "symbol": "SafeWrite_",
+      "value": [
+        1,
+        569720
+      ]
+    },
+    {
+      "source_offset": 1094,
+      "symbol": "SafeClose_",
+      "value": [
+        1,
+        569484
+      ]
+    },
+    {
+      "source_offset": 1121,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1158,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1174,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 1179,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 1195,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1206,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1219,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 1255,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1271,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 1276,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 1288,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 1306,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1324,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1338,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1355,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1372,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1399,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1428,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1441,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1478,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1496,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 1503,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1542,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 1593,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 1609,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 1614,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 1626,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 1641,
+      "symbol": "SCRIPT_AddSection_",
+      "value": [
+        1,
+        561080
+      ]
+    },
+    {
+      "source_offset": 1650,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 1677,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 1720,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1789,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 1840,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1874,
+      "symbol": "SafeFree_",
+      "value": [
+        1,
+        556260
+      ]
+    },
+    {
+      "source_offset": 1900,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 1943,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 2028,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2038,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2043,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2066,
+      "symbol": "SCRIPT_AddSection_",
+      "value": [
+        1,
+        561080
+      ]
+    },
+    {
+      "source_offset": 2114,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 2126,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 2157,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2187,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 2217,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2309,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2324,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2329,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2376,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2388,
+      "symbol": "SCRIPT_AddEntry_",
+      "value": [
+        1,
+        561412
+      ]
+    },
+    {
+      "source_offset": 2412,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2428,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2433,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2449,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2462,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2491,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2507,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2512,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2528,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2541,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2562,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2574,
+      "symbol": "SCRIPT_NumberSections_",
+      "value": [
+        1,
+        562244
+      ]
+    },
+    {
+      "source_offset": 2580,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2585,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2607,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2623,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2628,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2638,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 2689,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2705,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2710,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2722,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 2765,
+      "symbol": "SCRIPT_NumberEntries_",
+      "value": [
+        1,
+        562440
+      ]
+    },
+    {
+      "source_offset": 2771,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2776,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2800,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2816,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2821,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2831,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 2860,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 2906,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 2922,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2927,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2937,
+      "symbol": "SCRIPT_GetRaw_",
+      "value": [
+        1,
+        562632
+      ]
+    },
+    {
+      "source_offset": 2957,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 2962,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 2997,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3002,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3061,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 3077,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3082,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3092,
+      "symbol": "SCRIPT_GetRaw_",
+      "value": [
+        1,
+        562632
+      ]
+    },
+    {
+      "source_offset": 3116,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3121,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3155,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3160,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3235,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3240,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3279,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3284,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3342,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 3358,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3363,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3373,
+      "symbol": "SCRIPT_GetRaw_",
+      "value": [
+        1,
+        562632
+      ]
+    },
+    {
+      "source_offset": 3410,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3422,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3428,
+      "symbol": "sscanf_",
+      "value": [
+        1,
+        590988
+      ]
+    },
+    {
+      "source_offset": 3450,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 3466,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3471,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3481,
+      "symbol": "SCRIPT_GetRaw_",
+      "value": [
+        1,
+        562632
+      ]
+    },
+    {
+      "source_offset": 3493,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3499,
+      "symbol": "sscanf_",
+      "value": [
+        1,
+        590988
+      ]
+    },
+    {
+      "source_offset": 3538,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 3554,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3559,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3569,
+      "symbol": "SCRIPT_GetRaw_",
+      "value": [
+        1,
+        562632
+      ]
+    },
+    {
+      "source_offset": 3584,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3590,
+      "symbol": "sscanf_",
+      "value": [
+        1,
+        590988
+      ]
+    },
+    {
+      "source_offset": 3610,
+      "symbol": "_scriptfiles",
+      "value": [
+        3,
+        1864176
+      ]
+    },
+    {
+      "source_offset": 3626,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3631,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 3643,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 3658,
+      "symbol": "SCRIPT_AddSection_",
+      "value": [
+        1,
+        561080
+      ]
+    },
+    {
+      "source_offset": 3667,
+      "symbol": "SCRIPT_SectionExists_",
+      "value": [
+        1,
+        560988
+      ]
+    },
+    {
+      "source_offset": 3691,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 3737,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 3774,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3779,
+      "symbol": "SCRIPT_PutComment_",
+      "value": [
+        1,
+        563440
+      ]
+    },
+    {
+      "source_offset": 3827,
+      "symbol": "vsprintf_",
+      "value": [
+        1,
+        591063
+      ]
+    },
+    {
+      "source_offset": 3857,
+      "symbol": "SCRIPT_PutComment_",
+      "value": [
+        1,
+        563440
+      ]
+    },
+    {
+      "source_offset": 3884,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3894,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 3906,
+      "symbol": "SCRIPT_AddEntry_",
+      "value": [
+        1,
+        561412
+      ]
+    },
+    {
+      "source_offset": 3938,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 3948,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 3960,
+      "symbol": "SCRIPT_AddEntry_",
+      "value": [
+        1,
+        561412
+      ]
+    },
+    {
+      "source_offset": 3988,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4007,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4017,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 4028,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4038,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 4050,
+      "symbol": "SCRIPT_AddEntry_",
+      "value": [
+        1,
+        561412
+      ]
+    },
+    {
+      "source_offset": 4075,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4082,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4092,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 4104,
+      "symbol": "SCRIPT_AddEntry_",
+      "value": [
+        1,
+        561412
+      ]
+    },
+    {
+      "source_offset": 4135,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4145,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 4165,
+      "segment": 2,
+      "value": [
+        3,
+        24076
+      ]
+    },
+    {
+      "source_offset": 4175,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 4187,
+      "symbol": "SCRIPT_AddEntry_",
+      "value": [
+        1,
+        561412
+      ]
+    }
+  ],
+  "global_exports": {
+    "SCRIPT_HandleValid_": [
+      1,
+      559840
+    ],
+    "SCRIPT_New_": [
+      1,
+      559860
+    ],
+    "SCRIPT_Delete_": [
+      1,
+      559972
+    ],
+    "SCRIPT_Init_": [
+      1,
+      560032
+    ],
+    "SCRIPT_FreeSection_": [
+      1,
+      560192
+    ],
+    "SCRIPT_Free_": [
+      1,
+      560292
+    ],
+    "SCRIPT_Parse_": [
+      1,
+      560512
+    ],
+    "SCRIPT_Load_": [
+      1,
+      560604
+    ],
+    "SafeWriteString_": [
+      1,
+      560668
+    ],
+    "SCRIPT_Save_": [
+      1,
+      560700
+    ],
+    "SCRIPT_AddLine_": [
+      1,
+      560952
+    ],
+    "SCRIPT_SectionExists_": [
+      1,
+      560988
+    ],
+    "SCRIPT_AddSection_": [
+      1,
+      561080
+    ],
+    "SCRIPT_PutSection_": [
+      1,
+      561080
+    ],
+    "SCRIPT_EntryExists_": [
+      1,
+      561360
+    ],
+    "SCRIPT_AddEntry_": [
+      1,
+      561412
+    ],
+    "SCRIPT_PutRaw_": [
+      1,
+      561412
+    ],
+    "SCRIPT_DecodeToken_": [
+      1,
+      561824
+    ],
+    "SCRIPT_NumberSections_": [
+      1,
+      562244
+    ],
+    "SCRIPT_Section_": [
+      1,
+      562320
+    ],
+    "SCRIPT_NumberEntries_": [
+      1,
+      562440
+    ],
+    "SCRIPT_Entry_": [
+      1,
+      562516
+    ],
+    "SCRIPT_GetRaw_": [
+      1,
+      562632
+    ],
+    "SCRIPT_GetString_": [
+      1,
+      562736
+    ],
+    "SCRIPT_GetDoubleString_": [
+      1,
+      562888
+    ],
+    "SCRIPT_GetNumber_": [
+      1,
+      563176
+    ],
+    "SCRIPT_GetBoolean_": [
+      1,
+      563280
+    ],
+    "SCRIPT_GetDouble_": [
+      1,
+      563372
+    ],
+    "SCRIPT_PutComment_": [
+      1,
+      563440
+    ],
+    "SCRIPT_PutEOL_": [
+      1,
+      563612
+    ],
+    "SCRIPT_PutMultiComment_": [
+      1,
+      563628
+    ],
+    "SCRIPT_PutString_": [
+      1,
+      563712
+    ],
+    "SCRIPT_PutDoubleString_": [
+      1,
+      563756
+    ],
+    "SCRIPT_PutNumber_": [
+      1,
+      563812
+    ],
+    "SCRIPT_PutBoolean_": [
+      1,
+      563904
+    ],
+    "SCRIPT_PutDouble_": [
+      1,
+      563956
+    ]
+  },
+  "private_definitions": {
+    "_scriptfiles": [
+      3,
+      1864176
+    ],
+    "_scriptlibrarycalled": [
+      3,
+      68300
+    ]
+  },
+  "compiler_folded_export_pairs": [
+    [
+      "SCRIPT_AddSection_",
+      "SCRIPT_PutSection_"
+    ],
+    [
+      "SCRIPT_AddEntry_",
+      "SCRIPT_PutRaw_"
+    ]
+  ],
+  "unique_CODE_intervals": 34,
+  "source_geometry": {
+    "segments": [
+      {
+        "name": "_TEXT",
+        "class": "CODE",
+        "size": 4201,
+        "attributes": 105,
+        "access": null
+      },
+      {
+        "name": "CONST",
+        "class": "DATA",
+        "size": 1411,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "CONST2",
+        "class": "DATA",
+        "size": 0,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_DATA",
+        "class": "DATA",
+        "size": 4,
+        "attributes": 169,
+        "access": null
+      },
+      {
+        "name": "_BSS",
+        "class": "BSS",
+        "size": 80,
+        "attributes": 105,
+        "access": null
+      }
+    ],
+    "publics": {
+      "SCRIPT_HandleValid_": [
+        1,
+        0
+      ],
+      "SCRIPT_New_": [
+        1,
+        20
+      ],
+      "SCRIPT_Delete_": [
+        1,
+        132
+      ],
+      "SCRIPT_Init_": [
+        1,
+        192
+      ],
+      "SCRIPT_FreeSection_": [
+        1,
+        352
+      ],
+      "SCRIPT_Free_": [
+        1,
+        452
+      ],
+      "SCRIPT_Parse_": [
+        1,
+        672
+      ],
+      "SCRIPT_Load_": [
+        1,
+        764
+      ],
+      "SafeWriteString_": [
+        1,
+        828
+      ],
+      "SCRIPT_Save_": [
+        1,
+        860
+      ],
+      "SCRIPT_AddLine_": [
+        1,
+        1112
+      ],
+      "SCRIPT_SectionExists_": [
+        1,
+        1148
+      ],
+      "SCRIPT_AddSection_": [
+        1,
+        1240
+      ],
+      "SCRIPT_PutSection_": [
+        1,
+        1240
+      ],
+      "SCRIPT_EntryExists_": [
+        1,
+        1520
+      ],
+      "SCRIPT_AddEntry_": [
+        1,
+        1572
+      ],
+      "SCRIPT_PutRaw_": [
+        1,
+        1572
+      ],
+      "SCRIPT_DecodeToken_": [
+        1,
+        1984
+      ],
+      "SCRIPT_NumberSections_": [
+        1,
+        2404
+      ],
+      "SCRIPT_Section_": [
+        1,
+        2480
+      ],
+      "SCRIPT_NumberEntries_": [
+        1,
+        2600
+      ],
+      "SCRIPT_Entry_": [
+        1,
+        2676
+      ],
+      "SCRIPT_GetRaw_": [
+        1,
+        2792
+      ],
+      "SCRIPT_GetString_": [
+        1,
+        2896
+      ],
+      "SCRIPT_GetDoubleString_": [
+        1,
+        3048
+      ],
+      "SCRIPT_GetNumber_": [
+        1,
+        3336
+      ],
+      "SCRIPT_GetBoolean_": [
+        1,
+        3440
+      ],
+      "SCRIPT_GetDouble_": [
+        1,
+        3532
+      ],
+      "SCRIPT_PutComment_": [
+        1,
+        3600
+      ],
+      "SCRIPT_PutEOL_": [
+        1,
+        3772
+      ],
+      "SCRIPT_PutMultiComment_": [
+        1,
+        3788
+      ],
+      "SCRIPT_PutString_": [
+        1,
+        3872
+      ],
+      "SCRIPT_PutDoubleString_": [
+        1,
+        3916
+      ],
+      "SCRIPT_PutNumber_": [
+        1,
+        3972
+      ],
+      "SCRIPT_PutBoolean_": [
+        1,
+        4064
+      ],
+      "SCRIPT_PutDouble_": [
+        1,
+        4116
+      ],
+      "_scriptlibrarycalled": [
+        4,
+        0
+      ],
+      "_scriptfiles": [
+        5,
+        0
+      ]
+    },
+    "local_publics": [
+      "_scriptfiles",
+      "_scriptlibrarycalled"
+    ],
+    "externals": [
+      "_scriptfiles",
+      "_scriptlibrarycalled",
+      "memset_",
+      "SafeMalloc_",
+      "Error_",
+      "SafeFree_",
+      "SCRIPT_New_",
+      "SCRIPT_FreeSection_",
+      "SCRIPT_Delete_",
+      "TOKEN_Parse_",
+      "SCRIPT_Init_",
+      "TOKEN_Reset_",
+      "TOKEN_CommentAvailable_",
+      "_token",
+      "TOKEN_GetRaw_",
+      "SCRIPT_DecodeToken_",
+      "TOKEN_Free_",
+      "SafeFileExists_",
+      "LoadFile_",
+      "SCRIPT_Parse_",
+      "SafeWrite_",
+      "SafeOpenWrite_",
+      "sprintf_",
+      "SafeClose_",
+      "strcmpi_",
+      "SCRIPT_SectionExists_",
+      "SCRIPT_AddSection_",
+      "SCRIPT_AddEntry_",
+      "SCRIPT_NumberSections_",
+      "SCRIPT_NumberEntries_",
+      "SCRIPT_GetRaw_",
+      "sscanf_",
+      "SCRIPT_PutComment_",
+      "vsprintf_",
+      "_fltused_",
+      "__init_387_emulator",
+      "__8087"
+    ],
+    "local_externals": [
+      1,
+      2
+    ],
+    "groups": [
+      [
+        "DGROUP",
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      [
+        "FLAT",
+        []
+      ]
+    ],
+    "fixups": [
+      {
+        "segment": 1,
+        "offset": 3,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 24,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 38,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 44,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 54,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 64,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 85,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 91,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 110,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 115,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 139,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 155,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 160,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 170,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 177,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 184,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 198,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 7,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 210,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 217,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 226,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 238,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 253,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 260,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 270,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 283,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 296,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 310,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 376,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 384,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 414,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 427,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 434,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 463,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 479,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 484,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 500,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 511,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 527,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 8,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 555,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 576,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 599,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 632,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 641,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 647,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 654,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 661,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 9,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 677,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 10,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 688,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 11,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 699,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 12,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 711,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 13,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 729,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 14,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 734,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 15,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 741,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 16,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 752,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 17,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 772,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 18,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 785,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 19,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 795,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 20,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 805,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 814,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 11,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 851,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 21,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 878,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 894,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 899,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 914,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 22,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 925,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 951,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 993,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1003,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1025,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1046,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1056,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1082,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 21,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1094,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 24,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1121,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1158,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1174,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1179,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1195,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1206,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1219,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 25,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1255,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1271,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1276,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1288,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1306,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1324,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1338,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1355,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1372,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1399,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1428,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1441,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1478,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1496,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1503,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1542,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 25,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1593,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1609,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1614,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1626,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1641,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 27,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1650,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1677,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 25,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1720,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1789,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 25,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1840,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1874,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 6,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1900,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 1943,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2028,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2038,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2043,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2066,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 27,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2114,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2126,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 3,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2157,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2187,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2217,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2309,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2324,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2329,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2376,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2388,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 28,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2412,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2428,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2433,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2449,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2462,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2491,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2507,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2512,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2528,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2541,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2562,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2574,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 29,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2580,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2585,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2607,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2623,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2628,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2638,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2689,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2705,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2710,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2722,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2765,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 30,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2771,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2776,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2800,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2816,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2821,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2831,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2860,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 25,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2906,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2922,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2927,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2937,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 31,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2957,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2962,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 2997,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3002,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3061,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3077,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3082,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3092,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 31,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3116,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3121,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3155,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3160,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3235,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3240,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3279,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3284,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3342,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3358,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3363,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3373,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 31,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3410,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3422,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3428,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 32,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3450,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3466,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3471,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3481,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 31,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3493,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3499,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 32,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3538,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3554,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3559,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3569,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 31,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3584,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3590,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 32,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3610,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 1,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3626,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3631,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 5,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3643,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3658,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 27,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3667,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 26,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3691,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3737,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 4,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3774,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3779,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 33,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3827,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 34,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3857,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 33,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3884,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3894,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3906,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 28,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3938,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3948,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3960,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 28,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 3988,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4007,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4017,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4028,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4038,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4050,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 28,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4075,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4082,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4092,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4104,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 28,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4135,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4145,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4165,
+        "width": 4,
+        "location": 9,
+        "relative": false,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 0,
+        "target": 2,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4175,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 23,
+        "displacement": 0
+      },
+      {
+        "segment": 1,
+        "offset": 4187,
+        "width": 4,
+        "location": 9,
+        "relative": true,
+        "frame_method": 1,
+        "frame": 2,
+        "target_method": 2,
+        "target": 28,
+        "displacement": 0
+      }
+    ],
+    "code_data_ranges": [],
+    "default_libraries": [
+      "math387r",
+      "emu387"
+    ],
+    "far_call_optimization_segments": [
+      1
+    ],
+    "dosseg_directives": []
+  },
+  "original_member_used_by_producer": false,
+  "source_instruction_payload": false,
+  "historical_source_identity": false,
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "remaining_obligations": [
+    "independent complete-module review before accepted source credit",
+    "missing TOKEN and other source implementations and final WLINK/library selection",
+    "full executable byte identity",
+    "historical local naming/source identity and humanization are unproved"
+  ]
+}

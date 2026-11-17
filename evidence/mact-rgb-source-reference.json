@@ -1,0 +1,432 @@
+{
+  "scope": "Source-assisted C420 plus owned symbolic ASM323 contribution proof; not historical source or OMF identity",
+  "related_primary_source": {
+    "path": "build/mact-source-research/rott/rott/RT_UTIL.C",
+    "sha256": "4a550d8e3a1ecd034bc9294e42fc0b6403f1c10c09ddbbd91c2dcdd669b4569b",
+    "archive_sha256": "45eafa693c3085c56b6ccd072f5a1fb5ba1986877a21e4506d4741b1bdd44729",
+    "lines": {
+      "egargb": 65,
+      "FindEGAColors": 239,
+      "BestColor": 250
+    },
+    "relationship": "GPL-released ROTT algorithmic relative; not historical MACT source identity"
+  },
+  "original_reference": {
+    "archive": "reference/duke3d-reconstructions/MACT386.LIB",
+    "archive_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "member": "P:\\LIBMACT\\rgb.c",
+    "member_offset": 69120,
+    "member_size": 2157,
+    "member_sha256": "de2040e5237eb895890da63a2fb91a6ea0d509a45496eebcf2cb5cea8e184a70",
+    "used_as_build_output": false,
+    "runtime_dependency": false
+  },
+  "register_role_refinement": {
+    "scope": "Only owned final323, 19 register-only instruction operand changes, no ABI or storage/branch/call changes",
+    "ranges": [
+      {
+        "start": 52,
+        "end": 61,
+        "register_map": {
+          "ecx": "ebp"
+        },
+        "role": "green loop zero initializer, ends at green-index stack store"
+      },
+      {
+        "start": 170,
+        "end": 187,
+        "register_map": {
+          "edx": "ecx",
+          "dx": "cx"
+        },
+        "role": "blue scaled component after best-color call, ends at blue-short stack store"
+      },
+      {
+        "start": 207,
+        "end": 235,
+        "register_map": {
+          "esi": "eax"
+        },
+        "role": "green counter reload/update/store/loop test; inner blue counter is dead"
+      },
+      {
+        "start": 244,
+        "end": 296,
+        "register_map": {
+          "ebp": "ecx",
+          "ecx": "edx",
+          "eax": "esi"
+        },
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      }
+    ],
+    "changed": [
+      {
+        "relative_offset": 52,
+        "own_mnemonic": "xor ecx, ecx",
+        "mapped_mnemonic": "xor ebp, ebp",
+        "role": "green loop zero initializer, ends at green-index stack store"
+      },
+      {
+        "relative_offset": 61,
+        "own_mnemonic": "mov dword [esp + green_index], ecx",
+        "mapped_mnemonic": "mov dword [esp + green_index], ebp",
+        "role": "green loop zero initializer, ends at green-index stack store"
+      },
+      {
+        "relative_offset": 170,
+        "own_mnemonic": "mov edx, dword [esp + blue_short]",
+        "mapped_mnemonic": "mov ecx, dword [esp + blue_short]",
+        "role": "blue scaled component after best-color call, ends at blue-short stack store"
+      },
+      {
+        "relative_offset": 178,
+        "own_mnemonic": "add edx, 4",
+        "mapped_mnemonic": "add ecx, 4",
+        "role": "blue scaled component after best-color call, ends at blue-short stack store"
+      },
+      {
+        "relative_offset": 187,
+        "own_mnemonic": "mov word [esp + blue_short], dx",
+        "mapped_mnemonic": "mov word [esp + blue_short], cx",
+        "role": "blue scaled component after best-color call, ends at blue-short stack store"
+      },
+      {
+        "relative_offset": 207,
+        "own_mnemonic": "mov esi, dword [esp + green_index]",
+        "mapped_mnemonic": "mov eax, dword [esp + green_index]",
+        "role": "green counter reload/update/store/loop test; inner blue counter is dead"
+      },
+      {
+        "relative_offset": 220,
+        "own_mnemonic": "inc esi",
+        "mapped_mnemonic": "inc eax",
+        "role": "green counter reload/update/store/loop test; inner blue counter is dead"
+      },
+      {
+        "relative_offset": 228,
+        "own_mnemonic": "mov dword [esp + green_index], esi",
+        "mapped_mnemonic": "mov dword [esp + green_index], eax",
+        "role": "green counter reload/update/store/loop test; inner blue counter is dead"
+      },
+      {
+        "relative_offset": 235,
+        "own_mnemonic": "cmp esi, 64",
+        "mapped_mnemonic": "cmp eax, 64",
+        "role": "green counter reload/update/store/loop test; inner blue counter is dead"
+      },
+      {
+        "relative_offset": 244,
+        "own_mnemonic": "mov ebp, dword [esp + red_lookup_base]",
+        "mapped_mnemonic": "mov ecx, dword [esp + red_lookup_base]",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 251,
+        "own_mnemonic": "mov ecx, dword [esp + scaled_red]",
+        "mapped_mnemonic": "mov edx, dword [esp + scaled_red]",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 258,
+        "own_mnemonic": "mov eax, dword [esp + red_index]",
+        "mapped_mnemonic": "mov esi, dword [esp + red_index]",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 265,
+        "own_mnemonic": "add ebp, 4096",
+        "mapped_mnemonic": "add ecx, 4096",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 271,
+        "own_mnemonic": "add ecx, 4",
+        "mapped_mnemonic": "add edx, 4",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 274,
+        "own_mnemonic": "inc eax",
+        "mapped_mnemonic": "inc esi",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 275,
+        "own_mnemonic": "mov dword [esp + red_lookup_base], ebp",
+        "mapped_mnemonic": "mov dword [esp + red_lookup_base], ecx",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 282,
+        "own_mnemonic": "mov dword [esp + scaled_red], ecx",
+        "mapped_mnemonic": "mov dword [esp + scaled_red], edx",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 289,
+        "own_mnemonic": "mov dword [esp + red_index], eax",
+        "mapped_mnemonic": "mov dword [esp + red_index], esi",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      },
+      {
+        "relative_offset": 296,
+        "own_mnemonic": "cmp eax, 64",
+        "mapped_mnemonic": "cmp esi, 64",
+        "role": "outer transition: red lookup base, scaled red and red index have separate stack homes"
+      }
+    ]
+  },
+  "owned_C_roundtrip": {
+    "scope": "Owned last323 own-C to symbolic ASM roundtrip, zero accepted credit",
+    "assembler": {
+      "version": "NASM version 2.16.03 compiled on Nov 15 2026",
+      "binary_sha256": "c6d2ce2396140d994438a98ef45a8f0e8c9c90b0edb7ad418352bca051e0c295",
+      "default_workspace_binary": true,
+      "source_url": "https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/nasm-2.16.03.tar.xz",
+      "source_archive_sha256": "1412a1c760bbd05db026b6c0d1657affd6631cd0a63cddb6f73cc6d4aa616148",
+      "scope": "alternate assembler; not original Watcom toolchain identity"
+    },
+    "code_size": 323,
+    "canonical_fixups_equal": true,
+    "c_fixups": [
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 444,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 1,
+          "frame": 2,
+          "target_method": 2,
+          "target": 9,
+          "displacement": 0
+        },
+        "raw_addend": 0,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564492,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_semantics": "flat linear object address",
+          "target_object": 1,
+          "target_offset": 553740
+        }
+      },
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 586,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 1,
+          "frame": 2,
+          "target_method": 2,
+          "target": 10,
+          "displacement": 0
+        },
+        "raw_addend": 0,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564634,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_semantics": "flat linear object address",
+          "target_object": 1,
+          "target_offset": 564228
+        }
+      },
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 603,
+          "width": 4,
+          "location": 9,
+          "relative": false,
+          "frame_method": 1,
+          "frame": 2,
+          "target_method": 2,
+          "target": 2,
+          "displacement": 0
+        },
+        "raw_addend": 4294967295,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564651,
+          "width": 4,
+          "location": 9,
+          "relative": false,
+          "frame_semantics": "flat linear object address",
+          "target_object": 3,
+          "target_offset": 1864255
+        }
+      },
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 726,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 1,
+          "frame": 2,
+          "target_method": 2,
+          "target": 11,
+          "displacement": 0
+        },
+        "raw_addend": 0,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564774,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_semantics": "flat linear object address",
+          "target_object": 1,
+          "target_offset": 564048
+        }
+      }
+    ],
+    "asm_fixups": [
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 24,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 2,
+          "displacement": 0
+        },
+        "raw_addend": 0,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564492,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_semantics": "flat linear object address",
+          "target_object": 1,
+          "target_offset": 553740
+        }
+      },
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 166,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 3,
+          "displacement": 0
+        },
+        "raw_addend": 0,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564634,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_semantics": "flat linear object address",
+          "target_object": 1,
+          "target_offset": 564228
+        }
+      },
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 183,
+          "width": 4,
+          "location": 9,
+          "relative": false,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 1,
+          "displacement": 0
+        },
+        "raw_addend": 4294967295,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564651,
+          "width": 4,
+          "location": 9,
+          "relative": false,
+          "frame_semantics": "flat linear object address",
+          "target_object": 3,
+          "target_offset": 1864255
+        }
+      },
+      {
+        "raw": {
+          "segment": 1,
+          "offset": 306,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_method": 5,
+          "frame": null,
+          "target_method": 2,
+          "target": 4,
+          "displacement": 0
+        },
+        "raw_addend": 0,
+        "canonical": {
+          "source_object": 1,
+          "source_offset": 564774,
+          "width": 4,
+          "location": 9,
+          "relative": true,
+          "frame_semantics": "flat linear object address",
+          "target_object": 1,
+          "target_offset": 564048
+        }
+      }
+    ],
+    "resolved_differing_offsets": [],
+    "publics": {
+      "RGB_MakeColorTable_": [
+        1,
+        0
+      ]
+    },
+    "externals": [
+      "_RGB_Lookup",
+      "VID_GetPalette_",
+      "RGB_FindBestColor_",
+      "RGB_FindEGAColors_"
+    ],
+    "sha256": {
+      "build/rgb-prefix64/builder-own.asm": "698f193bf11599d675a1107086e22a368633a2fddd39fc196ee8457bbde1ed16",
+      "build/rgb-prefix64/builder-own.obj": "33e08e2c6cdf305a842be29d544719d1cb0670a8e32ce7c96dd686f8338c4cf3",
+      "build/rgb-prefix64/prove_builder.py": "1b2e41d4095a6a00dfc9ede0a7b2dbc461fd512a5dd93242416a5e47a0078413"
+    }
+  },
+  "whole_ASM_negative": {
+    "unchanged": true,
+    "offset": 378,
+    "reason": "NASM self-move direction differs inside C-owned padding; Task61 negative preserved"
+  },
+  "BSS_alignment": {
+    "source_attributes": 169,
+    "original_attributes": 105,
+    "observed_offset": 1864256,
+    "waiver": false,
+    "historical_link_identity": false
+  },
+  "tracked_sources_sha256": {
+    "src/mact/rgb.c": "e67ff2f3c87e0e1be16361bcce8586495e5d08e12a5e4731ae26bb42a7953287",
+    "src/mact/rgb_make_table.asm": "d778b3996ddac25ca3852c9b9df83dbc323b7481d0ab3f8aefc956c40f724d29"
+  },
+  "full_executable_rebuilt": false
+}

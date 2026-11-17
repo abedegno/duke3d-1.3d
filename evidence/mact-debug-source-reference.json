@@ -1,0 +1,331 @@
+{
+  "kind": "Authored complete MACT DEBUG symbolic source with complete readable C aid",
+  "primary_source_lineage": {
+    "released_repository": "https://github.com/videogamepreservation/dukenukem3d",
+    "released_revision": "ef609159bd352985a0c63734a11241d86c873fe5",
+    "actual_headers": {
+      "/Users/jonw/duke3d/dukenukem3d/extras/TYPES.H": {
+        "sha256": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+        "staged": "/Users/jonw/duke3d/build/task422-debug/authored/include/types.h"
+      },
+      "/Users/jonw/duke3d/dukenukem3d/extras/DEVELOP.H": {
+        "sha256": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+        "staged": "/Users/jonw/duke3d/build/task422-debug/authored/include/develop.h"
+      },
+      "/Users/jonw/duke3d/dukenukem3d/extras/DEBUG.H": {
+        "sha256": "7a1011ff80eb4c4009a702667e2b1f3b764fc38e6820a486e25545c882569b1d",
+        "staged": "/Users/jonw/duke3d/build/task422-debug/authored/include/debug.h"
+      },
+      "/Users/jonw/duke3d/dukenukem3d/extras/_DEBUG.H": {
+        "sha256": "4039fe3f12e1746d6ebcd79da2bb98dcc4c64f293d3db2f01a9cde2e62038d1a",
+        "staged": "/Users/jonw/duke3d/build/task422-debug/authored/include/_debug.h"
+      },
+      "/Users/jonw/duke3d/dukenukem3d/extras/UTIL_LIB.H": {
+        "sha256": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+        "staged": "/Users/jonw/duke3d/build/task422-debug/authored/include/util_lib.h"
+      },
+      "/Users/jonw/duke3d/dukenukem3d/extras/FILE_LIB.H": {
+        "sha256": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+        "staged": "/Users/jonw/duke3d/build/task422-debug/authored/include/file_lib.h"
+      }
+    },
+    "excluded_released_DEBUG_C": "Actual file is RBG sprite/stat/name logging, notMACT DBG20functions",
+    "local_JFMACT_revision": "a356c4aa660c5dfbe5ad940ee8a75f3ab7fcd10f",
+    "local_scope": "Pinned JFMact/ROTT/Duke trees searched exactDBG_DbgString/DBG_FileStartup/MAXDEBUGSTRING/DBG_RegisterOutputFunction; no matching body found",
+    "public_exact_queries": [
+      "\"DBG_DbgString\" \"DBG_FileStartup\"",
+      "\"MAXDEBUGSTRING\" \"debug.txt\"",
+      "site:github.com/jonof/jfmact \"debug\""
+    ],
+    "public_query_result": "No relevant implementation returned; irrelevant hits not used as sources. Bounded negative, notabsenceeverywhere."
+  },
+  "source_license": "Released primary header GPL-2.0-or-later notices retained verbatim; source counterpart retains full notice and included GPL text",
+  "native_reference": {
+    "archive": "reference/duke3d-reconstructions/MACT386.LIB",
+    "archive_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "offset": 512,
+    "size": 4302,
+    "name": "P:\\LIBMACT\\debug.c",
+    "sha256": "b2a2b4fe2f8e07f4dabfcd29ee8602be39b5be600b55bcc86ee779a8d78f1e3a"
+  },
+  "historical_C_claim": false,
+  "first_C_baseline": {
+    "source_sha256": "caf0a4ea173c9e2fb8c5a8740f507c003bd2e3fae978c2ad588c3d6603ab0aec",
+    "native_CODE": 1001,
+    "target_CODE": 1033,
+    "CONST": 176,
+    "DATA": 152,
+    "BSS": 4,
+    "matching_full_intervals": 18,
+    "total_intervals": 20,
+    "remaining_two_extents": [
+      228,
+      220
+    ],
+    "native_two_extents": [
+      240,
+      240
+    ],
+    "producer_options": [
+      "/omaxnet",
+      "/zp4",
+      "/5r"
+    ],
+    "scope": "Frozen422 negative, no ignored path is a normal producer dependency"
+  },
+  "prior_spike": {
+    "task422_report_sha256": "10e379b1e8f2526fe97643d126559746c6f2a8a790fff21e8f321ff4998c337b",
+    "independent_review": "ROOT429 complete source/native/79roles/16controls literal; additional mode mutation rejects target",
+    "source_instruction_bytes_not_copied": true
+  },
+  "tracked_sources_sha256": {
+    "src/mact/debug.asm": "949e446c7710d0cb68a862e680a8b976559124a106323172da19d1dd6f86339b",
+    "src/mact/debug/debug_counterpart.c": "caf0a4ea173c9e2fb8c5a8740f507c003bd2e3fae978c2ad588c3d6603ab0aec",
+    "src/mact/debug/GPL-2.0.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+    "src/mact/debug/debug_port.py": "949ee2655707d8c971c0eb3def8dc12315a7a883dd8b64e9def0110b361e900f",
+    "src/mact/debug/contract.py": "b8fef9314e9b6f2430ce94f58c71e9b61ed2b401f0d6da82f1a59a5e250e11b0",
+    "src/mact/debug/scope_roles.py": "f02c192438198df148f1030366b0fb577a6193d3595072b2d9a35f18e48940c0",
+    "src/mact/debug/include/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd",
+    "src/mact/debug/include/debug.h": "7a1011ff80eb4c4009a702667e2b1f3b764fc38e6820a486e25545c882569b1d",
+    "src/mact/debug/include/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "src/mact/debug/include/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/debug/include/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/debug/include/_debug.h": "4039fe3f12e1746d6ebcd79da2bb98dcc4c64f293d3db2f01a9cde2e62038d1a"
+  },
+  "producer_tools_sha256": {
+    "tools/probe_mact_debug.py": "27f8678c3799c2220cb6435c88fa4b82735a2bef246b6690371cdf8901c5395e",
+    "profiles/gnu_omf/identity.py": "a863fe69d8a7b129e9f146a1f2074a58b412e3d1ca23ce13b48dbdbec3114102",
+    "profiles/gnu_omf/profile.json": "a0aa96424edcfac954818f79144479a0c92aeb98e3a386330d129f6fb565a341",
+    "profiles/gnu_omf/objconv-source-files.json": "38d6e25f9256a54d407c2960fbe2e05358b6a60f778aa22e05bdc6e2f5b51e23",
+    "profiles/gnu_omf/debug-subset.json": "d177f15e5c8f236bb6a3ad3aba17ac9fd34da6280ad4058d822cf5310d05aee8",
+    "profiles/gnu_omf/setup.py": "e955800a35a8754ae2f9ce8e0f5b79c181fa0b42919ed155a874fee30239db93",
+    "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
+    "profiles/capstone/identity.py": "e340cf55a62aaa0b9250ea7029ecf6099a21869b8ef137e754d48afd806bfb5d",
+    "profiles/capstone/files.json": "bd7af521e61bfca5e482552a2e5353ca9355ff4a23992593d9eafd3486d64a1d",
+    "profiles/capstone/setup.py": "045c73432d8891fb1804e820754f0d96da16ad6a1afa409e763563a835dc0ca2"
+  },
+  "observer_tools_sha256": {
+    "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
+    "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
+    "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
+    "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
+    "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
+    "tools/inventory_watcom_runtime.py": "9b2365a4597befe13e9154145d55f35322779a97b4118ff0f2eff0cbd4158e19",
+    "tools/probe_mact_zone.py": "e49435504a116041010f4b8bf84ad9fc8aba29774a798245c7b5fecc5b144815"
+  },
+  "notice_files_sha256": {
+    "src/mact/debug/README.md": "69069bb091af3657bbe02bed9b68034f23b5f00253ba97be21c5f1a0c5751bf1",
+    "profiles/capstone/README.md": "b251955848c4bf47762a4e4651c495a37c7125c0102b7441379f9d4b89f51409",
+    "profiles/gnu_omf/README.md": "dc1855eb465831e1b88ad7983ee25f2b37612ba137aefa24ddd08f22329240de",
+    "profiles/gnu_omf/DEBUG.md": "cb9d1bc355f54f2975b9b15b3ac1d27da42af5ec736826a7f60fe4ad21d20981"
+  },
+  "descriptor_sha256": "838e3b2c670c5a31c2eb38ba66359419ed13bc0384dfc6d4095004c4036d98ae",
+  "normal_caller": {
+    "evidence": "evidence/mact_zone-module.json",
+    "sha256": "c2653c044d635ea51c1e37cfc2a5c89425b0d551c4b89b984e10fdd2e00abb47",
+    "scope": "Actual normal source-only ZONE producer/wholeproof, eight typed DBG caller fields; live all-source/header/options/GNU/decoder witness validated after DEBUG production"
+  },
+  "humanization_backlog": [
+    "Ordinary C exact two formatter bodies",
+    "Native boolean and CDECL vararg/partial register schedule",
+    "Legacy late length checks and empty-string underread retained, not modern safety repaired"
+  ],
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "root_registration_refresh": {
+    "prior_driver_sha256": "93ac487a54f224dc02c8dab9b606b3c24e7f7b5e3fab34b158b94d8196f8b72f",
+    "current_driver_sha256": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8",
+    "scope": "Combined named source route registration only. Default proof semantics and source body unchanged; actual normal replay required."
+  },
+  "root_caller_context_refresh": {
+    "prior_caller_sha256": "fe768714807f794de48ba189c8aba786aef68922ccbf30ecf1331a91de81eabf",
+    "current_caller_sha256": "9b750eb6ea21f470b3539eb1d0d123c45a0396e977b97d3c449345f41d6705cc",
+    "prior_producer_sha256": "d8755f27b8faa8ccedff6d160ada316bea23483dbe87264ee30b3969a52e0473",
+    "current_producer_sha256": "cf823c827a51a5c83213d37677a7fb78b743f5347eeab1e0607bf63dbdab3ba9",
+    "scope": "Exact fresh unchanged normalZONE caller receipt identity, no source/native/roles/options/header change"
+  },
+  "sound_vector_source_registration_refresh": {
+    "prior_checkpoint": "d8475bf",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "a65a2381e7c958f14a7c6319681b904723d5815646d45239b6df491e2fa718f8",
+        "current": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29"
+      }
+    },
+    "scope": "Fixed named SOUND, WSOUND and VECTOR source producer/CLI dispatch only. Default parse/matcher/inference/verifier/source and historical proof dictionaries unchanged; fresh normal replays follow. No new origin or target waiver."
+  },
+  "rox_named_source_registration_refresh": {
+    "prior_checkpoint": "d5801b4",
+    "changed_tools": {
+      "tools/prove_module.py": {
+        "prior": "ab756201cbd236735c8b2f9f5efe4f8c305902730d0ab6608c468dafcf3dbd29",
+        "current": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9"
+      }
+    },
+    "scope": "New explicit mact_rox dispatch only; default parse/infer/matcher/verifier and source machine code unchanged. Fresh named normal replays required."
+  },
+  "rox_root_ZONE_observer_refresh": {
+    "prior": "f0c534fef944bbbce28a62f1d1d8f4fd16da032e64038fa71fdc73d2102995c0",
+    "current": "1e41d819b2e0acd08096b1343444a207c244264f7d7653a2545658c8d14752cc",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "rox_root_closed_caller_refresh": {
+    "prior_receipt_sha256": "267fbd10a1c390be43e30419213f3a8c9ea6a1ccaa348dd077cf938eb92f9534",
+    "current_receipt_sha256": "306216ab61dbb3e41caffb15fbeb1348a0d3ef1b99b544b58ef8993c353e3598",
+    "scope": "Fresh unchanged normal whole caller proof and native inventory; exact context identity only."
+  },
+  "library_batch_registration_refresh": {
+    "prior_checkpoint": "d11fbaa",
+    "named_new_routes": [
+      "mact_tlibdos",
+      "mact_wad",
+      "mact_penttime",
+      "mact_mipmap"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "105ed65edd9026cfab21419e647cc1311fba0f1c26e89e173de47c0ade68a6f9",
+        "current": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1"
+      }
+    },
+    "scope": "Named source producer dispatch only; unchanged default parse/infer/matcher/verifier semantics. Exact new context, fresh normal replays required."
+  },
+  "library_batch_ZONE_observer_refresh": {
+    "prior": "1e41d819b2e0acd08096b1343444a207c244264f7d7653a2545658c8d14752cc",
+    "current": "5755081e9b663c72cd2c87ce3eaba7f51245b3534a9584c02cf0f212ba4974a9",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "library_batch_closed_caller_refresh": {
+    "prior_receipt_sha256": "306216ab61dbb3e41caffb15fbeb1348a0d3ef1b99b544b58ef8993c353e3598",
+    "current_receipt_sha256": "387f21fc738c01fdb3e9b99c1c0c812b490c180280b29ca35a1372e52977e519",
+    "scope": "Fresh unchanged normal whole caller proof and native inventory; exact context identity only."
+  },
+  "task545_registration_refresh": {
+    "prior_checkpoint": "63f38fc",
+    "named_new_dispatch_routes": [
+      "mact_clrmap",
+      "mact_lbmlib"
+    ],
+    "separate_physical_route": "proof-mact-anim-late",
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "5afadcfaa339e498aead896cec943393218b2c5b9136862ab544cc8c5a96fff1",
+        "current": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478"
+      }
+    },
+    "scope": "Only named normal source dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task545_ZONE_observer_refresh": {
+    "prior": "5755081e9b663c72cd2c87ce3eaba7f51245b3534a9584c02cf0f212ba4974a9",
+    "current": "b250c41c4980e4614b86ea3df9c7f8b47e4533737b7387bc9ca32310e4b8480f",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task545_closed_caller_refresh": {
+    "prior_receipt_sha256": "c6b9a555fbebfefbe164d128363b95ea404bb5249012a37c7e940fa5db788001",
+    "current_receipt_sha256": "8f3e7a0a9f2b91d0672062f26e3ca4f7922f88f993079bd8e9d6c71bd3213cd5",
+    "scope": "Fresh unchanged normal whole caller proof/native inventory; exact context identity only."
+  },
+  "task552_registration_refresh": {
+    "prior_checkpoint": "ac3486d",
+    "scope": "Approved GAME535 context and named CONTROL540 route only; all generic semantics unchanged; fresh native replays required.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "c2594865db35386a694cd670054f57b2360979cb2de85385df9ffa213b72f478",
+        "current": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f"
+      }
+    }
+  },
+  "task552_ZONE_observer_refresh": {
+    "prior": "02092cec73bae12f151694173e3ffa2d6405730c9cf3e0dac7df25453e70738f",
+    "current": "02092cec73bae12f151694173e3ffa2d6405730c9cf3e0dac7df25453e70738f",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task552_closed_caller_refresh": {
+    "prior_receipt_sha256": "af8af3016d35e29af6022e0cfe8eaa9b2ebf7ed37556c8343ecc86b1dd1ab0f8",
+    "current_receipt_sha256": "5ae8e3b620424be266fe10f87c8a8acd1d3e335aae6cc113e3cd512e0a654220",
+    "scope": "Fresh unchanged normal whole caller proof/native inventory; exact context identity only."
+  },
+  "task552_GAME_header_witness": {
+    "prior_helper_sha256": "d1d02e755bed433680c482079a555bde4305e25dee670435ed128b7e776da17e",
+    "current_helper_sha256": "f49788366dc29310d3551f00b7c7160b3f0966c5571112a93ea1107436a96162",
+    "scope": "Fresh accepted GAME-only header graph includes tracked compound endingpal context, alongside all old header directories. Every prepared header must equal the actual accepted caller receipt; no mismatch tolerance."
+  },
+  "task564_registration_refresh": {
+    "prior_checkpoint": "d99a484",
+    "named_opt_in_audio_routes": [
+      "sndscape",
+      "sndsrc",
+      "pas16",
+      "irq",
+      "blaster"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "25adee07308610dcfd25f99a8a690bd231fd469de5b4acff5695cf845843ac2f",
+        "current": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c"
+      }
+    },
+    "scope": "Only the five named source-first audio dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task564_ZONE_observer_refresh": {
+    "prior": "f49788366dc29310d3551f00b7c7160b3f0966c5571112a93ea1107436a96162",
+    "current": "520b1db3e4f24f05d1c046a6a67f79c1b9d0e17e7b28138af317bf125f03fa99",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task564_closed_caller_refresh": {
+    "prior_receipt_sha256": "5ae8e3b620424be266fe10f87c8a8acd1d3e335aae6cc113e3cd512e0a654220",
+    "current_receipt_sha256": "573bc37e4870890af5858728cef9b140a7eb6700cfb069221fe010af70c0d861",
+    "scope": "Fresh unchanged normal whole caller proof/native inventory; exact context identity only."
+  },
+  "task576_registration_refresh": {
+    "prior_checkpoint": "f3939b5",
+    "named_new_symbolic_routes": [
+      "gf1_dma",
+      "gf1_utils_native"
+    ],
+    "changes": {
+      "tools/prove_module.py": {
+        "prior": "776afa2947db3e78d680e3dcd3bdfd381a46375ffe2b76661504217d7d6f749c",
+        "current": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111"
+      }
+    },
+    "scope": "Only the two named GF1 source-first dispatches; no default parse/infer/matcher/verifier change. Fresh actual normal replays required."
+  },
+  "task576_ZONE_observer_refresh": {
+    "prior": "520b1db3e4f24f05d1c046a6a67f79c1b9d0e17e7b28138af317bf125f03fa99",
+    "current": "5811650b475f38c6b2e9aa86805580ebdec9e57c9aa89b8fe1accb9fa55123ff",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task576_closed_caller_refresh": {
+    "prior_receipt_sha256": "573bc37e4870890af5858728cef9b140a7eb6700cfb069221fe010af70c0d861",
+    "current_receipt_sha256": "e1627e44396c940299030f275f6360434ce4f59d82a47f9d705aac1d46143cfc",
+    "scope": "Fresh unchanged normal whole caller proof/native inventory; exact context identity only."
+  },
+  "task585_IRQ_metadata_refresh": {
+    "prior_checkpoint": "cfd8b63",
+    "scope": "Named IRQ NASM backend hook and exact issuer-driver identity only; no generic helper/source ABI or bytecoverage change. Fresh native replays follow.",
+    "changes": {
+      "observer_tools_sha256:tools/prove_module.py": {
+        "prior": "2bf41434dcb13919e7211a2fc2b8a9ffdd4515df2ecd5a9ec0396939a4a13111",
+        "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
+      }
+    }
+  },
+  "task585_ZONE_observer_refresh": {
+    "prior": "5811650b475f38c6b2e9aa86805580ebdec9e57c9aa89b8fe1accb9fa55123ff",
+    "current": "3b701d8709e44f69b16e5b24e3d67843ad74b1fad6cce198eb64a4e59aa9e366",
+    "scope": "ZONE closed caller constant only; no source/runtime/default helper change."
+  },
+  "task585_closed_caller_refresh": {
+    "prior_receipt_sha256": "172d1c5b872fb169c44f4de038bd11e99579d7d7066a625c1af0b78effb0b4b9",
+    "current_receipt_sha256": "b4f03afb437880c336e20b07558a1fbe7a57803c4a206b5d3ccac379208ac216",
+    "scope": "Fresh unchanged normal whole caller proof/native inventory; exact context identity only."
+  },
+  "task611_shutdown_caller_refresh": {
+    "old_zone_caller_sha256": "b4f03afb437880c336e20b07558a1fbe7a57803c4a206b5d3ccac379208ac216",
+    "current_zone_caller_sha256": "c2653c044d635ea51c1e37cfc2a5c89425b0d551c4b89b984e10fdd2e00abb47",
+    "old_helper_sha256": "9b34b3448b2698872df82bfcf957e89e8acc09ea81d1583a29bd9eb674a7dac0",
+    "current_helper_sha256": "27f8678c3799c2220cb6435c88fa4b82735a2bef246b6690371cdf8901c5395e",
+    "scope": "Current ZONE caller receipt after genuine GAME source correction; DEBUG source/runtime/ABI/roles unchanged."
+  }
+}

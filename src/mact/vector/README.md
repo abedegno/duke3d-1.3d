@@ -1,0 +1,11 @@
+# Complete MACT VECTOR source capsule
+
+This is a readable symbolic reconstruction of all ten real VECTOR operations, not historical assembly. The released VECTOR.H/TYPES.H/DEVELOP.H are unmodified, including the 3D Realms notices. The complete reconstructed C counterpart retains the same notices; the GPL text is included. Exact original VECTOR.C was not located in bounded local/released/GitHub leads. Published ROTT fixed-point vector code is a related lead with a different ABI, not this source's identity.
+
+The measured appfloat ABI is double, with24-byte vectors, real scalar stack arguments and struct-return cleanup. Length's three real errno-address calls and the three unused FPU imports are retained, as are the actual math387r/emu387 default-library records. The native C object has5 fields; source WASM has3 plus two genuine resolved same-TU CrossProduct calls. Complete byte, public/private, empty-segment, group, raw-field and metadata contracts are checked. Natural ALIGN4 owns real no-op tails. No payload, include, ORG, fabricated storage, aliases or private exports exist.
+
+A single GA C baseline (/omaxnet /zp4 /5r) was negative at726 versus735CODE bytes despite correct semantic algorithms. The preserved source-level length/errno role and all real algorithms are explained by the readable C aid; allocation, register/stack homes, scheduling and historical local spelling remain a humanization backlog. No declaration/name/type/options grid followed. The reviewed symbolic source is used for the complete module.
+
+The standalone producer reads only tracked source/counterpart/headers/notices/recipe and pinned native tools. Full500-file GA-home, emulator and Python before/after checks are mandatory, including extra/missing files. Original SDK and EXE are read only by the later observer. Fresh Rotate's complete211-byte public interval nominates locations via existing locate; every nominee must pass all735CODE bytes, all fields and original/source complete geometry. Nomination is not proof; no fixed target base or private/family anchor is used.
+
+This module's source credit stays0 until independent review and controller integration. Original executable identity, final stock runtime selection, linker/binder layout, hardware behavior and ordinary-C identity remain separate whole-project obligations.

@@ -1,0 +1,10646 @@
+{
+  "kind": "complete PREMAP native contributions with an owned abort byte, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/game/premap.c",
+  "source_sha256": "feb002b3b41343b8b45fd0ab0fb4d58d27e10e251df792c6036c3c98e5fc52be",
+  "headers_sha256": {
+    "_animlib.h": "c244e9182f3ac5acf12de8b30bd9edd04cd1d6051658610fef203a7c419f2d8c",
+    "_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
+    "_rts.h": "736b3083bb20ed17a6c8f3e4296b6e081efe128fb011a13e5962c9bd251bf8f4",
+    "animlib.h": "ef63aabc712cae15acce2beec639497cb57bf603390473f0af9f84f2baf9a0a0",
+    "build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
+    "config.h": "079f8633886635ec07ffd80e024f80a3ca9425f0525aaec49a2f722a36939b86",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "8d741d42fa7a25e2d76b2d20f22bfea62e73d0cbad47edb1bc6d897ebf3d9767",
+    "function.h": "29e2e378fe417b03007c09907e99a0469270430f357bd11a2d7919edfc182f53",
+    "fx_man.h": "028a4f436629d4c7f413d1101e143141be8ae8ed3586ef308a74ffc0f96617a2",
+    "gamedefs.h": "2341cecd4db469a95d188115a1150b78b47d7ee22c52c8309b5523b2b0edf959",
+    "gamever.h": "b8bcec7030d7aaa5f0a99758913ac9e75a513121f751a5967a76787b362893b1",
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "127fab74df80e78261f9eba97e037aa8808cda1c9f14dba799c1ad430d7acd94",
+    "names.h": "88d8056086026747535b140c82fbf32052c61f158fcf74a9bd184366840b5f13",
+    "playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
+    "pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
+    "rts.h": "b89ac3a89c7b9e68cff777ac6a6066871f02190e4ab1b33444a482123746eee6",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "88d66341824d7df26c5d2c292787b0ddf4560fb09ccb61a9d8303d9b66257cf1",
+    "soundabi.h": "5175b960028e6b2ac693a12ad31c9214d67bed4c8028e8ac1ce62b47997a3554",
+    "soundefs.h": "c710b7a89871876526751332566c3b94eca82a28c6405a0f37151f63994a0b1e",
+    "sounds.h": "dd57cc55a3f0e967e4102c17efef2fff4e756fea22b9b927b88079eaa1cdaf4a",
+    "task_man.h": "2a5b176141d2e80e6ea077bb55022f6a156c49ac515707963eb45459a4b6f217",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "userdef.h": "901cacd5d0be8776022b165bfd26a41c85a84c5c26135204acca1cb71eddf421",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
+    "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
+  },
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "anchor_evidence_sha256": {
+    "evidence/engine-function-matches.json": "22ae2f5dc73b50aea3c2141ced565e3ff85e29e116c59466731153dc5598e7d0",
+    "evidence/sounds-module.json": "22c14bdacdf6260858046973c919b3bbdc490df582cbca732f8f82e764cbd55a",
+    "evidence/mmulti-module.json": "598b11ba5ff941f79c070599836af5caa72b5072ffa5b4861423dba97fe6b90f",
+    "evidence/fx_man-module.json": "c666c135efd2e25a259c73297f8a06f559d4d3ef58e1b60a7a1cd6ac6bac7881",
+    "evidence/music-module.json": "10fabbbf517f1466036642fc08ad0c56d355f176ca612742bce43cfca3229709",
+    "evidence/gamedef-module.json": "6ea0e2d3101303d623c00d8438d85aebe3c2c75247827f77c90bb2b1b4a32727"
+  },
+  "descriptor": "modules/premap.json",
+  "descriptor_sha256": "62f51d5b3182a16dc9160caec0692d3a68233ae0b433b3fb0bf78b4a8e7fac40",
+  "source_reference_evidence": "evidence/premap-source-reference.json",
+  "source_reference_sha256": "0cffd1de71c4b51b86c76df9da9cc5ced96fdffb5562396995a993990ef984ba",
+  "placements": {
+    "1": [
+      1,
+      240976
+    ],
+    "6": [
+      3,
+      10600
+    ],
+    "5": [
+      3,
+      587552
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 12,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 20,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 39,
+      "symbol": "_tilesizx",
+      "value": [
+        3,
+        1048384
+      ]
+    },
+    {
+      "source_offset": 47,
+      "symbol": "_tilesizy",
+      "value": [
+        3,
+        1056576
+      ]
+    },
+    {
+      "source_offset": 52,
+      "symbol": "setviewtotile_",
+      "value": [
+        1,
+        406660
+      ]
+    },
+    {
+      "source_offset": 59,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 67,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 74,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 83,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 90,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 96,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 101,
+      "symbol": "drawrooms_",
+      "value": [
+        1,
+        297360
+      ]
+    },
+    {
+      "source_offset": 115,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 121,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 127,
+      "symbol": "_display_mirror",
+      "value": [
+        3,
+        582930
+      ]
+    },
+    {
+      "source_offset": 133,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 138,
+      "symbol": "animatesprites_",
+      "value": [
+        1,
+        47744
+      ]
+    },
+    {
+      "source_offset": 146,
+      "symbol": "_display_mirror",
+      "value": [
+        3,
+        582930
+      ]
+    },
+    {
+      "source_offset": 151,
+      "symbol": "drawmasks_",
+      "value": [
+        1,
+        332796
+      ]
+    },
+    {
+      "source_offset": 156,
+      "symbol": "setviewback_",
+      "value": [
+        1,
+        407131
+      ]
+    },
+    {
+      "source_offset": 163,
+      "symbol": "squarerotatetile_",
+      "value": [
+        1,
+        407532
+      ]
+    },
+    {
+      "source_offset": 187,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 199,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 212,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 222,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 230,
+      "symbol": "flushperms_",
+      "value": [
+        1,
+        381313
+      ]
+    },
+    {
+      "source_offset": 236,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 261,
+      "symbol": "_xdim",
+      "value": [
+        3,
+        1644980
+      ]
+    },
+    {
+      "source_offset": 277,
+      "symbol": "_xdim",
+      "value": [
+        3,
+        1644980
+      ]
+    },
+    {
+      "source_offset": 286,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 299,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 309,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 319,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 337,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 379,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 402,
+      "symbol": "_ydim",
+      "value": [
+        3,
+        1644976
+      ]
+    },
+    {
+      "source_offset": 414,
+      "symbol": "_ydim",
+      "value": [
+        3,
+        1644976
+      ]
+    },
+    {
+      "source_offset": 438,
+      "symbol": "setview_",
+      "value": [
+        1,
+        380407
+      ]
+    },
+    {
+      "source_offset": 446,
+      "symbol": "_pub",
+      "value": [
+        3,
+        582922
+      ]
+    },
+    {
+      "source_offset": 452,
+      "symbol": "_pus",
+      "value": [
+        3,
+        582924
+      ]
+    },
+    {
+      "source_offset": 493,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 502,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 511,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 519,
+      "symbol": "krand_",
+      "value": [
+        1,
+        377409
+      ]
+    },
+    {
+      "source_offset": 529,
+      "symbol": "_numplayersprites",
+      "value": [
+        3,
+        582936
+      ]
+    },
+    {
+      "source_offset": 554,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 578,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 602,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 621,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 635,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 670,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 676,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 683,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 688,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 699,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 1085,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 1094,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 1134,
+      "symbol": "_pus",
+      "value": [
+        3,
+        582924
+      ]
+    },
+    {
+      "source_offset": 1165,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 1218,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 1312,
+      "symbol": "_fricxv",
+      "value": [
+        3,
+        579540
+      ]
+    },
+    {
+      "source_offset": 1318,
+      "symbol": "_fricyv",
+      "value": [
+        3,
+        579536
+      ]
+    },
+    {
+      "source_offset": 1369,
+      "symbol": "_weapon_tiles",
+      "value": [
+        3,
+        31116
+      ]
+    },
+    {
+      "source_offset": 1455,
+      "symbol": "setpal_",
+      "value": [
+        1,
+        204096
+      ]
+    },
+    {
+      "source_offset": 1490,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1657,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1728,
+      "symbol": "_max_armour_amount",
+      "value": [
+        3,
+        579484
+      ]
+    },
+    {
+      "source_offset": 1823,
+      "symbol": "_spriteqloc",
+      "value": [
+        3,
+        581304
+      ]
+    },
+    {
+      "source_offset": 1831,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 1845,
+      "symbol": "_spriteq",
+      "value": [
+        3,
+        410192
+      ]
+    },
+    {
+      "source_offset": 1996,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2012,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 2019,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 2026,
+      "symbol": "_numcyclers",
+      "value": [
+        3,
+        581302
+      ]
+    },
+    {
+      "source_offset": 2032,
+      "symbol": "_tempwallptr",
+      "value": [
+        3,
+        77720
+      ]
+    },
+    {
+      "source_offset": 2038,
+      "symbol": "_numinterpolations",
+      "value": [
+        3,
+        31196
+      ]
+    },
+    {
+      "source_offset": 2044,
+      "symbol": "_startofdynamicinterpolations",
+      "value": [
+        3,
+        31200
+      ]
+    },
+    {
+      "source_offset": 2057,
+      "symbol": "_screenpeek",
+      "value": [
+        3,
+        581290
+      ]
+    },
+    {
+      "source_offset": 2063,
+      "symbol": "_animatecnt",
+      "value": [
+        3,
+        574876
+      ]
+    },
+    {
+      "source_offset": 2076,
+      "symbol": "_randomseed",
+      "value": [
+        3,
+        1644952
+      ]
+    },
+    {
+      "source_offset": 2082,
+      "symbol": "_parallaxtype",
+      "value": [
+        3,
+        1649276
+      ]
+    },
+    {
+      "source_offset": 2091,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2097,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2103,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2109,
+      "symbol": "_earthquaketime",
+      "value": [
+        3,
+        582927
+      ]
+    },
+    {
+      "source_offset": 2119,
+      "symbol": "_camsprite",
+      "value": [
+        3,
+        581294
+      ]
+    },
+    {
+      "source_offset": 2130,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 2139,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2149,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 2162,
+      "symbol": "resetweapons_",
+      "value": [
+        1,
+        242448
+      ]
+    },
+    {
+      "source_offset": 2169,
+      "symbol": "resetinventory_",
+      "value": [
+        1,
+        242624
+      ]
+    },
+    {
+      "source_offset": 2263,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2299,
+      "symbol": "_parallaxyscale",
+      "value": [
+        3,
+        1640116
+      ]
+    },
+    {
+      "source_offset": 2354,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2361,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2368,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2375,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2407,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2414,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2421,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2427,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2457,
+      "symbol": "_parallaxyscale",
+      "value": [
+        3,
+        1640116
+      ]
+    },
+    {
+      "source_offset": 2464,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2471,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2478,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2485,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2491,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2503,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2510,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2517,
+      "symbol": "_pskyoff",
+      "value": [
+        3,
+        1043648
+      ]
+    },
+    {
+      "source_offset": 2524,
+      "symbol": "_pskybits",
+      "value": [
+        3,
+        1649138
+      ]
+    },
+    {
+      "source_offset": 2552,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 2564,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2569,
+      "symbol": "badguy_",
+      "value": [
+        1,
+        10560
+      ]
+    },
+    {
+      "source_offset": 2591,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2739,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2768,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2833,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2862,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2904,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 2933,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3033,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3062,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3104,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3133,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3184,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3213,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3255,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3283,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3303,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3315,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3323,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3344,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3364,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3376,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3384,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3405,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3425,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3437,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3445,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3466,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3486,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3506,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3526,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3548,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3556,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3581,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3589,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3612,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3636,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3644,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3665,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3685,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3705,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3725,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3745,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3767,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3775,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3798,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3810,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 3841,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3849,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3870,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3887,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3904,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3921,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3938,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 3947,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 3955,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 3969,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 4003,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4012,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4025,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4032,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 4041,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4054,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4071,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4079,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4102,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4114,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4122,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4147,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4155,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4180,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4188,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4213,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4221,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4246,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4254,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4279,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4287,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4312,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4320,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4345,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4353,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4376,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4388,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4396,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4419,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4431,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4439,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4464,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4472,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4504,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4512,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4563,
+      "symbol": "_show2dsector",
+      "value": [
+        3,
+        1008064
+      ]
+    },
+    {
+      "source_offset": 4595,
+      "symbol": "_show2dwall",
+      "value": [
+        3,
+        1025088
+      ]
+    },
+    {
+      "source_offset": 4618,
+      "symbol": "_show2dsprite",
+      "value": [
+        3,
+        1043136
+      ]
+    },
+    {
+      "source_offset": 4638,
+      "symbol": "resetprestat_",
+      "value": [
+        1,
+        242768
+      ]
+    },
+    {
+      "source_offset": 4665,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4675,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4714,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4720,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4732,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4763,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4777,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4784,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4794,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4824,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4833,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 4841,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 4868,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4873,
+      "symbol": "setupbackdrop_",
+      "value": [
+        1,
+        243216
+      ]
+    },
+    {
+      "source_offset": 4880,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4892,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4918,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4931,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4948,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 4957,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4963,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 4969,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4974,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 4982,
+      "symbol": "_numsectors",
+      "value": [
+        3,
+        1649144
+      ]
+    },
+    {
+      "source_offset": 4995,
+      "symbol": "_headspritestat",
+      "value": [
+        3,
+        1644984
+      ]
+    },
+    {
+      "source_offset": 5015,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 5025,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5036,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5045,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5051,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5057,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5062,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 5080,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5109,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5132,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5139,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 5153,
+      "symbol": "_numcyclers",
+      "value": [
+        3,
+        581302
+      ]
+    },
+    {
+      "source_offset": 5162,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 5167,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 5180,
+      "symbol": "_numcyclers",
+      "value": [
+        3,
+        581302
+      ]
+    },
+    {
+      "source_offset": 5203,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5210,
+      "symbol": "_cyclers",
+      "value": [
+        3,
+        410896
+      ]
+    },
+    {
+      "source_offset": 5217,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5224,
+      "symbol": "_cyclers",
+      "value": [
+        3,
+        410896
+      ]
+    },
+    {
+      "source_offset": 5232,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5239,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5246,
+      "symbol": "_cyclers",
+      "value": [
+        3,
+        410896
+      ]
+    },
+    {
+      "source_offset": 5264,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 5271,
+      "symbol": "_cyclers",
+      "value": [
+        3,
+        410896
+      ]
+    },
+    {
+      "source_offset": 5278,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5285,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5292,
+      "symbol": "_cyclers",
+      "value": [
+        3,
+        410896
+      ]
+    },
+    {
+      "source_offset": 5309,
+      "symbol": "_numcyclers",
+      "value": [
+        3,
+        581302
+      ]
+    },
+    {
+      "source_offset": 5328,
+      "symbol": "_cyclers",
+      "value": [
+        3,
+        410896
+      ]
+    },
+    {
+      "source_offset": 5338,
+      "symbol": "_numcyclers",
+      "value": [
+        3,
+        581302
+      ]
+    },
+    {
+      "source_offset": 5343,
+      "symbol": "deletesprite_",
+      "value": [
+        1,
+        353362
+      ]
+    },
+    {
+      "source_offset": 5379,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5390,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5400,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5416,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 5441,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5452,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5462,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5475,
+      "symbol": "spawn_",
+      "value": [
+        1,
+        31536
+      ]
+    },
+    {
+      "source_offset": 5495,
+      "symbol": "_headspritestat",
+      "value": [
+        3,
+        1644984
+      ]
+    },
+    {
+      "source_offset": 5519,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5665,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 5691,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 5747,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 5816,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5856,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5872,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 5877,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 5884,
+      "symbol": "_headspritestat",
+      "value": [
+        3,
+        1644984
+      ]
+    },
+    {
+      "source_offset": 5902,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5918,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5925,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 5951,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 5962,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 5975,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 5989,
+      "symbol": "_mirrorcnt",
+      "value": [
+        3,
+        581284
+      ]
+    },
+    {
+      "source_offset": 6006,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6035,
+      "symbol": "_mirrorcnt",
+      "value": [
+        3,
+        581284
+      ]
+    },
+    {
+      "source_offset": 6050,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 6055,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 6086,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6102,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6109,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 6116,
+      "symbol": "_mirrorcnt",
+      "value": [
+        3,
+        581284
+      ]
+    },
+    {
+      "source_offset": 6124,
+      "symbol": "_mirrorwall",
+      "value": [
+        3,
+        119640
+      ]
+    },
+    {
+      "source_offset": 6132,
+      "symbol": "_mirrorsector",
+      "value": [
+        3,
+        119512
+      ]
+    },
+    {
+      "source_offset": 6139,
+      "symbol": "_mirrorcnt",
+      "value": [
+        3,
+        581284
+      ]
+    },
+    {
+      "source_offset": 6151,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6160,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 6165,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 6172,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6190,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6200,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6276,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6283,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6293,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6299,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6316,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6324,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6335,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 6355,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 6413,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 6420,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6437,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6444,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6658,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 6666,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 6689,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 6701,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 6713,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6729,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6738,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6745,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6756,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 6774,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 6789,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6810,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6818,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6826,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6833,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6853,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6873,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 6880,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6913,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6930,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6941,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6948,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6957,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6974,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 6985,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 6993,
+      "symbol": "_animwall",
+      "value": [
+        3,
+        529600
+      ]
+    },
+    {
+      "source_offset": 7000,
+      "symbol": "_numanimwalls",
+      "value": [
+        3,
+        581306
+      ]
+    },
+    {
+      "source_offset": 7008,
+      "symbol": "_numwalls",
+      "value": [
+        3,
+        1649142
+      ]
+    },
+    {
+      "source_offset": 7034,
+      "symbol": "_mirrorsector",
+      "value": [
+        3,
+        119512
+      ]
+    },
+    {
+      "source_offset": 7051,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 7059,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 7076,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 7084,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 7097,
+      "symbol": "_mirrorcnt",
+      "value": [
+        3,
+        581284
+      ]
+    },
+    {
+      "source_offset": 7129,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7137,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7143,
+      "symbol": "_ready2send",
+      "value": [
+        3,
+        582935
+      ]
+    },
+    {
+      "source_offset": 7155,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7165,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7174,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7187,
+      "symbol": "dobonus_",
+      "value": [
+        1,
+        75744
+      ]
+    },
+    {
+      "source_offset": 7196,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7212,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7217,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7225,
+      "symbol": "_show_shareware",
+      "value": [
+        3,
+        573836
+      ]
+    },
+    {
+      "source_offset": 7237,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7246,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7252,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7258,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7290,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7350,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7356,
+      "symbol": "_display_mirror",
+      "value": [
+        3,
+        582930
+      ]
+    },
+    {
+      "source_offset": 7369,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 7383,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 7397,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 7412,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7420,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 7440,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 7447,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 7486,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7497,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7505,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7511,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7523,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7528,
+      "symbol": "EGS_",
+      "value": [
+        1,
+        30672
+      ]
+    },
+    {
+      "source_offset": 7534,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7563,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7577,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7590,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7604,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7667,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7674,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7708,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7720,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7731,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7742,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7754,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7766,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7778,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7790,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7802,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7809,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7842,
+      "symbol": "resetplayerstats_",
+      "value": [
+        1,
+        241632
+      ]
+    },
+    {
+      "source_offset": 7863,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7868,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7874,
+      "symbol": "memcpy_",
+      "value": [
+        1,
+        583849
+      ]
+    },
+    {
+      "source_offset": 7886,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7923,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7929,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 7945,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 7959,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 8033,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8039,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8069,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8081,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8091,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8103,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8115,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8127,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8139,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8151,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8163,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8175,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8195,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 8201,
+      "symbol": "_numplayersprites",
+      "value": [
+        3,
+        582936
+      ]
+    },
+    {
+      "source_offset": 8213,
+      "symbol": "_headspritestat",
+      "value": [
+        3,
+        1644984
+      ]
+    },
+    {
+      "source_offset": 8241,
+      "symbol": "_nextspritestat",
+      "value": [
+        3,
+        1088448
+      ]
+    },
+    {
+      "source_offset": 8256,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 8264,
+      "symbol": "_numplayersprites",
+      "value": [
+        3,
+        582936
+      ]
+    },
+    {
+      "source_offset": 8272,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 8277,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 8284,
+      "symbol": "_numplayersprites",
+      "value": [
+        3,
+        582936
+      ]
+    },
+    {
+      "source_offset": 8295,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 8304,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 8313,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 8324,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 8335,
+      "symbol": "_po",
+      "value": [
+        3,
+        375856
+      ]
+    },
+    {
+      "source_offset": 8341,
+      "symbol": "_numplayersprites",
+      "value": [
+        3,
+        582936
+      ]
+    },
+    {
+      "source_offset": 8407,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8427,
+      "symbol": "_max_player_health",
+      "value": [
+        3,
+        579532
+      ]
+    },
+    {
+      "source_offset": 8434,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8455,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 8482,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8499,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 8540,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 8546,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8586,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8593,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 8600,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8608,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8614,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8620,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8626,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 8635,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8641,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8647,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8653,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 8662,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8668,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8674,
+      "symbol": "_hittype",
+      "value": [
+        3,
+        120728
+      ]
+    },
+    {
+      "source_offset": 8685,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8692,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8697,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 8716,
+      "symbol": "updatesector_",
+      "value": [
+        1,
+        369184
+      ]
+    },
+    {
+      "source_offset": 8724,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 8744,
+      "symbol": "deletesprite_",
+      "value": [
+        1,
+        353362
+      ]
+    },
+    {
+      "source_offset": 8795,
+      "symbol": "_myminlag",
+      "value": [
+        3,
+        98288
+      ]
+    },
+    {
+      "source_offset": 8805,
+      "symbol": "_horiz",
+      "value": [
+        3,
+        574852
+      ]
+    },
+    {
+      "source_offset": 8811,
+      "symbol": "_angvel",
+      "value": [
+        3,
+        574856
+      ]
+    },
+    {
+      "source_offset": 8817,
+      "symbol": "_svel",
+      "value": [
+        3,
+        574844
+      ]
+    },
+    {
+      "source_offset": 8823,
+      "symbol": "_vel",
+      "value": [
+        3,
+        574848
+      ]
+    },
+    {
+      "source_offset": 8829,
+      "symbol": "_syncvaltail",
+      "value": [
+        3,
+        573800
+      ]
+    },
+    {
+      "source_offset": 8835,
+      "symbol": "_syncvaltottail",
+      "value": [
+        3,
+        573828
+      ]
+    },
+    {
+      "source_offset": 8841,
+      "symbol": "_syncstat",
+      "value": [
+        3,
+        582920
+      ]
+    },
+    {
+      "source_offset": 8852,
+      "symbol": "_otherminlag",
+      "value": [
+        3,
+        573812
+      ]
+    },
+    {
+      "source_offset": 8857,
+      "symbol": "_bufferjitter",
+      "value": [
+        3,
+        31192
+      ]
+    },
+    {
+      "source_offset": 8865,
+      "symbol": "_mymaxlag",
+      "value": [
+        3,
+        573804
+      ]
+    },
+    {
+      "source_offset": 8936,
+      "symbol": "_loc",
+      "value": [
+        3,
+        579656
+      ]
+    },
+    {
+      "source_offset": 9020,
+      "symbol": "_sync",
+      "value": [
+        3,
+        573632
+      ]
+    },
+    {
+      "source_offset": 9110,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9117,
+      "symbol": "_syncvalhead",
+      "value": [
+        3,
+        98352
+      ]
+    },
+    {
+      "source_offset": 9124,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 9140,
+      "symbol": "_frags",
+      "value": [
+        3,
+        111216
+      ]
+    },
+    {
+      "source_offset": 9211,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 9219,
+      "symbol": "_ototalclock",
+      "value": [
+        3,
+        574868
+      ]
+    },
+    {
+      "source_offset": 9225,
+      "symbol": "_lockclock",
+      "value": [
+        3,
+        574884
+      ]
+    },
+    {
+      "source_offset": 9231,
+      "symbol": "_ready2send",
+      "value": [
+        3,
+        582935
+      ]
+    },
+    {
+      "source_offset": 9259,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 9265,
+      "symbol": "_loadfromgrouponly",
+      "value": [
+        3,
+        582928
+      ]
+    },
+    {
+      "source_offset": 9270,
+      "symbol": "kopen4load_",
+      "value": [
+        1,
+        419813
+      ]
+    },
+    {
+      "source_offset": 9289,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9296,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 9301,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 9321,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9331,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 9340,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9352,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 9362,
+      "symbol": "makepalookup_",
+      "value": [
+        1,
+        390263
+      ]
+    },
+    {
+      "source_offset": 9381,
+      "symbol": "_waterpal",
+      "value": [
+        3,
+        75400
+      ]
+    },
+    {
+      "source_offset": 9388,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9398,
+      "symbol": "_slimepal",
+      "value": [
+        3,
+        76936
+      ]
+    },
+    {
+      "source_offset": 9405,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9415,
+      "symbol": "_titlepal",
+      "value": [
+        3,
+        74632
+      ]
+    },
+    {
+      "source_offset": 9422,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9432,
+      "symbol": "_drealms",
+      "value": [
+        3,
+        76168
+      ]
+    },
+    {
+      "source_offset": 9439,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9449,
+      "symbol": "_endingpal",
+      "value": [
+        3,
+        73864
+      ]
+    },
+    {
+      "source_offset": 9456,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 9464,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 9470,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 9476,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 9482,
+      "symbol": "_slimepal",
+      "value": [
+        3,
+        76936
+      ]
+    },
+    {
+      "source_offset": 9488,
+      "symbol": "_slimepal",
+      "value": [
+        3,
+        76936
+      ]
+    },
+    {
+      "source_offset": 9494,
+      "symbol": "_slimepal",
+      "value": [
+        3,
+        76936
+      ]
+    },
+    {
+      "source_offset": 9500,
+      "symbol": "_waterpal",
+      "value": [
+        3,
+        75400
+      ]
+    },
+    {
+      "source_offset": 9506,
+      "symbol": "_waterpal",
+      "value": [
+        3,
+        75400
+      ]
+    },
+    {
+      "source_offset": 9512,
+      "symbol": "_waterpal",
+      "value": [
+        3,
+        75400
+      ]
+    },
+    {
+      "source_offset": 9519,
+      "symbol": "kclose_",
+      "value": [
+        1,
+        420443
+      ]
+    },
+    {
+      "source_offset": 9548,
+      "symbol": "_numplayers",
+      "value": [
+        3,
+        1733240
+      ]
+    },
+    {
+      "source_offset": 9564,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 9570,
+      "symbol": "_wait_abort",
+      "value": [
+        3,
+        587556
+      ]
+    },
+    {
+      "source_offset": 9577,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 9608,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 9618,
+      "symbol": "_playerreadyflag",
+      "value": [
+        3,
+        367488
+      ]
+    },
+    {
+      "source_offset": 9626,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 9637,
+      "symbol": "_movesperpacket",
+      "value": [
+        3,
+        31186
+      ]
+    },
+    {
+      "source_offset": 9649,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 9665,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 9674,
+      "symbol": "_wait_abort",
+      "value": [
+        3,
+        587556
+      ]
+    },
+    {
+      "source_offset": 9690,
+      "symbol": "getpackets_",
+      "value": [
+        1,
+        1488
+      ]
+    },
+    {
+      "source_offset": 9697,
+      "symbol": "_movesperpacket",
+      "value": [
+        3,
+        31186
+      ]
+    },
+    {
+      "source_offset": 9712,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 9720,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 9730,
+      "symbol": "_packbuf",
+      "value": [
+        3,
+        410320
+      ]
+    },
+    {
+      "source_offset": 9737,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 9743,
+      "symbol": "_packbuf",
+      "value": [
+        3,
+        410320
+      ]
+    },
+    {
+      "source_offset": 9751,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 9761,
+      "symbol": "_playerreadyflag",
+      "value": [
+        3,
+        367488
+      ]
+    },
+    {
+      "source_offset": 9775,
+      "symbol": "_packbuf",
+      "value": [
+        3,
+        410320
+      ]
+    },
+    {
+      "source_offset": 9782,
+      "symbol": "sendpacket_",
+      "value": [
+        1,
+        423523
+      ]
+    },
+    {
+      "source_offset": 9790,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 9801,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 9809,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 9819,
+      "symbol": "_playerreadyflag",
+      "value": [
+        3,
+        367488
+      ]
+    },
+    {
+      "source_offset": 9831,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 9877,
+      "symbol": "_playerreadyflag",
+      "value": [
+        3,
+        367488
+      ]
+    },
+    {
+      "source_offset": 9884,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 9890,
+      "symbol": "_playerreadyflag",
+      "value": [
+        3,
+        367488
+      ]
+    },
+    {
+      "source_offset": 9899,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 9908,
+      "symbol": "_wait_abort",
+      "value": [
+        3,
+        587556
+      ]
+    },
+    {
+      "source_offset": 9924,
+      "symbol": "getpackets_",
+      "value": [
+        1,
+        1488
+      ]
+    },
+    {
+      "source_offset": 9963,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 9969,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 9978,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 9994,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 10010,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 10026,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 10033,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 10042,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 10054,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 10069,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 10074,
+      "symbol": "sendpacket_",
+      "value": [
+        1,
+        423523
+      ]
+    },
+    {
+      "source_offset": 10080,
+      "symbol": "_received_sync_value",
+      "value": [
+        3,
+        574840
+      ]
+    },
+    {
+      "source_offset": 10090,
+      "symbol": "_received_sync_value",
+      "value": [
+        3,
+        574840
+      ]
+    },
+    {
+      "source_offset": 10099,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 10106,
+      "symbol": "getpackets_",
+      "value": [
+        1,
+        1488
+      ]
+    },
+    {
+      "source_offset": 10112,
+      "symbol": "_totalclock",
+      "value": [
+        3,
+        1644968
+      ]
+    },
+    {
+      "source_offset": 10126,
+      "symbol": "_received_sync_value",
+      "value": [
+        3,
+        574840
+      ]
+    },
+    {
+      "source_offset": 10159,
+      "symbol": "_SoundToggle",
+      "value": [
+        3,
+        587640
+      ]
+    },
+    {
+      "source_offset": 10175,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 10210,
+      "symbol": "_loadfromgrouponly",
+      "value": [
+        3,
+        582928
+      ]
+    },
+    {
+      "source_offset": 10215,
+      "symbol": "_sounds",
+      "value": [
+        3,
+        282520
+      ]
+    },
+    {
+      "source_offset": 10220,
+      "symbol": "kopen4load_",
+      "value": [
+        1,
+        419813
+      ]
+    },
+    {
+      "source_offset": 10241,
+      "symbol": "kfilelength_",
+      "value": [
+        1,
+        420387
+      ]
+    },
+    {
+      "source_offset": 10248,
+      "symbol": "_soundsiz",
+      "value": [
+        3,
+        117424
+      ]
+    },
+    {
+      "source_offset": 10254,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10266,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10324,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 10330,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 10342,
+      "symbol": "allocache_",
+      "value": [
+        1,
+        418317
+      ]
+    },
+    {
+      "source_offset": 10348,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 10364,
+      "symbol": "kread_",
+      "value": [
+        1,
+        420053
+      ]
+    },
+    {
+      "source_offset": 10372,
+      "symbol": "kclose_",
+      "value": [
+        1,
+        420443
+      ]
+    },
+    {
+      "source_offset": 10387,
+      "symbol": "_FXDevice",
+      "value": [
+        3,
+        587736
+      ]
+    },
+    {
+      "source_offset": 10406,
+      "symbol": "_Sound",
+      "value": [
+        3,
+        574936
+      ]
+    },
+    {
+      "source_offset": 10419,
+      "symbol": "getsound_",
+      "value": [
+        1,
+        251120
+      ]
+    },
+    {
+      "source_offset": 10453,
+      "symbol": "precachenecessarysounds_",
+      "value": [
+        1,
+        251360
+      ]
+    },
+    {
+      "source_offset": 10458,
+      "symbol": "cachegoodsprites_",
+      "value": [
+        1,
+        244976
+      ]
+    },
+    {
+      "source_offset": 10467,
+      "symbol": "_numwalls",
+      "value": [
+        3,
+        1649142
+      ]
+    },
+    {
+      "source_offset": 10489,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 10502,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 10513,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 10526,
+      "symbol": "_wall",
+      "value": [
+        3,
+        1289152
+      ]
+    },
+    {
+      "source_offset": 10541,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 10549,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 10557,
+      "symbol": "_numwalls",
+      "value": [
+        3,
+        1649142
+      ]
+    },
+    {
+      "source_offset": 10568,
+      "symbol": "_numsectors",
+      "value": [
+        3,
+        1649144
+      ]
+    },
+    {
+      "source_offset": 10595,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 10602,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 10610,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 10636,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 10643,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 10651,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 10658,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 10665,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 10678,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 10688,
+      "symbol": "loadtile_",
+      "value": [
+        1,
+        328028
+      ]
+    },
+    {
+      "source_offset": 10699,
+      "symbol": "_headspritesect",
+      "value": [
+        3,
+        1647034
+      ]
+    },
+    {
+      "source_offset": 10716,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10725,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10735,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10747,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 10754,
+      "symbol": "_waloff",
+      "value": [
+        3,
+        1026752
+      ]
+    },
+    {
+      "source_offset": 10764,
+      "symbol": "cachespritenum_",
+      "value": [
+        1,
+        243520
+      ]
+    },
+    {
+      "source_offset": 10775,
+      "symbol": "_nextspritesect",
+      "value": [
+        3,
+        1080256
+      ]
+    },
+    {
+      "source_offset": 10785,
+      "symbol": "_numsectors",
+      "value": [
+        3,
+        1649144
+      ]
+    },
+    {
+      "source_offset": 10807,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10821,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 10832,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 10840,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 10855,
+      "symbol": "palto_",
+      "value": [
+        1,
+        198736
+      ]
+    },
+    {
+      "source_offset": 10871,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10877,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10882,
+      "symbol": "vscrn_",
+      "value": [
+        1,
+        241152
+      ]
+    },
+    {
+      "source_offset": 10889,
+      "symbol": "clearview_",
+      "value": [
+        1,
+        405291
+      ]
+    },
+    {
+      "source_offset": 10894,
+      "symbol": "_ydim",
+      "value": [
+        3,
+        1644976
+      ]
+    },
+    {
+      "source_offset": 10901,
+      "symbol": "_xdim",
+      "value": [
+        3,
+        1644980
+      ]
+    },
+    {
+      "source_offset": 10936,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 10942,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 10951,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10960,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 10968,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 10987,
+      "symbol": "menutext_",
+      "value": [
+        1,
+        179344
+      ]
+    },
+    {
+      "source_offset": 10992,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 11013,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 11032,
+      "symbol": "menutext_",
+      "value": [
+        1,
+        179344
+      ]
+    },
+    {
+      "source_offset": 11038,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11045,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11062,
+      "symbol": "_level_names",
+      "value": [
+        3,
+        581308
+      ]
+    },
+    {
+      "source_offset": 11080,
+      "symbol": "menutext_",
+      "value": [
+        1,
+        179344
+      ]
+    },
+    {
+      "source_offset": 11085,
+      "symbol": "nextpage_",
+      "value": [
+        1,
+        326546
+      ]
+    },
+    {
+      "source_offset": 11105,
+      "symbol": "palto_",
+      "value": [
+        1,
+        198736
+      ]
+    },
+    {
+      "source_offset": 11117,
+      "symbol": "KB_FlushKeyboardQueue_",
+      "value": [
+        1,
+        568860
+      ]
+    },
+    {
+      "source_offset": 11123,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11136,
+      "symbol": "clearview_",
+      "value": [
+        1,
+        405291
+      ]
+    },
+    {
+      "source_offset": 11143,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 11154,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 11164,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11173,
+      "symbol": "palto_",
+      "value": [
+        1,
+        198736
+      ]
+    },
+    {
+      "source_offset": 11178,
+      "symbol": "_ydim",
+      "value": [
+        3,
+        1644976
+      ]
+    },
+    {
+      "source_offset": 11185,
+      "symbol": "_xdim",
+      "value": [
+        3,
+        1644980
+      ]
+    },
+    {
+      "source_offset": 11224,
+      "symbol": "rotatesprite_",
+      "value": [
+        1,
+        381330
+      ]
+    },
+    {
+      "source_offset": 11229,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 11248,
+      "symbol": "menutext_",
+      "value": [
+        1,
+        179344
+      ]
+    },
+    {
+      "source_offset": 11253,
+      "symbol": "nextpage_",
+      "value": [
+        1,
+        326546
+      ]
+    },
+    {
+      "source_offset": 11281,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11286,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11291,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11296,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11301,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11306,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11311,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11316,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11321,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11326,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11331,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11336,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11341,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11349,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11360,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11371,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11380,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11386,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11391,
+      "symbol": "dofrontscreens_",
+      "value": [
+        1,
+        251776
+      ]
+    },
+    {
+      "source_offset": 11396,
+      "symbol": "vscrn_",
+      "value": [
+        1,
+        241152
+      ]
+    },
+    {
+      "source_offset": 11405,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11410,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11420,
+      "symbol": "MUSIC_StopSong_",
+      "value": [
+        1,
+        491101
+      ]
+    },
+    {
+      "source_offset": 11425,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11435,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11442,
+      "symbol": "_music_select",
+      "value": [
+        3,
+        582933
+      ]
+    },
+    {
+      "source_offset": 11449,
+      "symbol": "_music_select",
+      "value": [
+        3,
+        582933
+      ]
+    },
+    {
+      "source_offset": 11457,
+      "symbol": "_music_fn",
+      "value": [
+        3,
+        582397
+      ]
+    },
+    {
+      "source_offset": 11462,
+      "symbol": "playmusic_",
+      "value": [
+        1,
+        282384
+      ]
+    },
+    {
+      "source_offset": 11468,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 11477,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11486,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11494,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11499,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11504,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11509,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11514,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11519,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 11524,
+      "symbol": "loadboard_",
+      "value": [
+        1,
+        320819
+      ]
+    },
+    {
+      "source_offset": 11534,
+      "symbol": "_boardfilename",
+      "value": [
+        3,
+        29836
+      ]
+    },
+    {
+      "source_offset": 11542,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11548,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11553,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11559,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11564,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11571,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11579,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11584,
+      "symbol": "_level_file_names",
+      "value": [
+        3,
+        111808
+      ]
+    },
+    {
+      "source_offset": 11589,
+      "symbol": "loadboard_",
+      "value": [
+        1,
+        320819
+      ]
+    },
+    {
+      "source_offset": 11600,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11607,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11615,
+      "symbol": "_level_file_names",
+      "value": [
+        3,
+        111808
+      ]
+    },
+    {
+      "source_offset": 11621,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 11626,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 11631,
+      "symbol": "sprintf_",
+      "value": [
+        1,
+        583257
+      ]
+    },
+    {
+      "source_offset": 11639,
+      "symbol": "_tempbuf",
+      "value": [
+        3,
+        413968
+      ]
+    },
+    {
+      "source_offset": 11644,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 11649,
+      "symbol": "FX_StopAllSounds_",
+      "value": [
+        1,
+        526644
+      ]
+    },
+    {
+      "source_offset": 11654,
+      "symbol": "clearsoundlocks_",
+      "value": [
+        1,
+        286192
+      ]
+    },
+    {
+      "source_offset": 11666,
+      "symbol": "FX_SetReverb_",
+      "value": [
+        1,
+        525956
+      ]
+    },
+    {
+      "source_offset": 11673,
+      "symbol": "prelevel_",
+      "value": [
+        1,
+        245504
+      ]
+    },
+    {
+      "source_offset": 11678,
+      "symbol": "allignwarpelevators_",
+      "value": [
+        1,
+        274944
+      ]
+    },
+    {
+      "source_offset": 11687,
+      "symbol": "resetpspritevars_",
+      "value": [
+        1,
+        248432
+      ]
+    },
+    {
+      "source_offset": 11693,
+      "symbol": "_cachedebug",
+      "value": [
+        3,
+        32051
+      ]
+    },
+    {
+      "source_offset": 11699,
+      "symbol": "_automapping",
+      "value": [
+        3,
+        1649275
+      ]
+    },
+    {
+      "source_offset": 11704,
+      "symbol": "cacheit_",
+      "value": [
+        1,
+        251424
+      ]
+    },
+    {
+      "source_offset": 11725,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11735,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 11747,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11757,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 11769,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11776,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 11790,
+      "symbol": "opendemowrite_",
+      "value": [
+        1,
+        67600
+      ]
+    },
+    {
+      "source_offset": 11797,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 11818,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11828,
+      "symbol": "_sprite",
+      "value": [
+        3,
+        1104832
+      ]
+    },
+    {
+      "source_offset": 11845,
+      "symbol": "_sector",
+      "value": [
+        3,
+        1597120
+      ]
+    },
+    {
+      "source_offset": 11877,
+      "symbol": "resetweapons_",
+      "value": [
+        1,
+        242448
+      ]
+    },
+    {
+      "source_offset": 11890,
+      "symbol": "resetinventory_",
+      "value": [
+        1,
+        242624
+      ]
+    },
+    {
+      "source_offset": 11900,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11909,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11918,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11925,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11936,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 11952,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 11964,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11970,
+      "symbol": "_omyx",
+      "value": [
+        3,
+        573872
+      ]
+    },
+    {
+      "source_offset": 11976,
+      "symbol": "_myx",
+      "value": [
+        3,
+        573864
+      ]
+    },
+    {
+      "source_offset": 11982,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 11988,
+      "symbol": "_omyy",
+      "value": [
+        3,
+        573876
+      ]
+    },
+    {
+      "source_offset": 11994,
+      "symbol": "_myy",
+      "value": [
+        3,
+        573860
+      ]
+    },
+    {
+      "source_offset": 12000,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12006,
+      "symbol": "_omyz",
+      "value": [
+        3,
+        573868
+      ]
+    },
+    {
+      "source_offset": 12012,
+      "symbol": "_myz",
+      "value": [
+        3,
+        573856
+      ]
+    },
+    {
+      "source_offset": 12020,
+      "symbol": "_myzvel",
+      "value": [
+        3,
+        573844
+      ]
+    },
+    {
+      "source_offset": 12026,
+      "symbol": "_myyvel",
+      "value": [
+        3,
+        573848
+      ]
+    },
+    {
+      "source_offset": 12032,
+      "symbol": "_myxvel",
+      "value": [
+        3,
+        573852
+      ]
+    },
+    {
+      "source_offset": 12039,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12046,
+      "symbol": "_omyang",
+      "value": [
+        3,
+        581280
+      ]
+    },
+    {
+      "source_offset": 12053,
+      "symbol": "_myang",
+      "value": [
+        3,
+        581278
+      ]
+    },
+    {
+      "source_offset": 12060,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12067,
+      "symbol": "_omyhoriz",
+      "value": [
+        3,
+        581270
+      ]
+    },
+    {
+      "source_offset": 12074,
+      "symbol": "_myhoriz",
+      "value": [
+        3,
+        581268
+      ]
+    },
+    {
+      "source_offset": 12081,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12088,
+      "symbol": "_omyhorizoff",
+      "value": [
+        3,
+        581282
+      ]
+    },
+    {
+      "source_offset": 12095,
+      "symbol": "_myhorizoff",
+      "value": [
+        3,
+        581272
+      ]
+    },
+    {
+      "source_offset": 12102,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12109,
+      "symbol": "_mycursectnum",
+      "value": [
+        3,
+        581274
+      ]
+    },
+    {
+      "source_offset": 12116,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12123,
+      "symbol": "_myjumpingcounter",
+      "value": [
+        3,
+        581276
+      ]
+    },
+    {
+      "source_offset": 12129,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12134,
+      "symbol": "_palette",
+      "value": [
+        3,
+        1596352
+      ]
+    },
+    {
+      "source_offset": 12140,
+      "symbol": "_myjumpingtoggle",
+      "value": [
+        3,
+        582925
+      ]
+    },
+    {
+      "source_offset": 12146,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12154,
+      "symbol": "_myonground",
+      "value": [
+        3,
+        582926
+      ]
+    },
+    {
+      "source_offset": 12160,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12168,
+      "symbol": "_myhardlanding",
+      "value": [
+        3,
+        582923
+      ]
+    },
+    {
+      "source_offset": 12174,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12180,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12186,
+      "symbol": "_myreturntocenter",
+      "value": [
+        3,
+        582919
+      ]
+    },
+    {
+      "source_offset": 12195,
+      "symbol": "palto_",
+      "value": [
+        1,
+        198736
+      ]
+    },
+    {
+      "source_offset": 12202,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 12215,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    },
+    {
+      "source_offset": 12222,
+      "symbol": "setpal_",
+      "value": [
+        1,
+        204096
+      ]
+    },
+    {
+      "source_offset": 12227,
+      "symbol": "flushperms_",
+      "value": [
+        1,
+        381313
+      ]
+    },
+    {
+      "source_offset": 12233,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 12239,
+      "symbol": "_everyothertime",
+      "value": [
+        3,
+        77738
+      ]
+    },
+    {
+      "source_offset": 12246,
+      "symbol": "_global_random",
+      "value": [
+        3,
+        581298
+      ]
+    },
+    {
+      "source_offset": 12254,
+      "symbol": "_connecthead",
+      "value": [
+        3,
+        1733236
+      ]
+    },
+    {
+      "source_offset": 12260,
+      "symbol": "_ud",
+      "value": [
+        3,
+        579668
+      ]
+    },
+    {
+      "source_offset": 12275,
+      "symbol": "_connectpoint2",
+      "value": [
+        3,
+        1733104
+      ]
+    },
+    {
+      "source_offset": 12282,
+      "symbol": "_myminlag",
+      "value": [
+        3,
+        98288
+      ]
+    },
+    {
+      "source_offset": 12302,
+      "symbol": "_mymaxlag",
+      "value": [
+        3,
+        573804
+      ]
+    },
+    {
+      "source_offset": 12308,
+      "symbol": "_otherminlag",
+      "value": [
+        3,
+        573812
+      ]
+    },
+    {
+      "source_offset": 12314,
+      "symbol": "_fakemovefifoplc",
+      "value": [
+        3,
+        573840
+      ]
+    },
+    {
+      "source_offset": 12320,
+      "symbol": "_movefifosendplc",
+      "value": [
+        3,
+        579548
+      ]
+    },
+    {
+      "source_offset": 12326,
+      "symbol": "_movefifoplc",
+      "value": [
+        3,
+        574880
+      ]
+    },
+    {
+      "source_offset": 12331,
+      "symbol": "_inputfifo",
+      "value": [
+        3,
+        532672
+      ]
+    },
+    {
+      "source_offset": 12402,
+      "symbol": "_movefifoend",
+      "value": [
+        3,
+        120152
+      ]
+    },
+    {
+      "source_offset": 12415,
+      "symbol": "_numinterpolations",
+      "value": [
+        3,
+        31196
+      ]
+    },
+    {
+      "source_offset": 12420,
+      "symbol": "_avgbits",
+      "value": [
+        3,
+        574892
+      ]
+    },
+    {
+      "source_offset": 12425,
+      "symbol": "_avghorz",
+      "value": [
+        3,
+        574920
+      ]
+    },
+    {
+      "source_offset": 12430,
+      "symbol": "_avgavel",
+      "value": [
+        3,
+        574912
+      ]
+    },
+    {
+      "source_offset": 12436,
+      "symbol": "_avgsvel",
+      "value": [
+        3,
+        574904
+      ]
+    },
+    {
+      "source_offset": 12442,
+      "symbol": "_avgfvel",
+      "value": [
+        3,
+        574908
+      ]
+    },
+    {
+      "source_offset": 12455,
+      "symbol": "_curipos",
+      "value": [
+        3,
+        98416
+      ]
+    },
+    {
+      "source_offset": 12465,
+      "symbol": "_bakipos",
+      "value": [
+        3,
+        77808
+      ]
+    },
+    {
+      "source_offset": 12484,
+      "symbol": "_restorepalette",
+      "value": [
+        3,
+        77741
+      ]
+    },
+    {
+      "source_offset": 12489,
+      "symbol": "flushpackets_",
+      "value": [
+        1,
+        425035
+      ]
+    },
+    {
+      "source_offset": 12494,
+      "symbol": "waitforeverybody_",
+      "value": [
+        1,
+        250512
+      ]
+    },
+    {
+      "source_offset": 12501,
+      "symbol": "_playerquitflag",
+      "value": [
+        3,
+        287472
+      ]
+    },
+    {
+      "source_offset": 12506,
+      "symbol": "palto_",
+      "value": [
+        1,
+        198736
+      ]
+    },
+    {
+      "source_offset": 12511,
+      "symbol": "vscrn_",
+      "value": [
+        1,
+        241152
+      ]
+    },
+    {
+      "source_offset": 12523,
+      "symbol": "clearview_",
+      "value": [
+        1,
+        405291
+      ]
+    },
+    {
+      "source_offset": 12528,
+      "symbol": "nextpage_",
+      "value": [
+        1,
+        326546
+      ]
+    },
+    {
+      "source_offset": 12600,
+      "symbol": "_wait_abort",
+      "value": [
+        3,
+        587556
+      ]
+    },
+    {
+      "source_offset": 12608,
+      "symbol": "_premap_text",
+      "value": [
+        3,
+        10600
+      ]
+    },
+    {
+      "source_offset": 12613,
+      "symbol": "gameexit_",
+      "value": [
+        1,
+        22896
+      ]
+    },
+    {
+      "source_offset": 12618,
+      "symbol": "resettimevars_",
+      "value": [
+        1,
+        249760
+      ]
+    },
+    {
+      "source_offset": 12625,
+      "symbol": "_myconnectindex",
+      "value": [
+        3,
+        1733242
+      ]
+    },
+    {
+      "source_offset": 12640,
+      "symbol": "_ps",
+      "value": [
+        3,
+        376112
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 12932,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 815,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 240976,
+        "compared_bytes": 12654,
+        "verified_fixups": 815,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587552,
+        "compared_bytes": 5,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 10600,
+        "compared_bytes": 278,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "drawrooms_": [
+        1,
+        297360
+      ],
+      "loadboard_": [
+        1,
+        320819
+      ],
+      "nextpage_": [
+        1,
+        326546
+      ],
+      "loadtile_": [
+        1,
+        328028
+      ],
+      "drawmasks_": [
+        1,
+        332796
+      ],
+      "deletesprite_": [
+        1,
+        353362
+      ],
+      "updatesector_": [
+        1,
+        369184
+      ],
+      "krand_": [
+        1,
+        377409
+      ],
+      "setview_": [
+        1,
+        380407
+      ],
+      "flushperms_": [
+        1,
+        381313
+      ],
+      "rotatesprite_": [
+        1,
+        381330
+      ],
+      "makepalookup_": [
+        1,
+        390263
+      ],
+      "clearview_": [
+        1,
+        405291
+      ],
+      "setviewtotile_": [
+        1,
+        406660
+      ],
+      "setviewback_": [
+        1,
+        407131
+      ],
+      "squarerotatetile_": [
+        1,
+        407532
+      ],
+      "_xdim": [
+        3,
+        1644980
+      ],
+      "_ydim": [
+        3,
+        1644976
+      ],
+      "_totalclock": [
+        3,
+        1644968
+      ],
+      "_numsectors": [
+        3,
+        1649144
+      ],
+      "_automapping": [
+        3,
+        1649275
+      ],
+      "_show2dwall": [
+        3,
+        1025088
+      ],
+      "_show2dsector": [
+        3,
+        1008064
+      ],
+      "_headspritesect": [
+        3,
+        1647034
+      ],
+      "_sprite": [
+        3,
+        1104832
+      ],
+      "_nextspritesect": [
+        3,
+        1080256
+      ],
+      "_sector": [
+        3,
+        1597120
+      ],
+      "_wall": [
+        3,
+        1289152
+      ],
+      "_parallaxyscale": [
+        3,
+        1640116
+      ],
+      "_tilesizy": [
+        3,
+        1056576
+      ],
+      "_pskybits": [
+        3,
+        1649138
+      ],
+      "_parallaxtype": [
+        3,
+        1649276
+      ],
+      "_pskyoff": [
+        3,
+        1043648
+      ],
+      "_tilesizx": [
+        3,
+        1048384
+      ],
+      "_waloff": [
+        3,
+        1026752
+      ],
+      "kopen4load_": [
+        1,
+        419813
+      ],
+      "kread_": [
+        1,
+        420053
+      ],
+      "_show2dsprite": [
+        3,
+        1043136
+      ],
+      "_numwalls": [
+        3,
+        1649142
+      ],
+      "kclose_": [
+        1,
+        420443
+      ],
+      "_headspritestat": [
+        3,
+        1644984
+      ],
+      "_nextspritestat": [
+        3,
+        1088448
+      ],
+      "_palette": [
+        3,
+        1596352
+      ],
+      "allocache_": [
+        1,
+        418317
+      ],
+      "_cachedebug": [
+        3,
+        32051
+      ],
+      "_randomseed": [
+        3,
+        1644952
+      ],
+      "playmusic_": [
+        1,
+        282384
+      ],
+      "clearsoundlocks_": [
+        1,
+        286192
+      ],
+      "_FXDevice": [
+        3,
+        587736
+      ],
+      "_numplayers": [
+        3,
+        1733240
+      ],
+      "kfilelength_": [
+        1,
+        420387
+      ],
+      "_SoundToggle": [
+        3,
+        587640
+      ],
+      "_sounds": [
+        3,
+        282520
+      ],
+      "_loadfromgrouponly": [
+        3,
+        582928
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "_myconnectindex": [
+        3,
+        1733242
+      ],
+      "_ps": [
+        3,
+        376112
+      ],
+      "_soundsiz": [
+        3,
+        117424
+      ],
+      "_Sound": [
+        3,
+        574936
+      ],
+      "_ud": [
+        3,
+        579668
+      ],
+      "_screenpeek": [
+        3,
+        581290
+      ],
+      "badguy_": [
+        1,
+        10560
+      ],
+      "_hittype": [
+        3,
+        120728
+      ],
+      "_connectpoint2": [
+        3,
+        1733104
+      ],
+      "_connecthead": [
+        3,
+        1733236
+      ],
+      "sendpacket_": [
+        1,
+        423523
+      ],
+      "flushpackets_": [
+        1,
+        425035
+      ],
+      "memcpy_": [
+        1,
+        583849
+      ],
+      "FX_SetReverb_": [
+        1,
+        525956
+      ],
+      "FX_StopAllSounds_": [
+        1,
+        526644
+      ],
+      "MUSIC_StopSong_": [
+        1,
+        491101
+      ],
+      "_tempbuf": [
+        3,
+        413968
+      ],
+      "_music_fn": [
+        3,
+        582397
+      ],
+      "_level_file_names": [
+        3,
+        111808
+      ],
+      "_level_names": [
+        3,
+        581308
+      ],
+      "_max_player_health": [
+        3,
+        579532
+      ],
+      "_max_armour_amount": [
+        3,
+        579484
+      ],
+      "gameexit_": [
+        1,
+        22896
+      ],
+      "KB_FlushKeyboardQueue_": [
+        1,
+        568860
+      ],
+      "spawn_": [
+        1,
+        31536
+      ],
+      "EGS_": [
+        1,
+        30672
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "pickrandomspot_": [
+        1,
+        241456
+      ],
+      "resetinventory_": [
+        1,
+        242624
+      ],
+      "resetweapons_": [
+        1,
+        242448
+      ],
+      "setpal_": [
+        1,
+        204096
+      ],
+      "_sync": [
+        3,
+        573632
+      ],
+      "xyzmirror_": [
+        1,
+        240976
+      ],
+      "vscrn_": [
+        1,
+        241152
+      ],
+      "resetplayerstats_": [
+        1,
+        241632
+      ],
+      "resetprestat_": [
+        1,
+        242768
+      ],
+      "setupbackdrop_": [
+        1,
+        243216
+      ],
+      "cachespritenum_": [
+        1,
+        243520
+      ],
+      "cachegoodsprites_": [
+        1,
+        244976
+      ],
+      "prelevel_": [
+        1,
+        245504
+      ],
+      "newgame_": [
+        1,
+        248096
+      ],
+      "resetpspritevars_": [
+        1,
+        248432
+      ],
+      "resettimevars_": [
+        1,
+        249760
+      ],
+      "genspriteremaps_": [
+        1,
+        250224
+      ],
+      "waitforeverybody_": [
+        1,
+        250512
+      ],
+      "compare_network_value_": [
+        1,
+        250928
+      ],
+      "getsound_": [
+        1,
+        251120
+      ],
+      "precachenecessarysounds_": [
+        1,
+        251360
+      ],
+      "cacheit_": [
+        1,
+        251424
+      ],
+      "dofrontscreens_": [
+        1,
+        251776
+      ],
+      "enterlevel_": [
+        1,
+        252240
+      ],
+      "_display_mirror": [
+        3,
+        582930
+      ],
+      "animatesprites_": [
+        1,
+        47744
+      ],
+      "_pub": [
+        3,
+        582922
+      ],
+      "_pus": [
+        3,
+        582924
+      ],
+      "_numplayersprites": [
+        3,
+        582936
+      ],
+      "_po": [
+        3,
+        375856
+      ],
+      "_fricxv": [
+        3,
+        579540
+      ],
+      "_fricyv": [
+        3,
+        579536
+      ],
+      "_weapon_tiles": [
+        3,
+        31116
+      ],
+      "_spriteqloc": [
+        3,
+        581304
+      ],
+      "_spriteq": [
+        3,
+        410192
+      ],
+      "_numanimwalls": [
+        3,
+        581306
+      ],
+      "_numcyclers": [
+        3,
+        581302
+      ],
+      "_tempwallptr": [
+        3,
+        77720
+      ],
+      "_numinterpolations": [
+        3,
+        31196
+      ],
+      "_startofdynamicinterpolations": [
+        3,
+        31200
+      ],
+      "_animatecnt": [
+        3,
+        574876
+      ],
+      "_earthquaketime": [
+        3,
+        582927
+      ],
+      "_camsprite": [
+        3,
+        581294
+      ],
+      "_premap_text": [
+        3,
+        10600
+      ],
+      "_cyclers": [
+        3,
+        410896
+      ],
+      "_mirrorcnt": [
+        3,
+        581284
+      ],
+      "_mirrorwall": [
+        3,
+        119640
+      ],
+      "_mirrorsector": [
+        3,
+        119512
+      ],
+      "_animwall": [
+        3,
+        529600
+      ],
+      "_ready2send": [
+        3,
+        582935
+      ],
+      "dobonus_": [
+        1,
+        75744
+      ],
+      "_show_shareware": [
+        3,
+        573836
+      ],
+      "_myminlag": [
+        3,
+        98288
+      ],
+      "_horiz": [
+        3,
+        574852
+      ],
+      "_angvel": [
+        3,
+        574856
+      ],
+      "_svel": [
+        3,
+        574844
+      ],
+      "_vel": [
+        3,
+        574848
+      ],
+      "_syncvaltail": [
+        3,
+        573800
+      ],
+      "_syncvaltottail": [
+        3,
+        573828
+      ],
+      "_syncstat": [
+        3,
+        582920
+      ],
+      "_otherminlag": [
+        3,
+        573812
+      ],
+      "_bufferjitter": [
+        3,
+        31192
+      ],
+      "_mymaxlag": [
+        3,
+        573804
+      ],
+      "_loc": [
+        3,
+        579656
+      ],
+      "_syncvalhead": [
+        3,
+        98352
+      ],
+      "_frags": [
+        3,
+        111216
+      ],
+      "_ototalclock": [
+        3,
+        574868
+      ],
+      "_lockclock": [
+        3,
+        574884
+      ],
+      "_waterpal": [
+        3,
+        75400
+      ],
+      "_slimepal": [
+        3,
+        76936
+      ],
+      "_titlepal": [
+        3,
+        74632
+      ],
+      "_drealms": [
+        3,
+        76168
+      ],
+      "_endingpal": [
+        3,
+        73864
+      ],
+      "_wait_abort": [
+        3,
+        587556
+      ],
+      "_playerreadyflag": [
+        3,
+        367488
+      ],
+      "_movesperpacket": [
+        3,
+        31186
+      ],
+      "getpackets_": [
+        1,
+        1488
+      ],
+      "_packbuf": [
+        3,
+        410320
+      ],
+      "_received_sync_value": [
+        3,
+        574840
+      ],
+      "palto_": [
+        1,
+        198736
+      ],
+      "_boardfilename": [
+        3,
+        29836
+      ],
+      "menutext_": [
+        1,
+        179344
+      ],
+      "_music_select": [
+        3,
+        582933
+      ],
+      "allignwarpelevators_": [
+        1,
+        274944
+      ],
+      "opendemowrite_": [
+        1,
+        67600
+      ],
+      "_omyx": [
+        3,
+        573872
+      ],
+      "_myx": [
+        3,
+        573864
+      ],
+      "_omyy": [
+        3,
+        573876
+      ],
+      "_myy": [
+        3,
+        573860
+      ],
+      "_omyz": [
+        3,
+        573868
+      ],
+      "_myz": [
+        3,
+        573856
+      ],
+      "_myzvel": [
+        3,
+        573844
+      ],
+      "_myyvel": [
+        3,
+        573848
+      ],
+      "_myxvel": [
+        3,
+        573852
+      ],
+      "_omyang": [
+        3,
+        581280
+      ],
+      "_myang": [
+        3,
+        581278
+      ],
+      "_omyhoriz": [
+        3,
+        581270
+      ],
+      "_myhoriz": [
+        3,
+        581268
+      ],
+      "_omyhorizoff": [
+        3,
+        581282
+      ],
+      "_myhorizoff": [
+        3,
+        581272
+      ],
+      "_mycursectnum": [
+        3,
+        581274
+      ],
+      "_myjumpingcounter": [
+        3,
+        581276
+      ],
+      "_myjumpingtoggle": [
+        3,
+        582925
+      ],
+      "_myonground": [
+        3,
+        582926
+      ],
+      "_myhardlanding": [
+        3,
+        582923
+      ],
+      "_myreturntocenter": [
+        3,
+        582919
+      ],
+      "_everyothertime": [
+        3,
+        77738
+      ],
+      "_global_random": [
+        3,
+        581298
+      ],
+      "_fakemovefifoplc": [
+        3,
+        573840
+      ],
+      "_movefifosendplc": [
+        3,
+        579548
+      ],
+      "_movefifoplc": [
+        3,
+        574880
+      ],
+      "_inputfifo": [
+        3,
+        532672
+      ],
+      "_movefifoend": [
+        3,
+        120152
+      ],
+      "_avgbits": [
+        3,
+        574892
+      ],
+      "_avghorz": [
+        3,
+        574920
+      ],
+      "_avgavel": [
+        3,
+        574912
+      ],
+      "_avgsvel": [
+        3,
+        574904
+      ],
+      "_avgfvel": [
+        3,
+        574908
+      ],
+      "_curipos": [
+        3,
+        98416
+      ],
+      "_bakipos": [
+        3,
+        77808
+      ],
+      "_restorepalette": [
+        3,
+        77741
+      ],
+      "_playerquitflag": [
+        3,
+        287472
+      ],
+      "_dmval": [
+        3,
+        587552
+      ]
+    },
+    "local_symbols": {
+      "_dmval": [
+        3,
+        587552
+      ],
+      "_premap_text": [
+        3,
+        10600
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {
+    "EGS_": [
+      1,
+      30672
+    ],
+    "FX_SetReverb_": [
+      1,
+      525956
+    ],
+    "FX_StopAllSounds_": [
+      1,
+      526644
+    ],
+    "KB_FlushKeyboardQueue_": [
+      1,
+      568860
+    ],
+    "MUSIC_StopSong_": [
+      1,
+      491101
+    ],
+    "_FXDevice": [
+      3,
+      587736
+    ],
+    "_KB_KeyDown": [
+      3,
+      2130912
+    ],
+    "_Sound": [
+      3,
+      574936
+    ],
+    "_SoundToggle": [
+      3,
+      587640
+    ],
+    "_automapping": [
+      3,
+      1649275
+    ],
+    "_cachedebug": [
+      3,
+      32051
+    ],
+    "_connecthead": [
+      3,
+      1733236
+    ],
+    "_connectpoint2": [
+      3,
+      1733104
+    ],
+    "_headspritesect": [
+      3,
+      1647034
+    ],
+    "_headspritestat": [
+      3,
+      1644984
+    ],
+    "_hittype": [
+      3,
+      120728
+    ],
+    "_level_file_names": [
+      3,
+      111808
+    ],
+    "_level_names": [
+      3,
+      581308
+    ],
+    "_loadfromgrouponly": [
+      3,
+      582928
+    ],
+    "_max_armour_amount": [
+      3,
+      579484
+    ],
+    "_max_player_health": [
+      3,
+      579532
+    ],
+    "_music_fn": [
+      3,
+      582397
+    ],
+    "_myconnectindex": [
+      3,
+      1733242
+    ],
+    "_nextspritesect": [
+      3,
+      1080256
+    ],
+    "_nextspritestat": [
+      3,
+      1088448
+    ],
+    "_numplayers": [
+      3,
+      1733240
+    ],
+    "_numsectors": [
+      3,
+      1649144
+    ],
+    "_numwalls": [
+      3,
+      1649142
+    ],
+    "_palette": [
+      3,
+      1596352
+    ],
+    "_parallaxtype": [
+      3,
+      1649276
+    ],
+    "_parallaxyscale": [
+      3,
+      1640116
+    ],
+    "_ps": [
+      3,
+      376112
+    ],
+    "_pskybits": [
+      3,
+      1649138
+    ],
+    "_pskyoff": [
+      3,
+      1043648
+    ],
+    "_randomseed": [
+      3,
+      1644952
+    ],
+    "_screenpeek": [
+      3,
+      581290
+    ],
+    "_sector": [
+      3,
+      1597120
+    ],
+    "_show2dsector": [
+      3,
+      1008064
+    ],
+    "_show2dsprite": [
+      3,
+      1043136
+    ],
+    "_show2dwall": [
+      3,
+      1025088
+    ],
+    "_sounds": [
+      3,
+      282520
+    ],
+    "_soundsiz": [
+      3,
+      117424
+    ],
+    "_sprite": [
+      3,
+      1104832
+    ],
+    "_sync": [
+      3,
+      573632
+    ],
+    "_tempbuf": [
+      3,
+      413968
+    ],
+    "_tilesizx": [
+      3,
+      1048384
+    ],
+    "_tilesizy": [
+      3,
+      1056576
+    ],
+    "_totalclock": [
+      3,
+      1644968
+    ],
+    "_ud": [
+      3,
+      579668
+    ],
+    "_wall": [
+      3,
+      1289152
+    ],
+    "_waloff": [
+      3,
+      1026752
+    ],
+    "_xdim": [
+      3,
+      1644980
+    ],
+    "_ydim": [
+      3,
+      1644976
+    ],
+    "allocache_": [
+      1,
+      418317
+    ],
+    "badguy_": [
+      1,
+      10560
+    ],
+    "clearsoundlocks_": [
+      1,
+      286192
+    ],
+    "clearview_": [
+      1,
+      405291
+    ],
+    "deletesprite_": [
+      1,
+      353362
+    ],
+    "drawmasks_": [
+      1,
+      332796
+    ],
+    "drawrooms_": [
+      1,
+      297360
+    ],
+    "flushpackets_": [
+      1,
+      425035
+    ],
+    "flushperms_": [
+      1,
+      381313
+    ],
+    "gameexit_": [
+      1,
+      22896
+    ],
+    "kclose_": [
+      1,
+      420443
+    ],
+    "kfilelength_": [
+      1,
+      420387
+    ],
+    "kopen4load_": [
+      1,
+      419813
+    ],
+    "krand_": [
+      1,
+      377409
+    ],
+    "kread_": [
+      1,
+      420053
+    ],
+    "loadboard_": [
+      1,
+      320819
+    ],
+    "loadtile_": [
+      1,
+      328028
+    ],
+    "makepalookup_": [
+      1,
+      390263
+    ],
+    "memcpy_": [
+      1,
+      583849
+    ],
+    "nextpage_": [
+      1,
+      326546
+    ],
+    "playmusic_": [
+      1,
+      282384
+    ],
+    "rotatesprite_": [
+      1,
+      381330
+    ],
+    "sendpacket_": [
+      1,
+      423523
+    ],
+    "setpal_": [
+      1,
+      204096
+    ],
+    "setview_": [
+      1,
+      380407
+    ],
+    "setviewback_": [
+      1,
+      407131
+    ],
+    "setviewtotile_": [
+      1,
+      406660
+    ],
+    "spawn_": [
+      1,
+      31536
+    ],
+    "sprintf_": [
+      1,
+      583257
+    ],
+    "squarerotatetile_": [
+      1,
+      407532
+    ],
+    "updatesector_": [
+      1,
+      369184
+    ]
+  },
+  "anchor_evidence": [
+    "evidence/engine-function-matches.json",
+    "evidence/sounds-module.json",
+    "evidence/mmulti-module.json",
+    "evidence/fx_man-module.json",
+    "evidence/music-module.json",
+    "evidence/gamedef-module.json"
+  ],
+  "native_inventory": [
+    {
+      "source_segment": 1,
+      "name": "_TEXT",
+      "class": "CODE",
+      "size": 12654,
+      "attributes": 105
+    },
+    {
+      "source_segment": 2,
+      "name": "CONST",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169
+    },
+    {
+      "source_segment": 3,
+      "name": "CONST2",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169
+    },
+    {
+      "source_segment": 4,
+      "name": "_DATA",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169
+    },
+    {
+      "source_segment": 5,
+      "name": "_BSS",
+      "class": "BSS",
+      "size": 5,
+      "attributes": 105
+    },
+    {
+      "source_segment": 6,
+      "name": "CONST",
+      "class": "DATA",
+      "size": 278,
+      "attributes": 169
+    }
+  ],
+  "functions": [
+    {
+      "symbol": "xyzmirror_",
+      "source_offset": 0,
+      "target_offset": 240976,
+      "size": 176,
+      "comparison": {
+        "symbol": "xyzmirror_",
+        "target_object": 1,
+        "target_offset": 240976,
+        "compared_bytes": 176,
+        "verified_fixups": 21,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_display_mirror": [
+          3,
+          582930
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_tilesizx": [
+          3,
+          1048384
+        ],
+        "_tilesizy": [
+          3,
+          1056576
+        ],
+        "_waloff": [
+          3,
+          1026752
+        ],
+        "animatesprites_": [
+          1,
+          47744
+        ],
+        "drawmasks_": [
+          1,
+          332796
+        ],
+        "drawrooms_": [
+          1,
+          297360
+        ],
+        "loadtile_": [
+          1,
+          328028
+        ],
+        "setviewback_": [
+          1,
+          407131
+        ],
+        "setviewtotile_": [
+          1,
+          406660
+        ],
+        "squarerotatetile_": [
+          1,
+          407532
+        ],
+        "xyzmirror_": [
+          1,
+          240976
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "vscrn_",
+      "source_offset": 176,
+      "target_offset": 241152,
+      "size": 304,
+      "comparison": {
+        "symbol": "vscrn_",
+        "target_object": 1,
+        "target_offset": 241152,
+        "compared_bytes": 304,
+        "verified_fixups": 19,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_pub": [
+          3,
+          582922
+        ],
+        "_pus": [
+          3,
+          582924
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_xdim": [
+          3,
+          1644980
+        ],
+        "_ydim": [
+          3,
+          1644976
+        ],
+        "flushperms_": [
+          1,
+          381313
+        ],
+        "setview_": [
+          1,
+          380407
+        ],
+        "vscrn_": [
+          1,
+          241152
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "pickrandomspot_",
+      "source_offset": 480,
+      "target_offset": 241456,
+      "size": 176,
+      "comparison": {
+        "symbol": "pickrandomspot_",
+        "target_object": 1,
+        "target_offset": 241456,
+        "compared_bytes": 176,
+        "verified_fixups": 10,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_numplayersprites": [
+          3,
+          582936
+        ],
+        "_po": [
+          3,
+          375856
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "krand_": [
+          1,
+          377409
+        ],
+        "pickrandomspot_": [
+          1,
+          241456
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "resetplayerstats_",
+      "source_offset": 656,
+      "target_offset": 241632,
+      "size": 816,
+      "comparison": {
+        "symbol": "resetplayerstats_",
+        "target_object": 1,
+        "target_offset": 241632,
+        "compared_bytes": 816,
+        "verified_fixups": 14,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_fricxv": [
+          3,
+          579540
+        ],
+        "_fricyv": [
+          3,
+          579536
+        ],
+        "_palette": [
+          3,
+          1596352
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_pus": [
+          3,
+          582924
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_weapon_tiles": [
+          3,
+          31116
+        ],
+        "resetplayerstats_": [
+          1,
+          241632
+        ],
+        "setpal_": [
+          1,
+          204096
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "resetweapons_",
+      "source_offset": 1472,
+      "target_offset": 242448,
+      "size": 176,
+      "comparison": {
+        "symbol": "resetweapons_",
+        "target_object": 1,
+        "target_offset": 242448,
+        "compared_bytes": 176,
+        "verified_fixups": 1,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_ps": [
+          3,
+          376112
+        ],
+        "resetweapons_": [
+          1,
+          242448
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "resetinventory_",
+      "source_offset": 1648,
+      "target_offset": 242624,
+      "size": 144,
+      "comparison": {
+        "symbol": "resetinventory_",
+        "target_object": 1,
+        "target_offset": 242624,
+        "compared_bytes": 144,
+        "verified_fixups": 2,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_max_armour_amount": [
+          3,
+          579484
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "resetinventory_": [
+          1,
+          242624
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "resetprestat_",
+      "source_offset": 1792,
+      "target_offset": 242768,
+      "size": 448,
+      "comparison": {
+        "symbol": "resetprestat_",
+        "target_object": 1,
+        "target_offset": 242768,
+        "compared_bytes": 448,
+        "verified_fixups": 24,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_animatecnt": [
+          3,
+          574876
+        ],
+        "_camsprite": [
+          3,
+          581294
+        ],
+        "_earthquaketime": [
+          3,
+          582927
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_numanimwalls": [
+          3,
+          581306
+        ],
+        "_numcyclers": [
+          3,
+          581302
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "_numplayers": [
+          3,
+          1733240
+        ],
+        "_parallaxtype": [
+          3,
+          1649276
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_randomseed": [
+          3,
+          1644952
+        ],
+        "_screenpeek": [
+          3,
+          581290
+        ],
+        "_spriteq": [
+          3,
+          410192
+        ],
+        "_spriteqloc": [
+          3,
+          581304
+        ],
+        "_startofdynamicinterpolations": [
+          3,
+          31200
+        ],
+        "_tempwallptr": [
+          3,
+          77720
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "resetinventory_": [
+          1,
+          242624
+        ],
+        "resetprestat_": [
+          1,
+          242768
+        ],
+        "resetweapons_": [
+          1,
+          242448
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "setupbackdrop_",
+      "source_offset": 2240,
+      "target_offset": 243216,
+      "size": 304,
+      "comparison": {
+        "symbol": "setupbackdrop_",
+        "target_object": 1,
+        "target_offset": 243216,
+        "compared_bytes": 304,
+        "verified_fixups": 20,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_parallaxyscale": [
+          3,
+          1640116
+        ],
+        "_pskybits": [
+          3,
+          1649138
+        ],
+        "_pskyoff": [
+          3,
+          1043648
+        ],
+        "setupbackdrop_": [
+          1,
+          243216
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "cachespritenum_",
+      "source_offset": 2544,
+      "target_offset": 243520,
+      "size": 1456,
+      "comparison": {
+        "symbol": "cachespritenum_",
+        "target_object": 1,
+        "target_offset": 243520,
+        "compared_bytes": 1456,
+        "verified_fixups": 59,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_waloff": [
+          3,
+          1026752
+        ],
+        "badguy_": [
+          1,
+          10560
+        ],
+        "cachespritenum_": [
+          1,
+          243520
+        ],
+        "loadtile_": [
+          1,
+          328028
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "cachegoodsprites_",
+      "source_offset": 4000,
+      "target_offset": 244976,
+      "size": 528,
+      "comparison": {
+        "symbol": "cachegoodsprites_",
+        "target_object": 1,
+        "target_offset": 244976,
+        "compared_bytes": 528,
+        "verified_fixups": 35,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_ud": [
+          3,
+          579668
+        ],
+        "_waloff": [
+          3,
+          1026752
+        ],
+        "cachegoodsprites_": [
+          1,
+          244976
+        ],
+        "loadtile_": [
+          1,
+          328028
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "prelevel_",
+      "source_offset": 4528,
+      "target_offset": 245504,
+      "size": 2592,
+      "comparison": {
+        "symbol": "prelevel_",
+        "target_object": 1,
+        "target_offset": 245504,
+        "compared_bytes": 2592,
+        "verified_fixups": 148,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_animwall": [
+          3,
+          529600
+        ],
+        "_cyclers": [
+          3,
+          410896
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_mirrorcnt": [
+          3,
+          581284
+        ],
+        "_mirrorsector": [
+          3,
+          119512
+        ],
+        "_mirrorwall": [
+          3,
+          119640
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_numanimwalls": [
+          3,
+          581306
+        ],
+        "_numcyclers": [
+          3,
+          581302
+        ],
+        "_numsectors": [
+          3,
+          1649144
+        ],
+        "_numwalls": [
+          3,
+          1649142
+        ],
+        "_premap_text": [
+          3,
+          10600
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_show2dsector": [
+          3,
+          1008064
+        ],
+        "_show2dsprite": [
+          3,
+          1043136
+        ],
+        "_show2dwall": [
+          3,
+          1025088
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "_waloff": [
+          3,
+          1026752
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "gameexit_": [
+          1,
+          22896
+        ],
+        "loadtile_": [
+          1,
+          328028
+        ],
+        "prelevel_": [
+          1,
+          245504
+        ],
+        "resetprestat_": [
+          1,
+          242768
+        ],
+        "setupbackdrop_": [
+          1,
+          243216
+        ],
+        "spawn_": [
+          1,
+          31536
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ],
+        "6": [
+          3,
+          10600
+        ]
+      }
+    },
+    {
+      "symbol": "newgame_",
+      "source_offset": 7120,
+      "target_offset": 248096,
+      "size": 336,
+      "comparison": {
+        "symbol": "newgame_",
+        "target_object": 1,
+        "target_offset": 248096,
+        "compared_bytes": 336,
+        "verified_fixups": 25,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_display_mirror": [
+          3,
+          582930
+        ],
+        "_numplayers": [
+          3,
+          1733240
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_ready2send": [
+          3,
+          582935
+        ],
+        "_show_shareware": [
+          3,
+          573836
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "dobonus_": [
+          1,
+          75744
+        ],
+        "newgame_": [
+          1,
+          248096
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "resetpspritevars_",
+      "source_offset": 7456,
+      "target_offset": 248432,
+      "size": 1328,
+      "comparison": {
+        "symbol": "resetpspritevars_",
+        "target_object": 1,
+        "target_offset": 248432,
+        "compared_bytes": 1328,
+        "verified_fixups": 87,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "EGS_": [
+          1,
+          30672
+        ],
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_headspritestat": [
+          3,
+          1644984
+        ],
+        "_hittype": [
+          3,
+          120728
+        ],
+        "_max_player_health": [
+          3,
+          579532
+        ],
+        "_nextspritestat": [
+          3,
+          1088448
+        ],
+        "_numplayersprites": [
+          3,
+          582936
+        ],
+        "_po": [
+          3,
+          375856
+        ],
+        "_premap_text": [
+          3,
+          10600
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "deletesprite_": [
+          1,
+          353362
+        ],
+        "gameexit_": [
+          1,
+          22896
+        ],
+        "memcpy_": [
+          1,
+          583849
+        ],
+        "resetplayerstats_": [
+          1,
+          241632
+        ],
+        "resetpspritevars_": [
+          1,
+          248432
+        ],
+        "updatesector_": [
+          1,
+          369184
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ],
+        "6": [
+          3,
+          10600
+        ]
+      }
+    },
+    {
+      "symbol": "resettimevars_",
+      "source_offset": 8784,
+      "target_offset": 249760,
+      "size": 464,
+      "comparison": {
+        "symbol": "resettimevars_",
+        "target_object": 1,
+        "target_offset": 249760,
+        "compared_bytes": 464,
+        "verified_fixups": 21,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_angvel": [
+          3,
+          574856
+        ],
+        "_bufferjitter": [
+          3,
+          31192
+        ],
+        "_frags": [
+          3,
+          111216
+        ],
+        "_horiz": [
+          3,
+          574852
+        ],
+        "_loc": [
+          3,
+          579656
+        ],
+        "_lockclock": [
+          3,
+          574884
+        ],
+        "_mymaxlag": [
+          3,
+          573804
+        ],
+        "_myminlag": [
+          3,
+          98288
+        ],
+        "_otherminlag": [
+          3,
+          573812
+        ],
+        "_ototalclock": [
+          3,
+          574868
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_ready2send": [
+          3,
+          582935
+        ],
+        "_svel": [
+          3,
+          574844
+        ],
+        "_sync": [
+          3,
+          573632
+        ],
+        "_syncstat": [
+          3,
+          582920
+        ],
+        "_syncvalhead": [
+          3,
+          98352
+        ],
+        "_syncvaltail": [
+          3,
+          573800
+        ],
+        "_syncvaltottail": [
+          3,
+          573828
+        ],
+        "_totalclock": [
+          3,
+          1644968
+        ],
+        "_vel": [
+          3,
+          574848
+        ],
+        "resettimevars_": [
+          1,
+          249760
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "genspriteremaps_",
+      "source_offset": 9248,
+      "target_offset": 250224,
+      "size": 288,
+      "comparison": {
+        "symbol": "genspriteremaps_",
+        "target_object": 1,
+        "target_offset": 250224,
+        "compared_bytes": 288,
+        "verified_fixups": 31,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_drealms": [
+          3,
+          76168
+        ],
+        "_endingpal": [
+          3,
+          73864
+        ],
+        "_loadfromgrouponly": [
+          3,
+          582928
+        ],
+        "_palette": [
+          3,
+          1596352
+        ],
+        "_premap_text": [
+          3,
+          10600
+        ],
+        "_slimepal": [
+          3,
+          76936
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_titlepal": [
+          3,
+          74632
+        ],
+        "_waterpal": [
+          3,
+          75400
+        ],
+        "gameexit_": [
+          1,
+          22896
+        ],
+        "genspriteremaps_": [
+          1,
+          250224
+        ],
+        "kclose_": [
+          1,
+          420443
+        ],
+        "kopen4load_": [
+          1,
+          419813
+        ],
+        "kread_": [
+          1,
+          420053
+        ],
+        "makepalookup_": [
+          1,
+          390263
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ],
+        "6": [
+          3,
+          10600
+        ]
+      }
+    },
+    {
+      "symbol": "waitforeverybody_",
+      "source_offset": 9536,
+      "target_offset": 250512,
+      "size": 416,
+      "comparison": {
+        "symbol": "waitforeverybody_",
+        "target_object": 1,
+        "target_offset": 250512,
+        "compared_bytes": 416,
+        "verified_fixups": 33,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_KB_KeyDown": [
+          3,
+          2130912
+        ],
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_movesperpacket": [
+          3,
+          31186
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_numplayers": [
+          3,
+          1733240
+        ],
+        "_packbuf": [
+          3,
+          410320
+        ],
+        "_playerreadyflag": [
+          3,
+          367488
+        ],
+        "_totalclock": [
+          3,
+          1644968
+        ],
+        "_wait_abort": [
+          3,
+          587556
+        ],
+        "getpackets_": [
+          1,
+          1488
+        ],
+        "sendpacket_": [
+          1,
+          423523
+        ],
+        "waitforeverybody_": [
+          1,
+          250512
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ],
+        "5": [
+          3,
+          587552
+        ]
+      }
+    },
+    {
+      "symbol": "compare_network_value_",
+      "source_offset": 9952,
+      "target_offset": 250928,
+      "size": 192,
+      "comparison": {
+        "symbol": "compare_network_value_",
+        "target_object": 1,
+        "target_offset": 250928,
+        "compared_bytes": 192,
+        "verified_fixups": 17,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_received_sync_value": [
+          3,
+          574840
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_totalclock": [
+          3,
+          1644968
+        ],
+        "compare_network_value_": [
+          1,
+          250928
+        ],
+        "getpackets_": [
+          1,
+          1488
+        ],
+        "sendpacket_": [
+          1,
+          423523
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "getsound_",
+      "source_offset": 10144,
+      "target_offset": 251120,
+      "size": 240,
+      "comparison": {
+        "symbol": "getsound_",
+        "target_object": 1,
+        "target_offset": 251120,
+        "compared_bytes": 240,
+        "verified_fixups": 15,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_FXDevice": [
+          3,
+          587736
+        ],
+        "_Sound": [
+          3,
+          574936
+        ],
+        "_SoundToggle": [
+          3,
+          587640
+        ],
+        "_loadfromgrouponly": [
+          3,
+          582928
+        ],
+        "_sounds": [
+          3,
+          282520
+        ],
+        "_soundsiz": [
+          3,
+          117424
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "allocache_": [
+          1,
+          418317
+        ],
+        "getsound_": [
+          1,
+          251120
+        ],
+        "kclose_": [
+          1,
+          420443
+        ],
+        "kfilelength_": [
+          1,
+          420387
+        ],
+        "kopen4load_": [
+          1,
+          419813
+        ],
+        "kread_": [
+          1,
+          420053
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "precachenecessarysounds_",
+      "source_offset": 10384,
+      "target_offset": 251360,
+      "size": 64,
+      "comparison": {
+        "symbol": "precachenecessarysounds_",
+        "target_object": 1,
+        "target_offset": 251360,
+        "compared_bytes": 64,
+        "verified_fixups": 3,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_FXDevice": [
+          3,
+          587736
+        ],
+        "_Sound": [
+          3,
+          574936
+        ],
+        "getsound_": [
+          1,
+          251120
+        ],
+        "precachenecessarysounds_": [
+          1,
+          251360
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "cacheit_",
+      "source_offset": 10448,
+      "target_offset": 251424,
+      "size": 352,
+      "comparison": {
+        "symbol": "cacheit_",
+        "target_object": 1,
+        "target_offset": 251424,
+        "compared_bytes": 352,
+        "verified_fixups": 30,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "_headspritesect": [
+          3,
+          1647034
+        ],
+        "_nextspritesect": [
+          3,
+          1080256
+        ],
+        "_numsectors": [
+          3,
+          1649144
+        ],
+        "_numwalls": [
+          3,
+          1649142
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_wall": [
+          3,
+          1289152
+        ],
+        "_waloff": [
+          3,
+          1026752
+        ],
+        "cachegoodsprites_": [
+          1,
+          244976
+        ],
+        "cacheit_": [
+          1,
+          251424
+        ],
+        "cachespritenum_": [
+          1,
+          243520
+        ],
+        "loadtile_": [
+          1,
+          328028
+        ],
+        "precachenecessarysounds_": [
+          1,
+          251360
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ]
+      }
+    },
+    {
+      "symbol": "dofrontscreens_",
+      "source_offset": 10800,
+      "target_offset": 251776,
+      "size": 464,
+      "comparison": {
+        "symbol": "dofrontscreens_",
+        "target_object": 1,
+        "target_offset": 251776,
+        "compared_bytes": 464,
+        "verified_fixups": 39,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "KB_FlushKeyboardQueue_": [
+          1,
+          568860
+        ],
+        "_boardfilename": [
+          3,
+          29836
+        ],
+        "_level_names": [
+          3,
+          581308
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_palette": [
+          3,
+          1596352
+        ],
+        "_premap_text": [
+          3,
+          10600
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_xdim": [
+          3,
+          1644980
+        ],
+        "_ydim": [
+          3,
+          1644976
+        ],
+        "clearview_": [
+          1,
+          405291
+        ],
+        "dofrontscreens_": [
+          1,
+          251776
+        ],
+        "menutext_": [
+          1,
+          179344
+        ],
+        "nextpage_": [
+          1,
+          326546
+        ],
+        "palto_": [
+          1,
+          198736
+        ],
+        "rotatesprite_": [
+          1,
+          381330
+        ],
+        "vscrn_": [
+          1,
+          241152
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ],
+        "6": [
+          3,
+          10600
+        ]
+      }
+    },
+    {
+      "symbol": "enterlevel_",
+      "source_offset": 11264,
+      "target_offset": 252240,
+      "size": 1390,
+      "comparison": {
+        "symbol": "enterlevel_",
+        "target_object": 1,
+        "target_offset": 252240,
+        "compared_bytes": 1390,
+        "verified_fixups": 161,
+        "differing_offsets": [],
+        "match": true
+      },
+      "bindings": {
+        "FX_SetReverb_": [
+          1,
+          525956
+        ],
+        "FX_StopAllSounds_": [
+          1,
+          526644
+        ],
+        "MUSIC_StopSong_": [
+          1,
+          491101
+        ],
+        "_automapping": [
+          3,
+          1649275
+        ],
+        "_avgavel": [
+          3,
+          574912
+        ],
+        "_avgbits": [
+          3,
+          574892
+        ],
+        "_avgfvel": [
+          3,
+          574908
+        ],
+        "_avghorz": [
+          3,
+          574920
+        ],
+        "_avgsvel": [
+          3,
+          574904
+        ],
+        "_bakipos": [
+          3,
+          77808
+        ],
+        "_boardfilename": [
+          3,
+          29836
+        ],
+        "_cachedebug": [
+          3,
+          32051
+        ],
+        "_connecthead": [
+          3,
+          1733236
+        ],
+        "_connectpoint2": [
+          3,
+          1733104
+        ],
+        "_curipos": [
+          3,
+          98416
+        ],
+        "_everyothertime": [
+          3,
+          77738
+        ],
+        "_fakemovefifoplc": [
+          3,
+          573840
+        ],
+        "_global_random": [
+          3,
+          581298
+        ],
+        "_inputfifo": [
+          3,
+          532672
+        ],
+        "_level_file_names": [
+          3,
+          111808
+        ],
+        "_movefifoend": [
+          3,
+          120152
+        ],
+        "_movefifoplc": [
+          3,
+          574880
+        ],
+        "_movefifosendplc": [
+          3,
+          579548
+        ],
+        "_music_fn": [
+          3,
+          582397
+        ],
+        "_music_select": [
+          3,
+          582933
+        ],
+        "_myang": [
+          3,
+          581278
+        ],
+        "_myconnectindex": [
+          3,
+          1733242
+        ],
+        "_mycursectnum": [
+          3,
+          581274
+        ],
+        "_myhardlanding": [
+          3,
+          582923
+        ],
+        "_myhoriz": [
+          3,
+          581268
+        ],
+        "_myhorizoff": [
+          3,
+          581272
+        ],
+        "_myjumpingcounter": [
+          3,
+          581276
+        ],
+        "_myjumpingtoggle": [
+          3,
+          582925
+        ],
+        "_mymaxlag": [
+          3,
+          573804
+        ],
+        "_myminlag": [
+          3,
+          98288
+        ],
+        "_myonground": [
+          3,
+          582926
+        ],
+        "_myreturntocenter": [
+          3,
+          582919
+        ],
+        "_myx": [
+          3,
+          573864
+        ],
+        "_myxvel": [
+          3,
+          573852
+        ],
+        "_myy": [
+          3,
+          573860
+        ],
+        "_myyvel": [
+          3,
+          573848
+        ],
+        "_myz": [
+          3,
+          573856
+        ],
+        "_myzvel": [
+          3,
+          573844
+        ],
+        "_numinterpolations": [
+          3,
+          31196
+        ],
+        "_omyang": [
+          3,
+          581280
+        ],
+        "_omyhoriz": [
+          3,
+          581270
+        ],
+        "_omyhorizoff": [
+          3,
+          581282
+        ],
+        "_omyx": [
+          3,
+          573872
+        ],
+        "_omyy": [
+          3,
+          573876
+        ],
+        "_omyz": [
+          3,
+          573868
+        ],
+        "_otherminlag": [
+          3,
+          573812
+        ],
+        "_palette": [
+          3,
+          1596352
+        ],
+        "_playerquitflag": [
+          3,
+          287472
+        ],
+        "_premap_text": [
+          3,
+          10600
+        ],
+        "_ps": [
+          3,
+          376112
+        ],
+        "_restorepalette": [
+          3,
+          77741
+        ],
+        "_sector": [
+          3,
+          1597120
+        ],
+        "_sprite": [
+          3,
+          1104832
+        ],
+        "_tempbuf": [
+          3,
+          413968
+        ],
+        "_ud": [
+          3,
+          579668
+        ],
+        "_wait_abort": [
+          3,
+          587556
+        ],
+        "allignwarpelevators_": [
+          1,
+          274944
+        ],
+        "cacheit_": [
+          1,
+          251424
+        ],
+        "clearsoundlocks_": [
+          1,
+          286192
+        ],
+        "clearview_": [
+          1,
+          405291
+        ],
+        "dofrontscreens_": [
+          1,
+          251776
+        ],
+        "enterlevel_": [
+          1,
+          252240
+        ],
+        "flushpackets_": [
+          1,
+          425035
+        ],
+        "flushperms_": [
+          1,
+          381313
+        ],
+        "gameexit_": [
+          1,
+          22896
+        ],
+        "loadboard_": [
+          1,
+          320819
+        ],
+        "nextpage_": [
+          1,
+          326546
+        ],
+        "opendemowrite_": [
+          1,
+          67600
+        ],
+        "palto_": [
+          1,
+          198736
+        ],
+        "playmusic_": [
+          1,
+          282384
+        ],
+        "prelevel_": [
+          1,
+          245504
+        ],
+        "resetinventory_": [
+          1,
+          242624
+        ],
+        "resetpspritevars_": [
+          1,
+          248432
+        ],
+        "resettimevars_": [
+          1,
+          249760
+        ],
+        "resetweapons_": [
+          1,
+          242448
+        ],
+        "setpal_": [
+          1,
+          204096
+        ],
+        "sprintf_": [
+          1,
+          583257
+        ],
+        "vscrn_": [
+          1,
+          241152
+        ],
+        "waitforeverybody_": [
+          1,
+          250512
+        ]
+      },
+      "placements": {
+        "1": [
+          1,
+          240976
+        ],
+        "6": [
+          3,
+          10600
+        ],
+        "5": [
+          3,
+          587552
+        ]
+      }
+    }
+  ],
+  "matched_function_bytes": 12654,
+  "matched_function_fixups": 815,
+  "source_code_bytes": 12654,
+  "initialized_storage": {
+    "verified": true,
+    "initialized_bytes": 278,
+    "zero_fill_bytes": 0,
+    "verified_fixups": 0,
+    "segments": [
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 10600,
+        "compared_bytes": 278,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "_premap_text": [
+        3,
+        10600
+      ]
+    },
+    "local_symbols": {
+      "_premap_text": [
+        3,
+        10600
+      ]
+    },
+    "full_executable_rebuilt": false,
+    "source_segments": [
+      6
+    ],
+    "scope": "Complete string-pool segment only; this projection does not verify other native storage or the whole module."
+  },
+  "matched_initialized_data_bytes": 278,
+  "leading_code_prefix_verified": true,
+  "initialized_data_verified": true,
+  "bss_verified": true,
+  "bss_storage": {
+    "verified": true,
+    "initialized_bytes": 0,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 0,
+    "source_segments": [
+      5
+    ],
+    "source_symbols": {
+      "_dmval": 0,
+      "_wait_abort": 4
+    },
+    "local_symbols": {
+      "_dmval": [
+        3,
+        587552
+      ]
+    },
+    "publics": {
+      "_wait_abort": [
+        3,
+        587556
+      ]
+    },
+    "segments": [
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587552,
+        "compared_bytes": 5,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "scope": "Whole-module ordinary native inference/verification proves the private scratch and real public abort byte together; no conditional neighbor placement or standalone BSS projection."
+  },
+  "matched_bss_bytes": 5,
+  "unverified_storage": [],
+  "unverified_code_publics": [],
+  "full_module_gate": {
+    "verified": true,
+    "initialized_bytes": 12932,
+    "zero_fill_bytes": 5,
+    "verified_fixups": 815,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 240976,
+        "compared_bytes": 12654,
+        "verified_fixups": 815,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587552,
+        "compared_bytes": 5,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 10600,
+        "compared_bytes": 278,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "drawrooms_": [
+        1,
+        297360
+      ],
+      "loadboard_": [
+        1,
+        320819
+      ],
+      "nextpage_": [
+        1,
+        326546
+      ],
+      "loadtile_": [
+        1,
+        328028
+      ],
+      "drawmasks_": [
+        1,
+        332796
+      ],
+      "deletesprite_": [
+        1,
+        353362
+      ],
+      "updatesector_": [
+        1,
+        369184
+      ],
+      "krand_": [
+        1,
+        377409
+      ],
+      "setview_": [
+        1,
+        380407
+      ],
+      "flushperms_": [
+        1,
+        381313
+      ],
+      "rotatesprite_": [
+        1,
+        381330
+      ],
+      "makepalookup_": [
+        1,
+        390263
+      ],
+      "clearview_": [
+        1,
+        405291
+      ],
+      "setviewtotile_": [
+        1,
+        406660
+      ],
+      "setviewback_": [
+        1,
+        407131
+      ],
+      "squarerotatetile_": [
+        1,
+        407532
+      ],
+      "_xdim": [
+        3,
+        1644980
+      ],
+      "_ydim": [
+        3,
+        1644976
+      ],
+      "_totalclock": [
+        3,
+        1644968
+      ],
+      "_numsectors": [
+        3,
+        1649144
+      ],
+      "_automapping": [
+        3,
+        1649275
+      ],
+      "_show2dwall": [
+        3,
+        1025088
+      ],
+      "_show2dsector": [
+        3,
+        1008064
+      ],
+      "_headspritesect": [
+        3,
+        1647034
+      ],
+      "_sprite": [
+        3,
+        1104832
+      ],
+      "_nextspritesect": [
+        3,
+        1080256
+      ],
+      "_sector": [
+        3,
+        1597120
+      ],
+      "_wall": [
+        3,
+        1289152
+      ],
+      "_parallaxyscale": [
+        3,
+        1640116
+      ],
+      "_tilesizy": [
+        3,
+        1056576
+      ],
+      "_pskybits": [
+        3,
+        1649138
+      ],
+      "_parallaxtype": [
+        3,
+        1649276
+      ],
+      "_pskyoff": [
+        3,
+        1043648
+      ],
+      "_tilesizx": [
+        3,
+        1048384
+      ],
+      "_waloff": [
+        3,
+        1026752
+      ],
+      "kopen4load_": [
+        1,
+        419813
+      ],
+      "kread_": [
+        1,
+        420053
+      ],
+      "_show2dsprite": [
+        3,
+        1043136
+      ],
+      "_numwalls": [
+        3,
+        1649142
+      ],
+      "kclose_": [
+        1,
+        420443
+      ],
+      "_headspritestat": [
+        3,
+        1644984
+      ],
+      "_nextspritestat": [
+        3,
+        1088448
+      ],
+      "_palette": [
+        3,
+        1596352
+      ],
+      "allocache_": [
+        1,
+        418317
+      ],
+      "_cachedebug": [
+        3,
+        32051
+      ],
+      "_randomseed": [
+        3,
+        1644952
+      ],
+      "playmusic_": [
+        1,
+        282384
+      ],
+      "clearsoundlocks_": [
+        1,
+        286192
+      ],
+      "_FXDevice": [
+        3,
+        587736
+      ],
+      "_numplayers": [
+        3,
+        1733240
+      ],
+      "kfilelength_": [
+        1,
+        420387
+      ],
+      "_SoundToggle": [
+        3,
+        587640
+      ],
+      "_sounds": [
+        3,
+        282520
+      ],
+      "_loadfromgrouponly": [
+        3,
+        582928
+      ],
+      "sprintf_": [
+        1,
+        583257
+      ],
+      "_myconnectindex": [
+        3,
+        1733242
+      ],
+      "_ps": [
+        3,
+        376112
+      ],
+      "_soundsiz": [
+        3,
+        117424
+      ],
+      "_Sound": [
+        3,
+        574936
+      ],
+      "_ud": [
+        3,
+        579668
+      ],
+      "_screenpeek": [
+        3,
+        581290
+      ],
+      "badguy_": [
+        1,
+        10560
+      ],
+      "_hittype": [
+        3,
+        120728
+      ],
+      "_connectpoint2": [
+        3,
+        1733104
+      ],
+      "_connecthead": [
+        3,
+        1733236
+      ],
+      "sendpacket_": [
+        1,
+        423523
+      ],
+      "flushpackets_": [
+        1,
+        425035
+      ],
+      "memcpy_": [
+        1,
+        583849
+      ],
+      "FX_SetReverb_": [
+        1,
+        525956
+      ],
+      "FX_StopAllSounds_": [
+        1,
+        526644
+      ],
+      "MUSIC_StopSong_": [
+        1,
+        491101
+      ],
+      "_tempbuf": [
+        3,
+        413968
+      ],
+      "_music_fn": [
+        3,
+        582397
+      ],
+      "_level_file_names": [
+        3,
+        111808
+      ],
+      "_level_names": [
+        3,
+        581308
+      ],
+      "_max_player_health": [
+        3,
+        579532
+      ],
+      "_max_armour_amount": [
+        3,
+        579484
+      ],
+      "gameexit_": [
+        1,
+        22896
+      ],
+      "KB_FlushKeyboardQueue_": [
+        1,
+        568860
+      ],
+      "spawn_": [
+        1,
+        31536
+      ],
+      "EGS_": [
+        1,
+        30672
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "pickrandomspot_": [
+        1,
+        241456
+      ],
+      "resetinventory_": [
+        1,
+        242624
+      ],
+      "resetweapons_": [
+        1,
+        242448
+      ],
+      "setpal_": [
+        1,
+        204096
+      ],
+      "_sync": [
+        3,
+        573632
+      ],
+      "xyzmirror_": [
+        1,
+        240976
+      ],
+      "vscrn_": [
+        1,
+        241152
+      ],
+      "resetplayerstats_": [
+        1,
+        241632
+      ],
+      "resetprestat_": [
+        1,
+        242768
+      ],
+      "setupbackdrop_": [
+        1,
+        243216
+      ],
+      "cachespritenum_": [
+        1,
+        243520
+      ],
+      "cachegoodsprites_": [
+        1,
+        244976
+      ],
+      "prelevel_": [
+        1,
+        245504
+      ],
+      "newgame_": [
+        1,
+        248096
+      ],
+      "resetpspritevars_": [
+        1,
+        248432
+      ],
+      "resettimevars_": [
+        1,
+        249760
+      ],
+      "genspriteremaps_": [
+        1,
+        250224
+      ],
+      "waitforeverybody_": [
+        1,
+        250512
+      ],
+      "compare_network_value_": [
+        1,
+        250928
+      ],
+      "getsound_": [
+        1,
+        251120
+      ],
+      "precachenecessarysounds_": [
+        1,
+        251360
+      ],
+      "cacheit_": [
+        1,
+        251424
+      ],
+      "dofrontscreens_": [
+        1,
+        251776
+      ],
+      "enterlevel_": [
+        1,
+        252240
+      ],
+      "_display_mirror": [
+        3,
+        582930
+      ],
+      "animatesprites_": [
+        1,
+        47744
+      ],
+      "_pub": [
+        3,
+        582922
+      ],
+      "_pus": [
+        3,
+        582924
+      ],
+      "_numplayersprites": [
+        3,
+        582936
+      ],
+      "_po": [
+        3,
+        375856
+      ],
+      "_fricxv": [
+        3,
+        579540
+      ],
+      "_fricyv": [
+        3,
+        579536
+      ],
+      "_weapon_tiles": [
+        3,
+        31116
+      ],
+      "_spriteqloc": [
+        3,
+        581304
+      ],
+      "_spriteq": [
+        3,
+        410192
+      ],
+      "_numanimwalls": [
+        3,
+        581306
+      ],
+      "_numcyclers": [
+        3,
+        581302
+      ],
+      "_tempwallptr": [
+        3,
+        77720
+      ],
+      "_numinterpolations": [
+        3,
+        31196
+      ],
+      "_startofdynamicinterpolations": [
+        3,
+        31200
+      ],
+      "_animatecnt": [
+        3,
+        574876
+      ],
+      "_earthquaketime": [
+        3,
+        582927
+      ],
+      "_camsprite": [
+        3,
+        581294
+      ],
+      "_premap_text": [
+        3,
+        10600
+      ],
+      "_cyclers": [
+        3,
+        410896
+      ],
+      "_mirrorcnt": [
+        3,
+        581284
+      ],
+      "_mirrorwall": [
+        3,
+        119640
+      ],
+      "_mirrorsector": [
+        3,
+        119512
+      ],
+      "_animwall": [
+        3,
+        529600
+      ],
+      "_ready2send": [
+        3,
+        582935
+      ],
+      "dobonus_": [
+        1,
+        75744
+      ],
+      "_show_shareware": [
+        3,
+        573836
+      ],
+      "_myminlag": [
+        3,
+        98288
+      ],
+      "_horiz": [
+        3,
+        574852
+      ],
+      "_angvel": [
+        3,
+        574856
+      ],
+      "_svel": [
+        3,
+        574844
+      ],
+      "_vel": [
+        3,
+        574848
+      ],
+      "_syncvaltail": [
+        3,
+        573800
+      ],
+      "_syncvaltottail": [
+        3,
+        573828
+      ],
+      "_syncstat": [
+        3,
+        582920
+      ],
+      "_otherminlag": [
+        3,
+        573812
+      ],
+      "_bufferjitter": [
+        3,
+        31192
+      ],
+      "_mymaxlag": [
+        3,
+        573804
+      ],
+      "_loc": [
+        3,
+        579656
+      ],
+      "_syncvalhead": [
+        3,
+        98352
+      ],
+      "_frags": [
+        3,
+        111216
+      ],
+      "_ototalclock": [
+        3,
+        574868
+      ],
+      "_lockclock": [
+        3,
+        574884
+      ],
+      "_waterpal": [
+        3,
+        75400
+      ],
+      "_slimepal": [
+        3,
+        76936
+      ],
+      "_titlepal": [
+        3,
+        74632
+      ],
+      "_drealms": [
+        3,
+        76168
+      ],
+      "_endingpal": [
+        3,
+        73864
+      ],
+      "_wait_abort": [
+        3,
+        587556
+      ],
+      "_playerreadyflag": [
+        3,
+        367488
+      ],
+      "_movesperpacket": [
+        3,
+        31186
+      ],
+      "getpackets_": [
+        1,
+        1488
+      ],
+      "_packbuf": [
+        3,
+        410320
+      ],
+      "_received_sync_value": [
+        3,
+        574840
+      ],
+      "palto_": [
+        1,
+        198736
+      ],
+      "_boardfilename": [
+        3,
+        29836
+      ],
+      "menutext_": [
+        1,
+        179344
+      ],
+      "_music_select": [
+        3,
+        582933
+      ],
+      "allignwarpelevators_": [
+        1,
+        274944
+      ],
+      "opendemowrite_": [
+        1,
+        67600
+      ],
+      "_omyx": [
+        3,
+        573872
+      ],
+      "_myx": [
+        3,
+        573864
+      ],
+      "_omyy": [
+        3,
+        573876
+      ],
+      "_myy": [
+        3,
+        573860
+      ],
+      "_omyz": [
+        3,
+        573868
+      ],
+      "_myz": [
+        3,
+        573856
+      ],
+      "_myzvel": [
+        3,
+        573844
+      ],
+      "_myyvel": [
+        3,
+        573848
+      ],
+      "_myxvel": [
+        3,
+        573852
+      ],
+      "_omyang": [
+        3,
+        581280
+      ],
+      "_myang": [
+        3,
+        581278
+      ],
+      "_omyhoriz": [
+        3,
+        581270
+      ],
+      "_myhoriz": [
+        3,
+        581268
+      ],
+      "_omyhorizoff": [
+        3,
+        581282
+      ],
+      "_myhorizoff": [
+        3,
+        581272
+      ],
+      "_mycursectnum": [
+        3,
+        581274
+      ],
+      "_myjumpingcounter": [
+        3,
+        581276
+      ],
+      "_myjumpingtoggle": [
+        3,
+        582925
+      ],
+      "_myonground": [
+        3,
+        582926
+      ],
+      "_myhardlanding": [
+        3,
+        582923
+      ],
+      "_myreturntocenter": [
+        3,
+        582919
+      ],
+      "_everyothertime": [
+        3,
+        77738
+      ],
+      "_global_random": [
+        3,
+        581298
+      ],
+      "_fakemovefifoplc": [
+        3,
+        573840
+      ],
+      "_movefifosendplc": [
+        3,
+        579548
+      ],
+      "_movefifoplc": [
+        3,
+        574880
+      ],
+      "_inputfifo": [
+        3,
+        532672
+      ],
+      "_movefifoend": [
+        3,
+        120152
+      ],
+      "_avgbits": [
+        3,
+        574892
+      ],
+      "_avghorz": [
+        3,
+        574920
+      ],
+      "_avgavel": [
+        3,
+        574912
+      ],
+      "_avgsvel": [
+        3,
+        574904
+      ],
+      "_avgfvel": [
+        3,
+        574908
+      ],
+      "_curipos": [
+        3,
+        98416
+      ],
+      "_bakipos": [
+        3,
+        77808
+      ],
+      "_restorepalette": [
+        3,
+        77741
+      ],
+      "_playerquitflag": [
+        3,
+        287472
+      ],
+      "_dmval": [
+        3,
+        587552
+      ]
+    },
+    "local_symbols": {
+      "_dmval": [
+        3,
+        587552
+      ],
+      "_premap_text": [
+        3,
+        10600
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "scope": "All twenty-two complete native public intervals and every CODE/CONST byte and fixup verify together at one CODE placement with common external bindings. The five-byte native BSS segment owns private dmval plus the actual public one-byte wait_abort; active CODE references infer its placement without any neighbor projection or injected placement. No neighbor locals are imported. The following two zero bytes before independent SECTOR are outside the native contribution. Original linker identity, linker alignment reproduction and whole-executable identity remain unverified.",
+  "following_alignment_gap": {
+    "target_object": 1,
+    "start": 253630,
+    "end": 253632,
+    "bytes": 2,
+    "all_zero": true,
+    "source_contribution": false
+  },
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false
+}

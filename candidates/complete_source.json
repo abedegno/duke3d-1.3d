@@ -1,0 +1,2592 @@
+{
+  "schema": 1,
+  "scope": "Complete present owned source/link/binder candidate; stock supplied separately; no new recovered-source or whole target credit",
+  "source_credit_added": 0,
+  "whole_target_match": false,
+  "expected_native_sha256": "5903772b3bba5998d04fded6c3d1da3be799c6e68108bc518efaef15e87974c3",
+  "owned": [
+    {
+      "name": "actors_c",
+      "source": "src/game/actors.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320",
+        "/dDUKE13D_EFFECTOR_ASM=1"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O001.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "actors_asm",
+      "source": "src/game/moveeffectors.asm",
+      "producer": "nasm",
+      "home": "toolchains/support/nasm-2.16.03",
+      "options": [
+        "-f",
+        "obj"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O002.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "al_midi",
+      "source": "src/audio/al_midi.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0a",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O003.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "animlib",
+      "source": "src/animlib/animlib.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/otr"
+      ],
+      "reference_headers": [
+        "dukenukem3d/source"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O004.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O005.OBJ",
+      "kind": "generic",
+      "name": "awe32",
+      "source": "src/audio/awe32.c",
+      "descriptor": "modules/awe32.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0a",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ]
+    },
+    {
+      "alias": "O006.OBJ",
+      "kind": "api",
+      "name": "probe_audio_layout",
+      "module": "tools.probe_audio_layout",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "blaster"
+        },
+        {
+          "tool_home": "watcom-10.0a"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "name": "cache1d",
+      "source": "src/cache/cache1d.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/cache/include"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O007.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "config",
+      "source": "src/game/config.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include"
+      ],
+      "alias": "O008.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "debugio",
+      "source": "src/audio/debugio.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0b",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [
+        "reference/audiolib-reconstructions/SOURCE"
+      ],
+      "overlay_headers": [],
+      "alias": "O009.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "dma",
+      "source": "src/audio/dma.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O010.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "dpmi",
+      "source": "src/audio/dpmi.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O011.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "engine_asm",
+      "source": "src/engine/a.asm",
+      "producer": "masm",
+      "home": "toolchains/masm-5.10",
+      "options": [
+        "/MX",
+        "/DLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O012.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "fx_man",
+      "source": "src/audio/fx_man.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O013.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gamedef",
+      "source": "src/game/gamedef.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O014.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_addr",
+      "source": "src/gf1/gf1addr.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O015.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_divisor",
+      "source": "src/gf1/divisor.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O016.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_dma1",
+      "source": "src/gf1/gf1dma1.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O017.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_error",
+      "source": "src/gf1/gf1error.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O018.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_globals",
+      "source": "src/gf1/globals.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "dukenukem3d/source"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O019.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_mixer",
+      "source": "src/gf1/gf1mixer.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O020.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_rec",
+      "source": "src/gf1/gf1rec.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O021.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_scale",
+      "source": "src/gf1/gf1scale.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O022.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_timer",
+      "source": "src/gf1/timer.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O023.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_uart",
+      "source": "src/gf1/gf1uart.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O024.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O025.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_symbolic",
+      "module": "tools.probe_gf1_symbolic",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "gf1_utils_native"
+        },
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "name": "gf1_wdma",
+      "source": "src/gf1/gf1wdma.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O026.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_wmem",
+      "source": "src/gf1/gf1wmem.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O027.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_wnote",
+      "source": "src/gf1/gf1wnote.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O028.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_wtimer",
+      "source": "src/gf1/wtimer.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O029.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_wvoic",
+      "source": "src/gf1/gf1wvoic.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O030.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gmtimbre",
+      "source": "src/audio/gmtimbre.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [
+        "reference/audiolib-reconstructions/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O031.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gus",
+      "source": "src/audio/gus.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0b",
+      "options": [
+        "/zq",
+        "/w4",
+        "/d2",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [
+        "reference/audiolib-reconstructions/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O032.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gusmidi",
+      "source": "src/audio/gusmidi.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0b",
+      "options": [
+        "/zq",
+        "/w4",
+        "/d2",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [
+        "reference/audiolib-reconstructions/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O033.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "guswave",
+      "source": "src/audio/guswave.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0a",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O034.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O035.OBJ",
+      "kind": "api",
+      "name": "probe_irq_symbolic",
+      "module": "tools.probe_irq_symbolic",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "watcom-10.5"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "name": "ll_man",
+      "source": "src/audio/ll_man.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O036.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_crc",
+      "source": "src/mact/crc.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/5r",
+        "/s",
+        "/ort",
+        "/ol"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [
+        "src/mact"
+      ],
+      "alias": "O037.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_file",
+      "source": "src/mact/file_lib.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O038.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_joystick",
+      "source": "src/mact/joystick.asm",
+      "producer": "native-wasm",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "-fo=OUT.OBJ"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O039.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_keyboard",
+      "source": "src/mact/keyboard.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [
+        "src/mact/keyboard"
+      ],
+      "alias": "O040.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_mathutil",
+      "source": "src/mact/mathutil.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [
+        "src/mact/include"
+      ],
+      "alias": "O041.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_pent",
+      "source": "src/mact/pent.asm",
+      "producer": "native-wasm",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "-fo=OUT.OBJ"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O042.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_precise",
+      "source": "src/mact/precise.asm",
+      "producer": "native-wasm",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "-fo=OUT.OBJ"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O043.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_random",
+      "source": "src/mact/random.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [
+        "src/mact/random/include"
+      ],
+      "alias": "O044.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "rgb_c",
+      "source": "src/mact/rgb.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/dDUKE13D_RGB_TABLE_ASM=1"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O045.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "rgb_asm",
+      "source": "src/mact/rgb_make_table.asm",
+      "producer": "nasm",
+      "home": "toolchains/support/nasm-2.16.03",
+      "options": [
+        "-f",
+        "obj"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O046.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mact_util",
+      "source": "src/mact/util_lib.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O047.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "menues",
+      "source": "src/game/menues.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O048.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "midi",
+      "source": "src/audio/midi.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0a",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O049.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mmulti",
+      "source": "src/network/mmulti.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.5",
+      "options": [
+        "/4r",
+        "/s",
+        "/or",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/build-reconstructions"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O050.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mpu401",
+      "source": "src/audio/mpu401.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O051.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "multivoc",
+      "source": "src/audio/multivoc.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0b",
+      "options": [
+        "/omaxne",
+        "/zp4",
+        "/5r",
+        "/zu",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [
+        "reference/audiolib-reconstructions/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O052.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "music",
+      "source": "src/audio/music.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0b",
+      "options": [
+        "/omaxne",
+        "/zp4",
+        "/5r",
+        "/zu"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O053.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mv_mix",
+      "source": "src/audio/mv_mix.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/t",
+        "/p",
+        "/mx",
+        "/w2",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O054.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mv_mix16",
+      "source": "src/audio/mv_mix16.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/t",
+        "/p",
+        "/mx",
+        "/w2",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O055.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "mvreverb",
+      "source": "src/audio/mvreverb.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/t",
+        "/p",
+        "/mx",
+        "/w2",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O056.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O057.OBJ",
+      "kind": "api",
+      "name": "probe_audio_layout",
+      "module": "tools.probe_audio_layout",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "pas16"
+        },
+        {
+          "tool_home": "watcom-10.0a"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O058.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_states",
+      "module": "tools.probe_pawe_states",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "midivar"
+        },
+        {
+          "tool_home": "watcom-10.0-ga"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O059.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_states",
+      "module": "tools.probe_pawe_states",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "nrpnvar"
+        },
+        {
+          "tool_home": "watcom-10.0-ga"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "name": "pitch",
+      "source": "src/audio/pitch.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O060.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "player",
+      "source": "src/game/player.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O061.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "premap",
+      "source": "src/game/premap.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O062.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "rts",
+      "source": "src/rts/rts.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/oteir"
+      ],
+      "reference_headers": [
+        "dukenukem3d/source"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O063.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "sector",
+      "source": "src/game/sector.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O064.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O065.OBJ",
+      "kind": "api",
+      "name": "probe_audio_layout",
+      "module": "tools.probe_audio_layout",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "sndscape"
+        },
+        {
+          "tool_home": "watcom-10.0a"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O066.OBJ",
+      "kind": "api",
+      "name": "probe_audio_layout",
+      "module": "tools.probe_audio_layout",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "sndsrc"
+        },
+        {
+          "tool_home": "watcom-10.0-ga"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "name": "sounds",
+      "source": "src/game/sounds.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/zu",
+        "/dAPPVER_EXEDEF=DN3D13G"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include"
+      ],
+      "alias": "O067.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "task_man",
+      "source": "src/audio/task_man.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.5",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "dukenukem3d/audiolib/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O068.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "user",
+      "source": "src/audio/user.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0b",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r",
+        "/dLIBVER_ASSREV=19960116"
+      ],
+      "reference_headers": [
+        "reference/audiolib-reconstructions/SOURCE"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ],
+      "alias": "O069.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "watcom_rand",
+      "source": "src/runtime/rand.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/3r",
+        "/s",
+        "/os"
+      ],
+      "reference_headers": [
+        "src/runtime/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O070.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O071.OBJ",
+      "kind": "game-main",
+      "name": "GAME symbolic whole backend",
+      "source": "src/game/symbolic/GAME.S"
+    },
+    {
+      "name": "global",
+      "source": "src/game/global.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/4r",
+        "/s",
+        "/ort",
+        "/dAPPVER_EXEDEF=DN3D13G",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "reference/duke3d-reconstructions",
+        "reference/duke3d-reconstructions/MACT"
+      ],
+      "overlay_headers": [
+        "src/include",
+        "src/game/include",
+        "src/engine/include"
+      ],
+      "alias": "O072.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "engine",
+      "source": "src/engine/engine.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.5",
+      "options": [
+        "/4r",
+        "/s",
+        "/or",
+        "/dLIBVER_BUILDREV=19960320"
+      ],
+      "reference_headers": [
+        "src/engine/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O073.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O074.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_symbolic",
+      "module": "tools.probe_gf1_symbolic",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "gf1_dma"
+        },
+        {
+          "tool_home": "gnu-elf-omf-imports"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O075.OBJ",
+      "kind": "generic",
+      "name": "gf1_isr",
+      "source": "src/gf1/gf1isr.c",
+      "descriptor": "modules/gf1_isr.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d2",
+        "/mf",
+        "/ot",
+        "/s",
+        "/of+",
+        "/or"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": []
+    },
+    {
+      "name": "gf1_candidate_gf1mem",
+      "source": "src/gf1/gf1mem.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O076.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O077.OBJ",
+      "kind": "api",
+      "name": "gf1_note_elf",
+      "module": "tools.build_gf1_note_elf",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "name": "gf1_candidate_gf1note1",
+      "source": "src/gf1/gf1note1.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O078.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_candidate_gf1patch",
+      "source": "src/gf1/gf1patch.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [
+        "src/gf1/lineage/watcom"
+      ],
+      "alias": "O079.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_candidate_gf1voice",
+      "source": "src/gf1/gf1voice.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O080.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_candidate_gf1wisr",
+      "source": "src/gf1/gf1wisr.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O081.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O082.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_embed",
+      "module": "tools.probe_pawe_embed",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "watcom-10.0-ga"
+        },
+        {
+          "asset_home": "pawe"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O083.OBJ",
+      "kind": "generic",
+      "name": "gf1_sem",
+      "source": "src/gf1/gf1sem.asm",
+      "descriptor": "modules/gf1_sem.json",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [
+        "dukenukem3d/source"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ]
+    },
+    {
+      "alias": "O084.OBJ",
+      "kind": "generic",
+      "name": "gf1_wuart",
+      "source": "src/gf1/gf1wuart.asm",
+      "descriptor": "modules/gf1_wuart.json",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [
+        "dukenukem3d/source"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ]
+    },
+    {
+      "alias": "O085.OBJ",
+      "kind": "generic",
+      "name": "mact_scriplib",
+      "source": "src/mact/scriplib.c",
+      "descriptor": "modules/mact_scriplib.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "src/mact/scriplib"
+      ],
+      "overlay_headers": []
+    },
+    {
+      "alias": "O086.OBJ",
+      "kind": "generic",
+      "name": "mact_tokenlib",
+      "source": "src/mact/tokenlib.c",
+      "descriptor": "modules/mact_tokenlib.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/omaxnet",
+        "/zp4",
+        "/5r"
+      ],
+      "reference_headers": [
+        "src/mact/tokenlib"
+      ],
+      "overlay_headers": []
+    },
+    {
+      "alias": "O087.OBJ",
+      "kind": "generic",
+      "name": "gf1_wave",
+      "source": "src/gf1/gf1wave.c",
+      "descriptor": "modules/gf1_wave.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [
+        "src/gf1/lineage/watcom"
+      ]
+    },
+    {
+      "name": "gf1_pat1",
+      "source": "src/gf1/gf1pat1.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [
+        "src/gf1/lineage/watcom"
+      ],
+      "alias": "O088.OBJ",
+      "kind": "generic"
+    },
+    {
+      "name": "gf1_midi",
+      "source": "src/gf1/gf1midi.c",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": [],
+      "alias": "O089.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O090.OBJ",
+      "kind": "generic",
+      "name": "gf1_ainit",
+      "source": "src/gf1/gf1ainit.asm",
+      "descriptor": "modules/gf1_ainit.json",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [
+        "dukenukem3d/source"
+      ],
+      "overlay_headers": [
+        "src/include"
+      ]
+    },
+    {
+      "alias": "O091.OBJ",
+      "kind": "generic",
+      "name": "gf1_digpause",
+      "source": "src/gf1/digpause.c",
+      "descriptor": "modules/gf1_digpause.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": []
+    },
+    {
+      "alias": "O092.OBJ",
+      "kind": "generic",
+      "name": "gf1_digpos",
+      "source": "src/gf1/digpos.c",
+      "descriptor": "modules/gf1_digpos.json",
+      "producer": "watcom",
+      "home": "toolchains/watcom-10.0-ga",
+      "options": [
+        "/zq",
+        "/dNOSEM",
+        "/d1",
+        "/mf",
+        "/oiaxt",
+        "/of+"
+      ],
+      "reference_headers": [
+        "src/gf1/include"
+      ],
+      "overlay_headers": []
+    },
+    {
+      "alias": "O093.OBJ",
+      "kind": "api",
+      "name": "gf1_init_candidate",
+      "module": "tools.build_gf1_init_candidate",
+      "function": "compile_candidate",
+      "args": [
+        {
+          "literal": "gf1_init"
+        }
+      ],
+      "kwargs": {
+        "home": {
+          "tool_home": "watcom-10.0-ga"
+        }
+      }
+    },
+    {
+      "name": "gf1_init2_candidate",
+      "source": "src/gf1/gf1init2.asm",
+      "producer": "tasm",
+      "home": "toolchains/tasm-3.1",
+      "options": [
+        "/q",
+        "/t",
+        "/ml",
+        "/d__FLAT__",
+        "/j.386p"
+      ],
+      "reference_headers": [],
+      "overlay_headers": [],
+      "alias": "O094.OBJ",
+      "kind": "generic"
+    },
+    {
+      "alias": "O095.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_detct",
+      "module": "tools.probe_gf1_detct",
+      "function": "assemble",
+      "args": [
+        {
+          "tool_home": "watcom-10.0-ga"
+        },
+        {
+          "source_path": "src/gf1/gf1detct.asm"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O096.OBJ",
+      "kind": "api",
+      "name": "build_gf1_os_preserved",
+      "module": "tools.build_gf1_os_preserved",
+      "function": "compile_preserved",
+      "args": [],
+      "kwargs": {
+        "home": {
+          "tool_home": "watcom-10.0-ga"
+        }
+      }
+    },
+    {
+      "alias": "O097.OBJ",
+      "kind": "api",
+      "name": "probe_mact_vidmsdos",
+      "module": "tools.probe_mact_vidmsdos",
+      "function": "compile_only",
+      "args": [
+        {
+          "tool_home": "watcom-10.0-ga"
+        },
+        {
+          "source_path": "src/mact/vidmsdos.c"
+        },
+        {
+          "source_path": "src/mact/vidmsdos"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O098.OBJ",
+      "kind": "api",
+      "name": "mact_control",
+      "module": "tools.probe_mact_control",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O099.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_dram",
+      "module": "tools.probe_gf1_dram",
+      "function": "assemble",
+      "args": [
+        {
+          "tool_home": "watcom-10.0-ga"
+        },
+        {
+          "source_path": "src/gf1/gf1dram.asm"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O100.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_hardware",
+      "module": "tools.probe_pawe_hardware",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O101.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_nrpn",
+      "module": "tools.probe_pawe_nrpn",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O102.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_sbkload",
+      "module": "tools.probe_pawe_sbkload",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O103.OBJ",
+      "kind": "api",
+      "name": "probe_pawe_midieng",
+      "module": "tools.probe_pawe_midieng",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O104.OBJ",
+      "kind": "api",
+      "name": "gf1_digital_elf",
+      "module": "tools.build_gf1_digital_elf",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O105.OBJ",
+      "kind": "api",
+      "name": "mact_zone_elf",
+      "module": "tools.build_mact_zone_elf",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O106.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_tiny",
+      "module": "tools.probe_gf1_tiny",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "gf1_voltab"
+        },
+        {
+          "tool_home": "watcom-10.0-ga"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O107.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_tiny",
+      "module": "tools.probe_gf1_tiny",
+      "function": "build_source",
+      "args": [
+        {
+          "literal": "gf1_wdigital"
+        },
+        {
+          "tool_home": "tasm-3.1"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O108.OBJ",
+      "kind": "api",
+      "name": "mact_debug_elf",
+      "module": "tools.build_mact_debug_elf",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O109.OBJ",
+      "kind": "api",
+      "name": "probe_mact_time",
+      "module": "tools.probe_mact_time",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "watcom-10.0-ga"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O110.OBJ",
+      "kind": "api",
+      "name": "gf1_sound_elf",
+      "module": "tools.build_gf1_sound_elf",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O111.OBJ",
+      "kind": "api",
+      "name": "probe_gf1_wsound",
+      "module": "tools.probe_gf1_wsound",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "tasm-3.1"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O112.OBJ",
+      "kind": "api",
+      "name": "probe_mact_vector",
+      "module": "tools.probe_mact_vector",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "watcom-10.0-ga"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O113.OBJ",
+      "kind": "game-tail",
+      "name": "GAME genuine six-public tail",
+      "source": "src/game/game_tail.asm"
+    },
+    {
+      "alias": "O114.OBJ",
+      "kind": "api",
+      "name": "probe_mact_rox",
+      "module": "tools.probe_mact_rox",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O115.OBJ",
+      "kind": "api",
+      "name": "probe_mact_wad",
+      "module": "tools.probe_mact_wad",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O116.OBJ",
+      "kind": "api",
+      "name": "probe_mact_penttime",
+      "module": "tools.probe_mact_penttime",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf-imports"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O117.OBJ",
+      "kind": "api",
+      "name": "probe_mact_tlibdos",
+      "module": "tools.probe_mact_tlibdos",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O118.OBJ",
+      "kind": "api",
+      "name": "probe_mact_taskman_late",
+      "module": "tools.probe_mact_taskman_late",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "watcom-10.5"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O119.OBJ",
+      "kind": "api",
+      "name": "probe_mact_anim_late",
+      "module": "tools.probe_mact_anim_late",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O120.OBJ",
+      "kind": "api",
+      "name": "probe_mact_clrmap",
+      "module": "tools.probe_mact_clrmap",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf-imports"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O121.OBJ",
+      "kind": "api",
+      "name": "probe_mact_mipmap",
+      "module": "tools.probe_mact_mipmap",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf-imports"
+        }
+      ],
+      "kwargs": {}
+    },
+    {
+      "alias": "O122.OBJ",
+      "kind": "api",
+      "name": "probe_mact_lbmlib",
+      "module": "tools.probe_mact_lbmlib",
+      "function": "build_source",
+      "args": [
+        {
+          "tool_home": "gnu-elf-omf-imports"
+        }
+      ],
+      "kwargs": {}
+    }
+  ],
+  "preserved_data": {
+    "source": "src/game/unidentified13d_data.S",
+    "module": "tools.build_unidentified_data",
+    "function": "build",
+    "alias": "UNIDENT.OBJ",
+    "home": "gnu-elf-omf",
+    "source_meaning": "Explicit user-approved unidentified DATA96; no historical source credit"
+  },
+  "link": {
+    "directives": [
+      "system dos4g",
+      "segment type code loadoncall",
+      "segment type data loadoncall",
+      "option map=OUT.MAP",
+      "option verbose",
+      "option statics",
+      "option stack=50k",
+      "reference _cstart_",
+      "option maxerrors=2000",
+      "option nodefaultlibs",
+      "name game.exe"
+    ],
+    "files": [
+      "O071.OBJ",
+      "O113.OBJ",
+      "O001.OBJ",
+      "O002.OBJ",
+      "O014.OBJ",
+      "UNIDENT.OBJ",
+      "O072.OBJ",
+      "O048.OBJ",
+      "O061.OBJ",
+      "O062.OBJ",
+      "O064.OBJ",
+      "O067.OBJ",
+      "O063.OBJ",
+      "O008.OBJ",
+      "O073.OBJ",
+      "O012.OBJ",
+      "O007.OBJ",
+      "O050.OBJ",
+      "O004.OBJ",
+      "O059.OBJ",
+      "O101.OBJ",
+      "O102.OBJ",
+      "O100.OBJ",
+      "O058.OBJ",
+      "O103.OBJ",
+      "O082.OBJ",
+      "O096.OBJ",
+      "O110.OBJ",
+      "O020.OBJ",
+      "O021.OBJ",
+      "O024.OBJ",
+      "O106.OBJ",
+      "O089.OBJ",
+      "O018.OBJ",
+      "O023.OBJ",
+      "O078.OBJ",
+      "O022.OBJ",
+      "O077.OBJ",
+      "O092.OBJ",
+      "O091.OBJ",
+      "O104.OBJ",
+      "O087.OBJ",
+      "O088.OBJ",
+      "O079.OBJ",
+      "O015.OBJ",
+      "O017.OBJ",
+      "O016.OBJ",
+      "O074.OBJ",
+      "O080.OBJ",
+      "O025.OBJ",
+      "O099.OBJ",
+      "O076.OBJ",
+      "O019.OBJ",
+      "O095.OBJ",
+      "O075.OBJ",
+      "O093.OBJ",
+      "O081.OBJ",
+      "O107.OBJ",
+      "O029.OBJ",
+      "O111.OBJ",
+      "O084.OBJ",
+      "O028.OBJ",
+      "O026.OBJ",
+      "O030.OBJ",
+      "O027.OBJ",
+      "O083.OBJ",
+      "O094.OBJ",
+      "O090.OBJ",
+      "O069.OBJ",
+      "O068.OBJ",
+      "O066.OBJ",
+      "O065.OBJ",
+      "O060.OBJ",
+      "O057.OBJ",
+      "O053.OBJ",
+      "O056.OBJ",
+      "O055.OBJ",
+      "O054.OBJ",
+      "O052.OBJ",
+      "O051.OBJ",
+      "O049.OBJ",
+      "O036.OBJ",
+      "O035.OBJ",
+      "O034.OBJ",
+      "O033.OBJ",
+      "O032.OBJ",
+      "O013.OBJ",
+      "O011.OBJ",
+      "O010.OBJ",
+      "O009.OBJ",
+      "O006.OBJ",
+      "O005.OBJ",
+      "O003.OBJ",
+      "O031.OBJ",
+      "O108.OBJ",
+      "O116.OBJ",
+      "O042.OBJ",
+      "O114.OBJ",
+      "O117.OBJ",
+      "O043.OBJ",
+      "O039.OBJ",
+      "O105.OBJ",
+      "O115.OBJ",
+      "O097.OBJ",
+      "O112.OBJ",
+      "O047.OBJ",
+      "O109.OBJ",
+      "O118.OBJ",
+      "O086.OBJ",
+      "O085.OBJ",
+      "O045.OBJ",
+      "O046.OBJ",
+      "O044.OBJ",
+      "O121.OBJ",
+      "O041.OBJ",
+      "O122.OBJ",
+      "O040.OBJ",
+      "O038.OBJ",
+      "O037.OBJ",
+      "O098.OBJ",
+      "O120.OBJ",
+      "O119.OBJ",
+      "R042.OBJ",
+      "R119.OBJ",
+      "R011.OBJ",
+      "R086.OBJ",
+      "R063.OBJ",
+      "R012.OBJ",
+      "R074.OBJ",
+      "R113.OBJ",
+      "I001.OBJ",
+      "R065.OBJ",
+      "I002.OBJ",
+      "O070.OBJ",
+      "R096.OBJ",
+      "R041.OBJ",
+      "R088.OBJ",
+      "I003.OBJ",
+      "R039.OBJ",
+      "R078.OBJ",
+      "R083.OBJ",
+      "R081.OBJ",
+      "I004.OBJ",
+      "R134.OBJ",
+      "R010.OBJ",
+      "R107.OBJ",
+      "R114.OBJ",
+      "I005.OBJ",
+      "R043.OBJ",
+      "D001.OBJ",
+      "R105.OBJ",
+      "R102.OBJ",
+      "R013.OBJ",
+      "I006.OBJ",
+      "R109.OBJ",
+      "R014.OBJ",
+      "R023.OBJ",
+      "R066.OBJ",
+      "I007.OBJ",
+      "I008.OBJ",
+      "R062.OBJ",
+      "R030.OBJ",
+      "R099.OBJ",
+      "R098.OBJ",
+      "D003.OBJ",
+      "R091.OBJ",
+      "R095.OBJ",
+      "R024.OBJ",
+      "R101.OBJ",
+      "R112.OBJ",
+      "R097.OBJ",
+      "R033.OBJ",
+      "R071.OBJ",
+      "R015.OBJ",
+      "R100.OBJ",
+      "R027.OBJ",
+      "R008.OBJ",
+      "R006.OBJ",
+      "R059.OBJ",
+      "R058.OBJ",
+      "R028.OBJ",
+      "R003.OBJ",
+      "R116.OBJ",
+      "R120.OBJ",
+      "R025.OBJ",
+      "R021.OBJ",
+      "R076.OBJ",
+      "R069.OBJ",
+      "R047.OBJ",
+      "R064.OBJ",
+      "R044.OBJ",
+      "R045.OBJ",
+      "F001.OBJ",
+      "I009.OBJ",
+      "R068.OBJ",
+      "R007.OBJ",
+      "I010.OBJ",
+      "R055.OBJ",
+      "R032.OBJ",
+      "R056.OBJ",
+      "I011.OBJ",
+      "R124.OBJ",
+      "R036.OBJ",
+      "R118.OBJ",
+      "R004.OBJ",
+      "R048.OBJ",
+      "R123.OBJ",
+      "R079.OBJ",
+      "R087.OBJ",
+      "D004.OBJ",
+      "R073.OBJ",
+      "I012.OBJ",
+      "R077.OBJ",
+      "R082.OBJ",
+      "R108.OBJ",
+      "I013.OBJ",
+      "R057.OBJ",
+      "D005.OBJ",
+      "R080.OBJ",
+      "R018.OBJ",
+      "R135.OBJ",
+      "R094.OBJ",
+      "R016.OBJ",
+      "R085.OBJ",
+      "R111.OBJ",
+      "R034.OBJ",
+      "R022.OBJ",
+      "R046.OBJ",
+      "R089.OBJ",
+      "R117.OBJ",
+      "D006.OBJ",
+      "R020.OBJ",
+      "R005.OBJ",
+      "R031.OBJ",
+      "R103.OBJ",
+      "I014.OBJ",
+      "D007.OBJ",
+      "R061.OBJ",
+      "R017.OBJ",
+      "R029.OBJ",
+      "R110.OBJ",
+      "R075.OBJ",
+      "D002.OBJ",
+      "R009.OBJ",
+      "D008.OBJ",
+      "R067.OBJ",
+      "I015.OBJ",
+      "R072.OBJ",
+      "I021.OBJ",
+      "I022.OBJ",
+      "R092.OBJ",
+      "R104.OBJ",
+      "R001.OBJ",
+      "D009.OBJ",
+      "R129.OBJ",
+      "R128.OBJ",
+      "I016.OBJ",
+      "R115.OBJ",
+      "R038.OBJ",
+      "D010.OBJ",
+      "I017.OBJ",
+      "R084.OBJ",
+      "R090.OBJ",
+      "I018.OBJ",
+      "I019.OBJ",
+      "R106.OBJ",
+      "R060.OBJ",
+      "R040.OBJ",
+      "R037.OBJ",
+      "D013.OBJ",
+      "R026.OBJ",
+      "R002.OBJ",
+      "R070.OBJ",
+      "I024.OBJ",
+      "R133.OBJ",
+      "D011.OBJ",
+      "D012.OBJ",
+      "R093.OBJ",
+      "D014.OBJ",
+      "S001.OBJ",
+      "R035.OBJ",
+      "I020.OBJ",
+      "I023.OBJ",
+      "R054.OBJ",
+      "R126.OBJ",
+      "R121.OBJ",
+      "R125.OBJ",
+      "D015.OBJ",
+      "R130.OBJ",
+      "R127.OBJ",
+      "R050.OBJ",
+      "R053.OBJ",
+      "R122.OBJ",
+      "R131.OBJ",
+      "R019.OBJ",
+      "R051.OBJ",
+      "R052.OBJ",
+      "R049.OBJ",
+      "R132.OBJ",
+      "R136.OBJ"
+    ],
+    "libraries": [
+      "C105.LIB",
+      "M105.LIB",
+      "CGA.LIB",
+      "MGA.LIB",
+      "EGA.LIB"
+    ],
+    "tool_home": "watcom-10.0-ga"
+  },
+  "assets": {
+    "pawe_manifest": "src/pawe32/embed/assets.json",
+    "default_home": "build/assets/pawe"
+  },
+  "runtime_manifest": "candidates/stock_runtime_inputs.json",
+  "vendor_prefix": {
+    "bytes": 217764,
+    "sha256": "21d1cda74c1f4e379b5796c8f33a6619dfced9e5b8eef2df642a21b91fc882ff",
+    "scope": "Supplied pinned DOS4GW prefix only, no game payload"
+  },
+  "game_profile": "profiles/gnu_elf_omf_game/profile.json",
+  "unapproved_CONST_offsets": [
+    47,
+    93,
+    94,
+    98,
+    99,
+    134,
+    135
+  ],
+  "expected_duplicate_publics": {
+    "O118.OBJ": [
+      "TS_Shutdown_",
+      "TS_ScheduleTask_",
+      "TS_Terminate_",
+      "TS_Dispatch_",
+      "TS_SetTaskRate_",
+      "_TS_InInterrupt"
+    ],
+    "O119.OBJ": [
+      "CheckAnimStarted_",
+      "findpage_",
+      "loadpage_",
+      "CPlayRunSkipDump_",
+      "renderframe_",
+      "drawframe_",
+      "ANIM_LoadAnim_",
+      "ANIM_FreeAnim_",
+      "ANIM_NumFrames_",
+      "ANIM_DrawFrame_",
+      "ANIM_GetPalette_"
+    ]
+  },
+  "expected_selected_duplicate_owners": {
+    "TS_Shutdown_": "O068.OBJ",
+    "TS_ScheduleTask_": "O068.OBJ",
+    "TS_Terminate_": "O068.OBJ",
+    "TS_Dispatch_": "O068.OBJ",
+    "TS_SetTaskRate_": "O068.OBJ",
+    "_TS_InInterrupt": "O068.OBJ",
+    "CheckAnimStarted_": "O004.OBJ",
+    "findpage_": "O004.OBJ",
+    "loadpage_": "O004.OBJ",
+    "CPlayRunSkipDump_": "O004.OBJ",
+    "renderframe_": "O004.OBJ",
+    "drawframe_": "O004.OBJ",
+    "ANIM_LoadAnim_": "O004.OBJ",
+    "ANIM_FreeAnim_": "O004.OBJ",
+    "ANIM_NumFrames_": "O004.OBJ",
+    "ANIM_DrawFrame_": "O004.OBJ",
+    "ANIM_GetPalette_": "O004.OBJ"
+  },
+  "generic_toolchain_identities": {
+    "masm-5.10": {
+      "kind": "complete-home",
+      "files": 1,
+      "manifest_sha256": "a0f3184886d7540c487b9722b50d04afb2fe8abe19c7fee1cd8076976329e9fc"
+    },
+    "support/nasm-2.16.03": {
+      "kind": "named-files",
+      "files_sha256": {
+        "nasm": "c6d2ce2396140d994438a98ef45a8f0e8c9c90b0edb7ad418352bca051e0c295"
+      }
+    },
+    "tasm-3.1": {
+      "kind": "complete-home",
+      "files": 2,
+      "manifest_sha256": "efbf0e31093770d3b96601924d0819ceb1a96a8d70ddfaa0bb90120fb926b8b2"
+    },
+    "watcom-10.0-ga": {
+      "kind": "complete-home",
+      "files": 500,
+      "manifest_sha256": "63118e9d38d77ba67d91d09ebedae18ec72bd78b4857553fb30b0be1ab0a4a40"
+    },
+    "watcom-10.0a": {
+      "kind": "complete-home",
+      "files": 723,
+      "manifest_sha256": "e470161076a58ad136dbe96bbf77ee64f9e8844372d8ca6ef6eda624596e946d"
+    },
+    "watcom-10.0b": {
+      "kind": "complete-home",
+      "files": 723,
+      "manifest_sha256": "5119e1680d840fa8daf218e0dad175ac87775ff96da890bb4d2d52f1f955c2ca"
+    },
+    "watcom-10.5": {
+      "kind": "complete-home",
+      "files": 1114,
+      "manifest_sha256": "f85c7bf7d2aed5b4fc84eb6116f37986f576aaa3e5f82cf335897625d23dc5bb"
+    }
+  },
+  "source_baseline_native_sha256": "16778a2885510dbe1f92aacd9d0692511907aac50edba91118dcee293ab7983b",
+  "link_order_evidence": "Metadata-only causal native-order trials637/638: O012 immediately afterO073; D005 immediately beforeR080. All source/runtime objects unchanged; full loaded bytes/field geometry must remain equal."
+}

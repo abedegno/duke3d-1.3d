@@ -1,0 +1,213 @@
+{
+  "kind": "historical source/object references; no recovered source counted",
+  "archive_url": "https://ny.duke4.net/files/stuff/kenbuild-related-archives-20241213.7z",
+  "release_url": "https://forums.duke4.net/topic/12612-release-historical-snapshots-of-ken-silvermans-works/",
+  "archive_sha256": "08666b77e36f3033a6f3f3b2bf1c43fa655923705cac8d97df0249ce4a2891bd",
+  "archive_bytes": 6605010,
+  "archive_crc_test": "7z t: Everything is Ok; 1681 files, 44 folders, 72961563 expanded bytes",
+  "path_validation": "1725 paths checked: no absolute paths, parent components, colon paths or link metadata",
+  "fileslst_sha256": "b095d24170bf302fdd78be26988559727e2704b0c491a983628c1e9e07cbc73c",
+  "selected_sources_sha256": {
+    "BUILDBAK/ENGINE.C": "92e401fe665ebe2ac0e3b0e5702e58a509599fbe16e2c017e123f67976ae79ed",
+    "BUILDBAK/CACHE1D.C": "b55652fc719c1c95c246173f241877e63848ccdd1766e523c0ace9273302886b",
+    "BUILDBAK/BUILD.H": "8876d9e86a5cd1cd60fdb2a44cbd21740a8fa2cd1a40dfce9ea75933a06ad386",
+    "BUILDBAK/PRAGMAS.H": "82ba32e7aa8162b0dd8396d0d8f0db617579c19d6d7687f53d9543496934aebe",
+    "BUILDBAK/VES2.H": "6f3e0361b6c4dcf4440069be3e8748dd63a2ee7f231ccc253af2bcc20c090387",
+    "BUILDBAK/MAKEFILE": "9b3e5d1960c967d842b70e0650fa8ddd40921cb712b2cda869e4c29bbaeddec9",
+    "buil062896/ENGINE.C": "8cf0ff220eaec4daf5813252ba85c74e21ed6d201f316691290624a263e524a7",
+    "buil062896/CACHE1D.C": "2154f8d5d6443c71b6fad8b01bb8f58df10294dcf0a4d5988e2fb10f1a00b4c6"
+  },
+  "objects": [
+    {
+      "path": "BUI1101B/ENGINE.OBJ",
+      "sha256": "25a3df68206838f5892ac4276371a979ae587fb489478e21aa0dbd5685d81f7d",
+      "candidate_counts": {
+        "not_found": 99,
+        "candidate": 28,
+        "insufficient_anchor": 6
+      }
+    },
+    {
+      "path": "BUIL0408/ENGINE.OBJ",
+      "sha256": "abd68941bc3f68540af1895f970996b83ece124032310c5e05071bafe2ddb1e5",
+      "candidate_counts": {
+        "not_found": 84,
+        "insufficient_anchor": 3
+      }
+    },
+    {
+      "path": "BUIL0422/ENGINE.OBJ",
+      "sha256": "8d71db2027be598bdc9166848e59b29508dd4f66c6dcbd697b9ba48adc207c6b",
+      "candidate_counts": {
+        "not_found": 85,
+        "insufficient_anchor": 3
+      }
+    },
+    {
+      "path": "BUIL0615/ENGINE.OBJ",
+      "sha256": "21e72ed50fe45584552a6fc5f8e6494157483600a107873392395435bc3ad505",
+      "candidate_counts": {
+        "candidate": 26,
+        "not_found": 100,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUIL0624/ENGINE.OBJ",
+      "sha256": "c907189bfb1d1638ca910765cb782d82300de315d58fe937e9b331ea97654f09",
+      "candidate_counts": {
+        "not_found": 108,
+        "insufficient_anchor": 5
+      }
+    },
+    {
+      "path": "BUIL0705/ENGINE.OBJ",
+      "sha256": "24c5a40f0338a13a4eaaade8e0b277ce60b78efd07fece20cb700fd655b36420",
+      "candidate_counts": {
+        "candidate": 26,
+        "not_found": 100,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUIL0719/ENGINE.OBJ",
+      "sha256": "37ff6b48e88237a4452d3e8724a3b0e3e0e602e86bac895ec6dea1f6fade765c",
+      "candidate_counts": {
+        "not_found": 113,
+        "insufficient_anchor": 4
+      }
+    },
+    {
+      "path": "BUIL0801/ENGINE.OBJ",
+      "sha256": "42010522c23e6f50b9f2696b7c90005e957e72f504464e058c1280b078ef802e",
+      "candidate_counts": {
+        "not_found": 119,
+        "insufficient_anchor": 3
+      }
+    },
+    {
+      "path": "BUIL0906/ENGINE.OBJ",
+      "sha256": "ab5e921b3af144f438bf3a4bbbb20c5e2b1d6c1654fe78739d5099bc56386b15",
+      "candidate_counts": {
+        "candidate": 24,
+        "not_found": 104,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUIL1020/ENGINE.OBJ",
+      "sha256": "3a6db35c5955f243ebd6650132f85a6a956268a002299b2144bc7b54cc97c895",
+      "candidate_counts": {
+        "not_found": 102,
+        "candidate": 25,
+        "insufficient_anchor": 4
+      }
+    },
+    {
+      "path": "BUIL1109/ENGINE.OBJ",
+      "sha256": "aa7e551c5a441bea53a708ebb48fcb5e33c66901796fdc7038c280cd66d5762d",
+      "candidate_counts": {
+        "not_found": 91,
+        "candidate": 35,
+        "insufficient_anchor": 7
+      }
+    },
+    {
+      "path": "BUIL1121/ENGINE.OBJ",
+      "sha256": "42559c74a9cd3bc22e11e6e123f3c72ac345326b66076250eab9c1915e4d8561",
+      "candidate_counts": {
+        "not_found": 91,
+        "candidate": 35,
+        "insufficient_anchor": 7
+      }
+    },
+    {
+      "path": "BUIL1211/ENGINE.OBJ",
+      "sha256": "171fec62ed9c51229ad964d2405374f0d95879e9ce330a63a303177e3c304176",
+      "candidate_counts": {
+        "not_found": 80,
+        "candidate": 43,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUILDBAK/ENGINE.OBJ",
+      "sha256": "a8220af4d95d9af734c1aea6dacbe400f25b9be1726fcba75c7b7e23cd9849e6",
+      "candidate_counts": {
+        "candidate": 45,
+        "not_found": 81,
+        "ambiguous": 2,
+        "insufficient_anchor": 9
+      }
+    },
+    {
+      "path": "BUILD_FROM_MATT/ENGINE.OBJ",
+      "sha256": "8d512c9e1c6e061634db1aa8172777e03e27da57377c57035c52c79e086c4be4",
+      "candidate_counts": {
+        "candidate": 23,
+        "not_found": 106,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUILD_FROM_MATT/LIB/ENGINE.OBJ",
+      "sha256": "e7e8a43e7efdf2ba24858b911a0e4d17af017d0627763e24a6bd9654f1b424c8",
+      "candidate_counts": {
+        "candidate": 23,
+        "not_found": 107,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUILD_FROM_MATT/backup/ENGINE.OBJ",
+      "sha256": "21e72ed50fe45584552a6fc5f8e6494157483600a107873392395435bc3ad505",
+      "candidate_counts": {
+        "candidate": 26,
+        "not_found": 100,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUILD_FROM_SW_TREE/ENGINE.OBJ",
+      "sha256": "6e5e4c022f90495b9c284305824b829589246c7d1336e1e1ee6efa96ec0bb649",
+      "candidate_counts": {
+        "candidate": 23,
+        "not_found": 107,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUILD_MISC_199604/OBJLIBS/ENGINE.OBJ",
+      "sha256": "b7ebeb2b5a7090e1bf9b3fb600f53ca280c081223826f69331037bb8bd3a1362",
+      "candidate_counts": {
+        "candidate": 125,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "BUILT/ENGINE.OBJ",
+      "sha256": "3a1c845534b2e4f52b145cafb250bedd43e703b202b0cdfe737cbdcf9629f314",
+      "candidate_counts": {
+        "not_found": 80,
+        "candidate": 43,
+        "ambiguous": 2,
+        "insufficient_anchor": 8
+      }
+    },
+    {
+      "path": "buil062896/ENGINE.OBJ",
+      "sha256": "6a3a9f864d2d11bc9be572557f1ad8b70cbce8238ff29e68aa18a790c3029335",
+      "error": "unsupported OMF record 0x95",
+      "candidate_counts": {}
+    }
+  ]
+}

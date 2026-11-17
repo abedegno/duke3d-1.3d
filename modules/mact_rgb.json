@@ -1,0 +1,514 @@
+{
+  "name": "MACT_RGB",
+  "producer": "mact-rgb-composite",
+  "expected_ranges": [
+    [
+      1,
+      564048,
+      743,
+      "initialized"
+    ],
+    [
+      3,
+      68304,
+      52,
+      "initialized"
+    ],
+    [
+      3,
+      1864256,
+      265232,
+      "BSS"
+    ]
+  ],
+  "expected": {
+    "initialized_bytes": 795,
+    "zero_fill_bytes": 265232,
+    "verified_fixups": 23
+  },
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r",
+    "/dDUKE13D_RGB_TABLE_ASM=1"
+  ],
+  "producers": {
+    "rgb_c": {
+      "source": "src/mact/rgb.c",
+      "placements": {
+        "1": [
+          1,
+          564048
+        ],
+        "4": [
+          3,
+          68304
+        ],
+        "5": [
+          3,
+          1864256
+        ]
+      },
+      "inventory": {
+        "segments": [
+          {
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 420,
+            "attributes": 105,
+            "access": null
+          },
+          {
+            "name": "CONST",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "name": "CONST2",
+            "class": "DATA",
+            "size": 0,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "name": "_DATA",
+            "class": "DATA",
+            "size": 52,
+            "attributes": 169,
+            "access": null
+          },
+          {
+            "name": "_BSS",
+            "class": "BSS",
+            "size": 265232,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "_RGB_Lookup": [
+            5,
+            0
+          ],
+          "_RGB_EGATable": [
+            5,
+            262144
+          ],
+          "RGB_FindEGAColors_": [
+            1,
+            0
+          ],
+          "RGB_MakeWeightTable_": [
+            1,
+            76
+          ],
+          "RGB_FindBestColor_": [
+            1,
+            180
+          ],
+          "RGB_GetBestColor_": [
+            1,
+            380
+          ],
+          "_WeightTable": [
+            4,
+            0
+          ],
+          "_egargb": [
+            4,
+            4
+          ],
+          "_WeightBlue": [
+            5,
+            262160
+          ],
+          "_WeightGreen": [
+            5,
+            263184
+          ],
+          "_WeightRed": [
+            5,
+            264208
+          ]
+        },
+        "local_publics": [
+          "RGB_MakeWeightTable_",
+          "_WeightBlue",
+          "_WeightGreen",
+          "_WeightRed",
+          "_WeightTable",
+          "_egargb"
+        ],
+        "externals": [
+          "_egargb",
+          "_RGB_Lookup",
+          "_RGB_EGATable",
+          "_WeightRed",
+          "_WeightGreen",
+          "_WeightBlue",
+          "_WeightTable",
+          "RGB_MakeWeightTable_",
+          "VID_GetPalette_",
+          "RGB_FindBestColor_"
+        ],
+        "local_externals": [
+          1,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "groups": [
+          [
+            "DGROUP",
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          [
+            "FLAT",
+            []
+          ]
+        ],
+        "fixups": [
+          {
+            "segment": 1,
+            "offset": 11,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 21,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 43,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 54,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 63,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 3,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 116,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 132,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 5,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 149,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 6,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 163,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 7,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 205,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 7,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 213,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 8,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 234,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 241,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 5,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 262,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 6,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 317,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 324,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 5,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 331,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 6,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 392,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 9,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 408,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 1,
+            "frame": 2,
+            "target_method": 2,
+            "target": 10,
+            "displacement": 0
+          }
+        ],
+        "code_data_ranges": [],
+        "default_libraries": [
+          "math387r",
+          "emu387"
+        ],
+        "far_call_optimization_segments": [
+          1
+        ],
+        "dosseg_directives": []
+      }
+    },
+    "rgb_asm": {
+      "source": "src/mact/rgb_make_table.asm",
+      "placements": {
+        "1": [
+          1,
+          564468
+        ]
+      },
+      "inventory": {
+        "segments": [
+          {
+            "name": "_TEXT",
+            "class": "CODE",
+            "size": 323,
+            "attributes": 169,
+            "access": null
+          }
+        ],
+        "publics": {
+          "RGB_MakeColorTable_": [
+            1,
+            0
+          ]
+        },
+        "local_publics": [],
+        "externals": [
+          "_RGB_Lookup",
+          "VID_GetPalette_",
+          "RGB_FindBestColor_",
+          "RGB_FindEGAColors_"
+        ],
+        "local_externals": [],
+        "groups": [],
+        "fixups": [
+          {
+            "segment": 1,
+            "offset": 24,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 2,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 166,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 3,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 183,
+            "width": 4,
+            "location": 9,
+            "relative": false,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 1,
+            "displacement": 0
+          },
+          {
+            "segment": 1,
+            "offset": 306,
+            "width": 4,
+            "location": 9,
+            "relative": true,
+            "frame_method": 5,
+            "frame": null,
+            "target_method": 2,
+            "target": 4,
+            "displacement": 0
+          }
+        ],
+        "code_data_ranges": [],
+        "default_libraries": [],
+        "far_call_optimization_segments": [],
+        "dosseg_directives": []
+      }
+    }
+  },
+  "codeScopepublics": 5,
+  "global_exports": 6,
+  "private_c_symbols": 6,
+  "source_reference_evidence": "evidence/mact-rgb-source-reference.json"
+}

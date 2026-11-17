@@ -1,0 +1,791 @@
+{
+  "kind": "complete RTS object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/rts/rts.c",
+  "source_sha256": "1864937efe025358837a6a7611a6d9499455d08953df648dd6490eb4ba81023e",
+  "headers_sha256": {
+    "_animlib.h": "a4af6069a1c7287fd15d1c573c47af2788ad4274d131a53f3909afb15842e573",
+    "_functio.h": "180e935f3bcae8412318964a39953ae46aaa5e2a0d61d91ee39d4fe90a9269f6",
+    "_rts.h": "54132918632187778357063ff24c52802f49987997a41974835cf1b1052ca286",
+    "animlib.h": "574c1dd2e9c525ccae9200d7b8b10024e072ba04fa38a8ad3c652005d58218b9",
+    "build.h": "85c05aed8db459f31d01cc0c2c92f2ea3652418e3269a3ad4d15143c42f50204",
+    "config.h": "452b50d7dfd41058becb6510fdc5aa28a509dcde50cc8c43029b3acb4806f9d9",
+    "control.h": "f07aa22ac4b926166e6890eabc9f3eaa9306946d63895be77ddabe3d9d8ad20e",
+    "develop.h": "ba70cc5be663e3ae4cec0cd55a6c6324d7b7d4f96b577bf62e2c1e2df618888d",
+    "duke3d.h": "bdbc9702f96dfda8088c0f72f4d4f2bca4f5c150e3b505829657eb2b526cce9c",
+    "file_lib.h": "d71164a9aa2e0dbec65ca829e5a4db91837fdb3956c0b9aed0e2354c18aa47a8",
+    "funct.h": "1c6289a9e8f971f3a1474126e260de77c423990680358a21cd3095145fd1d4b3",
+    "function.h": "20fef3547f66df9517110dee7859bda0dc55156afeeed2006d37828d905e075d",
+    "fx_man.h": "acb7df434b283063fcbe21ed9ca6fe7fa09093f127fe93158b0e73da955acf73",
+    "gamedefs.h": "012b38d7f81defeb87e106e4a51833c8570e3f5975c88a5e87f4f3a282fab26c",
+    "keyboard.h": "889777b1c40030e48bb32644f5e6e1bc80808edfe8d50492186cfaedf7ba6be0",
+    "mouse.h": "fc6e606666bf8c374cc7e69032d57b4c202312cf7807940be9658f5d66b27e7d",
+    "music.h": "6c0a9068a818a34706a8ab8b621e3a6e2248becd79b846e2a56f87df26bf4241",
+    "names.h": "d08f3d74e4a4310291c70f92e8befc1d6d9e2e2d77f0957c95694ad32c706b8e",
+    "pragmas.h": "de3b98f625620acd692fa6346f1c959c9b5c1ae1373e036d7e8793de0cbd26da",
+    "rts.h": "074971e898f881d87e3a9dd83ad603dc0027547857a95a97506be461d28a697f",
+    "scriplib.h": "bebca29591be95221d6a696a0785cb67be9c197f4ca356d786eaa4e4e10d762b",
+    "sndcards.h": "2a5dc13d17e833f434e61a62421617b15af70798fd8f7a138cf35f45c391949b",
+    "soundefs.h": "9d0b41829a7c9a0c0c2609a441ea072f3619d378a4d13d272f15a74655b555f1",
+    "sounds.h": "87cc8746256b5099c5c6a1347a85787ffb21580035f5597288c4e2fdced25b85",
+    "task_man.h": "eaa8881a19fe08a2dfcfcf52c2c64c369b7c633fd9914da24f4e9f3db8e13ad0",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc",
+    "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07"
+  },
+  "descriptor": "modules/rts.json",
+  "descriptor_sha256": "2fb23f17601b44cb1d3bad82cbd418d1c621c0ef1f6dff463f82a029e06fbeff",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/4r",
+    "/s",
+    "/oteir"
+  ],
+  "placements": {
+    "1": [
+      1,
+      286288
+    ],
+    "5": [
+      3,
+      587600
+    ],
+    "6": [
+      3,
+      10908
+    ],
+    "4": [
+      3,
+      31260
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 16,
+      "symbol": "SafeOpenRead_",
+      "value": [
+        1,
+        569360
+      ]
+    },
+    {
+      "source_offset": 28,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 33,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 43,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 56,
+      "symbol": "SafeRead_",
+      "value": [
+        1,
+        569608
+      ]
+    },
+    {
+      "source_offset": 66,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 74,
+      "symbol": "strncmp_",
+      "value": [
+        1,
+        587989
+      ]
+    },
+    {
+      "source_offset": 84,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 89,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 100,
+      "symbol": "IntelLong_",
+      "value": [
+        1,
+        555872
+      ]
+    },
+    {
+      "source_offset": 111,
+      "symbol": "IntelLong_",
+      "value": [
+        1,
+        555872
+      ]
+    },
+    {
+      "source_offset": 131,
+      "symbol": "stackavail_",
+      "value": [
+        1,
+        588030
+      ]
+    },
+    {
+      "source_offset": 156,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 161,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 177,
+      "symbol": "lseek_",
+      "value": [
+        1,
+        588039
+      ]
+    },
+    {
+      "source_offset": 189,
+      "symbol": "SafeRead_",
+      "value": [
+        1,
+        569608
+      ]
+    },
+    {
+      "source_offset": 198,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 206,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 220,
+      "symbol": "_lump_info",
+      "value": [
+        3,
+        587600
+      ]
+    },
+    {
+      "source_offset": 232,
+      "symbol": "SafeRealloc_",
+      "value": [
+        1,
+        556224
+      ]
+    },
+    {
+      "source_offset": 247,
+      "symbol": "_lump_info",
+      "value": [
+        3,
+        587600
+      ]
+    },
+    {
+      "source_offset": 276,
+      "symbol": "IntelLong_",
+      "value": [
+        1,
+        555872
+      ]
+    },
+    {
+      "source_offset": 291,
+      "symbol": "IntelLong_",
+      "value": [
+        1,
+        555872
+      ]
+    },
+    {
+      "source_offset": 304,
+      "symbol": "strncpy_",
+      "value": [
+        1,
+        588106
+      ]
+    },
+    {
+      "source_offset": 313,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 351,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 356,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 361,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 366,
+      "symbol": "_lump_info",
+      "value": [
+        3,
+        587600
+      ]
+    },
+    {
+      "source_offset": 371,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 381,
+      "symbol": "SafeFileExists_",
+      "value": [
+        1,
+        569580
+      ]
+    },
+    {
+      "source_offset": 392,
+      "symbol": "RTS_AddFile_",
+      "value": [
+        1,
+        286288
+      ]
+    },
+    {
+      "source_offset": 398,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 423,
+      "symbol": "SafeMalloc_",
+      "value": [
+        1,
+        556180
+      ]
+    },
+    {
+      "source_offset": 428,
+      "symbol": "_lumpcache",
+      "value": [
+        3,
+        587604
+      ]
+    },
+    {
+      "source_offset": 433,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 439,
+      "symbol": "_RTS_Started",
+      "value": [
+        3,
+        31260
+      ]
+    },
+    {
+      "source_offset": 449,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 470,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 483,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 488,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 506,
+      "symbol": "_lump_info",
+      "value": [
+        3,
+        587600
+      ]
+    },
+    {
+      "source_offset": 534,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 547,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 552,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 569,
+      "symbol": "_lump_info",
+      "value": [
+        3,
+        587600
+      ]
+    },
+    {
+      "source_offset": 601,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 609,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 614,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 627,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 632,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 650,
+      "symbol": "_lump_info",
+      "value": [
+        3,
+        587600
+      ]
+    },
+    {
+      "source_offset": 672,
+      "symbol": "lseek_",
+      "value": [
+        1,
+        588039
+      ]
+    },
+    {
+      "source_offset": 685,
+      "symbol": "SafeRead_",
+      "value": [
+        1,
+        569608
+      ]
+    },
+    {
+      "source_offset": 713,
+      "symbol": "_numlumps",
+      "value": [
+        3,
+        587608
+      ]
+    },
+    {
+      "source_offset": 727,
+      "symbol": "_rts_text",
+      "value": [
+        3,
+        10908
+      ]
+    },
+    {
+      "source_offset": 732,
+      "symbol": "Error_",
+      "value": [
+        1,
+        555340
+      ]
+    },
+    {
+      "source_offset": 740,
+      "symbol": "_lumpcache",
+      "value": [
+        3,
+        587604
+      ]
+    },
+    {
+      "source_offset": 759,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 765,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 775,
+      "symbol": "RTS_SoundLength_",
+      "value": [
+        1,
+        286752
+      ]
+    },
+    {
+      "source_offset": 781,
+      "symbol": "_lumpcache",
+      "value": [
+        3,
+        587604
+      ]
+    },
+    {
+      "source_offset": 792,
+      "symbol": "allocache_",
+      "value": [
+        1,
+        418317
+      ]
+    },
+    {
+      "source_offset": 797,
+      "symbol": "_lumpcache",
+      "value": [
+        3,
+        587604
+      ]
+    },
+    {
+      "source_offset": 807,
+      "symbol": "RTS_ReadLump_",
+      "value": [
+        1,
+        286880
+      ]
+    },
+    {
+      "source_offset": 815,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 826,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 832,
+      "symbol": "_lumpcache",
+      "value": [
+        3,
+        587604
+      ]
+    },
+    {
+      "source_offset": 851,
+      "symbol": "_lumplockbyte",
+      "value": [
+        3,
+        587616
+      ]
+    },
+    {
+      "source_offset": 856,
+      "symbol": "_lumpcache",
+      "value": [
+        3,
+        587604
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 1157,
+    "zero_fill_bytes": 27,
+    "verified_fixups": 70,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 286288,
+        "compared_bytes": 869,
+        "verified_fixups": 70,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 31260,
+        "compared_bytes": 4,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 587600,
+        "compared_bytes": 27,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 10908,
+        "compared_bytes": 284,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "RTS_AddFile_": [
+        1,
+        286288
+      ],
+      "RTS_Init_": [
+        1,
+        286624
+      ],
+      "RTS_NumSounds_": [
+        1,
+        286736
+      ],
+      "RTS_SoundLength_": [
+        1,
+        286752
+      ],
+      "RTS_GetSoundName_": [
+        1,
+        286816
+      ],
+      "RTS_ReadLump_": [
+        1,
+        286880
+      ],
+      "RTS_GetSound_": [
+        1,
+        286992
+      ],
+      "SafeOpenRead_": [
+        1,
+        569360
+      ],
+      "_numlumps": [
+        3,
+        587608
+      ],
+      "_rts_text": [
+        3,
+        10908
+      ],
+      "printf_": [
+        1,
+        583204
+      ],
+      "SafeRead_": [
+        1,
+        569608
+      ],
+      "strncmp_": [
+        1,
+        587989
+      ],
+      "Error_": [
+        1,
+        555340
+      ],
+      "IntelLong_": [
+        1,
+        555872
+      ],
+      "stackavail_": [
+        1,
+        588030
+      ],
+      "lseek_": [
+        1,
+        588039
+      ],
+      "_lump_info": [
+        3,
+        587600
+      ],
+      "SafeRealloc_": [
+        1,
+        556224
+      ],
+      "strncpy_": [
+        1,
+        588106
+      ],
+      "SafeMalloc_": [
+        1,
+        556180
+      ],
+      "SafeFileExists_": [
+        1,
+        569580
+      ],
+      "_lumpcache": [
+        3,
+        587604
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "_RTS_Started": [
+        3,
+        31260
+      ],
+      "_lumplockbyte": [
+        3,
+        587616
+      ],
+      "allocache_": [
+        1,
+        418317
+      ],
+      "_dmval": [
+        3,
+        587612
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {},
+  "anchor_evidence": null,
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

@@ -1,0 +1,740 @@
+{
+  "kind": "complete MACT_KEYBOARD object contributions, not a full executable",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": "src/mact/keyboard.c",
+  "source_sha256": "d09424b66b9b1687426efe62c20d55d1545e56a40de031566d81deaf46ea72e7",
+  "headers_sha256": {
+    "keyboard.h": "80a22bbb1438d6d777bdddf06473a17ce5565e2a6d93ca1eeb1c2dc6f577b80f",
+    "types.h": "32a8e796496dac6155bc6cf7edeb67cc938cbdbbee315e0b0120e9c627166cdc"
+  },
+  "descriptor": "modules/mact_keyboard.json",
+  "descriptor_sha256": "3a00d02b2fce1829cb0aed59cb49d41b9802ccafcdfe0cd7f906ad3b5ad8daee",
+  "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "placements": {
+    "1": [
+      1,
+      568512
+    ],
+    "5": [
+      3,
+      2130656
+    ],
+    "4": [
+      3,
+      70408
+    ],
+    "2": [
+      3,
+      25624
+    ]
+  },
+  "constraints": [
+    {
+      "source_offset": 10,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 19,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 25,
+      "symbol": "_KB_LastScan",
+      "value": [
+        3,
+        2131052
+      ]
+    },
+    {
+      "source_offset": 31,
+      "symbol": "_KeyPadActive",
+      "value": [
+        3,
+        2131044
+      ]
+    },
+    {
+      "source_offset": 70,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 79,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 88,
+      "symbol": "_ShiftNames",
+      "value": [
+        3,
+        70540
+      ]
+    },
+    {
+      "source_offset": 96,
+      "symbol": "_ASCIINames",
+      "value": [
+        3,
+        70412
+      ]
+    },
+    {
+      "source_offset": 102,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 115,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 123,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 129,
+      "symbol": "_KeyboardQueue",
+      "value": [
+        3,
+        2130656
+      ]
+    },
+    {
+      "source_offset": 135,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 145,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 158,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 166,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 172,
+      "symbol": "_KeyboardQueue",
+      "value": [
+        3,
+        2130656
+      ]
+    },
+    {
+      "source_offset": 178,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 189,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 195,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 210,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 216,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 231,
+      "symbol": "ServiceEvents_",
+      "value": [
+        1,
+        553864
+      ]
+    },
+    {
+      "source_offset": 238,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 244,
+      "symbol": "_KeyboardQueue",
+      "value": [
+        3,
+        2130656
+      ]
+    },
+    {
+      "source_offset": 250,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 263,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 276,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 289,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 297,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 303,
+      "symbol": "_KeyboardQueue",
+      "value": [
+        3,
+        2130656
+      ]
+    },
+    {
+      "source_offset": 309,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 318,
+      "symbol": "_KeyPadActive",
+      "value": [
+        3,
+        2131044
+      ]
+    },
+    {
+      "source_offset": 333,
+      "symbol": "_KeyPadActive",
+      "value": [
+        3,
+        2131044
+      ]
+    },
+    {
+      "source_offset": 341,
+      "symbol": "_KeyPadActive",
+      "value": [
+        3,
+        2131044
+      ]
+    },
+    {
+      "source_offset": 353,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 359,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 374,
+      "symbol": "_KB_LastScan",
+      "value": [
+        3,
+        2131052
+      ]
+    },
+    {
+      "source_offset": 384,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 391,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 414,
+      "symbol": "_ScanStrings",
+      "value": [
+        3,
+        70668
+      ]
+    },
+    {
+      "source_offset": 436,
+      "symbol": "_ScanStrings",
+      "value": [
+        3,
+        70668
+      ]
+    },
+    {
+      "source_offset": 441,
+      "symbol": "strcmpi_",
+      "value": [
+        1,
+        588168
+      ]
+    },
+    {
+      "source_offset": 472,
+      "symbol": "_KeyboardStarted",
+      "value": [
+        3,
+        70408
+      ]
+    },
+    {
+      "source_offset": 482,
+      "symbol": "_KeyboardStarted",
+      "value": [
+        3,
+        70408
+      ]
+    },
+    {
+      "source_offset": 492,
+      "symbol": "_KeyPadActive",
+      "value": [
+        3,
+        2131044
+      ]
+    },
+    {
+      "source_offset": 498,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 504,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 512,
+      "symbol": "_KB_LastScan",
+      "value": [
+        3,
+        2131052
+      ]
+    },
+    {
+      "source_offset": 522,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 527,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    },
+    {
+      "source_offset": 532,
+      "symbol": "KEYBOARD_Startup_",
+      "value": [
+        1,
+        554420
+      ]
+    },
+    {
+      "source_offset": 537,
+      "segment": 2,
+      "value": [
+        3,
+        25624
+      ]
+    },
+    {
+      "source_offset": 542,
+      "symbol": "printf_",
+      "value": [
+        1,
+        583204
+      ]
+    },
+    {
+      "source_offset": 556,
+      "symbol": "_KeyboardStarted",
+      "value": [
+        3,
+        70408
+      ]
+    },
+    {
+      "source_offset": 567,
+      "symbol": "_KeyboardStarted",
+      "value": [
+        3,
+        70408
+      ]
+    },
+    {
+      "source_offset": 572,
+      "symbol": "KEYBOARD_Shutdown_",
+      "value": [
+        1,
+        554500
+      ]
+    },
+    {
+      "source_offset": 578,
+      "symbol": "_Keyhead",
+      "value": [
+        3,
+        2131048
+      ]
+    },
+    {
+      "source_offset": 584,
+      "symbol": "_Keytail",
+      "value": [
+        3,
+        2131040
+      ]
+    },
+    {
+      "source_offset": 592,
+      "symbol": "_KB_LastScan",
+      "value": [
+        3,
+        2131052
+      ]
+    },
+    {
+      "source_offset": 602,
+      "symbol": "_KB_KeyDown",
+      "value": [
+        3,
+        2130912
+      ]
+    },
+    {
+      "source_offset": 609,
+      "symbol": "memset_",
+      "value": [
+        1,
+        588144
+      ]
+    }
+  ],
+  "verification": {
+    "verified": true,
+    "initialized_bytes": 1906,
+    "zero_fill_bytes": 397,
+    "verified_fixups": 171,
+    "segments": [
+      {
+        "symbol": "_TEXT",
+        "target_object": 1,
+        "target_offset": 568512,
+        "compared_bytes": 616,
+        "verified_fixups": 62,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "CONST",
+        "target_object": 3,
+        "target_offset": 25624,
+        "compared_bytes": 594,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_DATA",
+        "target_object": 3,
+        "target_offset": 70408,
+        "compared_bytes": 696,
+        "verified_fixups": 109,
+        "differing_offsets": [],
+        "match": true
+      },
+      {
+        "symbol": "_BSS",
+        "target_object": 3,
+        "target_offset": 2130656,
+        "compared_bytes": 397,
+        "verified_fixups": 0,
+        "differing_offsets": [],
+        "match": true
+      }
+    ],
+    "publics": {
+      "KB_KeyEvent_": [
+        1,
+        568512
+      ],
+      "KB_KeyWaiting_": [
+        1,
+        568700
+      ],
+      "KB_Getch_": [
+        1,
+        568720
+      ],
+      "KB_Addch_": [
+        1,
+        568784
+      ],
+      "KB_TurnKeypadOn_": [
+        1,
+        568828
+      ],
+      "KB_TurnKeypadOff_": [
+        1,
+        568840
+      ],
+      "KB_KeypadActive_": [
+        1,
+        568852
+      ],
+      "KB_FlushKeyboardQueue_": [
+        1,
+        568860
+      ],
+      "KB_ClearKeysDown_": [
+        1,
+        568880
+      ],
+      "KB_ScanCodeToString_": [
+        1,
+        568912
+      ],
+      "KB_StringToScanCode_": [
+        1,
+        568932
+      ],
+      "KB_Startup_": [
+        1,
+        568980
+      ],
+      "KB_Shutdown_": [
+        1,
+        569064
+      ],
+      "_KB_KeyDown": [
+        3,
+        2130912
+      ],
+      "_KB_LastScan": [
+        3,
+        2131052
+      ],
+      "_KeyPadActive": [
+        3,
+        2131044
+      ],
+      "_ShiftNames": [
+        3,
+        70540
+      ],
+      "_ASCIINames": [
+        3,
+        70412
+      ],
+      "_Keytail": [
+        3,
+        2131040
+      ],
+      "_Keyhead": [
+        3,
+        2131048
+      ],
+      "_KeyboardQueue": [
+        3,
+        2130656
+      ],
+      "ServiceEvents_": [
+        1,
+        553864
+      ],
+      "memset_": [
+        1,
+        588144
+      ],
+      "_ScanStrings": [
+        3,
+        70668
+      ],
+      "strcmpi_": [
+        1,
+        588168
+      ],
+      "_KeyboardStarted": [
+        3,
+        70408
+      ],
+      "KEYBOARD_Startup_": [
+        1,
+        554420
+      ],
+      "printf_": [
+        1,
+        583204
+      ],
+      "KEYBOARD_Shutdown_": [
+        1,
+        554500
+      ]
+    },
+    "local_symbols": {
+      "_ASCIINames": [
+        3,
+        70412
+      ],
+      "_KeyPadActive": [
+        3,
+        2131044
+      ],
+      "_KeyboardQueue": [
+        3,
+        2130656
+      ],
+      "_KeyboardStarted": [
+        3,
+        70408
+      ],
+      "_Keyhead": [
+        3,
+        2131048
+      ],
+      "_Keytail": [
+        3,
+        2131040
+      ],
+      "_ScanStrings": [
+        3,
+        70668
+      ],
+      "_ShiftNames": [
+        3,
+        70540
+      ]
+    },
+    "full_executable_rebuilt": false
+  },
+  "symbol_anchors": {},
+  "anchor_evidence": null,
+  "unresolved_project_work": [
+    "other modules",
+    "linker and binder reproduction",
+    "whole-file identity",
+    "humanization"
+  ],
+  "full_executable_rebuilt": false
+}

@@ -1,0 +1,696 @@
+{
+  "kind": "diagnostic Build source compilation; no source coverage proved",
+  "reference_commit": "ef609159bd352985a0c63734a11241d86c873fe5",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "header_transformation": "BUILD.H/VES2.H pack(push,1)/pack(pop) become pack(1)/pack(4); Latin-1 content, LF newlines",
+  "original_headers_sha256": {
+    "BUILD.H": "fbabdf19dc46b365c95174d37ea41747ce50e42de3fee4c51b50ccac6986f547",
+    "NAMES.H": "5eb095129b9d964b5458a60190109b5eb29885752272bbdc536f8b48e282e024",
+    "PRAGMAS.H": "cbdee7faa51665e4ee9dd1726ed2daa15cc32e958f125965adc569a395caa945",
+    "VES2.H": "2866cf13565e13d48345424ade1400549728d398703e51a5ea42d5a5958e0d91"
+  },
+  "staged_headers_sha256": {
+    "build.h": "856237b2e91c3e6a2c9baa1507e3164e66b799351251c4d611f945ce70a3b826",
+    "names.h": "5eb095129b9d964b5458a60190109b5eb29885752272bbdc536f8b48e282e024",
+    "pragmas.h": "cbdee7faa51665e4ee9dd1726ed2daa15cc32e958f125965adc569a395caa945",
+    "ves2.h": "c8122efed52485e959fa7d41913db30873c6dc9f56f854ce96d57b0c6e42b870"
+  },
+  "compiler_sha256": {
+    "10.0-ga": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "10.0a": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+    "10.5": "1b97a68f7b8a3efd89b05f64ce99836b1e533f398699305f96dc423254939d6a"
+  },
+  "modules": [
+    {
+      "version": "10.0-ga",
+      "name": "CACHE1D",
+      "source_sha256": "0666a565fbac50c768bfa8f44ca462fdc2b2160d5bb5fcc3e0d47269f42fe674",
+      "options": [
+        "/5r",
+        "/s",
+        "/or"
+      ],
+      "object_sha256": "d3eae2711c08f7679e0cd9c5080d474aacf53d931be78e65dad41fc9455d1751",
+      "candidate_counts": {
+        "not_found": 17
+      },
+      "candidates": []
+    },
+    {
+      "version": "10.0-ga",
+      "name": "ENGINE",
+      "source_sha256": "6cfcd84a321af76063eeda911d11df494abde4347239c195e4f70a73553d9933",
+      "options": [
+        "/5r",
+        "/s",
+        "/or"
+      ],
+      "object_sha256": "f07772adb0c2eb4fec65313400ff785be70c8a32a1820f8d6475855a87736078",
+      "candidate_counts": {
+        "candidate": 13,
+        "not_found": 122,
+        "insufficient_anchor": 8
+      },
+      "candidates": [
+        {
+          "symbol": "DPMI_int86_",
+          "source_offset": 0,
+          "size": 275,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292130
+            }
+          ]
+        },
+        {
+          "symbol": "DPMI_int86x_",
+          "source_offset": 275,
+          "size": 328,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292405
+            }
+          ]
+        },
+        {
+          "symbol": "ExitVBEBuf_",
+          "source_offset": 603,
+          "size": 87,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292733
+            }
+          ]
+        },
+        {
+          "symbol": "VBE_getModeInfo_",
+          "source_offset": 940,
+          "size": 62,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 293076
+            }
+          ]
+        },
+        {
+          "symbol": "VBE_getPalette_",
+          "source_offset": 6093,
+          "size": 138,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 297211
+            }
+          ]
+        },
+        {
+          "symbol": "animateoffs_",
+          "source_offset": 58174,
+          "size": 139,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 352677
+            }
+          ]
+        },
+        {
+          "symbol": "clear2dscreen_",
+          "source_offset": 78246,
+          "size": 98,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 372350
+            }
+          ]
+        },
+        {
+          "symbol": "clipinsideboxline_",
+          "source_offset": 35061,
+          "size": 225,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 329909
+            }
+          ]
+        },
+        {
+          "symbol": "getmousevalues_",
+          "source_offset": 75708,
+          "size": 68,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 369536
+            }
+          ]
+        },
+        {
+          "symbol": "initmouse_",
+          "source_offset": 75686,
+          "size": 22,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 369514
+            }
+          ]
+        },
+        {
+          "symbol": "krecip_",
+          "source_offset": 37254,
+          "size": 60,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 332265
+            }
+          ]
+        },
+        {
+          "symbol": "loadtables_",
+          "source_offset": 29936,
+          "size": 228,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 321636
+            }
+          ]
+        },
+        {
+          "symbol": "setdacbits_",
+          "source_offset": 3200,
+          "size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 294746
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10.0-ga",
+      "name": "CACHE1D",
+      "source_sha256": "0666a565fbac50c768bfa8f44ca462fdc2b2160d5bb5fcc3e0d47269f42fe674",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "object_sha256": "888fa77487af548ed224fe0c2f569b4764a54aaf85e6d0c6b4baa397dc895acc",
+      "candidate_counts": {
+        "not_found": 17
+      },
+      "candidates": []
+    },
+    {
+      "version": "10.0-ga",
+      "name": "ENGINE",
+      "source_sha256": "6cfcd84a321af76063eeda911d11df494abde4347239c195e4f70a73553d9933",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "object_sha256": "afa047c550390815acd00b439363f70a51e8b46fb91a3c6250de1fe64b462f40",
+      "candidate_counts": {
+        "not_found": 140,
+        "candidate": 2,
+        "ambiguous": 1
+      },
+      "candidates": [
+        {
+          "symbol": "lastwall_",
+          "source_offset": 72160,
+          "size": 80,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 361444
+            }
+          ]
+        },
+        {
+          "symbol": "setdacbits_",
+          "source_offset": 3568,
+          "size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 294746
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10.0a",
+      "name": "CACHE1D",
+      "source_sha256": "0666a565fbac50c768bfa8f44ca462fdc2b2160d5bb5fcc3e0d47269f42fe674",
+      "options": [
+        "/5r",
+        "/s",
+        "/or"
+      ],
+      "object_sha256": "72a14f4303210aca9a62d6db689a3fd454d2195726d2b8decc429fbc1d3d6e75",
+      "candidate_counts": {
+        "not_found": 17
+      },
+      "candidates": []
+    },
+    {
+      "version": "10.0a",
+      "name": "ENGINE",
+      "source_sha256": "6cfcd84a321af76063eeda911d11df494abde4347239c195e4f70a73553d9933",
+      "options": [
+        "/5r",
+        "/s",
+        "/or"
+      ],
+      "object_sha256": "55333df6489fb400038743c27f3f5698bca05cf6f00fc7a8a570693d1b920358",
+      "candidate_counts": {
+        "candidate": 11,
+        "not_found": 124,
+        "insufficient_anchor": 8
+      },
+      "candidates": [
+        {
+          "symbol": "DPMI_int86_",
+          "source_offset": 0,
+          "size": 275,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292130
+            }
+          ]
+        },
+        {
+          "symbol": "DPMI_int86x_",
+          "source_offset": 275,
+          "size": 328,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292405
+            }
+          ]
+        },
+        {
+          "symbol": "ExitVBEBuf_",
+          "source_offset": 603,
+          "size": 87,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292733
+            }
+          ]
+        },
+        {
+          "symbol": "animateoffs_",
+          "source_offset": 58779,
+          "size": 139,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 352677
+            }
+          ]
+        },
+        {
+          "symbol": "clear2dscreen_",
+          "source_offset": 79011,
+          "size": 98,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 372350
+            }
+          ]
+        },
+        {
+          "symbol": "clipinsideboxline_",
+          "source_offset": 35456,
+          "size": 225,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 329909
+            }
+          ]
+        },
+        {
+          "symbol": "getmousevalues_",
+          "source_offset": 76473,
+          "size": 68,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 369536
+            }
+          ]
+        },
+        {
+          "symbol": "initmouse_",
+          "source_offset": 76451,
+          "size": 22,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 369514
+            }
+          ]
+        },
+        {
+          "symbol": "krecip_",
+          "source_offset": 37659,
+          "size": 60,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 332265
+            }
+          ]
+        },
+        {
+          "symbol": "loadtables_",
+          "source_offset": 30305,
+          "size": 228,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 321636
+            }
+          ]
+        },
+        {
+          "symbol": "setdacbits_",
+          "source_offset": 3272,
+          "size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 294746
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10.0a",
+      "name": "CACHE1D",
+      "source_sha256": "0666a565fbac50c768bfa8f44ca462fdc2b2160d5bb5fcc3e0d47269f42fe674",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "object_sha256": "010d880ed75e51396e2214de1097c2d7cf59aa26d236dfe736d6adbd35aa38cf",
+      "candidate_counts": {
+        "not_found": 17
+      },
+      "candidates": []
+    },
+    {
+      "version": "10.0a",
+      "name": "ENGINE",
+      "source_sha256": "6cfcd84a321af76063eeda911d11df494abde4347239c195e4f70a73553d9933",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "object_sha256": "ec0943d295f4dd8c1b103a49f2cd0792090561301cd3b067c58a6133e811bc1b",
+      "candidate_counts": {
+        "not_found": 140,
+        "candidate": 2,
+        "ambiguous": 1
+      },
+      "candidates": [
+        {
+          "symbol": "lastwall_",
+          "source_offset": 72720,
+          "size": 80,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 361444
+            }
+          ]
+        },
+        {
+          "symbol": "setdacbits_",
+          "source_offset": 3648,
+          "size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 294746
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10.5",
+      "name": "CACHE1D",
+      "source_sha256": "0666a565fbac50c768bfa8f44ca462fdc2b2160d5bb5fcc3e0d47269f42fe674",
+      "options": [
+        "/5r",
+        "/s",
+        "/or"
+      ],
+      "object_sha256": "7ff2543b2c0630a53b2f1cd46500518ada54f2f877df9232d6f434b4138d7e2b",
+      "candidate_counts": {
+        "not_found": 17
+      },
+      "candidates": []
+    },
+    {
+      "version": "10.5",
+      "name": "ENGINE",
+      "source_sha256": "6cfcd84a321af76063eeda911d11df494abde4347239c195e4f70a73553d9933",
+      "options": [
+        "/5r",
+        "/s",
+        "/or"
+      ],
+      "object_sha256": "f692625946aa87ce4941a2154e1af4653d377975c436eb455993b0291423a1d9",
+      "candidate_counts": {
+        "candidate": 13,
+        "not_found": 122,
+        "insufficient_anchor": 8
+      },
+      "candidates": [
+        {
+          "symbol": "DPMI_int86_",
+          "source_offset": 0,
+          "size": 275,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292130
+            }
+          ]
+        },
+        {
+          "symbol": "DPMI_int86x_",
+          "source_offset": 275,
+          "size": 328,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292405
+            }
+          ]
+        },
+        {
+          "symbol": "ExitVBEBuf_",
+          "source_offset": 603,
+          "size": 87,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 292733
+            }
+          ]
+        },
+        {
+          "symbol": "VBE_getModeInfo_",
+          "source_offset": 940,
+          "size": 62,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 293076
+            }
+          ]
+        },
+        {
+          "symbol": "VBE_getPalette_",
+          "source_offset": 6093,
+          "size": 138,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 297211
+            }
+          ]
+        },
+        {
+          "symbol": "animateoffs_",
+          "source_offset": 58432,
+          "size": 139,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 352677
+            }
+          ]
+        },
+        {
+          "symbol": "clear2dscreen_",
+          "source_offset": 78557,
+          "size": 98,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 372350
+            }
+          ]
+        },
+        {
+          "symbol": "clipinsideboxline_",
+          "source_offset": 35142,
+          "size": 225,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 329909
+            }
+          ]
+        },
+        {
+          "symbol": "getmousevalues_",
+          "source_offset": 76019,
+          "size": 68,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 369536
+            }
+          ]
+        },
+        {
+          "symbol": "initmouse_",
+          "source_offset": 75997,
+          "size": 22,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 369514
+            }
+          ]
+        },
+        {
+          "symbol": "krecip_",
+          "source_offset": 37341,
+          "size": 60,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 332265
+            }
+          ]
+        },
+        {
+          "symbol": "loadtables_",
+          "source_offset": 30019,
+          "size": 228,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 321636
+            }
+          ]
+        },
+        {
+          "symbol": "setdacbits_",
+          "source_offset": 3200,
+          "size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 294746
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "10.5",
+      "name": "CACHE1D",
+      "source_sha256": "0666a565fbac50c768bfa8f44ca462fdc2b2160d5bb5fcc3e0d47269f42fe674",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "object_sha256": "e67a81094f196a12f2ae1dc355431ec14ad0605844d2d47966b148f746866d2a",
+      "candidate_counts": {
+        "not_found": 17
+      },
+      "candidates": []
+    },
+    {
+      "version": "10.5",
+      "name": "ENGINE",
+      "source_sha256": "6cfcd84a321af76063eeda911d11df494abde4347239c195e4f70a73553d9933",
+      "options": [
+        "/4r",
+        "/s",
+        "/otexan"
+      ],
+      "object_sha256": "d89c9b45fc878268d5439ea7bd8091d5b24bd294e8f99c8ec201e975d86db4d1",
+      "candidate_counts": {
+        "not_found": 140,
+        "candidate": 2,
+        "ambiguous": 1
+      },
+      "candidates": [
+        {
+          "symbol": "lastwall_",
+          "source_offset": 72304,
+          "size": 80,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 361444
+            }
+          ]
+        },
+        {
+          "symbol": "setdacbits_",
+          "source_offset": 3568,
+          "size": 64,
+          "locations": [
+            {
+              "object": 1,
+              "offset": 294746
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

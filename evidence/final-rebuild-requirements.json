@@ -1,0 +1,74 @@
+{
+  "goal": "Recover Duke Nukem1.3D source with byte-identical whole executable rebuild; humanize asneeded",
+  "status": "complete",
+  "requirements": [
+    {
+      "id": "target_identity",
+      "status": "verified",
+      "evidence_or_next_gate": "The integrated, independently reviewed optional command freshly rebuilds all 121 owned source inputs and produces the complete 1,179,131-byte original with zero differences and SHA256 a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4. See evidence/root-exact672.json."
+    },
+    {
+      "id": "loaded_CODE",
+      "status": "verified",
+      "evidence_or_next_gate": "All632345 target CODE bytes literal in private source-built610 native link; evidence/target-native613.json."
+    },
+    {
+      "id": "loader_semantics",
+      "status": "verified",
+      "evidence_or_next_gate": "All27384 complete loader records asmultiset, object/page geometry and entry/stack literal; evidence/target-native613.json."
+    },
+    {
+      "id": "initialized_DATA",
+      "status": "verified_explicit_source_declarations",
+      "evidence_or_next_gate": "All initialized bytes match in the complete Root672 build. The permitted 96-byte region and GF1 pair retain their qualifiers; the seven post-NUL values are explicit unidentified residue in the optional source capsule. No historical meaning or extra source credit is claimed. The approved design requires unidentified data to be explicit, rather than silently counted as recovered source; default/adoption preference remains optional."
+    },
+    {
+      "id": "raw_serialization",
+      "status": "verified_normal_clean_build",
+      "evidence_or_next_gate": "Root662 full normal cold121source build produces1179131bytes differing ONLY7pendingCONST bytes; all remainingrawexecutablebytes literal. evidence/clean-source662.json."
+    },
+    {
+      "id": "normal_Shutdown_source",
+      "status": "verified",
+      "evidence_or_next_gate": "611 independently reviewed and integrated as a6666a7. Root628 fresh optimized3regressions and full78/66094/4314 normal GAME proof pass; correct48-byte/7-field ShutDown restored. No new coverage credit."
+    },
+    {
+      "id": "normal_GAME_source",
+      "status": "verified_optional_exact_source_route",
+      "evidence_or_next_gate": "The separate preserved-data GAME producer is integrated and independently reviewed. The complete normal build command selects it explicitly, produces all CODE/scopes/5018 fields and exact DATA, and passes the full target-file gate. The earlier zero-data mode remains available."
+    },
+    {
+      "id": "all_source_input_recipes",
+      "status": "verified_normal_clean_build",
+      "evidence_or_next_gate": "The complete --native-layout command freshly builds all 121 owned source inputs, including ACTORS, DRAM and 22 module layouts. It uses the permitted 96-byte DATA source, 177 original stock objects and five original libraries. No target game payload or research object is a production input. See evidence/clean-source662.json."
+    },
+    {
+      "id": "runtime_vendor_components",
+      "status": "verified_supplied_dependency_recipe",
+      "evidence_or_next_gate": "Stock preparer630 independently approved; full633+646 recipe review covers177 original stock members,5 whole libraries and separately pinned217764byte vendor prefix. Root652 import verified. No source credit for supplied components."
+    },
+    {
+      "id": "clean_reproduction",
+      "status": "verified",
+      "evidence_or_next_gate": "The integrated, independently reviewed optional command freshly rebuilds all 121 owned source inputs and produces the complete 1,179,131-byte original with zero differences and SHA256 a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4. See evidence/root-exact672.json."
+    },
+    {
+      "id": "human_readability",
+      "status": "verified_readable_exact_source_tree",
+      "evidence_or_next_gate": "Named C/assembly sources, ordinary C aids, qualified unknowns and GAME81/ACTORS37 navigation are documented. This source tree passes the complete exact cold build. Compiler-faithful C lowering remains optional work; no claim of all-C or unique historical text is made."
+    }
+  ],
+  "latest_native_sha256": "59d14397f95bfd77efea7093e490a955f957a03f3adc6d09c90b6393121f9c3b",
+  "code_loader_native_evidence_sha256": "8aa7c545ed413779bbab05a54985586305d180ddae9c39da988e7708a035194c",
+  "full_goal_achieved": true,
+  "latest_private_native_sha256": "59d14397f95bfd77efea7093e490a955f957a03f3adc6d09c90b6393121f9c3b",
+  "latest_private_bound_sha256": "6f7eb9fbc9d221c0569856fd93c9b53783287da06f047e2abadee33dc8bde2c0",
+  "latest_private_bound_difference_count": 7,
+  "latest_bound_sha256": "6f7eb9fbc9d221c0569856fd93c9b53783287da06f047e2abadee33dc8bde2c0",
+  "latest_clean_build_evidence": "evidence/clean-source662.json",
+  "latest_prepared_exact_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "optional_decisions": [
+    "Whether to adopt the explicitly documented seven-byte variant as the default source route. The verified opt-in command already delivers the requested exact rebuild."
+  ],
+  "completion_basis": "The original request requires source and a byte-identical rebuild, not a change to legacy default modes. The approved design permits explicitly qualified unknown data. The optional route is fully integrated, reviewed, source-built and unmasked-byte verified; no pending adoption decision is treated as user approval."
+}

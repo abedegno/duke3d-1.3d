@@ -1,0 +1,91 @@
+{
+  "status": "complete native C candidate awaiting independent review; zero accepted credit here",
+  "historical_source_identity": false,
+  "source_credit": 0,
+  "full_executable_rebuilt": false,
+  "original_member_used_by_producer": false,
+  "source": {
+    "source": "src/mact/tokenlib.c",
+    "sha256": "da2f452306b7ebacf17ad4c2d3cb8b2c81ac83ae10567164de4f779ef51b2c5e"
+  },
+  "tracked_headers_sha256": {
+    "src/mact/tokenlib/_tokenli.h": "1ff814a039e92e254728019035721c39a8e83273191caeec1fd4438961c4d209",
+    "src/mact/tokenlib/develop.h": "c862210f83facbfa543563d746fa561d9f8d94a251e98a4a470c6bd11e17f861",
+    "src/mact/tokenlib/file_lib.h": "955c633ba172e49421c6dfd3f9db25c9423bc17563a98249637f1e4e9d0e70f4",
+    "src/mact/tokenlib/tokenlib.h": "703a2696f9169ddaa75bcb2a5adc96eee17aa354845d38e0ce3b1423b60a147c",
+    "src/mact/tokenlib/types.h": "d00c4f7e2968f4315613558e1fb3a1b86f19a50cfd02b42a028cde436e298cf1",
+    "src/mact/tokenlib/util_lib.h": "c6d886338dc5559000ae7dcd244916f39668dbc13c82d6786af984085bb9e9cd"
+  },
+  "released_headers": {
+    "origin": "dukenukem3d/extras",
+    "unchanged": true,
+    "private_header": "_TOKENLI.H",
+    "actual_abi": "token_t148 bytes:filename128,buffer/cursor/end pointers,line/ready32-bit;20 real file pointers and128-byte global token buffer",
+    "license": "3D Realms GPL v2 or later educational release notice retained"
+  },
+  "source_first_leads": {
+    "released_ROTT": {
+      "path": "build/mact-source-research/rott/rott/SCRIPLIB.C",
+      "sha256": "7e33308b735a9db1604e196b66b711f1567df3af3bb44467cd617193528b3735",
+      "repository": "https://github.com/videogamepreservation/rott",
+      "role": "related released parsing algorithm context, global-state ABI and behaviors differ; not original TOKENLIB C",
+      "copyright": "1994-1995 Apogee Software, Ltd.; GPL v2 or later"
+    },
+    "related_jfmact": {
+      "repository": "https://github.com/jonof/jfmact",
+      "inspected_revision": "a356c4aa660c5dfbe5ad940ee8a75f3ab7fcd10f",
+      "finding": "pinned2005source contains no TOKENLIB implementation; current primary GitHub file listing also has no TOKENLIB C",
+      "limit": "bounded local/primary GitHub searches, not proof that no original source exists anywhere"
+    },
+    "searches": [
+      "TOKEN_SkipNonToken tokenlib",
+      "TOKEN_CommentAvailable TOKEN_Reset source",
+      "tokenlib.c duke3d",
+      "TOKEN_New TOKEN_Parse duke"
+    ],
+    "reconstruction_required": true
+  },
+  "original_reference": {
+    "library": "reference/duke3d-reconstructions/MACT386.LIB",
+    "name": "P:\\LIBMACT\\tokenlib.c",
+    "offset": 49664,
+    "end": 56342,
+    "size": 6678,
+    "sha256": "0cf75ce5fd422e49f214f0ad321dbe9b6c7fcd980eb5c60ad546f57bf5613d5b",
+    "role": "analysis/verification reference only; never native source producer input"
+  },
+  "code_anchor": {
+    "symbol": "TOKEN_Reset_",
+    "location": [
+      1,
+      557772
+    ],
+    "caller": "SCRIPLIB",
+    "caller_native_code_base": 559840,
+    "caller_relative_field_offset": 699,
+    "native_object": 1,
+    "native_relative_field": 560539,
+    "frozen_caller_source_sha256": "208af8d84c2e9ad52737a7a9e15e1ed37f6c58ad674a7f876fa99d9482cdecf0",
+    "frozen_caller_descriptor_sha256": "831c3a73a6bc8e0412c7e18d5b0729baf57f3430aee45deaeb24d32a5325ee56",
+    "frozen_caller_receipt_sha256": "b10e79224e7d2e3a70bf103c8b294d3f7af75c1a20240aa415becfa1d66fd72f",
+    "frozen_caller_commit": "225358ef92e50f7f532206fbe4a21eaf3d6366c2",
+    "method": "complete original native SCRIPLIB call, corroborated by whole-positive readable source candidate at225358e; SCRIPLIBbase independently fixed by CONFIG SCRIPT_Load typed call",
+    "witness_limit": "fixed native call projection replayed; no recursive mutable peer receipt dependency; caller source candidate independent review was pending when recorded"
+  },
+  "import_role_limit": "Eight used outside imports are fixed named native roles from original metadata and full target-fixup projection; no claim that every CRT/MACT implementation is independently reconstructed here. Unused float imports/default libraries retained, never pruned.",
+  "native_runtime_metadata": "all runtime Module fields exactly original; only THEADR name/comments/line-number records differ",
+  "behavior_notes": [
+    "availability functions scan local cursors without mutating real cursor; normal Get skips both semicolon/hash comments, CommentAvailable does not",
+    "SkipToEOL observes byte before end-bound check as actual original; no invented safety behavior",
+    "GetLine excludes newline and requires length<127; GetRaw zeroes token and copies length+1 including newline; exact native end-of-buffer behavior retained",
+    "Get replay after UnGet clears ready without advancing; LinesInFile snapshots/restores148-byte record, not global token",
+    "Parse owns a new length-byte input copy, resets, establishes end and copies real filename; Free releases that owned buffer and record",
+    "first grounded full C hypothesis matched all20 complete intervals, entire3033init/208BSS/131fixups, with no profile/source variant grid"
+  ],
+  "CONST_rule": "Only actual NUL-terminated diagnostic literals contain unused extra NUL suffixes matching native DWORD zero gaps. No sizeof/raw literal-length consumers; final real47-byte literal stays exact. No padding object/blob.",
+  "remaining_obligations": [
+    "independent module/source review before coverage",
+    "source-only final WLINK/library selection and full executable byte identity",
+    "historical original C/local spelling and further humanization"
+  ]
+}

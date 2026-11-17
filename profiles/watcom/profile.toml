@@ -1,0 +1,26 @@
+# Experimental profile. Only the dedicated tools beside this file support it.
+# Generic match.py/verify.py/gate.py dispatch is not yet implemented.
+name = "Watcom C32 / WLINK for DOS (experimental)"
+
+[c]
+command = "wcc386 {file} /fo=OUT.OBJ {opts}"
+default_opts = "/4r /s /otexan"
+code_class = "CODE"
+# Register-call C functions have a trailing underscore; data has a leading
+# underscore. Do not use Borland's uniform leading-prefix assumption.
+function_suffix = "_"
+data_prefix = "_"
+
+[asm]
+command = "wasm {opts} {file}"
+default_opts = ""
+
+[fingerprint]
+strings = ["WATCOM C/C++32 Run-Time system", "DOS/4GW Professional"]
+
+[capabilities]
+le_reader = true
+omf32_subset = true
+dosbox_x_runner = true
+generic_match_dispatch = false
+full_link_gate = false

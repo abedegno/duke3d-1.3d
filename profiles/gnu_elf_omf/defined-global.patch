@@ -1,0 +1,51 @@
+--- original/omf.h
++++ fork/omf.h
+@@ -222,6 +222,7 @@
+ public:
+    uint32_t Scope;                       // 0 = local, 1 = public, 2 = external
+    uint32_t NewIndex;                    // PUBDEF index if Scope = 1, EXTDEF index if scope = 2
++   uint32_t ExternalIndex;               // Fork455: independent EXTDEF identity for referenced globals
+    uint32_t Segment;                     // New segment index
+    uint32_t Offset;                      // Offset relative to segment = first section with same name
+    uint32_t Name;                        // Symbol name in new file as index into NameBuffer
+--- original/cof2omf.cpp
++++ fork/cof2omf.cpp
+@@ -226,6 +226,7 @@
+             // Symbol is external
+             SymbolBuffer[isym].Scope = S_EXTERNAL;        // Scope = external
+             SymbolBuffer[isym].NewIndex = ++NumExternalSymbols;  // External symbol number
++            SymbolBuffer[isym].ExternalIndex = SymbolBuffer[isym].NewIndex;
+             SymbolBuffer[isym].Name = NameBuffer.PushString(GetSymbolName(Symtab.p->s.Name));
+          }
+          else if (Symtab.p->s.SectionNumber == COFF_SECTION_ABSOLUTE) {
+@@ -322,7 +323,18 @@
+          NewRel.SourceOffset = Reloc.p->VirtualAddress;// Offset of source relative to section
+ 
+          // Get target
+-         if (Symtab.p->s.SectionNumber > 0) {
++         if (Symtab.p->s.SectionNumber > 0 && Symtab.p->s.StorageClass == COFF_CLASS_EXTERNAL) {
++            // Fork455: a defined global still has linker-selected identity.
++            // PUBDEF retains section+Value; EXTDEF supplies that full address.
++            // Do not add Value again to the relocation displacement.
++            if (!SymbolBuffer[isym].ExternalIndex) {
++               SymbolBuffer[isym].ExternalIndex = ++NumExternalSymbols;
++            }
++            NewRel.Scope = S_EXTERNAL;
++            NewRel.TargetOffset = 0;
++            NewRel.TargetSegment = SymbolBuffer[isym].ExternalIndex;
++         }
++         else if (Symtab.p->s.SectionNumber > 0) {
+             // Local
+             NewRel.Scope  = S_LOCAL;                   // 0 = local, 2 = external
+             TargetOldSection = Symtab.p->s.SectionNumber;    // Target section
+@@ -499,8 +511,9 @@
+       ToFile.StartRecord(OMF_EXTDEF);            // Start record
+ 
+       // Loop through SymbolBuffer
++      for (uint32_t desired = 1; desired <= NumExternalSymbols; desired++)
+       for (j = 0; j < SymbolBuffer.GetNumEntries(); j++) {
+-         if (SymbolBuffer[j].Scope == S_EXTERNAL && SymbolBuffer[j].NewIndex == ExtSymNum+1) {
++         if (SymbolBuffer[j].ExternalIndex == desired) {
+             // Found external symbol
+             ExtSymNum++;                         // Symbol number   
+ 

@@ -1,0 +1,112 @@
+{
+  "name": "MACT_RANDOM",
+  "source": "src/mact/random.c",
+  "reference_headers": [],
+  "overlay_headers": "src/mact/random/include",
+  "source_reference_evidence": "evidence/mact-random-source-reference.json",
+  "options": [
+    "/omaxnet",
+    "/zp4",
+    "/5r"
+  ],
+  "code_object": 1,
+  "code_offset": 564800,
+  "code_bytes": 227,
+  "code_publics": 6,
+  "expected": {
+    "initialized_bytes": 2279,
+    "zero_fill_bytes": 4,
+    "verified_fixups": 13
+  },
+  "expected_publics": {
+    "_RandomTable": [
+      4,
+      0
+    ],
+    "GetRandomNumberSeed_": [
+      1,
+      0
+    ],
+    "InitializeRandomNumberGenerator_": [
+      1,
+      56
+    ],
+    "SetRandomNumberIndex_": [
+      1,
+      164
+    ],
+    "GetRandomNumberIndex_": [
+      1,
+      172
+    ],
+    "GameRandom_": [
+      1,
+      180
+    ],
+    "Random_": [
+      1,
+      204
+    ],
+    "_sndindex": [
+      4,
+      2048
+    ],
+    "_rndindex": [
+      5,
+      0
+    ]
+  },
+  "expected_local_publics": [
+    "_rndindex",
+    "_sndindex"
+  ],
+  "expected_externals": [
+    "_dos_gettime_",
+    "_rndindex",
+    "_sndindex",
+    "_RandomTable"
+  ],
+  "expected_local_externals": [
+    "_rndindex",
+    "_sndindex"
+  ],
+  "expected_segments": [
+    {
+      "name": "_TEXT",
+      "class": "CODE",
+      "size": 227,
+      "attributes": 105
+    },
+    {
+      "name": "CONST",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169
+    },
+    {
+      "name": "CONST2",
+      "class": "DATA",
+      "size": 0,
+      "attributes": 169
+    },
+    {
+      "name": "_DATA",
+      "class": "DATA",
+      "size": 2052,
+      "attributes": 169
+    },
+    {
+      "name": "_BSS",
+      "class": "BSS",
+      "size": 4,
+      "attributes": 169
+    }
+  ],
+  "symbol_anchors": {
+    "_dos_gettime_": [
+      1,
+      591195
+    ]
+  },
+  "anchor_evidence": "evidence/mact-random-source-reference.json"
+}

@@ -1,0 +1,132 @@
+{
+  "kind": "Source-built MACT RNG; related primary source plus recovered ordinary C, not an original object substitute",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "source": {
+    "path": "src/mact/random.c",
+    "sha256": "b76ec31bada8f23845bb378c813013e74bd24d5cda6c72f4e0cd312d8a0c6769",
+    "historical_source_spelling_proved": false
+  },
+  "primary_source": {
+    "url": "https://ftpmirror.infania.net/pub/3drealms/source/rottsource.zip",
+    "archive_sha256": "45eafa693c3085c56b6ccd072f5a1fb5ba1986877a21e4506d4741b1bdd44729",
+    "license": "GPL-2.0-or-later",
+    "source_identity": "Related ROTT source; not original MACT source identity",
+    "files": {
+      "rott/RT_RAND.C": "71739617bde7787c3c178312c20e43c1893c822d8f48b369c7615b41dddf2d04",
+      "rott/RT_RAND.H": "137e86f0a05db8f837b48fb7c0d7f72617fd3d9daccacc0bda6a32f4c7cc6ec4",
+      "rott/_RT_RAND.H": "2c148310adb7d153d70aa9162f63538ccacb5d5e4e870e6cb963101670711c41"
+    },
+    "archive_paths_scope": "Actual ZIP member names, distinct from the double-rott local extraction directory"
+  },
+  "headers": {
+    "src/mact/random/include/_rt_rand.h": "2c148310adb7d153d70aa9162f63538ccacb5d5e4e870e6cb963101670711c41"
+  },
+  "derivations": [
+    "Retain exact Apogee GPL notice from RT_RAND.C and unchanged entire _RT_RAND.H from the pinned primary archive.",
+    "Retain ordinary two-static-int index, 2048-byte table, increment-and-mask algorithm; remove unrelated ROTT debug/game includes and SoftError paths absent in original externals.",
+    "Restore six measured MACT export names and byte-wide AL returns. Historical unsigned-char spelling is inferred from primary unsigned table/domain; no caller prototype witness found.",
+    "Initialize rndindex directly rather than debug SetRNGindex wrapper; equivalent ordinary assignment after absent debug effects are removed.",
+    "Single measured API restoration: replace time(NULL) seed with actual dos.h struct dostime_t, _dos_gettime, minute*second*hsecond modulo2048. No prototype override."
+  ],
+  "native_profile": {
+    "options": [
+      "/omaxnet",
+      "/zp4",
+      "/5r"
+    ],
+    "compiler_sha256": "a4f4da1b8b2cd4e38b2b041975fc6b1d131255ae5eb575828b02f927fbf9bf65",
+    "observed_original_COMENT_9b_hex": "33664f70",
+    "observed_source_COMENT_9b_hex": "33664f70",
+    "historical_exact_options_proven": false
+  },
+  "byte_return": {
+    "width_evidence": "Original routines update EAX index then load only AL from byte table before RET, with no full-width extension.",
+    "historical_signedness_proved": false,
+    "unsigned_char_inference": "Primary table has unsigned-char entries 0..255; signedness is not uniquely established by AL-only return.",
+    "caller_prototype_witness_found": false,
+    "decoded_all_callers_audited": false
+  },
+  "original_reference": {
+    "library": "reference/duke3d-reconstructions/MACT386.LIB",
+    "library_sha256": "957cea0ffb125220dd156c74b61fed8328c3a54852cad3d892cf47bebab8f8db",
+    "member": {
+      "name": "P:\\LIBMACT\\random.c",
+      "offset": 71680,
+      "size": 3374,
+      "sha256": "6153148cbd4322d15125bf25e52c0f06ac42a4e25936922350e2a921d34296dd"
+    },
+    "reference_only": true,
+    "used_as_build_output": false
+  },
+  "reference_geometry": {
+    "bss_attributes": 105,
+    "source_bss_attributes": 169,
+    "original_OMF_identity_proved": false,
+    "preceding_RGB_BSS": {
+      "object": 3,
+      "start": 1864256,
+      "size": 265232,
+      "exclusive_end": 2129488
+    },
+    "preceding_RGB_DATA": {
+      "object": 3,
+      "start": 68304,
+      "size": 52,
+      "exclusive_end": 68356
+    },
+    "measured_RNG_BSS_start": 2129488,
+    "align_up_4": 2129488,
+    "align_up_16": 2129488,
+    "scope": "Original reference RGB/RNG boundary independently verified in Task39 review; no RGB source credit, original extraction order or whole-link order proof."
+  },
+  "independent_anchor": {
+    "symbol": "_dos_gettime_",
+    "value": [
+      1,
+      591195
+    ],
+    "source_kind": "Supplied original stock toolchain component; reference dependency, zero RNG source credit",
+    "library": "toolchains/watcom-10.0-ga/LIB386/DOS/clib3r.lib",
+    "member": {
+      "name": "gtime386",
+      "offset": 10384,
+      "size": 190,
+      "sha256": "d2c3f1687278d9e4e0932dd8fd027e60971eac742de000e35be23744885d8928"
+    },
+    "verification": {
+      "verified": true,
+      "initialized_bytes": 53,
+      "zero_fill_bytes": 0,
+      "verified_fixups": 0,
+      "segments": [
+        {
+          "symbol": "_TEXT",
+          "target_object": 1,
+          "target_offset": 591168,
+          "compared_bytes": 53,
+          "verified_fixups": 0,
+          "differing_offsets": [],
+          "match": true
+        }
+      ],
+      "publics": {
+        "_dos_getdate_": [
+          1,
+          591168
+        ],
+        "_dos_gettime_": [
+          1,
+          591195
+        ]
+      },
+      "local_symbols": {},
+      "full_executable_rebuilt": false
+    },
+    "reviewed_inventory": {
+      "path": "evidence/watcom-runtime-components.json",
+      "sha256": "525a6803c6e8960a4b7029d0f0cf81a2f74cf15f4f7b1b437e86b98db3e19dbd"
+    },
+    "used_as_build_output": false
+  },
+  "full_executable_rebuilt": false
+}

@@ -1,0 +1,228 @@
+{
+  "name": "GAMEDEF",
+  "source": "src/game/gamedef.c",
+  "reference_headers": [
+    "reference/duke3d-reconstructions",
+    "reference/duke3d-reconstructions/MACT"
+  ],
+  "overlay_headers": [
+    "src/include",
+    "src/game/include",
+    "src/engine/include"
+  ],
+  "source_reference_evidence": "evidence/gamedef-source-reference.json",
+  "options": [
+    "/4r",
+    "/s",
+    "/ort",
+    "/dAPPVER_EXEDEF=DN3D13G",
+    "/dLIBVER_BUILDREV=19960320"
+  ],
+  "code_object": 1,
+  "code_offset": 145840,
+  "code_bytes": 27265,
+  "code_publics": 20,
+  "symbol_anchors": {
+    "getangle_": [
+      1,
+      331976
+    ],
+    "setsprite_": [
+      1,
+      352579
+    ],
+    "deletesprite_": [
+      1,
+      353362
+    ],
+    "changespritesect_": [
+      1,
+      353812
+    ],
+    "changespritestat_": [
+      1,
+      353883
+    ],
+    "cansee_": [
+      1,
+      354154
+    ],
+    "hitscan_": [
+      1,
+      354777
+    ],
+    "neartag_": [
+      1,
+      359182
+    ],
+    "pushmove_": [
+      1,
+      368227
+    ],
+    "updatesector_": [
+      1,
+      369184
+    ],
+    "krand_": [
+      1,
+      377409
+    ],
+    "getzrange_": [
+      1,
+      377429
+    ],
+    "getceilzofslope_": [
+      1,
+      409894
+    ],
+    "getflorzofslope_": [
+      1,
+      410144
+    ],
+    "printf_": [
+      1,
+      583204
+    ],
+    "_totalclock": [
+      3,
+      1644968
+    ],
+    "_sintable": [
+      3,
+      1285056
+    ],
+    "_headspritesect": [
+      3,
+      1647034
+    ],
+    "_sprite": [
+      3,
+      1104832
+    ],
+    "_nextspritesect": [
+      3,
+      1080256
+    ],
+    "_sector": [
+      3,
+      1597120
+    ],
+    "kopen4load_": [
+      1,
+      419813
+    ],
+    "kread_": [
+      1,
+      420053
+    ],
+    "kclose_": [
+      1,
+      420443
+    ],
+    "_headspritestat": [
+      3,
+      1644984
+    ],
+    "_nextspritestat": [
+      3,
+      1088448
+    ],
+    "spritesound_": [
+      1,
+      284768
+    ],
+    "stopsound_": [
+      1,
+      284832
+    ],
+    "kfilelength_": [
+      1,
+      420387
+    ],
+    "_sounds": [
+      3,
+      282520
+    ],
+    "_loadfromgrouponly": [
+      3,
+      582928
+    ],
+    "_fta_quotes": [
+      3,
+      397904
+    ],
+    "sprintf_": [
+      1,
+      583257
+    ],
+    "_ps": [
+      3,
+      376112
+    ],
+    "FTA_": [
+      1,
+      22704
+    ],
+    "_Sound": [
+      3,
+      574936
+    ],
+    "_soundpr": [
+      3,
+      574360
+    ],
+    "_soundm": [
+      3,
+      573880
+    ],
+    "_ud": [
+      3,
+      579668
+    ],
+    "_screenpeek": [
+      3,
+      581290
+    ],
+    "_soundps": [
+      3,
+      116728
+    ],
+    "_soundpe": [
+      3,
+      116032
+    ],
+    "_soundvo": [
+      3,
+      118816
+    ],
+    "badguy_": [
+      1,
+      10560
+    ],
+    "_hittype": [
+      3,
+      120728
+    ],
+    "_keyw": [
+      3,
+      30424
+    ],
+    "_gamedef_text": [
+      3,
+      4348
+    ],
+    "_g_i": [
+      3,
+      77788
+    ]
+  },
+  "expected": {
+    "initialized_bytes": 30834,
+    "zero_fill_bytes": 40,
+    "verified_fixups": 2339
+  },
+  "anchor_evidence": [
+    "evidence/engine-function-matches.json",
+    "evidence/sounds-module.json"
+  ]
+}

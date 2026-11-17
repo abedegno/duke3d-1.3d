@@ -1,0 +1,22 @@
+[
+  {
+    "path": "dukenukem3d",
+    "commit": "ef609159bd352985a0c63734a11241d86c873fe5"
+  },
+  {
+    "path": "exhume",
+    "commit": "d566d00f70c6a162d3a35fef8d0aa8c2455f2b20"
+  },
+  {
+    "path": "reference/audiolib-reconstructions",
+    "commit": "c363124d376d373441a21b3304eb44d32c0a69f7"
+  },
+  {
+    "path": "reference/build-reconstructions",
+    "commit": "88ffca1bdb8d93c731f6d02e62ae5119393bc73b"
+  },
+  {
+    "path": "reference/duke3d-reconstructions",
+    "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7"
+  }
+]

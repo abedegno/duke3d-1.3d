@@ -1,0 +1,20 @@
+--- parent455/elf2cof.cpp
++++ new/elf2cof.cpp
+@@ -642,6 +642,17 @@
+       return;
+    }
+ 
++   // Strip options alone must not erase intentional undefined imports.
++   // Preserve the old hiding policy only when a section was actually removed.
++   bool sectionsRemoved = false;
++   for (uint32_t section = 0; section < this->NSections; section++) {
++      if (this->SectionHeaders[section].sh_type == SHT_REMOVE_ME) {
++         sectionsRemoved = true;
++         break;
++      }
++   }
++   if (!sectionsRemoved) return;
++
+    // Pointer to new symbol table
+    union {
+       SCOFF_SymTableEntry * p; // Symtab entry pointer

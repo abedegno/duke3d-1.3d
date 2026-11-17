@@ -1,0 +1,84 @@
+{
+  "compiler_home": "/Users/jonw/duke3d/toolchains/watcom-10.0a",
+  "compiler_sha256": "c3666de94f6fa6800f452dae8acf45505ecdb62f0ade2cc27cc86c2d9e8e2b6b",
+  "target_sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
+  "options": [
+    "/4r",
+    "/s",
+    "/otexan"
+  ],
+  "results": [
+    {
+      "symbol": "getincangle_",
+      "match": false,
+      "error": "function extent leaves unverified instructions",
+      "source": "src/gamedef/angles.c",
+      "source_sha256": "84230c9f8af74b5fd19b6209e52e8f60e093509c7892bd4bd915042bbe8ee3cd"
+    },
+    {
+      "symbol": "ispecial_",
+      "match": false,
+      "error": "function extent leaves unverified instructions",
+      "source": "src/gamedef/whitespace.c",
+      "source_sha256": "254c6495c23223665fef1d11194665e8f3f3ed3ead417dc919223a195ab36d63"
+    },
+    {
+      "symbol": "timerhandler_",
+      "target_object": 1,
+      "target_offset": 464,
+      "compared_bytes": 12,
+      "verified_fixups": 2,
+      "differing_offsets": [],
+      "match": true,
+      "source": "src/game/timer.c",
+      "source_sha256": "c0769ca1ad7d396468810063517c7b3073313db7698f5fcd1401eaa4dad399bf"
+    },
+    {
+      "symbol": "inittimer_",
+      "target_object": 1,
+      "target_offset": 480,
+      "compared_bytes": 39,
+      "verified_fixups": 4,
+      "differing_offsets": [],
+      "match": true,
+      "source": "src/game/timer.c",
+      "source_sha256": "c0769ca1ad7d396468810063517c7b3073313db7698f5fcd1401eaa4dad399bf"
+    },
+    {
+      "symbol": "uninittimer_",
+      "target_object": 1,
+      "target_offset": 528,
+      "compared_bytes": 35,
+      "verified_fixups": 4,
+      "differing_offsets": [],
+      "match": true,
+      "source": "src/game/timer.c",
+      "source_sha256": "c0769ca1ad7d396468810063517c7b3073313db7698f5fcd1401eaa4dad399bf"
+    },
+    {
+      "symbol": "ldist_",
+      "target_object": 1,
+      "target_offset": 254768,
+      "compared_bytes": 34,
+      "verified_fixups": 1,
+      "differing_offsets": [],
+      "match": true,
+      "source": "src/sector/distances.c",
+      "source_sha256": "0cedc58866d142011a40bf103bd9ef84c19f2ae1e8bd16ce1d126f43fa76873b"
+    },
+    {
+      "symbol": "dist_",
+      "target_object": 1,
+      "target_offset": 254816,
+      "compared_bytes": 45,
+      "verified_fixups": 1,
+      "differing_offsets": [],
+      "match": true,
+      "source": "src/sector/distances.c",
+      "source_sha256": "0cedc58866d142011a40bf103bd9ef84c19f2ae1e8bd16ce1d126f43fa76873b"
+    }
+  ],
+  "matched": 5,
+  "total": 7,
+  "full_executable_rebuilt": false
+}

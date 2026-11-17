@@ -1,0 +1,61 @@
+{
+  "kind": "Complete GAMEDEF source contribution; executable unfinished",
+  "repository": "https://github.com/gamesrc-ver-recreation/duke3d",
+  "commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
+  "upstream": "GAMEDEF.C",
+  "upstream_sha256": "0448c4284b32915195dcf293fcf5593252dc99beedb3a9e43466fd816791f17e",
+  "tracked_source": "src/game/gamedef.c",
+  "tracked_sha256": "132712a9d6c8b058fe344290d68d5f2297eb0d7ac1da2e96e6548cf602624346",
+  "license": "GPL-2.0-or-later; original-author credit and GPL text retained",
+  "license_file": "src/game/gpl.txt",
+  "license_file_sha256": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
+  "modifications": [
+    "Retain the measured period Build pragmas and current reconstructed game declarations. No shared headers change in this checkpoint.",
+    "Remove inactive WW2/NAM/EDuke/version branches. Separate native controls established identical segments, publics and fixups before and after conditional pruning; the final source is independently recompiled.",
+    "Restore 99 keyword slots: entries0..97 retain the ancestor text; entry98 duplicates debug(entry68). Remove later opcode labels>=98, preserving shared bodies of earlier cases. Both compiler parser and interpreter now verify.",
+    "Restore fixed gravity176 (underwater29) in makeitfall and the interpreter; both complete public intervals verify.",
+    "Retain only the simple transword unknown-keyword diagnostic. The complete compiler-parser interval now verifies the earlier warning for an orphan else, filename guard i>13 after increment, and sound-limit diagnostic arguments line_number,k,NUM_SOUNDS.",
+    "Keep level_file_names stride128. A filename content limit of13 does not establish a smaller allocation; PREMAP independently matches the larger stride.",
+    "Remove the later defaultcons table, copydefaultcons body and external-file copying prompt from this candidate. This does not prove absence of similarly named code elsewhere in the executable.",
+    "Reconstruct an end-of-input pointer stored at object3:77776 and retain a short total-script-line count at77796, based on target loading instructions. The identifier total_script_lines and declaration arrangement yield the measured static ordering; original names remain unproved; the complete native40-byte BSS contribution now verifies.",
+    "Remove the later wantweaponfire respawn assignment in the now-verified interpreter. The later actortype clear is absent from the now-verified loadefs interval.",
+    "Materialize145 readable string fields and bounded post-NUL alignment fields in a separate CONST segment, replacing147 literal uses with typed field addresses. Text derives from the ancestor and readable target diagnostics; only alignment residue is represented as explicit small byte values. No instruction payload is embedded.",
+    "Preserve all native source bytes and relocation checks. Public-to-next-public intervals may contain a following function switch-table prefix; terminal execute stops at the native finalRET, excluding subsequent linker alignment.",
+    "Verify the complete 672-byte loadefs interval: initialize and terminate the saved input-end pointer, retain the short line counter, print warning/error totals unconditionally, echo a newline with printf only in the yes branch before puts Yes, and preserve the earlier warning/error choice paths. All 79 relocations match. Original static spellings remain unproved; complete native BSS contributions now verify.",
+    "Verify transnum together with its following switch-table prefix, and the complete 5,616-byte parsecommand interval. Restore the 26 gamestartup parameters by omitting later gravity, grow-ammo, sprite-queue and laser-mode parameters, preserve the default invalid-token script-pointer decrement, and use the measured return placement in the five-parameter directive. Every switch-table entry and relocation is checked; no prefix is trimmed or masked.",
+    "Verify the complete 2,288-byte move interval by restoring the earlier jump-to-player sine-table index, 512+(g_t[0]<<4), without the later &2047 wrap. All 146 relocations and alignment bytes match; the verifier is unchanged.",
+    "Restore earlier interpreter handlers: no health-pickup camera reset; sizeto steps both repeat values only when abs(delta*2)>2, without the later ceiling/player growth condition; addweapon omits the later KNEE autoswitch while addammo retains its separate behavior.",
+    "Restore the owner-sprite check before the recorded-hit fallback in ifwasweapon. Debris spawns at actor x,y,z-4096 without later random coordinate offsets; retain both BLIMP/SCRAP1 special cases.",
+    "Restore resetplayer without the later single-player killit_flag=2 store or multiplayer rotscrnang clear. Keep the earlier last-save menu prompt and other reset assignments. Advance insptr before clearing actorstayput in the kills directive.",
+    "Restore the coop-only weapon-record check with bound256, the respawn switch without FEM10, and the player-state KNEE condition without the later quick_kick alternative. These preserve target behavior, including the measured historical bound.",
+    "Keep the visibility-handler calculation whose result is unused. Unused source code is permitted by the user when necessary for compiler identity; this pass introduces no instruction-byte stand-ins or compiler-output patching.",
+    "Verify all20 public CODE intervals, including both interpreter switch-table prefixes, then verify the complete module at one CODE placement145840: CODE27265, CONST3173, DATA396 and BSS40, with2339 fixups. Native CODE stops at final execute RET173105; following linker alignment remains separate."
+  ],
+  "initialized_data": {
+    "CONST": {
+      "source_segment": 6,
+      "target_object": 3,
+      "target_offset": 4348,
+      "size": 3173,
+      "fixups": 0,
+      "scope": "entire nonempty native string segment, including all alignment fields"
+    },
+    "DATA": {
+      "source_segment": 4,
+      "target_object": 3,
+      "target_offset": 30424,
+      "size": 396,
+      "fixups": 99,
+      "scope": "entire99-entry native pointer table"
+    }
+  },
+  "verification": "evidence/gamedef-module.json",
+  "limitations": [
+    "Original local identifiers and original source spelling are inferred; identity proves the reconstructed native contributions, not historical source text.",
+    "Complete ENGINE and SOUNDS exported/reference anchors exclude module-local symbols.",
+    "Other game/runtime contributions, linker and extender binding, complete-file identity and source humanization remain unfinished."
+  ],
+  "new_complete_contributions": 1,
+  "full_executable_rebuilt": false,
+  "interval_diagnostics": "evidence/gamedef-progress.json"
+}
