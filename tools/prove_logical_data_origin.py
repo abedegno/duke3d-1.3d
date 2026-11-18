@@ -25,7 +25,7 @@ from tools.inventory_watcom_runtime import (read_archive, select_member,
                                            nominate_matherr_initializer, native_gate)
 from tools.logical_segment_origins import _issue_verified_origin, segment_identity
 
-_INPUTS_SHA256 = '4deb39724368c5db3a4c8ce65f32b2549061313fdb368123c6027a8049a3ad05'
+_INPUTS_SHA256 = '132553605369766b5ba200267f23bb18f41f32174c7dafed0163c5d418ad51a7'
 _OPTIONS = ('/4r','/s','/ort','/dAPPVER_EXEDEF=DN3D13G','/dLIBVER_BUILDREV=19960320')
 _MATHERR = dict(offset=31472, size=859, name='_matherr',
     sha256='0e7fa19a1405c1dfe027549c81c4e165a14748d4fd6f78c8cbb1f6c0c59b75da')
@@ -99,7 +99,7 @@ def replay_target_data_origin(*, home=None, build=None):
     prepare_headers([ROOT/'reference/duke3d-reconstructions',
                      ROOT/'reference/duke3d-reconstructions/MACT'],
                     [ROOT/'src/include',ROOT/'src/game/include',ROOT/'src/engine/include'], headers)
-    source = ROOT/'src/game/game.c'
+    source = ROOT/'src/game/symbolic/game-fixed-C-counterpart.c.txt'
     (work/'GAME.C').write_bytes(source.read_bytes())
     compile_source(home, source, work/'GAME.OBJ', list(_OPTIONS),30,include_dirs=[headers])
     module = Module.parse((work/'GAME.OBJ').read_bytes())

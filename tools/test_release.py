@@ -14,6 +14,7 @@ PUBLIC_TESTS = (
     'test_actors_c_backend.py',
     'test_actors_omf_link.py',
     'test_game_c_bodies.py',
+    'test_game_omf_link.py',
     'test_verified_snapshot.py',
     'test_complete_game_preparation.py',
     'test_complete_native_publication.py',

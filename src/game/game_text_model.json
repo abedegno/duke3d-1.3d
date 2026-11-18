@@ -1,0 +1,986 @@
+{
+  "authored_messages": 140,
+  "authored_bytes": 4274,
+  "message_map": [
+    {
+      "name": "game_text_getpackets_0",
+      "owner": "getpackets",
+      "offset": 0,
+      "data": "0a596f752063616e6e6f7420706c61792044756b65207769746820646966666572656e742076657273696f6e732e0010",
+      "visible": "0a596f752063616e6e6f7420706c61792044756b65207769746820646966666572656e742076657273696f6e732e"
+    },
+    {
+      "name": "game_text_getpackets_48",
+      "owner": "getpackets",
+      "offset": 48,
+      "data": "494e56414c49442047414d45205041434b45542121212028256c6420746f6f206d616e79206279746573290a00560700",
+      "visible": "494e56414c49442047414d45205041434b45542121212028256c6420746f6f206d616e79206279746573290a"
+    },
+    {
+      "name": "game_text_getpackets_96",
+      "owner": "getpackets",
+      "offset": 96,
+      "data": "200003d8",
+      "visible": "20"
+    },
+    {
+      "name": "game_text_checksync_100",
+      "owner": "checksync",
+      "offset": 100,
+      "data": "4f7574204f662053796e63202d20506c6561736520726573746172742067616d6500a056",
+      "visible": "4f7574204f662053796e63202d20506c6561736520726573746172742067616d65"
+    },
+    {
+      "name": "game_text_checksync_136",
+      "owner": "checksync",
+      "offset": 136,
+      "data": "52554e20444e334448454c502e45584520666f7220696e666f726d6174696f6e2e000000",
+      "visible": "52554e20444e334448454c502e45584520666f7220696e666f726d6174696f6e2e"
+    },
+    {
+      "name": "game_text_checksync_172",
+      "owner": "checksync",
+      "offset": 172,
+      "data": "4d6973736564204e6574776f726b207061636b6574210069",
+      "visible": "4d6973736564204e6574776f726b207061636b657421"
+    },
+    {
+      "name": "game_text_checksync_196",
+      "owner": "checksync",
+      "offset": 196,
+      "data": "52554e20444e334448454c502e45584520666f7220696e666f726d6174696f6e2e004d45",
+      "visible": "52554e20444e334448454c502e45584520666f7220696e666f726d6174696f6e2e"
+    },
+    {
+      "name": "game_text_invennum_232",
+      "owner": "invennum",
+      "offset": 232,
+      "data": "256c6400",
+      "visible": "256c64"
+    },
+    {
+      "name": "game_text_displayfragbar_236",
+      "owner": "displayfragbar",
+      "offset": 236,
+      "data": "25640021",
+      "visible": "2564"
+    },
+    {
+      "name": "game_text_coolgaugetext_240",
+      "owner": "coolgaugetext",
+      "offset": 240,
+      "data": "25002028",
+      "visible": "25"
+    },
+    {
+      "name": "game_text_coolgaugetext_244",
+      "owner": "coolgaugetext",
+      "offset": 244,
+      "data": "4f4e0020",
+      "visible": "4f4e"
+    },
+    {
+      "name": "game_text_coolgaugetext_248",
+      "owner": "coolgaugetext",
+      "offset": 248,
+      "data": "4f464600",
+      "visible": "4f4646"
+    },
+    {
+      "name": "game_text_coolgaugetext_252",
+      "owner": "coolgaugetext",
+      "offset": 252,
+      "data": "4155544f00627974",
+      "visible": "4155544f"
+    },
+    {
+      "name": "game_text_caches_260",
+      "owner": "caches",
+      "offset": 260,
+      "data": "4c6f636b65642d20256c643a204c656e673a256c642c204c6f636b3a256c6400",
+      "visible": "4c6f636b65642d20256c643a204c656e673a256c642c204c6f636b3a256c64"
+    },
+    {
+      "name": "game_text_caches_292",
+      "owner": "caches",
+      "offset": 292,
+      "data": "525453204c6f636b656420256c643a00",
+      "visible": "525453204c6f636b656420256c643a"
+    },
+    {
+      "name": "game_text_coords_308",
+      "owner": "coords",
+      "offset": 308,
+      "data": "583d20256c640044",
+      "visible": "583d20256c64"
+    },
+    {
+      "name": "game_text_coords_316",
+      "owner": "coords",
+      "offset": 316,
+      "data": "593d20256c640045",
+      "visible": "593d20256c64"
+    },
+    {
+      "name": "game_text_coords_324",
+      "owner": "coords",
+      "offset": 324,
+      "data": "5a3d20256c640066",
+      "visible": "5a3d20256c64"
+    },
+    {
+      "name": "game_text_coords_332",
+      "owner": "coords",
+      "offset": 332,
+      "data": "413d20256c64006e",
+      "visible": "413d20256c64"
+    },
+    {
+      "name": "game_text_coords_340",
+      "owner": "coords",
+      "offset": 340,
+      "data": "5a563d20256c6400",
+      "visible": "5a563d20256c64"
+    },
+    {
+      "name": "game_text_coords_348",
+      "owner": "coords",
+      "offset": 348,
+      "data": "4f473d20256c6400",
+      "visible": "4f473d20256c64"
+    },
+    {
+      "name": "game_text_coords_356",
+      "owner": "coords",
+      "offset": 356,
+      "data": "54483d20256c6400",
+      "visible": "54483d20256c64"
+    },
+    {
+      "name": "game_text_binscreen_364",
+      "owner": "binscreen",
+      "offset": 364,
+      "data": "64756b6533642e62696e0020",
+      "visible": "64756b6533642e62696e"
+    },
+    {
+      "name": "game_text_gameexit_376",
+      "owner": "gameexit",
+      "offset": 376,
+      "data": "0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0061",
+      "visible": "0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a"
+    },
+    {
+      "name": "game_text_gameexit_400",
+      "owner": "gameexit",
+      "offset": 400,
+      "data": "0a006f6e",
+      "visible": "0a"
+    },
+    {
+      "name": "game_text_gameexit_404",
+      "owner": "gameexit",
+      "offset": 404,
+      "data": "25732573006c6400",
+      "visible": "25732573"
+    },
+    {
+      "name": "game_text_gameexit_412",
+      "owner": "gameexit",
+      "offset": 412,
+      "data": "64756b6533642e746d700020",
+      "visible": "64756b6533642e746d70"
+    },
+    {
+      "name": "game_text_displayrest_424",
+      "owner": "displayrest",
+      "offset": 424,
+      "data": "3a200000",
+      "visible": "3a20"
+    },
+    {
+      "name": "game_text_displayrest_428",
+      "owner": "displayrest",
+      "offset": 428,
+      "data": "47414d452050415553454400",
+      "visible": "47414d4520504155534544"
+    },
+    {
+      "name": "game_text_spawn_440",
+      "owner": "spawn",
+      "offset": 440,
+      "data": "466f756e64206c6f6e656c7920536563746f72204566666563746f7220286c6f7461672030292061742028256c642c256c64290a003d2025",
+      "visible": "466f756e64206c6f6e656c7920536563746f72204566666563746f7220286c6f7461672030292061742028256c642c256c64290a"
+    },
+    {
+      "name": "game_text_spawn_496",
+      "owner": "spawn",
+      "offset": 496,
+      "data": "546f6f206d616e79206d6f76696e6720736563746f72732061742028256c642c256c64292e0a003d",
+      "visible": "546f6f206d616e79206d6f76696e6720736563746f72732061742028256c642c256c64292e0a"
+    },
+    {
+      "name": "game_text_spawn_536",
+      "owner": "spawn",
+      "offset": 536,
+      "data": "53756277617920666f756e64206e6f207a65726f276420736563746f72732077697468206c6f6361746f72730a61742028256c642c256c64292e0a00",
+      "visible": "53756277617920666f756e64206e6f207a65726f276420736563746f72732077697468206c6f6361746f72730a61742028256c642c256c64292e0a"
+    },
+    {
+      "name": "game_text_nonsharedkeys_596",
+      "owner": "nonsharedkeys",
+      "offset": 596,
+      "data": "64756b65303030302e70637800205041",
+      "visible": "64756b65303030302e706378"
+    },
+    {
+      "name": "game_text_nonsharedkeys_612",
+      "owner": "nonsharedkeys",
+      "offset": 612,
+      "data": "504c4159494e47200064206c",
+      "visible": "504c4159494e4720"
+    },
+    {
+      "name": "game_text_nonsharedkeys_624",
+      "owner": "nonsharedkeys",
+      "offset": 624,
+      "data": "2e20205553452053484946542d463520544f204348414e47452e0067",
+      "visible": "2e20205553452053484946542d463520544f204348414e47452e"
+    },
+    {
+      "name": "game_text_comlinehelp_652",
+      "owner": "comlinehelp",
+      "offset": 652,
+      "data": "436f6d6d616e64206c696e652068656c702e20202573205b2f666c6167732e2e2e5d0a00",
+      "visible": "436f6d6d616e64206c696e652068656c702e20202573205b2f666c6167732e2e2e5d0a"
+    },
+    {
+      "name": "game_text_comlinehelp_688",
+      "owner": "comlinehelp",
+      "offset": 688,
+      "data": "202020203f2c202f3f20202020546869732068656c70206d657373616765002e",
+      "visible": "202020203f2c202f3f20202020546869732068656c70206d657373616765"
+    },
+    {
+      "name": "game_text_comlinehelp_720",
+      "owner": "comlinehelp",
+      "offset": 720,
+      "data": "202020202f6c232320202020204c6576656c202028312d3131290065",
+      "visible": "202020202f6c232320202020204c6576656c202028312d313129"
+    },
+    {
+      "name": "game_text_comlinehelp_748",
+      "owner": "comlinehelp",
+      "offset": 748,
+      "data": "202020202f7623202020202020566f6c756d652028312d332900642c",
+      "visible": "202020202f7623202020202020566f6c756d652028312d3329"
+    },
+    {
+      "name": "game_text_comlinehelp_776",
+      "owner": "comlinehelp",
+      "offset": 776,
+      "data": "202020202f7323202020202020536b696c6c202028312d3429005949",
+      "visible": "202020202f7323202020202020536b696c6c202028312d3429"
+    },
+    {
+      "name": "game_text_comlinehelp_804",
+      "owner": "comlinehelp",
+      "offset": 804,
+      "data": "202020202f72202020202020205265636f72642064656d6f00204348",
+      "visible": "202020202f72202020202020205265636f72642064656d6f"
+    },
+    {
+      "name": "game_text_comlinehelp_832",
+      "owner": "comlinehelp",
+      "offset": 832,
+      "data": "202020202f6d202020202020204e6f206d6f6e737465727300202025",
+      "visible": "202020202f6d202020202020204e6f206d6f6e7374657273"
+    },
+    {
+      "name": "game_text_comlinehelp_860",
+      "owner": "comlinehelp",
+      "offset": 860,
+      "data": "202020202f6e732020202020204e6f20736f756e64000000",
+      "visible": "202020202f6e732020202020204e6f20736f756e64"
+    },
+    {
+      "name": "game_text_comlinehelp_884",
+      "owner": "comlinehelp",
+      "offset": 884,
+      "data": "202020202f6e6d2020202020204e6f206d75736963006576",
+      "visible": "202020202f6e6d2020202020204e6f206d75736963"
+    },
+    {
+      "name": "game_text_comlinehelp_908",
+      "owner": "comlinehelp",
+      "offset": 908,
+      "data": "202020202f74232020202020205265737061776e2c2030203d204d6f6e73746572732c2031203d204974656d732c2032203d20496e76656e746f72792c2078203d20416c6c002020",
+      "visible": "202020202f74232020202020205265737061776e2c2030203d204d6f6e73746572732c2031203d204974656d732c2032203d20496e76656e746f72792c2078203d20416c6c"
+    },
+    {
+      "name": "game_text_comlinehelp_980",
+      "owner": "comlinehelp",
+      "offset": 980,
+      "data": "202020202f63232020202020204d50206d6f64652c2030203d2044756b654d6174636828737061776e292c2031203d20436f6f702c2032203d2044756b656d61746368286e6f20737061776e29000000",
+      "visible": "202020202f63232020202020204d50206d6f64652c2030203d2044756b654d6174636828737061776e292c2031203d20436f6f702c2032203d2044756b656d61746368286e6f20737061776e29"
+    },
+    {
+      "name": "game_text_comlinehelp_1060",
+      "owner": "comlinehelp",
+      "offset": 1060,
+      "data": "202020202f712320202020202046616b65204d502028322d3820706c6179657273290020",
+      "visible": "202020202f712320202020202046616b65204d502028322d3820706c617965727329"
+    },
+    {
+      "name": "game_text_comlinehelp_1096",
+      "owner": "comlinehelp",
+      "offset": 1096,
+      "data": "202020202f69232020202020204e6574776f726b206d6f64652028312f302920284d50206f6e6c792900656e",
+      "visible": "202020202f69232020202020204e6574776f726b206d6f64652028312f302920284d50206f6e6c7929"
+    },
+    {
+      "name": "game_text_comlinehelp_1140",
+      "owner": "comlinehelp",
+      "offset": 1140,
+      "data": "202020202f662320202020202053656e64206665776572207061636b6574732028312c20322c20342920284d50206f6e6c792900",
+      "visible": "202020202f662320202020202053656e64206665776572207061636b6574732028312c20322c20342920284d50206f6e6c7929"
+    },
+    {
+      "name": "game_text_comlinehelp_1192",
+      "owner": "comlinehelp",
+      "offset": 1192,
+      "data": "202020202f673c66696c653e2047726f7570203c66696c653e202864656661756c742044554b4533442e475250290000",
+      "visible": "202020202f673c66696c653e2047726f7570203c66696c653e202864656661756c742044554b4533442e47525029"
+    },
+    {
+      "name": "game_text_comlinehelp_1240",
+      "owner": "comlinehelp",
+      "offset": 1240,
+      "data": "202020202f783c66696c653e20436f6d70696c65203c66696c653e202864656661756c742047414d452e434f4e290020",
+      "visible": "202020202f783c66696c653e20436f6d70696c65203c66696c653e202864656661756c742047414d452e434f4e29"
+    },
+    {
+      "name": "game_text_comlinehelp_1288",
+      "owner": "comlinehelp",
+      "offset": 1288,
+      "data": "202020202d38323530202020205061737365642066726f6d2053455455502e45584520616e6420434f4d4d49542e455845006665",
+      "visible": "202020202d38323530202020205061737365642066726f6d2053455455502e45584520616e6420434f4d4d49542e455845"
+    },
+    {
+      "name": "game_text_comlinehelp_1340",
+      "owner": "comlinehelp",
+      "offset": 1340,
+      "data": "202020202d6e657420202020205061737365642066726f6d2053455455502e45584520616e6420434f4d4d49542e45584500203c",
+      "visible": "202020202d6e657420202020205061737365642066726f6d2053455455502e45584520616e6420434f4d4d49542e455845"
+    },
+    {
+      "name": "game_text_comlinehelp_1392",
+      "owner": "comlinehelp",
+      "offset": 1392,
+      "data": "202020202f6a20202020202020446973706c61792076657273696f6e207769746820657869740065",
+      "visible": "202020202f6a20202020202020446973706c61792076657273696f6e20776974682065786974"
+    },
+    {
+      "name": "game_text_checkcommandline_1432",
+      "owner": "checkcommandline",
+      "offset": 1432,
+      "data": "436f756c64206e6f742066696e6420636f6e2066696c6520272573272e0a0043",
+      "visible": "436f756c64206e6f742066696e6420636f6e2066696c6520272573272e0a"
+    },
+    {
+      "name": "game_text_checkcommandline_1464",
+      "owner": "checkcommandline",
+      "offset": 1464,
+      "data": "5573696e6720636f6e2066696c653a20272573270a006564",
+      "visible": "5573696e6720636f6e2066696c653a20272573270a"
+    },
+    {
+      "name": "game_text_checkcommandline_1488",
+      "owner": "checkcommandline",
+      "offset": 1488,
+      "data": "536f756e64206f66662e002e",
+      "visible": "536f756e64206f66662e"
+    },
+    {
+      "name": "game_text_checkcommandline_1500",
+      "owner": "checkcommandline",
+      "offset": 1500,
+      "data": "4d75736963206f66662e004d",
+      "visible": "4d75736963206f66662e"
+    },
+    {
+      "name": "game_text_checkcommandline_1512",
+      "owner": "checkcommandline",
+      "offset": 1512,
+      "data": "4e6574776f726b204d6f646520256c640a002020",
+      "visible": "4e6574776f726b204d6f646520256c640a"
+    },
+    {
+      "name": "game_text_checkcommandline_1532",
+      "owner": "checkcommandline",
+      "offset": 1532,
+      "data": "44756b656d617463682028737061776e292e002e",
+      "visible": "44756b656d617463682028737061776e292e"
+    },
+    {
+      "name": "game_text_checkcommandline_1552",
+      "owner": "checkcommandline",
+      "offset": 1552,
+      "data": "436f6f706572617469766520706c61792e000020",
+      "visible": "436f6f706572617469766520706c61792e"
+    },
+    {
+      "name": "game_text_checkcommandline_1572",
+      "owner": "checkcommandline",
+      "offset": 1572,
+      "data": "44756b656d6174636820286e6f20737061776e292e000000",
+      "visible": "44756b656d6174636820286e6f20737061776e292e"
+    },
+    {
+      "name": "game_text_checkcommandline_1596",
+      "owner": "checkcommandline",
+      "offset": 1596,
+      "data": "5265737061776e206f6e2e00",
+      "visible": "5265737061776e206f6e2e"
+    },
+    {
+      "name": "game_text_checkcommandline_1608",
+      "owner": "checkcommandline",
+      "offset": 1608,
+      "data": "4d6f6e7374657273206f66662e00636f",
+      "visible": "4d6f6e7374657273206f66662e"
+    },
+    {
+      "name": "game_text_checkcommandline_1624",
+      "owner": "checkcommandline",
+      "offset": 1624,
+      "data": "46616b65206d756c7469204d6f64652e00696e67",
+      "visible": "46616b65206d756c7469204d6f64652e"
+    },
+    {
+      "name": "game_text_checkcommandline_1644",
+      "owner": "checkcommandline",
+      "offset": 1644,
+      "data": "44656d6f726563206d6f6465206f6e2e00656453",
+      "visible": "44656d6f726563206d6f6465206f6e2e"
+    },
+    {
+      "name": "game_text_checkcommandline_1664",
+      "owner": "checkcommandline",
+      "offset": 1664,
+      "data": "312e3344006f6666",
+      "visible": "312e3344"
+    },
+    {
+      "name": "game_text_checkcommandline_1672",
+      "owner": "checkcommandline",
+      "offset": 1672,
+      "data": "44756b65204e756b656d203344202846554c4c2056455253494f4e29207625730a002044",
+      "visible": "44756b65204e756b656d203344202846554c4c2056455253494f4e29207625730a"
+    },
+    {
+      "name": "game_text_Logo_1708",
+      "owner": "Logo",
+      "offset": 1708,
+      "data": "6c6f676f2e616e6d00287370",
+      "visible": "6c6f676f2e616e6d"
+    },
+    {
+      "name": "game_text_Logo_1720",
+      "owner": "Logo",
+      "offset": 1720,
+      "data": "57414954494e4720464f5220504c41594552532e2e2e002e",
+      "visible": "57414954494e4720464f5220504c41594552532e2e2e"
+    },
+    {
+      "name": "game_text_loadtmb_1744",
+      "owner": "loadtmb",
+      "offset": 1744,
+      "data": "64336474696d62722e746d6200286e6f",
+      "visible": "64336474696d62722e746d62"
+    },
+    {
+      "name": "game_text_compilecons_1760",
+      "owner": "compilecons",
+      "offset": 1760,
+      "data": "20202a20436f6d70696c696e6720257320696e2025730a00",
+      "visible": "20202a20436f6d70696c696e6720257320696e2025730a"
+    },
+    {
+      "name": "game_text_Startup_1784",
+      "owner": "Startup",
+      "offset": 1784,
+      "data": "4c6f6164696e6720617274206865616465722e00",
+      "visible": "4c6f6164696e6720617274206865616465722e"
+    },
+    {
+      "name": "game_text_Startup_1804",
+      "owner": "Startup",
+      "offset": 1804,
+      "data": "74696c65733030302e61727400756c74",
+      "visible": "74696c65733030302e617274"
+    },
+    {
+      "name": "game_text_Startup_1820",
+      "owner": "Startup",
+      "offset": 1820,
+      "data": "4d756c7469706c6179657220696e697469616c697a65642e006e2e00",
+      "visible": "4d756c7469706c6179657220696e697469616c697a65642e"
+    },
+    {
+      "name": "game_text_Startup_1848",
+      "owner": "Startup",
+      "offset": 1848,
+      "data": "436865636b696e67206d7573696320696e6974732e003344",
+      "visible": "436865636b696e67206d7573696320696e6974732e"
+    },
+    {
+      "name": "game_text_Startup_1872",
+      "owner": "Startup",
+      "offset": 1872,
+      "data": "436865636b696e6720736f756e6420696e6974732e00446c",
+      "visible": "436865636b696e6720736f756e6420696e6974732e"
+    },
+    {
+      "name": "game_text_getnames_1896",
+      "owner": "getnames",
+      "offset": 1896,
+      "data": "536561726368696e6720666f72206f7468657220706c61796572732e00532e2e",
+      "visible": "536561726368696e6720666f72206f7468657220706c61796572732e"
+    },
+    {
+      "name": "game_text_main_1928",
+      "owner": "main",
+      "offset": 1928,
+      "data": "202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202000746961",
+      "visible": "2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020"
+    },
+    {
+      "name": "game_text_main_2012",
+      "owner": "main",
+      "offset": 2012,
+      "data": "44756b65204e756b656d2033442046756c6c2056657273696f6e2076312e334400444368",
+      "visible": "44756b65204e756b656d2033442046756c6c2056657273696f6e2076312e3344"
+    },
+    {
+      "name": "game_text_main_2048",
+      "owner": "main",
+      "offset": 2048,
+      "data": "0a0a596f7520646f6e2774206861766520656e6f7567682066726565206d656d6f727920746f2072756e2044756b65204e756b656d2033442e002020",
+      "visible": "0a0a596f7520646f6e2774206861766520656e6f7567682066726565206d656d6f727920746f2072756e2044756b65204e756b656d2033442e"
+    },
+    {
+      "name": "game_text_main_2108",
+      "owner": "main",
+      "offset": 2108,
+      "data": "54686520444f53204d454d20636f6d6d616e642073686f756c64207265706f727420362c3830304b20286f7220362e38206d656773290020",
+      "visible": "54686520444f53204d454d20636f6d6d616e642073686f756c64207265706f727420362c3830304b20286f7220362e38206d65677329"
+    },
+    {
+      "name": "game_text_main_2164",
+      "owner": "main",
+      "offset": 2164,
+      "data": "27546f74616c206d656d6f72792066726565272e00202020",
+      "visible": "27546f74616c206d656d6f72792066726565272e"
+    },
+    {
+      "name": "game_text_main_2188",
+      "owner": "main",
+      "offset": 2188,
+      "data": "0a44756b65204e756b656d20334420686173206265656e206c6963656e736564206578636c75736976656c7920746f2054454e2028546f74616c006f",
+      "visible": "0a44756b65204e756b656d20334420686173206265656e206c6963656e736564206578636c75736976656c7920746f2054454e2028546f74616c"
+    },
+    {
+      "name": "game_text_main_2248",
+      "owner": "main",
+      "offset": 2248,
+      "data": "456e7465727461696e6d656e74204e6574776f726b2920666f7220776964652d61726561206e6574776f726b6564202857414e29206d756c7469706c6179657200000000",
+      "visible": "456e7465727461696e6d656e74204e6574776f726b2920666f7220776964652d61726561206e6574776f726b6564202857414e29206d756c7469706c61796572"
+    },
+    {
+      "name": "game_text_main_2316",
+      "owner": "main",
+      "offset": 2316,
+      "data": "67616d65732e0a00",
+      "visible": "67616d65732e0a"
+    },
+    {
+      "name": "game_text_main_2324",
+      "owner": "main",
+      "offset": 2324,
+      "data": "546865206d756c7469706c6179657220636f64652077697468696e2044756b65204e756b656d20334420686173206265656e20686967686c79006861",
+      "visible": "546865206d756c7469706c6179657220636f64652077697468696e2044756b65204e756b656d20334420686173206265656e20686967686c79"
+    },
+    {
+      "name": "game_text_main_2384",
+      "owner": "main",
+      "offset": 2384,
+      "data": "637573746f6d697a656420746f2072756e2062657374206f6e2054454e2c20776865726520796f75276c6c20657870657269656e6365206661737420616e6400",
+      "visible": "637573746f6d697a656420746f2072756e2062657374206f6e2054454e2c20776865726520796f75276c6c20657870657269656e6365206661737420616e64"
+    },
+    {
+      "name": "game_text_main_2448",
+      "owner": "main",
+      "offset": 2448,
+      "data": "737461626c6520706572666f726d616e63652c20706c7573206f74686572207370656369616c2062656e65666974732e0a000000",
+      "visible": "737461626c6520706572666f726d616e63652c20706c7573206f74686572207370656369616c2062656e65666974732e0a"
+    },
+    {
+      "name": "game_text_main_2500",
+      "owner": "main",
+      "offset": 2500,
+      "data": "576520646f206e6f7420617574686f72697a65206f72207265636f6d6d656e642074686520757365206f662044756b65204e756b656d2033442077697468006c",
+      "visible": "576520646f206e6f7420617574686f72697a65206f72207265636f6d6d656e642074686520757365206f662044756b65204e756b656d2033442077697468"
+    },
+    {
+      "name": "game_text_main_2564",
+      "owner": "main",
+      "offset": 2564,
+      "data": "67616d696e67207365727669636573206f74686572207468616e2054454e2e0a002c2077",
+      "visible": "67616d696e67207365727669636573206f74686572207468616e2054454e2e0a"
+    },
+    {
+      "name": "game_text_main_2600",
+      "owner": "main",
+      "offset": 2600,
+      "data": "44756b65204e756b656d2033442069732070726f74656374656420627920556e697465642053746174657320636f70797269676874206c617720616e64002073",
+      "visible": "44756b65204e756b656d2033442069732070726f74656374656420627920556e697465642053746174657320636f70797269676874206c617720616e64"
+    },
+    {
+      "name": "game_text_main_2664",
+      "owner": "main",
+      "offset": 2664,
+      "data": "696e7465726e6174696f6e616c207472656174792e0a0000",
+      "visible": "696e7465726e6174696f6e616c207472656174792e0a"
+    },
+    {
+      "name": "game_text_main_2688",
+      "owner": "main",
+      "offset": 2688,
+      "data": "466f72207468652062657374206f6e6c696e65206d756c7469706c617965722067616d696e6720657870657269656e63652c20706c656173652063616c6c2054454e0069",
+      "visible": "466f72207468652062657374206f6e6c696e65206d756c7469706c617965722067616d696e6720657870657269656e63652c20706c656173652063616c6c2054454e"
+    },
+    {
+      "name": "game_text_main_2756",
+      "owner": "main",
+      "offset": 2756,
+      "data": "6174203830302d383034302d54454e2c206f722076697369742054454e2773205765622053697465206174207777772e74656e2e6e65742e0a002062",
+      "visible": "6174203830302d383034302d54454e2c206f722076697369742054454e2773205765622053697465206174207777772e74656e2e6e65742e0a"
+    },
+    {
+      "name": "game_text_main_2816",
+      "owner": "main",
+      "offset": 2816,
+      "data": "507265737320616e79206b657920746f20636f6e74696e75652e0a00",
+      "visible": "507265737320616e79206b657920746f20636f6e74696e75652e0a"
+    },
+    {
+      "name": "game_text_main_2844",
+      "owner": "main",
+      "offset": 2844,
+      "data": "436f756c64206e6f742066696e642067726f75702066696c6520272573272e0a00746865",
+      "visible": "436f756c64206e6f742066696e642067726f75702066696c6520272573272e0a"
+    },
+    {
+      "name": "game_text_main_2880",
+      "owner": "main",
+      "offset": 2880,
+      "data": "5573696e673a20272573272e0a00756c",
+      "visible": "5573696e673a20272573272e0a"
+    },
+    {
+      "name": "game_text_main_2896",
+      "owner": "main",
+      "offset": 2896,
+      "data": "0a3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0073",
+      "visible": "0a3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d"
+    },
+    {
+      "name": "game_text_main_2972",
+      "owner": "main",
+      "offset": 2972,
+      "data": "5741524e494e473a203832353020554152542064657465637465642e00507265",
+      "visible": "5741524e494e473a203832353020554152542064657465637465642e"
+    },
+    {
+      "name": "game_text_main_3004",
+      "owner": "main",
+      "offset": 3004,
+      "data": "4d75736963206973206265696e672064697361626c656420616e64206c6f776572207175616c69747920736f756e64206973206265696e67207365742e202057652061706f6c6f67697a6500",
+      "visible": "4d75736963206973206265696e672064697361626c656420616e64206c6f776572207175616c69747920736f756e64206973206265696e67207365742e202057652061706f6c6f67697a65"
+    },
+    {
+      "name": "game_text_main_3080",
+      "owner": "main",
+      "offset": 3080,
+      "data": "666f7220746869732c20627574206974206973206e656365737361727920746f206d61696e7461696e2068696768206672616d65207261746573207768696c6520747279696e6720746f003d",
+      "visible": "666f7220746869732c20627574206974206973206e656365737361727920746f206d61696e7461696e2068696768206672616d65207261746573207768696c6520747279696e6720746f"
+    },
+    {
+      "name": "game_text_main_3156",
+      "owner": "main",
+      "offset": 3156,
+      "data": "706c6179207468652067616d65206f6e20616e20383235302e20205765207375676765737420757067726164696e6720746f2061203136353530206f72206265747465722055415254000000",
+      "visible": "706c6179207468652067616d65206f6e20616e20383235302e20205765207375676765737420757067726164696e6720746f2061203136353530206f72206265747465722055415254"
+    },
+    {
+      "name": "game_text_main_3232",
+      "owner": "main",
+      "offset": 3232,
+      "data": "666f72206d6178696d756d20706572666f726d616e63652e2020507265737320616e79206b657920746f20636f6e74696e75652e006d6169",
+      "visible": "666f72206d6178696d756d20706572666f726d616e63652e2020507265737320616e79206b657920746f20636f6e74696e75652e"
+    },
+    {
+      "name": "game_text_main_3288",
+      "owner": "main",
+      "offset": 3288,
+      "data": "3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0a0073",
+      "visible": "3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0a"
+    },
+    {
+      "name": "game_text_main_3364",
+      "owner": "main",
+      "offset": 3364,
+      "data": "5573696e67202e5254532066696c653a25730a00",
+      "visible": "5573696e67202e5254532066696c653a25730a"
+    },
+    {
+      "name": "game_text_main_3384",
+      "owner": "main",
+      "offset": 3384,
+      "data": "4c6f6164696e672070616c657474652f6c6f6f6b7570732e00000000",
+      "visible": "4c6f6164696e672070616c657474652f6c6f6f6b7570732e"
+    },
+    {
+      "name": "game_text_main_3412",
+      "owner": "main",
+      "offset": 3412,
+      "data": "0a564553412064726976657220666f72202820256c64202a20256c642029206e6f7420666f756e642f737570706f727465642e00",
+      "visible": "0a564553412064726976657220666f72202820256c64202a20256c642029206e6f7420666f756e642f737570706f727465642e"
+    },
+    {
+      "name": "game_text_opendemoread_3464",
+      "owner": "opendemoread",
+      "offset": 3464,
+      "data": "64656d6f5f2e646d6f003d3d",
+      "visible": "64656d6f5f2e646d6f"
+    },
+    {
+      "name": "game_text_opendemowrite_3476",
+      "owner": "opendemowrite",
+      "offset": 3476,
+      "data": "64656d6f312e646d6f003d3d",
+      "visible": "64656d6f312e646d6f"
+    },
+    {
+      "name": "game_text_opendemowrite_3488",
+      "owner": "opendemowrite",
+      "offset": 3488,
+      "data": "7762003d",
+      "visible": "7762"
+    },
+    {
+      "name": "game_text_domovethings_3492",
+      "owner": "domovethings",
+      "offset": 3492,
+      "data": "257320697320686973746f727921003d",
+      "visible": "257320697320686973746f727921"
+    },
+    {
+      "name": "game_text_domovethings_3508",
+      "owner": "domovethings",
+      "offset": 3508,
+      "data": "200a54686520274d41535445522f466972737420706c6179657227206a7573742071756974207468652067616d652e2020416c6c0a706c6179657273206172652072657475726e65642066726f6d207468652067616d652e2054686973206f6e6c792068617070656e7320696e20352d380a706c61796572206d6f6465206173206120646966666572656e74206e6574776f726b20736368656d6520697320757365642e003d3d77",
+      "visible": "200a54686520274d41535445522f466972737420706c6179657227206a7573742071756974207468652067616d652e2020416c6c0a706c6179657273206172652072657475726e65642066726f6d207468652067616d652e2054686973206f6e6c792068617070656e7320696e20352d380a706c61796572206d6f6465206173206120646966666572656e74206e6574776f726b20736368656d6520697320757365642e"
+    },
+    {
+      "name": "game_text_dobonus_3676",
+      "owner": "dobonus",
+      "offset": 3676,
+      "data": "63696e656f76322e616e6d00",
+      "visible": "63696e656f76322e616e6d"
+    },
+    {
+      "name": "game_text_dobonus_3688",
+      "owner": "dobonus",
+      "offset": 3688,
+      "data": "63696e656f76332e616e6d00",
+      "visible": "63696e656f76332e616e6d"
+    },
+    {
+      "name": "game_text_dobonus_3700",
+      "owner": "dobonus",
+      "offset": 3700,
+      "data": "5241444c4f474f2e414e4d00",
+      "visible": "5241444c4f474f2e414e4d"
+    },
+    {
+      "name": "game_text_dobonus_3712",
+      "owner": "dobonus",
+      "offset": 3712,
+      "data": "44554b455445414d2e414e4d00737420",
+      "visible": "44554b455445414d2e414e4d"
+    },
+    {
+      "name": "game_text_dobonus_3728",
+      "owner": "dobonus",
+      "offset": 3728,
+      "data": "4d554c5449504c4159455220544f54414c53000a",
+      "visible": "4d554c5449504c4159455220544f54414c53"
+    },
+    {
+      "name": "game_text_dobonus_3748",
+      "owner": "dobonus",
+      "offset": 3748,
+      "data": "505245535320414e59204b455920544f20434f4e54494e5545000000",
+      "visible": "505245535320414e59204b455920544f20434f4e54494e5545"
+    },
+    {
+      "name": "game_text_dobonus_3776",
+      "owner": "dobonus",
+      "offset": 3776,
+      "data": "2020204e414d45202020202020202020202020202020202020202020202020202020202020202020202020202020202020204b494c4c5300",
+      "visible": "2020204e414d45202020202020202020202020202020202020202020202020202020202020202020202020202020202020204b494c4c53"
+    },
+    {
+      "name": "game_text_dobonus_3832",
+      "owner": "dobonus",
+      "offset": 3832,
+      "data": "252d346c64006d65",
+      "visible": "252d346c64"
+    },
+    {
+      "name": "game_text_dobonus_3840",
+      "owner": "dobonus",
+      "offset": 3840,
+      "data": "737461747320256c64206b696c6c656420256c6420256c640a00696e",
+      "visible": "737461747320256c64206b696c6c656420256c6420256c640a"
+    },
+    {
+      "name": "game_text_dobonus_3868",
+      "owner": "dobonus",
+      "offset": 3868,
+      "data": "444541544853006d",
+      "visible": "444541544853"
+    },
+    {
+      "name": "game_text_dobonus_3876",
+      "owner": "dobonus",
+      "offset": 3876,
+      "data": "434f4d504c45544544004e4d",
+      "visible": "434f4d504c45544544"
+    },
+    {
+      "name": "game_text_dobonus_3888",
+      "owner": "dobonus",
+      "offset": 3888,
+      "data": "596f75722054696d653a004e",
+      "visible": "596f75722054696d653a"
+    },
+    {
+      "name": "game_text_dobonus_3900",
+      "owner": "dobonus",
+      "offset": 3900,
+      "data": "5061722074696d653a00504c",
+      "visible": "5061722074696d653a"
+    },
+    {
+      "name": "game_text_dobonus_3912",
+      "owner": "dobonus",
+      "offset": 3912,
+      "data": "3344205265616c6d73272054696d653a00532041",
+      "visible": "3344205265616c6d73272054696d653a"
+    },
+    {
+      "name": "game_text_dobonus_3932",
+      "owner": "dobonus",
+      "offset": 3932,
+      "data": "2530326c643a2530326c6400",
+      "visible": "2530326c643a2530326c64"
+    },
+    {
+      "name": "game_text_dobonus_3944",
+      "owner": "dobonus",
+      "offset": 3944,
+      "data": "456e656d696573204b696c6c65643a00",
+      "visible": "456e656d696573204b696c6c65643a"
+    },
+    {
+      "name": "game_text_dobonus_3960",
+      "owner": "dobonus",
+      "offset": 3960,
+      "data": "456e656d696573204c6566743a002020",
+      "visible": "456e656d696573204c6566743a"
+    },
+    {
+      "name": "game_text_dobonus_3976",
+      "owner": "dobonus",
+      "offset": 3976,
+      "data": "252d336c64002020",
+      "visible": "252d336c64"
+    },
+    {
+      "name": "game_text_dobonus_3984",
+      "owner": "dobonus",
+      "offset": 3984,
+      "data": "4e2f4100",
+      "visible": "4e2f41"
+    },
+    {
+      "name": "game_text_dobonus_3988",
+      "owner": "dobonus",
+      "offset": 3988,
+      "data": "5365637265747320466f756e643a0020",
+      "visible": "5365637265747320466f756e643a"
+    },
+    {
+      "name": "game_text_dobonus_4004",
+      "owner": "dobonus",
+      "offset": 4004,
+      "data": "53656372657473204d69737365643a00",
+      "visible": "53656372657473204d69737365643a"
+    },
+    {
+      "name": "game_text_dobonus_4020",
+      "owner": "dobonus",
+      "offset": 4020,
+      "data": "252d336c64250074",
+      "visible": "252d336c6425"
+    },
+    {
+      "name": "game_text_CenterCenter_4028",
+      "owner": "CenterCenter",
+      "offset": 4028,
+      "data": "43656e74657220746865206a6f79737469636b20616e64207072657373206120627574746f6e0a00",
+      "visible": "43656e74657220746865206a6f79737469636b20616e64207072657373206120627574746f6e0a"
+    },
+    {
+      "name": "game_text_UpperLeft_4068",
+      "owner": "UpperLeft",
+      "offset": 4068,
+      "data": "4d6f7665206a6f79737469636b20746f2075707065722d6c65667420636f726e657220616e64207072657373206120627574746f6e0a0030",
+      "visible": "4d6f7665206a6f79737469636b20746f2075707065722d6c65667420636f726e657220616e64207072657373206120627574746f6e0a"
+    },
+    {
+      "name": "game_text_LowerRight_4124",
+      "owner": "LowerRight",
+      "offset": 4124,
+      "data": "4d6f7665206a6f79737469636b20746f206c6f7765722d726967687420636f726e657220616e64207072657373206120627574746f6e0a00",
+      "visible": "4d6f7665206a6f79737469636b20746f206c6f7765722d726967687420636f726e657220616e64207072657373206120627574746f6e0a"
+    },
+    {
+      "name": "game_text_CenterThrottle_4180",
+      "owner": "CenterThrottle",
+      "offset": 4180,
+      "data": "43656e74657220746865207468726f74746c6520636f6e74726f6c20616e64207072657373206120627574746f6e0a00",
+      "visible": "43656e74657220746865207468726f74746c6520636f6e74726f6c20616e64207072657373206120627574746f6e0a"
+    },
+    {
+      "name": "game_text_CenterRudder_4228",
+      "owner": "CenterRudder",
+      "offset": 4228,
+      "data": "43656e746572207468652072756464657220636f6e74726f6c20616e64207072657373206120627574746f6e0a00",
+      "visible": "43656e746572207468652072756464657220636f6e74726f6c20616e64207072657373206120627574746f6e0a"
+    }
+  ]
+}

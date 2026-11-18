@@ -62,6 +62,9 @@ def emit(alias,normal,build,*,home=None):
  complete-source invocation calls it immediately after source production.
  """
  table,catalog_pins,parsed_plans=catalog_snapshot();need(alias in table['modules'],'finite layout owner');spec=table['modules'][alias]
+ if alias=='O071.OBJ' and normal.get('source_native_omf_link') is True:
+  from tools.build_game_c import apply_layout
+  return apply_layout(normal,build,ROOT/spec['plan'],spec['plan_sha256'],extra_pins=catalog_pins)
  if spec['source_format']=='source-omf32':
   need(alias=='O001.OBJ'and normal.get('source_native_omf_link')is True,'finite fresh ACTORS C source link required')
   from tools.build_actors_c import apply_layout

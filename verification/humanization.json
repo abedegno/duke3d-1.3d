@@ -29,7 +29,7 @@
     ]
   },
   "game": {
-    "current_backend": "whole named assembly with C counterparts",
+    "current_backend": "79 Watcom C functions plus two named assembly fallbacks",
     "ordinary_C_function_bodies_verified": 79,
     "CODE_functions": 81,
     "verified_body_bytes_including_compiler_fill": 65742,
@@ -50,9 +50,25 @@
       "typed_fixups": 7,
       "provider_roles_independently_checked": true
     },
-    "scope": "Per-function audit; not whole native C object/layout equality. checkcommandline has two dependent branches to the shared spawn epilogue.",
+    "scope": "Complete fresh C and assembly outputs conserved through source-native OMF linking and strict native record layout; complete bound executable equals original.",
     "source": "src/game/game.c",
-    "source_sha256": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d"
+    "source_sha256": "b48f44fddc7529f6a97a0a2d7971769fe8b74891ed3f0144af00f13ee0e5e199",
+    "c_emitted_functions": 79,
+    "assembly_emitted_functions": [
+      "spawn",
+      "checkcommandline"
+    ],
+    "assembly_source": "src/game/game_fallback.S",
+    "private_text_source": "src/game/gametext.h",
+    "private_text_definitions": 140,
+    "companion_private_imports": 17,
+    "initialized_bytes": 89280,
+    "BSS_bytes": 4160,
+    "typed_fixups": 5020,
+    "source_translation_units": 3,
+    "owned_link_objects": 2,
+    "tail_BSS_bytes": 15,
+    "tail_source": "src/game/game_tail.asm"
   },
   "remaining_C_limits": {
     "moveeffectors": "Fixed complete-C witness has 298 stack-home displacement byte differences across 14 homes. No tested nonexact candidate admitted.",
@@ -67,13 +83,15 @@
     "sha256": "a197b6b4097fa39987f4a843141830ff1553eb52b606b51fc67d067560de0cf4",
     "native_sha256": "a5fd6a00453c9f923b6c453a91be2401bfafad3ce55ee6ff741727f2346be88a",
     "normal_release_command": "make rebuild VENDOR_PREFIX=/path/to/vendor-prefix.bin",
-    "supplied_components": "Original declared stock runtime libraries/members and vendor prefix; zero recovered-source credit."
+    "supplied_components": "Original declared stock runtime libraries/members and vendor prefix; zero recovered-source credit.",
+    "direct_original_comparison_equal": true
   },
   "validation": {
-    "release_tests_normal": 93,
-    "release_tests_python_optimized": 93,
+    "release_tests_normal": 117,
+    "release_tests_python_optimized": 117,
     "failures": 0,
-    "independent_review": "No remaining actionable findings after raw metadata, private-scope, RAW snapshot, namespace and publication lifetime controls."
+    "independent_review": "Production integration and source-native linker reviewed independently with no correctness blockers. Native fixture linked with WLINK. Full executable directly compared equal to original.",
+    "legacy_metadata_labels": "Compatibility flag --prepare-game-residue retains historical preparation_only/adoption_approved labels; full-file identity is verified independently."
   },
   "source_and_tool_files_sha256": {
     "src/game/actors.c": "086e47a4d6b3e11abe7c589614ea009b6fb096cd3a0bc0d2b4a25e8a8776e864",
@@ -82,7 +100,15 @@
     "tools/build_actors_c.py": "463eafe0e89687e2487ab0ae6434c695211e4fd98b3581c4180bc25c319dacf9",
     "tools/actors_omf_link.py": "6ad52a29b1c75cf693610c277b0e3b45a25c5f5bc5c2c26eb1e4753bf29baf6a",
     "tools/verified_snapshot.py": "d1f2bbaadc03764bd86596361f7baf6609e524ed633cd0dc8c022c71aca4ec40",
-    "tools/build_native_layout.py": "0bda7b0c052af47d8bd4fd31d434a5edf9f6ce13a7ee4b901560c4b73d4fce2a",
-    "candidates/native_layouts.json": "d3ecea2c4f863a46b304f6440e75e7d9b57a840cfff9f7cef1f1105655497602"
+    "tools/build_native_layout.py": "2a0efd3440f5e1ba48c46122002a022235aad0a59d928bf194bad5d47544a92e",
+    "candidates/native_layouts.json": "d3ecea2c4f863a46b304f6440e75e7d9b57a840cfff9f7cef1f1105655497602",
+    "src/game/game.c": "b48f44fddc7529f6a97a0a2d7971769fe8b74891ed3f0144af00f13ee0e5e199",
+    "src/game/gametext.h": "ff152117e12a5692402ee6a8c6e8eab1c4fa9ad898c757d209401f66c0c9e47f",
+    "src/game/game_fallback.S": "fde37e991adf875729c6198aa65283fb68aa1377dd5b4bc69c34acdbe4b047f7",
+    "src/game/game_private_imports.json": "ade88ffad8074820a20c6eac2fc1e4b3e87e73fee9cc7c2516db4bae843ee8f6",
+    "src/game/game_text_model.json": "06be1bc6a54a06cfcfd686ec297e81c77cbfde8124a55634a7a68d5b8cbfd35d",
+    "tools/build_game_c.py": "9f92f8e8159f23f70f1f886dc28efbbd792dbdb18f97dd4878cfb7b5c5ebcecb",
+    "tools/game_omf_link.py": "a5a6aad2152c8fcbbce886bd57918f18d8e7c3eb3e4324acc4a535151c9bcfb1",
+    "tools/build_complete.py": "8d50301b7d5a3f768b45543bdf9636a90c80d2444e8e365077342a8b07d0c637"
   }
 }

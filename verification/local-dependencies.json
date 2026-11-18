@@ -43,7 +43,7 @@
     "evidence/gf1-note-elf617.json": "894a0d396e6a6eb67982ee1e02c542cf02936f2819e9562aac247cdc54fd6394",
     "evidence/gf1-note-source-reference.json": "9be9594e0c9322e972cbbd1d3b32d4ab6fb7d7fe694bf93c9272fab6b45858ab",
     "evidence/gf1-os-candidate-reference.json": "98bd6e19899b05f077a19440d1aab0d3aaa714697de75779fcb2e069c752cfd3",
-    "evidence/gf1-os-preserved-reference.json": "28263288d437e7fac079d2383273befea35207da39976dcc802d8f5dea863013",
+    "evidence/gf1-os-preserved-reference.json": "f912633849979bef963788edd037ae9ae79899a0fb04293bc39c900930cb4352",
     "evidence/gf1-os-root-integration.json": "0590e6a381fca5e0c13444936094c82203dcb1093d627c7b17c3654930e33147",
     "evidence/gf1-patch-descriptor-baseline.c": "a8b1aa5e03d05c4dc46878002d1c6fc04b9e0dba1e00836088f56d188a4bfb21",
     "evidence/gf1-patch-os-candidate.c": "347755d2e270fb68efd5d763adcb83d79f09a1211b890a81c8560d6eb4fd2fc5",

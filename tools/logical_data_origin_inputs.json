@@ -743,7 +743,6 @@
     "src/engine/include/build.h": "c2fcd483882c6077e6f9ef67fc56e2a6ecfbafda74368c3a4e4a1ce332fd0aa6",
     "src/engine/include/pragmas.h": "ae5e99371052b47952d3c6517a40085c9423070ce3e782f930bf1fbb5a35354f",
     "src/engine/include/ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb",
-    "src/game/game.c": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d",
     "src/game/include/_functio.h": "e07d06df8755ef8fec790ef90079c634c092f1314b6e75b594f5159f5c779399",
     "src/game/include/duke3d.h": "b0d18f3dfb8d1a73fbac93e5baa4f7444629456b8687fa791c6dc39409980d2f",
     "src/game/include/playdef.h": "9e3d162bf1dbc604d4ed5f3740544d1755a02264d031760e9d1921344ba4295b",
@@ -757,10 +756,11 @@
     "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
     "tools/object_contributions.py": "1af69130c1db64c2c7f6eccbdbcf5c2d8d76e42b84489e9b5115fce159fc6324",
     "tools/preserve.py": "04316ed1bdec64255fee8466417ccd00f0f71588b61a3032762da3f5671332b8",
-    "tools/probe_game.py": "1fd463c15f6820cdace5f949bf323a08f9cffe8fe8bc65e3132b9a2415755888",
+    "tools/probe_game.py": "68e6014b44132d394f29fab64aac02ac0b6ce420fee42642f0a2de5f02f60a9d",
     "tools/probe_premap.py": "91962353f2d8f24279fd74881b544ffb7a0de6cdced9546a664ba8fc71688dea",
     "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
     "tools/verify_module.py": "061793191f7df5072090d9684e13f873ac231e0ad93867a196ff694b10a82021",
-    "tools/watcom_runtime_105.py": "deb0abb27b330f66bd51c6d5884bb3cc1aa5b82379fc12a4b5cecc945bca96df"
+    "tools/watcom_runtime_105.py": "deb0abb27b330f66bd51c6d5884bb3cc1aa5b82379fc12a4b5cecc945bca96df",
+    "src/game/symbolic/game-fixed-C-counterpart.c.txt": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d"
   }
 }

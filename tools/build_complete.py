@@ -126,13 +126,16 @@ def select_recipe(normal,*,native_layout=False,prepare_game_residue=False):
   r=prepare_recipe(normal)
  else:r=normal
  if prepare_game_residue:
-  main=next(q for q in r['owned']if q['alias']=='O071.OBJ');main.update({'name':'Prepared GAME CONST residue source (not adopted)','source':'src/game/symbolic_preserved/GAME.S','producer_module':'tools.build_game_symbolic_preserved'})
-  tail=next(q for q in r['owned']if q['alias']=='O113.OBJ');tail['producer_module']='tools.build_game_symbolic_preserved'
+  main=next(q for q in r['owned']if q['alias']=='O071.OBJ');main.update({'name':'GAME C with named assembly fallbacks','source':'src/game/game.c','producer_module':'tools.build_game_c'})
+  tail=next(q for q in r['owned']if q['alias']=='O113.OBJ');tail['producer_module']='tools.build_game_c'
   r.update({'preparation_only':True,'adoption_approved':False,'expected_native_sha256':PREPARED_GAME_NATIVE_SHA256})
  return r
 
 def build_game(native,*,prepare_game_residue=False):
- module='tools.build_game_symbolic_preserved'if prepare_game_residue else'tools.build_game_symbolic'
+ if prepare_game_residue:
+  from tools.build_game_c import build_source
+  return build_source(ROOT/'toolchains/watcom-10.0-ga',native/'GAME',assembler_home=ROOT/'toolchains/gnu-elf-omf-game')
+ module='tools.build_game_symbolic'
  return importlib.import_module(module).build_source(ROOT/'toolchains/gnu-elf-omf-game',native/'GAME',decoder_home=ROOT/'toolchains/capstone',watcom_home=ROOT/'toolchains/watcom-10.0-ga')
 
 def build(parent,*,assets,vendor_prefix,native_layout=False,prepare_game_residue=False):

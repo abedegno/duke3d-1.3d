@@ -417,7 +417,7 @@ def probe(home,build):
     if hashlib.sha256(binary).hexdigest()!=TARGET_SHA256:
         raise ValueError('reference GAME target identity mismatch')
     image=LEImage.parse(binary)
-    source=ROOT/'src/game/game.c';identity=produced['source_sha256']
+    source=ROOT/'src/game/symbolic/game-fixed-C-counterpart.c.txt';identity=produced['source_sha256']
     headers=build/'include';obj=Path(produced['C_object'])
     diagnostics=check_native_diagnostics(obj.with_suffix('.log'))
     check_source_identity(source,identity)
@@ -443,7 +443,7 @@ def probe(home,build):
             'observer_inputs_sha256':observer_inputs,
             'native_build_directory':str(build),
             'source_only':False,'original_and_target_observed_only_after_source_production':True,
-            'target_sha256':TARGET_SHA256,'source':'src/game/game.c','source_sha256':identity,
+            'target_sha256':TARGET_SHA256,'source':'src/game/symbolic/game-fixed-C-counterpart.c.txt','source_sha256':identity,
             'headers_sha256':{p.name:digest(p) for p in sorted(headers.iterdir())},
             'compiler_sha256':digest(home/compiler_bin(home)/'wcc386.exe'),'options':OPTIONS,
             'compiler_diagnostics':diagnostics,

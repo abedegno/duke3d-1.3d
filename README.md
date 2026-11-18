@@ -11,7 +11,7 @@ A source-assisted reconstruction of the **registered DOS v1.3D executable**, ver
 | Owned link contributions | 121 freshly produced objects; ACTORS combines fresh C and assembly inputs |
 | Tested environment | macOS Apple Silicon, Python 3.14, DOSBox-X, pinned historical toolchains |
 
-This is a reconstruction, not a newly discovered original source archive or an official 3D Realms release. It uses the released v1.5 source, historical source reconstructions, native-code analysis, and iterative compilation. ACTORS now compiles 36 functions directly from historical/derived C with a named assembly fallback for `moveeffectors`. GAME retains its whole assembly backend and C counterparts; a fresh audit verifies 79 of its 81 ordinary C bodies independently. Original comments, names, and development history are not claimed where the evidence does not establish them.
+This is a reconstruction, not a newly discovered original source archive or an official 3D Realms release. It uses the released v1.5 source, historical source reconstructions, native-code analysis, and iterative compilation. ACTORS now compiles 36 functions directly from historical/derived C with a named assembly fallback for `moveeffectors`. GAME compiles 79 functions directly from C with named assembly fallbacks for `spawn` and `checkcommandline`. Original comments, names, and development history are not claimed where the evidence does not establish them.
 
 ## What is included
 

@@ -1,6 +1,6 @@
 {
   "name": "game_partial_compound",
-  "source": "src/game/game.c",
+  "source": "src/game/symbolic/game-fixed-C-counterpart.c.txt",
   "companion": "src/game/game_tail.asm",
   "options": [
     "/4r",
