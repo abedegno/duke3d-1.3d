@@ -1,16 +1,16 @@
 {
   "kind": "normal source-only partial GAME C/private-prefix+six public BSS objects",
   "sources_sha256": {
-    "src/game/game.c": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d",
-    "src/game/game_tail.asm": "ca1ad3024d620fac400e1a6cf0a1fa3f2cea4218c4285df55bb3a34c11518850"
+    "src/game/game_tail.asm": "ca1ad3024d620fac400e1a6cf0a1fa3f2cea4218c4285df55bb3a34c11518850",
+    "src/game/symbolic/game-fixed-C-counterpart.c.txt": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d"
   },
   "notices_sha256": {
     "src/game/gpl.txt": "134f05b0e93a7981f1cf5f535242e326b2d85ba7d6e3dd69c3514ae25ada4900",
     "src/game/compound-README.md": "4b20d6789b11074678bb60d2810f3ede6a8790513ba65bee61910e20b48cb9cd",
-    "evidence/game-source-reference.json": "508b56a1c84204b52092b4032b999f24fa2efc43db9efbd62c7851415490641f"
+    "evidence/game-source-reference.json": "80ef4506233a3408141405fdf83974a002a01ab6b1cc43b71de893345f9cf0f0"
   },
   "producer_tools_sha256": {
-    "tools/build_game_compound.py": "129ff2ba5ef27708c5789031c470252308d40e45818e00be972e534fc5c9e6b7",
+    "tools/build_game_compound.py": "c809b6f24c94cedd1f0898f4ef806302a26f869913aaa4a80e6b9b7e327b087a",
     "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c",
     "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
     "profiles/watcom/game-compound-tools.json": "0803da3ae6363bc7972f84f554d70227660ca32db06c311c6b6b7b5a4398ae41"
@@ -89,9 +89,9 @@
     "util_lib.h": "a444eb4db5f23fa930fedd145dd76c7d93d3f4d64c1d1bb5439d251eead86d07",
     "ves2.h": "e32d973c425e5e8ae8abab34c3d683ee87cdcd436d03106fbfd4bb83a75150fb"
   },
-  "descriptor_sha256": "41b77747918acfc1e84958afa594c37112c24148aec352bb0f36ac67e50beb79",
+  "descriptor_sha256": "f952033e07d54849ce64cf51d30746435df5c769f5db997c1ebdb85f5cddfe41",
   "observer_tools_sha256": {
-    "tools/probe_game.py": "1fd463c15f6820cdace5f949bf323a08f9cffe8fe8bc65e3132b9a2415755888",
+    "tools/probe_game.py": "68e6014b44132d394f29fab64aac02ac0b6ce420fee42642f0a2de5f02f60a9d",
     "tools/probe_premap.py": "91962353f2d8f24279fd74881b544ffb7a0de6cdced9546a664ba8fc71688dea",
     "tools/prove_module.py": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac",
     "tools/infer_bindings.py": "7c4f46d0eb33f20cf6fa533c734a471a02f128579b0f11e27f1efa85f446e2dc",
@@ -243,5 +243,9 @@
         "current": "ecd076c8b7c542c42f53a32afe97a005f9f54ff73de8476441a34369d27cbdac"
       }
     }
+  },
+  "legacy_C_path_observer_refresh": {
+    "source": "src/game/symbolic/game-fixed-C-counterpart.c.txt",
+    "scope": "Existing native GAME C proof source preserved byte-for-byte under new path; observer selects the same source identity."
   }
 }

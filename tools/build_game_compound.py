@@ -9,7 +9,7 @@ import argparse,hashlib,json,os,re,shutil,sys,tempfile
 ROOT=Path(__file__).resolve().parents[1];sys.path[:0]=[str(ROOT/'profiles/watcom/tools')];sys.dont_write_bytecode=True
 from runner import compile_source,run_batch,compiler_bin
 from omf32 import Module
-SOURCE='src/game/game.c';TAIL='src/game/game_tail.asm';DESCRIPTOR='modules/game_compound.json';PROVENANCE='evidence/game-compound-source-reference.json';PROFILE='profiles/watcom/game-compound-tools.json'
+SOURCE='src/game/symbolic/game-fixed-C-counterpart.c.txt';TAIL='src/game/game_tail.asm';DESCRIPTOR='modules/game_compound.json';PROVENANCE='evidence/game-compound-source-reference.json';PROFILE='profiles/watcom/game-compound-tools.json'
 SOURCES=[SOURCE,TAIL];NOTICES=['src/game/gpl.txt','src/game/compound-README.md','evidence/game-source-reference.json'];TOOLS=['tools/build_game_compound.py','profiles/watcom/tools/runner.py','profiles/watcom/tools/omf32.py',PROFILE]
 OBSERVERS=['tools/probe_game.py','tools/probe_premap.py','tools/prove_module.py','tools/infer_bindings.py','tools/match_function.py','tools/verify_module.py','tools/preserve.py','profiles/watcom/tools/le.py']
 REFERENCES=['reference/duke3d-reconstructions','reference/duke3d-reconstructions/MACT'];OVERLAYS=['src/include','src/game/include','src/engine/include','src/game/compound/include'];OPTIONS=['/4r','/s','/ort','/dAPPVER_EXEDEF=DN3D13G','/dLIBVER_BUILDREV=19960320'];ASM_OPTIONS=['/zq']

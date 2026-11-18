@@ -22,26 +22,28 @@ still differs in 298 stack-home displacement bytes across 14 frame homes in
 changes did not produce an exact replacement. None was admitted merely because
 it improved a partial score.
 
-## GAME remains a whole assembly backend with verified C counterparts
+## GAME emits 79 functions from C
 
-A fresh full-translation-unit audit found **79 of 81 ordinary GAME C bodies
-exact**, covering 65,742 bytes including trailing compiler fill and 4,194 typed
-fixups. These are per-function contribution results, not proof that the whole
-C object has the target's complete data layout or relocation serialization.
+The exact native-layout route compiles **79 GAME functions** from
+`src/game/game.c` with the pinned Watcom GA flags and `GAME_ASM_FALLBACKS`.
+The named assembly companion supplies `spawn` and `checkcommandline`, including
+their switch tables and shared epilogue branches. Their C counterparts remain
+in the source for further recovery.
 
-`wallswitchcheck` matches from both standalone and full-TU C: all 160 body bytes
-and its real sprite relocation. Its following 37-entry switch table belongs to
-`spawn`; treating that table as part of `wallswitchcheck` caused an earlier
-misclassification. `ShutDown` also matches the actual provider exports; the old
-partial role packet had the CONTROL/keyboard identities swapped. The source
-already called them in the correct order, so no speculative source edit was made.
+The source-native OMF linker conserves all 89,280 initialized bytes, 4,160 BSS
+bytes and 5,020 typed relocation fields from the C and assembly contributions.
+A separate native assembly object supplies the six genuine public BSS tail
+owners in 15 bytes. Native record layout then changes packet boundaries.
 
-The two remaining nonexact bodies are `spawn` and `checkcommandline`. `spawn`
-retains instruction scheduling/register-lifetime differences. Two branches in
-`checkcommandline` share its epilogue and therefore depend on the `spawn` fix;
-changing that function in isolation is not justified. Their ordinary C remains
-available alongside the named mnemonic bodies. The [GAME index](game-source-navigation.md)
-links algorithms and the current whole assembly backend.
+The 140 private message arrays have explicit capacities and post-NUL values.
+Their names are inferred. Seventeen assembly imports use the declared GAME
+source-unit convention and resolve to actual C private definitions. The final
+object retains private scope. The nine-byte `PLAYING ` copy uses an explicit
+Watcom-specific structure view to preserve the original copy instructions.
+
+`spawn` retains C scheduling and register-lifetime differences. Two
+`checkcommandline` branches share its epilogue. The [GAME index](game-source-navigation.md)
+links directly to the emitting C and assembly source.
 
 ## Other components and limits
 

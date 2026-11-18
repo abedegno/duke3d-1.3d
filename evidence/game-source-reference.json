@@ -1,6 +1,6 @@
 {
   "kind": "partial v1.3D GAME source provenance, not complete recovery",
-  "tracked": "src/game/game.c",
+  "tracked": "src/game/symbolic/game-fixed-C-counterpart.c.txt",
   "source_sha256": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d",
   "upstream": "gamesrc-ver-recreation/duke3d",
   "upstream_commit": "fdb214ceea671341aa03d54d09fb7fe47940d3b7",
@@ -699,5 +699,6 @@
     "prior_inference_cannot_prove_callee_names": true,
     "disputed_CODE_bytes_pending_adoption": 48,
     "new_CODE_credit": 0
-  }
+  },
+  "legacy_source_path_note": "Exact prior C witness retained under this path when src/game/game.c became the emitting 79-function hybrid C source. Historical receipt paths retain their original spelling."
 }

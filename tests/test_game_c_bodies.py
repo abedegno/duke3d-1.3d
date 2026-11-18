@@ -13,7 +13,7 @@ from runner import compile_source
 from omf32 import Module
 from le import LEImage
 from tools.match_function import compare_range, match_function
-from tools.build_game_compound import prepare_live_headers, OPTIONS
+from tools.build_game_compound import prepare_live_headers, OPTIONS, SOURCE
 
 
 class GameCFunctionBodies(unittest.TestCase):
@@ -32,8 +32,8 @@ class GameCFunctionBodies(unittest.TestCase):
         cls.work = Path(cls.temp.name)
         cls.headers = cls.work / 'include'
         prepare_live_headers(cls.headers)
-        cls.source = (ROOT / 'src/game/game.c').read_text()
-        compile_source(cls.home, ROOT / 'src/game/game.c', cls.work / 'GAME.OBJ', OPTIONS, 60, include_dirs=[cls.headers])
+        cls.source = (ROOT / SOURCE).read_text()
+        compile_source(cls.home, ROOT / SOURCE, cls.work / 'GAME.OBJ', OPTIONS, 60, include_dirs=[cls.headers])
         cls.full = Module.parse((cls.work / 'GAME.OBJ').read_bytes())
         cls.sprite = tuple(json.loads((ROOT / 'modules/gamedef.json').read_bytes())['symbol_anchors']['_sprite'])
 

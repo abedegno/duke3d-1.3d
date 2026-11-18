@@ -1,113 +1,105 @@
 # Reading the recovered GAME source
 
-The build emits `src/game/symbolic/GAME.S`. Start with the corresponding C aid
-for types and algorithms, then use this index to inspect the actual mnemonic
-body. The C aid is not a second linked implementation and is not claimed to
-reproduce every instruction with the original compiler.
+The exact native-layout build compiles 79 functions from `src/game/game.c` and
+assembles `spawn` and `checkcommandline` from `src/game/game_fallback.S`.
+Their C counterparts remain behind `GAME_ASM_FALLBACKS` guards.
 
-The 81 entries below are all CODE publics in the closed source model, in emitted
-order. `wallswitchcheck`, `spawn` and `checkcommandline` were originally reconstructed in
-mnemonics after the fresh C derivative. A fresh strict C audit now verifies 79
-of the 81 ordinary C bodies, including `wallswitchcheck` (160 bytes and its
-real sprite relocation). The remaining `spawn` scheduling difference also
-affects two `checkcommandline` branches into its shared epilogue. Their C text
-remains useful, but those two bodies are not admitted as exact C replacements.
-All bodies use actual mnemonics and named symbols. CODE data directives are
-initializer templates and case-pointer tables, not stored instruction payloads.
+The C retains the released source lineage's types, macros, sprite-list loops,
+tile switches and procedural style. `gametext.h` declares 140 private message
+arrays with explicit capacities and post-NUL bytes. Their names are inferred.
+The fixed message bank and code sections preserve the original layout.
 
-Frame-home EQU names describe compiler storage locations; they do not establish
-historical local-variable spelling. Follow `game_flow_<function>_*` labels within
-a body. Source operand ownership, ELF/COFF/native fields and section coordinates
-are guarded by `contract.py`, `coff_contract.py` and `contract-model.json`.
-Private symbol spelling and the seven post-NUL residue bytes retain the limits
-explained in the source README. This index adds no historical-source credit.
+The companion references 17 private arrays through an explicitly declared GAME
+source-unit convention. The final OMF object retains their private scope.
+`game_private_imports.json` declares those bindings and `game_text_model.json`
+describes the authored bank. The producer freshly compiles and assembles the
+complete inputs before combining their native relocation records.
 
-Change the authored source and its corresponding proof deliberately. A changed
-source hash is expected to stop the closed producer; refreshing a hash alone is
-not a matching proof. Rebuild from source, verify the complete function/data
-roles, then compare the complete bound executable without masks. The final
-humanization pass remains subject to that full-file gate.
+`spawn` still has C scheduling and register-lifetime differences. Two branches
+in `checkcommandline` share its epilogue. Frame-home names in the assembly
+identify recovered compiler storage and carry no historical naming claim.
+The full executable comparison remains the final acceptance gate.
 
-| Function | Emitted mnemonics | C counterpart | Relationship |
+| Function | Emitting source | C source | Relationship |
 | --- | --- | --- | --- |
-| `timerhandler` | [source](../src/game/symbolic/GAME.S#L489) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L205) | C-derived mnemonic body |
-| `inittimer` | [source](../src/game/symbolic/GAME.S#L494) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L210) | C-derived mnemonic body |
-| `uninittimer` | [source](../src/game/symbolic/GAME.S#L511) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L216) | C-derived mnemonic body |
-| `gametext` | [source](../src/game/symbolic/GAME.S#L529) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L224) | C-derived mnemonic body |
-| `gametextpart` | [source](../src/game/symbolic/GAME.S#L644) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L275) | C-derived mnemonic body |
-| `minitext` | [source](../src/game/symbolic/GAME.S#L782) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L331) | C-derived mnemonic body |
-| `gamenumber` | [source](../src/game/symbolic/GAME.S#L845) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L352) | C-derived mnemonic body |
-| `allowtimetocorrecterrorswhenquitting` | [source](../src/game/symbolic/GAME.S#L865) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L362) | C-derived mnemonic body |
-| `getpackets` | [source](../src/game/symbolic/GAME.S#L918) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L393) | C-derived mnemonic body |
-| `faketimerhandler` | [source](../src/game/symbolic/GAME.S#L2202) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L652) | C-derived mnemonic body |
-| `checksync` | [source](../src/game/symbolic/GAME.S#L3371) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L944) | C-derived mnemonic body |
-| `check_fta_sounds` | [source](../src/game/symbolic/GAME.S#L3473) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L987) | C-derived mnemonic body |
-| `inventory` | [source](../src/game/symbolic/GAME.S#L3734) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1045) | C-derived mnemonic body |
-| `badguy` | [source](../src/game/symbolic/GAME.S#L3773) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1062) | C-derived mnemonic body |
-| `badguypic` | [source](../src/game/symbolic/GAME.S#L3929) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1102) | C-derived mnemonic body |
-| `myos` | [source](../src/game/symbolic/GAME.S#L4096) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1144) | C-derived mnemonic body |
-| `myospal` | [source](../src/game/symbolic/GAME.S#L4150) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1157) | C-derived mnemonic body |
-| `invennum` | [source](../src/game/symbolic/GAME.S#L4191) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1172) | C-derived mnemonic body |
-| `weaponnum` | [source](../src/game/symbolic/GAME.S#L4388) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1202) | C-derived mnemonic body |
-| `weaponnum999` | [source](../src/game/symbolic/GAME.S#L4638) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1230) | C-derived mnemonic body |
-| `weapon_amounts` | [source](../src/game/symbolic/GAME.S#L5021) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1269) | C-derived mnemonic body |
-| `digitalnumber` | [source](../src/game/symbolic/GAME.S#L5612) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1379) | C-derived mnemonic body |
-| `displayinventory` | [source](../src/game/symbolic/GAME.S#L5706) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1421) | C-derived mnemonic body |
-| `displayfragbar` | [source](../src/game/symbolic/GAME.S#L6036) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1483) | C-derived mnemonic body |
-| `coolgaugetext` | [source](../src/game/symbolic/GAME.S#L6233) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1505) | C-derived mnemonic body |
-| `tics` | [source](../src/game/symbolic/GAME.S#L7466) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1846) | C-derived mnemonic body |
-| `caches` | [source](../src/game/symbolic/GAME.S#L7513) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1862) | C-derived mnemonic body |
-| `coords` | [source](../src/game/symbolic/GAME.S#L7596) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1886) | C-derived mnemonic body |
-| `operatefta` | [source](../src/game/symbolic/GAME.S#L7720) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1909) | C-derived mnemonic body |
-| `FTA` | [source](../src/game/symbolic/GAME.S#L7823) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1943) | C-derived mnemonic body |
-| `showtwoscreens` | [source](../src/game/symbolic/GAME.S#L7860) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1962) | C-derived mnemonic body |
-| `binscreen` | [source](../src/game/symbolic/GAME.S#L7865) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1966) | C-derived mnemonic body |
-| `gameexit` | [source](../src/game/symbolic/GAME.S#L7888) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L1980) | C-derived mnemonic body |
-| `strget` | [source](../src/game/symbolic/GAME.S#L7957) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2038) | C-derived mnemonic body |
-| `displayrest` | [source](../src/game/symbolic/GAME.S#L8113) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2107) | C-derived mnemonic body |
-| `updatesectorz` | [source](../src/game/symbolic/GAME.S#L8708) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2338) | C-derived mnemonic body |
-| `view` | [source](../src/game/symbolic/GAME.S#L8830) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2376) | C-derived mnemonic body |
-| `drawbackground` | [source](../src/game/symbolic/GAME.S#L9093) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2435) | C-derived mnemonic body |
-| `displayrooms` | [source](../src/game/symbolic/GAME.S#L9414) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2662) | C-derived mnemonic body |
-| `LocateTheLocator` | [source](../src/game/symbolic/GAME.S#L10182) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2907) | C-derived mnemonic body |
-| `EGS` | [source](../src/game/symbolic/GAME.S#L10214) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L2921) | C-derived mnemonic body |
-| `wallswitchcheck` | [source](../src/game/symbolic/GAME.S#L10348) | [verified C](../src/game/symbolic/game-C-counterpart.c.txt#L3000) | ordinary C verified; whole GAME backend still emits assembly |
-| `spawn` | [source](../src/game/symbolic/GAME.S#L10484) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L3055) | reconstructed body; C aid |
-| `animatesprites` | [source](../src/game/symbolic/GAME.S#L15882) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L4721) | C-derived mnemonic body |
-| `cheats` | [source](../src/game/symbolic/GAME.S#L17876) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L5563) | C-derived mnemonic body |
-| `nonsharedkeys` | [source](../src/game/symbolic/GAME.S#L18918) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L6178) | C-derived mnemonic body |
-| `comlinehelp` | [source](../src/game/symbolic/GAME.S#L19955) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L6620) | C-derived mnemonic body |
-| `checkcommandline` | [source](../src/game/symbolic/GAME.S#L20061) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L6643) | reconstructed body; C aid |
-| `printstr` | [source](../src/game/symbolic/GAME.S#L20395) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L6905) | C-derived mnemonic body |
-| `Logo` | [source](../src/game/symbolic/GAME.S#L20431) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L6933) | C-derived mnemonic body |
-| `loadtmb` | [source](../src/game/symbolic/GAME.S#L20767) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7032) | C-derived mnemonic body |
-| `ShutDown` | [source](../src/game/symbolic/GAME.S#L20795) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7058) | C-derived mnemonic body |
-| `compilecons` | [source](../src/game/symbolic/GAME.S#L20807) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7082) | C-derived mnemonic body |
-| `Startup` | [source](../src/game/symbolic/GAME.S#L20837) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7105) | C-derived mnemonic body |
-| `sendscore` | [source](../src/game/symbolic/GAME.S#L20913) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7179) | C-derived mnemonic body |
-| `getnames` | [source](../src/game/symbolic/GAME.S#L20931) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7186) | C-derived mnemonic body |
-| `main` | [source](../src/game/symbolic/GAME.S#L20992) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7227) | C-derived mnemonic body |
-| `opendemoread` | [source](../src/game/symbolic/GAME.S#L21364) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7471) | C-derived mnemonic body |
-| `opendemowrite` | [source](../src/game/symbolic/GAME.S#L21439) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7499) | C-derived mnemonic body |
-| `record` | [source](../src/game/symbolic/GAME.S#L21521) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7530) | C-derived mnemonic body |
-| `closedemowrite` | [source](../src/game/symbolic/GAME.S#L21616) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7547) | C-derived mnemonic body |
-| `playback` | [source](../src/game/symbolic/GAME.S#L21659) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7567) | C-derived mnemonic body |
-| `moveloop` | [source](../src/game/symbolic/GAME.S#L21997) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7699) | C-derived mnemonic body |
-| `fakedomovethingscorrect` | [source](../src/game/symbolic/GAME.S#L22044) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7718) | C-derived mnemonic body |
-| `fakedomovethings` | [source](../src/game/symbolic/GAME.S#L22126) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L7751) | C-derived mnemonic body |
-| `domovethings` | [source](../src/game/symbolic/GAME.S#L23234) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8189) | C-derived mnemonic body |
-| `doorders` | [source](../src/game/symbolic/GAME.S#L23515) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8317) | C-derived mnemonic body |
-| `dobonus` | [source](../src/game/symbolic/GAME.S#L23759) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8354) | C-derived mnemonic body |
-| `cameratext` | [source](../src/game/symbolic/GAME.S#L25227) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8871) | C-derived mnemonic body |
-| `vglass` | [source](../src/game/symbolic/GAME.S#L25392) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8894) | C-derived mnemonic body |
-| `lotsofglass` | [source](../src/game/symbolic/GAME.S#L25472) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8907) | C-derived mnemonic body |
-| `spriteglass` | [source](../src/game/symbolic/GAME.S#L25678) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8955) | C-derived mnemonic body |
-| `ceilingglass` | [source](../src/game/symbolic/GAME.S#L25757) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8968) | C-derived mnemonic body |
-| `lotsofcolourglass` | [source](../src/game/symbolic/GAME.S#L25857) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L8997) | C-derived mnemonic body |
-| `SetupGameButtons` | [source](../src/game/symbolic/GAME.S#L26059) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9035) | C-derived mnemonic body |
-| `GetTime` | [source](../src/game/symbolic/GAME.S#L26219) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9099) | C-derived mnemonic body |
-| `CenterCenter` | [source](../src/game/symbolic/GAME.S#L26224) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9113) | C-derived mnemonic body |
-| `UpperLeft` | [source](../src/game/symbolic/GAME.S#L26230) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9126) | C-derived mnemonic body |
-| `LowerRight` | [source](../src/game/symbolic/GAME.S#L26236) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9139) | C-derived mnemonic body |
-| `CenterThrottle` | [source](../src/game/symbolic/GAME.S#L26242) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9152) | C-derived mnemonic body |
-| `CenterRudder` | [source](../src/game/symbolic/GAME.S#L26248) | [C aid](../src/game/symbolic/game-C-counterpart.c.txt#L9165) | C-derived mnemonic body |
+| `timerhandler` | [C](../src/game/game.c#L208) | [C](../src/game/game.c#L208) | Compiled from C |
+| `inittimer` | [C](../src/game/game.c#L213) | [C](../src/game/game.c#L213) | Compiled from C |
+| `uninittimer` | [C](../src/game/game.c#L219) | [C](../src/game/game.c#L219) | Compiled from C |
+| `gametext` | [C](../src/game/game.c#L68) | [C](../src/game/game.c#L68) | Compiled from C |
+| `gametextpart` | [C](../src/game/game.c#L278) | [C](../src/game/game.c#L278) | Compiled from C |
+| `minitext` | [C](../src/game/game.c#L334) | [C](../src/game/game.c#L334) | Compiled from C |
+| `gamenumber` | [C](../src/game/game.c#L355) | [C](../src/game/game.c#L355) | Compiled from C |
+| `allowtimetocorrecterrorswhenquitting` | [C](../src/game/game.c#L365) | [C](../src/game/game.c#L365) | Compiled from C |
+| `getpackets` | [C](../src/game/game.c#L407) | [C](../src/game/game.c#L407) | Compiled from C |
+| `faketimerhandler` | [C](../src/game/game.c#L666) | [C](../src/game/game.c#L666) | Compiled from C |
+| `checksync` | [C](../src/game/game.c#L958) | [C](../src/game/game.c#L958) | Compiled from C |
+| `check_fta_sounds` | [C](../src/game/game.c#L1001) | [C](../src/game/game.c#L1001) | Compiled from C |
+| `inventory` | [C](../src/game/game.c#L1059) | [C](../src/game/game.c#L1059) | Compiled from C |
+| `badguy` | [C](../src/game/game.c#L1076) | [C](../src/game/game.c#L1076) | Compiled from C |
+| `badguypic` | [C](../src/game/game.c#L1116) | [C](../src/game/game.c#L1116) | Compiled from C |
+| `myos` | [C](../src/game/game.c#L1158) | [C](../src/game/game.c#L1158) | Compiled from C |
+| `myospal` | [C](../src/game/game.c#L1171) | [C](../src/game/game.c#L1171) | Compiled from C |
+| `invennum` | [C](../src/game/game.c#L1186) | [C](../src/game/game.c#L1186) | Compiled from C |
+| `weaponnum` | [C](../src/game/game.c#L1216) | [C](../src/game/game.c#L1216) | Compiled from C |
+| `weaponnum999` | [C](../src/game/game.c#L1244) | [C](../src/game/game.c#L1244) | Compiled from C |
+| `weapon_amounts` | [C](../src/game/game.c#L1283) | [C](../src/game/game.c#L1283) | Compiled from C |
+| `digitalnumber` | [C](../src/game/game.c#L1393) | [C](../src/game/game.c#L1393) | Compiled from C |
+| `displayinventory` | [C](../src/game/game.c#L1435) | [C](../src/game/game.c#L1435) | Compiled from C |
+| `displayfragbar` | [C](../src/game/game.c#L1497) | [C](../src/game/game.c#L1497) | Compiled from C |
+| `coolgaugetext` | [C](../src/game/game.c#L1519) | [C](../src/game/game.c#L1519) | Compiled from C |
+| `tics` | [C](../src/game/game.c#L1860) | [C](../src/game/game.c#L1860) | Compiled from C |
+| `caches` | [C](../src/game/game.c#L1876) | [C](../src/game/game.c#L1876) | Compiled from C |
+| `coords` | [C](../src/game/game.c#L1900) | [C](../src/game/game.c#L1900) | Compiled from C |
+| `operatefta` | [C](../src/game/game.c#L1923) | [C](../src/game/game.c#L1923) | Compiled from C |
+| `FTA` | [C](../src/game/game.c#L1957) | [C](../src/game/game.c#L1957) | Compiled from C |
+| `showtwoscreens` | [C](../src/game/game.c#L1976) | [C](../src/game/game.c#L1976) | Compiled from C |
+| `binscreen` | [C](../src/game/game.c#L1980) | [C](../src/game/game.c#L1980) | Compiled from C |
+| `gameexit` | [C](../src/game/game.c#L1994) | [C](../src/game/game.c#L1994) | Compiled from C |
+| `strget` | [C](../src/game/game.c#L2052) | [C](../src/game/game.c#L2052) | Compiled from C |
+| `displayrest` | [C](../src/game/game.c#L2121) | [C](../src/game/game.c#L2121) | Compiled from C |
+| `updatesectorz` | [C](../src/game/game.c#L2352) | [C](../src/game/game.c#L2352) | Compiled from C |
+| `view` | [C](../src/game/game.c#L2390) | [C](../src/game/game.c#L2390) | Compiled from C |
+| `drawbackground` | [C](../src/game/game.c#L2449) | [C](../src/game/game.c#L2449) | Compiled from C |
+| `displayrooms` | [C](../src/game/game.c#L2676) | [C](../src/game/game.c#L2676) | Compiled from C |
+| `LocateTheLocator` | [C](../src/game/game.c#L2921) | [C](../src/game/game.c#L2921) | Compiled from C |
+| `EGS` | [C](../src/game/game.c#L2935) | [C](../src/game/game.c#L2935) | Compiled from C |
+| `wallswitchcheck` | [C](../src/game/game.c#L3014) | [C](../src/game/game.c#L3014) | Compiled from C |
+| `spawn` | [assembly](../src/game/game_fallback.S#L144) | [C](../src/game/game.c#L3070) | C counterpart retained |
+| `animatesprites` | [C](../src/game/game.c#L4738) | [C](../src/game/game.c#L4738) | Compiled from C |
+| `cheats` | [C](../src/game/game.c#L5580) | [C](../src/game/game.c#L5580) | Compiled from C |
+| `nonsharedkeys` | [C](../src/game/game.c#L6195) | [C](../src/game/game.c#L6195) | Compiled from C |
+| `comlinehelp` | [C](../src/game/game.c#L6638) | [C](../src/game/game.c#L6638) | Compiled from C |
+| `checkcommandline` | [assembly](../src/game/game_fallback.S#L5582) | [C](../src/game/game.c#L6662) | C counterpart retained |
+| `printstr` | [C](../src/game/game.c#L6926) | [C](../src/game/game.c#L6926) | Compiled from C |
+| `Logo` | [C](../src/game/game.c#L6954) | [C](../src/game/game.c#L6954) | Compiled from C |
+| `loadtmb` | [C](../src/game/game.c#L7053) | [C](../src/game/game.c#L7053) | Compiled from C |
+| `ShutDown` | [C](../src/game/game.c#L7074) | [C](../src/game/game.c#L7074) | Compiled from C |
+| `compilecons` | [C](../src/game/game.c#L7098) | [C](../src/game/game.c#L7098) | Compiled from C |
+| `Startup` | [C](../src/game/game.c#L7121) | [C](../src/game/game.c#L7121) | Compiled from C |
+| `sendscore` | [C](../src/game/game.c#L7195) | [C](../src/game/game.c#L7195) | Compiled from C |
+| `getnames` | [C](../src/game/game.c#L7202) | [C](../src/game/game.c#L7202) | Compiled from C |
+| `main` | [C](../src/game/game.c#L7243) | [C](../src/game/game.c#L7243) | Compiled from C |
+| `opendemoread` | [C](../src/game/game.c#L7487) | [C](../src/game/game.c#L7487) | Compiled from C |
+| `opendemowrite` | [C](../src/game/game.c#L7515) | [C](../src/game/game.c#L7515) | Compiled from C |
+| `record` | [C](../src/game/game.c#L7546) | [C](../src/game/game.c#L7546) | Compiled from C |
+| `closedemowrite` | [C](../src/game/game.c#L7563) | [C](../src/game/game.c#L7563) | Compiled from C |
+| `playback` | [C](../src/game/game.c#L7583) | [C](../src/game/game.c#L7583) | Compiled from C |
+| `moveloop` | [C](../src/game/game.c#L7715) | [C](../src/game/game.c#L7715) | Compiled from C |
+| `fakedomovethingscorrect` | [C](../src/game/game.c#L7734) | [C](../src/game/game.c#L7734) | Compiled from C |
+| `fakedomovethings` | [C](../src/game/game.c#L7767) | [C](../src/game/game.c#L7767) | Compiled from C |
+| `domovethings` | [C](../src/game/game.c#L8205) | [C](../src/game/game.c#L8205) | Compiled from C |
+| `doorders` | [C](../src/game/game.c#L8333) | [C](../src/game/game.c#L8333) | Compiled from C |
+| `dobonus` | [C](../src/game/game.c#L8370) | [C](../src/game/game.c#L8370) | Compiled from C |
+| `cameratext` | [C](../src/game/game.c#L8887) | [C](../src/game/game.c#L8887) | Compiled from C |
+| `vglass` | [C](../src/game/game.c#L8910) | [C](../src/game/game.c#L8910) | Compiled from C |
+| `lotsofglass` | [C](../src/game/game.c#L8923) | [C](../src/game/game.c#L8923) | Compiled from C |
+| `spriteglass` | [C](../src/game/game.c#L8971) | [C](../src/game/game.c#L8971) | Compiled from C |
+| `ceilingglass` | [C](../src/game/game.c#L8984) | [C](../src/game/game.c#L8984) | Compiled from C |
+| `lotsofcolourglass` | [C](../src/game/game.c#L9013) | [C](../src/game/game.c#L9013) | Compiled from C |
+| `SetupGameButtons` | [C](../src/game/game.c#L9051) | [C](../src/game/game.c#L9051) | Compiled from C |
+| `GetTime` | [C](../src/game/game.c#L9115) | [C](../src/game/game.c#L9115) | Compiled from C |
+| `CenterCenter` | [C](../src/game/game.c#L9129) | [C](../src/game/game.c#L9129) | Compiled from C |
+| `UpperLeft` | [C](../src/game/game.c#L9142) | [C](../src/game/game.c#L9142) | Compiled from C |
+| `LowerRight` | [C](../src/game/game.c#L9155) | [C](../src/game/game.c#L9155) | Compiled from C |
+| `CenterThrottle` | [C](../src/game/game.c#L9168) | [C](../src/game/game.c#L9168) | Compiled from C |
+| `CenterRudder` | [C](../src/game/game.c#L9181) | [C](../src/game/game.c#L9181) | Compiled from C |

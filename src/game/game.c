@@ -1,8 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Partial v1.3D GAME reconstruction from the pinned gamesrc-ver-recreation
- * GAME.C. Listed complete intervals and the native initializer prefix have
- * strict byte/fixup proof. Omitted bodies, other emitted code and complete
- * storage ownership/full placement remain unverified. See source provenance.
+ * Recovered Duke Nukem 3D v1.3D GAME source.
+ * The matching build emits 79 functions from this C unit. The companion
+ * game_fallback.S supplies spawn and checkcommandline when GAME_ASM_FALLBACKS
+ * is defined. Their recovered C counterparts remain available below.
+ * Message names are inferred. See gametext.h for exact storage declarations.
  */
 //-------------------------------------------------------------------------
 /*
@@ -202,6 +203,8 @@ task *TimerPtr=NULL;
 
 extern long lastvisinc;
 
+
+#pragma code_seg("GAME_C0", "CODE")
 void timerhandler()
 {
     totalclock++;
@@ -382,13 +385,24 @@ void allowtimetocorrecterrorswhenquitting(void)
 }
 
 #define MAXUSERQUOTES 4
-/* Later multi-quote state is unallocated in this partial candidate. */
+/* Later multi-quote state is unallocated in this recovered version. */
 extern long quotebot, quotebotgoal;
 extern short user_quote_time[MAXUSERQUOTES];
 extern char user_quote[MAXUSERQUOTES][128];
 // char typebuflen,typebuf[41];
 
 /* Later quote-queue helper excluded: target stores one pointer/timer inline. */
+
+#include "gametext.h"
+#undef ESCESCAPE
+#define ESCESCAPE if(KB_KeyPressed( sc_Escape ) ) gameexit(game_text_getpackets_96);
+/* Watcom 10.0 GA lowers this nine-byte assignment to the original two
+ * MOVSD operations and one MOVSB. This compiler-specific view preserves the
+ * legacy PLAYING text copy, including its terminator, without copying the
+ * remaining bytes of the twelve-byte message allocation.
+ */
+struct game_text_copy9 { char bytes[9]; };
+typedef char game_text_copy9_size_check[(sizeof(struct game_text_copy9) == 9) ? 1 : -1];
 
 void getpackets(void)
 {
@@ -542,7 +556,7 @@ void getpackets(void)
 					sprintf(namtemp,"\nYou cannot play %s with different versions.",basename);
 				gameexit(namtemp);
 #else
-                    gameexit("\nYou cannot play Duke with different versions.");
+                    gameexit(game_text_getpackets_0);
 #endif
 				}
                 for (i=2;packbuf[i];i++)
@@ -623,7 +637,7 @@ void getpackets(void)
                 }
 
                 if (j > packbufleng)
-                    printf("INVALID GAME PACKET!!! (%ld too many bytes)\n",j-packbufleng);
+                    printf(game_text_getpackets_48,j-packbufleng);
 
                 while (j != packbufleng)
                 {
@@ -640,7 +654,7 @@ void getpackets(void)
                 if(other == connecthead) sendpacket(connecthead,packbuf,2);
                 break;
             case 255:
-                gameexit(" ");
+                gameexit(game_text_getpackets_96);
                 break;
         }
     }
@@ -965,20 +979,20 @@ void checksync(void)
 
       if (syncstat)
       {
-          printext256(4L,130L,31,0,"Out Of Sync - Please restart game",0);
+          printext256(4L,130L,31,0,game_text_checksync_100,0);
 #ifdef WW2
           printext256(4L,138L,31,0,"Read ww2help.txt for information.",0);
 #else
-          printext256(4L,138L,31,0,"RUN DN3DHELP.EXE for information.",0);
+          printext256(4L,138L,31,0,game_text_checksync_136,0);
 #endif
       }
       if (syncstate)
       {
-          printext256(4L,160L,31,0,"Missed Network packet!",0);
+          printext256(4L,160L,31,0,game_text_checksync_172,0);
 #ifdef WW2
           printext256(4L,138L,31,0,"Read ww2help.txt for information.",0);
 #else
-          printext256(4L,138L,31,0,"RUN DN3DHELP.EXE for information.",0);
+          printext256(4L,138L,31,0,game_text_checksync_196,0);
 #endif
       }
 }
@@ -1172,7 +1186,7 @@ void myospal(long x, long y, short tilenum, signed char shade, char orientation,
 void invennum(long x,long y,char num1,char ha,char sbits)
 {
     char dabuf[80] = {0};
-    sprintf(dabuf,"%ld",num1);
+    sprintf(dabuf,game_text_invennum_232,num1);
     if(num1 > 99)
     {
         rotatesprite((x-4)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,sbits,0,0,xdim-1,ydim-1);
@@ -1210,7 +1224,7 @@ void weaponnum(short ind,long x,long y,long num1, long num2,char ha)
     if(num1 > 99) num1 = 99;
     if(num2 > 99) num2 = 99;
 
-    sprintf(dabuf,"%ld",num1);
+    sprintf(dabuf,game_text_invennum_232,num1);
     if(num1 > 9)
     {
         rotatesprite((x)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,10+128,0,0,xdim-1,ydim-1);
@@ -1218,7 +1232,7 @@ void weaponnum(short ind,long x,long y,long num1, long num2,char ha)
     }
     else rotatesprite((x+4)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,10+128,0,0,xdim-1,ydim-1);
 
-    sprintf(dabuf,"%ld",num2);
+    sprintf(dabuf,game_text_invennum_232,num2);
     if(num2 > 9)
     {
         rotatesprite((x+13)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,10+128,0,0,xdim-1,ydim-1);
@@ -1235,7 +1249,7 @@ void weaponnum999(char ind,long x,long y,long num1, long num2,char ha)
     rotatesprite((x-4)<<16,y<<16,65536L,0,THREEBYFIVE+10,ha,0,10+128,0,0,xdim-1,ydim-1);
     rotatesprite((x+13)<<16,y<<16,65536L,0,THREEBYFIVE+11,ha,0,10+128,0,0,xdim-1,ydim-1);
 
-    sprintf(dabuf,"%ld",num1);
+    sprintf(dabuf,game_text_invennum_232,num1);
     if(num1 > 99)
     {
         rotatesprite((x)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,10+128,0,0,xdim-1,ydim-1);
@@ -1249,7 +1263,7 @@ void weaponnum999(char ind,long x,long y,long num1, long num2,char ha)
     }
     else rotatesprite((x+8)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,10+128,0,0,xdim-1,ydim-1);
 
-    sprintf(dabuf,"%ld",num2);
+    sprintf(dabuf,game_text_invennum_232,num2);
     if(num2 > 99)
     {
         rotatesprite((x+17)<<16,y<<16,65536L,0,THREEBYFIVE+dabuf[0]-'0',ha,0,10+128,0,0,xdim-1,ydim-1);
@@ -1497,7 +1511,7 @@ void displayfragbar(void)
     for(i=connecthead;i>=0;i=connectpoint2[i])
     {
         minitext(21+(73*(i&3)),2+((i&28)<<1),&ud.user_name[i][0],9+(i&7),2+8+16+128);
-        sprintf(tempbuf,"%d",ps[i].frag-ps[i].fraggedself);
+        sprintf(tempbuf,game_text_displayfragbar_236,ps[i].frag-ps[i].fraggedself);
         minitext(17+50+(73*(i&3)),2+((i&28)<<1),tempbuf,9+(i&7),2+8+16+128);
     }
 }
@@ -1570,7 +1584,7 @@ void coolgaugetext(short snum)
 			else
 				// show only if NOT steroids or jetpack
 #endif
-            minitext(292-30-o,190,"%",6,10+16+permbit);
+            minitext(292-30-o,190,game_text_coolgaugetext_240,6,10+16+permbit);
 
             j = 0x80000000;
             switch(p->inven_icon)
@@ -1594,10 +1608,10 @@ void coolgaugetext(short snum)
             invennum(284-30-o,200-6,(char)i,0,10+permbit);
 #ifndef WW2
 // don't display in WW2
-            if (j > 0) minitext(288-30-o,180,"ON",0,10+16+permbit);
-            else if (j != 0x80000000) minitext(284-30-o,180,"OFF",2,10+16+permbit);
+            if (j > 0) minitext(288-30-o,180,game_text_coolgaugetext_244,0,10+16+permbit);
+            else if (j != 0x80000000) minitext(284-30-o,180,game_text_coolgaugetext_248,2,10+16+permbit);
 #endif
-            if (p->inven_icon >= 6) minitext(284-35-o,180,"AUTO",2,10+16+permbit);
+            if (p->inven_icon >= 6) minitext(284-35-o,180,game_text_coolgaugetext_252,2,10+16+permbit);
 #ifdef INVNAM
 			}
 #endif
@@ -1789,8 +1803,8 @@ void coolgaugetext(short snum)
 				{
 #endif
                 rotatesprite((231-o)<<16,(200-21)<<16,65536L,0,i,0,0,10+16+permbit,0,0,xdim-1,ydim-1);
-                minitext(292-30-o,190,"%",6,10+16+permbit);
-                if (p->inven_icon >= 6) minitext(284-35-o,180,"AUTO",2,10+16+permbit);
+                minitext(292-30-o,190,game_text_coolgaugetext_240,6,10+16+permbit);
+                if (p->inven_icon >= 6) minitext(284-35-o,180,game_text_coolgaugetext_252,2,10+16+permbit);
 #ifdef INVNAM
 				}
 #endif
@@ -1810,8 +1824,8 @@ void coolgaugetext(short snum)
                 }
 #ifndef WW2
 				// don't show in WW2
-                if (j > 0) minitext(288-30-o,180,"ON",0,10+16+permbit);
-                else if (j != 0x80000000) minitext(284-30-o,180,"OFF",2,10+16+permbit);
+                if (j > 0) minitext(288-30-o,180,game_text_coolgaugetext_244,0,10+16+permbit);
+                else if (j != 0x80000000) minitext(284-30-o,180,game_text_coolgaugetext_248,2,10+16+permbit);
 #endif
             }
             if (u&8192)
@@ -1851,7 +1865,7 @@ void tics(void)
     i = totalclock;
     if (i != frameval[framecnt])
     {
-        sprintf(b,"%ld",(TICRATE*AVERAGEFRAMES)/(i-frameval[framecnt]));
+        sprintf(b,game_text_invennum_232,(TICRATE*AVERAGEFRAMES)/(i-frameval[framecnt]));
         printext256(windowx1,windowy1,31,-21,b,1);
         frameval[framecnt] = i;
     }
@@ -1867,7 +1881,7 @@ void caches(void)
      for(i=0;i<cacnum;i++)
           if ((*lockptr[i]) >= 200)
           {
-                sprintf(tempbuf,"Locked- %ld: Leng:%ld, Lock:%ld",i,cacleng[i],*lockptr[i]);
+                sprintf(tempbuf,game_text_caches_260,i,cacleng[i],*lockptr[i]);
                 printext256(0L,k,31,-1,tempbuf,1); k += 6;
           }
 
@@ -1876,7 +1890,7 @@ void caches(void)
      for(i=1;i<11;i++)
           if (lumplockbyte[i] >= 200)
           {
-                sprintf(tempbuf,"RTS Locked %ld:",i);
+                sprintf(tempbuf,game_text_caches_292,i);
                 printext256(0L,k,31,-1,tempbuf,1); k += 6;
           }
 
@@ -1890,19 +1904,19 @@ void coords(short snum)
     if(ud.multimode > 1 && ud.multimode < 5) y = 8;
     else if(ud.multimode > 4) y = 16;
 
-    sprintf(tempbuf,"X= %ld",ps[snum].posx);
+    sprintf(tempbuf,game_text_coords_308,ps[snum].posx);
     printext256(274L,y,31,-1,tempbuf,1);
-    sprintf(tempbuf,"Y= %ld",ps[snum].posy);
+    sprintf(tempbuf,game_text_coords_316,ps[snum].posy);
     printext256(274L,y+7L,31,-1,tempbuf,1);
-    sprintf(tempbuf,"Z= %ld",ps[snum].posz);
+    sprintf(tempbuf,game_text_coords_324,ps[snum].posz);
     printext256(274L,y+14L,31,-1,tempbuf,1);
-    sprintf(tempbuf,"A= %ld",ps[snum].ang);
+    sprintf(tempbuf,game_text_coords_332,ps[snum].ang);
     printext256(274L,y+21L,31,-1,tempbuf,1);
-    sprintf(tempbuf,"ZV= %ld",ps[snum].poszv);
+    sprintf(tempbuf,game_text_coords_340,ps[snum].poszv);
     printext256(274L,y+28L,31,-1,tempbuf,1);
-    sprintf(tempbuf,"OG= %ld",ps[snum].on_ground);
+    sprintf(tempbuf,game_text_coords_348,ps[snum].on_ground);
     printext256(274L,y+35L,31,-1,tempbuf,1);
-    sprintf(tempbuf,"TH= %ld",ps[snum].transporter_hold);
+    sprintf(tempbuf,game_text_coords_356,ps[snum].transporter_hold);
     printext256(274L,y+43L,31,-1,tempbuf,1);
 }
 
@@ -1969,7 +1983,7 @@ void binscreen(void)
 #ifdef VOLUMEONE
     fil = kopen4load("dukesw.bin",1);
 #else
-    fil = kopen4load("duke3d.bin",loadfromgrouponly);
+    fil = kopen4load(game_text_binscreen_364,loadfromgrouponly);
 #endif
     if(fil == -1) return;
     kread(fil,(char *)0xb8000,4000);
@@ -2017,14 +2031,14 @@ void gameexit(char *t)
         binscreen();
         {
             if(*t == ' ' && *(t+1) == 0) *t = 0;
-            printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-            printf("%s%s","\n",t);
+            printf(game_text_gameexit_376);
+            printf(game_text_gameexit_404,game_text_gameexit_400,t);
         }
     }
 
     uninitgroupfile();
 
-    unlink("duke3d.tmp");
+    unlink(game_text_gameexit_412);
 
     exit(0);
 }
@@ -2308,7 +2322,7 @@ void displayrest(long smoothratio)
             tempbuf[1] = 0;
             recbuf[0] = 0;
             strcat(recbuf,ud.user_name[myconnectindex]);
-            strcat(recbuf,": ");
+            strcat(recbuf,game_text_displayrest_424);
             strcat(recbuf,typebuf);
             j = strlen(recbuf);
             recbuf[j] = 0;
@@ -2326,7 +2340,7 @@ void displayrest(long smoothratio)
     }
 
     if( ud.pause_on==1 && (ps[myconnectindex].gm&MODE_MENU) == 0 )
-        menutext(160,100,0,0,"GAME PAUSED");
+        menutext(160,100,0,0,game_text_displayrest_428);
 
     if(ud.coords)
         coords(screenpeek);
@@ -3052,6 +3066,7 @@ long tempwallptr;
  * Historical symbol spellings and full sibling intervals remain unproved. */
 enum { INFERRED_FRAMEEFFECT1_13D = 3999, INFERRED_SHUTTLE_TILE_13D = 487 };
 
+#ifndef GAME_ASM_FALLBACKS
 short spawn( short j, short pn )
 {
     short i, s, startwall, endwall, sect, clostest;
@@ -4505,7 +4520,7 @@ short spawn( short j, short pn )
                             }
                             if(j == MAXSPRITES)
                             {
-                                sprintf(tempbuf,"Found lonely Sector Effector (lotag 0) at (%ld,%ld)\n",sp->x,sp->y);
+                                sprintf(tempbuf,game_text_spawn_440,sp->x,sp->y);
                                 gameexit(tempbuf);
                             }
                             sp->owner = j;
@@ -4522,7 +4537,7 @@ short spawn( short j, short pn )
                             tempwallptr++;
                             if(tempwallptr > 2047)
                             {
-                                sprintf(tempbuf,"Too many moving sectors at (%ld,%ld).\n",wall[s].x,wall[s].y);
+                                sprintf(tempbuf,game_text_spawn_496,wall[s].x,wall[s].y);
                                 gameexit(tempbuf);
                             }
                         }
@@ -4554,7 +4569,7 @@ short spawn( short j, short pn )
 
                             if(j == 0)
                             {
-                                sprintf(tempbuf,"Subway found no zero'd sectors with locators\nat (%ld,%ld).\n",sp->x,sp->y);
+                                sprintf(tempbuf,game_text_spawn_536,sp->x,sp->y);
                                 gameexit(tempbuf);
                             }
 
@@ -4718,6 +4733,8 @@ short spawn( short j, short pn )
 }
 
 
+#endif /* GAME_ASM_FALLBACKS: spawn */
+#pragma code_seg("GAME_C1", "CODE")
 void animatesprites(long x,long y,short a,long smoothratio)
 {
     short i, j, k, p, sect;
@@ -5695,7 +5712,7 @@ for(i=0;i<MAX_WEAPONS;i++)
 		fprintf(fp,"WEAPON%d_SOUND2SOUND %ld\n",i,aplWeaponSound2Sound[i][j]);
 	}
 }
-fprintf(fp,"\n");
+fprintf(fp,game_text_gameexit_400);
 DumpGameVars(fp);
 fclose(fp);
 }
@@ -6195,7 +6212,7 @@ void nonsharedkeys(void)
 #ifdef NAM
         screencapture("Nam0000.pcx",0);
 #else
-        screencapture("duke0000.pcx",0);
+        screencapture(game_text_nonsharedkeys_596,0);
 #endif
 #endif
         FTA(103,&ps[myconnectindex]);
@@ -6283,7 +6300,8 @@ void nonsharedkeys(void)
 #else
                     if(music_select == 6) music_select = 0;
 #endif
-                    strcpy(&tempbuf[0],"PLAYING ");
+                    /* Legacy Watcom buffer view: copy the nine visible bytes, including NUL. */
+                    *(struct game_text_copy9 *)&tempbuf[0] = *(const struct game_text_copy9 *)game_text_nonsharedkeys_612;
                     strcat(&tempbuf[0],&music_fn[0][music_select][0]);
                     playmusic(&music_fn[0][music_select][0]);
                     strcpy(&fta_quotes[26][0],&tempbuf[0]);
@@ -6393,7 +6411,7 @@ void nonsharedkeys(void)
                 cmenu(350);
                 screencapt = 1;
                 displayrooms(myconnectindex,65536);
-                savetemp("duke3d.tmp",waloff[MAXTILES-3],160*100);
+                savetemp(game_text_gameexit_412,waloff[MAXTILES-3],160*100);
                 screencapt = 0;
                 FX_StopAllSounds();
                 clearsoundlocks();
@@ -6460,7 +6478,7 @@ void nonsharedkeys(void)
             cmenu(350);
             screencapt = 1;
             displayrooms(myconnectindex,65536);
-            savetemp("duke3d.tmp",waloff[MAXTILES-3],160*100);
+            savetemp(game_text_gameexit_412,waloff[MAXTILES-3],160*100);
             screencapt = 0;
             if( lastsavedpos >= 0 )
             {
@@ -6497,7 +6515,7 @@ void nonsharedkeys(void)
         {
             KB_ClearKeyDown( sc_F5 );
             strcpy(&tempbuf[0],&music_fn[0][music_select][0]);
-            strcat(&tempbuf[0],".  USE SHIFT-F5 TO CHANGE.");
+            strcat(&tempbuf[0],game_text_nonsharedkeys_624);
             strcpy(&fta_quotes[26][0],&tempbuf[0]);
             FTA(26,&ps[myconnectindex]);
 
@@ -6619,27 +6637,28 @@ void nonsharedkeys(void)
 
 void comlinehelp(char **argv)
 {
-    printf("Command line help.  %s [/flags...]\n",argv[0]);
-    puts("    ?, /?    This help message");
-    puts("    /l##     Level  (1-11)");
-    puts("    /v#      Volume (1-3)");
-    puts("    /s#      Skill  (1-4)");
-    puts("    /r       Record demo");
-    puts("    /m       No monsters");
-    puts("    /ns      No sound");
-    puts("    /nm      No music");
-    puts("    /t#      Respawn, 0 = Monsters, 1 = Items, 2 = Inventory, x = All");
-    puts("    /c#      MP mode, 0 = DukeMatch(spawn), 1 = Coop, 2 = Dukematch(no spawn)");
-    puts("    /q#      Fake MP (2-8 players)");
-    puts("    /i#      Network mode (1/0) (MP only)");
-    puts("    /f#      Send fewer packets (1, 2, 4) (MP only)");
-    puts("    /g<file> Group <file> (default DUKE3D.GRP)");
-    puts("    /x<file> Compile <file> (default GAME.CON)");
-    puts("    -8250    Passed from SETUP.EXE and COMMIT.EXE");
-    puts("    -net     Passed from SETUP.EXE and COMMIT.EXE");
-    puts("    /j       Display version with exit");
+    printf(game_text_comlinehelp_652,argv[0]);
+    puts(game_text_comlinehelp_688);
+    puts(game_text_comlinehelp_720);
+    puts(game_text_comlinehelp_748);
+    puts(game_text_comlinehelp_776);
+    puts(game_text_comlinehelp_804);
+    puts(game_text_comlinehelp_832);
+    puts(game_text_comlinehelp_860);
+    puts(game_text_comlinehelp_884);
+    puts(game_text_comlinehelp_908);
+    puts(game_text_comlinehelp_980);
+    puts(game_text_comlinehelp_1060);
+    puts(game_text_comlinehelp_1096);
+    puts(game_text_comlinehelp_1140);
+    puts(game_text_comlinehelp_1192);
+    puts(game_text_comlinehelp_1240);
+    puts(game_text_comlinehelp_1288);
+    puts(game_text_comlinehelp_1340);
+    puts(game_text_comlinehelp_1392);
 }
 
+#ifndef GAME_ASM_FALLBACKS
 void checkcommandline(int argc,char **argv)
 {
     short i, j;
@@ -6695,10 +6714,10 @@ void checkcommandline(int argc,char **argv)
                             strcpy(confilename,c);
                             if(SafeFileExists(c) == 0)
                             {
-                                printf("Could not find con file '%s'.\n",confilename );
+                                printf(game_text_checkcommandline_1432,confilename );
                                 exit(0);
                             }
-                            else printf("Using con file: '%s'\n",confilename);
+                            else printf(game_text_checkcommandline_1464,confilename);
                         }
                         break;
                     case 'g':
@@ -6712,12 +6731,12 @@ void checkcommandline(int argc,char **argv)
                         if(*c == 's' || *c == 'S')
                         {
                             CommandSoundToggleOff = 2;
-                            puts("Sound off.");
+                            puts(game_text_checkcommandline_1488);
                         }
                         else if(*c == 'm' || *c == 'M')
                         {
                             CommandMusicToggleOff = 1;
-                            puts("Music off.");
+                            puts(game_text_checkcommandline_1500);
                         }
 #if (APPVER_DN3DREV >= AV_DR_WW2GI10)
                         else if( *c == 'D')
@@ -6740,7 +6759,7 @@ void checkcommandline(int argc,char **argv)
                         c++;
                         if(*c == '0') networkmode = 0;
                         if(*c == '1') networkmode = 1;
-                        printf("Network Mode %ld\n",networkmode);
+                        printf(game_text_checkcommandline_1512,networkmode);
                         break;
                     case 'c':
                     case 'C':
@@ -6755,7 +6774,7 @@ void checkcommandline(int argc,char **argv)
 #ifdef NAM
 #ifdef WW2
 #ifdef EDUKE
-                                puts("Dukematch (spawn).");
+                                puts(game_text_checkcommandline_1532);
 #else
                                 puts("GI Match (spawn).");
 #endif
@@ -6763,17 +6782,17 @@ void checkcommandline(int argc,char **argv)
                                 puts("Gruntmatch (spawn).");
 #endif
 #else
-                                puts("Dukematch (spawn).");
+                                puts(game_text_checkcommandline_1532);
 #endif
                                 break;
                             case 1:
-                                puts("Cooperative play.");
+                                puts(game_text_checkcommandline_1552);
                                 break;
                             case 2:
 #ifdef NAM
 #ifdef WW2
 #ifdef EDUKE
-                                puts("Dukematch (no spawn).");
+                                puts(game_text_checkcommandline_1572);
 #else
                                 puts("GI Match (no spawn).");
 #endif
@@ -6781,7 +6800,7 @@ void checkcommandline(int argc,char **argv)
                                 puts("Gruntmatch (no spawn).");
 #endif
 #else
-                                puts("Dukematch (no spawn).");
+                                puts(game_text_checkcommandline_1572);
 #endif
                                 break;
                         }
@@ -6817,19 +6836,19 @@ void checkcommandline(int argc,char **argv)
                             ud.m_respawn_items = 1;
                             ud.m_respawn_inventory = 1;
                         }
-                        puts("Respawn on.");
+                        puts(game_text_checkcommandline_1596);
                         break;
                     case 'm':
                     case 'M':
                         {
                             ud.m_monsters_off = 1;
                             ud.m_player_skill = ud.player_skill = 0;
-                            puts("Monsters off.");
+                            puts(game_text_checkcommandline_1608);
                         }
                         break;
                     case 'q':
                     case 'Q':
-                        puts("Fake multi Mode.");
+                        puts(game_text_checkcommandline_1624);
                         if( *(++c) == 0) ud.multimode = 1;
                         else ud.multimode = atol(c)%16;
                         ud.m_coop = ud.coop = 0;
@@ -6837,7 +6856,7 @@ void checkcommandline(int argc,char **argv)
                     case 'r':
                     case 'R':
                         ud.m_recstat = 1;
-                        puts("Demorec mode on.");
+                        puts(game_text_checkcommandline_1644);
                         break;
                     case 'l':
                     case 'L':
@@ -6855,7 +6874,7 @@ void checkcommandline(int argc,char **argv)
         printf("Duke Nukem 3D (AUSSIE FULL VERSION) v%s\n",VERSION);
     #else
         /* Raw /j text is 1.3D; the later VERSION macro remains unproved. */
-        printf("Duke Nukem 3D (FULL VERSION) v%s\n","1.3D");
+        printf(game_text_checkcommandline_1672,game_text_checkcommandline_1664);
     #endif
 #else
     #ifdef AUSTRALIA
@@ -6902,6 +6921,8 @@ void checkcommandline(int argc,char **argv)
 
 
 
+#endif /* GAME_ASM_FALLBACKS: checkcommandline */
+#pragma code_seg("GAME_C2", "CODE")
 void printstr(short x, short y, char string[81], char attribute)
 {
 	char character;
@@ -6951,7 +6972,7 @@ void Logo(void)
 
     if(!KB_KeyWaiting())
     {
-        playanm("logo.anm",5);
+        playanm(game_text_Logo_1708,5);
         palto(0,0,0,63);
         KB_FlushKeyboardQueue();
     }
@@ -7024,7 +7045,7 @@ void Logo(void)
     if(numplayers > 1)
     {
         palto(0,0,0,0);
-        menutext(160,100,0,0,"WAITING FOR PLAYERS...");
+        menutext(160,100,0,0,game_text_Logo_1720);
     }
     clearview(0L);
 }
@@ -7034,7 +7055,7 @@ void loadtmb(void)
     char tmb[8000];
     long fil, l;
 
-    fil = kopen4load("d3dtimbr.tmb",loadfromgrouponly);
+    fil = kopen4load(game_text_loadtmb_1744,loadfromgrouponly);
     if(fil == -1) return;
     l = kfilelength(fil);
     kread(fil,(char *)tmb,l);
@@ -7087,7 +7108,7 @@ void compilecons(void)
    loadefs(confilename,mymembuf);
    if( loadfromgrouponly )
    {
-       printf("  * Compiling %s in %s\n",confilename,groupfilename);
+       printf(game_text_compilecons_1760,confilename,groupfilename);
        loadefs(confilename,mymembuf);
    }
 #ifdef WW2
@@ -7131,11 +7152,11 @@ void Startup(void)
 #endif
    inittimer();
 
-   puts("Loading art header.");
-   loadpics("tiles000.art");
+   puts(game_text_Startup_1784);
+   loadpics(game_text_Startup_1804);
 
 #if (APPVER_DN3DREV >= AV_DR_DN3D15)
-   puts("Loading palette/lookups.");
+   puts(game_text_main_3384);
    genspriteremaps();
 
 #endif
@@ -7146,7 +7167,7 @@ void Startup(void)
    initmultiplayers(0,0,0);
 
    if(numplayers > 1)
-       puts("Multiplayer initialized.");
+       puts(game_text_Startup_1820);
 
    ps[myconnectindex].palette = (char *) &palette[0];
    SetupGameButtons();
@@ -7158,9 +7179,9 @@ void Startup(void)
        else networkmode = 0;
    }
 
-   puts("Checking music inits.");
+   puts(game_text_Startup_1848);
    MusicStartup();
-   puts("Checking sound inits.");
+   puts(game_text_Startup_1872);
    SoundStartup();
    loadtmb();
 #if (APPVER_DN3DREV >= AV_DR_DN3D15)
@@ -7196,7 +7217,7 @@ void getnames(void)
         buf[l+2] = 0;
         l += 3;
 
-        puts("Searching for other players.");
+        puts(game_text_getnames_1896);
         waitforeverybody();
 
         for(i=connecthead;i>=0;i=connectpoint2[i])
@@ -7227,63 +7248,63 @@ void main(int argc,char **argv)
     todd[0] = 'T';
     setvmode(0x03);
 
-    printstr(0,0,"                                                                                ",79);
-    printstr(24,0,"Duke Nukem 3D Full Version v1.3D",79);
+    printstr(0,0,game_text_main_1928,79);
+    printstr(24,0,game_text_main_2012,79);
 
     if(Z_AvailHeap() < 2800000)
     {
-        puts("\n\nYou don't have enough free memory to run Duke Nukem 3D.");
-        puts("The DOS MEM command should report 6,800K (or 6.8 megs)");
-        puts("'Total memory free'.");
+        puts(game_text_main_2048);
+        puts(game_text_main_2108);
+        puts(game_text_main_2164);
         exit(0);
     }
 
     ud.multimode = 1;
-    printf("\n");
+    printf(game_text_gameexit_400);
     checkcommandline(argc,argv);
 
     if(movesperpacket == 4)
     {
-        puts("\nDuke Nukem 3D has been licensed exclusively to TEN (Total");
-        puts("Entertainment Network) for wide-area networked (WAN) multiplayer");
-        puts("games.\n");
+        puts(game_text_main_2188);
+        puts(game_text_main_2248);
+        puts(game_text_main_2316);
 
-        puts("The multiplayer code within Duke Nukem 3D has been highly");
-        puts("customized to run best on TEN, where you'll experience fast and");
-        puts("stable performance, plus other special benefits.\n");
+        puts(game_text_main_2324);
+        puts(game_text_main_2384);
+        puts(game_text_main_2448);
 
-        puts("We do not authorize or recommend the use of Duke Nukem 3D with");
-        puts("gaming services other than TEN.\n");
+        puts(game_text_main_2500);
+        puts(game_text_main_2564);
 
-        puts("Duke Nukem 3D is protected by United States copyright law and");
-        puts("international treaty.\n");
+        puts(game_text_main_2600);
+        puts(game_text_main_2664);
 
-        puts("For the best online multiplayer gaming experience, please call TEN");
-        puts("at 800-8040-TEN, or visit TEN's Web Site at www.ten.net.\n");
+        puts(game_text_main_2688);
+        puts(game_text_main_2756);
 
-        puts("Press any key to continue.\n");
+        puts(game_text_main_2816);
         getch();
     }
 
     if((groupfile = initgroupfile(groupfilename)) == -1)
     {
-        printf("Could not find group file '%s'.\n",groupfilename);
+        printf(game_text_main_2844,groupfilename);
         return;
     }
 
     RegisterShutdownFunction( ShutDown );
-    printf("Using: '%s'.\n",groupfilename);
+    printf(game_text_main_2880,groupfilename);
     Startup();
 
     if( eightytwofifty && numplayers > 1 )
     {
-        puts("\n=========================================================================");
-        puts("WARNING: 8250 UART detected.");
-        puts("Music is being disabled and lower quality sound is being set.  We apologize");
-        puts("for this, but it is necessary to maintain high frame rates while trying to");
-        puts("play the game on an 8250.  We suggest upgrading to a 16550 or better UART");
-        puts("for maximum performance.  Press any key to continue.");
-        puts("=========================================================================\n");
+        puts(game_text_main_2896);
+        puts(game_text_main_2972);
+        puts(game_text_main_3004);
+        puts(game_text_main_3080);
+        puts(game_text_main_3156);
+        puts(game_text_main_3232);
+        puts(game_text_main_3288);
         while( !KB_KeyWaiting() );
     }
 
@@ -7318,7 +7339,7 @@ void main(int argc,char **argv)
     ud.last_level = -1;
 
    RTS_Init(ud.rtsname);
-   if(numlumps) printf("Using .RTS file:%s\n",ud.rtsname);
+   if(numlumps) printf(game_text_main_3364,ud.rtsname);
 
    if (CONTROL_JoystickEnabled)
        CONTROL_CenterJoystick
@@ -7331,12 +7352,12 @@ void main(int argc,char **argv)
           );
 
 #if (APPVER_DN3DREV < AV_DR_DN3D15)
-        puts("Loading palette/lookups.");
+        puts(game_text_main_3384);
 
     if( setgamemode() < 0 )
     {
 #if (APPVER_DN3DREV < AV_DR_DN3DGPLSRC)
-        sprintf(tempbuf,"\nVESA driver for ( %ld * %ld ) not found/supported.",xdim,ydim);
+        sprintf(tempbuf,game_text_main_3412,xdim,ydim);
 #else
         sprintf(tempbuf,"\nVESA driver for ( %i * %i ) not found/supported.",xdim,ydim);
 #endif
@@ -7390,7 +7411,7 @@ void main(int argc,char **argv)
             if( ps[myconnectindex].gm&MODE_EOL )
             {
 #ifdef ONELEVELDEMO
-                gameexit(" ");
+                gameexit(game_text_getpackets_96);
 #endif
 
                 ready2send = 0;
@@ -7459,13 +7480,13 @@ void main(int argc,char **argv)
         nextpage();
     }
 
-    gameexit(" ");
+    gameexit(game_text_getpackets_96);
 }
 
 
 char opendemoread(char which_demo) // 0 = mine
 {
-    char *d = "demo_.dmo";
+    char *d = game_text_opendemoread_3464;
     char ver;
     short i;
 
@@ -7493,7 +7514,7 @@ char opendemoread(char which_demo) // 0 = mine
 
 void opendemowrite(void)
 {
-    char *d = "demo1.dmo";
+    char *d = game_text_opendemowrite_3476;
     long dummylong = 0;
     char ver;
     short i;
@@ -7502,9 +7523,9 @@ void opendemowrite(void)
 
 
 #if (APPVER_DN3DREV < AV_DR_DN3D15)
-    if ((frecfilep = fopen(d,"wb")) == -1) return;
+    if ((frecfilep = fopen(d,game_text_opendemowrite_3488)) == -1) return;
 #else
-    if ((frecfilep = fopen(d,"wb")) == (FILE *)NULL) return;
+    if ((frecfilep = fopen(d,game_text_opendemowrite_3488)) == (FILE *)NULL) return;
 #endif
     fwrite(&dummylong,4,1,frecfilep);
     fwrite((char *)&ud.volume_number,sizeof(char),1,frecfilep);
@@ -8217,7 +8238,7 @@ char domovethings(void)
           if ((sync[i].bits&(1<<26)) == 0) { j = i; continue; }
 
 
-          if (i == myconnectindex) gameexit(" ");
+          if (i == myconnectindex) gameexit(game_text_getpackets_96);
           if (screenpeek == i)
           {
                 screenpeek = connectpoint2[i];
@@ -8237,7 +8258,7 @@ char domovethings(void)
           pus = NUMPAGES;
           vscrn();
 
-          sprintf(buf,"%s is history!",ud.user_name[i]);
+          sprintf(buf,game_text_domovethings_3492,ud.user_name[i]);
 
           quickkill(&ps[i]);
           deletesprite(ps[i].i);
@@ -8246,7 +8267,7 @@ char domovethings(void)
           received_quote_time = 160;
 
           if(j < 0 && networkmode == 0 )
-              gameexit( " \nThe 'MASTER/First player' just quit the game.  All\nplayers are returned from the game. This only happens in 5-8\nplayer mode as a different network scheme is used.");
+              gameexit( game_text_domovethings_3508);
       }
 
       if ((numplayers >= 2) && ((movefifoplc&7) == 7))
@@ -8457,7 +8478,7 @@ void dobonus(char bonusonly)
 
             if(ud.lockout == 0)
             {
-                playanm("cineov2.anm",1);
+                playanm(game_text_dobonus_3676,1);
                 KB_FlushKeyBoardQueue();
                 clearview(0L);
                 nextpage();
@@ -8484,7 +8505,7 @@ void dobonus(char bonusonly)
             if(ud.lockout == 0)
             {
                 for(t=63;t>=0;t--) palto(0,0,0,t);
-                playanm("cineov3.anm",2);
+                playanm(game_text_dobonus_3688,2);
                 KB_FlushKeyBoardQueue();
                 ototalclock = totalclock+200;
                 while(totalclock < ototalclock) ;
@@ -8495,7 +8516,7 @@ void dobonus(char bonusonly)
                 clearsoundlocks();
             }
 
-            playanm("RADLOGO.ANM",3);
+            playanm(game_text_dobonus_3700,3);
 
             if( ud.lockout == 0 && !KB_KeyWaiting() )
             {
@@ -8528,7 +8549,7 @@ void dobonus(char bonusonly)
             clearview(0L);
             nextpage();
             sound(ENDSEQVOL3SND4);
-            playanm("DUKETEAM.ANM",4);
+            playanm(game_text_dobonus_3712,4);
             KB_FlushKeyBoardQueue();
             while(!KB_KeyWaiting());
             FX_StopAllSounds();
@@ -8559,24 +8580,24 @@ void dobonus(char bonusonly)
 
 
 
-        gametext(160,58,"MULTIPLAYER TOTALS",0);
+        gametext(160,58,game_text_dobonus_3728,0);
         gametext(160,58+10,level_names[(ud.volume_number*11)+ud.last_level-1],0);
 
-        gametext(160,165,"PRESS ANY KEY TO CONTINUE",0);
+        gametext(160,165,game_text_dobonus_3748,0);
 
 
         t = 0;
-        minitext(23,80,"   NAME                                           KILLS",8,2+8+16+128);
+        minitext(23,80,game_text_dobonus_3776,8,2+8+16+128);
         for(i=0;i<playerswhenstarted;i++)
         {
-            sprintf(tempbuf,"%-4ld",i+1);
+            sprintf(tempbuf,game_text_dobonus_3832,i+1);
             minitext(92+(i*23),80,tempbuf,3,2+8+16+128);
         }
 
         for(i=0;i<playerswhenstarted;i++)
         {
             xfragtotal = 0;
-            sprintf(tempbuf,"%ld",i+1);
+            sprintf(tempbuf,game_text_invennum_232,i+1);
 
             minitext(30,90+t,tempbuf,0,2+8+16+128);
             minitext(38,90+t,ud.user_name[i],ps[i].palookup,2+8+16+128);
@@ -8585,25 +8606,25 @@ void dobonus(char bonusonly)
             {
                 if(i == y)
                 {
-                    sprintf(tempbuf,"%-4ld",ps[y].fraggedself);
+                    sprintf(tempbuf,game_text_dobonus_3832,ps[y].fraggedself);
                     minitext(92+(y*23),90+t,tempbuf,2,2+8+16+128);
                     xfragtotal -= ps[y].fraggedself;
                 }
                 else
                 {
-                    sprintf(tempbuf,"%-4ld",frags[i][y]);
+                    sprintf(tempbuf,game_text_dobonus_3832,frags[i][y]);
                     minitext(92+(y*23),90+t,tempbuf,0,2+8+16+128);
                     xfragtotal += frags[i][y];
                 }
 
                 if(myconnectindex == connecthead)
                 {
-                    sprintf(tempbuf,"stats %ld killed %ld %ld\n",i+1,y+1,frags[i][y]);
+                    sprintf(tempbuf,game_text_dobonus_3840,i+1,y+1,frags[i][y]);
                     sendscore(tempbuf);
                 }
             }
 
-            sprintf(tempbuf,"%-4ld",xfragtotal);
+            sprintf(tempbuf,game_text_dobonus_3832,xfragtotal);
             minitext(101+(8*23),90+t,tempbuf,2,2+8+16+128);
 
             t += 7;
@@ -8618,11 +8639,11 @@ void dobonus(char bonusonly)
                     yfragtotal += ps[i].fraggedself;
                 yfragtotal += frags[i][y];
             }
-            sprintf(tempbuf,"%-4ld",yfragtotal);
+            sprintf(tempbuf,game_text_dobonus_3832,yfragtotal);
             minitext(92+(y*23),96+(8*7),tempbuf,2,2+8+16+128);
         }
 
-        minitext(45,96+(8*7),"DEATHS",8,2+8+16+128);
+        minitext(45,96+(8*7),game_text_dobonus_3868,8,2+8+16+128);
         nextpage();
 
         for(t=0;t<64;t++)
@@ -8642,7 +8663,7 @@ void dobonus(char bonusonly)
 #ifdef NAM
             screencapture("nam0000.pcx",0);
 #else
-            screencapture("duke0000.pcx",0);
+            screencapture(game_text_nonsharedkeys_596,0);
 #endif
 #endif
         }
@@ -8662,9 +8683,9 @@ void dobonus(char bonusonly)
     rotatesprite(0,0,65536L,0,BONUSSCREEN+gfx_offset,0,0,2+8+16+64+128,0,0,xdim-1,ydim-1);
 
     menutext(160,20-9,0,0,&level_names[(ud.volume_number*11)+ud.last_level-1][0]);
-    menutext(160,36-9,0,0,"COMPLETED");
+    menutext(160,36-9,0,0,game_text_dobonus_3876);
 
-    gametext(160,192,"PRESS ANY KEY TO CONTINUE",16);
+    gametext(160,192,game_text_dobonus_3748,16);
 
 
     nextpage();
@@ -8731,18 +8752,18 @@ void dobonus(char bonusonly)
             }
 
             menutext(160,20-9,0,0,&level_names[(ud.volume_number*11)+ud.last_level-1][0]);
-            menutext(160,36-9,0,0,"COMPLETED");
+            menutext(160,36-9,0,0,game_text_dobonus_3876);
 
-            gametext(160,192,"PRESS ANY KEY TO CONTINUE",16);
+            gametext(160,192,game_text_dobonus_3748,16);
 
             if( totalclock > (60*3) )
             {
-                gametext(10,59+9,"Your Time:",0);
-                gametext(10,69+9,"Par time:",0);
+                gametext(10,59+9,game_text_dobonus_3888,0);
+                gametext(10,69+9,game_text_dobonus_3900,0);
 #ifdef NAM
 //				gametext(10,78+9,"Green Beret's Time:",0,2+8+16);
 #else
-				gametext(10,78+9,"3D Realms' Time:",0);
+				gametext(10,78+9,game_text_dobonus_3912,0);
 #endif
                 if(bonuscnt == 0)
                     bonuscnt++;
@@ -8754,18 +8775,18 @@ void dobonus(char bonusonly)
                         bonuscnt++;
                         sound(PIPEBOMB_EXPLODE);
                     }
-                    sprintf(tempbuf,"%02ld:%02ld",
+                    sprintf(tempbuf,game_text_dobonus_3932,
                         (ps[myconnectindex].player_par/(26*60))%60,
                         (ps[myconnectindex].player_par/26)%60);
                     gametext((320>>2)+71,60+9,tempbuf,0);
 
-                    sprintf(tempbuf,"%02ld:%02ld",
+                    sprintf(tempbuf,game_text_dobonus_3932,
                         (partime[ud.volume_number*11+ud.last_level-1]/(26*60))%60,
                         (partime[ud.volume_number*11+ud.last_level-1]/26)%60);
                     gametext((320>>2)+71,69+9,tempbuf,0);
 
 #ifndef NAM
-                    sprintf(tempbuf,"%02ld:%02ld",
+                    sprintf(tempbuf,game_text_dobonus_3932,
                         (designertime[ud.volume_number*11+ud.last_level-1]/(26*60))%60,
                         (designertime[ud.volume_number*11+ud.last_level-1]/26)%60);
                     gametext((320>>2)+71,78+9,tempbuf,0);
@@ -8775,8 +8796,8 @@ void dobonus(char bonusonly)
             }
             if( totalclock > (60*6) )
             {
-                gametext(10,94+9,"Enemies Killed:",0);
-                gametext(10,99+4+9,"Enemies Left:",0);
+                gametext(10,94+9,game_text_dobonus_3944,0);
+                gametext(10,99+4+9,game_text_dobonus_3960,0);
 
                 if(bonuscnt == 2)
                 {
@@ -8791,26 +8812,26 @@ void dobonus(char bonusonly)
                         bonuscnt++;
                         sound(PIPEBOMB_EXPLODE);
                     }
-                    sprintf(tempbuf,"%-3ld",ps[myconnectindex].actors_killed);
+                    sprintf(tempbuf,game_text_dobonus_3976,ps[myconnectindex].actors_killed);
                     gametext((320>>2)+70,93+9,tempbuf,0);
                     if(ud.player_skill > 3 )
                     {
-                        sprintf(tempbuf,"N/A");
+                        sprintf(tempbuf,game_text_dobonus_3984);
                         gametext((320>>2)+70,99+4+9,tempbuf,0);
                     }
                     else
                     {
                         if( (ps[myconnectindex].max_actors_killed-ps[myconnectindex].actors_killed) < 0 )
-                            sprintf(tempbuf,"%-3ld",0);
-                        else sprintf(tempbuf,"%-3ld",ps[myconnectindex].max_actors_killed-ps[myconnectindex].actors_killed);
+                            sprintf(tempbuf,game_text_dobonus_3976,0);
+                        else sprintf(tempbuf,game_text_dobonus_3976,ps[myconnectindex].max_actors_killed-ps[myconnectindex].actors_killed);
                         gametext((320>>2)+70,99+4+9,tempbuf,0);
                     }
                 }
             }
             if( totalclock > (60*9) )
             {
-                gametext(10,120+9,"Secrets Found:",0);
-                gametext(10,130+9,"Secrets Missed:",0);
+                gametext(10,120+9,game_text_dobonus_3988,0);
+                gametext(10,130+9,game_text_dobonus_4004,0);
                 if(bonuscnt == 4) bonuscnt++;
 
                 if( totalclock > (60*10) )
@@ -8820,11 +8841,11 @@ void dobonus(char bonusonly)
                         bonuscnt++;
                         sound(PIPEBOMB_EXPLODE);
                     }
-                    sprintf(tempbuf,"%-3ld",ps[myconnectindex].secret_rooms);
+                    sprintf(tempbuf,game_text_dobonus_3976,ps[myconnectindex].secret_rooms);
                     gametext((320>>2)+70,120+9,tempbuf,0);
                     if( ps[myconnectindex].secret_rooms > 0 )
-                        sprintf(tempbuf,"%-3ld%",(100*ps[myconnectindex].secret_rooms/ps[myconnectindex].max_secret_rooms));
-                    sprintf(tempbuf,"%-3ld",ps[myconnectindex].max_secret_rooms-ps[myconnectindex].secret_rooms);
+                        sprintf(tempbuf,game_text_dobonus_4020,(100*ps[myconnectindex].secret_rooms/ps[myconnectindex].max_secret_rooms));
+                    sprintf(tempbuf,game_text_dobonus_3976,ps[myconnectindex].max_secret_rooms-ps[myconnectindex].secret_rooms);
                     gametext((320>>2)+70,130+9,tempbuf,0);
                 }
             }
@@ -8843,7 +8864,7 @@ void dobonus(char bonusonly)
 #ifdef NAM
                     screencapture("nam0000.pcx",0);
 #else
-                    screencapture("duke0000.pcx",0);
+                    screencapture(game_text_nonsharedkeys_596,0);
 #endif
 #endif
                 }
@@ -9107,7 +9128,7 @@ long GetTime(void)
 
 void CenterCenter(void)
    {
-   printf("Center the joystick and press a button\n");
+   printf(game_text_CenterCenter_4028);
    }
 
 /*
@@ -9120,7 +9141,7 @@ void CenterCenter(void)
 
 void UpperLeft(void)
    {
-   printf("Move joystick to upper-left corner and press a button\n");
+   printf(game_text_UpperLeft_4068);
    }
 
 /*
@@ -9133,7 +9154,7 @@ void UpperLeft(void)
 
 void LowerRight(void)
    {
-   printf("Move joystick to lower-right corner and press a button\n");
+   printf(game_text_LowerRight_4124);
    }
 
 /*
@@ -9146,7 +9167,7 @@ void LowerRight(void)
 
 void CenterThrottle(void)
    {
-   printf("Center the throttle control and press a button\n");
+   printf(game_text_CenterThrottle_4180);
    }
 
 /*
@@ -9159,7 +9180,7 @@ void CenterThrottle(void)
 
 void CenterRudder(void)
 {
-   printf("Center the rudder control and press a button\n");
+   printf(game_text_CenterRudder_4228);
 }
 
 // Rare Multiplayer, when dead, total screen screwup back again!

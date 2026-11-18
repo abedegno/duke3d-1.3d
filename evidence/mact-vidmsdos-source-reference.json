@@ -424,8 +424,8 @@
     "tools/match_function.py": "4816312b5fef9fa61c59eedeea67dd4b4c94c01bb6a18adf3641609a6447bd2f",
     "tools/preserve.py": "04316ed1bdec64255fee8466417ccd00f0f71588b61a3032762da3f5671332b8",
     "tools/logical_segment_origins.py": "1bdfede8afc17cee87bc5a8fc572fb5b2a0a81d12dede736350c3fe80628114b",
-    "tools/prove_logical_data_origin.py": "a87945292ae503ddf97d5f0035ee072ff772f9c8f3d54945a5e8231337ab38e7",
-    "tools/logical_data_origin_inputs.json": "4deb39724368c5db3a4c8ce65f32b2549061313fdb368123c6027a8049a3ad05",
+    "tools/prove_logical_data_origin.py": "a61ec0ebae37b8503271d53af5490f64aecffac52d5bff85e9d5372f421df2e3",
+    "tools/logical_data_origin_inputs.json": "132553605369766b5ba200267f23bb18f41f32174c7dafed0163c5d418ad51a7",
     "profiles/watcom/tools/omf32.py": "1bb9c1dcad2ef92513b4c2c3908bda7abdeaf0104beb4a26770e9affe8db1edd",
     "profiles/watcom/tools/le.py": "ab29c4adc952f765a6ef8fe2c5f2d5ee7dbadbbc55e6cf158a63b78d95474062",
     "profiles/watcom/tools/runner.py": "30166e6576efa06ea627ead73ee339ee2512d73698087b5f59bab732cda5362c"
@@ -787,5 +787,20 @@
         "current": "a5cf7b39f0a50c5d7cdbc1d0cb5ccd001b16ee5a81339304ae7e61fe9573f016"
       }
     }
+  },
+  "game_C_legacy_source_path_refresh": {
+    "scope": "Exact prior GAME C bytes moved to a preserved counterpart path for legacy logical-origin replay. No new emitting C proof is claimed.",
+    "changes": {
+      "tools/prove_logical_data_origin.py": {
+        "prior_sha256": "a87945292ae503ddf97d5f0035ee072ff772f9c8f3d54945a5e8231337ab38e7",
+        "current_sha256": "a61ec0ebae37b8503271d53af5490f64aecffac52d5bff85e9d5372f421df2e3"
+      },
+      "tools/logical_data_origin_inputs.json": {
+        "prior_sha256": "4deb39724368c5db3a4c8ce65f32b2549061313fdb368123c6027a8049a3ad05",
+        "current_sha256": "132553605369766b5ba200267f23bb18f41f32174c7dafed0163c5d418ad51a7"
+      }
+    },
+    "source": "src/game/symbolic/game-fixed-C-counterpart.c.txt",
+    "source_sha256": "75e2cf6294026f884288cea726048f1a3490702b62f346b190c8559fcecffe6d"
   }
 }
